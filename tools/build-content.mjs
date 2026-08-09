@@ -16,12 +16,14 @@ for(const item of catalog){
 const rawQuestions=order.map(id=>{const q=byId.get(id);if(!q)throw new Error(`question missing from content source: ${id}`);return structuredClone(q)});
 if(rawQuestions.length!==byId.size)throw new Error(`question order mismatch: order=${rawQuestions.length} files=${byId.size}`);
 
-// Maintenance content normalization v1.1
+// Maintenance content normalization v1.2
 // Source JSON stays faithful to the authored bank. Runtime data is normalized for a
 // single high-school learner: meaningful process contrasts, applied micro-checks,
-// and balanced two-choice positions to reduce unconscious answer-position cues.
+// balanced two-choice positions, and no answer exposure inside check prompts.
 const hash=s=>{let h=2166136261;for(const ch of String(s)){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)}return h>>>0};
 const uniq=a=>[...new Set(a.filter(x=>x!=null&&String(x).trim()!==''))];
+const norm=s=>String(s||'').replace(/\s+/g,' ').trim();
+const escRe=s=>String(s).replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 const promptPool=new Map(),conceptStepPool=new Map(),stepIdPool=new Map(),conceptQuestions=new Map();
 const pushPool=(map,key,val)=>{if(!map.has(key))map.set(key,[]);map.get(key).push(val)};
 for(const q of rawQuestions){
@@ -102,25 +104,37 @@ function processChoices(q,st,stepNo){
       if(alt.length){c=[st.answer,alt[hash(`${q.id}:${st.id}:${stepNo}`)%alt.length]];break}
     }
   }
-  if(c.length<2)c=[st.answer,'다른 기준']; // validator will flag if this fallback is ever reached.
+  if(c.length<2)throw new Error(`no meaningful process contrast: ${q.id}/${st.id||stepNo} answer=${st.answer}`);
   return orderTwo(c,st.answer,`${q.id}:step:${stepNo}`);
 }
 function clozeStem(stem,choices=[]){
   let s=String(stem||'').trim();
+  const original=s;
   const pairs=[...s.matchAll(/[\[(]([^\])]+\s*\/\s*[^\])]+)[\])]/g)];
   for(const m of pairs){
     const body=m[1];
-    const hits=choices.filter(x=>body.includes(String(x))).length;
+    const hits=choices.filter(x=>body.toLowerCase().includes(String(x).toLowerCase())).length;
     if(hits>=Math.min(2,choices.length)){s=s.replace(m[0],'_____');break}
+  }
+  if(s===original){
+    const ordered=[...choices].sort((a,b)=>String(b).length-String(a).length);
+    for(const choice of ordered){
+      const t=String(choice).trim();if(!t)continue;
+      const re=new RegExp(escRe(t),'i');
+      if(re.test(s))s=s.replace(re,'_____');
+    }
+    s=s.replace(/(?:_____\s*(?:\/|or|또는)\s*)+_____/gi,'_____');
   }
   return s;
 }
 function microCandidate(q){
-  const all=(conceptQuestions.get(q.conceptId)||[]).filter(x=>x.id!==q.id&&Array.isArray(x.choices)&&x.choices.length>=2);
-  if(!all.length)return null;
+  const base=(conceptQuestions.get(q.conceptId)||[]).filter(x=>x.id!==q.id&&Array.isArray(x.choices)&&x.choices.length>=2&&norm(x.stem)!==norm(q.stem));
+  if(!base.length)return null;
+  const differentFamily=base.filter(x=>!q.familyId||!x.familyId||x.familyId!==q.familyId);
+  const all=differentFamily.length?differentFamily:base;
   const scored=all.map(x=>{
     let score=0;
-    if(x.familyId&&q.familyId&&x.familyId!==q.familyId)score+=80;
+    if(x.familyId&&q.familyId&&x.familyId!==q.familyId)score+=95;
     if(x.variantType==='core')score+=60;
     if(x.interactionMode==='direct')score+=45;
     if(!x.requiresInk)score+=20;
@@ -140,11 +154,14 @@ function microCandidate(q){
 function contextualCheck(q){
   const x=microCandidate(q);
   if(x){
+    const choices=orderTwo(x.choices,x.answer,`${q.id}:micro-choice`);
+    const prompt=clozeStem(x.stem,choices);
     return{
-      prompt:clozeStem(x.stem,x.choices),
-      choices:orderTwo(x.choices,x.answer,`${q.id}:micro-choice`),
+      prompt,
+      choices,
       answer:x.answer,
       sourceQuestionId:x.id,
+      sourceFamilyId:x.familyId||null,
       kind:'contextual_micro'
     };
   }
@@ -157,7 +174,7 @@ const questions=rawQuestions.map(q=>{
   out.choices=orderTwo(q.choices,q.answer,`${q.id}:main-choice`);
   out.decisionSteps=(q.decisionSteps||[]).map((st,i)=>({...st,choices:processChoices(q,st,i)}));
   if(q.remediation){out.remediation={...q.remediation,checkQuestion:contextualCheck(q)}}
-  out.runtimeContentProfile='highschool-single-learner-v1.1';
+  out.runtimeContentProfile='highschool-single-learner-v1.2';
   return out;
 });
 
@@ -166,7 +183,7 @@ const body='window.JK_DATA='+JSON.stringify(data)+';';
 const out=path.join(root,'prototype','app-data.js');
 fs.writeFileSync(out,body);
 const sha=crypto.createHash('sha256').update(body).digest('hex');
-const stepFallbacks=questions.flatMap(q=>q.decisionSteps||[]).filter(s=>s.choices?.includes('다른 기준')).length;
 const contextualChecks=questions.filter(q=>q.remediation?.checkQuestion?.kind==='contextual_micro').length;
+const legacyChecks=questions.filter(q=>q.remediation?.checkQuestion?.kind==='legacy_fallback').length;
 console.log(`built prototype/app-data.js (${questions.length} questions, sha256 ${sha})`);
-console.log(`normalized learner content: contextualChecks=${contextualChecks}, unresolvedStepFallbacks=${stepFallbacks}`);
+console.log(`normalized learner content v1.2: contextualChecks=${contextualChecks}, legacyChecks=${legacyChecks}`);
