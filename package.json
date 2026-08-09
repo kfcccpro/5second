@@ -5,8 +5,9 @@
   "scripts": {
     "content:build": "node tools/build-content.mjs",
     "content:check": "node tools/validate-content.mjs",
+    "content:audit": "node tools/audit-learning-content.mjs",
     "runtime:check": "node tools/validate-runtime.mjs",
-    "check": "npm run content:build && npm run content:check && npm run runtime:check && npm run assets:build",
+    "check": "npm run content:build && npm run content:check && npm run content:audit && npm run runtime:check && npm run assets:build",
     "assets:build": "node tools/build-asset-manifest.mjs",
     "question:find": "node tools/find-question.mjs"
   }
