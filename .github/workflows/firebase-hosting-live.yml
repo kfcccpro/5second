@@ -31,6 +31,15 @@ jobs:
       - name: Build and audit learner content
         run: npm run check
 
+      - name: Upload learner QA report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: learner-content-audit
+          path: .qa/learner-content-audit.json
+          if-no-files-found: warn
+          retention-days: 14
+
       - name: Deploy to Firebase Hosting live
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
