@@ -26,6 +26,12 @@ function row(cid){
   return perConcept.get(cid);
 }
 function words(s){return (String(s||'').match(/[A-Za-z][A-Za-z'’-]*/g)||[]).length}
+function norm(s){return String(s||'').toLowerCase().replace(/[\s·,.;:!?()[\]{}'"“”‘’/_-]+/g,' ').trim()}
+function containsChoice(prompt,choice){
+  const p=norm(prompt),c=norm(choice);
+  if(!p||!c||c.length<2)return false;
+  return p.includes(c);
+}
 function push(arr,type,q,extra={}){arr.push({type,questionId:q?.id||null,conceptId:q?.conceptId||null,...extra})}
 
 let twoChoice=0,first=0,second=0,contextual=0,legacy=0,processSteps=0;
@@ -56,9 +62,14 @@ for(const q of D.questions){
       if(!src)push(critical,'micro-source-missing',q,{sourceQuestionId:c.sourceQuestionId});
       else{
         if(src.conceptId!==q.conceptId)push(critical,'micro-concept-mismatch',q,{sourceQuestionId:c.sourceQuestionId,sourceConceptId:src.conceptId});
-        if(src.id===q.id)push(warnings,'micro-self-reuse',q,{sourceQuestionId:c.sourceQuestionId});
+        if(src.id===q.id)push(critical,'micro-self-reuse',q,{sourceQuestionId:c.sourceQuestionId});
+        if(q.familyId&&src.familyId&&q.familyId===src.familyId)push(warnings,'micro-same-family',q,{sourceQuestionId:c.sourceQuestionId,familyId:q.familyId});
+        if(norm(src.stem)===norm(q.stem))push(critical,'micro-duplicate-stem',q,{sourceQuestionId:c.sourceQuestionId});
       }
       if(words(c.prompt)<3&&!String(c.prompt).includes('_____'))push(warnings,'micro-low-context',q,{prompt:c.prompt});
+      const exposed=(c.choices||[]).filter(x=>containsChoice(c.prompt,x));
+      if(exposed.length)push(critical,'micro-answer-exposure',q,{prompt:c.prompt,exposedChoices:exposed,sourceQuestionId:c.sourceQuestionId});
+      if(!String(c.prompt||'').includes('_____')&&words(c.prompt)>=3)push(warnings,'micro-no-visible-gap',q,{prompt:c.prompt,sourceQuestionId:c.sourceQuestionId});
     }else{
       legacy++;r.legacyChecks++;
       if(tooGeneric.test(String(c.prompt).trim())||words(c.prompt)<2)push(warnings,'legacy-abstract-check',q,{prompt:c.prompt});
@@ -91,8 +102,8 @@ const report={
   profile:'highschool-single-learner-v1.2',
   status:critical.length?'FAIL':'PASS',
   summary:{questions:D.questions.length,concepts:D.concepts.length,processSteps,twoChoice:{total:twoChoice,answerFirst:first,answerSecond:second},checks:{contextual,legacy,coverage:Number(coverage.toFixed(4))},critical:critical.length,warnings:warnings.length},
-  critical:critical.slice(0,120),
-  warnings:warnings.slice(0,160),
+  critical:critical.slice(0,160),
+  warnings:warnings.slice(0,200),
   notes,
   perConcept:Object.fromEntries([...perConcept.entries()].map(([k,v])=>[k,v]))
 };
