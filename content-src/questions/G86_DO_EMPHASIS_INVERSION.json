@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G86-001",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 1,
+    "stem": "I (do agree / agree do) with your main point.",
+    "choices": [
+      "do agree",
+      "agree do"
+    ],
+    "answer": "do agree",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 일반동사 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do agree",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "agree do": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "현재 일반동사 강조",
+        "do+동사원형",
+        "따라서 do agree를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-001",
+    "sourceQuestionId": "Q-G86-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-002",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 1,
+    "stem": "She (does know / knows do) how the system works.",
+    "choices": [
+      "does know",
+      "knows do"
+    ],
+    "answer": "does know",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "3인칭 단수 현재 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does know",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "knows do": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "3인칭 단수 현재 강조",
+        "does+동사원형",
+        "따라서 does know를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-002",
+    "sourceQuestionId": "Q-G86-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-003",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 1,
+    "stem": "He (did call / did called) me yesterday.",
+    "choices": [
+      "did call",
+      "did called"
+    ],
+    "answer": "did call",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "yesterday와 과거 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did 뒤 동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did call",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did called": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "yesterday와 과거 강조",
+        "did 뒤 동사원형",
+        "따라서 did call를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-003",
+    "sourceQuestionId": "Q-G86-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-004",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 2,
+    "stem": "Not only (does he sing / he sings), but he also writes songs.",
+    "choices": [
+      "does he sing",
+      "he sings"
+    ],
+    "answer": "does he sing",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Not only가 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does+주어+동사원형 도치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does he sing",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "he sings": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "Not only가 문두에 위치",
+        "does+주어+동사원형 도치",
+        "따라서 does he sing를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-004",
+    "sourceQuestionId": "Q-G86-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-005",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 2,
+    "stem": "Never (did I imagine / I imagined) such a result.",
+    "choices": [
+      "did I imagine",
+      "I imagined"
+    ],
+    "answer": "did I imagine",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Never가 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did+주어+동사원형 도치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did I imagine",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "I imagined": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "Never가 문두에 위치",
+        "did+주어+동사원형 도치",
+        "따라서 did I imagine를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-005",
+    "sourceQuestionId": "Q-G86-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-006",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 2,
+    "stem": "Only then (did she understand / she understood) the warning.",
+    "choices": [
+      "did she understand",
+      "she understood"
+    ],
+    "answer": "did she understand",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Only then이 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did+주어+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did she understand",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "she understood": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "Only then이 문두에 위치",
+        "did+주어+동사원형",
+        "따라서 did she understand를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-006",
+    "sourceQuestionId": "Q-G86-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-007",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 3,
+    "stem": "Under no circumstances (do we reveal / we reveal) personal data.",
+    "choices": [
+      "do we reveal",
+      "we reveal"
+    ],
+    "answer": "do we reveal",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "부정 의미 표현이 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do+주어+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do we reveal",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "we reveal": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "부정 의미 표현이 문두에 위치",
+        "do+주어+동사원형",
+        "따라서 do we reveal를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-007",
+    "sourceQuestionId": "Q-G86-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-008",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 3,
+    "stem": "He does (try / tries) his best, even when the task is difficult.",
+    "choices": [
+      "try",
+      "tries"
+    ],
+    "answer": "try",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "does를 이용한 현재 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does 뒤 동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "try",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "tries": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "does를 이용한 현재 강조",
+        "does 뒤 동사원형",
+        "따라서 try를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-008",
+    "sourceQuestionId": "Q-G86-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-001-PF",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 1,
+    "stem": "I (do agree / agree do) with your main point.",
+    "choices": [
+      "do agree",
+      "agree do"
+    ],
+    "answer": "do agree",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 일반동사 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do agree",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "agree do": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "현재 일반동사 강조",
+        "do+동사원형",
+        "따라서 do agree를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-001",
+    "sourceQuestionId": "Q-G86-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-002-PF",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 1,
+    "stem": "She (does know / knows do) how the system works.",
+    "choices": [
+      "does know",
+      "knows do"
+    ],
+    "answer": "does know",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "3인칭 단수 현재 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does know",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "knows do": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "3인칭 단수 현재 강조",
+        "does+동사원형",
+        "따라서 does know를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-002",
+    "sourceQuestionId": "Q-G86-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-003-PF",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 1,
+    "stem": "He (did call / did called) me yesterday.",
+    "choices": [
+      "did call",
+      "did called"
+    ],
+    "answer": "did call",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "yesterday와 과거 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did 뒤 동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did call",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did called": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "yesterday와 과거 강조",
+        "did 뒤 동사원형",
+        "따라서 did call를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-003",
+    "sourceQuestionId": "Q-G86-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-004-PF",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 2,
+    "stem": "Not only (does he sing / he sings), but he also writes songs.",
+    "choices": [
+      "does he sing",
+      "he sings"
+    ],
+    "answer": "does he sing",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Not only가 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does+주어+동사원형 도치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does he sing",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "he sings": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "Not only가 문두에 위치",
+        "does+주어+동사원형 도치",
+        "따라서 does he sing를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-004",
+    "sourceQuestionId": "Q-G86-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-005-PF",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 2,
+    "stem": "Never (did I imagine / I imagined) such a result.",
+    "choices": [
+      "did I imagine",
+      "I imagined"
+    ],
+    "answer": "did I imagine",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Never가 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did+주어+동사원형 도치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did I imagine",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "I imagined": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "Never가 문두에 위치",
+        "did+주어+동사원형 도치",
+        "따라서 did I imagine를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-005",
+    "sourceQuestionId": "Q-G86-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-006-PF",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 2,
+    "stem": "Only then (did she understand / she understood) the warning.",
+    "choices": [
+      "did she understand",
+      "she understood"
+    ],
+    "answer": "did she understand",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Only then이 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did+주어+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did she understand",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "she understood": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "Only then이 문두에 위치",
+        "did+주어+동사원형",
+        "따라서 did she understand를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-006",
+    "sourceQuestionId": "Q-G86-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-007-PF",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 3,
+    "stem": "Under no circumstances (do we reveal / we reveal) personal data.",
+    "choices": [
+      "do we reveal",
+      "we reveal"
+    ],
+    "answer": "do we reveal",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "부정 의미 표현이 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do+주어+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do we reveal",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "we reveal": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "부정 의미 표현이 문두에 위치",
+        "do+주어+동사원형",
+        "따라서 do we reveal를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-007",
+    "sourceQuestionId": "Q-G86-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-008-PF",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 3,
+    "stem": "He does (try / tries) his best, even when the task is difficult.",
+    "choices": [
+      "try",
+      "tries"
+    ],
+    "answer": "try",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "does를 이용한 현재 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does 뒤 동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "try",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "tries": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "does를 이용한 현재 강조",
+        "does 뒤 동사원형",
+        "따라서 try를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-008",
+    "sourceQuestionId": "Q-G86-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 73,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-001-DR",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 1,
+    "stem": "I (do agree / agree do) with your main point.",
+    "choices": [
+      "do agree",
+      "agree do"
+    ],
+    "answer": "do agree",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 일반동사 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do agree",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "agree do": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "현재 일반동사 강조",
+        "do+동사원형",
+        "따라서 do agree를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-001",
+    "sourceQuestionId": "Q-G86-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-002-DR",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 1,
+    "stem": "She (does know / knows do) how the system works.",
+    "choices": [
+      "does know",
+      "knows do"
+    ],
+    "answer": "does know",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "3인칭 단수 현재 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does know",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "knows do": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "3인칭 단수 현재 강조",
+        "does+동사원형",
+        "따라서 does know를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-002",
+    "sourceQuestionId": "Q-G86-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-003-DR",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 1,
+    "stem": "He (did call / did called) me yesterday.",
+    "choices": [
+      "did call",
+      "did called"
+    ],
+    "answer": "did call",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "yesterday와 과거 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did 뒤 동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did call",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did called": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "yesterday와 과거 강조",
+        "did 뒤 동사원형",
+        "따라서 did call를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-003",
+    "sourceQuestionId": "Q-G86-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-004-DR",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 2,
+    "stem": "Not only (does he sing / he sings), but he also writes songs.",
+    "choices": [
+      "does he sing",
+      "he sings"
+    ],
+    "answer": "does he sing",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Not only가 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does+주어+동사원형 도치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does he sing",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "he sings": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "Not only가 문두에 위치",
+        "does+주어+동사원형 도치",
+        "따라서 does he sing를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-004",
+    "sourceQuestionId": "Q-G86-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-005-DR",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 2,
+    "stem": "Never (did I imagine / I imagined) such a result.",
+    "choices": [
+      "did I imagine",
+      "I imagined"
+    ],
+    "answer": "did I imagine",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Never가 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did+주어+동사원형 도치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did I imagine",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "I imagined": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "Never가 문두에 위치",
+        "did+주어+동사원형 도치",
+        "따라서 did I imagine를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-005",
+    "sourceQuestionId": "Q-G86-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-006-DR",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 2,
+    "stem": "Only then (did she understand / she understood) the warning.",
+    "choices": [
+      "did she understand",
+      "she understood"
+    ],
+    "answer": "did she understand",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Only then이 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did+주어+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did she understand",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "she understood": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "Only then이 문두에 위치",
+        "did+주어+동사원형",
+        "따라서 did she understand를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-006",
+    "sourceQuestionId": "Q-G86-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-007-DR",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 3,
+    "stem": "Under no circumstances (do we reveal / we reveal) personal data.",
+    "choices": [
+      "do we reveal",
+      "we reveal"
+    ],
+    "answer": "do we reveal",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "부정 의미 표현이 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do+주어+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do we reveal",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "we reveal": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "부정 의미 표현이 문두에 위치",
+        "do+주어+동사원형",
+        "따라서 do we reveal를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-007",
+    "sourceQuestionId": "Q-G86-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-008-DR",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 3,
+    "stem": "He does (try / tries) his best, even when the task is difficult.",
+    "choices": [
+      "try",
+      "tries"
+    ],
+    "answer": "try",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "does를 이용한 현재 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does 뒤 동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "try",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "tries": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "강조 또는 문두 부정어를 보고도 do+동사원형 구조를 만들지 않았다.",
+      "summary": [
+        "does를 이용한 현재 강조",
+        "does 뒤 동사원형",
+        "따라서 try를 선택한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-008",
+    "sourceQuestionId": "Q-G86-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-001-CT",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI (do agree / agree do) with your main point.",
+    "choices": [
+      "do agree",
+      "agree do"
+    ],
+    "answer": "agree do",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 일반동사 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do agree",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do agree": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'agree do'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'do agree'이다.",
+      "summary": [
+        "현재 일반동사 강조",
+        "do+동사원형",
+        "따라서 do agree를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'agree do'이다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-001",
+    "sourceQuestionId": "Q-G86-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-002-CT",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe (does know / knows do) how the system works.",
+    "choices": [
+      "does know",
+      "knows do"
+    ],
+    "answer": "knows do",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "3인칭 단수 현재 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does know",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "does know": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'knows do'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'does know'이다.",
+      "summary": [
+        "3인칭 단수 현재 강조",
+        "does+동사원형",
+        "따라서 does know를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'knows do'이다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-002",
+    "sourceQuestionId": "Q-G86-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-003-CT",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe (did call / did called) me yesterday.",
+    "choices": [
+      "did called",
+      "did call"
+    ],
+    "answer": "did called",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "yesterday와 과거 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did 뒤 동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did call",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did call": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'did called'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'did call'이다.",
+      "summary": [
+        "yesterday와 과거 강조",
+        "did 뒤 동사원형",
+        "따라서 did call를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'did called'이다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-003",
+    "sourceQuestionId": "Q-G86-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-004-CT",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNot only (does he sing / he sings), but he also writes songs.",
+    "choices": [
+      "he sings",
+      "does he sing"
+    ],
+    "answer": "he sings",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Not only가 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does+주어+동사원형 도치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does he sing",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "does he sing": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'he sings'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'does he sing'이다.",
+      "summary": [
+        "Not only가 문두에 위치",
+        "does+주어+동사원형 도치",
+        "따라서 does he sing를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'he sings'이다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-004",
+    "sourceQuestionId": "Q-G86-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-005-CT",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNever (did I imagine / I imagined) such a result.",
+    "choices": [
+      "I imagined",
+      "did I imagine"
+    ],
+    "answer": "I imagined",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Never가 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did+주어+동사원형 도치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did I imagine",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did I imagine": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'I imagined'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'did I imagine'이다.",
+      "summary": [
+        "Never가 문두에 위치",
+        "did+주어+동사원형 도치",
+        "따라서 did I imagine를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'I imagined'이다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-005",
+    "sourceQuestionId": "Q-G86-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-006-CT",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nOnly then (did she understand / she understood) the warning.",
+    "choices": [
+      "did she understand",
+      "she understood"
+    ],
+    "answer": "she understood",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Only then이 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did+주어+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did she understand",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did she understand": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'she understood'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'did she understand'이다.",
+      "summary": [
+        "Only then이 문두에 위치",
+        "did+주어+동사원형",
+        "따라서 did she understand를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'she understood'이다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-006",
+    "sourceQuestionId": "Q-G86-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-007-CT",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nUnder no circumstances (do we reveal / we reveal) personal data.",
+    "choices": [
+      "do we reveal",
+      "we reveal"
+    ],
+    "answer": "we reveal",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "부정 의미 표현이 문두에 위치",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do+주어+동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do we reveal",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do we reveal": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'we reveal'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'do we reveal'이다.",
+      "summary": [
+        "부정 의미 표현이 문두에 위치",
+        "do+주어+동사원형",
+        "따라서 do we reveal를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'we reveal'이다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-007",
+    "sourceQuestionId": "Q-G86-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G86-008-CT",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe does (try / tries) his best, even when the task is difficult.",
+    "choices": [
+      "try",
+      "tries"
+    ],
+    "answer": "tries",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "does를 이용한 현재 강조",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does 뒤 동사원형",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "try",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "try": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'tries'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'try'이다.",
+      "summary": [
+        "does를 이용한 현재 강조",
+        "does 뒤 동사원형",
+        "따라서 try를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'tries'이다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G86-008",
+    "sourceQuestionId": "Q-G86-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-5214A9E5D8",
+    "conceptId": "G86_DO_EMPHASIS_INVERSION",
+    "difficulty": 1,
+    "stem": "빠른 확인: 강조 do 뒤의 본동사 형태는?",
+    "choices": [
+      "동사원형",
+      "시제형"
+    ],
+    "answer": "동사원형",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "일반동사를 강조할 때 do·does·did+동사원형을 쓰고, 부정어·제한어가 문두에 오면 do·does·did+주어+동사원형으로 도치한다.",
+          "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다."
+        ],
+        "answer": "일반동사를 강조할 때 do·does·did+동사원형을 쓰고, 부정어·제한어가 문두에 오면 do·does·did+주어+동사원형으로 도치한다.",
+        "errorCode": "E90_DO_EMPHASIS_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "시제형": "E90_DO_EMPHASIS_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "일반동사를 강조할 때 do·does·did+동사원형을 쓰고, 부정어·제한어가 문두에 오면 do·does·did+주어+동사원형으로 도치한다.",
+        "현재 일반동사 강조",
+        "do+동사원형",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G86",
+      "checkQuestion": {
+        "prompt": "강조 do 뒤의 본동사 형태는?",
+        "choices": [
+          "동사원형",
+          "시제형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G86-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-5214A9E5D8",
+    "sourceQuestionId": "Q-G86-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

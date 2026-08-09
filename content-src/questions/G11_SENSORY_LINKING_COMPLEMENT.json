@@ -1,0 +1,2576 @@
+[
+  {
+    "id": "Q-G11-001",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The soup tastes (salty / saltily).",
+    "choices": [
+      "salty",
+      "saltily"
+    ],
+    "answer": "salty",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "taste가 주어의 상태를 연결하는가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "주어의 상태를 설명하는 품사는?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "saltily": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "연결동사 뒤 보어 자리에 부사를 골랐다.",
+      "summary": [
+        "tastes는 soup의 상태를 연결한다.",
+        "뒤에는 soup를 설명하는 보어가 온다.",
+        "형용사 salty를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "감각 연결동사 뒤에는 주로?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-001",
+    "sourceQuestionId": "Q-G11-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 9,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 5,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-002",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "She looked (nervous / nervously) before the interview.",
+    "choices": [
+      "nervous",
+      "nervously"
+    ],
+    "answer": "nervous",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "look가 “~해 보이다” 뜻인가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "주어 she를 설명하는 형태는?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "nervously": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "look를 일반동사로만 보아 부사를 골랐다.",
+      "summary": [
+        "looked는 “~해 보였다”이다.",
+        "she의 상태를 설명한다.",
+        "형용사 nervous를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "look가 “~해 보이다”일 때 뒤에는?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-002",
+    "sourceQuestionId": "Q-G11-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 10,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-003",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The alarm sounded (loud / loudly) from the hallway.",
+    "choices": [
+      "loud",
+      "loudly"
+    ],
+    "answer": "loud",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "sound가 alarm의 소리 상태를 연결하는가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "보어로 알맞은 것은?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "loudly": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "sound 뒤의 주격보어 자리를 부사로 처리했다.",
+      "summary": [
+        "sounded는 alarm의 소리 상태를 말한다.",
+        "주어를 설명하는 보어가 필요하다.",
+        "형용사 loud를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "sound 뒤 상태 보어는?",
+        "choices": [
+          "loud",
+          "loudly"
+        ],
+        "answer": "loud"
+      },
+      "transferQuestionId": "Q-G11-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-003",
+    "sourceQuestionId": "Q-G11-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-004",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "He smelled the flowers (careful / carefully).",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "smelled가 상태 연결인가 실제 행동인가?",
+        "answer": "실제 행동",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "mod",
+        "prompt": "행동 방식을 꾸미는 품사는?",
+        "answer": "부사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "모든 감각동사 뒤에 형용사가 온다고 과잉 적용했다.",
+      "summary": [
+        "smelled 뒤에 목적어 the flowers가 있다.",
+        "여기서는 실제로 냄새를 맡는 행동이다.",
+        "행동을 꾸미는 부사 carefully를 쓴다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "감각동사 뒤에 목적어가 있고 행동을 꾸미면?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G11-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-004",
+    "sourceQuestionId": "Q-G11-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 10,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-005",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The fabric feels (smooth / smoothly).",
+    "choices": [
+      "smooth",
+      "smoothly"
+    ],
+    "answer": "smooth",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "feels가 fabric의 상태를 연결하는가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "fabric를 설명하는 품사는?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "smoothly": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "주어 상태 보어 자리에 부사를 골랐다.",
+      "summary": [
+        "feels는 fabric의 촉감 상태를 연결한다.",
+        "fabric를 설명하는 보어가 필요하다.",
+        "형용사 smooth를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "feel이 “~하게 느껴지다”일 때 뒤에는?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-005",
+    "sourceQuestionId": "Q-G11-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 9,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 5,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-006",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "She looked (careful / carefully) at the map.",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "particle",
+        "prompt": "look 뒤에 at이 있는가?",
+        "answer": "있다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "type",
+        "prompt": "실제로 보는 행동인가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "mod",
+        "prompt": "행동을 꾸미는 품사는?",
+        "answer": "부사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "look at의 실제 행동을 연결동사로 잘못 보았다.",
+      "summary": [
+        "looked at은 실제로 보는 행동이다.",
+        "careful은 she의 상태 보어가 아니다.",
+        "행동을 꾸미는 carefully를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "look at을 꾸미는 것은?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G12-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-006",
+    "sourceQuestionId": "Q-G11-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-001-PF",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The soup tastes (salty / saltily).",
+    "choices": [
+      "salty",
+      "saltily"
+    ],
+    "answer": "salty",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "taste가 주어의 상태를 연결하는가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "주어의 상태를 설명하는 품사는?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "saltily": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "연결동사 뒤 보어 자리에 부사를 골랐다.",
+      "summary": [
+        "tastes는 soup의 상태를 연결한다.",
+        "뒤에는 soup를 설명하는 보어가 온다.",
+        "형용사 salty를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "감각 연결동사 뒤에는 주로?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-001",
+    "sourceQuestionId": "Q-G11-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 9,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 5,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-002-PF",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "She looked (nervous / nervously) before the interview.",
+    "choices": [
+      "nervous",
+      "nervously"
+    ],
+    "answer": "nervous",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "look가 “~해 보이다” 뜻인가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "주어 she를 설명하는 형태는?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "nervously": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "look를 일반동사로만 보아 부사를 골랐다.",
+      "summary": [
+        "looked는 “~해 보였다”이다.",
+        "she의 상태를 설명한다.",
+        "형용사 nervous를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "look가 “~해 보이다”일 때 뒤에는?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-002",
+    "sourceQuestionId": "Q-G11-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 10,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-003-PF",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The alarm sounded (loud / loudly) from the hallway.",
+    "choices": [
+      "loud",
+      "loudly"
+    ],
+    "answer": "loud",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "sound가 alarm의 소리 상태를 연결하는가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "보어로 알맞은 것은?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "loudly": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "sound 뒤의 주격보어 자리를 부사로 처리했다.",
+      "summary": [
+        "sounded는 alarm의 소리 상태를 말한다.",
+        "주어를 설명하는 보어가 필요하다.",
+        "형용사 loud를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "sound 뒤 상태 보어는?",
+        "choices": [
+          "loud",
+          "loudly"
+        ],
+        "answer": "loud"
+      },
+      "transferQuestionId": "Q-G11-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-003",
+    "sourceQuestionId": "Q-G11-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-004-PF",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "He smelled the flowers (careful / carefully).",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "smelled가 상태 연결인가 실제 행동인가?",
+        "answer": "실제 행동",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "mod",
+        "prompt": "행동 방식을 꾸미는 품사는?",
+        "answer": "부사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "모든 감각동사 뒤에 형용사가 온다고 과잉 적용했다.",
+      "summary": [
+        "smelled 뒤에 목적어 the flowers가 있다.",
+        "여기서는 실제로 냄새를 맡는 행동이다.",
+        "행동을 꾸미는 부사 carefully를 쓴다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "감각동사 뒤에 목적어가 있고 행동을 꾸미면?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G11-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-004",
+    "sourceQuestionId": "Q-G11-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 10,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-005-PF",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The fabric feels (smooth / smoothly).",
+    "choices": [
+      "smooth",
+      "smoothly"
+    ],
+    "answer": "smooth",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "feels가 fabric의 상태를 연결하는가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "fabric를 설명하는 품사는?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "smoothly": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "주어 상태 보어 자리에 부사를 골랐다.",
+      "summary": [
+        "feels는 fabric의 촉감 상태를 연결한다.",
+        "fabric를 설명하는 보어가 필요하다.",
+        "형용사 smooth를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "feel이 “~하게 느껴지다”일 때 뒤에는?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-005",
+    "sourceQuestionId": "Q-G11-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 9,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 5,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-006-PF",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "She looked (careful / carefully) at the map.",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "particle",
+        "prompt": "look 뒤에 at이 있는가?",
+        "answer": "있다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "type",
+        "prompt": "실제로 보는 행동인가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "mod",
+        "prompt": "행동을 꾸미는 품사는?",
+        "answer": "부사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "look at의 실제 행동을 연결동사로 잘못 보았다.",
+      "summary": [
+        "looked at은 실제로 보는 행동이다.",
+        "careful은 she의 상태 보어가 아니다.",
+        "행동을 꾸미는 carefully를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "look at을 꾸미는 것은?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G12-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-006",
+    "sourceQuestionId": "Q-G11-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-001-DR",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The soup tastes (salty / saltily).",
+    "choices": [
+      "salty",
+      "saltily"
+    ],
+    "answer": "salty",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "taste가 주어의 상태를 연결하는가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "주어의 상태를 설명하는 품사는?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "saltily": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "연결동사 뒤 보어 자리에 부사를 골랐다.",
+      "summary": [
+        "tastes는 soup의 상태를 연결한다.",
+        "뒤에는 soup를 설명하는 보어가 온다.",
+        "형용사 salty를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "감각 연결동사 뒤에는 주로?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-001",
+    "sourceQuestionId": "Q-G11-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 9,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 40,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 5,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-002-DR",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "She looked (nervous / nervously) before the interview.",
+    "choices": [
+      "nervous",
+      "nervously"
+    ],
+    "answer": "nervous",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "look가 “~해 보이다” 뜻인가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "주어 she를 설명하는 형태는?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "nervously": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "look를 일반동사로만 보아 부사를 골랐다.",
+      "summary": [
+        "looked는 “~해 보였다”이다.",
+        "she의 상태를 설명한다.",
+        "형용사 nervous를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "look가 “~해 보이다”일 때 뒤에는?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-002",
+    "sourceQuestionId": "Q-G11-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 10,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-003-DR",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The alarm sounded (loud / loudly) from the hallway.",
+    "choices": [
+      "loud",
+      "loudly"
+    ],
+    "answer": "loud",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "sound가 alarm의 소리 상태를 연결하는가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "보어로 알맞은 것은?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "loudly": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "sound 뒤의 주격보어 자리를 부사로 처리했다.",
+      "summary": [
+        "sounded는 alarm의 소리 상태를 말한다.",
+        "주어를 설명하는 보어가 필요하다.",
+        "형용사 loud를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "sound 뒤 상태 보어는?",
+        "choices": [
+          "loud",
+          "loudly"
+        ],
+        "answer": "loud"
+      },
+      "transferQuestionId": "Q-G11-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-003",
+    "sourceQuestionId": "Q-G11-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-004-DR",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "He smelled the flowers (careful / carefully).",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "smelled가 상태 연결인가 실제 행동인가?",
+        "answer": "실제 행동",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "mod",
+        "prompt": "행동 방식을 꾸미는 품사는?",
+        "answer": "부사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "모든 감각동사 뒤에 형용사가 온다고 과잉 적용했다.",
+      "summary": [
+        "smelled 뒤에 목적어 the flowers가 있다.",
+        "여기서는 실제로 냄새를 맡는 행동이다.",
+        "행동을 꾸미는 부사 carefully를 쓴다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "감각동사 뒤에 목적어가 있고 행동을 꾸미면?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G11-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-004",
+    "sourceQuestionId": "Q-G11-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 10,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 40,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-005-DR",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The fabric feels (smooth / smoothly).",
+    "choices": [
+      "smooth",
+      "smoothly"
+    ],
+    "answer": "smooth",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "feels가 fabric의 상태를 연결하는가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "fabric를 설명하는 품사는?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "smoothly": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "주어 상태 보어 자리에 부사를 골랐다.",
+      "summary": [
+        "feels는 fabric의 촉감 상태를 연결한다.",
+        "fabric를 설명하는 보어가 필요하다.",
+        "형용사 smooth를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "feel이 “~하게 느껴지다”일 때 뒤에는?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-005",
+    "sourceQuestionId": "Q-G11-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 9,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 40,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 5,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-006-DR",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "She looked (careful / carefully) at the map.",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "particle",
+        "prompt": "look 뒤에 at이 있는가?",
+        "answer": "있다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "type",
+        "prompt": "실제로 보는 행동인가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "mod",
+        "prompt": "행동을 꾸미는 품사는?",
+        "answer": "부사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "look at의 실제 행동을 연결동사로 잘못 보았다.",
+      "summary": [
+        "looked at은 실제로 보는 행동이다.",
+        "careful은 she의 상태 보어가 아니다.",
+        "행동을 꾸미는 carefully를 선택한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "look at을 꾸미는 것은?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G12-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-006",
+    "sourceQuestionId": "Q-G11-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-001-CT",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe soup tastes (salty / saltily).",
+    "choices": [
+      "salty",
+      "saltily"
+    ],
+    "answer": "saltily",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "taste가 주어의 상태를 연결하는가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "주어의 상태를 설명하는 품사는?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "salty": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'saltily'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'salty'이다.",
+      "summary": [
+        "tastes는 soup의 상태를 연결한다.",
+        "뒤에는 soup를 설명하는 보어가 온다.",
+        "형용사 salty를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'saltily'이다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "감각 연결동사 뒤에는 주로?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-001",
+    "sourceQuestionId": "Q-G11-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 9,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 39,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 5,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-002-CT",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe looked (nervous / nervously) before the interview.",
+    "choices": [
+      "nervous",
+      "nervously"
+    ],
+    "answer": "nervously",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "look가 “~해 보이다” 뜻인가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "주어 she를 설명하는 형태는?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "nervous": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'nervously'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'nervous'이다.",
+      "summary": [
+        "looked는 “~해 보였다”이다.",
+        "she의 상태를 설명한다.",
+        "형용사 nervous를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'nervously'이다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "look가 “~해 보이다”일 때 뒤에는?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-002",
+    "sourceQuestionId": "Q-G11-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 10,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 40,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-003-CT",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe alarm sounded (loud / loudly) from the hallway.",
+    "choices": [
+      "loudly",
+      "loud"
+    ],
+    "answer": "loudly",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "sound가 alarm의 소리 상태를 연결하는가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "보어로 알맞은 것은?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "loud": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'loudly'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'loud'이다.",
+      "summary": [
+        "sounded는 alarm의 소리 상태를 말한다.",
+        "주어를 설명하는 보어가 필요하다.",
+        "형용사 loud를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'loudly'이다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "sound 뒤 상태 보어는?",
+        "choices": [
+          "loud",
+          "loudly"
+        ],
+        "answer": "loud"
+      },
+      "transferQuestionId": "Q-G11-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-003",
+    "sourceQuestionId": "Q-G11-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-004-CT",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe smelled the flowers (careful / carefully).",
+    "choices": [
+      "carefully",
+      "careful"
+    ],
+    "answer": "careful",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "smelled가 상태 연결인가 실제 행동인가?",
+        "answer": "실제 행동",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "mod",
+        "prompt": "행동 방식을 꾸미는 품사는?",
+        "answer": "부사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "carefully": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'careful'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'carefully'이다.",
+      "summary": [
+        "smelled 뒤에 목적어 the flowers가 있다.",
+        "여기서는 실제로 냄새를 맡는 행동이다.",
+        "행동을 꾸미는 부사 carefully를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'careful'이다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "감각동사 뒤에 목적어가 있고 행동을 꾸미면?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G11-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-004",
+    "sourceQuestionId": "Q-G11-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 10,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 40,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-005-CT",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe fabric feels (smooth / smoothly).",
+    "choices": [
+      "smooth",
+      "smoothly"
+    ],
+    "answer": "smoothly",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "feels가 fabric의 상태를 연결하는가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "comp",
+        "prompt": "fabric를 설명하는 품사는?",
+        "answer": "형용사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "smooth": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'smoothly'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'smooth'이다.",
+      "summary": [
+        "feels는 fabric의 촉감 상태를 연결한다.",
+        "fabric를 설명하는 보어가 필요하다.",
+        "형용사 smooth를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'smoothly'이다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "feel이 “~하게 느껴지다”일 때 뒤에는?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-005",
+    "sourceQuestionId": "Q-G11-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 9,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 39,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 5,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G11-006-CT",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe looked (careful / carefully) at the map.",
+    "choices": [
+      "carefully",
+      "careful"
+    ],
+    "answer": "careful",
+    "decisionSteps": [
+      {
+        "id": "particle",
+        "prompt": "look 뒤에 at이 있는가?",
+        "answer": "있다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "type",
+        "prompt": "실제로 보는 행동인가?",
+        "answer": "그렇다",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      },
+      {
+        "id": "mod",
+        "prompt": "행동을 꾸미는 품사는?",
+        "answer": "부사",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "carefully": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'careful'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'carefully'이다.",
+      "summary": [
+        "looked at은 실제로 보는 행동이다.",
+        "careful은 she의 상태 보어가 아니다.",
+        "행동을 꾸미는 carefully를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'careful'이다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "look at을 꾸미는 것은?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G11-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G11-006",
+    "sourceQuestionId": "Q-G11-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-271F675479",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "stem": "빠른 확인: feel이 “~하게 느껴지다”일 때 뒤에는?",
+    "choices": [
+      "형용사",
+      "부사"
+    ],
+    "answer": "형용사",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다."
+        ],
+        "answer": "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다.",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "부사": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다.",
+        "feels는 fabric의 촉감 상태를 연결한다.",
+        "fabric를 설명하는 보어가 필요하다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "감각 연결동사 뒤에는 주로?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-005",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-271F675479",
+    "sourceQuestionId": "Q-G11-005",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-55C57153D0",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "stem": "빠른 확인: look at을 꾸미는 것은?",
+    "choices": [
+      "형용사",
+      "부사"
+    ],
+    "answer": "부사",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다."
+        ],
+        "answer": "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다.",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "형용사": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다.",
+        "looked at은 실제로 보는 행동이다.",
+        "careful은 she의 상태 보어가 아니다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "감각 연결동사 뒤에는 주로?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-006",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-55C57153D0",
+    "sourceQuestionId": "Q-G11-006",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-0945B47CF1",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "stem": "빠른 확인: look가 “~해 보이다”일 때 뒤에는?",
+    "choices": [
+      "형용사",
+      "부사"
+    ],
+    "answer": "형용사",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다."
+        ],
+        "answer": "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다.",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "부사": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다.",
+        "looked는 “~해 보였다”이다.",
+        "she의 상태를 설명한다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "감각 연결동사 뒤에는 주로?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-002",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-0945B47CF1",
+    "sourceQuestionId": "Q-G11-002",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-78F1DB49EE",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "stem": "빠른 확인: sound 뒤 상태 보어는?",
+    "choices": [
+      "loud",
+      "loudly"
+    ],
+    "answer": "loud",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다."
+        ],
+        "answer": "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다.",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "loudly": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다.",
+        "sounded는 alarm의 소리 상태를 말한다.",
+        "주어를 설명하는 보어가 필요하다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "감각 연결동사 뒤에는 주로?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-003",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-78F1DB49EE",
+    "sourceQuestionId": "Q-G11-003",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-61A08B62E7",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "stem": "빠른 확인: 감각 연결동사 뒤에는 주로?",
+    "choices": [
+      "형용사",
+      "부사"
+    ],
+    "answer": "형용사",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다.",
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+        ],
+        "answer": "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다.",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "부사": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다.",
+        "tastes는 soup의 상태를 연결한다.",
+        "뒤에는 soup를 설명하는 보어가 온다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "look가 “~해 보이다”일 때 뒤에는?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-61A08B62E7",
+    "sourceQuestionId": "Q-G11-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-ADE8F01F0F",
+    "conceptId": "G11_SENSORY_LINKING_COMPLEMENT",
+    "difficulty": 1,
+    "stem": "빠른 확인: 감각동사 뒤에 목적어가 있고 행동을 꾸미면?",
+    "choices": [
+      "형용사",
+      "부사"
+    ],
+    "answer": "부사",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다.",
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+        ],
+        "answer": "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다.",
+        "errorCode": "E15_LINKING_COMPLEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "형용사": "E15_LINKING_COMPLEMENT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "감각동사가 상태를 연결하면 뒤에는 주어를 설명하는 형용사가 온다.",
+        "smelled 뒤에 목적어 the flowers가 있다.",
+        "여기서는 실제로 냄새를 맡는 행동이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G11",
+      "checkQuestion": {
+        "prompt": "감각 연결동사 뒤에는 주로?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G11-004",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-ADE8F01F0F",
+    "sourceQuestionId": "Q-G11-004",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

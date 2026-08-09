@@ -1,0 +1,4453 @@
+[
+  {
+    "id": "Q-G33-001",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "When you (finish / will finish) the form, submit it online.",
+    "choices": [
+      "finish",
+      "will finish"
+    ],
+    "answer": "finish",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "when",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will finish": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "when가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 finish를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-001",
+    "sourceQuestionId": "Q-G33-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-002",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "If the weather (improves / will improve), we will leave.",
+    "choices": [
+      "improves",
+      "will improve"
+    ],
+    "answer": "improves",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "if",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will improve": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "if가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 improves를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-002",
+    "sourceQuestionId": "Q-G33-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-003",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "I will wait until she (arrives / will arrive).",
+    "choices": [
+      "arrives",
+      "will arrive"
+    ],
+    "answer": "arrives",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "until",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will arrive": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "until가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 arrives를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-003",
+    "sourceQuestionId": "Q-G33-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-004",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "Unless the price (drops / will drop), I will not buy it.",
+    "choices": [
+      "drops",
+      "will drop"
+    ],
+    "answer": "drops",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "unless",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will drop": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "unless가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 drops를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-004",
+    "sourceQuestionId": "Q-G33-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-005",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "After you (have completed / will have completed) the survey, check your answers.",
+    "choices": [
+      "have completed",
+      "will have completed"
+    ],
+    "answer": "have completed",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "after",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재완료 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will have completed": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "after가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재완료 형태인 have completed를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-005",
+    "sourceQuestionId": "Q-G33-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-006",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "We will begin as soon as everyone (has taken / will have taken) a seat.",
+    "choices": [
+      "has taken",
+      "will have taken"
+    ],
+    "answer": "has taken",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "as soon as",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재완료 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will have taken": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "as soon as가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재완료 형태인 has taken를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-006",
+    "sourceQuestionId": "Q-G33-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-007",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "Before the store (closes / will close), we need to buy the supplies.",
+    "choices": [
+      "closes",
+      "will close"
+    ],
+    "answer": "closes",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "before",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will close": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "before가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 closes를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-007",
+    "sourceQuestionId": "Q-G33-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-008",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "If you (have saved / will have saved) enough money by June, you can join the trip.",
+    "choices": [
+      "have saved",
+      "will have saved"
+    ],
+    "answer": "have saved",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "if",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재완료 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will have saved": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "if가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재완료 형태인 have saved를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-008",
+    "sourceQuestionId": "Q-G33-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 48,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 70,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-001-PF",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "When you (finish / will finish) the form, submit it online.",
+    "choices": [
+      "finish",
+      "will finish"
+    ],
+    "answer": "finish",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "when",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will finish": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "when가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 finish를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-001",
+    "sourceQuestionId": "Q-G33-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-002-PF",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "If the weather (improves / will improve), we will leave.",
+    "choices": [
+      "improves",
+      "will improve"
+    ],
+    "answer": "improves",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "if",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will improve": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "if가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 improves를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-002",
+    "sourceQuestionId": "Q-G33-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-003-PF",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "I will wait until she (arrives / will arrive).",
+    "choices": [
+      "arrives",
+      "will arrive"
+    ],
+    "answer": "arrives",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "until",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will arrive": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "until가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 arrives를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-003",
+    "sourceQuestionId": "Q-G33-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-004-PF",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "Unless the price (drops / will drop), I will not buy it.",
+    "choices": [
+      "drops",
+      "will drop"
+    ],
+    "answer": "drops",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "unless",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will drop": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "unless가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 drops를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-004",
+    "sourceQuestionId": "Q-G33-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-005-PF",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "After you (have completed / will have completed) the survey, check your answers.",
+    "choices": [
+      "have completed",
+      "will have completed"
+    ],
+    "answer": "have completed",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "after",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재완료 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will have completed": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "after가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재완료 형태인 have completed를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-005",
+    "sourceQuestionId": "Q-G33-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 73,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-006-PF",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "We will begin as soon as everyone (has taken / will have taken) a seat.",
+    "choices": [
+      "has taken",
+      "will have taken"
+    ],
+    "answer": "has taken",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "as soon as",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재완료 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will have taken": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "as soon as가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재완료 형태인 has taken를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-006",
+    "sourceQuestionId": "Q-G33-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 76,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-007-PF",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "Before the store (closes / will close), we need to buy the supplies.",
+    "choices": [
+      "closes",
+      "will close"
+    ],
+    "answer": "closes",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "before",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will close": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "before가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 closes를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-007",
+    "sourceQuestionId": "Q-G33-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 73,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-008-PF",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "If you (have saved / will have saved) enough money by June, you can join the trip.",
+    "choices": [
+      "have saved",
+      "will have saved"
+    ],
+    "answer": "have saved",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "if",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재완료 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will have saved": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "if가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재완료 형태인 have saved를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-008",
+    "sourceQuestionId": "Q-G33-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 48,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 78,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-001-DR",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "When you (finish / will finish) the form, submit it online.",
+    "choices": [
+      "finish",
+      "will finish"
+    ],
+    "answer": "finish",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "when",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will finish": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "when가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 finish를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-001",
+    "sourceQuestionId": "Q-G33-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-002-DR",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "If the weather (improves / will improve), we will leave.",
+    "choices": [
+      "improves",
+      "will improve"
+    ],
+    "answer": "improves",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "if",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will improve": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "if가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 improves를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-002",
+    "sourceQuestionId": "Q-G33-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-003-DR",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "I will wait until she (arrives / will arrive).",
+    "choices": [
+      "arrives",
+      "will arrive"
+    ],
+    "answer": "arrives",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "until",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will arrive": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "until가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 arrives를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-003",
+    "sourceQuestionId": "Q-G33-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-004-DR",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "Unless the price (drops / will drop), I will not buy it.",
+    "choices": [
+      "drops",
+      "will drop"
+    ],
+    "answer": "drops",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "unless",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will drop": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "unless가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 drops를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-004",
+    "sourceQuestionId": "Q-G33-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-005-DR",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "After you (have completed / will have completed) the survey, check your answers.",
+    "choices": [
+      "have completed",
+      "will have completed"
+    ],
+    "answer": "have completed",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "after",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재완료 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will have completed": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "after가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재완료 형태인 have completed를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-005",
+    "sourceQuestionId": "Q-G33-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-006-DR",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "We will begin as soon as everyone (has taken / will have taken) a seat.",
+    "choices": [
+      "has taken",
+      "will have taken"
+    ],
+    "answer": "has taken",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "as soon as",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재완료 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will have taken": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "as soon as가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재완료 형태인 has taken를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-006",
+    "sourceQuestionId": "Q-G33-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-007-DR",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "Before the store (closes / will close), we need to buy the supplies.",
+    "choices": [
+      "closes",
+      "will close"
+    ],
+    "answer": "closes",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "before",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will close": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "before가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 closes를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-007",
+    "sourceQuestionId": "Q-G33-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-008-DR",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "If you (have saved / will have saved) enough money by June, you can join the trip.",
+    "choices": [
+      "have saved",
+      "will have saved"
+    ],
+    "answer": "have saved",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "if",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재완료 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will have saved": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절 안에 미래형을 사용했다.",
+      "summary": [
+        "if가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재완료 형태인 have saved를 선택한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-008",
+    "sourceQuestionId": "Q-G33-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 48,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-001-CT",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWhen you (finish / will finish) the form, submit it online.",
+    "choices": [
+      "finish",
+      "will finish"
+    ],
+    "answer": "will finish",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "when",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "finish": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "'will finish'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'finish'이다.",
+      "summary": [
+        "when가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 finish를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'will finish'이다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-001",
+    "sourceQuestionId": "Q-G33-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-002-CT",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf the weather (improves / will improve), we will leave.",
+    "choices": [
+      "will improve",
+      "improves"
+    ],
+    "answer": "will improve",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "if",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "improves": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "'will improve'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'improves'이다.",
+      "summary": [
+        "if가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 improves를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'will improve'이다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-002",
+    "sourceQuestionId": "Q-G33-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-003-CT",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI will wait until she (arrives / will arrive).",
+    "choices": [
+      "arrives",
+      "will arrive"
+    ],
+    "answer": "will arrive",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "until",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "arrives": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "'will arrive'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'arrives'이다.",
+      "summary": [
+        "until가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 arrives를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'will arrive'이다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-003",
+    "sourceQuestionId": "Q-G33-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-004-CT",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nUnless the price (drops / will drop), I will not buy it.",
+    "choices": [
+      "drops",
+      "will drop"
+    ],
+    "answer": "will drop",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "unless",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "drops": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "'will drop'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'drops'이다.",
+      "summary": [
+        "unless가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 drops를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'will drop'이다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-004",
+    "sourceQuestionId": "Q-G33-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-005-CT",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nAfter you (have completed / will have completed) the survey, check your answers.",
+    "choices": [
+      "have completed",
+      "will have completed"
+    ],
+    "answer": "will have completed",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "after",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재완료 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have completed": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "'will have completed'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'have completed'이다.",
+      "summary": [
+        "after가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재완료 형태인 have completed를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'will have completed'이다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-005",
+    "sourceQuestionId": "Q-G33-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-006-CT",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe will begin as soon as everyone (has taken / will have taken) a seat.",
+    "choices": [
+      "has taken",
+      "will have taken"
+    ],
+    "answer": "will have taken",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "as soon as",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재완료 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has taken": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "'will have taken'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'has taken'이다.",
+      "summary": [
+        "as soon as가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재완료 형태인 has taken를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'will have taken'이다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-006",
+    "sourceQuestionId": "Q-G33-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-007-CT",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nBefore the store (closes / will close), we need to buy the supplies.",
+    "choices": [
+      "closes",
+      "will close"
+    ],
+    "answer": "will close",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "before",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "closes": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "'will close'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'closes'이다.",
+      "summary": [
+        "before가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재 형태인 closes를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'will close'이다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-007",
+    "sourceQuestionId": "Q-G33-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G33-008-CT",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf you (have saved / will have saved) enough money by June, you can join the trip.",
+    "choices": [
+      "have saved",
+      "will have saved"
+    ],
+    "answer": "will have saved",
+    "decisionSteps": [
+      {
+        "id": "conj",
+        "prompt": "시간·조건 접속사는?",
+        "answer": "if",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "clause",
+        "prompt": "그 절은 부사절인가?",
+        "answer": "부사절이다",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "form",
+        "prompt": "미래 의미를 대신할 형태는?",
+        "answer": "현재완료 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have saved": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "'will have saved'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'have saved'이다.",
+      "summary": [
+        "if가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "미래 의미라도 현재완료 형태인 have saved를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'will have saved'이다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G33-008",
+    "sourceQuestionId": "Q-G33-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 48,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-E3307DE79A",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+    "choices": [
+      "현재(완료) 시제",
+      "will 미래형"
+    ],
+    "answer": "현재(완료) 시제",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "현재의 사실·습관·불변의 진리에는 현재 시제, 끝난 역사적 사실에는 과거 시제를 쓴다."
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will 미래형": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "when가 이끄는 시간·조건 부사절이다.",
+        "부사절에서는 미래형을 직접 쓰지 않는다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "시간·조건 부사절에서 미래 의미를 나타낼 때 쓰는 것은?",
+        "choices": [
+          "현재(완료) 시제",
+          "will 미래형"
+        ],
+        "answer": "현재(완료) 시제"
+      },
+      "transferQuestionId": "Q-G33-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-E3307DE79A",
+    "sourceQuestionId": "Q-G33-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-054-6352E715",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 2,
+    "stem": "Unless the sound [comes / will come] from exactly in front or in back of the owl, it will reach one ear first.",
+    "choices": [
+      "comes",
+      "will come"
+    ],
+    "answer": "comes",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "시간·조건 부사절의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "시간·조건 부사절의 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will come": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절에 will 또는 will have+p.p.를 사용했다.",
+      "summary": [
+        "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "시간·조건 접속사를 찾는다",
+        "will 대신 현재, will have+p.p. 대신 현재완료를 선택한다"
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-054-A2D1C9EF",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-054-6352E715",
+    "sourceQuestionId": "Q-P21-G-054-6352E715",
+    "sourceCandidateId": "CAND-G-054-6352E715",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 54,
+      "asset": "assets/source-evidence/phase21/grammar-page-054.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-054-6352E715",
+      "evidenceRef": "SRC-P21-G-054",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 22,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-054-6352E715-PF",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 2,
+    "stem": "Unless the sound [comes / will come] from exactly in front or in back of the owl, it will reach one ear first.",
+    "choices": [
+      "comes",
+      "will come"
+    ],
+    "answer": "comes",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "시간·조건 부사절의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "시간·조건 부사절의 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will come": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절에 will 또는 will have+p.p.를 사용했다.",
+      "summary": [
+        "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "시간·조건 접속사를 찾는다",
+        "will 대신 현재, will have+p.p. 대신 현재완료를 선택한다"
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-054-A2D1C9EF",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-054-6352E715",
+    "sourceQuestionId": "Q-P21-G-054-6352E715",
+    "sourceCandidateId": "CAND-G-054-6352E715",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 54,
+      "asset": "assets/source-evidence/phase21/grammar-page-054.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-054-6352E715",
+      "evidenceRef": "SRC-P21-G-054",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 22,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-054-6352E715-DR",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 2,
+    "stem": "Unless the sound [comes / will come] from exactly in front or in back of the owl, it will reach one ear first.",
+    "choices": [
+      "comes",
+      "will come"
+    ],
+    "answer": "comes",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "시간·조건 부사절의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "시간·조건 부사절의 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will come": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절에 will 또는 will have+p.p.를 사용했다.",
+      "summary": [
+        "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "시간·조건 접속사를 찾는다",
+        "will 대신 현재, will have+p.p. 대신 현재완료를 선택한다"
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-054-A2D1C9EF",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-054-6352E715",
+    "sourceQuestionId": "Q-P21-G-054-6352E715",
+    "sourceCandidateId": "CAND-G-054-6352E715",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 54,
+      "asset": "assets/source-evidence/phase21/grammar-page-054.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-054-6352E715",
+      "evidenceRef": "SRC-P21-G-054",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 22,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-054-6352E715-CT",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nUnless the sound [comes / will come] from exactly in front or in back of the owl, it will reach one ear first.",
+    "choices": [
+      "will come",
+      "comes"
+    ],
+    "answer": "will come",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "시간·조건 부사절의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "시간·조건 부사절의 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "comes": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "'will come'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'comes'이다.",
+      "summary": [
+        "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "시간·조건 접속사를 찾는다",
+        "will 대신 현재, will have+p.p. 대신 현재완료를 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'will come'를 고른다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-054-6352E715",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-054-6352E715",
+    "sourceQuestionId": "Q-P21-G-054-6352E715",
+    "sourceCandidateId": "CAND-G-054-6352E715",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 54,
+      "asset": "assets/source-evidence/phase21/grammar-page-054.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-054-6352E715",
+      "evidenceRef": "SRC-P21-G-054",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 22,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-054-A2D1C9EF",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 2,
+    "stem": "In the business world, sellers will do well when they [will put / put] themselves in their customers' shoes.",
+    "choices": [
+      "will put",
+      "put"
+    ],
+    "answer": "put",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "시간·조건 부사절의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "시간·조건 부사절의 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will put": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절에 will 또는 will have+p.p.를 사용했다.",
+      "summary": [
+        "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "시간·조건 접속사를 찾는다",
+        "will 대신 현재, will have+p.p. 대신 현재완료를 선택한다"
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-054-533334FE",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-054-A2D1C9EF",
+    "sourceQuestionId": "Q-P21-G-054-A2D1C9EF",
+    "sourceCandidateId": "CAND-G-054-A2D1C9EF",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 54,
+      "asset": "assets/source-evidence/phase21/grammar-page-054.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-054-A2D1C9EF",
+      "evidenceRef": "SRC-P21-G-054",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-054-A2D1C9EF-PF",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 2,
+    "stem": "In the business world, sellers will do well when they [will put / put] themselves in their customers' shoes.",
+    "choices": [
+      "will put",
+      "put"
+    ],
+    "answer": "put",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "시간·조건 부사절의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "시간·조건 부사절의 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will put": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절에 will 또는 will have+p.p.를 사용했다.",
+      "summary": [
+        "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "시간·조건 접속사를 찾는다",
+        "will 대신 현재, will have+p.p. 대신 현재완료를 선택한다"
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-054-533334FE",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-054-A2D1C9EF",
+    "sourceQuestionId": "Q-P21-G-054-A2D1C9EF",
+    "sourceCandidateId": "CAND-G-054-A2D1C9EF",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 54,
+      "asset": "assets/source-evidence/phase21/grammar-page-054.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-054-A2D1C9EF",
+      "evidenceRef": "SRC-P21-G-054",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-054-A2D1C9EF-DR",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 2,
+    "stem": "In the business world, sellers will do well when they [will put / put] themselves in their customers' shoes.",
+    "choices": [
+      "will put",
+      "put"
+    ],
+    "answer": "put",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "시간·조건 부사절의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "시간·조건 부사절의 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will put": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절에 will 또는 will have+p.p.를 사용했다.",
+      "summary": [
+        "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "시간·조건 접속사를 찾는다",
+        "will 대신 현재, will have+p.p. 대신 현재완료를 선택한다"
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-054-533334FE",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-054-A2D1C9EF",
+    "sourceQuestionId": "Q-P21-G-054-A2D1C9EF",
+    "sourceCandidateId": "CAND-G-054-A2D1C9EF",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 54,
+      "asset": "assets/source-evidence/phase21/grammar-page-054.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-054-A2D1C9EF",
+      "evidenceRef": "SRC-P21-G-054",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-054-A2D1C9EF-CT",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIn the business world, sellers will do well when they [will put / put] themselves in their customers' shoes.",
+    "choices": [
+      "put",
+      "will put"
+    ],
+    "answer": "will put",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "시간·조건 부사절의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "시간·조건 부사절의 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "put": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "'will put'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'put'이다.",
+      "summary": [
+        "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "시간·조건 접속사를 찾는다",
+        "will 대신 현재, will have+p.p. 대신 현재완료를 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'will put'를 고른다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-054-A2D1C9EF",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-054-A2D1C9EF",
+    "sourceQuestionId": "Q-P21-G-054-A2D1C9EF",
+    "sourceCandidateId": "CAND-G-054-A2D1C9EF",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 54,
+      "asset": "assets/source-evidence/phase21/grammar-page-054.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-054-A2D1C9EF",
+      "evidenceRef": "SRC-P21-G-054",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-054-533334FE",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 2,
+    "stem": "Your bones will keep growing until you [reach / will reach] your full height.",
+    "choices": [
+      "reach",
+      "will reach"
+    ],
+    "answer": "reach",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "시간·조건 부사절의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "시간·조건 부사절의 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will reach": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절에 will 또는 will have+p.p.를 사용했다.",
+      "summary": [
+        "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "시간·조건 접속사를 찾는다",
+        "will 대신 현재, will have+p.p. 대신 현재완료를 선택한다"
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-054-6352E715",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-054-533334FE",
+    "sourceQuestionId": "Q-P21-G-054-533334FE",
+    "sourceCandidateId": "CAND-G-054-533334FE",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 54,
+      "asset": "assets/source-evidence/phase21/grammar-page-054.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-054-533334FE",
+      "evidenceRef": "SRC-P21-G-054",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-054-533334FE-PF",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 2,
+    "stem": "Your bones will keep growing until you [reach / will reach] your full height.",
+    "choices": [
+      "reach",
+      "will reach"
+    ],
+    "answer": "reach",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "시간·조건 부사절의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "시간·조건 부사절의 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will reach": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절에 will 또는 will have+p.p.를 사용했다.",
+      "summary": [
+        "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "시간·조건 접속사를 찾는다",
+        "will 대신 현재, will have+p.p. 대신 현재완료를 선택한다"
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-054-6352E715",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-054-533334FE",
+    "sourceQuestionId": "Q-P21-G-054-533334FE",
+    "sourceCandidateId": "CAND-G-054-533334FE",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 54,
+      "asset": "assets/source-evidence/phase21/grammar-page-054.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-054-533334FE",
+      "evidenceRef": "SRC-P21-G-054",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-054-533334FE-DR",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 2,
+    "stem": "Your bones will keep growing until you [reach / will reach] your full height.",
+    "choices": [
+      "reach",
+      "will reach"
+    ],
+    "answer": "reach",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "시간·조건 부사절의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "시간·조건 부사절의 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "will reach": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "시간·조건 부사절에 will 또는 will have+p.p.를 사용했다.",
+      "summary": [
+        "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "시간·조건 접속사를 찾는다",
+        "will 대신 현재, will have+p.p. 대신 현재완료를 선택한다"
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-054-6352E715",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-054-533334FE",
+    "sourceQuestionId": "Q-P21-G-054-533334FE",
+    "sourceCandidateId": "CAND-G-054-533334FE",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 54,
+      "asset": "assets/source-evidence/phase21/grammar-page-054.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-054-533334FE",
+      "evidenceRef": "SRC-P21-G-054",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-054-533334FE-CT",
+    "conceptId": "G33_TIME_CONDITION_CLAUSE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nYour bones will keep growing until you [reach / will reach] your full height.",
+    "choices": [
+      "reach",
+      "will reach"
+    ],
+    "answer": "will reach",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "시간·조건 부사절의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "시간·조건 부사절의 시제",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "errorCode": "E37_TIME_CONDITION_FUTURE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reach": "E37_TIME_CONDITION_FUTURE"
+    },
+    "remediation": {
+      "diagnosis": "'will reach'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'reach'이다.",
+      "summary": [
+        "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+        "시간·조건 접속사를 찾는다",
+        "will 대신 현재, will have+p.p. 대신 현재완료를 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'will reach'를 고른다."
+      ],
+      "sourceRef": "SRC-G33",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "when·before·after·until·if·unless 부사절에서는 미래(완료) 의미라도 현재(완료) 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-054-533334FE",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-054-533334FE",
+    "sourceQuestionId": "Q-P21-G-054-533334FE",
+    "sourceCandidateId": "CAND-G-054-533334FE",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 54,
+      "asset": "assets/source-evidence/phase21/grammar-page-054.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-054-533334FE",
+      "evidenceRef": "SRC-P21-G-054",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

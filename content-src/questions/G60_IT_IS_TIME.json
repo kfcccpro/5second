@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G60-001",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time that you (went / go) home.",
+    "choices": [
+      "went",
+      "go"
+    ],
+    "answer": "went",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "that절인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "이미 했어야 한다는 촉구 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "that절에 쓰는 형태는?",
+        "answer": "동사 과거형",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "go": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 went를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-001",
+    "sourceQuestionId": "Q-G60-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-002",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is high time we (started / start) the project.",
+    "choices": [
+      "started",
+      "start"
+    ],
+    "answer": "started",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "high time인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "진작 시작했어야 한다는 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "주어 뒤 형태는?",
+        "answer": "과거형 started",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "start": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 started를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-002",
+    "sourceQuestionId": "Q-G60-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-003",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is about time she (apologized / apologizes).",
+    "choices": [
+      "apologized",
+      "apologizes"
+    ],
+    "answer": "apologized",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "about time인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "진작 사과했어야 한다는 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "알맞은 형태는?",
+        "answer": "과거형 apologized",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "apologizes": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 apologized를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-003",
+    "sourceQuestionId": "Q-G60-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-004",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time that he should (think / thought) of his future.",
+    "choices": [
+      "think",
+      "thought"
+    ],
+    "answer": "think",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "should가 있는가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "rule",
+        "prompt": "should 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "think",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "thought": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "동사원형.",
+        "따라서 think를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-004",
+    "sourceQuestionId": "Q-G60-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-005",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time for us (to leave / leaving).",
+    "choices": [
+      "to leave",
+      "leaving"
+    ],
+    "answer": "to leave",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "for+목적격 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "단순히 ~할 때라는 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "for us 뒤 형태는?",
+        "answer": "to-V",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "leaving": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 to leave를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-005",
+    "sourceQuestionId": "Q-G60-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-006",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time you (took / take) a break.",
+    "choices": [
+      "took",
+      "take"
+    ],
+    "answer": "took",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "주어 you가 있는 that 생략 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "이미 쉬었어야 한다는 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "알맞은 형태는?",
+        "answer": "과거형 took",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "take": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 took를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-006",
+    "sourceQuestionId": "Q-G60-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-007",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is high time the government (acted / acts) on the issue.",
+    "choices": [
+      "acted",
+      "acts"
+    ],
+    "answer": "acted",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "high time인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "진작 행동했어야 한다는 촉구인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "알맞은 형태는?",
+        "answer": "과거형 acted",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "acts": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 acted를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-007",
+    "sourceQuestionId": "Q-G60-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-008",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time for the meeting (to begin / beginning).",
+    "choices": [
+      "to begin",
+      "beginning"
+    ],
+    "answer": "to begin",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "for+명사 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "단순한 시작 시점을 말하는가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "명사 뒤 형태는?",
+        "answer": "to-V",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "beginning": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 to begin를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-008",
+    "sourceQuestionId": "Q-G60-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-001-PF",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time that you (went / go) home.",
+    "choices": [
+      "went",
+      "go"
+    ],
+    "answer": "went",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "that절인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "이미 했어야 한다는 촉구 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "that절에 쓰는 형태는?",
+        "answer": "동사 과거형",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "go": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 went를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-001",
+    "sourceQuestionId": "Q-G60-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-002-PF",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is high time we (started / start) the project.",
+    "choices": [
+      "started",
+      "start"
+    ],
+    "answer": "started",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "high time인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "진작 시작했어야 한다는 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "주어 뒤 형태는?",
+        "answer": "과거형 started",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "start": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 started를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-002",
+    "sourceQuestionId": "Q-G60-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-003-PF",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is about time she (apologized / apologizes).",
+    "choices": [
+      "apologized",
+      "apologizes"
+    ],
+    "answer": "apologized",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "about time인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "진작 사과했어야 한다는 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "알맞은 형태는?",
+        "answer": "과거형 apologized",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "apologizes": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 apologized를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-003",
+    "sourceQuestionId": "Q-G60-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-004-PF",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time that he should (think / thought) of his future.",
+    "choices": [
+      "think",
+      "thought"
+    ],
+    "answer": "think",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "should가 있는가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "rule",
+        "prompt": "should 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "think",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "thought": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "동사원형.",
+        "따라서 think를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-004",
+    "sourceQuestionId": "Q-G60-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-005-PF",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time for us (to leave / leaving).",
+    "choices": [
+      "to leave",
+      "leaving"
+    ],
+    "answer": "to leave",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "for+목적격 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "단순히 ~할 때라는 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "for us 뒤 형태는?",
+        "answer": "to-V",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "leaving": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 to leave를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-005",
+    "sourceQuestionId": "Q-G60-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-006-PF",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time you (took / take) a break.",
+    "choices": [
+      "took",
+      "take"
+    ],
+    "answer": "took",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "주어 you가 있는 that 생략 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "이미 쉬었어야 한다는 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "알맞은 형태는?",
+        "answer": "과거형 took",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "take": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 took를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-006",
+    "sourceQuestionId": "Q-G60-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-007-PF",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is high time the government (acted / acts) on the issue.",
+    "choices": [
+      "acted",
+      "acts"
+    ],
+    "answer": "acted",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "high time인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "진작 행동했어야 한다는 촉구인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "알맞은 형태는?",
+        "answer": "과거형 acted",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "acts": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 acted를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-007",
+    "sourceQuestionId": "Q-G60-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-008-PF",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time for the meeting (to begin / beginning).",
+    "choices": [
+      "to begin",
+      "beginning"
+    ],
+    "answer": "to begin",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "for+명사 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "단순한 시작 시점을 말하는가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "명사 뒤 형태는?",
+        "answer": "to-V",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "beginning": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 to begin를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-008",
+    "sourceQuestionId": "Q-G60-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-001-DR",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time that you (went / go) home.",
+    "choices": [
+      "went",
+      "go"
+    ],
+    "answer": "went",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "that절인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "이미 했어야 한다는 촉구 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "that절에 쓰는 형태는?",
+        "answer": "동사 과거형",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "go": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 went를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-001",
+    "sourceQuestionId": "Q-G60-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-002-DR",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is high time we (started / start) the project.",
+    "choices": [
+      "started",
+      "start"
+    ],
+    "answer": "started",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "high time인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "진작 시작했어야 한다는 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "주어 뒤 형태는?",
+        "answer": "과거형 started",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "start": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 started를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-002",
+    "sourceQuestionId": "Q-G60-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-003-DR",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is about time she (apologized / apologizes).",
+    "choices": [
+      "apologized",
+      "apologizes"
+    ],
+    "answer": "apologized",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "about time인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "진작 사과했어야 한다는 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "알맞은 형태는?",
+        "answer": "과거형 apologized",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "apologizes": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 apologized를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-003",
+    "sourceQuestionId": "Q-G60-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-004-DR",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time that he should (think / thought) of his future.",
+    "choices": [
+      "think",
+      "thought"
+    ],
+    "answer": "think",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "should가 있는가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "rule",
+        "prompt": "should 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "think",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "thought": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "동사원형.",
+        "따라서 think를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-004",
+    "sourceQuestionId": "Q-G60-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-005-DR",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time for us (to leave / leaving).",
+    "choices": [
+      "to leave",
+      "leaving"
+    ],
+    "answer": "to leave",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "for+목적격 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "단순히 ~할 때라는 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "for us 뒤 형태는?",
+        "answer": "to-V",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "leaving": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 to leave를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-005",
+    "sourceQuestionId": "Q-G60-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-006-DR",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time you (took / take) a break.",
+    "choices": [
+      "took",
+      "take"
+    ],
+    "answer": "took",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "주어 you가 있는 that 생략 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "이미 쉬었어야 한다는 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "알맞은 형태는?",
+        "answer": "과거형 took",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "take": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 took를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-006",
+    "sourceQuestionId": "Q-G60-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-007-DR",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is high time the government (acted / acts) on the issue.",
+    "choices": [
+      "acted",
+      "acts"
+    ],
+    "answer": "acted",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "high time인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "진작 행동했어야 한다는 촉구인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "알맞은 형태는?",
+        "answer": "과거형 acted",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "acts": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 acted를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-007",
+    "sourceQuestionId": "Q-G60-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-008-DR",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "It is time for the meeting (to begin / beginning).",
+    "choices": [
+      "to begin",
+      "beginning"
+    ],
+    "answer": "to begin",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "for+명사 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "단순한 시작 시점을 말하는가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "명사 뒤 형태는?",
+        "answer": "to-V",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "beginning": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "It is time의 that절과 for+목적격+to-V 구조를 구별하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 to begin를 선택한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-008",
+    "sourceQuestionId": "Q-G60-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-001-CT",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is time that you (went / go) home.",
+    "choices": [
+      "went",
+      "go"
+    ],
+    "answer": "go",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "that절인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "이미 했어야 한다는 촉구 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "that절에 쓰는 형태는?",
+        "answer": "동사 과거형",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "went": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "'go'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'went'이다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 went를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'go'이다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-001",
+    "sourceQuestionId": "Q-G60-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-002-CT",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is high time we (started / start) the project.",
+    "choices": [
+      "started",
+      "start"
+    ],
+    "answer": "start",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "high time인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "진작 시작했어야 한다는 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "주어 뒤 형태는?",
+        "answer": "과거형 started",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "started": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "'start'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'started'이다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 started를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'start'이다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-002",
+    "sourceQuestionId": "Q-G60-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-003-CT",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is about time she (apologized / apologizes).",
+    "choices": [
+      "apologized",
+      "apologizes"
+    ],
+    "answer": "apologizes",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "about time인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "진작 사과했어야 한다는 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "알맞은 형태는?",
+        "answer": "과거형 apologized",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "apologized": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "'apologizes'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'apologized'이다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 apologized를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'apologizes'이다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-003",
+    "sourceQuestionId": "Q-G60-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-004-CT",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is time that he should (think / thought) of his future.",
+    "choices": [
+      "thought",
+      "think"
+    ],
+    "answer": "thought",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "should가 있는가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "rule",
+        "prompt": "should 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "think",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "think": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "'thought'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'think'이다.",
+      "summary": [
+        "그렇다.",
+        "동사원형.",
+        "따라서 think를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'thought'이다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-004",
+    "sourceQuestionId": "Q-G60-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-005-CT",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is time for us (to leave / leaving).",
+    "choices": [
+      "leaving",
+      "to leave"
+    ],
+    "answer": "leaving",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "for+목적격 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "단순히 ~할 때라는 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "for us 뒤 형태는?",
+        "answer": "to-V",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to leave": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "'leaving'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to leave'이다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 to leave를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'leaving'이다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-005",
+    "sourceQuestionId": "Q-G60-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-006-CT",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is time you (took / take) a break.",
+    "choices": [
+      "take",
+      "took"
+    ],
+    "answer": "take",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "주어 you가 있는 that 생략 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "이미 쉬었어야 한다는 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "알맞은 형태는?",
+        "answer": "과거형 took",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "took": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "'take'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'took'이다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 took를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'take'이다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-006",
+    "sourceQuestionId": "Q-G60-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-007-CT",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is high time the government (acted / acts) on the issue.",
+    "choices": [
+      "acted",
+      "acts"
+    ],
+    "answer": "acts",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "high time인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "진작 행동했어야 한다는 촉구인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "알맞은 형태는?",
+        "answer": "과거형 acted",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "acted": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "'acts'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'acted'이다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 acted를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'acts'이다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-007",
+    "sourceQuestionId": "Q-G60-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G60-008-CT",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is time for the meeting (to begin / beginning).",
+    "choices": [
+      "to begin",
+      "beginning"
+    ],
+    "answer": "beginning",
+    "decisionSteps": [
+      {
+        "id": "structure",
+        "prompt": "for+명사 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "meaning",
+        "prompt": "단순한 시작 시점을 말하는가?",
+        "answer": "그렇다",
+        "errorCode": "E64_IT_IS_TIME"
+      },
+      {
+        "id": "form",
+        "prompt": "명사 뒤 형태는?",
+        "answer": "to-V",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to begin": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "'beginning'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to begin'이다.",
+      "summary": [
+        "그렇다.",
+        "그렇다.",
+        "따라서 to begin를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'beginning'이다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G60-008",
+    "sourceQuestionId": "Q-G60-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-56AF620DB4",
+    "conceptId": "G60_IT_IS_TIME",
+    "difficulty": 1,
+    "stem": "빠른 확인: It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+    "choices": [
+      "과거형 또는 should+동사원형",
+      "현재형만"
+    ],
+    "answer": "과거형 또는 should+동사원형",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "이미 했어야 할 일에는 It is (high/about) time + S + 과거형 또는 should + 동사원형을 쓰고, 단순한 때에는 for+목적격+to-V를 쓴다.",
+          "Without·But for·If it were not for·Were it not for는 현재 반대, If it had not been for·Had it not been for는 과거 반대이며 주절 형태와 맞춘다."
+        ],
+        "answer": "이미 했어야 할 일에는 It is (high/about) time + S + 과거형 또는 should + 동사원형을 쓰고, 단순한 때에는 for+목적격+to-V를 쓴다.",
+        "errorCode": "E64_IT_IS_TIME"
+      }
+    ],
+    "misconceptionByChoice": {
+      "현재형만": "E64_IT_IS_TIME"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "이미 했어야 할 일에는 It is (high/about) time + S + 과거형 또는 should + 동사원형을 쓰고, 단순한 때에는 for+목적격+to-V를 쓴다.",
+        "그렇다.",
+        "그렇다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G60",
+      "checkQuestion": {
+        "prompt": "It is time that + 주어 뒤에는 무엇을 쓸 수 있는가?",
+        "choices": [
+          "과거형 또는 should+동사원형",
+          "현재형만"
+        ],
+        "answer": "과거형 또는 should+동사원형"
+      },
+      "transferQuestionId": "Q-G60-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-56AF620DB4",
+    "sourceQuestionId": "Q-G60-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

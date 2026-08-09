@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G76-001",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 1,
+    "stem": "We would like to work with (another / other) company.",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "another",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 단수 company",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 다른 하나",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "another",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "other": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤 명사는 단수 company",
+        "불특정한 다른 하나",
+        "따라서 another를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-001",
+    "sourceQuestionId": "Q-G76-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-002",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 1,
+    "stem": "You need (another / other) people to guide you.",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 복수 people",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 다른 여러 대상",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "other",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤 명사는 복수 people",
+        "불특정한 다른 여러 대상",
+        "따라서 other를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-002",
+    "sourceQuestionId": "Q-G76-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-003",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 1,
+    "stem": "There are (another / other) ways to solve the problem.",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 복수 ways",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정 복수명사 앞",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "other",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤 명사는 복수 ways",
+        "불특정 복수명사 앞",
+        "따라서 other를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-003",
+    "sourceQuestionId": "Q-G76-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-004",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 2,
+    "stem": "Some of my friends like snowboarding, but (others / the others) prefer skiing.",
+    "choices": [
+      "others",
+      "the others"
+    ],
+    "answer": "others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 범위의 나머지가 모두 스키라는 근거가 없음",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 다른 몇몇",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the others": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "전체 범위의 나머지가 모두 스키라는 근거가 없음",
+        "불특정한 다른 몇몇",
+        "따라서 others를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-004",
+    "sourceQuestionId": "Q-G76-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-005",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 2,
+    "stem": "Ten students took the test. Three failed, and (others / the others) passed.",
+    "choices": [
+      "others",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 열 명의 범위가 정해짐",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "세 명을 제외한 나머지 전부",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "others": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "전체 열 명의 범위가 정해짐",
+        "세 명을 제외한 나머지 전부",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-005",
+    "sourceQuestionId": "Q-G76-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-006",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 2,
+    "stem": "Some books are easy; (other / others) are difficult.",
+    "choices": [
+      "other",
+      "others"
+    ],
+    "answer": "others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤에 명사가 없음",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정 복수 대상을 대명사로 받음",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "other": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤에 명사가 없음",
+        "불특정 복수 대상을 대명사로 받음",
+        "따라서 others를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-006",
+    "sourceQuestionId": "Q-G76-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-007",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 3,
+    "stem": "I have five pens. Two are red, and (others / the others) are blue.",
+    "choices": [
+      "others",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "다섯 자루라는 전체 범위가 정해짐",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "두 자루를 제외한 나머지 전부",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "others": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "다섯 자루라는 전체 범위가 정해짐",
+        "두 자루를 제외한 나머지 전부",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-007",
+    "sourceQuestionId": "Q-G76-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 66,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-008",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 3,
+    "stem": "Do you have (another / other) question?",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "another",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 단수 question",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 질문 하나를 더 요청함",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "another",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "other": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤 명사는 단수 question",
+        "불특정한 질문 하나를 더 요청함",
+        "따라서 another를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-008",
+    "sourceQuestionId": "Q-G76-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-001-PF",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 1,
+    "stem": "We would like to work with (another / other) company.",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "another",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 단수 company",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 다른 하나",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "another",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "other": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤 명사는 단수 company",
+        "불특정한 다른 하나",
+        "따라서 another를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-001",
+    "sourceQuestionId": "Q-G76-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-002-PF",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 1,
+    "stem": "You need (another / other) people to guide you.",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 복수 people",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 다른 여러 대상",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "other",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤 명사는 복수 people",
+        "불특정한 다른 여러 대상",
+        "따라서 other를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-002",
+    "sourceQuestionId": "Q-G76-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-003-PF",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 1,
+    "stem": "There are (another / other) ways to solve the problem.",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 복수 ways",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정 복수명사 앞",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "other",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤 명사는 복수 ways",
+        "불특정 복수명사 앞",
+        "따라서 other를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-003",
+    "sourceQuestionId": "Q-G76-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-004-PF",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 2,
+    "stem": "Some of my friends like snowboarding, but (others / the others) prefer skiing.",
+    "choices": [
+      "others",
+      "the others"
+    ],
+    "answer": "others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 범위의 나머지가 모두 스키라는 근거가 없음",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 다른 몇몇",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the others": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "전체 범위의 나머지가 모두 스키라는 근거가 없음",
+        "불특정한 다른 몇몇",
+        "따라서 others를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-004",
+    "sourceQuestionId": "Q-G76-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-005-PF",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 2,
+    "stem": "Ten students took the test. Three failed, and (others / the others) passed.",
+    "choices": [
+      "others",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 열 명의 범위가 정해짐",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "세 명을 제외한 나머지 전부",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "others": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "전체 열 명의 범위가 정해짐",
+        "세 명을 제외한 나머지 전부",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-005",
+    "sourceQuestionId": "Q-G76-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-006-PF",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 2,
+    "stem": "Some books are easy; (other / others) are difficult.",
+    "choices": [
+      "other",
+      "others"
+    ],
+    "answer": "others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤에 명사가 없음",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정 복수 대상을 대명사로 받음",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "other": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤에 명사가 없음",
+        "불특정 복수 대상을 대명사로 받음",
+        "따라서 others를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-006",
+    "sourceQuestionId": "Q-G76-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-007-PF",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 3,
+    "stem": "I have five pens. Two are red, and (others / the others) are blue.",
+    "choices": [
+      "others",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "다섯 자루라는 전체 범위가 정해짐",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "두 자루를 제외한 나머지 전부",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "others": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "다섯 자루라는 전체 범위가 정해짐",
+        "두 자루를 제외한 나머지 전부",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-007",
+    "sourceQuestionId": "Q-G76-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 74,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-008-PF",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 3,
+    "stem": "Do you have (another / other) question?",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "another",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 단수 question",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 질문 하나를 더 요청함",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "another",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "other": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤 명사는 단수 question",
+        "불특정한 질문 하나를 더 요청함",
+        "따라서 another를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-008",
+    "sourceQuestionId": "Q-G76-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-001-DR",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 1,
+    "stem": "We would like to work with (another / other) company.",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "another",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 단수 company",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 다른 하나",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "another",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "other": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤 명사는 단수 company",
+        "불특정한 다른 하나",
+        "따라서 another를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-001",
+    "sourceQuestionId": "Q-G76-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-002-DR",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 1,
+    "stem": "You need (another / other) people to guide you.",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 복수 people",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 다른 여러 대상",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "other",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤 명사는 복수 people",
+        "불특정한 다른 여러 대상",
+        "따라서 other를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-002",
+    "sourceQuestionId": "Q-G76-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-003-DR",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 1,
+    "stem": "There are (another / other) ways to solve the problem.",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 복수 ways",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정 복수명사 앞",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "other",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤 명사는 복수 ways",
+        "불특정 복수명사 앞",
+        "따라서 other를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-003",
+    "sourceQuestionId": "Q-G76-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-004-DR",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 2,
+    "stem": "Some of my friends like snowboarding, but (others / the others) prefer skiing.",
+    "choices": [
+      "others",
+      "the others"
+    ],
+    "answer": "others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 범위의 나머지가 모두 스키라는 근거가 없음",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 다른 몇몇",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the others": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "전체 범위의 나머지가 모두 스키라는 근거가 없음",
+        "불특정한 다른 몇몇",
+        "따라서 others를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-004",
+    "sourceQuestionId": "Q-G76-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-005-DR",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 2,
+    "stem": "Ten students took the test. Three failed, and (others / the others) passed.",
+    "choices": [
+      "others",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 열 명의 범위가 정해짐",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "세 명을 제외한 나머지 전부",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "others": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "전체 열 명의 범위가 정해짐",
+        "세 명을 제외한 나머지 전부",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-005",
+    "sourceQuestionId": "Q-G76-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-006-DR",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 2,
+    "stem": "Some books are easy; (other / others) are difficult.",
+    "choices": [
+      "other",
+      "others"
+    ],
+    "answer": "others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤에 명사가 없음",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정 복수 대상을 대명사로 받음",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "other": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤에 명사가 없음",
+        "불특정 복수 대상을 대명사로 받음",
+        "따라서 others를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-006",
+    "sourceQuestionId": "Q-G76-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-007-DR",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 3,
+    "stem": "I have five pens. Two are red, and (others / the others) are blue.",
+    "choices": [
+      "others",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "다섯 자루라는 전체 범위가 정해짐",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "두 자루를 제외한 나머지 전부",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "others": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "다섯 자루라는 전체 범위가 정해짐",
+        "두 자루를 제외한 나머지 전부",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-007",
+    "sourceQuestionId": "Q-G76-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-008-DR",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 3,
+    "stem": "Do you have (another / other) question?",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "another",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 단수 question",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 질문 하나를 더 요청함",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "another",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "other": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "단수·복수와 특정·불특정 범위를 함께 확인하지 않았다.",
+      "summary": [
+        "뒤 명사는 단수 question",
+        "불특정한 질문 하나를 더 요청함",
+        "따라서 another를 선택한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-008",
+    "sourceQuestionId": "Q-G76-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-001-CT",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe would like to work with (another / other) company.",
+    "choices": [
+      "other",
+      "another"
+    ],
+    "answer": "other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 단수 company",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 다른 하나",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "another",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "'other'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'another'이다.",
+      "summary": [
+        "뒤 명사는 단수 company",
+        "불특정한 다른 하나",
+        "따라서 another를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'other'이다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-001",
+    "sourceQuestionId": "Q-G76-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-002-CT",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nYou need (another / other) people to guide you.",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "another",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 복수 people",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 다른 여러 대상",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "other",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "other": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "'another'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'other'이다.",
+      "summary": [
+        "뒤 명사는 복수 people",
+        "불특정한 다른 여러 대상",
+        "따라서 other를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'another'이다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-002",
+    "sourceQuestionId": "Q-G76-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-003-CT",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThere are (another / other) ways to solve the problem.",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "another",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 복수 ways",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정 복수명사 앞",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "other",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "other": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "'another'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'other'이다.",
+      "summary": [
+        "뒤 명사는 복수 ways",
+        "불특정 복수명사 앞",
+        "따라서 other를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'another'이다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-003",
+    "sourceQuestionId": "Q-G76-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-004-CT",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nSome of my friends like snowboarding, but (others / the others) prefer skiing.",
+    "choices": [
+      "the others",
+      "others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 범위의 나머지가 모두 스키라는 근거가 없음",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 다른 몇몇",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "others": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "'the others'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'others'이다.",
+      "summary": [
+        "전체 범위의 나머지가 모두 스키라는 근거가 없음",
+        "불특정한 다른 몇몇",
+        "따라서 others를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'the others'이다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-004",
+    "sourceQuestionId": "Q-G76-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-005-CT",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nTen students took the test. Three failed, and (others / the others) passed.",
+    "choices": [
+      "the others",
+      "others"
+    ],
+    "answer": "others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 열 명의 범위가 정해짐",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "세 명을 제외한 나머지 전부",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the others": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "'others'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'the others'이다.",
+      "summary": [
+        "전체 열 명의 범위가 정해짐",
+        "세 명을 제외한 나머지 전부",
+        "따라서 the others를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'others'이다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-005",
+    "sourceQuestionId": "Q-G76-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-006-CT",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nSome books are easy; (other / others) are difficult.",
+    "choices": [
+      "others",
+      "other"
+    ],
+    "answer": "other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤에 명사가 없음",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정 복수 대상을 대명사로 받음",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "others": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "'other'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'others'이다.",
+      "summary": [
+        "뒤에 명사가 없음",
+        "불특정 복수 대상을 대명사로 받음",
+        "따라서 others를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'other'이다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-006",
+    "sourceQuestionId": "Q-G76-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-007-CT",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI have five pens. Two are red, and (others / the others) are blue.",
+    "choices": [
+      "the others",
+      "others"
+    ],
+    "answer": "others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "다섯 자루라는 전체 범위가 정해짐",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "두 자루를 제외한 나머지 전부",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the others": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "'others'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'the others'이다.",
+      "summary": [
+        "다섯 자루라는 전체 범위가 정해짐",
+        "두 자루를 제외한 나머지 전부",
+        "따라서 the others를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'others'이다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-007",
+    "sourceQuestionId": "Q-G76-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G76-008-CT",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nDo you have (another / other) question?",
+    "choices": [
+      "another",
+      "other"
+    ],
+    "answer": "other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤 명사는 단수 question",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "불특정한 질문 하나를 더 요청함",
+        "errorCode": "E80_OTHER_OTHERS"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "another",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "'other'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'another'이다.",
+      "summary": [
+        "뒤 명사는 단수 question",
+        "불특정한 질문 하나를 더 요청함",
+        "따라서 another를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'other'이다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G76-008",
+    "sourceQuestionId": "Q-G76-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-F6622466F6",
+    "conceptId": "G76_OTHER_OTHERS_SYSTEM",
+    "difficulty": 1,
+    "stem": "빠른 확인: 불특정 복수명사 앞에는 무엇을 쓰는가?",
+    "choices": [
+      "other",
+      "another"
+    ],
+    "answer": "other",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "불특정 단수는 another+단수명사, 불특정 복수는 other+복수명사 또는 others, 정해진 나머지 전부는 the others를 쓴다.",
+          "앞 명사와 종류는 같지만 동일한 대상은 아닐 때 명사의 반복을 피하려고 단수 one, 복수 ones를 쓴다."
+        ],
+        "answer": "불특정 단수는 another+단수명사, 불특정 복수는 other+복수명사 또는 others, 정해진 나머지 전부는 the others를 쓴다.",
+        "errorCode": "E80_OTHER_OTHERS"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E80_OTHER_OTHERS"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "불특정 단수는 another+단수명사, 불특정 복수는 other+복수명사 또는 others, 정해진 나머지 전부는 the others를 쓴다.",
+        "뒤 명사는 단수 company",
+        "불특정한 다른 하나",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G76",
+      "checkQuestion": {
+        "prompt": "불특정 복수명사 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "other",
+          "another"
+        ],
+        "answer": "other"
+      },
+      "transferQuestionId": "Q-G76-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-F6622466F6",
+    "sourceQuestionId": "Q-G76-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

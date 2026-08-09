@@ -1,0 +1,3102 @@
+[
+  {
+    "id": "Q-G20-001",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It is easy (for / of) beginners to follow this rule.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "for",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "행위의 주체",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 행위의 주체이다.",
+        "행위의 주체이므로 for를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-001",
+    "sourceQuestionId": "Q-G20-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-002",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It was kind (for / of) her to share the notes.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "of",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "사람의 성격 평가",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 사람의 성격 평가이다.",
+        "사람의 성격·태도를 평가하므로 of를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-002",
+    "sourceQuestionId": "Q-G20-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-003",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It is dangerous (for / of) children to cross here alone.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "for",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "행위의 주체",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 행위의 주체이다.",
+        "행위의 주체이므로 for를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-003",
+    "sourceQuestionId": "Q-G20-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-004",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It was careless (for / of) him to leave the door open.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "of",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "사람의 태도 평가",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 사람의 태도 평가이다.",
+        "사람의 성격·태도를 평가하므로 of를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-004",
+    "sourceQuestionId": "Q-G20-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-005",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It is necessary (for / of) the team to verify the data.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "for",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "행위의 주체",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 행위의 주체이다.",
+        "행위의 주체이므로 for를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-005",
+    "sourceQuestionId": "Q-G20-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-006",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It was generous (for / of) you to offer help.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "of",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "사람의 성격 평가",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 사람의 성격 평가이다.",
+        "사람의 성격·태도를 평가하므로 of를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-006",
+    "sourceQuestionId": "Q-G20-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-001-PF",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It is easy (for / of) beginners to follow this rule.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "for",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "행위의 주체",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 행위의 주체이다.",
+        "행위의 주체이므로 for를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-001",
+    "sourceQuestionId": "Q-G20-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-002-PF",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It was kind (for / of) her to share the notes.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "of",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "사람의 성격 평가",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 사람의 성격 평가이다.",
+        "사람의 성격·태도를 평가하므로 of를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-002",
+    "sourceQuestionId": "Q-G20-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-003-PF",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It is dangerous (for / of) children to cross here alone.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "for",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "행위의 주체",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 행위의 주체이다.",
+        "행위의 주체이므로 for를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-003",
+    "sourceQuestionId": "Q-G20-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-004-PF",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It was careless (for / of) him to leave the door open.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "of",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "사람의 태도 평가",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 사람의 태도 평가이다.",
+        "사람의 성격·태도를 평가하므로 of를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-004",
+    "sourceQuestionId": "Q-G20-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-005-PF",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It is necessary (for / of) the team to verify the data.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "for",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "행위의 주체",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 행위의 주체이다.",
+        "행위의 주체이므로 for를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-005",
+    "sourceQuestionId": "Q-G20-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-006-PF",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It was generous (for / of) you to offer help.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "of",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "사람의 성격 평가",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 사람의 성격 평가이다.",
+        "사람의 성격·태도를 평가하므로 of를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-006",
+    "sourceQuestionId": "Q-G20-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-001-DR",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It is easy (for / of) beginners to follow this rule.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "for",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "행위의 주체",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 행위의 주체이다.",
+        "행위의 주체이므로 for를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-001",
+    "sourceQuestionId": "Q-G20-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-002-DR",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It was kind (for / of) her to share the notes.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "of",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "사람의 성격 평가",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 사람의 성격 평가이다.",
+        "사람의 성격·태도를 평가하므로 of를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-002",
+    "sourceQuestionId": "Q-G20-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-003-DR",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It is dangerous (for / of) children to cross here alone.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "for",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "행위의 주체",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 행위의 주체이다.",
+        "행위의 주체이므로 for를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-003",
+    "sourceQuestionId": "Q-G20-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-004-DR",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It was careless (for / of) him to leave the door open.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "of",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "사람의 태도 평가",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 사람의 태도 평가이다.",
+        "사람의 성격·태도를 평가하므로 of를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-004",
+    "sourceQuestionId": "Q-G20-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-005-DR",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It is necessary (for / of) the team to verify the data.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "for",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "행위의 주체",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 행위의 주체이다.",
+        "행위의 주체이므로 for를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-005",
+    "sourceQuestionId": "Q-G20-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-006-DR",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "It was generous (for / of) you to offer help.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "of",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "사람의 성격 평가",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "to부정사의 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 사람의 성격 평가이다.",
+        "사람의 성격·태도를 평가하므로 of를 쓴다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-006",
+    "sourceQuestionId": "Q-G20-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-001-CT",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is easy (for / of) beginners to follow this rule.",
+    "choices": [
+      "of",
+      "for"
+    ],
+    "answer": "of",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "행위의 주체",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "'of'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'for'이다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 행위의 주체이다.",
+        "행위의 주체이므로 for를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'of'이다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-001",
+    "sourceQuestionId": "Q-G20-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-002-CT",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt was kind (for / of) her to share the notes.",
+    "choices": [
+      "of",
+      "for"
+    ],
+    "answer": "for",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "사람의 성격 평가",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "'for'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'of'이다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 사람의 성격 평가이다.",
+        "사람의 성격·태도를 평가하므로 of를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'for'이다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-002",
+    "sourceQuestionId": "Q-G20-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-003-CT",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is dangerous (for / of) children to cross here alone.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "of",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "행위의 주체",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "'of'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'for'이다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 행위의 주체이다.",
+        "행위의 주체이므로 for를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'of'이다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-003",
+    "sourceQuestionId": "Q-G20-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-004-CT",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt was careless (for / of) him to leave the door open.",
+    "choices": [
+      "of",
+      "for"
+    ],
+    "answer": "for",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "사람의 태도 평가",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "'for'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'of'이다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 사람의 태도 평가이다.",
+        "사람의 성격·태도를 평가하므로 of를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'for'이다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-004",
+    "sourceQuestionId": "Q-G20-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-005-CT",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is necessary (for / of) the team to verify the data.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "of",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "행위의 주체",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "'of'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'for'이다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 행위의 주체이다.",
+        "행위의 주체이므로 for를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'of'이다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-005",
+    "sourceQuestionId": "Q-G20-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G20-006-CT",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt was generous (for / of) you to offer help.",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "for",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "to-V의 실제 행위자를 표시하는가?",
+        "answer": "그렇다",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "kind",
+        "prompt": "형용사는 일반 행위 조건인가, 사람의 성격·태도 평가인가?",
+        "answer": "사람의 성격 평가",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "'for'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'of'이다.",
+      "summary": [
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 사람의 성격 평가이다.",
+        "사람의 성격·태도를 평가하므로 of를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'for'이다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G20-006",
+    "sourceQuestionId": "Q-G20-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-BE6237F517",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 1,
+    "stem": "빠른 확인: 일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+    "choices": [
+      "for",
+      "of"
+    ],
+    "answer": "for",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "to부정사만 부정할 때는 not을 to 앞에 둔다.",
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다."
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "to-V의 실제 행위자를 찾는다.",
+        "이 문장은 행위의 주체이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "일반적인 행위 주체 앞에는 무엇을 쓰는가?",
+        "choices": [
+          "for",
+          "of"
+        ],
+        "answer": "for"
+      },
+      "transferQuestionId": "Q-G20-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-BE6237F517",
+    "sourceQuestionId": "Q-G20-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-045-17611008",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 2,
+    "stem": "It was very considerate [of him / for him] to reschedule the wedding since I might be unable to make it that day.",
+    "choices": [
+      "of him",
+      "for him"
+    ],
+    "answer": "of him",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 의미상 주어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 의미상 주어",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for him": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "일반 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "to-V의 실제 행위자를 찾는다",
+        "일반 행위자면 for, 성격 평가면 of를 선택한다"
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-045-72610225",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-045-17611008",
+    "sourceQuestionId": "Q-P21-G-045-17611008",
+    "sourceCandidateId": "CAND-G-045-17611008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 45,
+      "asset": "assets/source-evidence/phase21/grammar-page-045.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-045-17611008",
+      "evidenceRef": "SRC-P21-G-045",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 22,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-045-17611008-PF",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 2,
+    "stem": "It was very considerate [of him / for him] to reschedule the wedding since I might be unable to make it that day.",
+    "choices": [
+      "of him",
+      "for him"
+    ],
+    "answer": "of him",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 의미상 주어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 의미상 주어",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for him": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "일반 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "to-V의 실제 행위자를 찾는다",
+        "일반 행위자면 for, 성격 평가면 of를 선택한다"
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-045-72610225",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-045-17611008",
+    "sourceQuestionId": "Q-P21-G-045-17611008",
+    "sourceCandidateId": "CAND-G-045-17611008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 45,
+      "asset": "assets/source-evidence/phase21/grammar-page-045.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-045-17611008",
+      "evidenceRef": "SRC-P21-G-045",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 22,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-045-17611008-DR",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 2,
+    "stem": "It was very considerate [of him / for him] to reschedule the wedding since I might be unable to make it that day.",
+    "choices": [
+      "of him",
+      "for him"
+    ],
+    "answer": "of him",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 의미상 주어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 의미상 주어",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for him": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "일반 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "to-V의 실제 행위자를 찾는다",
+        "일반 행위자면 for, 성격 평가면 of를 선택한다"
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-045-72610225",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-045-17611008",
+    "sourceQuestionId": "Q-P21-G-045-17611008",
+    "sourceCandidateId": "CAND-G-045-17611008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 45,
+      "asset": "assets/source-evidence/phase21/grammar-page-045.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-045-17611008",
+      "evidenceRef": "SRC-P21-G-045",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 22,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-045-17611008-CT",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt was very considerate [of him / for him] to reschedule the wedding since I might be unable to make it that day.",
+    "choices": [
+      "for him",
+      "of him"
+    ],
+    "answer": "for him",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 의미상 주어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 의미상 주어",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of him": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "'for him'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'of him'이다.",
+      "summary": [
+        "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "to-V의 실제 행위자를 찾는다",
+        "일반 행위자면 for, 성격 평가면 of를 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'for him'를 고른다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-045-17611008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-045-17611008",
+    "sourceQuestionId": "Q-P21-G-045-17611008",
+    "sourceCandidateId": "CAND-G-045-17611008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 45,
+      "asset": "assets/source-evidence/phase21/grammar-page-045.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-045-17611008",
+      "evidenceRef": "SRC-P21-G-045",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 22,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-045-72610225",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 2,
+    "stem": "It is dangerous [for you / of you] to swim in this river.",
+    "choices": [
+      "for you",
+      "of you"
+    ],
+    "answer": "for you",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 의미상 주어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 의미상 주어",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of you": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "일반 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "to-V의 실제 행위자를 찾는다",
+        "일반 행위자면 for, 성격 평가면 of를 선택한다"
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-045-17611008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-045-72610225",
+    "sourceQuestionId": "Q-P21-G-045-72610225",
+    "sourceCandidateId": "CAND-G-045-72610225",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 45,
+      "asset": "assets/source-evidence/phase21/grammar-page-045.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-045-72610225",
+      "evidenceRef": "SRC-P21-G-045",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-045-72610225-PF",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 2,
+    "stem": "It is dangerous [for you / of you] to swim in this river.",
+    "choices": [
+      "for you",
+      "of you"
+    ],
+    "answer": "for you",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 의미상 주어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 의미상 주어",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of you": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "일반 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "to-V의 실제 행위자를 찾는다",
+        "일반 행위자면 for, 성격 평가면 of를 선택한다"
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-045-17611008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-045-72610225",
+    "sourceQuestionId": "Q-P21-G-045-72610225",
+    "sourceCandidateId": "CAND-G-045-72610225",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 45,
+      "asset": "assets/source-evidence/phase21/grammar-page-045.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-045-72610225",
+      "evidenceRef": "SRC-P21-G-045",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-045-72610225-DR",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 2,
+    "stem": "It is dangerous [for you / of you] to swim in this river.",
+    "choices": [
+      "for you",
+      "of you"
+    ],
+    "answer": "for you",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 의미상 주어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 의미상 주어",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of you": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "일반 행위자와 사람의 성격 평가를 구별하지 못했다.",
+      "summary": [
+        "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "to-V의 실제 행위자를 찾는다",
+        "일반 행위자면 for, 성격 평가면 of를 선택한다"
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-045-17611008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-045-72610225",
+    "sourceQuestionId": "Q-P21-G-045-72610225",
+    "sourceCandidateId": "CAND-G-045-72610225",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 45,
+      "asset": "assets/source-evidence/phase21/grammar-page-045.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-045-72610225",
+      "evidenceRef": "SRC-P21-G-045",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-045-72610225-CT",
+    "conceptId": "G20_LOGICAL_SUBJECT_TO_INF",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is dangerous [for you / of you] to swim in this river.",
+    "choices": [
+      "for you",
+      "of you"
+    ],
+    "answer": "of you",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 의미상 주어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 의미상 주어",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "errorCode": "E24_LOGICAL_SUBJECT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "for you": "E24_LOGICAL_SUBJECT"
+    },
+    "remediation": {
+      "diagnosis": "'of you'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'for you'이다.",
+      "summary": [
+        "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+        "to-V의 실제 행위자를 찾는다",
+        "일반 행위자면 for, 성격 평가면 of를 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'of you'를 고른다."
+      ],
+      "sourceRef": "SRC-G20",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "일반적인 행위 주체는 for+목적격, 사람의 성격·태도를 평가하면 of+목적격을 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-045-72610225",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-045-72610225",
+    "sourceQuestionId": "Q-P21-G-045-72610225",
+    "sourceCandidateId": "CAND-G-045-72610225",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 45,
+      "asset": "assets/source-evidence/phase21/grammar-page-045.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-045-72610225",
+      "evidenceRef": "SRC-P21-G-045",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

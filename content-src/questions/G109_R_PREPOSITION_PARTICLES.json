@@ -1,0 +1,3914 @@
+[
+  {
+    "id": "Q-R13-109-01",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "11. 조사의 활용",
+    "stem": "value of acquiring scientific knowledge",
+    "choices": [
+      "~을 위한",
+      "~의"
+    ],
+    "answer": "~의",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "value / of acquiring scientific knowledge → 과학 지식을 습득하는 것의 가치",
+    "sourcePreviewRef": "SRC-R13-LINK2",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "~을 위한": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 ~의이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「~의」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-109-01",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "value"
+        },
+        {
+          "index": 1,
+          "text": "of"
+        },
+        {
+          "index": 2,
+          "text": "acquiring"
+        },
+        {
+          "index": 3,
+          "text": "scientific"
+        },
+        {
+          "index": 4,
+          "text": "knowledge"
+        }
+      ],
+      "expectedBreaks": [
+        1
+      ],
+      "focusTargets": [
+        1
+      ],
+      "underlineRanges": [],
+      "focusLabel": "전치사",
+      "instruction": "전치사를 표시하고 조사 의미로 연결합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-109-01",
+    "sourceQuestionId": "Q-R13-109-01",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 91,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 5,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-02",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "11. 조사의 활용",
+    "stem": "benefits of building relationships among scientists",
+    "choices": [
+      "과학자들 사이에서",
+      "과학자들에 의해"
+    ],
+    "answer": "과학자들 사이에서",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "benefits / of building relationships / among scientists",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "과학자들에 의해": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 과학자들 사이에서이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「과학자들 사이에서」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-109-02",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "benefits"
+        },
+        {
+          "index": 1,
+          "text": "of"
+        },
+        {
+          "index": 2,
+          "text": "building"
+        },
+        {
+          "index": 3,
+          "text": "relationships"
+        },
+        {
+          "index": 4,
+          "text": "among"
+        },
+        {
+          "index": 5,
+          "text": "scientists"
+        }
+      ],
+      "expectedBreaks": [
+        1,
+        4
+      ],
+      "focusTargets": [
+        1,
+        4
+      ],
+      "underlineRanges": [],
+      "focusLabel": "전치사",
+      "instruction": "전치사를 표시하고 조사 의미로 연결합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-109-02",
+    "sourceQuestionId": "Q-R13-109-02",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 103,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-03",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "11. 조사의 활용",
+    "stem": "curiosity as a key factor in designing experiments",
+    "choices": [
+      "~로서 / ~하는 데",
+      "~때문에 / ~에게"
+    ],
+    "answer": "~로서 / ~하는 데",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "curiosity / as a key factor / in designing experiments",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "~때문에 / ~에게": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 ~로서 / ~하는 데이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「~로서 / ~하는 데」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-109-03",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "curiosity"
+        },
+        {
+          "index": 1,
+          "text": "as"
+        },
+        {
+          "index": 2,
+          "text": "a"
+        },
+        {
+          "index": 3,
+          "text": "key"
+        },
+        {
+          "index": 4,
+          "text": "factor"
+        },
+        {
+          "index": 5,
+          "text": "in"
+        },
+        {
+          "index": 6,
+          "text": "designing"
+        },
+        {
+          "index": 7,
+          "text": "experiments"
+        }
+      ],
+      "expectedBreaks": [
+        1,
+        5
+      ],
+      "focusTargets": [
+        1,
+        5
+      ],
+      "underlineRanges": [],
+      "focusLabel": "전치사",
+      "instruction": "전치사를 표시하고 조사 의미로 연결합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-109-03",
+    "sourceQuestionId": "Q-R13-109-03",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 108,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-04",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "11. 조사의 활용",
+    "stem": "You can improve English by practicing every day.",
+    "choices": [
+      "연습함으로써",
+      "연습하는 동안"
+    ],
+    "answer": "연습함으로써",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "You can improve English / by practicing every day.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "연습하는 동안": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 연습함으로써이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「연습함으로써」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-109-04",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "You"
+        },
+        {
+          "index": 1,
+          "text": "can"
+        },
+        {
+          "index": 2,
+          "text": "improve"
+        },
+        {
+          "index": 3,
+          "text": "English"
+        },
+        {
+          "index": 4,
+          "text": "by"
+        },
+        {
+          "index": 5,
+          "text": "practicing"
+        },
+        {
+          "index": 6,
+          "text": "every"
+        },
+        {
+          "index": 7,
+          "text": "day"
+        },
+        {
+          "index": 8,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        4
+      ],
+      "focusTargets": [
+        4
+      ],
+      "underlineRanges": [],
+      "focusLabel": "전치사",
+      "instruction": "전치사를 표시하고 조사 의미로 연결합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-109-04",
+    "sourceQuestionId": "Q-R13-109-04",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 98,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-05",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "11. 조사의 활용",
+    "stem": "She was affected by the news of her friend’s death.",
+    "choices": [
+      "친구 죽음의 소식에 의해",
+      "친구 죽음을 위해"
+    ],
+    "answer": "친구 죽음의 소식에 의해",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "She was affected / by the news / of her friend’s death.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "친구 죽음을 위해": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 친구 죽음의 소식에 의해이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「친구 죽음의 소식에 의해」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-109-05",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "She"
+        },
+        {
+          "index": 1,
+          "text": "was"
+        },
+        {
+          "index": 2,
+          "text": "affected"
+        },
+        {
+          "index": 3,
+          "text": "by"
+        },
+        {
+          "index": 4,
+          "text": "the"
+        },
+        {
+          "index": 5,
+          "text": "news"
+        },
+        {
+          "index": 6,
+          "text": "of"
+        },
+        {
+          "index": 7,
+          "text": "her"
+        },
+        {
+          "index": 8,
+          "text": "friend’s"
+        },
+        {
+          "index": 9,
+          "text": "death"
+        },
+        {
+          "index": 10,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        3,
+        6
+      ],
+      "focusTargets": [
+        3,
+        6
+      ],
+      "underlineRanges": [],
+      "focusLabel": "전치사",
+      "instruction": "전치사를 표시하고 조사 의미로 연결합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-109-05",
+    "sourceQuestionId": "Q-R13-109-05",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 51,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 122,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-06",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "11. 조사의 활용",
+    "stem": "Obstacles to chimps in assigning roles for group hunting",
+    "choices": [
+      "침팬지에게 / 배정하는 데 / 사냥을 위한",
+      "침팬지의 / 배정함으로써 / 사냥보다"
+    ],
+    "answer": "침팬지에게 / 배정하는 데 / 사냥을 위한",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "Obstacles / to chimps / in assigning roles / for group hunting",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "침팬지의 / 배정함으로써 / 사냥보다": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 침팬지에게 / 배정하는 데 / 사냥을 위한이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「침팬지에게 / 배정하는 데 / 사냥을 위한」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-109-06",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "Obstacles"
+        },
+        {
+          "index": 1,
+          "text": "to"
+        },
+        {
+          "index": 2,
+          "text": "chimps"
+        },
+        {
+          "index": 3,
+          "text": "in"
+        },
+        {
+          "index": 4,
+          "text": "assigning"
+        },
+        {
+          "index": 5,
+          "text": "roles"
+        },
+        {
+          "index": 6,
+          "text": "for"
+        },
+        {
+          "index": 7,
+          "text": "group"
+        },
+        {
+          "index": 8,
+          "text": "hunting"
+        }
+      ],
+      "expectedBreaks": [
+        1,
+        3,
+        6
+      ],
+      "focusTargets": [
+        1,
+        3,
+        6
+      ],
+      "underlineRanges": [],
+      "focusLabel": "전치사",
+      "instruction": "전치사를 표시하고 조사 의미로 연결합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-109-06",
+    "sourceQuestionId": "Q-R13-109-06",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 54,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 130,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 3,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-01-PF",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "value of acquiring scientific knowledge",
+    "choices": [
+      "~을 위한",
+      "~의"
+    ],
+    "answer": "~의",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "value / of acquiring scientific knowledge → 과학 지식을 습득하는 것의 가치",
+    "sourcePreviewRef": "SRC-R13-LINK2",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "~을 위한": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 ~의이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「~의」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-109-01-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "value"
+        },
+        {
+          "index": 1,
+          "text": "of"
+        },
+        {
+          "index": 2,
+          "text": "acquiring"
+        },
+        {
+          "index": 3,
+          "text": "scientific"
+        },
+        {
+          "index": 4,
+          "text": "knowledge"
+        }
+      ],
+      "expectedBreaks": [
+        1
+      ],
+      "focusTargets": [
+        1
+      ],
+      "underlineRanges": [],
+      "focusLabel": "전치사",
+      "instruction": "전치사를 표시하고 조사 의미로 연결합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-109-01",
+    "sourceQuestionId": "Q-R13-109-01",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 102,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 5,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-02-PF",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "benefits of building relationships among scientists",
+    "choices": [
+      "과학자들 사이에서",
+      "과학자들에 의해"
+    ],
+    "answer": "과학자들 사이에서",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "benefits / of building relationships / among scientists",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "과학자들에 의해": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 과학자들 사이에서이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「과학자들 사이에서」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-109-02-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "benefits"
+        },
+        {
+          "index": 1,
+          "text": "of"
+        },
+        {
+          "index": 2,
+          "text": "building"
+        },
+        {
+          "index": 3,
+          "text": "relationships"
+        },
+        {
+          "index": 4,
+          "text": "among"
+        },
+        {
+          "index": 5,
+          "text": "scientists"
+        }
+      ],
+      "expectedBreaks": [
+        1,
+        4
+      ],
+      "focusTargets": [
+        1,
+        4
+      ],
+      "underlineRanges": [],
+      "focusLabel": "전치사",
+      "instruction": "전치사를 표시하고 조사 의미로 연결합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-109-02",
+    "sourceQuestionId": "Q-R13-109-02",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 115,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-03-PF",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "curiosity as a key factor in designing experiments",
+    "choices": [
+      "~로서 / ~하는 데",
+      "~때문에 / ~에게"
+    ],
+    "answer": "~로서 / ~하는 데",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "curiosity / as a key factor / in designing experiments",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "~때문에 / ~에게": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 ~로서 / ~하는 데이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「~로서 / ~하는 데」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-109-03-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "curiosity"
+        },
+        {
+          "index": 1,
+          "text": "as"
+        },
+        {
+          "index": 2,
+          "text": "a"
+        },
+        {
+          "index": 3,
+          "text": "key"
+        },
+        {
+          "index": 4,
+          "text": "factor"
+        },
+        {
+          "index": 5,
+          "text": "in"
+        },
+        {
+          "index": 6,
+          "text": "designing"
+        },
+        {
+          "index": 7,
+          "text": "experiments"
+        }
+      ],
+      "expectedBreaks": [
+        1,
+        5
+      ],
+      "focusTargets": [
+        1,
+        5
+      ],
+      "underlineRanges": [],
+      "focusLabel": "전치사",
+      "instruction": "전치사를 표시하고 조사 의미로 연결합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-109-03",
+    "sourceQuestionId": "Q-R13-109-03",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 121,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-04-PF",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "You can improve English by practicing every day.",
+    "choices": [
+      "연습함으로써",
+      "연습하는 동안"
+    ],
+    "answer": "연습함으로써",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "You can improve English / by practicing every day.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "연습하는 동안": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 연습함으로써이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「연습함으로써」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-109-04-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "You"
+        },
+        {
+          "index": 1,
+          "text": "can"
+        },
+        {
+          "index": 2,
+          "text": "improve"
+        },
+        {
+          "index": 3,
+          "text": "English"
+        },
+        {
+          "index": 4,
+          "text": "by"
+        },
+        {
+          "index": 5,
+          "text": "practicing"
+        },
+        {
+          "index": 6,
+          "text": "every"
+        },
+        {
+          "index": 7,
+          "text": "day"
+        },
+        {
+          "index": 8,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        4
+      ],
+      "focusTargets": [
+        4
+      ],
+      "underlineRanges": [],
+      "focusLabel": "전치사",
+      "instruction": "전치사를 표시하고 조사 의미로 연결합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-109-04",
+    "sourceQuestionId": "Q-R13-109-04",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 110,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-05-PF",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "She was affected by the news of her friend’s death.",
+    "choices": [
+      "친구 죽음의 소식에 의해",
+      "친구 죽음을 위해"
+    ],
+    "answer": "친구 죽음의 소식에 의해",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "She was affected / by the news / of her friend’s death.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "친구 죽음을 위해": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 친구 죽음의 소식에 의해이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「친구 죽음의 소식에 의해」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-109-05-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "She"
+        },
+        {
+          "index": 1,
+          "text": "was"
+        },
+        {
+          "index": 2,
+          "text": "affected"
+        },
+        {
+          "index": 3,
+          "text": "by"
+        },
+        {
+          "index": 4,
+          "text": "the"
+        },
+        {
+          "index": 5,
+          "text": "news"
+        },
+        {
+          "index": 6,
+          "text": "of"
+        },
+        {
+          "index": 7,
+          "text": "her"
+        },
+        {
+          "index": 8,
+          "text": "friend’s"
+        },
+        {
+          "index": 9,
+          "text": "death"
+        },
+        {
+          "index": 10,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        3,
+        6
+      ],
+      "focusTargets": [
+        3,
+        6
+      ],
+      "underlineRanges": [],
+      "focusLabel": "전치사",
+      "instruction": "전치사를 표시하고 조사 의미로 연결합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-109-05",
+    "sourceQuestionId": "Q-R13-109-05",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 51,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 137,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-06-PF",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "Obstacles to chimps in assigning roles for group hunting",
+    "choices": [
+      "침팬지에게 / 배정하는 데 / 사냥을 위한",
+      "침팬지의 / 배정함으로써 / 사냥보다"
+    ],
+    "answer": "침팬지에게 / 배정하는 데 / 사냥을 위한",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "Obstacles / to chimps / in assigning roles / for group hunting",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "침팬지의 / 배정함으로써 / 사냥보다": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 침팬지에게 / 배정하는 데 / 사냥을 위한이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「침팬지에게 / 배정하는 데 / 사냥을 위한」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-109-06-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "Obstacles"
+        },
+        {
+          "index": 1,
+          "text": "to"
+        },
+        {
+          "index": 2,
+          "text": "chimps"
+        },
+        {
+          "index": 3,
+          "text": "in"
+        },
+        {
+          "index": 4,
+          "text": "assigning"
+        },
+        {
+          "index": 5,
+          "text": "roles"
+        },
+        {
+          "index": 6,
+          "text": "for"
+        },
+        {
+          "index": 7,
+          "text": "group"
+        },
+        {
+          "index": 8,
+          "text": "hunting"
+        }
+      ],
+      "expectedBreaks": [
+        1,
+        3,
+        6
+      ],
+      "focusTargets": [
+        1,
+        3,
+        6
+      ],
+      "underlineRanges": [],
+      "focusLabel": "전치사",
+      "instruction": "전치사를 표시하고 조사 의미로 연결합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-109-06",
+    "sourceQuestionId": "Q-R13-109-06",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 54,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 146,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 3,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-01-DR",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "value of acquiring scientific knowledge",
+    "choices": [
+      "~을 위한",
+      "~의"
+    ],
+    "answer": "~의",
+    "requiresInk": false,
+    "modelMarkup": "value / of acquiring scientific knowledge → 과학 지식을 습득하는 것의 가치",
+    "sourcePreviewRef": "SRC-R13-LINK2",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "~을 위한": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 ~의이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「~의」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-109-01",
+    "sourceQuestionId": "Q-R13-109-01",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 84,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 5,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-02-DR",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "benefits of building relationships among scientists",
+    "choices": [
+      "과학자들 사이에서",
+      "과학자들에 의해"
+    ],
+    "answer": "과학자들 사이에서",
+    "requiresInk": false,
+    "modelMarkup": "benefits / of building relationships / among scientists",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "과학자들에 의해": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 과학자들 사이에서이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「과학자들 사이에서」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-109-02",
+    "sourceQuestionId": "Q-R13-109-02",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 95,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-03-DR",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "curiosity as a key factor in designing experiments",
+    "choices": [
+      "~로서 / ~하는 데",
+      "~때문에 / ~에게"
+    ],
+    "answer": "~로서 / ~하는 데",
+    "requiresInk": false,
+    "modelMarkup": "curiosity / as a key factor / in designing experiments",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "~때문에 / ~에게": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 ~로서 / ~하는 데이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「~로서 / ~하는 데」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-109-03",
+    "sourceQuestionId": "Q-R13-109-03",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 99,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-04-DR",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "You can improve English by practicing every day.",
+    "choices": [
+      "연습함으로써",
+      "연습하는 동안"
+    ],
+    "answer": "연습함으로써",
+    "requiresInk": false,
+    "modelMarkup": "You can improve English / by practicing every day.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "연습하는 동안": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 연습함으로써이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「연습함으로써」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-109-04",
+    "sourceQuestionId": "Q-R13-109-04",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 90,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-05-DR",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "She was affected by the news of her friend’s death.",
+    "choices": [
+      "친구 죽음의 소식에 의해",
+      "친구 죽음을 위해"
+    ],
+    "answer": "친구 죽음의 소식에 의해",
+    "requiresInk": false,
+    "modelMarkup": "She was affected / by the news / of her friend’s death.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "친구 죽음을 위해": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 친구 죽음의 소식에 의해이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「친구 죽음의 소식에 의해」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-109-05",
+    "sourceQuestionId": "Q-R13-109-05",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 51,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 112,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-06-DR",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "Obstacles to chimps in assigning roles for group hunting",
+    "choices": [
+      "침팬지에게 / 배정하는 데 / 사냥을 위한",
+      "침팬지의 / 배정함으로써 / 사냥보다"
+    ],
+    "answer": "침팬지에게 / 배정하는 데 / 사냥을 위한",
+    "requiresInk": false,
+    "modelMarkup": "Obstacles / to chimps / in assigning roles / for group hunting",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "침팬지의 / 배정함으로써 / 사냥보다": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "전치사를 단어 뜻만으로 처리해 문장이 끊겼다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 침팬지에게 / 배정하는 데 / 사냥을 위한이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「침팬지에게 / 배정하는 데 / 사냥을 위한」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-109-06",
+    "sourceQuestionId": "Q-R13-109-06",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 54,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 120,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 3,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-01-CT",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nvalue of acquiring scientific knowledge",
+    "choices": [
+      "~을 위한",
+      "~의"
+    ],
+    "answer": "~을 위한",
+    "requiresInk": false,
+    "modelMarkup": "value / of acquiring scientific knowledge → 과학 지식을 습득하는 것의 가치",
+    "sourcePreviewRef": "SRC-R13-LINK2",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "~의": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "'~을 위한'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '~의'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 ~의이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '~을 위한'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「~의」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-109-01"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-109-01",
+    "sourceQuestionId": "Q-R13-109-01",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 82,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 5,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-02-CT",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nbenefits of building relationships among scientists",
+    "choices": [
+      "과학자들 사이에서",
+      "과학자들에 의해"
+    ],
+    "answer": "과학자들에 의해",
+    "requiresInk": false,
+    "modelMarkup": "benefits / of building relationships / among scientists",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "과학자들 사이에서": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "'과학자들에 의해'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '과학자들 사이에서'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 과학자들 사이에서이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '과학자들에 의해'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「과학자들 사이에서」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-109-02"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-109-02",
+    "sourceQuestionId": "Q-R13-109-02",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 93,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-03-CT",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\ncuriosity as a key factor in designing experiments",
+    "choices": [
+      "~로서 / ~하는 데",
+      "~때문에 / ~에게"
+    ],
+    "answer": "~때문에 / ~에게",
+    "requiresInk": false,
+    "modelMarkup": "curiosity / as a key factor / in designing experiments",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "~로서 / ~하는 데": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "'~때문에 / ~에게'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '~로서 / ~하는 데'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 ~로서 / ~하는 데이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '~때문에 / ~에게'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「~로서 / ~하는 데」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-109-03"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-109-03",
+    "sourceQuestionId": "Q-R13-109-03",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 97,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-04-CT",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nYou can improve English by practicing every day.",
+    "choices": [
+      "연습하는 동안",
+      "연습함으로써"
+    ],
+    "answer": "연습하는 동안",
+    "requiresInk": false,
+    "modelMarkup": "You can improve English / by practicing every day.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "연습함으로써": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "'연습하는 동안'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '연습함으로써'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 연습함으로써이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '연습하는 동안'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「연습함으로써」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-109-04"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-109-04",
+    "sourceQuestionId": "Q-R13-109-04",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 88,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-05-CT",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 3,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe was affected by the news of her friend’s death.",
+    "choices": [
+      "친구 죽음의 소식에 의해",
+      "친구 죽음을 위해"
+    ],
+    "answer": "친구 죽음을 위해",
+    "requiresInk": false,
+    "modelMarkup": "She was affected / by the news / of her friend’s death.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "친구 죽음의 소식에 의해": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "'친구 죽음을 위해'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '친구 죽음의 소식에 의해'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 친구 죽음의 소식에 의해이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '친구 죽음을 위해'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「친구 죽음의 소식에 의해」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-109-05"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-109-05",
+    "sourceQuestionId": "Q-R13-109-05",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 51,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 110,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-109-06-CT",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 3,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nObstacles to chimps in assigning roles for group hunting",
+    "choices": [
+      "침팬지의 / 배정함으로써 / 사냥보다",
+      "침팬지에게 / 배정하는 데 / 사냥을 위한"
+    ],
+    "answer": "침팬지의 / 배정함으로써 / 사냥보다",
+    "requiresInk": false,
+    "modelMarkup": "Obstacles / to chimps / in assigning roles / for group hunting",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "침팬지에게 / 배정하는 데 / 사냥을 위한": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "'침팬지의 / 배정함으로써 / 사냥보다'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '침팬지에게 / 배정하는 데 / 사냥을 위한'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 침팬지에게 / 배정하는 데 / 사냥을 위한이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '침팬지의 / 배정함으로써 / 사냥보다'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「침팬지에게 / 배정하는 데 / 사냥을 위한」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-109-06"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-109-06",
+    "sourceQuestionId": "Q-R13-109-06",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 54,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 117,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 3,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-9174832636",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「~로서 / ~하는 데」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+          "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다."
+        ],
+        "answer": "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 ~로서 / ~하는 데이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「~의」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-109-03",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-9174832636",
+    "sourceQuestionId": "Q-R13-109-03",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-33D7E0F40A",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「~의」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+          "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다."
+        ],
+        "answer": "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 ~의이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「과학자들 사이에서」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-109-01",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-33D7E0F40A",
+    "sourceQuestionId": "Q-R13-109-01",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-4FA6C72C00",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「과학자들 사이에서」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+          "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다."
+        ],
+        "answer": "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 과학자들 사이에서이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「~의」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-109-02",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-4FA6C72C00",
+    "sourceQuestionId": "Q-R13-109-02",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-D1F43D4A5A",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「연습함으로써」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+          "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다."
+        ],
+        "answer": "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 연습함으로써이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「~의」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-109-04",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-D1F43D4A5A",
+    "sourceQuestionId": "Q-R13-109-04",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-8EDBE181B5",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「친구 죽음의 소식에 의해」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+          "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다."
+        ],
+        "answer": "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 친구 죽음의 소식에 의해이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「~의」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-109-05",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-8EDBE181B5",
+    "sourceQuestionId": "Q-R13-109-05",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-1D79B7DEEA",
+    "conceptId": "G109_R_PREPOSITION_PARTICLES",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「침팬지에게 / 배정하는 데 / 사냥을 위한」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+          "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다."
+        ],
+        "answer": "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+        "errorCode": "E113_R_PREP_PARTICLE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E113_R_PREP_PARTICLE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 침팬지에게 / 배정하는 데 / 사냥을 위한이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK2",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「~의」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-109-06",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "11. 조사의 활용",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-1D79B7DEEA",
+    "sourceQuestionId": "Q-R13-109-06",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

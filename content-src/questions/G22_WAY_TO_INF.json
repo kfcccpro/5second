@@ -1,0 +1,1498 @@
+[
+  {
+    "id": "Q-G22-001",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "This is a simple way (to organize / of organize) the files.",
+    "choices": [
+      "to organize",
+      "of organize"
+    ],
+    "answer": "to organize",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "to",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "to 뒤에 필요한 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of organize": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "way 뒤의 to-V와 of V-ing 두 구조를 섞었다.",
+      "summary": [
+        "way 뒤의 표지는 to이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 to organize를 선택한다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-001",
+    "sourceQuestionId": "Q-G22-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-002",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "She has her own way of (explaining / explain) difficult ideas.",
+    "choices": [
+      "explaining",
+      "explain"
+    ],
+    "answer": "explaining",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "of",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "of 뒤에 필요한 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "explain": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "way 뒤의 to-V와 of V-ing 두 구조를 섞었다.",
+      "summary": [
+        "way 뒤의 표지는 of이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 explaining를 선택한다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-002",
+    "sourceQuestionId": "Q-G22-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-003",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "We need a better way (to compare / of compare) the results.",
+    "choices": [
+      "to compare",
+      "of compare"
+    ],
+    "answer": "to compare",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "to",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "to 뒤에 필요한 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of compare": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "way 뒤의 to-V와 of V-ing 두 구조를 섞었다.",
+      "summary": [
+        "way 뒤의 표지는 to이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 to compare를 선택한다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-003",
+    "sourceQuestionId": "Q-G22-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-004",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "Walking is one way of (reducing / reduce) stress.",
+    "choices": [
+      "reducing",
+      "reduce"
+    ],
+    "answer": "reducing",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "of",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "of 뒤에 필요한 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reduce": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "way 뒤의 to-V와 of V-ing 두 구조를 섞었다.",
+      "summary": [
+        "way 뒤의 표지는 of이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 reducing를 선택한다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-004",
+    "sourceQuestionId": "Q-G22-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-001-PF",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "This is a simple way (to organize / of organize) the files.",
+    "choices": [
+      "to organize",
+      "of organize"
+    ],
+    "answer": "to organize",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "to",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "to 뒤에 필요한 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of organize": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "way 뒤의 to-V와 of V-ing 두 구조를 섞었다.",
+      "summary": [
+        "way 뒤의 표지는 to이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 to organize를 선택한다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-001",
+    "sourceQuestionId": "Q-G22-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-002-PF",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "She has her own way of (explaining / explain) difficult ideas.",
+    "choices": [
+      "explaining",
+      "explain"
+    ],
+    "answer": "explaining",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "of",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "of 뒤에 필요한 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "explain": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "way 뒤의 to-V와 of V-ing 두 구조를 섞었다.",
+      "summary": [
+        "way 뒤의 표지는 of이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 explaining를 선택한다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-002",
+    "sourceQuestionId": "Q-G22-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-003-PF",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "We need a better way (to compare / of compare) the results.",
+    "choices": [
+      "to compare",
+      "of compare"
+    ],
+    "answer": "to compare",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "to",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "to 뒤에 필요한 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of compare": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "way 뒤의 to-V와 of V-ing 두 구조를 섞었다.",
+      "summary": [
+        "way 뒤의 표지는 to이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 to compare를 선택한다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-003",
+    "sourceQuestionId": "Q-G22-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-004-PF",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "Walking is one way of (reducing / reduce) stress.",
+    "choices": [
+      "reducing",
+      "reduce"
+    ],
+    "answer": "reducing",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "of",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "of 뒤에 필요한 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reduce": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "way 뒤의 to-V와 of V-ing 두 구조를 섞었다.",
+      "summary": [
+        "way 뒤의 표지는 of이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 reducing를 선택한다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-004",
+    "sourceQuestionId": "Q-G22-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-001-DR",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "This is a simple way (to organize / of organize) the files.",
+    "choices": [
+      "to organize",
+      "of organize"
+    ],
+    "answer": "to organize",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "to",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "to 뒤에 필요한 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of organize": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "way 뒤의 to-V와 of V-ing 두 구조를 섞었다.",
+      "summary": [
+        "way 뒤의 표지는 to이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 to organize를 선택한다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-001",
+    "sourceQuestionId": "Q-G22-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-002-DR",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "She has her own way of (explaining / explain) difficult ideas.",
+    "choices": [
+      "explaining",
+      "explain"
+    ],
+    "answer": "explaining",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "of",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "of 뒤에 필요한 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "explain": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "way 뒤의 to-V와 of V-ing 두 구조를 섞었다.",
+      "summary": [
+        "way 뒤의 표지는 of이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 explaining를 선택한다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-002",
+    "sourceQuestionId": "Q-G22-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-003-DR",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "We need a better way (to compare / of compare) the results.",
+    "choices": [
+      "to compare",
+      "of compare"
+    ],
+    "answer": "to compare",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "to",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "to 뒤에 필요한 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of compare": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "way 뒤의 to-V와 of V-ing 두 구조를 섞었다.",
+      "summary": [
+        "way 뒤의 표지는 to이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 to compare를 선택한다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-003",
+    "sourceQuestionId": "Q-G22-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-004-DR",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "Walking is one way of (reducing / reduce) stress.",
+    "choices": [
+      "reducing",
+      "reduce"
+    ],
+    "answer": "reducing",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "of",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "of 뒤에 필요한 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reduce": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "way 뒤의 to-V와 of V-ing 두 구조를 섞었다.",
+      "summary": [
+        "way 뒤의 표지는 of이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 reducing를 선택한다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-004",
+    "sourceQuestionId": "Q-G22-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-001-CT",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThis is a simple way (to organize / of organize) the files.",
+    "choices": [
+      "of organize",
+      "to organize"
+    ],
+    "answer": "of organize",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "to",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "to 뒤에 필요한 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to organize": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'of organize'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to organize'이다.",
+      "summary": [
+        "way 뒤의 표지는 to이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 to organize를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'of organize'이다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-001",
+    "sourceQuestionId": "Q-G22-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-002-CT",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe has her own way of (explaining / explain) difficult ideas.",
+    "choices": [
+      "explain",
+      "explaining"
+    ],
+    "answer": "explain",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "of",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "of 뒤에 필요한 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "explaining": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'explain'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'explaining'이다.",
+      "summary": [
+        "way 뒤의 표지는 of이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 explaining를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'explain'이다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-002",
+    "sourceQuestionId": "Q-G22-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-003-CT",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe need a better way (to compare / of compare) the results.",
+    "choices": [
+      "to compare",
+      "of compare"
+    ],
+    "answer": "of compare",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "to",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "to 뒤에 필요한 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to compare": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'of compare'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to compare'이다.",
+      "summary": [
+        "way 뒤의 표지는 to이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 to compare를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'of compare'이다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-003",
+    "sourceQuestionId": "Q-G22-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G22-004-CT",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWalking is one way of (reducing / reduce) stress.",
+    "choices": [
+      "reduce",
+      "reducing"
+    ],
+    "answer": "reduce",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "way 뒤에 오는 표지는 무엇인가?",
+        "answer": "of",
+        "errorCode": "E26_WAY_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "of 뒤에 필요한 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reducing": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'reduce'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'reducing'이다.",
+      "summary": [
+        "way 뒤의 표지는 of이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "따라서 reducing를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'reduce'이다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G22-004",
+    "sourceQuestionId": "Q-G22-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-8F39FACBC4",
+    "conceptId": "G22_WAY_TO_INF",
+    "difficulty": 1,
+    "stem": "빠른 확인: way of 뒤에 오는 형태는?",
+    "choices": [
+      "V-ing",
+      "동사원형"
+    ],
+    "answer": "V-ing",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "‘~하는 방법’은 way to-V 또는 way of V-ing로 만든다.",
+          "to-V는 앞으로 할 행동, V-ing는 이미 한 행동·경험을 가리키는 경우가 많다."
+        ],
+        "answer": "‘~하는 방법’은 way to-V 또는 way of V-ing로 만든다.",
+        "errorCode": "E26_WAY_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "동사원형": "E26_WAY_FORM"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "‘~하는 방법’은 way to-V 또는 way of V-ing로 만든다.",
+        "way 뒤의 표지는 to이다.",
+        "to 뒤는 동사원형, of 뒤는 V-ing를 쓴다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G22",
+      "checkQuestion": {
+        "prompt": "way of 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G22-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-8F39FACBC4",
+    "sourceQuestionId": "Q-G22-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

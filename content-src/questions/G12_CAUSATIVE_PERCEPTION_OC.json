@@ -1,0 +1,4480 @@
+[
+  {
+    "id": "Q-G12-001",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "I saw the children (cross / crossed) the street.",
+    "choices": [
+      "cross",
+      "crossed"
+    ],
+    "answer": "cross",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 누구인가?",
+        "answer": "the children",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "children이 건너는가, 건너짐을 당하는가?",
+        "answer": "건넌다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "지각동사 뒤 능동 목적격보어는?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "crossed": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어와 목적격보어의 관계를 수동으로 잘못 보았다.",
+      "summary": [
+        "목적어는 the children이다.",
+        "children이 cross 동작을 한다.",
+        "능동 관계이므로 동사원형 cross를 쓴다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "see+목적어가 동작하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-001",
+    "sourceQuestionId": "Q-G12-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-002",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "I saw the window (break / broken) by the ball.",
+    "choices": [
+      "break",
+      "broken"
+    ],
+    "answer": "broken",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "the window",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "window가 깨는가 깨짐을 당하는가?",
+        "answer": "깨짐을 당한다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "수동 관계의 목적격보어는?",
+        "answer": "p.p.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "break": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "window가 동작을 당하는 관계를 놓쳤다.",
+      "summary": [
+        "목적어는 the window이다.",
+        "window는 ball에 의해 깨진다.",
+        "수동 관계이므로 broken을 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "목적어가 동작을 당하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G12-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-002",
+    "sourceQuestionId": "Q-G12-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-003",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "She had her assistant (print / printed) the report.",
+    "choices": [
+      "print",
+      "printed"
+    ],
+    "answer": "print",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 누구인가?",
+        "answer": "her assistant",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "assistant가 인쇄하는가?",
+        "answer": "그렇다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "have+사람+행동의 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "printed": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "사람 목적어가 동작하는 능동 관계를 수동으로 보았다.",
+      "summary": [
+        "목적어는 her assistant이다.",
+        "assistant가 print 동작을 한다.",
+        "동사원형 print를 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "have+사람+행동의 행동 형태는?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-003",
+    "sourceQuestionId": "Q-G12-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-004",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "She had the report (print / printed) before noon.",
+    "choices": [
+      "print",
+      "printed"
+    ],
+    "answer": "printed",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "the report",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "report가 인쇄하는가 인쇄되는가?",
+        "answer": "인쇄된다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "have+사물+수동 관계의 형태는?",
+        "answer": "p.p.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "print": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "사물 목적어가 동작을 당하는 관계를 놓쳤다.",
+      "summary": [
+        "목적어는 the report이다.",
+        "report는 인쇄되는 대상이다.",
+        "p.p. printed를 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "have+사물+당하는 관계는?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G12-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-004",
+    "sourceQuestionId": "Q-G12-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-005",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "The joke made everyone (laugh / laughed).",
+    "choices": [
+      "laugh",
+      "laughed"
+    ],
+    "answer": "laugh",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 누구인가?",
+        "answer": "everyone",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "everyone이 웃는가?",
+        "answer": "그렇다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "make+목적어+능동 행동은?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "laughed": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "make 뒤 목적격보어를 과거형으로 처리했다.",
+      "summary": [
+        "목적어는 everyone이다.",
+        "everyone이 laugh 동작을 한다.",
+        "make 뒤에는 동사원형 laugh가 온다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "make+목적어+행동의 형태는?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-005",
+    "sourceQuestionId": "Q-G12-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-006",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "I heard my name (call / called) from behind.",
+    "choices": [
+      "call",
+      "called"
+    ],
+    "answer": "called",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "my name",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "name이 부르는가 불리는가?",
+        "answer": "불린다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "수동 관계의 형태는?",
+        "answer": "p.p.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "call": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어가 동작을 당하는 관계를 능동으로 보았다.",
+      "summary": [
+        "목적어는 my name이다.",
+        "name은 누군가에게 불린다.",
+        "수동 관계이므로 called를 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "hear+목적어가 당하는 관계면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G12-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-006",
+    "sourceQuestionId": "Q-G12-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-007",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "We watched the sun (rise / risen) above the hills.",
+    "choices": [
+      "rise",
+      "risen"
+    ],
+    "answer": "rise",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "the sun",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "sun이 rise 동작을 하는가?",
+        "answer": "그렇다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "지각동사 뒤 능동 목적격보어는?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "risen": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "완료분사 형태를 목적격보어로 잘못 골랐다.",
+      "summary": [
+        "목적어는 the sun이다.",
+        "sun이 rise 동작을 한다.",
+        "동사원형 rise를 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "watch+목적어가 행동하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G13-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-007",
+    "sourceQuestionId": "Q-G12-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-001-PF",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "I saw the children (cross / crossed) the street.",
+    "choices": [
+      "cross",
+      "crossed"
+    ],
+    "answer": "cross",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 누구인가?",
+        "answer": "the children",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "children이 건너는가, 건너짐을 당하는가?",
+        "answer": "건넌다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "지각동사 뒤 능동 목적격보어는?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "crossed": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어와 목적격보어의 관계를 수동으로 잘못 보았다.",
+      "summary": [
+        "목적어는 the children이다.",
+        "children이 cross 동작을 한다.",
+        "능동 관계이므로 동사원형 cross를 쓴다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "see+목적어가 동작하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-001",
+    "sourceQuestionId": "Q-G12-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-002-PF",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "I saw the window (break / broken) by the ball.",
+    "choices": [
+      "break",
+      "broken"
+    ],
+    "answer": "broken",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "the window",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "window가 깨는가 깨짐을 당하는가?",
+        "answer": "깨짐을 당한다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "수동 관계의 목적격보어는?",
+        "answer": "p.p.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "break": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "window가 동작을 당하는 관계를 놓쳤다.",
+      "summary": [
+        "목적어는 the window이다.",
+        "window는 ball에 의해 깨진다.",
+        "수동 관계이므로 broken을 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "목적어가 동작을 당하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G12-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-002",
+    "sourceQuestionId": "Q-G12-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-003-PF",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "She had her assistant (print / printed) the report.",
+    "choices": [
+      "print",
+      "printed"
+    ],
+    "answer": "print",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 누구인가?",
+        "answer": "her assistant",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "assistant가 인쇄하는가?",
+        "answer": "그렇다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "have+사람+행동의 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "printed": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "사람 목적어가 동작하는 능동 관계를 수동으로 보았다.",
+      "summary": [
+        "목적어는 her assistant이다.",
+        "assistant가 print 동작을 한다.",
+        "동사원형 print를 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "have+사람+행동의 행동 형태는?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-003",
+    "sourceQuestionId": "Q-G12-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-004-PF",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "She had the report (print / printed) before noon.",
+    "choices": [
+      "print",
+      "printed"
+    ],
+    "answer": "printed",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "the report",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "report가 인쇄하는가 인쇄되는가?",
+        "answer": "인쇄된다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "have+사물+수동 관계의 형태는?",
+        "answer": "p.p.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "print": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "사물 목적어가 동작을 당하는 관계를 놓쳤다.",
+      "summary": [
+        "목적어는 the report이다.",
+        "report는 인쇄되는 대상이다.",
+        "p.p. printed를 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "have+사물+당하는 관계는?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G12-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-004",
+    "sourceQuestionId": "Q-G12-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-005-PF",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "The joke made everyone (laugh / laughed).",
+    "choices": [
+      "laugh",
+      "laughed"
+    ],
+    "answer": "laugh",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 누구인가?",
+        "answer": "everyone",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "everyone이 웃는가?",
+        "answer": "그렇다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "make+목적어+능동 행동은?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "laughed": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "make 뒤 목적격보어를 과거형으로 처리했다.",
+      "summary": [
+        "목적어는 everyone이다.",
+        "everyone이 laugh 동작을 한다.",
+        "make 뒤에는 동사원형 laugh가 온다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "make+목적어+행동의 형태는?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-005",
+    "sourceQuestionId": "Q-G12-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-006-PF",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "I heard my name (call / called) from behind.",
+    "choices": [
+      "call",
+      "called"
+    ],
+    "answer": "called",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "my name",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "name이 부르는가 불리는가?",
+        "answer": "불린다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "수동 관계의 형태는?",
+        "answer": "p.p.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "call": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어가 동작을 당하는 관계를 능동으로 보았다.",
+      "summary": [
+        "목적어는 my name이다.",
+        "name은 누군가에게 불린다.",
+        "수동 관계이므로 called를 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "hear+목적어가 당하는 관계면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G12-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-006",
+    "sourceQuestionId": "Q-G12-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-007-PF",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "We watched the sun (rise / risen) above the hills.",
+    "choices": [
+      "rise",
+      "risen"
+    ],
+    "answer": "rise",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "the sun",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "sun이 rise 동작을 하는가?",
+        "answer": "그렇다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "지각동사 뒤 능동 목적격보어는?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "risen": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "완료분사 형태를 목적격보어로 잘못 골랐다.",
+      "summary": [
+        "목적어는 the sun이다.",
+        "sun이 rise 동작을 한다.",
+        "동사원형 rise를 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "watch+목적어가 행동하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G13-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-007",
+    "sourceQuestionId": "Q-G12-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-001-DR",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "I saw the children (cross / crossed) the street.",
+    "choices": [
+      "cross",
+      "crossed"
+    ],
+    "answer": "cross",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 누구인가?",
+        "answer": "the children",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "children이 건너는가, 건너짐을 당하는가?",
+        "answer": "건넌다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "지각동사 뒤 능동 목적격보어는?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "crossed": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어와 목적격보어의 관계를 수동으로 잘못 보았다.",
+      "summary": [
+        "목적어는 the children이다.",
+        "children이 cross 동작을 한다.",
+        "능동 관계이므로 동사원형 cross를 쓴다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "see+목적어가 동작하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-001",
+    "sourceQuestionId": "Q-G12-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-002-DR",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "I saw the window (break / broken) by the ball.",
+    "choices": [
+      "break",
+      "broken"
+    ],
+    "answer": "broken",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "the window",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "window가 깨는가 깨짐을 당하는가?",
+        "answer": "깨짐을 당한다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "수동 관계의 목적격보어는?",
+        "answer": "p.p.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "break": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "window가 동작을 당하는 관계를 놓쳤다.",
+      "summary": [
+        "목적어는 the window이다.",
+        "window는 ball에 의해 깨진다.",
+        "수동 관계이므로 broken을 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "목적어가 동작을 당하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G12-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-002",
+    "sourceQuestionId": "Q-G12-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-003-DR",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "She had her assistant (print / printed) the report.",
+    "choices": [
+      "print",
+      "printed"
+    ],
+    "answer": "print",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 누구인가?",
+        "answer": "her assistant",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "assistant가 인쇄하는가?",
+        "answer": "그렇다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "have+사람+행동의 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "printed": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "사람 목적어가 동작하는 능동 관계를 수동으로 보았다.",
+      "summary": [
+        "목적어는 her assistant이다.",
+        "assistant가 print 동작을 한다.",
+        "동사원형 print를 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "have+사람+행동의 행동 형태는?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-003",
+    "sourceQuestionId": "Q-G12-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-004-DR",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "She had the report (print / printed) before noon.",
+    "choices": [
+      "print",
+      "printed"
+    ],
+    "answer": "printed",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "the report",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "report가 인쇄하는가 인쇄되는가?",
+        "answer": "인쇄된다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "have+사물+수동 관계의 형태는?",
+        "answer": "p.p.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "print": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "사물 목적어가 동작을 당하는 관계를 놓쳤다.",
+      "summary": [
+        "목적어는 the report이다.",
+        "report는 인쇄되는 대상이다.",
+        "p.p. printed를 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "have+사물+당하는 관계는?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G12-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-004",
+    "sourceQuestionId": "Q-G12-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-005-DR",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "The joke made everyone (laugh / laughed).",
+    "choices": [
+      "laugh",
+      "laughed"
+    ],
+    "answer": "laugh",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 누구인가?",
+        "answer": "everyone",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "everyone이 웃는가?",
+        "answer": "그렇다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "make+목적어+능동 행동은?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "laughed": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "make 뒤 목적격보어를 과거형으로 처리했다.",
+      "summary": [
+        "목적어는 everyone이다.",
+        "everyone이 laugh 동작을 한다.",
+        "make 뒤에는 동사원형 laugh가 온다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "make+목적어+행동의 형태는?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-005",
+    "sourceQuestionId": "Q-G12-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-006-DR",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "I heard my name (call / called) from behind.",
+    "choices": [
+      "call",
+      "called"
+    ],
+    "answer": "called",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "my name",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "name이 부르는가 불리는가?",
+        "answer": "불린다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "수동 관계의 형태는?",
+        "answer": "p.p.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "call": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어가 동작을 당하는 관계를 능동으로 보았다.",
+      "summary": [
+        "목적어는 my name이다.",
+        "name은 누군가에게 불린다.",
+        "수동 관계이므로 called를 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "hear+목적어가 당하는 관계면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G12-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-006",
+    "sourceQuestionId": "Q-G12-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-007-DR",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "We watched the sun (rise / risen) above the hills.",
+    "choices": [
+      "rise",
+      "risen"
+    ],
+    "answer": "rise",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "the sun",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "sun이 rise 동작을 하는가?",
+        "answer": "그렇다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "지각동사 뒤 능동 목적격보어는?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "risen": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "완료분사 형태를 목적격보어로 잘못 골랐다.",
+      "summary": [
+        "목적어는 the sun이다.",
+        "sun이 rise 동작을 한다.",
+        "동사원형 rise를 선택한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "watch+목적어가 행동하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G13-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-007",
+    "sourceQuestionId": "Q-G12-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-001-CT",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI saw the children (cross / crossed) the street.",
+    "choices": [
+      "cross",
+      "crossed"
+    ],
+    "answer": "crossed",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 누구인가?",
+        "answer": "the children",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "children이 건너는가, 건너짐을 당하는가?",
+        "answer": "건넌다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "지각동사 뒤 능동 목적격보어는?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "cross": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "'crossed'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'cross'이다.",
+      "summary": [
+        "목적어는 the children이다.",
+        "children이 cross 동작을 한다.",
+        "능동 관계이므로 동사원형 cross를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'crossed'이다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "see+목적어가 동작하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-001",
+    "sourceQuestionId": "Q-G12-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-002-CT",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI saw the window (break / broken) by the ball.",
+    "choices": [
+      "break",
+      "broken"
+    ],
+    "answer": "break",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "the window",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "window가 깨는가 깨짐을 당하는가?",
+        "answer": "깨짐을 당한다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "수동 관계의 목적격보어는?",
+        "answer": "p.p.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "broken": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "'break'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'broken'이다.",
+      "summary": [
+        "목적어는 the window이다.",
+        "window는 ball에 의해 깨진다.",
+        "수동 관계이므로 broken을 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'break'이다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "목적어가 동작을 당하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G12-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-002",
+    "sourceQuestionId": "Q-G12-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-003-CT",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe had her assistant (print / printed) the report.",
+    "choices": [
+      "print",
+      "printed"
+    ],
+    "answer": "printed",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 누구인가?",
+        "answer": "her assistant",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "assistant가 인쇄하는가?",
+        "answer": "그렇다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "have+사람+행동의 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "print": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "'printed'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'print'이다.",
+      "summary": [
+        "목적어는 her assistant이다.",
+        "assistant가 print 동작을 한다.",
+        "동사원형 print를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'printed'이다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "have+사람+행동의 행동 형태는?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-003",
+    "sourceQuestionId": "Q-G12-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-004-CT",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe had the report (print / printed) before noon.",
+    "choices": [
+      "printed",
+      "print"
+    ],
+    "answer": "print",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "the report",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "report가 인쇄하는가 인쇄되는가?",
+        "answer": "인쇄된다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "have+사물+수동 관계의 형태는?",
+        "answer": "p.p.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "printed": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "'print'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'printed'이다.",
+      "summary": [
+        "목적어는 the report이다.",
+        "report는 인쇄되는 대상이다.",
+        "p.p. printed를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'print'이다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "have+사물+당하는 관계는?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G12-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-004",
+    "sourceQuestionId": "Q-G12-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-005-CT",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe joke made everyone (laugh / laughed).",
+    "choices": [
+      "laugh",
+      "laughed"
+    ],
+    "answer": "laughed",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 누구인가?",
+        "answer": "everyone",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "everyone이 웃는가?",
+        "answer": "그렇다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "make+목적어+능동 행동은?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "laugh": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "'laughed'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'laugh'이다.",
+      "summary": [
+        "목적어는 everyone이다.",
+        "everyone이 laugh 동작을 한다.",
+        "make 뒤에는 동사원형 laugh가 온다.",
+        "따라서 대조 문항에서 고를 답은 'laughed'이다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "make+목적어+행동의 형태는?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-005",
+    "sourceQuestionId": "Q-G12-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-006-CT",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI heard my name (call / called) from behind.",
+    "choices": [
+      "call",
+      "called"
+    ],
+    "answer": "call",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "my name",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "name이 부르는가 불리는가?",
+        "answer": "불린다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "수동 관계의 형태는?",
+        "answer": "p.p.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "called": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "'call'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'called'이다.",
+      "summary": [
+        "목적어는 my name이다.",
+        "name은 누군가에게 불린다.",
+        "수동 관계이므로 called를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'call'이다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "hear+목적어가 당하는 관계면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G12-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-006",
+    "sourceQuestionId": "Q-G12-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G12-007-CT",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH3",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe watched the sun (rise / risen) above the hills.",
+    "choices": [
+      "rise",
+      "risen"
+    ],
+    "answer": "risen",
+    "decisionSteps": [
+      {
+        "id": "object",
+        "prompt": "목적어는 무엇인가?",
+        "answer": "the sun",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "voice",
+        "prompt": "sun이 rise 동작을 하는가?",
+        "answer": "그렇다",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "form",
+        "prompt": "지각동사 뒤 능동 목적격보어는?",
+        "answer": "동사원형",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "rise": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "'risen'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'rise'이다.",
+      "summary": [
+        "목적어는 the sun이다.",
+        "sun이 rise 동작을 한다.",
+        "동사원형 rise를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'risen'이다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "watch+목적어가 행동하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G12-007",
+    "sourceQuestionId": "Q-G12-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-4463CB9B9E",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "stem": "빠른 확인: have+사람+행동의 행동 형태는?",
+    "choices": [
+      "동사원형",
+      "p.p."
+    ],
+    "answer": "동사원형",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "능동문에서 목적격보어로 쓰인 동사원형은 수동태가 되면 to-V로 바뀐다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "p.p.": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "목적어는 her assistant이다.",
+        "assistant가 print 동작을 한다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "see+목적어가 동작하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-003",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-4463CB9B9E",
+    "sourceQuestionId": "Q-G12-003",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-12D3B64A66",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "stem": "빠른 확인: have+사물+당하는 관계는?",
+    "choices": [
+      "동사원형",
+      "p.p."
+    ],
+    "answer": "p.p.",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "능동문에서 목적격보어로 쓰인 동사원형은 수동태가 되면 to-V로 바뀐다.",
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "동사원형": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "목적어는 the report이다.",
+        "report는 인쇄되는 대상이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "see+목적어가 동작하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-004",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-12D3B64A66",
+    "sourceQuestionId": "Q-G12-004",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-B331C7C77D",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "stem": "빠른 확인: hear+목적어가 당하는 관계면?",
+    "choices": [
+      "동사원형",
+      "p.p."
+    ],
+    "answer": "p.p.",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "능동문에서 목적격보어로 쓰인 동사원형은 수동태가 되면 to-V로 바뀐다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "동사원형": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "목적어는 my name이다.",
+        "name은 누군가에게 불린다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "see+목적어가 동작하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-006",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-B331C7C77D",
+    "sourceQuestionId": "Q-G12-006",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-24713B49DE",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "stem": "빠른 확인: make+목적어+행동의 형태는?",
+    "choices": [
+      "동사원형",
+      "과거형"
+    ],
+    "answer": "동사원형",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "능동문에서 목적격보어로 쓰인 동사원형은 수동태가 되면 to-V로 바뀐다.",
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "과거형": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "목적어는 everyone이다.",
+        "everyone이 laugh 동작을 한다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "see+목적어가 동작하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-005",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-24713B49DE",
+    "sourceQuestionId": "Q-G12-005",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-EC69A50218",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "stem": "빠른 확인: see+목적어가 동작하면?",
+    "choices": [
+      "동사원형",
+      "p.p."
+    ],
+    "answer": "동사원형",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "능동문에서 목적격보어로 쓰인 동사원형은 수동태가 되면 to-V로 바뀐다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "p.p.": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "목적어는 the children이다.",
+        "children이 cross 동작을 한다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "목적어가 동작을 당하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G12-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-EC69A50218",
+    "sourceQuestionId": "Q-G12-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-93E965363E",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "stem": "빠른 확인: watch+목적어가 행동하면?",
+    "choices": [
+      "동사원형",
+      "p.p."
+    ],
+    "answer": "동사원형",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "능동문에서 목적격보어로 쓰인 동사원형은 수동태가 되면 to-V로 바뀐다.",
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "p.p.": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "목적어는 the sun이다.",
+        "sun이 rise 동작을 한다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "see+목적어가 동작하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-007",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-93E965363E",
+    "sourceQuestionId": "Q-G12-007",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-997E44CD0C",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 1,
+    "stem": "빠른 확인: 목적어가 동작을 당하면?",
+    "choices": [
+      "동사원형",
+      "p.p."
+    ],
+    "answer": "p.p.",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "능동문에서 목적격보어로 쓰인 동사원형은 수동태가 되면 to-V로 바뀐다.",
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "동사원형": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "목적어는 the window이다.",
+        "window는 ball에 의해 깨진다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "see+목적어가 동작하면?",
+        "choices": [
+          "동사원형",
+          "p.p."
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G12-002",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-997E44CD0C",
+    "sourceQuestionId": "Q-G12-002",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-034-3ABF6772",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 2,
+    "stem": "I let him [clean / cleaning] the room.",
+    "choices": [
+      "clean",
+      "cleaning"
+    ],
+    "answer": "clean",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "사역·지각동사의 목적격보어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "사역·지각동사의 목적격보어",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "cleaning": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어가 뒤 동작을 하는지 당하는지 확인하지 않았다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "사역·지각동사를 찾는다",
+        "능동이면 동사원형/V-ing, 수동이면 p.p.를 고른다"
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+      },
+      "transferQuestionId": "Q-P21-G-034-9BD5C32A",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-034-3ABF6772",
+    "sourceQuestionId": "Q-P21-G-034-3ABF6772",
+    "sourceCandidateId": "CAND-G-034-3ABF6772",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 34,
+      "asset": "assets/source-evidence/phase21/grammar-page-034.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-034-3ABF6772",
+      "evidenceRef": "SRC-P21-G-034",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-034-3ABF6772-PF",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 2,
+    "stem": "I let him [clean / cleaning] the room.",
+    "choices": [
+      "clean",
+      "cleaning"
+    ],
+    "answer": "clean",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "사역·지각동사의 목적격보어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "사역·지각동사의 목적격보어",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "cleaning": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어가 뒤 동작을 하는지 당하는지 확인하지 않았다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "사역·지각동사를 찾는다",
+        "능동이면 동사원형/V-ing, 수동이면 p.p.를 고른다"
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+      },
+      "transferQuestionId": "Q-P21-G-034-9BD5C32A",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-034-3ABF6772",
+    "sourceQuestionId": "Q-P21-G-034-3ABF6772",
+    "sourceCandidateId": "CAND-G-034-3ABF6772",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 34,
+      "asset": "assets/source-evidence/phase21/grammar-page-034.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-034-3ABF6772",
+      "evidenceRef": "SRC-P21-G-034",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-034-3ABF6772-DR",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 2,
+    "stem": "I let him [clean / cleaning] the room.",
+    "choices": [
+      "clean",
+      "cleaning"
+    ],
+    "answer": "clean",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "사역·지각동사의 목적격보어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "사역·지각동사의 목적격보어",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "cleaning": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어가 뒤 동작을 하는지 당하는지 확인하지 않았다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "사역·지각동사를 찾는다",
+        "능동이면 동사원형/V-ing, 수동이면 p.p.를 고른다"
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+      },
+      "transferQuestionId": "Q-P21-G-034-9BD5C32A",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-034-3ABF6772",
+    "sourceQuestionId": "Q-P21-G-034-3ABF6772",
+    "sourceCandidateId": "CAND-G-034-3ABF6772",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 34,
+      "asset": "assets/source-evidence/phase21/grammar-page-034.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-034-3ABF6772",
+      "evidenceRef": "SRC-P21-G-034",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-034-3ABF6772-CT",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI let him [clean / cleaning] the room.",
+    "choices": [
+      "cleaning",
+      "clean"
+    ],
+    "answer": "cleaning",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "사역·지각동사의 목적격보어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "사역·지각동사의 목적격보어",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "clean": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "'cleaning'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'clean'이다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "사역·지각동사를 찾는다",
+        "능동이면 동사원형/V-ing, 수동이면 p.p.를 고른다",
+        "대조 문항에서는 사용할 수 없는 형태 'cleaning'를 고른다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+      },
+      "transferQuestionId": "Q-P21-G-034-3ABF6772",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-034-3ABF6772",
+    "sourceQuestionId": "Q-P21-G-034-3ABF6772",
+    "sourceCandidateId": "CAND-G-034-3ABF6772",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 34,
+      "asset": "assets/source-evidence/phase21/grammar-page-034.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-034-3ABF6772",
+      "evidenceRef": "SRC-P21-G-034",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 40,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-034-9BD5C32A",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 2,
+    "stem": "I saw him [to run / running] along the beach in the morning.",
+    "choices": [
+      "to run",
+      "running"
+    ],
+    "answer": "running",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "사역·지각동사의 목적격보어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "사역·지각동사의 목적격보어",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to run": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어가 뒤 동작을 하는지 당하는지 확인하지 않았다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "사역·지각동사를 찾는다",
+        "능동이면 동사원형/V-ing, 수동이면 p.p.를 고른다"
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+      },
+      "transferQuestionId": "Q-P21-G-034-646F9C78",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-034-9BD5C32A",
+    "sourceQuestionId": "Q-P21-G-034-9BD5C32A",
+    "sourceCandidateId": "CAND-G-034-9BD5C32A",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 34,
+      "asset": "assets/source-evidence/phase21/grammar-page-034.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-034-9BD5C32A",
+      "evidenceRef": "SRC-P21-G-034",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-034-9BD5C32A-PF",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 2,
+    "stem": "I saw him [to run / running] along the beach in the morning.",
+    "choices": [
+      "to run",
+      "running"
+    ],
+    "answer": "running",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "사역·지각동사의 목적격보어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "사역·지각동사의 목적격보어",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to run": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어가 뒤 동작을 하는지 당하는지 확인하지 않았다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "사역·지각동사를 찾는다",
+        "능동이면 동사원형/V-ing, 수동이면 p.p.를 고른다"
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+      },
+      "transferQuestionId": "Q-P21-G-034-646F9C78",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-034-9BD5C32A",
+    "sourceQuestionId": "Q-P21-G-034-9BD5C32A",
+    "sourceCandidateId": "CAND-G-034-9BD5C32A",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 34,
+      "asset": "assets/source-evidence/phase21/grammar-page-034.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-034-9BD5C32A",
+      "evidenceRef": "SRC-P21-G-034",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-034-9BD5C32A-DR",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 2,
+    "stem": "I saw him [to run / running] along the beach in the morning.",
+    "choices": [
+      "to run",
+      "running"
+    ],
+    "answer": "running",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "사역·지각동사의 목적격보어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "사역·지각동사의 목적격보어",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to run": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어가 뒤 동작을 하는지 당하는지 확인하지 않았다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "사역·지각동사를 찾는다",
+        "능동이면 동사원형/V-ing, 수동이면 p.p.를 고른다"
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+      },
+      "transferQuestionId": "Q-P21-G-034-646F9C78",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-034-9BD5C32A",
+    "sourceQuestionId": "Q-P21-G-034-9BD5C32A",
+    "sourceCandidateId": "CAND-G-034-9BD5C32A",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 34,
+      "asset": "assets/source-evidence/phase21/grammar-page-034.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-034-9BD5C32A",
+      "evidenceRef": "SRC-P21-G-034",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-034-9BD5C32A-CT",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI saw him [to run / running] along the beach in the morning.",
+    "choices": [
+      "to run",
+      "running"
+    ],
+    "answer": "to run",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "사역·지각동사의 목적격보어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "사역·지각동사의 목적격보어",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "running": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "'to run'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'running'이다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "사역·지각동사를 찾는다",
+        "능동이면 동사원형/V-ing, 수동이면 p.p.를 고른다",
+        "대조 문항에서는 사용할 수 없는 형태 'to run'를 고른다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+      },
+      "transferQuestionId": "Q-P21-G-034-9BD5C32A",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-034-9BD5C32A",
+    "sourceQuestionId": "Q-P21-G-034-9BD5C32A",
+    "sourceCandidateId": "CAND-G-034-9BD5C32A",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 34,
+      "asset": "assets/source-evidence/phase21/grammar-page-034.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-034-9BD5C32A",
+      "evidenceRef": "SRC-P21-G-034",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-034-646F9C78",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 2,
+    "stem": "He made the desk [paint / painted].",
+    "choices": [
+      "paint",
+      "painted"
+    ],
+    "answer": "painted",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "사역·지각동사의 목적격보어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "사역·지각동사의 목적격보어",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "paint": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어가 뒤 동작을 하는지 당하는지 확인하지 않았다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "사역·지각동사를 찾는다",
+        "능동이면 동사원형/V-ing, 수동이면 p.p.를 고른다"
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+      },
+      "transferQuestionId": "Q-P21-G-034-3ABF6772",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-034-646F9C78",
+    "sourceQuestionId": "Q-P21-G-034-646F9C78",
+    "sourceCandidateId": "CAND-G-034-646F9C78",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 34,
+      "asset": "assets/source-evidence/phase21/grammar-page-034.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-034-646F9C78",
+      "evidenceRef": "SRC-P21-G-034",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 23,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-034-646F9C78-PF",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 2,
+    "stem": "He made the desk [paint / painted].",
+    "choices": [
+      "paint",
+      "painted"
+    ],
+    "answer": "painted",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "사역·지각동사의 목적격보어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "사역·지각동사의 목적격보어",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "paint": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어가 뒤 동작을 하는지 당하는지 확인하지 않았다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "사역·지각동사를 찾는다",
+        "능동이면 동사원형/V-ing, 수동이면 p.p.를 고른다"
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+      },
+      "transferQuestionId": "Q-P21-G-034-3ABF6772",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-034-646F9C78",
+    "sourceQuestionId": "Q-P21-G-034-646F9C78",
+    "sourceCandidateId": "CAND-G-034-646F9C78",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 34,
+      "asset": "assets/source-evidence/phase21/grammar-page-034.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-034-646F9C78",
+      "evidenceRef": "SRC-P21-G-034",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 23,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-034-646F9C78-DR",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 2,
+    "stem": "He made the desk [paint / painted].",
+    "choices": [
+      "paint",
+      "painted"
+    ],
+    "answer": "painted",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "사역·지각동사의 목적격보어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "사역·지각동사의 목적격보어",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "paint": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "목적어가 뒤 동작을 하는지 당하는지 확인하지 않았다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "사역·지각동사를 찾는다",
+        "능동이면 동사원형/V-ing, 수동이면 p.p.를 고른다"
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+      },
+      "transferQuestionId": "Q-P21-G-034-3ABF6772",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-034-646F9C78",
+    "sourceQuestionId": "Q-P21-G-034-646F9C78",
+    "sourceCandidateId": "CAND-G-034-646F9C78",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 34,
+      "asset": "assets/source-evidence/phase21/grammar-page-034.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-034-646F9C78",
+      "evidenceRef": "SRC-P21-G-034",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 23,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 40,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-034-646F9C78-CT",
+    "conceptId": "G12_CAUSATIVE_PERCEPTION_OC",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe made the desk [paint / painted].",
+    "choices": [
+      "painted",
+      "paint"
+    ],
+    "answer": "paint",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "사역·지각동사의 목적격보어",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "사역·지각동사의 목적격보어",
+        "errorCode": "E16_OC_VOICE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "errorCode": "E16_OC_VOICE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "painted": "E16_OC_VOICE"
+    },
+    "remediation": {
+      "diagnosis": "'paint'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'painted'이다.",
+      "summary": [
+        "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+        "사역·지각동사를 찾는다",
+        "능동이면 동사원형/V-ing, 수동이면 p.p.를 고른다",
+        "대조 문항에서는 사용할 수 없는 형태 'paint'를 고른다."
+      ],
+      "sourceRef": "SRC-G12",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "목적어가 동작하면 동사원형/V-ing, 동작을 당하면 p.p.를 선택한다."
+      },
+      "transferQuestionId": "Q-P21-G-034-646F9C78",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-034-646F9C78",
+    "sourceQuestionId": "Q-P21-G-034-646F9C78",
+    "sourceCandidateId": "CAND-G-034-646F9C78",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 34,
+      "asset": "assets/source-evidence/phase21/grammar-page-034.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-034-646F9C78",
+      "evidenceRef": "SRC-P21-G-034",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 23,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 40,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

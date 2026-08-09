@@ -1,0 +1,3563 @@
+[
+  {
+    "id": "Q-G56-001",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If I (were / am) you, I would apologize.",
+    "choices": [
+      "were",
+      "am"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "반대되는 사실의 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대의 if절 형태는?",
+        "answer": "동사 과거형, be동사는 were",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "am": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "현재.",
+        "동사 과거형, be동사는 were.",
+        "따라서 were를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-001",
+    "sourceQuestionId": "Q-G56-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-002",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If it (rained / rains), I could stay at home.",
+    "choices": [
+      "rained",
+      "rains"
+    ],
+    "answer": "rained",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "실제로 비가 오고 있는가?",
+        "answer": "아니다, 현재 사실의 반대",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "if절에 필요한 시제는?",
+        "answer": "과거형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "rained",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "rains": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "아니다, 현재 사실의 반대.",
+        "과거형.",
+        "따라서 rained를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-002",
+    "sourceQuestionId": "Q-G56-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-003",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If she (had / has) more time, she would travel more.",
+    "choices": [
+      "had",
+      "has"
+    ],
+    "answer": "had",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "지금 시간이 충분한가?",
+        "answer": "아니다",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대의 if절은?",
+        "answer": "과거형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "choice",
+        "prompt": "have의 과거형은?",
+        "answer": "had",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "아니다.",
+        "과거형.",
+        "따라서 had를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-003",
+    "sourceQuestionId": "Q-G56-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-004",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "What kind of laptop (would you buy / would you have bought) if you were free to choose?",
+    "choices": [
+      "would you buy",
+      "would you have bought"
+    ],
+    "answer": "would you buy",
+    "decisionSteps": [
+      {
+        "id": "if",
+        "prompt": "if절 형태는?",
+        "answer": "were로 가정법 과거",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "time",
+        "prompt": "결과 시점은?",
+        "answer": "현재·미래의 가상 선택",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would you have bought": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "were로 가정법 과거.",
+        "현재·미래의 가상 선택.",
+        "따라서 would you buy를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-004",
+    "sourceQuestionId": "Q-G56-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-005",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If he were more careful, he (would make / would have made) fewer mistakes.",
+    "choices": [
+      "would make",
+      "would have made"
+    ],
+    "answer": "would make",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "가정의 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "if절 형태는?",
+        "answer": "were로 가정법 과거",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 가상 결과 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have made": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "현재.",
+        "were로 가정법 과거.",
+        "따라서 would make를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-005",
+    "sourceQuestionId": "Q-G56-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-006",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If we (lived / had lived) near school, we could walk there every day.",
+    "choices": [
+      "lived",
+      "had lived"
+    ],
+    "answer": "lived",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "every day가 나타내는 결과 시점은?",
+        "answer": "현재의 반복",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대 가정의 if절은?",
+        "answer": "과거형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "lived",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had lived": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "현재의 반복.",
+        "과거형.",
+        "따라서 lived를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-006",
+    "sourceQuestionId": "Q-G56-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-007",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If I (knew / had known) the answer now, I would tell you.",
+    "choices": [
+      "knew",
+      "had known"
+    ],
+    "answer": "knew",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "now",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "time",
+        "prompt": "반대되는 사실의 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대 if절 형태는?",
+        "answer": "과거형 knew",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had known": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "now.",
+        "현재.",
+        "따라서 knew를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-007",
+    "sourceQuestionId": "Q-G56-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-008",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If she were here, she (might help / might have helped) us.",
+    "choices": [
+      "might help",
+      "might have helped"
+    ],
+    "answer": "might help",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "she were here가 가리키는 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "result",
+        "prompt": "도움의 결과 시점은?",
+        "answer": "현재·미래",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "알맞은 주절 형태는?",
+        "answer": "might + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might have helped": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "현재.",
+        "현재·미래.",
+        "따라서 might help를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-008",
+    "sourceQuestionId": "Q-G56-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-001-PF",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If I (were / am) you, I would apologize.",
+    "choices": [
+      "were",
+      "am"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "반대되는 사실의 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대의 if절 형태는?",
+        "answer": "동사 과거형, be동사는 were",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "am": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "현재.",
+        "동사 과거형, be동사는 were.",
+        "따라서 were를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-001",
+    "sourceQuestionId": "Q-G56-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-002-PF",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If it (rained / rains), I could stay at home.",
+    "choices": [
+      "rained",
+      "rains"
+    ],
+    "answer": "rained",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "실제로 비가 오고 있는가?",
+        "answer": "아니다, 현재 사실의 반대",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "if절에 필요한 시제는?",
+        "answer": "과거형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "rained",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "rains": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "아니다, 현재 사실의 반대.",
+        "과거형.",
+        "따라서 rained를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-002",
+    "sourceQuestionId": "Q-G56-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-003-PF",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If she (had / has) more time, she would travel more.",
+    "choices": [
+      "had",
+      "has"
+    ],
+    "answer": "had",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "지금 시간이 충분한가?",
+        "answer": "아니다",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대의 if절은?",
+        "answer": "과거형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "choice",
+        "prompt": "have의 과거형은?",
+        "answer": "had",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "아니다.",
+        "과거형.",
+        "따라서 had를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-003",
+    "sourceQuestionId": "Q-G56-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-004-PF",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "What kind of laptop (would you buy / would you have bought) if you were free to choose?",
+    "choices": [
+      "would you buy",
+      "would you have bought"
+    ],
+    "answer": "would you buy",
+    "decisionSteps": [
+      {
+        "id": "if",
+        "prompt": "if절 형태는?",
+        "answer": "were로 가정법 과거",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "time",
+        "prompt": "결과 시점은?",
+        "answer": "현재·미래의 가상 선택",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would you have bought": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "were로 가정법 과거.",
+        "현재·미래의 가상 선택.",
+        "따라서 would you buy를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-004",
+    "sourceQuestionId": "Q-G56-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-005-PF",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If he were more careful, he (would make / would have made) fewer mistakes.",
+    "choices": [
+      "would make",
+      "would have made"
+    ],
+    "answer": "would make",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "가정의 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "if절 형태는?",
+        "answer": "were로 가정법 과거",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 가상 결과 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have made": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "현재.",
+        "were로 가정법 과거.",
+        "따라서 would make를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-005",
+    "sourceQuestionId": "Q-G56-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-006-PF",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If we (lived / had lived) near school, we could walk there every day.",
+    "choices": [
+      "lived",
+      "had lived"
+    ],
+    "answer": "lived",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "every day가 나타내는 결과 시점은?",
+        "answer": "현재의 반복",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대 가정의 if절은?",
+        "answer": "과거형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "lived",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had lived": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "현재의 반복.",
+        "과거형.",
+        "따라서 lived를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-006",
+    "sourceQuestionId": "Q-G56-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-007-PF",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If I (knew / had known) the answer now, I would tell you.",
+    "choices": [
+      "knew",
+      "had known"
+    ],
+    "answer": "knew",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "now",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "time",
+        "prompt": "반대되는 사실의 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대 if절 형태는?",
+        "answer": "과거형 knew",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had known": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "now.",
+        "현재.",
+        "따라서 knew를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-007",
+    "sourceQuestionId": "Q-G56-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-008-PF",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If she were here, she (might help / might have helped) us.",
+    "choices": [
+      "might help",
+      "might have helped"
+    ],
+    "answer": "might help",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "she were here가 가리키는 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "result",
+        "prompt": "도움의 결과 시점은?",
+        "answer": "현재·미래",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "알맞은 주절 형태는?",
+        "answer": "might + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might have helped": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "현재.",
+        "현재·미래.",
+        "따라서 might help를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-008",
+    "sourceQuestionId": "Q-G56-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-001-DR",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If I (were / am) you, I would apologize.",
+    "choices": [
+      "were",
+      "am"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "반대되는 사실의 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대의 if절 형태는?",
+        "answer": "동사 과거형, be동사는 were",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "am": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "현재.",
+        "동사 과거형, be동사는 were.",
+        "따라서 were를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-001",
+    "sourceQuestionId": "Q-G56-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-002-DR",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If it (rained / rains), I could stay at home.",
+    "choices": [
+      "rained",
+      "rains"
+    ],
+    "answer": "rained",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "실제로 비가 오고 있는가?",
+        "answer": "아니다, 현재 사실의 반대",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "if절에 필요한 시제는?",
+        "answer": "과거형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "rained",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "rains": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "아니다, 현재 사실의 반대.",
+        "과거형.",
+        "따라서 rained를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-002",
+    "sourceQuestionId": "Q-G56-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-003-DR",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If she (had / has) more time, she would travel more.",
+    "choices": [
+      "had",
+      "has"
+    ],
+    "answer": "had",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "지금 시간이 충분한가?",
+        "answer": "아니다",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대의 if절은?",
+        "answer": "과거형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "choice",
+        "prompt": "have의 과거형은?",
+        "answer": "had",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "아니다.",
+        "과거형.",
+        "따라서 had를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-003",
+    "sourceQuestionId": "Q-G56-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-004-DR",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "What kind of laptop (would you buy / would you have bought) if you were free to choose?",
+    "choices": [
+      "would you buy",
+      "would you have bought"
+    ],
+    "answer": "would you buy",
+    "decisionSteps": [
+      {
+        "id": "if",
+        "prompt": "if절 형태는?",
+        "answer": "were로 가정법 과거",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "time",
+        "prompt": "결과 시점은?",
+        "answer": "현재·미래의 가상 선택",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would you have bought": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "were로 가정법 과거.",
+        "현재·미래의 가상 선택.",
+        "따라서 would you buy를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-004",
+    "sourceQuestionId": "Q-G56-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-005-DR",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If he were more careful, he (would make / would have made) fewer mistakes.",
+    "choices": [
+      "would make",
+      "would have made"
+    ],
+    "answer": "would make",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "가정의 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "if절 형태는?",
+        "answer": "were로 가정법 과거",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 가상 결과 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have made": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "현재.",
+        "were로 가정법 과거.",
+        "따라서 would make를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-005",
+    "sourceQuestionId": "Q-G56-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-006-DR",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If we (lived / had lived) near school, we could walk there every day.",
+    "choices": [
+      "lived",
+      "had lived"
+    ],
+    "answer": "lived",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "every day가 나타내는 결과 시점은?",
+        "answer": "현재의 반복",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대 가정의 if절은?",
+        "answer": "과거형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "lived",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had lived": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "현재의 반복.",
+        "과거형.",
+        "따라서 lived를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-006",
+    "sourceQuestionId": "Q-G56-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-007-DR",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If I (knew / had known) the answer now, I would tell you.",
+    "choices": [
+      "knew",
+      "had known"
+    ],
+    "answer": "knew",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "now",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "time",
+        "prompt": "반대되는 사실의 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대 if절 형태는?",
+        "answer": "과거형 knew",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had known": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "now.",
+        "현재.",
+        "따라서 knew를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-007",
+    "sourceQuestionId": "Q-G56-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-008-DR",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "If she were here, she (might help / might have helped) us.",
+    "choices": [
+      "might help",
+      "might have helped"
+    ],
+    "answer": "might help",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "she were here가 가리키는 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "result",
+        "prompt": "도움의 결과 시점은?",
+        "answer": "현재·미래",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "알맞은 주절 형태는?",
+        "answer": "might + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might have helped": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 가정법 과거 공식을 적용하지 않았다.",
+      "summary": [
+        "현재.",
+        "현재·미래.",
+        "따라서 might help를 선택한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-008",
+    "sourceQuestionId": "Q-G56-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-001-CT",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf I (were / am) you, I would apologize.",
+    "choices": [
+      "were",
+      "am"
+    ],
+    "answer": "am",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "반대되는 사실의 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대의 if절 형태는?",
+        "answer": "동사 과거형, be동사는 were",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "'am'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'were'이다.",
+      "summary": [
+        "현재.",
+        "동사 과거형, be동사는 were.",
+        "따라서 were를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'am'이다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-001",
+    "sourceQuestionId": "Q-G56-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-002-CT",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf it (rained / rains), I could stay at home.",
+    "choices": [
+      "rained",
+      "rains"
+    ],
+    "answer": "rains",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "실제로 비가 오고 있는가?",
+        "answer": "아니다, 현재 사실의 반대",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "if절에 필요한 시제는?",
+        "answer": "과거형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "rained",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "rained": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "'rains'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'rained'이다.",
+      "summary": [
+        "아니다, 현재 사실의 반대.",
+        "과거형.",
+        "따라서 rained를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'rains'이다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-002",
+    "sourceQuestionId": "Q-G56-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-003-CT",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf she (had / has) more time, she would travel more.",
+    "choices": [
+      "had",
+      "has"
+    ],
+    "answer": "has",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "지금 시간이 충분한가?",
+        "answer": "아니다",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대의 if절은?",
+        "answer": "과거형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "choice",
+        "prompt": "have의 과거형은?",
+        "answer": "had",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "'has'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'had'이다.",
+      "summary": [
+        "아니다.",
+        "과거형.",
+        "따라서 had를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'has'이다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-003",
+    "sourceQuestionId": "Q-G56-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-004-CT",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWhat kind of laptop (would you buy / would you have bought) if you were free to choose?",
+    "choices": [
+      "would you have bought",
+      "would you buy"
+    ],
+    "answer": "would you have bought",
+    "decisionSteps": [
+      {
+        "id": "if",
+        "prompt": "if절 형태는?",
+        "answer": "were로 가정법 과거",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "time",
+        "prompt": "결과 시점은?",
+        "answer": "현재·미래의 가상 선택",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would you buy": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "'would you have bought'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would you buy'이다.",
+      "summary": [
+        "were로 가정법 과거.",
+        "현재·미래의 가상 선택.",
+        "따라서 would you buy를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'would you have bought'이다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-004",
+    "sourceQuestionId": "Q-G56-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-005-CT",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf he were more careful, he (would make / would have made) fewer mistakes.",
+    "choices": [
+      "would make",
+      "would have made"
+    ],
+    "answer": "would have made",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "가정의 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "if절 형태는?",
+        "answer": "were로 가정법 과거",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 가상 결과 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would make": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "'would have made'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would make'이다.",
+      "summary": [
+        "현재.",
+        "were로 가정법 과거.",
+        "따라서 would make를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'would have made'이다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-005",
+    "sourceQuestionId": "Q-G56-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-006-CT",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf we (lived / had lived) near school, we could walk there every day.",
+    "choices": [
+      "had lived",
+      "lived"
+    ],
+    "answer": "had lived",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "every day가 나타내는 결과 시점은?",
+        "answer": "현재의 반복",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대 가정의 if절은?",
+        "answer": "과거형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "lived",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "lived": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "'had lived'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'lived'이다.",
+      "summary": [
+        "현재의 반복.",
+        "과거형.",
+        "따라서 lived를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'had lived'이다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-006",
+    "sourceQuestionId": "Q-G56-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-007-CT",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf I (knew / had known) the answer now, I would tell you.",
+    "choices": [
+      "knew",
+      "had known"
+    ],
+    "answer": "had known",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "now",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "time",
+        "prompt": "반대되는 사실의 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "if",
+        "prompt": "현재 반대 if절 형태는?",
+        "answer": "과거형 knew",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "knew": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "'had known'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'knew'이다.",
+      "summary": [
+        "now.",
+        "현재.",
+        "따라서 knew를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'had known'이다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-007",
+    "sourceQuestionId": "Q-G56-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G56-008-CT",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf she were here, she (might help / might have helped) us.",
+    "choices": [
+      "might help",
+      "might have helped"
+    ],
+    "answer": "might have helped",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "she were here가 가리키는 시점은?",
+        "answer": "현재",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "result",
+        "prompt": "도움의 결과 시점은?",
+        "answer": "현재·미래",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "main",
+        "prompt": "알맞은 주절 형태는?",
+        "answer": "might + 동사원형",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might help": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "'might have helped'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'might help'이다.",
+      "summary": [
+        "현재.",
+        "현재·미래.",
+        "따라서 might help를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'might have helped'이다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G56-008",
+    "sourceQuestionId": "Q-G56-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-94C6F83BAD",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 1,
+    "stem": "빠른 확인: 현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+    "choices": [
+      "동사 과거형",
+      "had p.p."
+    ],
+    "answer": "동사 과거형",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+          "과거 사실과 반대되는 가정은 if절에 had p.p., 주절에 would·should·could·might + have p.p.를 쓴다."
+        ],
+        "answer": "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had p.p.": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+        "현재.",
+        "동사 과거형, be동사는 were.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "현재 사실의 반대 가정에서 if절은 무엇을 쓰는가?",
+        "choices": [
+          "동사 과거형",
+          "had p.p."
+        ],
+        "answer": "동사 과거형"
+      },
+      "transferQuestionId": "Q-G56-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-94C6F83BAD",
+    "sourceQuestionId": "Q-G56-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-091-57ECC014",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 2,
+    "stem": "What type of MP3 player [would you buy / would you have bought ] if you were free to choose among all the players available?",
+    "choices": [
+      "would you buy",
+      "would you have bought"
+    ],
+    "answer": "would you buy",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "가정법 과거",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "가정법 과거",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would you have bought": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 if절과 주절의 형태를 직설법처럼 선택했다.",
+      "summary": [
+        "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+        "반대되는 사실의 시점이 현재인지 확인한다",
+        "주절을 조동사 과거형+동사원형으로 만든다"
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다."
+      },
+      "transferQuestionId": "Q-G56-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART6",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-091-57ECC014",
+    "sourceQuestionId": "Q-P21-G-091-57ECC014",
+    "sourceCandidateId": "CAND-G-091-57ECC014",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 91,
+      "asset": "assets/source-evidence/phase21/grammar-page-091.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-091-57ECC014",
+      "evidenceRef": "SRC-P21-G-091",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 23,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-091-57ECC014-PF",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 2,
+    "stem": "What type of MP3 player [would you buy / would you have bought ] if you were free to choose among all the players available?",
+    "choices": [
+      "would you buy",
+      "would you have bought"
+    ],
+    "answer": "would you buy",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "가정법 과거",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "가정법 과거",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would you have bought": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 if절과 주절의 형태를 직설법처럼 선택했다.",
+      "summary": [
+        "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+        "반대되는 사실의 시점이 현재인지 확인한다",
+        "주절을 조동사 과거형+동사원형으로 만든다"
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다."
+      },
+      "transferQuestionId": "Q-G56-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART6",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-091-57ECC014",
+    "sourceQuestionId": "Q-P21-G-091-57ECC014",
+    "sourceCandidateId": "CAND-G-091-57ECC014",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 91,
+      "asset": "assets/source-evidence/phase21/grammar-page-091.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-091-57ECC014",
+      "evidenceRef": "SRC-P21-G-091",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 80,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 23,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-091-57ECC014-DR",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 2,
+    "stem": "What type of MP3 player [would you buy / would you have bought ] if you were free to choose among all the players available?",
+    "choices": [
+      "would you buy",
+      "would you have bought"
+    ],
+    "answer": "would you buy",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "가정법 과거",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "가정법 과거",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would you have bought": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "현재 사실의 반대 가정인데 if절과 주절의 형태를 직설법처럼 선택했다.",
+      "summary": [
+        "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+        "반대되는 사실의 시점이 현재인지 확인한다",
+        "주절을 조동사 과거형+동사원형으로 만든다"
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다."
+      },
+      "transferQuestionId": "Q-G56-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART6",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-091-57ECC014",
+    "sourceQuestionId": "Q-P21-G-091-57ECC014",
+    "sourceCandidateId": "CAND-G-091-57ECC014",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 91,
+      "asset": "assets/source-evidence/phase21/grammar-page-091.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-091-57ECC014",
+      "evidenceRef": "SRC-P21-G-091",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 23,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-091-57ECC014-CT",
+    "conceptId": "G56_SUBJUNCTIVE_PAST",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWhat type of MP3 player [would you buy / would you have bought ] if you were free to choose among all the players available?",
+    "choices": [
+      "would you have bought",
+      "would you buy"
+    ],
+    "answer": "would you have bought",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "가정법 과거",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "가정법 과거",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+        "errorCode": "E60_SUBJUNCTIVE_PAST"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would you buy": "E60_SUBJUNCTIVE_PAST"
+    },
+    "remediation": {
+      "diagnosis": "'would you have bought'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would you buy'이다.",
+      "summary": [
+        "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+        "반대되는 사실의 시점이 현재인지 확인한다",
+        "주절을 조동사 과거형+동사원형으로 만든다",
+        "대조 문항에서는 사용할 수 없는 형태 'would you have bought'를 고른다."
+      ],
+      "sourceRef": "SRC-G56",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "현재 사실과 반대되는 가정은 if절에 동사 과거형(be동사는 were), 주절에 would·should·could·might + 동사원형을 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-091-57ECC014",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART6",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-091-57ECC014",
+    "sourceQuestionId": "Q-P21-G-091-57ECC014",
+    "sourceCandidateId": "CAND-G-091-57ECC014",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 91,
+      "asset": "assets/source-evidence/phase21/grammar-page-091.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-091-57ECC014",
+      "evidenceRef": "SRC-P21-G-091",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 23,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

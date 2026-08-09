@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G81-001",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "You (should have called / may have called) before coming to my office.",
+    "choices": [
+      "should have called",
+      "may have called"
+    ],
+    "answer": "should have called",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "before coming이라는 이미 끝난 행동",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "전화했어야 했다는 비판",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "should have called",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "may have called": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "before coming이라는 이미 끝난 행동",
+        "전화했어야 했다는 비판",
+        "따라서 should have called를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-001",
+    "sourceQuestionId": "Q-G81-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-002",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "We had enough time and money. We (could have stayed / must have stayed) longer, but we chose to leave.",
+    "choices": [
+      "could have stayed",
+      "must have stayed"
+    ],
+    "answer": "could have stayed",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "but we chose to leave",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "머물 가능성은 있었지만 실현하지 않음",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "could have stayed",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "must have stayed": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "but we chose to leave",
+        "머물 가능성은 있었지만 실현하지 않음",
+        "따라서 could have stayed를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-002",
+    "sourceQuestionId": "Q-G81-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 19,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-003",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Without your help, I (would not have finished / must not have finished) the report on time.",
+    "choices": [
+      "would not have finished",
+      "must not have finished"
+    ],
+    "answer": "would not have finished",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Without your help",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "가정과 반대되는 과거 결과",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "would not have finished",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "must not have finished": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "Without your help",
+        "가정과 반대되는 과거 결과",
+        "따라서 would not have finished를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-003",
+    "sourceQuestionId": "Q-G81-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-004",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 2,
+    "stem": "He (ought to have apologized / may have apologized), but he remained silent.",
+    "choices": [
+      "ought to have apologized",
+      "may have apologized"
+    ],
+    "answer": "ought to have apologized",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "but he remained silent",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "사과했어야 했으나 하지 않음",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "ought to have apologized",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "may have apologized": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "but he remained silent",
+        "사과했어야 했으나 하지 않음",
+        "따라서 ought to have apologized를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-004",
+    "sourceQuestionId": "Q-G81-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-005",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 2,
+    "stem": "She (could have won / must have won) if she had trained harder.",
+    "choices": [
+      "could have won",
+      "must have won"
+    ],
+    "answer": "could have won",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "if she had trained harder",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거에 가능했을 가상 결과",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "could have won",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "must have won": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "if she had trained harder",
+        "과거에 가능했을 가상 결과",
+        "따라서 could have won를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-005",
+    "sourceQuestionId": "Q-G81-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-006",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 2,
+    "stem": "If I had known the truth, I (would have told / should have told) you immediately.",
+    "choices": [
+      "would have told",
+      "should have told"
+    ],
+    "answer": "would have told",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "If I had known",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "가정법 과거완료의 결과",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "would have told",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "should have told": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "If I had known",
+        "가정법 과거완료의 결과",
+        "따라서 would have told를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-006",
+    "sourceQuestionId": "Q-G81-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-007",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 3,
+    "stem": "You (should not have ignored / cannot have ignored) the warning; it was careless.",
+    "choices": [
+      "should not have ignored",
+      "cannot have ignored"
+    ],
+    "answer": "should not have ignored",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "it was careless라는 평가",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "하지 말았어야 했다는 비판",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "should not have ignored",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "cannot have ignored": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "it was careless라는 평가",
+        "하지 말았어야 했다는 비판",
+        "따라서 should not have ignored를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-007",
+    "sourceQuestionId": "Q-G81-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 66,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-008",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 3,
+    "stem": "We (could have taken / must have taken) the earlier train, but we decided to wait.",
+    "choices": [
+      "could have taken",
+      "must have taken"
+    ],
+    "answer": "could have taken",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "but we decided to wait",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "선택 가능했으나 하지 않은 행동",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "could have taken",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "must have taken": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "but we decided to wait",
+        "선택 가능했으나 하지 않은 행동",
+        "따라서 could have taken를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-008",
+    "sourceQuestionId": "Q-G81-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 47,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-001-PF",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "You (should have called / may have called) before coming to my office.",
+    "choices": [
+      "should have called",
+      "may have called"
+    ],
+    "answer": "should have called",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "before coming이라는 이미 끝난 행동",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "전화했어야 했다는 비판",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "should have called",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "may have called": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "before coming이라는 이미 끝난 행동",
+        "전화했어야 했다는 비판",
+        "따라서 should have called를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-001",
+    "sourceQuestionId": "Q-G81-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-002-PF",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "We had enough time and money. We (could have stayed / must have stayed) longer, but we chose to leave.",
+    "choices": [
+      "could have stayed",
+      "must have stayed"
+    ],
+    "answer": "could have stayed",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "but we chose to leave",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "머물 가능성은 있었지만 실현하지 않음",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "could have stayed",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "must have stayed": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "but we chose to leave",
+        "머물 가능성은 있었지만 실현하지 않음",
+        "따라서 could have stayed를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-002",
+    "sourceQuestionId": "Q-G81-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 73,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 19,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-003-PF",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Without your help, I (would not have finished / must not have finished) the report on time.",
+    "choices": [
+      "would not have finished",
+      "must not have finished"
+    ],
+    "answer": "would not have finished",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Without your help",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "가정과 반대되는 과거 결과",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "would not have finished",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "must not have finished": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "Without your help",
+        "가정과 반대되는 과거 결과",
+        "따라서 would not have finished를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-003",
+    "sourceQuestionId": "Q-G81-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-004-PF",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 2,
+    "stem": "He (ought to have apologized / may have apologized), but he remained silent.",
+    "choices": [
+      "ought to have apologized",
+      "may have apologized"
+    ],
+    "answer": "ought to have apologized",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "but he remained silent",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "사과했어야 했으나 하지 않음",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "ought to have apologized",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "may have apologized": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "but he remained silent",
+        "사과했어야 했으나 하지 않음",
+        "따라서 ought to have apologized를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-004",
+    "sourceQuestionId": "Q-G81-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-005-PF",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 2,
+    "stem": "She (could have won / must have won) if she had trained harder.",
+    "choices": [
+      "could have won",
+      "must have won"
+    ],
+    "answer": "could have won",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "if she had trained harder",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거에 가능했을 가상 결과",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "could have won",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "must have won": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "if she had trained harder",
+        "과거에 가능했을 가상 결과",
+        "따라서 could have won를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-005",
+    "sourceQuestionId": "Q-G81-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-006-PF",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 2,
+    "stem": "If I had known the truth, I (would have told / should have told) you immediately.",
+    "choices": [
+      "would have told",
+      "should have told"
+    ],
+    "answer": "would have told",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "If I had known",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "가정법 과거완료의 결과",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "would have told",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "should have told": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "If I had known",
+        "가정법 과거완료의 결과",
+        "따라서 would have told를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-006",
+    "sourceQuestionId": "Q-G81-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-007-PF",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 3,
+    "stem": "You (should not have ignored / cannot have ignored) the warning; it was careless.",
+    "choices": [
+      "should not have ignored",
+      "cannot have ignored"
+    ],
+    "answer": "should not have ignored",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "it was careless라는 평가",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "하지 말았어야 했다는 비판",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "should not have ignored",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "cannot have ignored": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "it was careless라는 평가",
+        "하지 말았어야 했다는 비판",
+        "따라서 should not have ignored를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-007",
+    "sourceQuestionId": "Q-G81-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 74,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-008-PF",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 3,
+    "stem": "We (could have taken / must have taken) the earlier train, but we decided to wait.",
+    "choices": [
+      "could have taken",
+      "must have taken"
+    ],
+    "answer": "could have taken",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "but we decided to wait",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "선택 가능했으나 하지 않은 행동",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "could have taken",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "must have taken": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "but we decided to wait",
+        "선택 가능했으나 하지 않은 행동",
+        "따라서 could have taken를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-008",
+    "sourceQuestionId": "Q-G81-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 47,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 77,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-001-DR",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "You (should have called / may have called) before coming to my office.",
+    "choices": [
+      "should have called",
+      "may have called"
+    ],
+    "answer": "should have called",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "before coming이라는 이미 끝난 행동",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "전화했어야 했다는 비판",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "should have called",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "may have called": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "before coming이라는 이미 끝난 행동",
+        "전화했어야 했다는 비판",
+        "따라서 should have called를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-001",
+    "sourceQuestionId": "Q-G81-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-002-DR",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "We had enough time and money. We (could have stayed / must have stayed) longer, but we chose to leave.",
+    "choices": [
+      "could have stayed",
+      "must have stayed"
+    ],
+    "answer": "could have stayed",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "but we chose to leave",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "머물 가능성은 있었지만 실현하지 않음",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "could have stayed",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "must have stayed": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "but we chose to leave",
+        "머물 가능성은 있었지만 실현하지 않음",
+        "따라서 could have stayed를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-002",
+    "sourceQuestionId": "Q-G81-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 19,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-003-DR",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Without your help, I (would not have finished / must not have finished) the report on time.",
+    "choices": [
+      "would not have finished",
+      "must not have finished"
+    ],
+    "answer": "would not have finished",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Without your help",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "가정과 반대되는 과거 결과",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "would not have finished",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "must not have finished": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "Without your help",
+        "가정과 반대되는 과거 결과",
+        "따라서 would not have finished를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-003",
+    "sourceQuestionId": "Q-G81-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-004-DR",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 2,
+    "stem": "He (ought to have apologized / may have apologized), but he remained silent.",
+    "choices": [
+      "ought to have apologized",
+      "may have apologized"
+    ],
+    "answer": "ought to have apologized",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "but he remained silent",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "사과했어야 했으나 하지 않음",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "ought to have apologized",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "may have apologized": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "but he remained silent",
+        "사과했어야 했으나 하지 않음",
+        "따라서 ought to have apologized를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-004",
+    "sourceQuestionId": "Q-G81-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-005-DR",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 2,
+    "stem": "She (could have won / must have won) if she had trained harder.",
+    "choices": [
+      "could have won",
+      "must have won"
+    ],
+    "answer": "could have won",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "if she had trained harder",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거에 가능했을 가상 결과",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "could have won",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "must have won": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "if she had trained harder",
+        "과거에 가능했을 가상 결과",
+        "따라서 could have won를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-005",
+    "sourceQuestionId": "Q-G81-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-006-DR",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 2,
+    "stem": "If I had known the truth, I (would have told / should have told) you immediately.",
+    "choices": [
+      "would have told",
+      "should have told"
+    ],
+    "answer": "would have told",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "If I had known",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "가정법 과거완료의 결과",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "would have told",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "should have told": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "If I had known",
+        "가정법 과거완료의 결과",
+        "따라서 would have told를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-006",
+    "sourceQuestionId": "Q-G81-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-007-DR",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 3,
+    "stem": "You (should not have ignored / cannot have ignored) the warning; it was careless.",
+    "choices": [
+      "should not have ignored",
+      "cannot have ignored"
+    ],
+    "answer": "should not have ignored",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "it was careless라는 평가",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "하지 말았어야 했다는 비판",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "should not have ignored",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "cannot have ignored": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "it was careless라는 평가",
+        "하지 말았어야 했다는 비판",
+        "따라서 should not have ignored를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-007",
+    "sourceQuestionId": "Q-G81-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-008-DR",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 3,
+    "stem": "We (could have taken / must have taken) the earlier train, but we decided to wait.",
+    "choices": [
+      "could have taken",
+      "must have taken"
+    ],
+    "answer": "could have taken",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "but we decided to wait",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "선택 가능했으나 하지 않은 행동",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "could have taken",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "must have taken": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "과거 행동에 대한 후회, 실현 가능성, 가정 결과를 구별하지 않았다.",
+      "summary": [
+        "but we decided to wait",
+        "선택 가능했으나 하지 않은 행동",
+        "따라서 could have taken를 선택한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-008",
+    "sourceQuestionId": "Q-G81-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 47,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-001-CT",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nYou (should have called / may have called) before coming to my office.",
+    "choices": [
+      "should have called",
+      "may have called"
+    ],
+    "answer": "may have called",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "before coming이라는 이미 끝난 행동",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "전화했어야 했다는 비판",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "should have called",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "should have called": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'may have called'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'should have called'이다.",
+      "summary": [
+        "before coming이라는 이미 끝난 행동",
+        "전화했어야 했다는 비판",
+        "따라서 should have called를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'may have called'이다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-001",
+    "sourceQuestionId": "Q-G81-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-002-CT",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe had enough time and money. We (could have stayed / must have stayed) longer, but we chose to leave.",
+    "choices": [
+      "must have stayed",
+      "could have stayed"
+    ],
+    "answer": "must have stayed",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "but we chose to leave",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "머물 가능성은 있었지만 실현하지 않음",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "could have stayed",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could have stayed": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'must have stayed'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'could have stayed'이다.",
+      "summary": [
+        "but we chose to leave",
+        "머물 가능성은 있었지만 실현하지 않음",
+        "따라서 could have stayed를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'must have stayed'이다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-002",
+    "sourceQuestionId": "Q-G81-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 19,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-003-CT",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWithout your help, I (would not have finished / must not have finished) the report on time.",
+    "choices": [
+      "would not have finished",
+      "must not have finished"
+    ],
+    "answer": "must not have finished",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Without your help",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "가정과 반대되는 과거 결과",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "would not have finished",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would not have finished": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'must not have finished'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would not have finished'이다.",
+      "summary": [
+        "Without your help",
+        "가정과 반대되는 과거 결과",
+        "따라서 would not have finished를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'must not have finished'이다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-003",
+    "sourceQuestionId": "Q-G81-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-004-CT",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe (ought to have apologized / may have apologized), but he remained silent.",
+    "choices": [
+      "ought to have apologized",
+      "may have apologized"
+    ],
+    "answer": "may have apologized",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "but he remained silent",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "사과했어야 했으나 하지 않음",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "ought to have apologized",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "ought to have apologized": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'may have apologized'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'ought to have apologized'이다.",
+      "summary": [
+        "but he remained silent",
+        "사과했어야 했으나 하지 않음",
+        "따라서 ought to have apologized를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'may have apologized'이다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-004",
+    "sourceQuestionId": "Q-G81-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-005-CT",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe (could have won / must have won) if she had trained harder.",
+    "choices": [
+      "must have won",
+      "could have won"
+    ],
+    "answer": "must have won",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "if she had trained harder",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거에 가능했을 가상 결과",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "could have won",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could have won": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'must have won'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'could have won'이다.",
+      "summary": [
+        "if she had trained harder",
+        "과거에 가능했을 가상 결과",
+        "따라서 could have won를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'must have won'이다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-005",
+    "sourceQuestionId": "Q-G81-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-006-CT",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf I had known the truth, I (would have told / should have told) you immediately.",
+    "choices": [
+      "would have told",
+      "should have told"
+    ],
+    "answer": "should have told",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "If I had known",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "가정법 과거완료의 결과",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "would have told",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have told": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'should have told'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would have told'이다.",
+      "summary": [
+        "If I had known",
+        "가정법 과거완료의 결과",
+        "따라서 would have told를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'should have told'이다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-006",
+    "sourceQuestionId": "Q-G81-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-007-CT",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nYou (should not have ignored / cannot have ignored) the warning; it was careless.",
+    "choices": [
+      "should not have ignored",
+      "cannot have ignored"
+    ],
+    "answer": "cannot have ignored",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "it was careless라는 평가",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "하지 말았어야 했다는 비판",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "should not have ignored",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "should not have ignored": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'cannot have ignored'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'should not have ignored'이다.",
+      "summary": [
+        "it was careless라는 평가",
+        "하지 말았어야 했다는 비판",
+        "따라서 should not have ignored를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'cannot have ignored'이다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-007",
+    "sourceQuestionId": "Q-G81-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G81-008-CT",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe (could have taken / must have taken) the earlier train, but we decided to wait.",
+    "choices": [
+      "must have taken",
+      "could have taken"
+    ],
+    "answer": "must have taken",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "but we decided to wait",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "선택 가능했으나 하지 않은 행동",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "could have taken",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could have taken": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'must have taken'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'could have taken'이다.",
+      "summary": [
+        "but we decided to wait",
+        "선택 가능했으나 하지 않은 행동",
+        "따라서 could have taken를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'must have taken'이다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G81-008",
+    "sourceQuestionId": "Q-G81-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 47,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-660A8BC557",
+    "conceptId": "G81_MODAL_HAVE_PP_REGRET_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "빠른 확인: 하지 못한 과거 행동에 대한 후회·비판은?",
+    "choices": [
+      "should have p.p.",
+      "may have p.p."
+    ],
+    "answer": "should have p.p.",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "cannot help V-ing는 하지 않을 수 없다, cannot ... too는 아무리 해도 지나치지 않다, cannot A and B는 두 일을 동시에 할 수 없다는 뜻이다.",
+          "should·ought to have p.p.는 하지 못한 일에 대한 후회·비판, could have p.p.는 과거 가능성, would have p.p.는 가정의 결과를 나타낸다."
+        ],
+        "answer": "should·ought to have p.p.는 하지 못한 일에 대한 후회·비판, could have p.p.는 과거 가능성, would have p.p.는 가정의 결과를 나타낸다.",
+        "errorCode": "E85_MODAL_REGRET_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "may have p.p.": "E85_MODAL_REGRET_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "should·ought to have p.p.는 하지 못한 일에 대한 후회·비판, could have p.p.는 과거 가능성, would have p.p.는 가정의 결과를 나타낸다.",
+        "before coming이라는 이미 끝난 행동",
+        "전화했어야 했다는 비판",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G81",
+      "checkQuestion": {
+        "prompt": "하지 못한 과거 행동에 대한 후회·비판은?",
+        "choices": [
+          "should have p.p.",
+          "may have p.p."
+        ],
+        "answer": "should have p.p."
+      },
+      "transferQuestionId": "Q-G81-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART9",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-660A8BC557",
+    "sourceQuestionId": "Q-G81-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

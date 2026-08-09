@@ -1,0 +1,16 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Student Pilot: the single learner record is shared across the learner's devices.
+    // Firebase Anonymous Authentication must be enabled before deployment.
+    match /jkEnglishWorkbooks/jk-5sec-grammar/learners/single-learner/{document=**} {
+      allow read, write: if request.auth != null
+        && request.auth.token.firebase.sign_in_provider == 'anonymous';
+    }
+
+    // Everything outside the workbook's pilot namespace is denied.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

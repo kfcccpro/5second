@@ -1,0 +1,5343 @@
+[
+  {
+    "id": "Q-G43-001",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "I cannot believe (what / that) I have just seen.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I have seen은 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "what",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "목적어가 없어 불완전하다.",
+        "따라서 what를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-001",
+    "sourceQuestionId": "Q-G43-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-002",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "The models (that / what) allow users to see the speaker are useful.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "models가 있다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "allow의 주어",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "관계대명사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "models가 있다.",
+        "allow의 주어.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-002",
+    "sourceQuestionId": "Q-G43-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-003",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "I discovered (that / what) I was right.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I was right는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "접속사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "완전하다.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-003",
+    "sourceQuestionId": "Q-G43-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-004",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "Education is (what / that) you make of it.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 you make of it은 무엇이 빠졌는가?",
+        "answer": "보어 역할의 것",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "what",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "보어 역할의 것.",
+        "따라서 what를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-004",
+    "sourceQuestionId": "Q-G43-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-005",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "The idea (that / what) he proposed was accepted.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "idea가 있다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "proposed의 목적어",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "관계대명사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "idea가 있다.",
+        "proposed의 목적어.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-005",
+    "sourceQuestionId": "Q-G43-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-006",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "I understand (what / that) she meant.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she meant는 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "what",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "목적어가 없어 불완전하다.",
+        "따라서 what를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-006",
+    "sourceQuestionId": "Q-G43-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-007",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "The report claims (that / what) the policy works.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the policy works는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "접속사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "완전하다.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-007",
+    "sourceQuestionId": "Q-G43-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-008",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "This is the tool (that / what) we need.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "tool이 있다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "need의 목적어",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "관계대명사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "tool이 있다.",
+        "need의 목적어.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-008",
+    "sourceQuestionId": "Q-G43-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-001-PF",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "I cannot believe (what / that) I have just seen.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I have seen은 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "what",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "목적어가 없어 불완전하다.",
+        "따라서 what를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-001",
+    "sourceQuestionId": "Q-G43-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-002-PF",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "The models (that / what) allow users to see the speaker are useful.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "models가 있다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "allow의 주어",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "관계대명사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "models가 있다.",
+        "allow의 주어.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-002",
+    "sourceQuestionId": "Q-G43-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-003-PF",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "I discovered (that / what) I was right.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I was right는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "접속사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "완전하다.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-003",
+    "sourceQuestionId": "Q-G43-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-004-PF",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "Education is (what / that) you make of it.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 you make of it은 무엇이 빠졌는가?",
+        "answer": "보어 역할의 것",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "what",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "보어 역할의 것.",
+        "따라서 what를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-004",
+    "sourceQuestionId": "Q-G43-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-005-PF",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "The idea (that / what) he proposed was accepted.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "idea가 있다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "proposed의 목적어",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "관계대명사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "idea가 있다.",
+        "proposed의 목적어.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-005",
+    "sourceQuestionId": "Q-G43-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-006-PF",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "I understand (what / that) she meant.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she meant는 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "what",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "목적어가 없어 불완전하다.",
+        "따라서 what를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-006",
+    "sourceQuestionId": "Q-G43-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-007-PF",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "The report claims (that / what) the policy works.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the policy works는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "접속사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "완전하다.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-007",
+    "sourceQuestionId": "Q-G43-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-008-PF",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "This is the tool (that / what) we need.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "tool이 있다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "need의 목적어",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "관계대명사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "tool이 있다.",
+        "need의 목적어.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-008",
+    "sourceQuestionId": "Q-G43-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-001-DR",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "I cannot believe (what / that) I have just seen.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I have seen은 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "what",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "목적어가 없어 불완전하다.",
+        "따라서 what를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-001",
+    "sourceQuestionId": "Q-G43-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-002-DR",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "The models (that / what) allow users to see the speaker are useful.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "models가 있다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "allow의 주어",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "관계대명사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "models가 있다.",
+        "allow의 주어.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-002",
+    "sourceQuestionId": "Q-G43-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-003-DR",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "I discovered (that / what) I was right.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I was right는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "접속사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "완전하다.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-003",
+    "sourceQuestionId": "Q-G43-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-004-DR",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "Education is (what / that) you make of it.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 you make of it은 무엇이 빠졌는가?",
+        "answer": "보어 역할의 것",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "what",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "보어 역할의 것.",
+        "따라서 what를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-004",
+    "sourceQuestionId": "Q-G43-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-005-DR",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "The idea (that / what) he proposed was accepted.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "idea가 있다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "proposed의 목적어",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "관계대명사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "idea가 있다.",
+        "proposed의 목적어.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-005",
+    "sourceQuestionId": "Q-G43-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-006-DR",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "I understand (what / that) she meant.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she meant는 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "what",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "목적어가 없어 불완전하다.",
+        "따라서 what를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-006",
+    "sourceQuestionId": "Q-G43-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-007-DR",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "The report claims (that / what) the policy works.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the policy works는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "접속사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "완전하다.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-007",
+    "sourceQuestionId": "Q-G43-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-008-DR",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "This is the tool (that / what) we need.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "tool이 있다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "need의 목적어",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "관계대명사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무와 뒤 절의 완전성을 순서대로 확인하지 않았다.",
+      "summary": [
+        "tool이 있다.",
+        "need의 목적어.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-008",
+    "sourceQuestionId": "Q-G43-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-001-CT",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI cannot believe (what / that) I have just seen.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I have seen은 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "what",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'that'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'what'이다.",
+      "summary": [
+        "없다.",
+        "목적어가 없어 불완전하다.",
+        "따라서 what를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'that'이다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-001",
+    "sourceQuestionId": "Q-G43-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-002-CT",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe models (that / what) allow users to see the speaker are useful.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "models가 있다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "allow의 주어",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "관계대명사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'what'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "models가 있다.",
+        "allow의 주어.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'what'이다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-002",
+    "sourceQuestionId": "Q-G43-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-003-CT",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI discovered (that / what) I was right.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I was right는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "접속사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'what'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "없다.",
+        "완전하다.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'what'이다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-003",
+    "sourceQuestionId": "Q-G43-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-004-CT",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nEducation is (what / that) you make of it.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 you make of it은 무엇이 빠졌는가?",
+        "answer": "보어 역할의 것",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "what",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'that'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'what'이다.",
+      "summary": [
+        "없다.",
+        "보어 역할의 것.",
+        "따라서 what를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'that'이다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-004",
+    "sourceQuestionId": "Q-G43-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-005-CT",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe idea (that / what) he proposed was accepted.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "idea가 있다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "proposed의 목적어",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "관계대명사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'what'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "idea가 있다.",
+        "proposed의 목적어.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'what'이다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-005",
+    "sourceQuestionId": "Q-G43-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-006-CT",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI understand (what / that) she meant.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she meant는 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "what",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'that'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'what'이다.",
+      "summary": [
+        "없다.",
+        "목적어가 없어 불완전하다.",
+        "따라서 what를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'that'이다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-006",
+    "sourceQuestionId": "Q-G43-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-007-CT",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe report claims (that / what) the policy works.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the policy works는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "접속사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'what'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "없다.",
+        "완전하다.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'what'이다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-007",
+    "sourceQuestionId": "Q-G43-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G43-008-CT",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThis is the tool (that / what) we need.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "tool이 있다",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "need의 목적어",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "관계대명사 that",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'what'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "tool이 있다.",
+        "need의 목적어.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'what'이다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G43-008",
+    "sourceQuestionId": "Q-G43-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-90ED38F428",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 1,
+    "stem": "빠른 확인: 선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "뒤 절이 불완전한 상태에서 앞에 선행사가 있으면 which, 선행사가 없으면 what을 고른다.",
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "없다.",
+        "목적어가 없어 불완전하다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "선행사가 없고 뒤 절이 불완전하면 무엇을 고르는가?",
+        "choices": [
+          "what",
+          "that"
+        ],
+        "answer": "what"
+      },
+      "transferQuestionId": "Q-G43-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-90ED38F428",
+    "sourceQuestionId": "Q-G43-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-071-EC1D0984",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "Abstraction enriches meaning by helping you to take a collection of examples and to see just [what / that] is essential about dogness.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-8323536E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-071-EC1D0984",
+    "sourceQuestionId": "Q-P21-G-071-EC1D0984",
+    "sourceCandidateId": "CAND-G-071-EC1D0984",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-EC1D0984",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 22,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-EC1D0984-PF",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "Abstraction enriches meaning by helping you to take a collection of examples and to see just [what / that] is essential about dogness.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-8323536E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-EC1D0984",
+    "sourceQuestionId": "Q-P21-G-071-EC1D0984",
+    "sourceCandidateId": "CAND-G-071-EC1D0984",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-EC1D0984",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 22,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-EC1D0984-DR",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "Abstraction enriches meaning by helping you to take a collection of examples and to see just [what / that] is essential about dogness.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-8323536E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-EC1D0984",
+    "sourceQuestionId": "Q-P21-G-071-EC1D0984",
+    "sourceCandidateId": "CAND-G-071-EC1D0984",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-EC1D0984",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 22,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-EC1D0984-CT",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nAbstraction enriches meaning by helping you to take a collection of examples and to see just [what / that] is essential about dogness.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'that'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'what'이다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'that'를 고른다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-EC1D0984",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-EC1D0984",
+    "sourceQuestionId": "Q-P21-G-071-EC1D0984",
+    "sourceCandidateId": "CAND-G-071-EC1D0984",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-EC1D0984",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 22,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-8323536E",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "Cellular phone manufacturers are anxious to bring out models [that / what] allow you to see the person you are talking to.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-08D60564",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-071-8323536E",
+    "sourceQuestionId": "Q-P21-G-071-8323536E",
+    "sourceCandidateId": "CAND-G-071-8323536E",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-8323536E",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-8323536E-PF",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "Cellular phone manufacturers are anxious to bring out models [that / what] allow you to see the person you are talking to.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-08D60564",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-8323536E",
+    "sourceQuestionId": "Q-P21-G-071-8323536E",
+    "sourceCandidateId": "CAND-G-071-8323536E",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-8323536E",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-8323536E-DR",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "Cellular phone manufacturers are anxious to bring out models [that / what] allow you to see the person you are talking to.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-08D60564",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-8323536E",
+    "sourceQuestionId": "Q-P21-G-071-8323536E",
+    "sourceCandidateId": "CAND-G-071-8323536E",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-8323536E",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-8323536E-CT",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nCellular phone manufacturers are anxious to bring out models [that / what] allow you to see the person you are talking to.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'what'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'what'를 고른다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-8323536E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-8323536E",
+    "sourceQuestionId": "Q-P21-G-071-8323536E",
+    "sourceCandidateId": "CAND-G-071-8323536E",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-8323536E",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-08D60564",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "It is not clear what someone might mean by saying [what / that] these extinct species had an unsustainable life process because they did not survive a meteor impact.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-1D58EE2A",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-071-08D60564",
+    "sourceQuestionId": "Q-P21-G-071-08D60564",
+    "sourceCandidateId": "CAND-G-071-08D60564",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-08D60564",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 77,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 28,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-08D60564-PF",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "It is not clear what someone might mean by saying [what / that] these extinct species had an unsustainable life process because they did not survive a meteor impact.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-1D58EE2A",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-08D60564",
+    "sourceQuestionId": "Q-P21-G-071-08D60564",
+    "sourceCandidateId": "CAND-G-071-08D60564",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-08D60564",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 86,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 28,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-08D60564-DR",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "It is not clear what someone might mean by saying [what / that] these extinct species had an unsustainable life process because they did not survive a meteor impact.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-1D58EE2A",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-08D60564",
+    "sourceQuestionId": "Q-P21-G-071-08D60564",
+    "sourceCandidateId": "CAND-G-071-08D60564",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-08D60564",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 28,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-08D60564-CT",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is not clear what someone might mean by saying [what / that] these extinct species had an unsustainable life process because they did not survive a meteor impact.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'what'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'what'를 고른다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-08D60564",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-08D60564",
+    "sourceQuestionId": "Q-P21-G-071-08D60564",
+    "sourceCandidateId": "CAND-G-071-08D60564",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-08D60564",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 28,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-1D58EE2A",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "We can live happily together if we see the world with the eye of family members and understand [that / what] lies in their mind.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-5FBFCEB1",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-071-1D58EE2A",
+    "sourceQuestionId": "Q-P21-G-071-1D58EE2A",
+    "sourceCandidateId": "CAND-G-071-1D58EE2A",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-1D58EE2A",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 24,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-1D58EE2A-PF",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "We can live happily together if we see the world with the eye of family members and understand [that / what] lies in their mind.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-5FBFCEB1",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-1D58EE2A",
+    "sourceQuestionId": "Q-P21-G-071-1D58EE2A",
+    "sourceCandidateId": "CAND-G-071-1D58EE2A",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-1D58EE2A",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 73,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 24,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-1D58EE2A-DR",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "We can live happily together if we see the world with the eye of family members and understand [that / what] lies in their mind.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-5FBFCEB1",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-1D58EE2A",
+    "sourceQuestionId": "Q-P21-G-071-1D58EE2A",
+    "sourceCandidateId": "CAND-G-071-1D58EE2A",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-1D58EE2A",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 24,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-1D58EE2A-CT",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe can live happily together if we see the world with the eye of family members and understand [that / what] lies in their mind.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'that'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'what'이다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'that'를 고른다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-1D58EE2A",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-1D58EE2A",
+    "sourceQuestionId": "Q-P21-G-071-1D58EE2A",
+    "sourceCandidateId": "CAND-G-071-1D58EE2A",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-1D58EE2A",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 24,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-5FBFCEB1",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "Wrinkles on this side express the strong emotions [what / that] we have experienced in our lives.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-EC1D0984",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-071-5FBFCEB1",
+    "sourceQuestionId": "Q-P21-G-071-5FBFCEB1",
+    "sourceCandidateId": "CAND-G-071-5FBFCEB1",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-5FBFCEB1",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-5FBFCEB1-PF",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "Wrinkles on this side express the strong emotions [what / that] we have experienced in our lives.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-EC1D0984",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-5FBFCEB1",
+    "sourceQuestionId": "Q-P21-G-071-5FBFCEB1",
+    "sourceCandidateId": "CAND-G-071-5FBFCEB1",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-5FBFCEB1",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-5FBFCEB1-DR",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "Wrinkles on this side express the strong emotions [what / that] we have experienced in our lives.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "선행사 유무 또는 뒤 절의 완전·불완전을 놓쳤다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다"
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-EC1D0984",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-5FBFCEB1",
+    "sourceQuestionId": "Q-P21-G-071-5FBFCEB1",
+    "sourceCandidateId": "CAND-G-071-5FBFCEB1",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-5FBFCEB1",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-071-5FBFCEB1-CT",
+    "conceptId": "G43_THAT_WHAT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWrinkles on this side express the strong emotions [what / that] we have experienced in our lives.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "that / what 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "that / what 구별",
+        "errorCode": "E47_THAT_WHAT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "errorCode": "E47_THAT_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E47_THAT_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'what'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+        "앞에 선행사가 있는지 본다",
+        "관계대명사 that·접속사 that·what 중 결정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'what'를 고른다."
+      ],
+      "sourceRef": "SRC-G43",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-071-5FBFCEB1",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-071-5FBFCEB1",
+    "sourceQuestionId": "Q-P21-G-071-5FBFCEB1",
+    "sourceCandidateId": "CAND-G-071-5FBFCEB1",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 71,
+      "asset": "assets/source-evidence/phase21/grammar-page-071.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-071-5FBFCEB1",
+      "evidenceRef": "SRC-P21-G-071",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

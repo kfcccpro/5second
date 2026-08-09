@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G66-001",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 1,
+    "stem": "She speaks French as (good / well) as us.",
+    "choices": [
+      "good",
+      "well"
+    ],
+    "answer": "well",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "speaks French는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 speaks를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 well",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "good": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "speaks French는 완전함.",
+        "후보는 speaks를 수식함.",
+        "따라서 well를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-001",
+    "sourceQuestionId": "Q-G66-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-002",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 1,
+    "stem": "The variation is as (subtle / subtly) as a pause.",
+    "choices": [
+      "subtle",
+      "subtly"
+    ],
+    "answer": "subtle",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "is 뒤 보어가 필요함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "주어 variation의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 subtle",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "subtly": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "is 뒤 보어가 필요함.",
+        "주어 variation의 상태를 설명함.",
+        "따라서 subtle를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-002",
+    "sourceQuestionId": "Q-G66-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-003",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 1,
+    "stem": "He runs as (quick / quickly) as his brother.",
+    "choices": [
+      "quick",
+      "quickly"
+    ],
+    "answer": "quickly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "runs는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 runs를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 quickly",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "quick": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "runs는 완전함.",
+        "후보는 runs를 수식함.",
+        "따라서 quickly를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-003",
+    "sourceQuestionId": "Q-G66-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-004",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 2,
+    "stem": "The room is as (quiet / quietly) as the library.",
+    "choices": [
+      "quiet",
+      "quietly"
+    ],
+    "answer": "quiet",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "is 뒤 보어가 필요함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "room의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 quiet",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "quietly": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "is 뒤 보어가 필요함.",
+        "room의 상태를 설명함.",
+        "따라서 quiet를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-004",
+    "sourceQuestionId": "Q-G66-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-005",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 2,
+    "stem": "She answered as (polite / politely) as possible.",
+    "choices": [
+      "polite",
+      "politely"
+    ],
+    "answer": "politely",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "answered는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 answered를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 politely",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "polite": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "answered는 완전함.",
+        "후보는 answered를 수식함.",
+        "따라서 politely를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-005",
+    "sourceQuestionId": "Q-G66-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-006",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 2,
+    "stem": "This method seems as (effective / effectively) as the old one.",
+    "choices": [
+      "effective",
+      "effectively"
+    ],
+    "answer": "effective",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "seem은 2형식 동사",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "method의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 effective",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "effectively": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "seem은 2형식 동사.",
+        "method의 상태를 설명함.",
+        "따라서 effective를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-006",
+    "sourceQuestionId": "Q-G66-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-007",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 3,
+    "stem": "The children worked as (careful / carefully) as the adults.",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "worked는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 worked를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 carefully",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "worked는 완전함.",
+        "후보는 worked를 수식함.",
+        "따라서 carefully를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-007",
+    "sourceQuestionId": "Q-G66-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-008",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 3,
+    "stem": "His explanation was as (clear / clearly) as the teacher’s.",
+    "choices": [
+      "clear",
+      "clearly"
+    ],
+    "answer": "clear",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "was 뒤 보어가 필요함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "explanation의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 clear",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "clearly": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "was 뒤 보어가 필요함.",
+        "explanation의 상태를 설명함.",
+        "따라서 clear를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-008",
+    "sourceQuestionId": "Q-G66-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-001-PF",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 1,
+    "stem": "She speaks French as (good / well) as us.",
+    "choices": [
+      "good",
+      "well"
+    ],
+    "answer": "well",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "speaks French는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 speaks를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 well",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "good": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "speaks French는 완전함.",
+        "후보는 speaks를 수식함.",
+        "따라서 well를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-001",
+    "sourceQuestionId": "Q-G66-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-002-PF",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 1,
+    "stem": "The variation is as (subtle / subtly) as a pause.",
+    "choices": [
+      "subtle",
+      "subtly"
+    ],
+    "answer": "subtle",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "is 뒤 보어가 필요함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "주어 variation의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 subtle",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "subtly": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "is 뒤 보어가 필요함.",
+        "주어 variation의 상태를 설명함.",
+        "따라서 subtle를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-002",
+    "sourceQuestionId": "Q-G66-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-003-PF",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 1,
+    "stem": "He runs as (quick / quickly) as his brother.",
+    "choices": [
+      "quick",
+      "quickly"
+    ],
+    "answer": "quickly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "runs는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 runs를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 quickly",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "quick": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "runs는 완전함.",
+        "후보는 runs를 수식함.",
+        "따라서 quickly를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-003",
+    "sourceQuestionId": "Q-G66-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-004-PF",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 2,
+    "stem": "The room is as (quiet / quietly) as the library.",
+    "choices": [
+      "quiet",
+      "quietly"
+    ],
+    "answer": "quiet",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "is 뒤 보어가 필요함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "room의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 quiet",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "quietly": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "is 뒤 보어가 필요함.",
+        "room의 상태를 설명함.",
+        "따라서 quiet를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-004",
+    "sourceQuestionId": "Q-G66-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-005-PF",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 2,
+    "stem": "She answered as (polite / politely) as possible.",
+    "choices": [
+      "polite",
+      "politely"
+    ],
+    "answer": "politely",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "answered는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 answered를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 politely",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "polite": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "answered는 완전함.",
+        "후보는 answered를 수식함.",
+        "따라서 politely를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-005",
+    "sourceQuestionId": "Q-G66-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-006-PF",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 2,
+    "stem": "This method seems as (effective / effectively) as the old one.",
+    "choices": [
+      "effective",
+      "effectively"
+    ],
+    "answer": "effective",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "seem은 2형식 동사",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "method의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 effective",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "effectively": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "seem은 2형식 동사.",
+        "method의 상태를 설명함.",
+        "따라서 effective를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-006",
+    "sourceQuestionId": "Q-G66-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-007-PF",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 3,
+    "stem": "The children worked as (careful / carefully) as the adults.",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "worked는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 worked를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 carefully",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "worked는 완전함.",
+        "후보는 worked를 수식함.",
+        "따라서 carefully를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-007",
+    "sourceQuestionId": "Q-G66-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-008-PF",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 3,
+    "stem": "His explanation was as (clear / clearly) as the teacher’s.",
+    "choices": [
+      "clear",
+      "clearly"
+    ],
+    "answer": "clear",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "was 뒤 보어가 필요함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "explanation의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 clear",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "clearly": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "was 뒤 보어가 필요함.",
+        "explanation의 상태를 설명함.",
+        "따라서 clear를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-008",
+    "sourceQuestionId": "Q-G66-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-001-DR",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 1,
+    "stem": "She speaks French as (good / well) as us.",
+    "choices": [
+      "good",
+      "well"
+    ],
+    "answer": "well",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "speaks French는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 speaks를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 well",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "good": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "speaks French는 완전함.",
+        "후보는 speaks를 수식함.",
+        "따라서 well를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-001",
+    "sourceQuestionId": "Q-G66-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-002-DR",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 1,
+    "stem": "The variation is as (subtle / subtly) as a pause.",
+    "choices": [
+      "subtle",
+      "subtly"
+    ],
+    "answer": "subtle",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "is 뒤 보어가 필요함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "주어 variation의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 subtle",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "subtly": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "is 뒤 보어가 필요함.",
+        "주어 variation의 상태를 설명함.",
+        "따라서 subtle를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-002",
+    "sourceQuestionId": "Q-G66-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-003-DR",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 1,
+    "stem": "He runs as (quick / quickly) as his brother.",
+    "choices": [
+      "quick",
+      "quickly"
+    ],
+    "answer": "quickly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "runs는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 runs를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 quickly",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "quick": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "runs는 완전함.",
+        "후보는 runs를 수식함.",
+        "따라서 quickly를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-003",
+    "sourceQuestionId": "Q-G66-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-004-DR",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 2,
+    "stem": "The room is as (quiet / quietly) as the library.",
+    "choices": [
+      "quiet",
+      "quietly"
+    ],
+    "answer": "quiet",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "is 뒤 보어가 필요함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "room의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 quiet",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "quietly": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "is 뒤 보어가 필요함.",
+        "room의 상태를 설명함.",
+        "따라서 quiet를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-004",
+    "sourceQuestionId": "Q-G66-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-005-DR",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 2,
+    "stem": "She answered as (polite / politely) as possible.",
+    "choices": [
+      "polite",
+      "politely"
+    ],
+    "answer": "politely",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "answered는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 answered를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 politely",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "polite": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "answered는 완전함.",
+        "후보는 answered를 수식함.",
+        "따라서 politely를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-005",
+    "sourceQuestionId": "Q-G66-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-006-DR",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 2,
+    "stem": "This method seems as (effective / effectively) as the old one.",
+    "choices": [
+      "effective",
+      "effectively"
+    ],
+    "answer": "effective",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "seem은 2형식 동사",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "method의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 effective",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "effectively": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "seem은 2형식 동사.",
+        "method의 상태를 설명함.",
+        "따라서 effective를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-006",
+    "sourceQuestionId": "Q-G66-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-007-DR",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 3,
+    "stem": "The children worked as (careful / carefully) as the adults.",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "worked는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 worked를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 carefully",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "worked는 완전함.",
+        "후보는 worked를 수식함.",
+        "따라서 carefully를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-007",
+    "sourceQuestionId": "Q-G66-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-008-DR",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 3,
+    "stem": "His explanation was as (clear / clearly) as the teacher’s.",
+    "choices": [
+      "clear",
+      "clearly"
+    ],
+    "answer": "clear",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "was 뒤 보어가 필요함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "explanation의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 clear",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "clearly": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "첫 번째 as 앞 문장의 완전성을 확인하지 않았다.",
+      "summary": [
+        "was 뒤 보어가 필요함.",
+        "explanation의 상태를 설명함.",
+        "따라서 clear를 선택한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-008",
+    "sourceQuestionId": "Q-G66-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-001-CT",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe speaks French as (good / well) as us.",
+    "choices": [
+      "well",
+      "good"
+    ],
+    "answer": "good",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "speaks French는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 speaks를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 well",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "well": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'good'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'well'이다.",
+      "summary": [
+        "speaks French는 완전함.",
+        "후보는 speaks를 수식함.",
+        "따라서 well를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'good'이다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-001",
+    "sourceQuestionId": "Q-G66-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-002-CT",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe variation is as (subtle / subtly) as a pause.",
+    "choices": [
+      "subtly",
+      "subtle"
+    ],
+    "answer": "subtly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "is 뒤 보어가 필요함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "주어 variation의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 subtle",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "subtle": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'subtly'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'subtle'이다.",
+      "summary": [
+        "is 뒤 보어가 필요함.",
+        "주어 variation의 상태를 설명함.",
+        "따라서 subtle를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'subtly'이다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-002",
+    "sourceQuestionId": "Q-G66-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-003-CT",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe runs as (quick / quickly) as his brother.",
+    "choices": [
+      "quickly",
+      "quick"
+    ],
+    "answer": "quick",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "runs는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 runs를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 quickly",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "quickly": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'quick'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'quickly'이다.",
+      "summary": [
+        "runs는 완전함.",
+        "후보는 runs를 수식함.",
+        "따라서 quickly를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'quick'이다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-003",
+    "sourceQuestionId": "Q-G66-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-004-CT",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe room is as (quiet / quietly) as the library.",
+    "choices": [
+      "quietly",
+      "quiet"
+    ],
+    "answer": "quietly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "is 뒤 보어가 필요함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "room의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 quiet",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "quiet": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'quietly'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'quiet'이다.",
+      "summary": [
+        "is 뒤 보어가 필요함.",
+        "room의 상태를 설명함.",
+        "따라서 quiet를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'quietly'이다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-004",
+    "sourceQuestionId": "Q-G66-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-005-CT",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe answered as (polite / politely) as possible.",
+    "choices": [
+      "polite",
+      "politely"
+    ],
+    "answer": "polite",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "answered는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 answered를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 politely",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "politely": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'polite'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'politely'이다.",
+      "summary": [
+        "answered는 완전함.",
+        "후보는 answered를 수식함.",
+        "따라서 politely를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'polite'이다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-005",
+    "sourceQuestionId": "Q-G66-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-006-CT",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThis method seems as (effective / effectively) as the old one.",
+    "choices": [
+      "effective",
+      "effectively"
+    ],
+    "answer": "effectively",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "seem은 2형식 동사",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "method의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 effective",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "effective": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'effectively'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'effective'이다.",
+      "summary": [
+        "seem은 2형식 동사.",
+        "method의 상태를 설명함.",
+        "따라서 effective를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'effectively'이다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-006",
+    "sourceQuestionId": "Q-G66-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-007-CT",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe children worked as (careful / carefully) as the adults.",
+    "choices": [
+      "carefully",
+      "careful"
+    ],
+    "answer": "careful",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "worked는 완전함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 worked를 수식함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 carefully",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "carefully": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'careful'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'carefully'이다.",
+      "summary": [
+        "worked는 완전함.",
+        "후보는 worked를 수식함.",
+        "따라서 carefully를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'careful'이다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-007",
+    "sourceQuestionId": "Q-G66-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G66-008-CT",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHis explanation was as (clear / clearly) as the teacher’s.",
+    "choices": [
+      "clear",
+      "clearly"
+    ],
+    "answer": "clearly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "was 뒤 보어가 필요함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "explanation의 상태를 설명함",
+        "errorCode": "E70_AS_AS_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 clear",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "clear": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'clearly'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'clear'이다.",
+      "summary": [
+        "was 뒤 보어가 필요함.",
+        "explanation의 상태를 설명함.",
+        "따라서 clear를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'clearly'이다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G66-008",
+    "sourceQuestionId": "Q-G66-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-938CD8C904",
+    "conceptId": "G66_AS_ADJ_ADV_AS",
+    "difficulty": 1,
+    "stem": "빠른 확인: as ~ as 앞 문장이 완전하면 가운데에는?",
+    "choices": [
+      "부사",
+      "형용사"
+    ],
+    "answer": "부사",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "as ~ as에서 앞 문장이 완전하면 가운데에는 수식어인 부사가 오고, 앞 문장이 보어가 없어 불완전하면 형용사가 온다.",
+          "a로 시작하는 alike·alone·alive는 주로 연결동사 뒤 보어로 쓰고, 명사를 직접 꾸밀 때는 like·lonely·living을 쓴다."
+        ],
+        "answer": "as ~ as에서 앞 문장이 완전하면 가운데에는 수식어인 부사가 오고, 앞 문장이 보어가 없어 불완전하면 형용사가 온다.",
+        "errorCode": "E70_AS_AS_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "형용사": "E70_AS_AS_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "as ~ as에서 앞 문장이 완전하면 가운데에는 수식어인 부사가 오고, 앞 문장이 보어가 없어 불완전하면 형용사가 온다.",
+        "speaks French는 완전함.",
+        "후보는 speaks를 수식함.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G66",
+      "checkQuestion": {
+        "prompt": "as ~ as 앞 문장이 완전하면 가운데에는?",
+        "choices": [
+          "부사",
+          "형용사"
+        ],
+        "answer": "부사"
+      },
+      "transferQuestionId": "Q-G66-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-938CD8C904",
+    "sourceQuestionId": "Q-G66-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

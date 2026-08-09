@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G38-001",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Not only the teacher but also the students (is / are) ready.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "not only A but also B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "students",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 not only A but also B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "students가 복수이므로 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-001",
+    "sourceQuestionId": "Q-G38-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-002",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Not only the students but also the teacher (is / are) ready.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "not only A but also B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "teacher",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 not only A but also B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "teacher가 단수이므로 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-002",
+    "sourceQuestionId": "Q-G38-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-003",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Either the manager or the employees (handles / handle) the calls.",
+    "choices": [
+      "handles",
+      "handle"
+    ],
+    "answer": "handle",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "either A or B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "employees",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "handles": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 either A or B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "employees가 복수이므로 handle를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-003",
+    "sourceQuestionId": "Q-G38-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-004",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Either the employees or the manager (handles / handle) the calls.",
+    "choices": [
+      "handles",
+      "handle"
+    ],
+    "answer": "handles",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "either A or B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "manager",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "handle": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 either A or B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "manager가 단수이므로 handles를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-004",
+    "sourceQuestionId": "Q-G38-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-005",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Neither the coaches nor the player (was / were) injured.",
+    "choices": [
+      "was",
+      "were"
+    ],
+    "answer": "was",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "neither A nor B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "player",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 neither A nor B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "player가 단수이므로 was를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-005",
+    "sourceQuestionId": "Q-G38-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-006",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Both the director and the assistants (is / are) attending.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "both A and B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "두 주어를 합친 복수",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "두 주어 전체",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 both A and B이다.",
+        "이 구조의 기준은 두 주어를 합친 복수이다.",
+        "두 주어 전체가 복수이므로 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-006",
+    "sourceQuestionId": "Q-G38-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-007",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 3,
+    "stem": "Not the windows but the door (needs / need) repair.",
+    "choices": [
+      "needs",
+      "need"
+    ],
+    "answer": "needs",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "not A but B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "door",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "need": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 not A but B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "door가 단수이므로 needs를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-007",
+    "sourceQuestionId": "Q-G38-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-008",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 3,
+    "stem": "The teacher as well as the students (is / are) present.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "A as well as B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "앞 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "teacher",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 A as well as B이다.",
+        "이 구조의 기준은 앞 주어이다.",
+        "teacher가 단수이므로 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-008",
+    "sourceQuestionId": "Q-G38-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-001-PF",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Not only the teacher but also the students (is / are) ready.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "not only A but also B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "students",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 not only A but also B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "students가 복수이므로 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-001",
+    "sourceQuestionId": "Q-G38-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-002-PF",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Not only the students but also the teacher (is / are) ready.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "not only A but also B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "teacher",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 not only A but also B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "teacher가 단수이므로 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-002",
+    "sourceQuestionId": "Q-G38-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-003-PF",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Either the manager or the employees (handles / handle) the calls.",
+    "choices": [
+      "handles",
+      "handle"
+    ],
+    "answer": "handle",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "either A or B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "employees",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "handles": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 either A or B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "employees가 복수이므로 handle를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-003",
+    "sourceQuestionId": "Q-G38-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-004-PF",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Either the employees or the manager (handles / handle) the calls.",
+    "choices": [
+      "handles",
+      "handle"
+    ],
+    "answer": "handles",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "either A or B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "manager",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "handle": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 either A or B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "manager가 단수이므로 handles를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-004",
+    "sourceQuestionId": "Q-G38-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-005-PF",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Neither the coaches nor the player (was / were) injured.",
+    "choices": [
+      "was",
+      "were"
+    ],
+    "answer": "was",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "neither A nor B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "player",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 neither A nor B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "player가 단수이므로 was를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-005",
+    "sourceQuestionId": "Q-G38-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-006-PF",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Both the director and the assistants (is / are) attending.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "both A and B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "두 주어를 합친 복수",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "두 주어 전체",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 both A and B이다.",
+        "이 구조의 기준은 두 주어를 합친 복수이다.",
+        "두 주어 전체가 복수이므로 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-006",
+    "sourceQuestionId": "Q-G38-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-007-PF",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 3,
+    "stem": "Not the windows but the door (needs / need) repair.",
+    "choices": [
+      "needs",
+      "need"
+    ],
+    "answer": "needs",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "not A but B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "door",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "need": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 not A but B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "door가 단수이므로 needs를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-007",
+    "sourceQuestionId": "Q-G38-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-008-PF",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 3,
+    "stem": "The teacher as well as the students (is / are) present.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "A as well as B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "앞 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "teacher",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 A as well as B이다.",
+        "이 구조의 기준은 앞 주어이다.",
+        "teacher가 단수이므로 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-008",
+    "sourceQuestionId": "Q-G38-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-001-DR",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Not only the teacher but also the students (is / are) ready.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "not only A but also B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "students",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 not only A but also B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "students가 복수이므로 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-001",
+    "sourceQuestionId": "Q-G38-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-002-DR",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Not only the students but also the teacher (is / are) ready.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "not only A but also B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "teacher",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 not only A but also B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "teacher가 단수이므로 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-002",
+    "sourceQuestionId": "Q-G38-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-003-DR",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Either the manager or the employees (handles / handle) the calls.",
+    "choices": [
+      "handles",
+      "handle"
+    ],
+    "answer": "handle",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "either A or B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "employees",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "handles": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 either A or B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "employees가 복수이므로 handle를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-003",
+    "sourceQuestionId": "Q-G38-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-004-DR",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Either the employees or the manager (handles / handle) the calls.",
+    "choices": [
+      "handles",
+      "handle"
+    ],
+    "answer": "handles",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "either A or B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "manager",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "handle": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 either A or B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "manager가 단수이므로 handles를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-004",
+    "sourceQuestionId": "Q-G38-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-005-DR",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Neither the coaches nor the player (was / were) injured.",
+    "choices": [
+      "was",
+      "were"
+    ],
+    "answer": "was",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "neither A nor B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "player",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 neither A nor B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "player가 단수이므로 was를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-005",
+    "sourceQuestionId": "Q-G38-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-006-DR",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Both the director and the assistants (is / are) attending.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "both A and B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "두 주어를 합친 복수",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "두 주어 전체",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 both A and B이다.",
+        "이 구조의 기준은 두 주어를 합친 복수이다.",
+        "두 주어 전체가 복수이므로 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-006",
+    "sourceQuestionId": "Q-G38-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-007-DR",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 3,
+    "stem": "Not the windows but the door (needs / need) repair.",
+    "choices": [
+      "needs",
+      "need"
+    ],
+    "answer": "needs",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "not A but B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "door",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "need": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 not A but B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "door가 단수이므로 needs를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-007",
+    "sourceQuestionId": "Q-G38-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-008-DR",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 3,
+    "stem": "The teacher as well as the students (is / are) present.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "A as well as B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "앞 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "teacher",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "상관접속사 구조에서 수일치 기준 주어를 잘못 선택했다.",
+      "summary": [
+        "연결 표현은 A as well as B이다.",
+        "이 구조의 기준은 앞 주어이다.",
+        "teacher가 단수이므로 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-008",
+    "sourceQuestionId": "Q-G38-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-001-CT",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNot only the teacher but also the students (is / are) ready.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "not only A but also B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "students",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'is'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'are'이다.",
+      "summary": [
+        "연결 표현은 not only A but also B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "students가 복수이므로 are를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'is'이다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-001",
+    "sourceQuestionId": "Q-G38-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-002-CT",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNot only the students but also the teacher (is / are) ready.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "not only A but also B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "teacher",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'are'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is'이다.",
+      "summary": [
+        "연결 표현은 not only A but also B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "teacher가 단수이므로 is를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'are'이다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-002",
+    "sourceQuestionId": "Q-G38-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-003-CT",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nEither the manager or the employees (handles / handle) the calls.",
+    "choices": [
+      "handles",
+      "handle"
+    ],
+    "answer": "handles",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "either A or B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "employees",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "handle": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'handles'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'handle'이다.",
+      "summary": [
+        "연결 표현은 either A or B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "employees가 복수이므로 handle를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'handles'이다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-003",
+    "sourceQuestionId": "Q-G38-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-004-CT",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nEither the employees or the manager (handles / handle) the calls.",
+    "choices": [
+      "handles",
+      "handle"
+    ],
+    "answer": "handle",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "either A or B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "manager",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "handles": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'handle'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'handles'이다.",
+      "summary": [
+        "연결 표현은 either A or B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "manager가 단수이므로 handles를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'handle'이다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-004",
+    "sourceQuestionId": "Q-G38-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-005-CT",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNeither the coaches nor the player (was / were) injured.",
+    "choices": [
+      "were",
+      "was"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "neither A nor B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "player",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'were'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'was'이다.",
+      "summary": [
+        "연결 표현은 neither A nor B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "player가 단수이므로 was를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'were'이다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-005",
+    "sourceQuestionId": "Q-G38-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-006-CT",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nBoth the director and the assistants (is / are) attending.",
+    "choices": [
+      "are",
+      "is"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "both A and B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "두 주어를 합친 복수",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "두 주어 전체",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'is'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'are'이다.",
+      "summary": [
+        "연결 표현은 both A and B이다.",
+        "이 구조의 기준은 두 주어를 합친 복수이다.",
+        "두 주어 전체가 복수이므로 are를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'is'이다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-006",
+    "sourceQuestionId": "Q-G38-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-007-CT",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNot the windows but the door (needs / need) repair.",
+    "choices": [
+      "need",
+      "needs"
+    ],
+    "answer": "need",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "not A but B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "동사에 가까운 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "door",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "needs": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'need'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'needs'이다.",
+      "summary": [
+        "연결 표현은 not A but B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "door가 단수이므로 needs를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'need'이다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-007",
+    "sourceQuestionId": "Q-G38-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G38-008-CT",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe teacher as well as the students (is / are) present.",
+    "choices": [
+      "are",
+      "is"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "주어 연결 표현은?",
+        "answer": "A as well as B",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "standard",
+        "prompt": "수일치 기준은?",
+        "answer": "앞 주어",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      },
+      {
+        "id": "target",
+        "prompt": "기준 주어는?",
+        "answer": "teacher",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'are'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is'이다.",
+      "summary": [
+        "연결 표현은 A as well as B이다.",
+        "이 구조의 기준은 앞 주어이다.",
+        "teacher가 단수이므로 is를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'are'이다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G38-008",
+    "sourceQuestionId": "Q-G38-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-DA08CC4829",
+    "conceptId": "G38_CORRELATIVE_NEAREST_AGREEMENT",
+    "difficulty": 1,
+    "stem": "빠른 확인: either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+    "choices": [
+      "동사에 가까운 주어",
+      "항상 A"
+    ],
+    "answer": "동사에 가까운 주어",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "not only A but also B, either A or B, neither A nor B는 동사에 가까운 주어에 맞추고, both A and B는 복수 동사를 쓴다. A as well as B는 A에 맞춘다."
+        ],
+        "answer": "not only A but also B, either A or B, neither A nor B는 동사에 가까운 주어에 맞추고, both A and B는 복수 동사를 쓴다. A as well as B는 A에 맞춘다.",
+        "errorCode": "E42_CORRELATIVE_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "항상 A": "E42_CORRELATIVE_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "not only A but also B, either A or B, neither A nor B는 동사에 가까운 주어에 맞추고, both A and B는 복수 동사를 쓴다. A as well as B는 A에 맞춘다.",
+        "연결 표현은 not only A but also B이다.",
+        "이 구조의 기준은 동사에 가까운 주어이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G38",
+      "checkQuestion": {
+        "prompt": "either A or B에서 동사는 보통 어느 주어에 맞추는가?",
+        "choices": [
+          "동사에 가까운 주어",
+          "항상 A"
+        ],
+        "answer": "동사에 가까운 주어"
+      },
+      "transferQuestionId": "Q-G38-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-DA08CC4829",
+    "sourceQuestionId": "Q-G38-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

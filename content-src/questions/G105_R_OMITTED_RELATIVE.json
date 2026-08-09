@@ -1,0 +1,4945 @@
+[
+  {
+    "id": "Q-R13-105-01",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "7. 생략 관계사",
+    "stem": "I still keep the necklace he made.",
+    "choices": [
+      "he 앞",
+      "made 앞"
+    ],
+    "answer": "he 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "I still keep the necklace / he made.",
+    "sourcePreviewRef": "SRC-R13-CUT79",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "he 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "made 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "he 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「he 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-105-01",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "I"
+        },
+        {
+          "index": 1,
+          "text": "still"
+        },
+        {
+          "index": 2,
+          "text": "keep"
+        },
+        {
+          "index": 3,
+          "text": "the"
+        },
+        {
+          "index": 4,
+          "text": "necklace"
+        },
+        {
+          "index": 5,
+          "text": "he"
+        },
+        {
+          "index": 6,
+          "text": "made"
+        },
+        {
+          "index": 7,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        5
+      ],
+      "focusTargets": [
+        5
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계와 핵심 표지를 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-105-01",
+    "sourceQuestionId": "Q-R13-105-01",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 96,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-02",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "7. 생략 관계사",
+    "stem": "The book you lent me was useful.",
+    "choices": [
+      "you 앞",
+      "lent 앞"
+    ],
+    "answer": "you 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "The book / you lent me was useful.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "you 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "lent 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "you 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「you 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-105-02",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "text": "book"
+        },
+        {
+          "index": 2,
+          "text": "you"
+        },
+        {
+          "index": 3,
+          "text": "lent"
+        },
+        {
+          "index": 4,
+          "text": "me"
+        },
+        {
+          "index": 5,
+          "text": "was"
+        },
+        {
+          "index": 6,
+          "text": "useful"
+        },
+        {
+          "index": 7,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        2
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계와 핵심 표지를 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-105-02",
+    "sourceQuestionId": "Q-R13-105-02",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 96,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-03",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "7. 생략 관계사",
+    "stem": "The people we met were kind.",
+    "choices": [
+      "we 앞",
+      "met 앞"
+    ],
+    "answer": "we 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "The people / we met were kind.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "we 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "met 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "we 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「we 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-105-03",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "text": "people"
+        },
+        {
+          "index": 2,
+          "text": "we"
+        },
+        {
+          "index": 3,
+          "text": "met"
+        },
+        {
+          "index": 4,
+          "text": "were"
+        },
+        {
+          "index": 5,
+          "text": "kind"
+        },
+        {
+          "index": 6,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        2
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계와 핵심 표지를 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-105-03",
+    "sourceQuestionId": "Q-R13-105-03",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 93,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-04",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "7. 생략 관계사",
+    "stem": "This is the song she likes most.",
+    "choices": [
+      "she 앞",
+      "likes 앞"
+    ],
+    "answer": "she 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "This is the song / she likes most.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "she 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "likes 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "she 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「she 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-105-04",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "This"
+        },
+        {
+          "index": 1,
+          "text": "is"
+        },
+        {
+          "index": 2,
+          "text": "the"
+        },
+        {
+          "index": 3,
+          "text": "song"
+        },
+        {
+          "index": 4,
+          "text": "she"
+        },
+        {
+          "index": 5,
+          "text": "likes"
+        },
+        {
+          "index": 6,
+          "text": "most"
+        },
+        {
+          "index": 7,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        4
+      ],
+      "focusTargets": [
+        4
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계와 핵심 표지를 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-105-04",
+    "sourceQuestionId": "Q-R13-105-04",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 96,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-05",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "7. 생략 관계사",
+    "stem": "The advice my teacher gave me helped a lot.",
+    "choices": [
+      "my teacher 앞",
+      "gave 앞"
+    ],
+    "answer": "my teacher 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "The advice / my teacher gave me helped a lot.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "my teacher 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "gave 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "my teacher 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「my teacher 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-105-05",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "text": "advice"
+        },
+        {
+          "index": 2,
+          "text": "my"
+        },
+        {
+          "index": 3,
+          "text": "teacher"
+        },
+        {
+          "index": 4,
+          "text": "gave"
+        },
+        {
+          "index": 5,
+          "text": "me"
+        },
+        {
+          "index": 6,
+          "text": "helped"
+        },
+        {
+          "index": 7,
+          "text": "a"
+        },
+        {
+          "index": 8,
+          "text": "lot"
+        },
+        {
+          "index": 9,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        2
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계와 핵심 표지를 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-105-05",
+    "sourceQuestionId": "Q-R13-105-05",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 47,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 110,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-06",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "7. 생략 관계사",
+    "stem": "I remember the day we first met.",
+    "choices": [
+      "we 앞",
+      "first 앞"
+    ],
+    "answer": "we 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "I remember the day / we first met.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "we 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "first 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "we 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「we 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-105-06",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "I"
+        },
+        {
+          "index": 1,
+          "text": "remember"
+        },
+        {
+          "index": 2,
+          "text": "the"
+        },
+        {
+          "index": 3,
+          "text": "day"
+        },
+        {
+          "index": 4,
+          "text": "we"
+        },
+        {
+          "index": 5,
+          "text": "first"
+        },
+        {
+          "index": 6,
+          "text": "met"
+        },
+        {
+          "index": 7,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        4
+      ],
+      "focusTargets": [
+        4
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계와 핵심 표지를 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-105-06",
+    "sourceQuestionId": "Q-R13-105-06",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 106,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-01-PF",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "I still keep the necklace he made.",
+    "choices": [
+      "he 앞",
+      "made 앞"
+    ],
+    "answer": "he 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "I still keep the necklace / he made.",
+    "sourcePreviewRef": "SRC-R13-CUT79",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "he 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "made 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "he 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「he 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-105-01-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "I"
+        },
+        {
+          "index": 1,
+          "text": "still"
+        },
+        {
+          "index": 2,
+          "text": "keep"
+        },
+        {
+          "index": 3,
+          "text": "the"
+        },
+        {
+          "index": 4,
+          "text": "necklace"
+        },
+        {
+          "index": 5,
+          "text": "he"
+        },
+        {
+          "index": 6,
+          "text": "made"
+        },
+        {
+          "index": 7,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        5
+      ],
+      "focusTargets": [
+        5
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계와 핵심 표지를 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-105-01",
+    "sourceQuestionId": "Q-R13-105-01",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 108,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-02-PF",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "The book you lent me was useful.",
+    "choices": [
+      "you 앞",
+      "lent 앞"
+    ],
+    "answer": "you 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "The book / you lent me was useful.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "you 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "lent 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "you 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「you 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-105-02-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "text": "book"
+        },
+        {
+          "index": 2,
+          "text": "you"
+        },
+        {
+          "index": 3,
+          "text": "lent"
+        },
+        {
+          "index": 4,
+          "text": "me"
+        },
+        {
+          "index": 5,
+          "text": "was"
+        },
+        {
+          "index": 6,
+          "text": "useful"
+        },
+        {
+          "index": 7,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        2
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계와 핵심 표지를 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-105-02",
+    "sourceQuestionId": "Q-R13-105-02",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 108,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-03-PF",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "The people we met were kind.",
+    "choices": [
+      "we 앞",
+      "met 앞"
+    ],
+    "answer": "we 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "The people / we met were kind.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "we 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "met 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "we 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「we 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-105-03-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "text": "people"
+        },
+        {
+          "index": 2,
+          "text": "we"
+        },
+        {
+          "index": 3,
+          "text": "met"
+        },
+        {
+          "index": 4,
+          "text": "were"
+        },
+        {
+          "index": 5,
+          "text": "kind"
+        },
+        {
+          "index": 6,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        2
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계와 핵심 표지를 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-105-03",
+    "sourceQuestionId": "Q-R13-105-03",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 104,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-04-PF",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "This is the song she likes most.",
+    "choices": [
+      "she 앞",
+      "likes 앞"
+    ],
+    "answer": "she 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "This is the song / she likes most.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "she 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "likes 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "she 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「she 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-105-04-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "This"
+        },
+        {
+          "index": 1,
+          "text": "is"
+        },
+        {
+          "index": 2,
+          "text": "the"
+        },
+        {
+          "index": 3,
+          "text": "song"
+        },
+        {
+          "index": 4,
+          "text": "she"
+        },
+        {
+          "index": 5,
+          "text": "likes"
+        },
+        {
+          "index": 6,
+          "text": "most"
+        },
+        {
+          "index": 7,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        4
+      ],
+      "focusTargets": [
+        4
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계와 핵심 표지를 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-105-04",
+    "sourceQuestionId": "Q-R13-105-04",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 108,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-05-PF",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "The advice my teacher gave me helped a lot.",
+    "choices": [
+      "my teacher 앞",
+      "gave 앞"
+    ],
+    "answer": "my teacher 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "The advice / my teacher gave me helped a lot.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "my teacher 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "gave 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "my teacher 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「my teacher 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-105-05-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "text": "advice"
+        },
+        {
+          "index": 2,
+          "text": "my"
+        },
+        {
+          "index": 3,
+          "text": "teacher"
+        },
+        {
+          "index": 4,
+          "text": "gave"
+        },
+        {
+          "index": 5,
+          "text": "me"
+        },
+        {
+          "index": 6,
+          "text": "helped"
+        },
+        {
+          "index": 7,
+          "text": "a"
+        },
+        {
+          "index": 8,
+          "text": "lot"
+        },
+        {
+          "index": 9,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        2
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계와 핵심 표지를 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-105-05",
+    "sourceQuestionId": "Q-R13-105-05",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 47,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 123,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-06-PF",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "I remember the day we first met.",
+    "choices": [
+      "we 앞",
+      "first 앞"
+    ],
+    "answer": "we 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "I remember the day / we first met.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "we 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "first 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "we 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「we 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-105-06-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "I"
+        },
+        {
+          "index": 1,
+          "text": "remember"
+        },
+        {
+          "index": 2,
+          "text": "the"
+        },
+        {
+          "index": 3,
+          "text": "day"
+        },
+        {
+          "index": 4,
+          "text": "we"
+        },
+        {
+          "index": 5,
+          "text": "first"
+        },
+        {
+          "index": 6,
+          "text": "met"
+        },
+        {
+          "index": 7,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        4
+      ],
+      "focusTargets": [
+        4
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계와 핵심 표지를 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-105-06",
+    "sourceQuestionId": "Q-R13-105-06",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 119,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-01-DR",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "I still keep the necklace he made.",
+    "choices": [
+      "he 앞",
+      "made 앞"
+    ],
+    "answer": "he 앞",
+    "requiresInk": false,
+    "modelMarkup": "I still keep the necklace / he made.",
+    "sourcePreviewRef": "SRC-R13-CUT79",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "he 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "made 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "he 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「he 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-105-01",
+    "sourceQuestionId": "Q-R13-105-01",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 88,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-02-DR",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "The book you lent me was useful.",
+    "choices": [
+      "you 앞",
+      "lent 앞"
+    ],
+    "answer": "you 앞",
+    "requiresInk": false,
+    "modelMarkup": "The book / you lent me was useful.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "you 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "lent 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "you 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「you 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-105-02",
+    "sourceQuestionId": "Q-R13-105-02",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 88,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-03-DR",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "The people we met were kind.",
+    "choices": [
+      "we 앞",
+      "met 앞"
+    ],
+    "answer": "we 앞",
+    "requiresInk": false,
+    "modelMarkup": "The people / we met were kind.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "we 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "met 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "we 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「we 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-105-03",
+    "sourceQuestionId": "Q-R13-105-03",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 86,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-04-DR",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "This is the song she likes most.",
+    "choices": [
+      "she 앞",
+      "likes 앞"
+    ],
+    "answer": "she 앞",
+    "requiresInk": false,
+    "modelMarkup": "This is the song / she likes most.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "she 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "likes 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "she 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「she 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-105-04",
+    "sourceQuestionId": "Q-R13-105-04",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 88,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-05-DR",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "The advice my teacher gave me helped a lot.",
+    "choices": [
+      "my teacher 앞",
+      "gave 앞"
+    ],
+    "answer": "my teacher 앞",
+    "requiresInk": false,
+    "modelMarkup": "The advice / my teacher gave me helped a lot.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "my teacher 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "gave 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "my teacher 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「my teacher 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-105-05",
+    "sourceQuestionId": "Q-R13-105-05",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 47,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 101,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-06-DR",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "I remember the day we first met.",
+    "choices": [
+      "we 앞",
+      "first 앞"
+    ],
+    "answer": "we 앞",
+    "requiresInk": false,
+    "modelMarkup": "I remember the day / we first met.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "we 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "first 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "we 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「we 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-105-06",
+    "sourceQuestionId": "Q-R13-105-06",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 98,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-01-CT",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI still keep the necklace he made.",
+    "choices": [
+      "he 앞",
+      "made 앞"
+    ],
+    "answer": "made 앞",
+    "requiresInk": false,
+    "modelMarkup": "I still keep the necklace / he made.",
+    "sourcePreviewRef": "SRC-R13-CUT79",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "he 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "he 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "'made 앞'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'he 앞'이다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "he 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다.",
+        "따라서 대조 문항에서 고를 답은 'made 앞'이다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「he 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-105-01"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-105-01",
+    "sourceQuestionId": "Q-R13-105-01",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 86,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-02-CT",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe book you lent me was useful.",
+    "choices": [
+      "you 앞",
+      "lent 앞"
+    ],
+    "answer": "lent 앞",
+    "requiresInk": false,
+    "modelMarkup": "The book / you lent me was useful.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "you 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "you 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "'lent 앞'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'you 앞'이다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "you 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다.",
+        "따라서 대조 문항에서 고를 답은 'lent 앞'이다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「you 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-105-02"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-105-02",
+    "sourceQuestionId": "Q-R13-105-02",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 86,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-03-CT",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe people we met were kind.",
+    "choices": [
+      "we 앞",
+      "met 앞"
+    ],
+    "answer": "met 앞",
+    "requiresInk": false,
+    "modelMarkup": "The people / we met were kind.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "we 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "we 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "'met 앞'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'we 앞'이다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "we 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다.",
+        "따라서 대조 문항에서 고를 답은 'met 앞'이다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「we 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-105-03"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-105-03",
+    "sourceQuestionId": "Q-R13-105-03",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 84,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-04-CT",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThis is the song she likes most.",
+    "choices": [
+      "likes 앞",
+      "she 앞"
+    ],
+    "answer": "likes 앞",
+    "requiresInk": false,
+    "modelMarkup": "This is the song / she likes most.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "she 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "she 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "'likes 앞'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'she 앞'이다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "she 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다.",
+        "따라서 대조 문항에서 고를 답은 'likes 앞'이다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「she 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-105-04"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-105-04",
+    "sourceQuestionId": "Q-R13-105-04",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 86,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-05-CT",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 3,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe advice my teacher gave me helped a lot.",
+    "choices": [
+      "my teacher 앞",
+      "gave 앞"
+    ],
+    "answer": "gave 앞",
+    "requiresInk": false,
+    "modelMarkup": "The advice / my teacher gave me helped a lot.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "my teacher 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "my teacher 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "'gave 앞'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'my teacher 앞'이다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "my teacher 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다.",
+        "따라서 대조 문항에서 고를 답은 'gave 앞'이다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「my teacher 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-105-05"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-105-05",
+    "sourceQuestionId": "Q-R13-105-05",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 47,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 99,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-105-06-CT",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 3,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI remember the day we first met.",
+    "choices": [
+      "first 앞",
+      "we 앞"
+    ],
+    "answer": "first 앞",
+    "requiresInk": false,
+    "modelMarkup": "I remember the day / we first met.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "명사/동사 뒤 새 주어 또는 긴 주어를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s2",
+        "prompt": "we 앞에 /를 표시한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "s3",
+        "prompt": "중심 문장 뼈대를 먼저 읽는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "we 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "'first 앞'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'we 앞'이다.",
+      "summary": [
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "we 앞에서 중심 덩어리를 나눈다.",
+        "앞뒤의 중심 주어·동사를 다시 확인한다.",
+        "따라서 대조 문항에서 고를 답은 'first 앞'이다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「we 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-105-06"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-105-06",
+    "sourceQuestionId": "Q-R13-105-06",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 95,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 1,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-01083B4E14",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「he 앞」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "believe·think·know 같은 동사 뒤에 주어+동사가 바로 나오면 접속사 that이 생략된 것으로 보고 새 주어 앞에서 끊는다.",
+          "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다."
+        ],
+        "answer": "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "he 앞에서 중심 덩어리를 나눈다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「you 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-105-01",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-01083B4E14",
+    "sourceQuestionId": "Q-R13-105-01",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-FFB378B8B8",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「my teacher 앞」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "believe·think·know 같은 동사 뒤에 주어+동사가 바로 나오면 접속사 that이 생략된 것으로 보고 새 주어 앞에서 끊는다.",
+          "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다."
+        ],
+        "answer": "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "my teacher 앞에서 중심 덩어리를 나눈다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「he 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-105-05",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-FFB378B8B8",
+    "sourceQuestionId": "Q-R13-105-05",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-22F254BF1B",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「she 앞」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "believe·think·know 같은 동사 뒤에 주어+동사가 바로 나오면 접속사 that이 생략된 것으로 보고 새 주어 앞에서 끊는다.",
+          "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다."
+        ],
+        "answer": "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "she 앞에서 중심 덩어리를 나눈다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「he 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-105-04",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-22F254BF1B",
+    "sourceQuestionId": "Q-R13-105-04",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-E4032533E5",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「we 앞」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "believe·think·know 같은 동사 뒤에 주어+동사가 바로 나오면 접속사 that이 생략된 것으로 보고 새 주어 앞에서 끊는다.",
+          "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다."
+        ],
+        "answer": "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "we 앞에서 중심 덩어리를 나눈다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「he 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-105-03",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-E4032533E5",
+    "sourceQuestionId": "Q-R13-105-03",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-9C52D04EC0",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「you 앞」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+          "believe·think·know 같은 동사 뒤에 주어+동사가 바로 나오면 접속사 that이 생략된 것으로 보고 새 주어 앞에서 끊는다."
+        ],
+        "answer": "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+        "표면에 보이지 않는 문장 경계를 찾는다.",
+        "you 앞에서 중심 덩어리를 나눈다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「he 앞」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-105-02",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "7. 생략 관계사",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-9C52D04EC0",
+    "sourceQuestionId": "Q-R13-105-02",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P23-R-052-BBFF785B",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "Phase 23 원문 · 생략 관계사",
+    "stem": "The reason people find it so hard to be happy is that they always see the past better than it was, the present worse than it is, and the future finer than it will be.",
+    "choices": [
+      "find it 앞",
+      "people find 앞"
+    ],
+    "answer": "people find 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 /와 핵심 표지를 표시한 뒤 단계별 판단을 제출하세요.",
+    "modelMarkup": "The reason / people find it so hard to be happy is that they always see the past better than it was , the present worse than it is , and the future finer than it will be .",
+    "sourcePreviewRef": "SRC-P23-R-052",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "생략 관계사를 먼저 찾았는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "boundary",
+        "prompt": "핵심 표지 'people' 앞을 경계로 판단했는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "skeleton",
+        "prompt": "각 덩어리의 중심 주어·동사와 수식 관계를 확인했는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "connection",
+        "prompt": "앞뒤 덩어리를 저자식 조사·연결어로 자연스럽게 이었는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "find it 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+        "핵심 표지 'people' 앞에서 의미 덩어리를 나눈다.",
+        "각 덩어리의 중심 주어·동사를 확인한 뒤 자연스럽게 연결한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "이 문장의 1차 핵심 경계는 'people find 앞'이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-105-01",
+      "retryPolicy": "표식 비교 → 실패 단계 3줄 설명 → 교재 핵심 영역 → 확인문제 → 원문 재도전 → 다음 Day 회상"
+    },
+    "origin": "reading_pdf_visual_verified_phase23",
+    "part": "READING13",
+    "chapter": "생략 관계사",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score",
+      "phase23-source"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-P23-R-052-BBFF785B",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "text": "reason"
+        },
+        {
+          "index": 2,
+          "text": "people"
+        },
+        {
+          "index": 3,
+          "text": "find"
+        },
+        {
+          "index": 4,
+          "text": "it"
+        },
+        {
+          "index": 5,
+          "text": "so"
+        },
+        {
+          "index": 6,
+          "text": "hard"
+        },
+        {
+          "index": 7,
+          "text": "to"
+        },
+        {
+          "index": 8,
+          "text": "be"
+        },
+        {
+          "index": 9,
+          "text": "happy"
+        },
+        {
+          "index": 10,
+          "text": "is"
+        },
+        {
+          "index": 11,
+          "text": "that"
+        },
+        {
+          "index": 12,
+          "text": "they"
+        },
+        {
+          "index": 13,
+          "text": "always"
+        },
+        {
+          "index": 14,
+          "text": "see"
+        },
+        {
+          "index": 15,
+          "text": "the"
+        },
+        {
+          "index": 16,
+          "text": "past"
+        },
+        {
+          "index": 17,
+          "text": "better"
+        },
+        {
+          "index": 18,
+          "text": "than"
+        },
+        {
+          "index": 19,
+          "text": "it"
+        },
+        {
+          "index": 20,
+          "text": "was"
+        },
+        {
+          "index": 21,
+          "text": ","
+        },
+        {
+          "index": 22,
+          "text": "the"
+        },
+        {
+          "index": 23,
+          "text": "present"
+        },
+        {
+          "index": 24,
+          "text": "worse"
+        },
+        {
+          "index": 25,
+          "text": "than"
+        },
+        {
+          "index": 26,
+          "text": "it"
+        },
+        {
+          "index": 27,
+          "text": "is"
+        },
+        {
+          "index": 28,
+          "text": ","
+        },
+        {
+          "index": 29,
+          "text": "and"
+        },
+        {
+          "index": 30,
+          "text": "the"
+        },
+        {
+          "index": 31,
+          "text": "future"
+        },
+        {
+          "index": 32,
+          "text": "finer"
+        },
+        {
+          "index": 33,
+          "text": "than"
+        },
+        {
+          "index": 34,
+          "text": "it"
+        },
+        {
+          "index": 35,
+          "text": "will"
+        },
+        {
+          "index": 36,
+          "text": "be"
+        },
+        {
+          "index": 37,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        2
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계, 핵심 표지, 중심 뼈대를 순서대로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 40,
+        "focus": 25,
+        "completion": 15,
+        "process": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "23.0"
+    },
+    "familyId": "Q-P23-R-052-BBFF785B",
+    "sourceQuestionId": "Q-P23-R-052-BBFF785B",
+    "sourceCandidateId": "CAND-R-052-BBFF785B",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase23",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "reading",
+      "pdfPage": 52,
+      "asset": "assets/source-evidence/phase23/reading-page-052.webp",
+      "verification": "rendered_page_stem_and_structure_checked",
+      "reviewBatch": "phase23-reading-batch-1"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-R-052-BBFF785B",
+      "evidenceRef": "SRC-P23-R-052",
+      "verifiedAt": "2026-08-06T08:35:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 64,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 173,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 35,
+        "decisionStepCount": 4,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 2,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P23-R-052-BBFF785B-PF",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 4단계 통과 후 경계 선택",
+    "stem": "The reason people find it so hard to be happy is that they always see the past better than it was, the present worse than it is, and the future finer than it will be.",
+    "choices": [
+      "find it 앞",
+      "people find 앞"
+    ],
+    "answer": "people find 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 /와 핵심 표지를 표시한 뒤 단계별 판단을 제출하세요.",
+    "modelMarkup": "The reason / people find it so hard to be happy is that they always see the past better than it was , the present worse than it is , and the future finer than it will be .",
+    "sourcePreviewRef": "SRC-P23-R-052",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "생략 관계사를 먼저 찾았는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "boundary",
+        "prompt": "핵심 표지 'people' 앞을 경계로 판단했는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "skeleton",
+        "prompt": "각 덩어리의 중심 주어·동사와 수식 관계를 확인했는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "connection",
+        "prompt": "앞뒤 덩어리를 저자식 조사·연결어로 자연스럽게 이었는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "find it 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+        "핵심 표지 'people' 앞에서 의미 덩어리를 나눈다.",
+        "각 덩어리의 중심 주어·동사를 확인한 뒤 자연스럽게 연결한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "이 문장의 1차 핵심 경계는 'people find 앞'이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-105-01",
+      "retryPolicy": "표식 비교 → 실패 단계 3줄 설명 → 교재 핵심 영역 → 확인문제 → 원문 재도전 → 다음 Day 회상"
+    },
+    "origin": "reading_pdf_visual_verified_phase23",
+    "part": "READING13",
+    "chapter": "생략 관계사",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "phase23-source",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-P23-R-052-BBFF785B",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "text": "reason"
+        },
+        {
+          "index": 2,
+          "text": "people"
+        },
+        {
+          "index": 3,
+          "text": "find"
+        },
+        {
+          "index": 4,
+          "text": "it"
+        },
+        {
+          "index": 5,
+          "text": "so"
+        },
+        {
+          "index": 6,
+          "text": "hard"
+        },
+        {
+          "index": 7,
+          "text": "to"
+        },
+        {
+          "index": 8,
+          "text": "be"
+        },
+        {
+          "index": 9,
+          "text": "happy"
+        },
+        {
+          "index": 10,
+          "text": "is"
+        },
+        {
+          "index": 11,
+          "text": "that"
+        },
+        {
+          "index": 12,
+          "text": "they"
+        },
+        {
+          "index": 13,
+          "text": "always"
+        },
+        {
+          "index": 14,
+          "text": "see"
+        },
+        {
+          "index": 15,
+          "text": "the"
+        },
+        {
+          "index": 16,
+          "text": "past"
+        },
+        {
+          "index": 17,
+          "text": "better"
+        },
+        {
+          "index": 18,
+          "text": "than"
+        },
+        {
+          "index": 19,
+          "text": "it"
+        },
+        {
+          "index": 20,
+          "text": "was"
+        },
+        {
+          "index": 21,
+          "text": ","
+        },
+        {
+          "index": 22,
+          "text": "the"
+        },
+        {
+          "index": 23,
+          "text": "present"
+        },
+        {
+          "index": 24,
+          "text": "worse"
+        },
+        {
+          "index": 25,
+          "text": "than"
+        },
+        {
+          "index": 26,
+          "text": "it"
+        },
+        {
+          "index": 27,
+          "text": "is"
+        },
+        {
+          "index": 28,
+          "text": ","
+        },
+        {
+          "index": 29,
+          "text": "and"
+        },
+        {
+          "index": 30,
+          "text": "the"
+        },
+        {
+          "index": 31,
+          "text": "future"
+        },
+        {
+          "index": 32,
+          "text": "finer"
+        },
+        {
+          "index": 33,
+          "text": "than"
+        },
+        {
+          "index": 34,
+          "text": "it"
+        },
+        {
+          "index": 35,
+          "text": "will"
+        },
+        {
+          "index": 36,
+          "text": "be"
+        },
+        {
+          "index": 37,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        2
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계, 핵심 표지, 중심 뼈대를 순서대로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 40,
+        "focus": 25,
+        "completion": 15,
+        "process": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "23.0"
+    },
+    "familyId": "Q-P23-R-052-BBFF785B",
+    "sourceQuestionId": "Q-P23-R-052-BBFF785B",
+    "sourceCandidateId": "CAND-R-052-BBFF785B",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase23",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "reading",
+      "pdfPage": 52,
+      "asset": "assets/source-evidence/phase23/reading-page-052.webp",
+      "verification": "rendered_page_stem_and_structure_checked",
+      "reviewBatch": "phase23-reading-batch-1"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-R-052-BBFF785B",
+      "evidenceRef": "SRC-P23-R-052",
+      "verifiedAt": "2026-08-06T08:35:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 64,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 194,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 35,
+        "decisionStepCount": 4,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 2,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P23-R-052-BBFF785B-DR",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 없이 표지와 경계 먼저 표시",
+    "stem": "The reason people find it so hard to be happy is that they always see the past better than it was, the present worse than it is, and the future finer than it will be.",
+    "choices": [
+      "find it 앞",
+      "people find 앞"
+    ],
+    "answer": "people find 앞",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 /와 핵심 표지를 표시한 뒤 단계별 판단을 제출하세요.",
+    "modelMarkup": "The reason / people find it so hard to be happy is that they always see the past better than it was , the present worse than it is , and the future finer than it will be .",
+    "sourcePreviewRef": "SRC-P23-R-052",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "생략 관계사를 먼저 찾았는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "boundary",
+        "prompt": "핵심 표지 'people' 앞을 경계로 판단했는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "skeleton",
+        "prompt": "각 덩어리의 중심 주어·동사와 수식 관계를 확인했는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "connection",
+        "prompt": "앞뒤 덩어리를 저자식 조사·연결어로 자연스럽게 이었는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "find it 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+        "핵심 표지 'people' 앞에서 의미 덩어리를 나눈다.",
+        "각 덩어리의 중심 주어·동사를 확인한 뒤 자연스럽게 연결한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "이 문장의 1차 핵심 경계는 'people find 앞'이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-105-01",
+      "retryPolicy": "표식 비교 → 실패 단계 3줄 설명 → 교재 핵심 영역 → 확인문제 → 원문 재도전 → 다음 Day 회상"
+    },
+    "origin": "reading_pdf_visual_verified_phase23",
+    "part": "READING13",
+    "chapter": "생략 관계사",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "phase23-source",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-P23-R-052-BBFF785B",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "text": "reason"
+        },
+        {
+          "index": 2,
+          "text": "people"
+        },
+        {
+          "index": 3,
+          "text": "find"
+        },
+        {
+          "index": 4,
+          "text": "it"
+        },
+        {
+          "index": 5,
+          "text": "so"
+        },
+        {
+          "index": 6,
+          "text": "hard"
+        },
+        {
+          "index": 7,
+          "text": "to"
+        },
+        {
+          "index": 8,
+          "text": "be"
+        },
+        {
+          "index": 9,
+          "text": "happy"
+        },
+        {
+          "index": 10,
+          "text": "is"
+        },
+        {
+          "index": 11,
+          "text": "that"
+        },
+        {
+          "index": 12,
+          "text": "they"
+        },
+        {
+          "index": 13,
+          "text": "always"
+        },
+        {
+          "index": 14,
+          "text": "see"
+        },
+        {
+          "index": 15,
+          "text": "the"
+        },
+        {
+          "index": 16,
+          "text": "past"
+        },
+        {
+          "index": 17,
+          "text": "better"
+        },
+        {
+          "index": 18,
+          "text": "than"
+        },
+        {
+          "index": 19,
+          "text": "it"
+        },
+        {
+          "index": 20,
+          "text": "was"
+        },
+        {
+          "index": 21,
+          "text": ","
+        },
+        {
+          "index": 22,
+          "text": "the"
+        },
+        {
+          "index": 23,
+          "text": "present"
+        },
+        {
+          "index": 24,
+          "text": "worse"
+        },
+        {
+          "index": 25,
+          "text": "than"
+        },
+        {
+          "index": 26,
+          "text": "it"
+        },
+        {
+          "index": 27,
+          "text": "is"
+        },
+        {
+          "index": 28,
+          "text": ","
+        },
+        {
+          "index": 29,
+          "text": "and"
+        },
+        {
+          "index": 30,
+          "text": "the"
+        },
+        {
+          "index": 31,
+          "text": "future"
+        },
+        {
+          "index": 32,
+          "text": "finer"
+        },
+        {
+          "index": 33,
+          "text": "than"
+        },
+        {
+          "index": 34,
+          "text": "it"
+        },
+        {
+          "index": 35,
+          "text": "will"
+        },
+        {
+          "index": 36,
+          "text": "be"
+        },
+        {
+          "index": 37,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        2
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [],
+      "focusLabel": "핵심 표지",
+      "instruction": "저자식 경계, 핵심 표지, 중심 뼈대를 순서대로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 40,
+        "focus": 25,
+        "completion": 15,
+        "process": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "23.0"
+    },
+    "familyId": "Q-P23-R-052-BBFF785B",
+    "sourceQuestionId": "Q-P23-R-052-BBFF785B",
+    "sourceCandidateId": "CAND-R-052-BBFF785B",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase23",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "reading",
+      "pdfPage": 52,
+      "asset": "assets/source-evidence/phase23/reading-page-052.webp",
+      "verification": "rendered_page_stem_and_structure_checked",
+      "reviewBatch": "phase23-reading-batch-1"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-R-052-BBFF785B",
+      "evidenceRef": "SRC-P23-R-052",
+      "verifiedAt": "2026-08-06T08:35:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 64,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 159,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 35,
+        "decisionStepCount": 4,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 2,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P23-R-052-BBFF785B-TR",
+    "conceptId": "G105_R_OMITTED_RELATIVE",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "전이 판단 · 같은 문장의 두 번째 구조 경계 확인",
+    "stem": "전이 판단: 핵심 경계를 표시한 뒤, 수식어를 제외한 중심 뼈대를 말해 보세요.\nThe reason people find it so hard to be happy is that they always see the past better than it was, the present worse than it is, and the future finer than it will be.",
+    "choices": [
+      "find it 앞",
+      "people find 앞"
+    ],
+    "answer": "people find 앞",
+    "requiresInk": false,
+    "modelMarkup": "The reason / people find it so hard to be happy is that they always see the past better than it was , the present worse than it is , and the future finer than it will be .",
+    "sourcePreviewRef": "SRC-P23-R-052",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "생략 관계사를 먼저 찾았는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "boundary",
+        "prompt": "핵심 표지 'people' 앞을 경계로 판단했는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "skeleton",
+        "prompt": "각 덩어리의 중심 주어·동사와 수식 관계를 확인했는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      },
+      {
+        "id": "connection",
+        "prompt": "앞뒤 덩어리를 저자식 조사·연결어로 자연스럽게 이었는가?",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E109_R_OMIT_REL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "find it 앞": "E109_R_OMIT_REL"
+    },
+    "remediation": {
+      "diagnosis": "명사 뒤 주어+동사 패턴을 수식 덩어리로 보지 않았다.",
+      "summary": [
+        "명사 뒤에 곧바로 주어+동사가 나오면 목적격 관계사가 생략된 수식 덩어리로 보고 주어 앞에서 끊는다.",
+        "핵심 표지 'people' 앞에서 의미 덩어리를 나눈다.",
+        "각 덩어리의 중심 주어·동사를 확인한 뒤 자연스럽게 연결한다."
+      ],
+      "sourceRef": "SRC-R13-CUT79",
+      "checkQuestion": {
+        "prompt": "이 문장의 1차 핵심 경계는 'people find 앞'이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-105-01",
+      "retryPolicy": "표식 비교 → 실패 단계 3줄 설명 → 교재 핵심 영역 → 확인문제 → 원문 재도전 → 다음 Day 회상"
+    },
+    "origin": "reading_pdf_visual_verified_phase23",
+    "part": "READING13",
+    "chapter": "생략 관계사",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "multi-boundary",
+      "phase23-source",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map",
+      "transfer"
+    ],
+    "familyId": "Q-P23-R-052-BBFF785B",
+    "sourceQuestionId": "Q-P23-R-052-BBFF785B",
+    "sourceCandidateId": "CAND-R-052-BBFF785B",
+    "variantType": "transfer",
+    "interactionMode": "transfer",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase23",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "reading",
+      "pdfPage": 52,
+      "asset": "assets/source-evidence/phase23/reading-page-052.webp",
+      "verification": "rendered_page_stem_and_structure_checked",
+      "reviewBatch": "phase23-reading-batch-1"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-R-052-BBFF785B",
+      "evidenceRef": "SRC-P23-R-052",
+      "verifiedAt": "2026-08-06T08:35:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 64,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 182,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 35,
+        "decisionStepCount": 4,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 2,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.05
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

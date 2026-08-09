@@ -1,0 +1,3563 @@
+[
+  {
+    "id": "Q-G64-001",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 1,
+    "stem": "A sticky substance that makes coffee taste (weak / weakly) is released.",
+    "choices": [
+      "weak",
+      "weakly"
+    ],
+    "answer": "weak",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "make + O + OC",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "coffee의 상태를 설명하는 목적격보어",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 weak",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "weakly": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "make + O + OC.",
+        "coffee의 상태를 설명하는 목적격보어.",
+        "따라서 weak를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-001",
+    "sourceQuestionId": "Q-G64-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-002",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 1,
+    "stem": "Mom made sure we kept our rooms (neat / neatly).",
+    "choices": [
+      "neat",
+      "neatly"
+    ],
+    "answer": "neat",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "keep + O + OC",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "rooms의 상태를 설명하는 목적격보어",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 neat",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "neatly": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "keep + O + OC.",
+        "rooms의 상태를 설명하는 목적격보어.",
+        "따라서 neat를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-002",
+    "sourceQuestionId": "Q-G64-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-003",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 1,
+    "stem": "Print advertising has become more (expensive / expensively).",
+    "choices": [
+      "expensive",
+      "expensively"
+    ],
+    "answer": "expensive",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "become은 2형식 동사",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "주격보어가 필요함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 expensive",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "expensively": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "become은 2형식 동사.",
+        "주격보어가 필요함.",
+        "따라서 expensive를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-003",
+    "sourceQuestionId": "Q-G64-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-004",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "Fresh vegetables are transported (careful / carefully).",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "수동태 문장은 완전함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 동작 transported를 수식함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 carefully",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "수동태 문장은 완전함.",
+        "후보는 동작 transported를 수식함.",
+        "따라서 carefully를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-004",
+    "sourceQuestionId": "Q-G64-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-005",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "Mozart's music sounds (great / greatly).",
+    "choices": [
+      "great",
+      "greatly"
+    ],
+    "answer": "great",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "sound는 감각동사",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "주어 music의 상태를 설명함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 great",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "greatly": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "sound는 감각동사.",
+        "주어 music의 상태를 설명함.",
+        "따라서 great를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-005",
+    "sourceQuestionId": "Q-G64-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 5,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-006",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "The presenter explained the rule (clear / clearly).",
+    "choices": [
+      "clear",
+      "clearly"
+    ],
+    "answer": "clearly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "explain은 보어를 요구하지 않음",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보를 지워도 문장이 완전함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 clearly",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "clear": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "explain은 보어를 요구하지 않음.",
+        "후보를 지워도 문장이 완전함.",
+        "따라서 clearly를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-006",
+    "sourceQuestionId": "Q-G64-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-007",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 3,
+    "stem": "The news made everyone (anxious / anxiously).",
+    "choices": [
+      "anxious",
+      "anxiously"
+    ],
+    "answer": "anxious",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "make + O + OC",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "everyone의 상태를 설명함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 anxious",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "anxiously": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "make + O + OC.",
+        "everyone의 상태를 설명함.",
+        "따라서 anxious를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-007",
+    "sourceQuestionId": "Q-G64-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-008",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 3,
+    "stem": "The new machine runs (smooth / smoothly).",
+    "choices": [
+      "smooth",
+      "smoothly"
+    ],
+    "answer": "smoothly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "run은 여기서 완전한 동작",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 runs를 수식함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 smoothly",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "smooth": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "run은 여기서 완전한 동작.",
+        "후보는 runs를 수식함.",
+        "따라서 smoothly를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-008",
+    "sourceQuestionId": "Q-G64-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-001-PF",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 1,
+    "stem": "A sticky substance that makes coffee taste (weak / weakly) is released.",
+    "choices": [
+      "weak",
+      "weakly"
+    ],
+    "answer": "weak",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "make + O + OC",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "coffee의 상태를 설명하는 목적격보어",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 weak",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "weakly": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "make + O + OC.",
+        "coffee의 상태를 설명하는 목적격보어.",
+        "따라서 weak를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-001",
+    "sourceQuestionId": "Q-G64-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-002-PF",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 1,
+    "stem": "Mom made sure we kept our rooms (neat / neatly).",
+    "choices": [
+      "neat",
+      "neatly"
+    ],
+    "answer": "neat",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "keep + O + OC",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "rooms의 상태를 설명하는 목적격보어",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 neat",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "neatly": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "keep + O + OC.",
+        "rooms의 상태를 설명하는 목적격보어.",
+        "따라서 neat를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-002",
+    "sourceQuestionId": "Q-G64-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-003-PF",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 1,
+    "stem": "Print advertising has become more (expensive / expensively).",
+    "choices": [
+      "expensive",
+      "expensively"
+    ],
+    "answer": "expensive",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "become은 2형식 동사",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "주격보어가 필요함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 expensive",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "expensively": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "become은 2형식 동사.",
+        "주격보어가 필요함.",
+        "따라서 expensive를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-003",
+    "sourceQuestionId": "Q-G64-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-004-PF",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "Fresh vegetables are transported (careful / carefully).",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "수동태 문장은 완전함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 동작 transported를 수식함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 carefully",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "수동태 문장은 완전함.",
+        "후보는 동작 transported를 수식함.",
+        "따라서 carefully를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-004",
+    "sourceQuestionId": "Q-G64-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-005-PF",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "Mozart's music sounds (great / greatly).",
+    "choices": [
+      "great",
+      "greatly"
+    ],
+    "answer": "great",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "sound는 감각동사",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "주어 music의 상태를 설명함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 great",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "greatly": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "sound는 감각동사.",
+        "주어 music의 상태를 설명함.",
+        "따라서 great를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-005",
+    "sourceQuestionId": "Q-G64-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 5,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-006-PF",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "The presenter explained the rule (clear / clearly).",
+    "choices": [
+      "clear",
+      "clearly"
+    ],
+    "answer": "clearly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "explain은 보어를 요구하지 않음",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보를 지워도 문장이 완전함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 clearly",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "clear": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "explain은 보어를 요구하지 않음.",
+        "후보를 지워도 문장이 완전함.",
+        "따라서 clearly를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-006",
+    "sourceQuestionId": "Q-G64-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-007-PF",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 3,
+    "stem": "The news made everyone (anxious / anxiously).",
+    "choices": [
+      "anxious",
+      "anxiously"
+    ],
+    "answer": "anxious",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "make + O + OC",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "everyone의 상태를 설명함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 anxious",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "anxiously": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "make + O + OC.",
+        "everyone의 상태를 설명함.",
+        "따라서 anxious를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-007",
+    "sourceQuestionId": "Q-G64-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-008-PF",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 3,
+    "stem": "The new machine runs (smooth / smoothly).",
+    "choices": [
+      "smooth",
+      "smoothly"
+    ],
+    "answer": "smoothly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "run은 여기서 완전한 동작",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 runs를 수식함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 smoothly",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "smooth": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "run은 여기서 완전한 동작.",
+        "후보는 runs를 수식함.",
+        "따라서 smoothly를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-008",
+    "sourceQuestionId": "Q-G64-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-001-DR",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 1,
+    "stem": "A sticky substance that makes coffee taste (weak / weakly) is released.",
+    "choices": [
+      "weak",
+      "weakly"
+    ],
+    "answer": "weak",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "make + O + OC",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "coffee의 상태를 설명하는 목적격보어",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 weak",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "weakly": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "make + O + OC.",
+        "coffee의 상태를 설명하는 목적격보어.",
+        "따라서 weak를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-001",
+    "sourceQuestionId": "Q-G64-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-002-DR",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 1,
+    "stem": "Mom made sure we kept our rooms (neat / neatly).",
+    "choices": [
+      "neat",
+      "neatly"
+    ],
+    "answer": "neat",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "keep + O + OC",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "rooms의 상태를 설명하는 목적격보어",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 neat",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "neatly": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "keep + O + OC.",
+        "rooms의 상태를 설명하는 목적격보어.",
+        "따라서 neat를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-002",
+    "sourceQuestionId": "Q-G64-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-003-DR",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 1,
+    "stem": "Print advertising has become more (expensive / expensively).",
+    "choices": [
+      "expensive",
+      "expensively"
+    ],
+    "answer": "expensive",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "become은 2형식 동사",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "주격보어가 필요함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 expensive",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "expensively": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "become은 2형식 동사.",
+        "주격보어가 필요함.",
+        "따라서 expensive를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-003",
+    "sourceQuestionId": "Q-G64-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-004-DR",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "Fresh vegetables are transported (careful / carefully).",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "수동태 문장은 완전함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 동작 transported를 수식함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 carefully",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "수동태 문장은 완전함.",
+        "후보는 동작 transported를 수식함.",
+        "따라서 carefully를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-004",
+    "sourceQuestionId": "Q-G64-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-005-DR",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "Mozart's music sounds (great / greatly).",
+    "choices": [
+      "great",
+      "greatly"
+    ],
+    "answer": "great",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "sound는 감각동사",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "주어 music의 상태를 설명함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 great",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "greatly": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "sound는 감각동사.",
+        "주어 music의 상태를 설명함.",
+        "따라서 great를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-005",
+    "sourceQuestionId": "Q-G64-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 5,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-006-DR",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "The presenter explained the rule (clear / clearly).",
+    "choices": [
+      "clear",
+      "clearly"
+    ],
+    "answer": "clearly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "explain은 보어를 요구하지 않음",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보를 지워도 문장이 완전함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 clearly",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "clear": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "explain은 보어를 요구하지 않음.",
+        "후보를 지워도 문장이 완전함.",
+        "따라서 clearly를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-006",
+    "sourceQuestionId": "Q-G64-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-007-DR",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 3,
+    "stem": "The news made everyone (anxious / anxiously).",
+    "choices": [
+      "anxious",
+      "anxiously"
+    ],
+    "answer": "anxious",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "make + O + OC",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "everyone의 상태를 설명함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 anxious",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "anxiously": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "make + O + OC.",
+        "everyone의 상태를 설명함.",
+        "따라서 anxious를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-007",
+    "sourceQuestionId": "Q-G64-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-008-DR",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 3,
+    "stem": "The new machine runs (smooth / smoothly).",
+    "choices": [
+      "smooth",
+      "smoothly"
+    ],
+    "answer": "smoothly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "run은 여기서 완전한 동작",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 runs를 수식함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 smoothly",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "smooth": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "run은 여기서 완전한 동작.",
+        "후보는 runs를 수식함.",
+        "따라서 smoothly를 선택한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-008",
+    "sourceQuestionId": "Q-G64-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-001-CT",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nA sticky substance that makes coffee taste (weak / weakly) is released.",
+    "choices": [
+      "weakly",
+      "weak"
+    ],
+    "answer": "weakly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "make + O + OC",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "coffee의 상태를 설명하는 목적격보어",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 weak",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "weak": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'weakly'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'weak'이다.",
+      "summary": [
+        "make + O + OC.",
+        "coffee의 상태를 설명하는 목적격보어.",
+        "따라서 weak를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'weakly'이다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-001",
+    "sourceQuestionId": "Q-G64-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-002-CT",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nMom made sure we kept our rooms (neat / neatly).",
+    "choices": [
+      "neat",
+      "neatly"
+    ],
+    "answer": "neatly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "keep + O + OC",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "rooms의 상태를 설명하는 목적격보어",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 neat",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "neat": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'neatly'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'neat'이다.",
+      "summary": [
+        "keep + O + OC.",
+        "rooms의 상태를 설명하는 목적격보어.",
+        "따라서 neat를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'neatly'이다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-002",
+    "sourceQuestionId": "Q-G64-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-003-CT",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nPrint advertising has become more (expensive / expensively).",
+    "choices": [
+      "expensive",
+      "expensively"
+    ],
+    "answer": "expensively",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "become은 2형식 동사",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "주격보어가 필요함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 expensive",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "expensive": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'expensively'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'expensive'이다.",
+      "summary": [
+        "become은 2형식 동사.",
+        "주격보어가 필요함.",
+        "따라서 expensive를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'expensively'이다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-003",
+    "sourceQuestionId": "Q-G64-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-004-CT",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nFresh vegetables are transported (careful / carefully).",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "careful",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "수동태 문장은 완전함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 동작 transported를 수식함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 carefully",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "carefully": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'careful'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'carefully'이다.",
+      "summary": [
+        "수동태 문장은 완전함.",
+        "후보는 동작 transported를 수식함.",
+        "따라서 carefully를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'careful'이다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-004",
+    "sourceQuestionId": "Q-G64-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-005-CT",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nMozart's music sounds (great / greatly).",
+    "choices": [
+      "great",
+      "greatly"
+    ],
+    "answer": "greatly",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "sound는 감각동사",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "주어 music의 상태를 설명함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 great",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "great": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'greatly'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'great'이다.",
+      "summary": [
+        "sound는 감각동사.",
+        "주어 music의 상태를 설명함.",
+        "따라서 great를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'greatly'이다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-005",
+    "sourceQuestionId": "Q-G64-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 5,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-006-CT",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe presenter explained the rule (clear / clearly).",
+    "choices": [
+      "clearly",
+      "clear"
+    ],
+    "answer": "clear",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "explain은 보어를 요구하지 않음",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보를 지워도 문장이 완전함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 clearly",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "clearly": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'clear'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'clearly'이다.",
+      "summary": [
+        "explain은 보어를 요구하지 않음.",
+        "후보를 지워도 문장이 완전함.",
+        "따라서 clearly를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'clear'이다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-006",
+    "sourceQuestionId": "Q-G64-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-007-CT",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe news made everyone (anxious / anxiously).",
+    "choices": [
+      "anxious",
+      "anxiously"
+    ],
+    "answer": "anxiously",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "make + O + OC",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "everyone의 상태를 설명함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "형용사 anxious",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "anxious": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'anxiously'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'anxious'이다.",
+      "summary": [
+        "make + O + OC.",
+        "everyone의 상태를 설명함.",
+        "따라서 anxious를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'anxiously'이다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-007",
+    "sourceQuestionId": "Q-G64-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G64-008-CT",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe new machine runs (smooth / smoothly).",
+    "choices": [
+      "smoothly",
+      "smooth"
+    ],
+    "answer": "smooth",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "run은 여기서 완전한 동작",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "후보는 runs를 수식함",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "부사 smoothly",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "smoothly": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'smooth'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'smoothly'이다.",
+      "summary": [
+        "run은 여기서 완전한 동작.",
+        "후보는 runs를 수식함.",
+        "따라서 smoothly를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'smooth'이다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G64-008",
+    "sourceQuestionId": "Q-G64-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-5CE7513A87",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 1,
+    "stem": "빠른 확인: 2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+    "choices": [
+      "형용사",
+      "부사"
+    ],
+    "answer": "형용사",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+          "near/nearly, high/highly, late/lately, hard/hardly, deep/deeply, close/closely는 형태에 따라 품사와 의미가 달라지므로 문맥에 맞는 뜻을 선택한다."
+        ],
+        "answer": "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "부사": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+        "make + O + OC.",
+        "coffee의 상태를 설명하는 목적격보어.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "2형식·5형식 보어 자리에는 무엇을 쓰는가?",
+        "choices": [
+          "형용사",
+          "부사"
+        ],
+        "answer": "형용사"
+      },
+      "transferQuestionId": "Q-G64-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART7",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-5CE7513A87",
+    "sourceQuestionId": "Q-G64-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-101-7168E704",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "In contrast, it can take days before fresh vegetables reach the dinner table and vitamins are gradually lost over time no matter how [careful / carefully] the vegetables are transported and stored.",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "형용사·부사 자리 판단",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "형용사·부사 자리 판단",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+        "2형식·5형식 동사가 있는지 확인한다",
+        "보어이면 형용사, 수식어이면 부사를 선택한다"
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다."
+      },
+      "transferQuestionId": "Q-G64-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART7",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-101-7168E704",
+    "sourceQuestionId": "Q-P21-G-101-7168E704",
+    "sourceCandidateId": "CAND-G-101-7168E704",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 101,
+      "asset": "assets/source-evidence/phase21/grammar-page-101.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-101-7168E704",
+      "evidenceRef": "SRC-P21-G-101",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 81,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 31,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-101-7168E704-PF",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "In contrast, it can take days before fresh vegetables reach the dinner table and vitamins are gradually lost over time no matter how [careful / carefully] the vegetables are transported and stored.",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "형용사·부사 자리 판단",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "형용사·부사 자리 판단",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+        "2형식·5형식 동사가 있는지 확인한다",
+        "보어이면 형용사, 수식어이면 부사를 선택한다"
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다."
+      },
+      "transferQuestionId": "Q-G64-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART7",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-101-7168E704",
+    "sourceQuestionId": "Q-P21-G-101-7168E704",
+    "sourceCandidateId": "CAND-G-101-7168E704",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 101,
+      "asset": "assets/source-evidence/phase21/grammar-page-101.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-101-7168E704",
+      "evidenceRef": "SRC-P21-G-101",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 91,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 31,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-101-7168E704-DR",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "In contrast, it can take days before fresh vegetables reach the dinner table and vitamins are gradually lost over time no matter how [careful / carefully] the vegetables are transported and stored.",
+    "choices": [
+      "careful",
+      "carefully"
+    ],
+    "answer": "carefully",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "형용사·부사 자리 판단",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "형용사·부사 자리 판단",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "careful": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "2형식·5형식 보어 자리 또는 문장 완전성을 확인하지 않았다.",
+      "summary": [
+        "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+        "2형식·5형식 동사가 있는지 확인한다",
+        "보어이면 형용사, 수식어이면 부사를 선택한다"
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다."
+      },
+      "transferQuestionId": "Q-G64-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART7",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-101-7168E704",
+    "sourceQuestionId": "Q-P21-G-101-7168E704",
+    "sourceCandidateId": "CAND-G-101-7168E704",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 101,
+      "asset": "assets/source-evidence/phase21/grammar-page-101.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-101-7168E704",
+      "evidenceRef": "SRC-P21-G-101",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 75,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 31,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-101-7168E704-CT",
+    "conceptId": "G64_ADJECTIVE_ADVERB_SLOT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIn contrast, it can take days before fresh vegetables reach the dinner table and vitamins are gradually lost over time no matter how [careful / carefully] the vegetables are transported and stored.",
+    "choices": [
+      "carefully",
+      "careful"
+    ],
+    "answer": "careful",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "형용사·부사 자리 판단",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "형용사·부사 자리 판단",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+        "errorCode": "E68_ADJ_ADV_SLOT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "carefully": "E68_ADJ_ADV_SLOT"
+    },
+    "remediation": {
+      "diagnosis": "'careful'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'carefully'이다.",
+      "summary": [
+        "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+        "2형식·5형식 동사가 있는지 확인한다",
+        "보어이면 형용사, 수식어이면 부사를 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'careful'를 고른다."
+      ],
+      "sourceRef": "SRC-G64",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다."
+      },
+      "transferQuestionId": "Q-P21-G-101-7168E704",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART7",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-101-7168E704",
+    "sourceQuestionId": "Q-P21-G-101-7168E704",
+    "sourceCandidateId": "CAND-G-101-7168E704",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 101,
+      "asset": "assets/source-evidence/phase21/grammar-page-101.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-101-7168E704",
+      "evidenceRef": "SRC-P21-G-101",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 73,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 31,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

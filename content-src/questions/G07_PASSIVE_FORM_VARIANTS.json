@@ -1,0 +1,1325 @@
+[
+  {
+    "id": "Q-G07-001",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 1,
+    "stem": "The main road (is being repaired / is repairing) now.",
+    "choices": [
+      "is being repaired",
+      "is repairing"
+    ],
+    "answer": "is being repaired",
+    "decisionSteps": [
+      {
+        "id": "voice",
+        "prompt": "road가 수리하는가 수리되는가?",
+        "answer": "수리된다",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "aspect",
+        "prompt": "now는 어떤 진행 의미를 요구하는가?",
+        "answer": "진행 중",
+        "errorCode": "E10_PASSIVE_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "진행 수동태의 형태는?",
+        "answer": "be being p.p.",
+        "errorCode": "E10_PASSIVE_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is repairing": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "진행형은 만들었지만 수동태 핵심 p.p.를 빠뜨렸다.",
+      "summary": [
+        "road는 수리하는 주체가 아니라 수리되는 대상이다.",
+        "now이므로 진행 중인 동작이다.",
+        "진행 수동태 is being repaired를 선택한다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "진행 수동태의 핵심 형태는 무엇인가?",
+        "choices": [
+          "be V-ing",
+          "be being p.p."
+        ],
+        "answer": "be being p.p."
+      },
+      "transferQuestionId": "Q-G07-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G07-001",
+    "sourceQuestionId": "Q-G07-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G07-002",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 2,
+    "stem": "The files (have stored / have been stored) securely for several years.",
+    "choices": [
+      "have stored",
+      "have been stored"
+    ],
+    "answer": "have been stored",
+    "decisionSteps": [
+      {
+        "id": "voice",
+        "prompt": "files가 저장하는가 저장되는가?",
+        "answer": "저장된다",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "aspect",
+        "prompt": "for several years는 어떤 완료 의미를 요구하는가?",
+        "answer": "현재완료",
+        "errorCode": "E10_PASSIVE_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "완료 수동태의 형태는?",
+        "answer": "have been p.p.",
+        "errorCode": "E10_PASSIVE_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have stored": "E10_PASSIVE_FORM"
+    },
+    "remediation": {
+      "diagnosis": "완료형에 수동태용 been을 넣지 않았다.",
+      "summary": [
+        "files는 저장되는 대상이다.",
+        "for several years는 완료 의미를 만든다.",
+        "완료 수동태 have been stored를 선택한다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "완료 수동태의 형태는 무엇인가?",
+        "choices": [
+          "have p.p.",
+          "have been p.p."
+        ],
+        "answer": "have been p.p."
+      },
+      "transferQuestionId": "Q-G07-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G07-002",
+    "sourceQuestionId": "Q-G07-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G07-003",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 2,
+    "stem": "The warning (might not hear / might not be heard) clearly from the back row.",
+    "choices": [
+      "might not hear",
+      "might not be heard"
+    ],
+    "answer": "might not be heard",
+    "decisionSteps": [
+      {
+        "id": "voice",
+        "prompt": "warning이 듣는가 들리는가?",
+        "answer": "들린다",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "form",
+        "prompt": "조동사 수동태의 형태는?",
+        "answer": "조동사+be+p.p.",
+        "errorCode": "E10_PASSIVE_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might not hear": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "조동사 뒤에 수동태 be+p.p.를 조립하지 않았다.",
+      "summary": [
+        "warning은 듣는 주체가 아니라 들리는 대상이다.",
+        "might 뒤에는 동사원형 be가 온다.",
+        "조동사 수동태 might not be heard를 선택한다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "조동사 수동태의 형태는 무엇인가?",
+        "choices": [
+          "조동사+p.p.",
+          "조동사+be+p.p."
+        ],
+        "answer": "조동사+be+p.p."
+      },
+      "transferQuestionId": "Q-G01-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G07-003",
+    "sourceQuestionId": "Q-G07-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G07-001-PF",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 1,
+    "stem": "The main road (is being repaired / is repairing) now.",
+    "choices": [
+      "is being repaired",
+      "is repairing"
+    ],
+    "answer": "is being repaired",
+    "decisionSteps": [
+      {
+        "id": "voice",
+        "prompt": "road가 수리하는가 수리되는가?",
+        "answer": "수리된다",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "aspect",
+        "prompt": "now는 어떤 진행 의미를 요구하는가?",
+        "answer": "진행 중",
+        "errorCode": "E10_PASSIVE_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "진행 수동태의 형태는?",
+        "answer": "be being p.p.",
+        "errorCode": "E10_PASSIVE_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is repairing": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "진행형은 만들었지만 수동태 핵심 p.p.를 빠뜨렸다.",
+      "summary": [
+        "road는 수리하는 주체가 아니라 수리되는 대상이다.",
+        "now이므로 진행 중인 동작이다.",
+        "진행 수동태 is being repaired를 선택한다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "진행 수동태의 핵심 형태는 무엇인가?",
+        "choices": [
+          "be V-ing",
+          "be being p.p."
+        ],
+        "answer": "be being p.p."
+      },
+      "transferQuestionId": "Q-G07-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G07-001",
+    "sourceQuestionId": "Q-G07-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G07-002-PF",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 2,
+    "stem": "The files (have stored / have been stored) securely for several years.",
+    "choices": [
+      "have stored",
+      "have been stored"
+    ],
+    "answer": "have been stored",
+    "decisionSteps": [
+      {
+        "id": "voice",
+        "prompt": "files가 저장하는가 저장되는가?",
+        "answer": "저장된다",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "aspect",
+        "prompt": "for several years는 어떤 완료 의미를 요구하는가?",
+        "answer": "현재완료",
+        "errorCode": "E10_PASSIVE_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "완료 수동태의 형태는?",
+        "answer": "have been p.p.",
+        "errorCode": "E10_PASSIVE_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have stored": "E10_PASSIVE_FORM"
+    },
+    "remediation": {
+      "diagnosis": "완료형에 수동태용 been을 넣지 않았다.",
+      "summary": [
+        "files는 저장되는 대상이다.",
+        "for several years는 완료 의미를 만든다.",
+        "완료 수동태 have been stored를 선택한다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "완료 수동태의 형태는 무엇인가?",
+        "choices": [
+          "have p.p.",
+          "have been p.p."
+        ],
+        "answer": "have been p.p."
+      },
+      "transferQuestionId": "Q-G07-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G07-002",
+    "sourceQuestionId": "Q-G07-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G07-003-PF",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 2,
+    "stem": "The warning (might not hear / might not be heard) clearly from the back row.",
+    "choices": [
+      "might not hear",
+      "might not be heard"
+    ],
+    "answer": "might not be heard",
+    "decisionSteps": [
+      {
+        "id": "voice",
+        "prompt": "warning이 듣는가 들리는가?",
+        "answer": "들린다",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "form",
+        "prompt": "조동사 수동태의 형태는?",
+        "answer": "조동사+be+p.p.",
+        "errorCode": "E10_PASSIVE_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might not hear": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "조동사 뒤에 수동태 be+p.p.를 조립하지 않았다.",
+      "summary": [
+        "warning은 듣는 주체가 아니라 들리는 대상이다.",
+        "might 뒤에는 동사원형 be가 온다.",
+        "조동사 수동태 might not be heard를 선택한다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "조동사 수동태의 형태는 무엇인가?",
+        "choices": [
+          "조동사+p.p.",
+          "조동사+be+p.p."
+        ],
+        "answer": "조동사+be+p.p."
+      },
+      "transferQuestionId": "Q-G01-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G07-003",
+    "sourceQuestionId": "Q-G07-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G07-001-DR",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 1,
+    "stem": "The main road (is being repaired / is repairing) now.",
+    "choices": [
+      "is being repaired",
+      "is repairing"
+    ],
+    "answer": "is being repaired",
+    "decisionSteps": [
+      {
+        "id": "voice",
+        "prompt": "road가 수리하는가 수리되는가?",
+        "answer": "수리된다",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "aspect",
+        "prompt": "now는 어떤 진행 의미를 요구하는가?",
+        "answer": "진행 중",
+        "errorCode": "E10_PASSIVE_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "진행 수동태의 형태는?",
+        "answer": "be being p.p.",
+        "errorCode": "E10_PASSIVE_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is repairing": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "진행형은 만들었지만 수동태 핵심 p.p.를 빠뜨렸다.",
+      "summary": [
+        "road는 수리하는 주체가 아니라 수리되는 대상이다.",
+        "now이므로 진행 중인 동작이다.",
+        "진행 수동태 is being repaired를 선택한다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "진행 수동태의 핵심 형태는 무엇인가?",
+        "choices": [
+          "be V-ing",
+          "be being p.p."
+        ],
+        "answer": "be being p.p."
+      },
+      "transferQuestionId": "Q-G07-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G07-001",
+    "sourceQuestionId": "Q-G07-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G07-002-DR",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 2,
+    "stem": "The files (have stored / have been stored) securely for several years.",
+    "choices": [
+      "have stored",
+      "have been stored"
+    ],
+    "answer": "have been stored",
+    "decisionSteps": [
+      {
+        "id": "voice",
+        "prompt": "files가 저장하는가 저장되는가?",
+        "answer": "저장된다",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "aspect",
+        "prompt": "for several years는 어떤 완료 의미를 요구하는가?",
+        "answer": "현재완료",
+        "errorCode": "E10_PASSIVE_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "완료 수동태의 형태는?",
+        "answer": "have been p.p.",
+        "errorCode": "E10_PASSIVE_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have stored": "E10_PASSIVE_FORM"
+    },
+    "remediation": {
+      "diagnosis": "완료형에 수동태용 been을 넣지 않았다.",
+      "summary": [
+        "files는 저장되는 대상이다.",
+        "for several years는 완료 의미를 만든다.",
+        "완료 수동태 have been stored를 선택한다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "완료 수동태의 형태는 무엇인가?",
+        "choices": [
+          "have p.p.",
+          "have been p.p."
+        ],
+        "answer": "have been p.p."
+      },
+      "transferQuestionId": "Q-G07-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G07-002",
+    "sourceQuestionId": "Q-G07-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G07-003-DR",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 2,
+    "stem": "The warning (might not hear / might not be heard) clearly from the back row.",
+    "choices": [
+      "might not hear",
+      "might not be heard"
+    ],
+    "answer": "might not be heard",
+    "decisionSteps": [
+      {
+        "id": "voice",
+        "prompt": "warning이 듣는가 들리는가?",
+        "answer": "들린다",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "form",
+        "prompt": "조동사 수동태의 형태는?",
+        "answer": "조동사+be+p.p.",
+        "errorCode": "E10_PASSIVE_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might not hear": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "조동사 뒤에 수동태 be+p.p.를 조립하지 않았다.",
+      "summary": [
+        "warning은 듣는 주체가 아니라 들리는 대상이다.",
+        "might 뒤에는 동사원형 be가 온다.",
+        "조동사 수동태 might not be heard를 선택한다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "조동사 수동태의 형태는 무엇인가?",
+        "choices": [
+          "조동사+p.p.",
+          "조동사+be+p.p."
+        ],
+        "answer": "조동사+be+p.p."
+      },
+      "transferQuestionId": "Q-G01-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G07-003",
+    "sourceQuestionId": "Q-G07-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G07-001-CT",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe main road (is being repaired / is repairing) now.",
+    "choices": [
+      "is repairing",
+      "is being repaired"
+    ],
+    "answer": "is repairing",
+    "decisionSteps": [
+      {
+        "id": "voice",
+        "prompt": "road가 수리하는가 수리되는가?",
+        "answer": "수리된다",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "aspect",
+        "prompt": "now는 어떤 진행 의미를 요구하는가?",
+        "answer": "진행 중",
+        "errorCode": "E10_PASSIVE_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "진행 수동태의 형태는?",
+        "answer": "be being p.p.",
+        "errorCode": "E10_PASSIVE_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is being repaired": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "'is repairing'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is being repaired'이다.",
+      "summary": [
+        "road는 수리하는 주체가 아니라 수리되는 대상이다.",
+        "now이므로 진행 중인 동작이다.",
+        "진행 수동태 is being repaired를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'is repairing'이다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "진행 수동태의 핵심 형태는 무엇인가?",
+        "choices": [
+          "be V-ing",
+          "be being p.p."
+        ],
+        "answer": "be being p.p."
+      },
+      "transferQuestionId": "Q-G07-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G07-001",
+    "sourceQuestionId": "Q-G07-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G07-002-CT",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe files (have stored / have been stored) securely for several years.",
+    "choices": [
+      "have been stored",
+      "have stored"
+    ],
+    "answer": "have stored",
+    "decisionSteps": [
+      {
+        "id": "voice",
+        "prompt": "files가 저장하는가 저장되는가?",
+        "answer": "저장된다",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "aspect",
+        "prompt": "for several years는 어떤 완료 의미를 요구하는가?",
+        "answer": "현재완료",
+        "errorCode": "E10_PASSIVE_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "완료 수동태의 형태는?",
+        "answer": "have been p.p.",
+        "errorCode": "E10_PASSIVE_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have been stored": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "'have stored'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'have been stored'이다.",
+      "summary": [
+        "files는 저장되는 대상이다.",
+        "for several years는 완료 의미를 만든다.",
+        "완료 수동태 have been stored를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'have stored'이다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "완료 수동태의 형태는 무엇인가?",
+        "choices": [
+          "have p.p.",
+          "have been p.p."
+        ],
+        "answer": "have been p.p."
+      },
+      "transferQuestionId": "Q-G07-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G07-002",
+    "sourceQuestionId": "Q-G07-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G07-003-CT",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe warning (might not hear / might not be heard) clearly from the back row.",
+    "choices": [
+      "might not hear",
+      "might not be heard"
+    ],
+    "answer": "might not hear",
+    "decisionSteps": [
+      {
+        "id": "voice",
+        "prompt": "warning이 듣는가 들리는가?",
+        "answer": "들린다",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "form",
+        "prompt": "조동사 수동태의 형태는?",
+        "answer": "조동사+be+p.p.",
+        "errorCode": "E10_PASSIVE_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might not be heard": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "'might not hear'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'might not be heard'이다.",
+      "summary": [
+        "warning은 듣는 주체가 아니라 들리는 대상이다.",
+        "might 뒤에는 동사원형 be가 온다.",
+        "조동사 수동태 might not be heard를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'might not hear'이다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "조동사 수동태의 형태는 무엇인가?",
+        "choices": [
+          "조동사+p.p.",
+          "조동사+be+p.p."
+        ],
+        "answer": "조동사+be+p.p."
+      },
+      "transferQuestionId": "Q-G07-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G07-003",
+    "sourceQuestionId": "Q-G07-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-7065707D00",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 1,
+    "stem": "빠른 확인: 완료 수동태의 형태는 무엇인가?",
+    "choices": [
+      "have p.p.",
+      "have been p.p."
+    ],
+    "answer": "have been p.p.",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+          "수동태 핵심 be+p.p. 앞에 진행·완료·조동사의 형태를 순서대로 결합한다."
+        ],
+        "answer": "수동태 핵심 be+p.p. 앞에 진행·완료·조동사의 형태를 순서대로 결합한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have p.p.": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "수동태 핵심 be+p.p. 앞에 진행·완료·조동사의 형태를 순서대로 결합한다.",
+        "files는 저장되는 대상이다.",
+        "for several years는 완료 의미를 만든다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "진행 수동태의 핵심 형태는 무엇인가?",
+        "choices": [
+          "be V-ing",
+          "be being p.p."
+        ],
+        "answer": "be being p.p."
+      },
+      "transferQuestionId": "Q-G07-002",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-7065707D00",
+    "sourceQuestionId": "Q-G07-002",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-C46408ACBD",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 1,
+    "stem": "빠른 확인: 조동사 수동태의 형태는 무엇인가?",
+    "choices": [
+      "조동사+p.p.",
+      "조동사+be+p.p."
+    ],
+    "answer": "조동사+be+p.p.",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "수동태 핵심 be+p.p. 앞에 진행·완료·조동사의 형태를 순서대로 결합한다.",
+          "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다."
+        ],
+        "answer": "수동태 핵심 be+p.p. 앞에 진행·완료·조동사의 형태를 순서대로 결합한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "조동사+p.p.": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "수동태 핵심 be+p.p. 앞에 진행·완료·조동사의 형태를 순서대로 결합한다.",
+        "warning은 듣는 주체가 아니라 들리는 대상이다.",
+        "might 뒤에는 동사원형 be가 온다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "진행 수동태의 핵심 형태는 무엇인가?",
+        "choices": [
+          "be V-ing",
+          "be being p.p."
+        ],
+        "answer": "be being p.p."
+      },
+      "transferQuestionId": "Q-G07-003",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-C46408ACBD",
+    "sourceQuestionId": "Q-G07-003",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-0C5D57C8E0",
+    "conceptId": "G07_PASSIVE_FORM_VARIANTS",
+    "difficulty": 1,
+    "stem": "빠른 확인: 진행 수동태의 핵심 형태는 무엇인가?",
+    "choices": [
+      "be V-ing",
+      "be being p.p."
+    ],
+    "answer": "be being p.p.",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+          "수동태 핵심 be+p.p. 앞에 진행·완료·조동사의 형태를 순서대로 결합한다."
+        ],
+        "answer": "수동태 핵심 be+p.p. 앞에 진행·완료·조동사의 형태를 순서대로 결합한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be V-ing": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "수동태 핵심 be+p.p. 앞에 진행·완료·조동사의 형태를 순서대로 결합한다.",
+        "road는 수리하는 주체가 아니라 수리되는 대상이다.",
+        "now이므로 진행 중인 동작이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G07",
+      "checkQuestion": {
+        "prompt": "완료 수동태의 형태는 무엇인가?",
+        "choices": [
+          "have p.p.",
+          "have been p.p."
+        ],
+        "answer": "have been p.p."
+      },
+      "transferQuestionId": "Q-G07-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-0C5D57C8E0",
+    "sourceQuestionId": "Q-G07-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

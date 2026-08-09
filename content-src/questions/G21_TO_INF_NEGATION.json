@@ -1,0 +1,1855 @@
+[
+  {
+    "id": "Q-G21-001",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "My doctor told me (not to skip / to not skip) breakfast.",
+    "choices": [
+      "not to skip",
+      "to not skip"
+    ],
+    "answer": "not to skip",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not skip": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-001",
+    "sourceQuestionId": "Q-G21-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-002",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "We decided (not to delay / to not delay) the announcement.",
+    "choices": [
+      "not to delay",
+      "to not delay"
+    ],
+    "answer": "not to delay",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not delay": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-002",
+    "sourceQuestionId": "Q-G21-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-003",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "She promised (not to reveal / to not reveal) the password.",
+    "choices": [
+      "not to reveal",
+      "to not reveal"
+    ],
+    "answer": "not to reveal",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not reveal": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-003",
+    "sourceQuestionId": "Q-G21-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-004",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "The guide asked us (not to enter / to not enter) the room.",
+    "choices": [
+      "not to enter",
+      "to not enter"
+    ],
+    "answer": "not to enter",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not enter": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-004",
+    "sourceQuestionId": "Q-G21-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-005",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "He tried (not to react / to not react) too quickly.",
+    "choices": [
+      "not to react",
+      "to not react"
+    ],
+    "answer": "not to react",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not react": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-005",
+    "sourceQuestionId": "Q-G21-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-001-PF",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "My doctor told me (not to skip / to not skip) breakfast.",
+    "choices": [
+      "not to skip",
+      "to not skip"
+    ],
+    "answer": "not to skip",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not skip": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-001",
+    "sourceQuestionId": "Q-G21-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-002-PF",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "We decided (not to delay / to not delay) the announcement.",
+    "choices": [
+      "not to delay",
+      "to not delay"
+    ],
+    "answer": "not to delay",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not delay": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-002",
+    "sourceQuestionId": "Q-G21-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-003-PF",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "She promised (not to reveal / to not reveal) the password.",
+    "choices": [
+      "not to reveal",
+      "to not reveal"
+    ],
+    "answer": "not to reveal",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not reveal": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-003",
+    "sourceQuestionId": "Q-G21-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-004-PF",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "The guide asked us (not to enter / to not enter) the room.",
+    "choices": [
+      "not to enter",
+      "to not enter"
+    ],
+    "answer": "not to enter",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not enter": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-004",
+    "sourceQuestionId": "Q-G21-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-005-PF",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "He tried (not to react / to not react) too quickly.",
+    "choices": [
+      "not to react",
+      "to not react"
+    ],
+    "answer": "not to react",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not react": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-005",
+    "sourceQuestionId": "Q-G21-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-001-DR",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "My doctor told me (not to skip / to not skip) breakfast.",
+    "choices": [
+      "not to skip",
+      "to not skip"
+    ],
+    "answer": "not to skip",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not skip": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-001",
+    "sourceQuestionId": "Q-G21-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-002-DR",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "We decided (not to delay / to not delay) the announcement.",
+    "choices": [
+      "not to delay",
+      "to not delay"
+    ],
+    "answer": "not to delay",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not delay": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-002",
+    "sourceQuestionId": "Q-G21-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-003-DR",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "She promised (not to reveal / to not reveal) the password.",
+    "choices": [
+      "not to reveal",
+      "to not reveal"
+    ],
+    "answer": "not to reveal",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not reveal": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-003",
+    "sourceQuestionId": "Q-G21-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-004-DR",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "The guide asked us (not to enter / to not enter) the room.",
+    "choices": [
+      "not to enter",
+      "to not enter"
+    ],
+    "answer": "not to enter",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not enter": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-004",
+    "sourceQuestionId": "Q-G21-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-005-DR",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "He tried (not to react / to not react) too quickly.",
+    "choices": [
+      "not to react",
+      "to not react"
+    ],
+    "answer": "not to react",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not react": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "to부정사를 부정하는 not의 위치를 잘못 잡았다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-005",
+    "sourceQuestionId": "Q-G21-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-001-CT",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nMy doctor told me (not to skip / to not skip) breakfast.",
+    "choices": [
+      "not to skip",
+      "to not skip"
+    ],
+    "answer": "to not skip",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "not to skip": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "'to not skip'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'not to skip'이다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다.",
+        "따라서 대조 문항에서 고를 답은 'to not skip'이다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-001",
+    "sourceQuestionId": "Q-G21-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-002-CT",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe decided (not to delay / to not delay) the announcement.",
+    "choices": [
+      "to not delay",
+      "not to delay"
+    ],
+    "answer": "to not delay",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "not to delay": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "'to not delay'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'not to delay'이다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다.",
+        "따라서 대조 문항에서 고를 답은 'to not delay'이다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-002",
+    "sourceQuestionId": "Q-G21-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-003-CT",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe promised (not to reveal / to not reveal) the password.",
+    "choices": [
+      "to not reveal",
+      "not to reveal"
+    ],
+    "answer": "to not reveal",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "not to reveal": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "'to not reveal'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'not to reveal'이다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다.",
+        "따라서 대조 문항에서 고를 답은 'to not reveal'이다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-003",
+    "sourceQuestionId": "Q-G21-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-004-CT",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe guide asked us (not to enter / to not enter) the room.",
+    "choices": [
+      "not to enter",
+      "to not enter"
+    ],
+    "answer": "to not enter",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "not to enter": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "'to not enter'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'not to enter'이다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다.",
+        "따라서 대조 문항에서 고를 답은 'to not enter'이다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-004",
+    "sourceQuestionId": "Q-G21-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G21-005-CT",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe tried (not to react / to not react) too quickly.",
+    "choices": [
+      "to not react",
+      "not to react"
+    ],
+    "answer": "to not react",
+    "decisionSteps": [
+      {
+        "id": "scope",
+        "prompt": "부정하는 것은 문장 전체인가, to-V 행동인가?",
+        "answer": "to-V 행동",
+        "errorCode": "E25_TO_INF_NEGATION"
+      },
+      {
+        "id": "position",
+        "prompt": "not은 어디에 두는가?",
+        "answer": "to 앞",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "not to react": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "'to not react'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'not to react'이다.",
+      "summary": [
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "not to-V로 묶는다.",
+        "따라서 대조 문항에서 고를 답은 'to not react'이다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G21-005",
+    "sourceQuestionId": "Q-G21-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-47B937375B",
+    "conceptId": "G21_TO_INF_NEGATION",
+    "difficulty": 1,
+    "stem": "빠른 확인: to부정사만 부정할 때 올바른 순서는?",
+    "choices": [
+      "not to-V",
+      "to not V"
+    ],
+    "answer": "not to-V",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "‘~하는 방법’은 way to-V 또는 way of V-ing로 만든다.",
+          "to부정사만 부정할 때는 not을 to 앞에 둔다."
+        ],
+        "answer": "to부정사만 부정할 때는 not을 to 앞에 둔다.",
+        "errorCode": "E25_TO_INF_NEGATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to not V": "E25_TO_INF_NEGATION"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "to부정사만 부정할 때는 not을 to 앞에 둔다.",
+        "부정 대상은 to-V 행동이다.",
+        "not은 to 앞에 둔다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G21",
+      "checkQuestion": {
+        "prompt": "to부정사만 부정할 때 올바른 순서는?",
+        "choices": [
+          "not to-V",
+          "to not V"
+        ],
+        "answer": "not to-V"
+      },
+      "transferQuestionId": "Q-G21-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-47B937375B",
+    "sourceQuestionId": "Q-G21-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

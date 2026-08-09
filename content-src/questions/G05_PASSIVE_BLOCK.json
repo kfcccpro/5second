@@ -1,0 +1,1317 @@
+[
+  {
+    "id": "Q-G05-001",
+    "conceptId": "G05_PASSIVE_BLOCK",
+    "difficulty": 1,
+    "stem": "A serious problem (appeared / was appeared) during the test.",
+    "choices": [
+      "appeared",
+      "was appeared"
+    ],
+    "answer": "appeared",
+    "decisionSteps": [
+      {
+        "id": "slot",
+        "prompt": "문제 부분은 본동사 자리인가?",
+        "answer": "그렇다",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "block",
+        "prompt": "appear는 수동태가 가능한가?",
+        "answer": "불가능하다",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was appeared": "E08_PASSIVE_BLOCK"
+    },
+    "remediation": {
+      "diagnosis": "자동사 appear를 수동태로 만들었다.",
+      "summary": [
+        "문제 부분은 본동사 자리이다.",
+        "appear는 자동사로 수동태가 되지 않는다.",
+        "능동형 appeared를 선택한다."
+      ],
+      "sourceRef": "SRC-G05",
+      "checkQuestion": {
+        "prompt": "자동사는 일반적으로 수동태가 가능한가?",
+        "choices": [
+          "가능",
+          "불가능"
+        ],
+        "answer": "불가능"
+      },
+      "transferQuestionId": "Q-G06-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G05-001",
+    "sourceQuestionId": "Q-G05-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G05-001-PF",
+    "conceptId": "G05_PASSIVE_BLOCK",
+    "difficulty": 1,
+    "stem": "A serious problem (appeared / was appeared) during the test.",
+    "choices": [
+      "appeared",
+      "was appeared"
+    ],
+    "answer": "appeared",
+    "decisionSteps": [
+      {
+        "id": "slot",
+        "prompt": "문제 부분은 본동사 자리인가?",
+        "answer": "그렇다",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "block",
+        "prompt": "appear는 수동태가 가능한가?",
+        "answer": "불가능하다",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was appeared": "E08_PASSIVE_BLOCK"
+    },
+    "remediation": {
+      "diagnosis": "자동사 appear를 수동태로 만들었다.",
+      "summary": [
+        "문제 부분은 본동사 자리이다.",
+        "appear는 자동사로 수동태가 되지 않는다.",
+        "능동형 appeared를 선택한다."
+      ],
+      "sourceRef": "SRC-G05",
+      "checkQuestion": {
+        "prompt": "자동사는 일반적으로 수동태가 가능한가?",
+        "choices": [
+          "가능",
+          "불가능"
+        ],
+        "answer": "불가능"
+      },
+      "transferQuestionId": "Q-G06-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G05-001",
+    "sourceQuestionId": "Q-G05-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G05-001-DR",
+    "conceptId": "G05_PASSIVE_BLOCK",
+    "difficulty": 1,
+    "stem": "A serious problem (appeared / was appeared) during the test.",
+    "choices": [
+      "appeared",
+      "was appeared"
+    ],
+    "answer": "appeared",
+    "decisionSteps": [
+      {
+        "id": "slot",
+        "prompt": "문제 부분은 본동사 자리인가?",
+        "answer": "그렇다",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "block",
+        "prompt": "appear는 수동태가 가능한가?",
+        "answer": "불가능하다",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was appeared": "E08_PASSIVE_BLOCK"
+    },
+    "remediation": {
+      "diagnosis": "자동사 appear를 수동태로 만들었다.",
+      "summary": [
+        "문제 부분은 본동사 자리이다.",
+        "appear는 자동사로 수동태가 되지 않는다.",
+        "능동형 appeared를 선택한다."
+      ],
+      "sourceRef": "SRC-G05",
+      "checkQuestion": {
+        "prompt": "자동사는 일반적으로 수동태가 가능한가?",
+        "choices": [
+          "가능",
+          "불가능"
+        ],
+        "answer": "불가능"
+      },
+      "transferQuestionId": "Q-G06-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G05-001",
+    "sourceQuestionId": "Q-G05-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G05-001-CT",
+    "conceptId": "G05_PASSIVE_BLOCK",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nA serious problem (appeared / was appeared) during the test.",
+    "choices": [
+      "was appeared",
+      "appeared"
+    ],
+    "answer": "was appeared",
+    "decisionSteps": [
+      {
+        "id": "slot",
+        "prompt": "문제 부분은 본동사 자리인가?",
+        "answer": "그렇다",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "block",
+        "prompt": "appear는 수동태가 가능한가?",
+        "answer": "불가능하다",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      }
+    ],
+    "misconceptionByChoice": {
+      "appeared": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "'was appeared'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'appeared'이다.",
+      "summary": [
+        "문제 부분은 본동사 자리이다.",
+        "appear는 자동사로 수동태가 되지 않는다.",
+        "능동형 appeared를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'was appeared'이다."
+      ],
+      "sourceRef": "SRC-G05",
+      "checkQuestion": {
+        "prompt": "자동사는 일반적으로 수동태가 가능한가?",
+        "choices": [
+          "가능",
+          "불가능"
+        ],
+        "answer": "불가능"
+      },
+      "transferQuestionId": "Q-G05-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G05-001",
+    "sourceQuestionId": "Q-G05-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-B5378B3D4B",
+    "conceptId": "G05_PASSIVE_BLOCK",
+    "difficulty": 1,
+    "stem": "빠른 확인: 자동사는 일반적으로 수동태가 가능한가?",
+    "choices": [
+      "가능",
+      "불가능"
+    ],
+    "answer": "불가능",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "수동태가 되어도 간접목적어·직접목적어 또는 목적격보어가 문장 뒤에 남을 수 있다."
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "가능": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "문제 부분은 본동사 자리이다.",
+        "appear는 자동사로 수동태가 되지 않는다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G05",
+      "checkQuestion": {
+        "prompt": "자동사는 일반적으로 수동태가 가능한가?",
+        "choices": [
+          "가능",
+          "불가능"
+        ],
+        "answer": "불가능"
+      },
+      "transferQuestionId": "Q-G05-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-B5378B3D4B",
+    "sourceQuestionId": "Q-G05-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-024-9101C529",
+    "conceptId": "G05_PASSIVE_BLOCK",
+    "difficulty": 2,
+    "stem": "The notation [was appeared / appeared] to read, “Not you — us!”",
+    "choices": [
+      "was appeared",
+      "appeared"
+    ],
+    "answer": "appeared",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수동태 불가 동사",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수동태 불가 동사",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was appeared": "E08_PASSIVE_BLOCK"
+    },
+    "remediation": {
+      "diagnosis": "자동사 또는 수동태가 되지 않는 동사를 be+p.p.로 만들었다.",
+      "summary": [
+        "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "본동사 자리인지 확인한다",
+        "가능한 능동형을 선택한다"
+      ],
+      "sourceRef": "SRC-G05",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다."
+      },
+      "transferQuestionId": "Q-P21-G-024-EAD7A7E4",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-024-9101C529",
+    "sourceQuestionId": "Q-P21-G-024-9101C529",
+    "sourceCandidateId": "CAND-G-024-9101C529",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 24,
+      "asset": "assets/source-evidence/phase21/grammar-page-024.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-024-9101C529",
+      "evidenceRef": "SRC-P21-G-024",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-024-9101C529-PF",
+    "conceptId": "G05_PASSIVE_BLOCK",
+    "difficulty": 2,
+    "stem": "The notation [was appeared / appeared] to read, “Not you — us!”",
+    "choices": [
+      "was appeared",
+      "appeared"
+    ],
+    "answer": "appeared",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수동태 불가 동사",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수동태 불가 동사",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was appeared": "E08_PASSIVE_BLOCK"
+    },
+    "remediation": {
+      "diagnosis": "자동사 또는 수동태가 되지 않는 동사를 be+p.p.로 만들었다.",
+      "summary": [
+        "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "본동사 자리인지 확인한다",
+        "가능한 능동형을 선택한다"
+      ],
+      "sourceRef": "SRC-G05",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다."
+      },
+      "transferQuestionId": "Q-P21-G-024-EAD7A7E4",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-024-9101C529",
+    "sourceQuestionId": "Q-P21-G-024-9101C529",
+    "sourceCandidateId": "CAND-G-024-9101C529",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 24,
+      "asset": "assets/source-evidence/phase21/grammar-page-024.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-024-9101C529",
+      "evidenceRef": "SRC-P21-G-024",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-024-9101C529-DR",
+    "conceptId": "G05_PASSIVE_BLOCK",
+    "difficulty": 2,
+    "stem": "The notation [was appeared / appeared] to read, “Not you — us!”",
+    "choices": [
+      "was appeared",
+      "appeared"
+    ],
+    "answer": "appeared",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수동태 불가 동사",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수동태 불가 동사",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was appeared": "E08_PASSIVE_BLOCK"
+    },
+    "remediation": {
+      "diagnosis": "자동사 또는 수동태가 되지 않는 동사를 be+p.p.로 만들었다.",
+      "summary": [
+        "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "본동사 자리인지 확인한다",
+        "가능한 능동형을 선택한다"
+      ],
+      "sourceRef": "SRC-G05",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다."
+      },
+      "transferQuestionId": "Q-P21-G-024-EAD7A7E4",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-024-9101C529",
+    "sourceQuestionId": "Q-P21-G-024-9101C529",
+    "sourceCandidateId": "CAND-G-024-9101C529",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 24,
+      "asset": "assets/source-evidence/phase21/grammar-page-024.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-024-9101C529",
+      "evidenceRef": "SRC-P21-G-024",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-024-9101C529-CT",
+    "conceptId": "G05_PASSIVE_BLOCK",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe notation [was appeared / appeared] to read, “Not you — us!”",
+    "choices": [
+      "was appeared",
+      "appeared"
+    ],
+    "answer": "was appeared",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수동태 불가 동사",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수동태 불가 동사",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      }
+    ],
+    "misconceptionByChoice": {
+      "appeared": "E08_PASSIVE_BLOCK"
+    },
+    "remediation": {
+      "diagnosis": "'was appeared'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'appeared'이다.",
+      "summary": [
+        "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "본동사 자리인지 확인한다",
+        "가능한 능동형을 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'was appeared'를 고른다."
+      ],
+      "sourceRef": "SRC-G05",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다."
+      },
+      "transferQuestionId": "Q-P21-G-024-9101C529",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-024-9101C529",
+    "sourceQuestionId": "Q-P21-G-024-9101C529",
+    "sourceCandidateId": "CAND-G-024-9101C529",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 24,
+      "asset": "assets/source-evidence/phase21/grammar-page-024.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-024-9101C529",
+      "evidenceRef": "SRC-P21-G-024",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-024-EAD7A7E4",
+    "conceptId": "G05_PASSIVE_BLOCK",
+    "difficulty": 2,
+    "stem": "It [seems / is seemed] that there is a bottleneck somewhere in the system.",
+    "choices": [
+      "seems",
+      "is seemed"
+    ],
+    "answer": "seems",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수동태 불가 동사",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수동태 불가 동사",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is seemed": "E08_PASSIVE_BLOCK"
+    },
+    "remediation": {
+      "diagnosis": "자동사 또는 수동태가 되지 않는 동사를 be+p.p.로 만들었다.",
+      "summary": [
+        "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "본동사 자리인지 확인한다",
+        "가능한 능동형을 선택한다"
+      ],
+      "sourceRef": "SRC-G05",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다."
+      },
+      "transferQuestionId": "Q-P21-G-024-9101C529",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-024-EAD7A7E4",
+    "sourceQuestionId": "Q-P21-G-024-EAD7A7E4",
+    "sourceCandidateId": "CAND-G-024-EAD7A7E4",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 24,
+      "asset": "assets/source-evidence/phase21/grammar-page-024.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-024-EAD7A7E4",
+      "evidenceRef": "SRC-P21-G-024",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-024-EAD7A7E4-PF",
+    "conceptId": "G05_PASSIVE_BLOCK",
+    "difficulty": 2,
+    "stem": "It [seems / is seemed] that there is a bottleneck somewhere in the system.",
+    "choices": [
+      "seems",
+      "is seemed"
+    ],
+    "answer": "seems",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수동태 불가 동사",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수동태 불가 동사",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is seemed": "E08_PASSIVE_BLOCK"
+    },
+    "remediation": {
+      "diagnosis": "자동사 또는 수동태가 되지 않는 동사를 be+p.p.로 만들었다.",
+      "summary": [
+        "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "본동사 자리인지 확인한다",
+        "가능한 능동형을 선택한다"
+      ],
+      "sourceRef": "SRC-G05",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다."
+      },
+      "transferQuestionId": "Q-P21-G-024-9101C529",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-024-EAD7A7E4",
+    "sourceQuestionId": "Q-P21-G-024-EAD7A7E4",
+    "sourceCandidateId": "CAND-G-024-EAD7A7E4",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 24,
+      "asset": "assets/source-evidence/phase21/grammar-page-024.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-024-EAD7A7E4",
+      "evidenceRef": "SRC-P21-G-024",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-024-EAD7A7E4-DR",
+    "conceptId": "G05_PASSIVE_BLOCK",
+    "difficulty": 2,
+    "stem": "It [seems / is seemed] that there is a bottleneck somewhere in the system.",
+    "choices": [
+      "seems",
+      "is seemed"
+    ],
+    "answer": "seems",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수동태 불가 동사",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수동태 불가 동사",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is seemed": "E08_PASSIVE_BLOCK"
+    },
+    "remediation": {
+      "diagnosis": "자동사 또는 수동태가 되지 않는 동사를 be+p.p.로 만들었다.",
+      "summary": [
+        "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "본동사 자리인지 확인한다",
+        "가능한 능동형을 선택한다"
+      ],
+      "sourceRef": "SRC-G05",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다."
+      },
+      "transferQuestionId": "Q-P21-G-024-9101C529",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-024-EAD7A7E4",
+    "sourceQuestionId": "Q-P21-G-024-EAD7A7E4",
+    "sourceCandidateId": "CAND-G-024-EAD7A7E4",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 24,
+      "asset": "assets/source-evidence/phase21/grammar-page-024.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-024-EAD7A7E4",
+      "evidenceRef": "SRC-P21-G-024",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-024-EAD7A7E4-CT",
+    "conceptId": "G05_PASSIVE_BLOCK",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt [seems / is seemed] that there is a bottleneck somewhere in the system.",
+    "choices": [
+      "seems",
+      "is seemed"
+    ],
+    "answer": "is seemed",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수동태 불가 동사",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수동태 불가 동사",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "errorCode": "E08_PASSIVE_BLOCK"
+      }
+    ],
+    "misconceptionByChoice": {
+      "seems": "E08_PASSIVE_BLOCK"
+    },
+    "remediation": {
+      "diagnosis": "'is seemed'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'seems'이다.",
+      "summary": [
+        "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+        "본동사 자리인지 확인한다",
+        "가능한 능동형을 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'is seemed'를 고른다."
+      ],
+      "sourceRef": "SRC-G05",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "자리와 목적어 판단 뒤에도 해당 동사가 수동태 가능한 동사인지 예외 목록으로 확인한다."
+      },
+      "transferQuestionId": "Q-P21-G-024-EAD7A7E4",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-024-EAD7A7E4",
+    "sourceQuestionId": "Q-P21-G-024-EAD7A7E4",
+    "sourceCandidateId": "CAND-G-024-EAD7A7E4",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 24,
+      "asset": "assets/source-evidence/phase21/grammar-page-024.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-024-EAD7A7E4",
+      "evidenceRef": "SRC-P21-G-024",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

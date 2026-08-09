@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="#5948c8" name="theme-color"/>
+<title>포인터 원시 진단 · JK 5초 영어</title>
+<style>
+:root{--bg:#f4f3f8;--card:#fff;--text:#17171d;--sub:#6e6d78;--line:#e4e2ea;--accent:#5948c8}*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text)}.wrap{max-width:900px;margin:auto;padding:20px 16px 40px}.links{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.btn{display:inline-block;padding:11px 14px;background:#eceaf2;color:#2e2c38;border-radius:12px;text-decoration:none;font-weight:800}.btn.primary{background:var(--accent);color:#fff}.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px;margin-bottom:14px}.card h1{margin:0 0 8px}.card p{color:var(--sub);line-height:1.55}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.v{background:#f7f6fb;border-radius:12px;padding:12px}.v small{display:block;color:var(--sub)}.v b{display:block;font-size:18px;margin-top:4px}.profile{font-size:13px;line-height:1.6;color:var(--sub);background:#f0eefb;border-radius:13px;padding:12px;margin-top:12px}canvas{width:100%;height:420px;background:#fffdf7;border:1px solid #ccc;border-radius:14px;touch-action:none;display:block}@media(max-width:600px){.grid{grid-template-columns:1fr 1fr}canvas{height:330px}}
+</style>
+<link rel="stylesheet" href="rc-core.css"><script src="firebase-pilot-config.js"></script></head>
+<body>
+<div class="wrap">
+<div class="links"><a class="btn primary" href="index.html">학습앱</a><a class="btn" href="calibration.html?return=pen-diagnostics.html">캘리브레이션</a><a class="btn" href="storage-diagnostics.html">저장소 진단</a></div>
+<section class="card"><h1>Apple Pencil · S Pen 포인터 원시 진단</h1><p>아래 영역에 펜으로 씁니다. 브라우저가 전달하는 pointerType, 압력, 기울기, 고도·방위각, 버튼과 coalesced events를 그대로 표시합니다.</p><div class="grid"><div class="v"><small>입력 종류</small><b id="type">-</b></div><div class="v"><small>압력</small><b id="pressure">-</b></div><div class="v"><small>기울기 X/Y</small><b id="tilt">-</b></div><div class="v"><small>고도/방위각</small><b id="angle">-</b></div><div class="v"><small>buttons</small><b id="buttons">-</b></div><div class="v"><small>coalesced</small><b id="coal">-</b></div></div><div class="profile" id="profile">저장된 펜 프로필을 불러오는 중입니다.</div></section>
+<section class="card"><canvas id="c"></canvas></section>
+</div>
+<script src="auth-core.js"></script><script>JK_AUTH.requireRole('learner');</script><script src="storage.js"></script>
+<script>
+(async()=>{
+  const state=await JK_STORAGE.init(),p=state.profile;document.getElementById('profile').textContent=`${p.deviceLabel} · ${state.mode} · 압력 ${p.pressureMin}~${p.pressureMax} · slash ${p.slashAngleMin}~${p.slashAngleMax}° · circle closure ${p.circleClosureRatio} · underline aspect ${p.underlineAspectMin}`;
+  const c=document.getElementById('c'),x=c.getContext('2d');let on=false,last;
+  function size(){const r=c.getBoundingClientRect(),d=devicePixelRatio||1;c.width=r.width*d;c.height=r.height*d;x.setTransform(d,0,0,d,0,0)}size();addEventListener('resize',size);
+  function pt(e){const r=c.getBoundingClientRect();return[e.clientX-r.left,e.clientY-r.top]}
+  function info(e){document.getElementById('type').textContent=e.pointerType||'-';document.getElementById('pressure').textContent=(e.pressure||0).toFixed(3);document.getElementById('tilt').textContent=`${e.tiltX||0} / ${e.tiltY||0}`;document.getElementById('angle').textContent=`${(e.altitudeAngle||0).toFixed(2)} / ${(e.azimuthAngle||0).toFixed(2)}`;document.getElementById('buttons').textContent=e.buttons;document.getElementById('coal').textContent=e.getCoalescedEvents?e.getCoalescedEvents().length:'미지원'}
+  c.onpointerdown=e=>{e.preventDefault();on=true;last=pt(e);c.setPointerCapture?.(e.pointerId);info(e)};
+  c.onpointermove=e=>{info(e);if(!on)return;e.preventDefault();for(const v of(e.getCoalescedEvents?.()||[e])){const q=pt(v);x.beginPath();x.lineCap='round';x.strokeStyle='#3425b7';x.lineWidth=2+6*(v.pressure||.5);x.moveTo(...last);x.lineTo(...q);x.stroke();last=q}};
+  c.onpointerup=c.onpointercancel=e=>{on=false;info(e)};
+})().catch(e=>{document.getElementById('profile').textContent='프로필 로드 실패: '+e.message});
+</script>
+<script src="rc-core.js"></script></body>
+</html>

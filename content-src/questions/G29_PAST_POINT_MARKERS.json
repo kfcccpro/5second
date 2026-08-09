@@ -1,0 +1,3563 @@
+[
+  {
+    "id": "Q-G29-001",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "We (visited / have visited) the gallery yesterday.",
+    "choices": [
+      "visited",
+      "have visited"
+    ],
+    "answer": "visited",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "yesterday",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have visited": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "yesterday는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 visited를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-001",
+    "sourceQuestionId": "Q-G29-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-002",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "The team (won / has won) the final last Saturday.",
+    "choices": [
+      "won",
+      "has won"
+    ],
+    "answer": "won",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "last Saturday",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has won": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "last Saturday는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 won를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-002",
+    "sourceQuestionId": "Q-G29-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-003",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "She (moved / has moved) to Busan three years ago.",
+    "choices": [
+      "moved",
+      "has moved"
+    ],
+    "answer": "moved",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "three years ago",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has moved": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "three years ago는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 moved를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-003",
+    "sourceQuestionId": "Q-G29-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-004",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "The bridge (collapsed / has collapsed) in 1998.",
+    "choices": [
+      "collapsed",
+      "has collapsed"
+    ],
+    "answer": "collapsed",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "in 1998",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has collapsed": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "in 1998는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 collapsed를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-004",
+    "sourceQuestionId": "Q-G29-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-005",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "I (met / have met) him last month.",
+    "choices": [
+      "met",
+      "have met"
+    ],
+    "answer": "met",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "last month",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have met": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "last month는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 met를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-005",
+    "sourceQuestionId": "Q-G29-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-006",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "They (finished / have finished) the report two hours ago.",
+    "choices": [
+      "finished",
+      "have finished"
+    ],
+    "answer": "finished",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "two hours ago",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have finished": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "two hours ago는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 finished를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-006",
+    "sourceQuestionId": "Q-G29-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-007",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "The school (opened / has opened) in 1975.",
+    "choices": [
+      "opened",
+      "has opened"
+    ],
+    "answer": "opened",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "in 1975",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has opened": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "in 1975는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 opened를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-007",
+    "sourceQuestionId": "Q-G29-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-008",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "A storm (damaged / has damaged) the roof yesterday evening.",
+    "choices": [
+      "damaged",
+      "has damaged"
+    ],
+    "answer": "damaged",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "yesterday evening",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has damaged": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "yesterday evening는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 damaged를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-008",
+    "sourceQuestionId": "Q-G29-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-001-PF",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "We (visited / have visited) the gallery yesterday.",
+    "choices": [
+      "visited",
+      "have visited"
+    ],
+    "answer": "visited",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "yesterday",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have visited": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "yesterday는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 visited를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-001",
+    "sourceQuestionId": "Q-G29-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-002-PF",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "The team (won / has won) the final last Saturday.",
+    "choices": [
+      "won",
+      "has won"
+    ],
+    "answer": "won",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "last Saturday",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has won": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "last Saturday는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 won를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-002",
+    "sourceQuestionId": "Q-G29-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-003-PF",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "She (moved / has moved) to Busan three years ago.",
+    "choices": [
+      "moved",
+      "has moved"
+    ],
+    "answer": "moved",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "three years ago",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has moved": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "three years ago는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 moved를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-003",
+    "sourceQuestionId": "Q-G29-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-004-PF",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "The bridge (collapsed / has collapsed) in 1998.",
+    "choices": [
+      "collapsed",
+      "has collapsed"
+    ],
+    "answer": "collapsed",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "in 1998",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has collapsed": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "in 1998는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 collapsed를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-004",
+    "sourceQuestionId": "Q-G29-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-005-PF",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "I (met / have met) him last month.",
+    "choices": [
+      "met",
+      "have met"
+    ],
+    "answer": "met",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "last month",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have met": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "last month는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 met를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-005",
+    "sourceQuestionId": "Q-G29-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-006-PF",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "They (finished / have finished) the report two hours ago.",
+    "choices": [
+      "finished",
+      "have finished"
+    ],
+    "answer": "finished",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "two hours ago",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have finished": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "two hours ago는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 finished를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-006",
+    "sourceQuestionId": "Q-G29-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-007-PF",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "The school (opened / has opened) in 1975.",
+    "choices": [
+      "opened",
+      "has opened"
+    ],
+    "answer": "opened",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "in 1975",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has opened": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "in 1975는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 opened를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-007",
+    "sourceQuestionId": "Q-G29-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-008-PF",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "A storm (damaged / has damaged) the roof yesterday evening.",
+    "choices": [
+      "damaged",
+      "has damaged"
+    ],
+    "answer": "damaged",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "yesterday evening",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has damaged": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "yesterday evening는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 damaged를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-008",
+    "sourceQuestionId": "Q-G29-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-001-DR",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "We (visited / have visited) the gallery yesterday.",
+    "choices": [
+      "visited",
+      "have visited"
+    ],
+    "answer": "visited",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "yesterday",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have visited": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "yesterday는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 visited를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-001",
+    "sourceQuestionId": "Q-G29-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-002-DR",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "The team (won / has won) the final last Saturday.",
+    "choices": [
+      "won",
+      "has won"
+    ],
+    "answer": "won",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "last Saturday",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has won": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "last Saturday는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 won를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-002",
+    "sourceQuestionId": "Q-G29-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-003-DR",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "She (moved / has moved) to Busan three years ago.",
+    "choices": [
+      "moved",
+      "has moved"
+    ],
+    "answer": "moved",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "three years ago",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has moved": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "three years ago는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 moved를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-003",
+    "sourceQuestionId": "Q-G29-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-004-DR",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "The bridge (collapsed / has collapsed) in 1998.",
+    "choices": [
+      "collapsed",
+      "has collapsed"
+    ],
+    "answer": "collapsed",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "in 1998",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has collapsed": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "in 1998는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 collapsed를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-004",
+    "sourceQuestionId": "Q-G29-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-005-DR",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "I (met / have met) him last month.",
+    "choices": [
+      "met",
+      "have met"
+    ],
+    "answer": "met",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "last month",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have met": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "last month는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 met를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-005",
+    "sourceQuestionId": "Q-G29-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-006-DR",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "They (finished / have finished) the report two hours ago.",
+    "choices": [
+      "finished",
+      "have finished"
+    ],
+    "answer": "finished",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "two hours ago",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have finished": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "two hours ago는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 finished를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-006",
+    "sourceQuestionId": "Q-G29-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-007-DR",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "The school (opened / has opened) in 1975.",
+    "choices": [
+      "opened",
+      "has opened"
+    ],
+    "answer": "opened",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "in 1975",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has opened": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "in 1975는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 opened를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-007",
+    "sourceQuestionId": "Q-G29-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-008-DR",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "A storm (damaged / has damaged) the roof yesterday evening.",
+    "choices": [
+      "damaged",
+      "has damaged"
+    ],
+    "answer": "damaged",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "yesterday evening",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has damaged": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "끝난 과거 시점 표지를 보고도 현재완료를 선택했다.",
+      "summary": [
+        "yesterday evening는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 damaged를 선택한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-008",
+    "sourceQuestionId": "Q-G29-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-001-CT",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe (visited / have visited) the gallery yesterday.",
+    "choices": [
+      "have visited",
+      "visited"
+    ],
+    "answer": "have visited",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "yesterday",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "visited": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "'have visited'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'visited'이다.",
+      "summary": [
+        "yesterday는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 visited를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'have visited'이다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-001",
+    "sourceQuestionId": "Q-G29-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-002-CT",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe team (won / has won) the final last Saturday.",
+    "choices": [
+      "has won",
+      "won"
+    ],
+    "answer": "has won",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "last Saturday",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "won": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "'has won'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'won'이다.",
+      "summary": [
+        "last Saturday는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 won를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'has won'이다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-002",
+    "sourceQuestionId": "Q-G29-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-003-CT",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe (moved / has moved) to Busan three years ago.",
+    "choices": [
+      "has moved",
+      "moved"
+    ],
+    "answer": "has moved",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "three years ago",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "moved": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "'has moved'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'moved'이다.",
+      "summary": [
+        "three years ago는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 moved를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'has moved'이다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-003",
+    "sourceQuestionId": "Q-G29-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-004-CT",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe bridge (collapsed / has collapsed) in 1998.",
+    "choices": [
+      "collapsed",
+      "has collapsed"
+    ],
+    "answer": "has collapsed",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "in 1998",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "collapsed": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "'has collapsed'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'collapsed'이다.",
+      "summary": [
+        "in 1998는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 collapsed를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'has collapsed'이다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-004",
+    "sourceQuestionId": "Q-G29-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-005-CT",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI (met / have met) him last month.",
+    "choices": [
+      "met",
+      "have met"
+    ],
+    "answer": "have met",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "last month",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "met": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "'have met'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'met'이다.",
+      "summary": [
+        "last month는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 met를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'have met'이다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-005",
+    "sourceQuestionId": "Q-G29-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-006-CT",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThey (finished / have finished) the report two hours ago.",
+    "choices": [
+      "have finished",
+      "finished"
+    ],
+    "answer": "have finished",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "two hours ago",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "finished": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "'have finished'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'finished'이다.",
+      "summary": [
+        "two hours ago는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 finished를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'have finished'이다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-006",
+    "sourceQuestionId": "Q-G29-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-007-CT",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe school (opened / has opened) in 1975.",
+    "choices": [
+      "has opened",
+      "opened"
+    ],
+    "answer": "has opened",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "in 1975",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "opened": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "'has opened'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'opened'이다.",
+      "summary": [
+        "in 1975는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 opened를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'has opened'이다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-007",
+    "sourceQuestionId": "Q-G29-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G29-008-CT",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nA storm (damaged / has damaged) the roof yesterday evening.",
+    "choices": [
+      "damaged",
+      "has damaged"
+    ],
+    "answer": "has damaged",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "끝난 과거 시점을 나타내는 표현은?",
+        "answer": "yesterday evening",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "closed",
+        "prompt": "그 시점은 현재와 분리되어 끝났는가?",
+        "answer": "끝났다",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "damaged": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "'has damaged'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'damaged'이다.",
+      "summary": [
+        "yesterday evening는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "따라서 damaged를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'has damaged'이다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G29-008",
+    "sourceQuestionId": "Q-G29-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-9AD365FA44",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 1,
+    "stem": "빠른 확인: ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+    "choices": [
+      "과거 시제",
+      "현재완료"
+    ],
+    "answer": "과거 시제",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+          "과거에 시작해 현재까지 이어지는 기간은 for·since와 함께 현재완료를 쓴다."
+        ],
+        "answer": "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "현재완료": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+        "yesterday는 끝난 과거 시점이다.",
+        "끝난 과거 시점이 있으면 현재완료를 쓰지 않는다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "ago·last·yesterday가 있으면 우선 어떤 시제를 쓰는가?",
+        "choices": [
+          "과거 시제",
+          "현재완료"
+        ],
+        "answer": "과거 시제"
+      },
+      "transferQuestionId": "Q-G29-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-9AD365FA44",
+    "sourceQuestionId": "Q-G29-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-053-2DB62520",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "That omelet cannot be fresh, as I know the eggs [were laid / have been laid] at least three weeks ago.",
+    "choices": [
+      "were laid",
+      "have been laid"
+    ],
+    "answer": "were laid",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "과거 시점 표지",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "과거 시점 표지",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have been laid": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "yesterday·ago·last·과거연도를 보고도 완료 시제를 골랐다.",
+      "summary": [
+        "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+        "시간 표현을 찾는다",
+        "과거형을 선택한다"
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-G29-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-053-2DB62520",
+    "sourceQuestionId": "Q-P21-G-053-2DB62520",
+    "sourceCandidateId": "CAND-G-053-2DB62520",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 53,
+      "asset": "assets/source-evidence/phase21/grammar-page-053.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-053-2DB62520",
+      "evidenceRef": "SRC-P21-G-053",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-053-2DB62520-PF",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "That omelet cannot be fresh, as I know the eggs [were laid / have been laid] at least three weeks ago.",
+    "choices": [
+      "were laid",
+      "have been laid"
+    ],
+    "answer": "were laid",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "과거 시점 표지",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "과거 시점 표지",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have been laid": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "yesterday·ago·last·과거연도를 보고도 완료 시제를 골랐다.",
+      "summary": [
+        "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+        "시간 표현을 찾는다",
+        "과거형을 선택한다"
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-G29-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-053-2DB62520",
+    "sourceQuestionId": "Q-P21-G-053-2DB62520",
+    "sourceCandidateId": "CAND-G-053-2DB62520",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 53,
+      "asset": "assets/source-evidence/phase21/grammar-page-053.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-053-2DB62520",
+      "evidenceRef": "SRC-P21-G-053",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-053-2DB62520-DR",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "That omelet cannot be fresh, as I know the eggs [were laid / have been laid] at least three weeks ago.",
+    "choices": [
+      "were laid",
+      "have been laid"
+    ],
+    "answer": "were laid",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "과거 시점 표지",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "과거 시점 표지",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have been laid": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "yesterday·ago·last·과거연도를 보고도 완료 시제를 골랐다.",
+      "summary": [
+        "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+        "시간 표현을 찾는다",
+        "과거형을 선택한다"
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-G29-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-053-2DB62520",
+    "sourceQuestionId": "Q-P21-G-053-2DB62520",
+    "sourceCandidateId": "CAND-G-053-2DB62520",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 53,
+      "asset": "assets/source-evidence/phase21/grammar-page-053.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-053-2DB62520",
+      "evidenceRef": "SRC-P21-G-053",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-053-2DB62520-CT",
+    "conceptId": "G29_PAST_POINT_MARKERS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThat omelet cannot be fresh, as I know the eggs [were laid / have been laid] at least three weeks ago.",
+    "choices": [
+      "have been laid",
+      "were laid"
+    ],
+    "answer": "have been laid",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "과거 시점 표지",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "과거 시점 표지",
+        "errorCode": "E33_PAST_MARKER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+        "errorCode": "E33_PAST_MARKER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were laid": "E33_PAST_MARKER"
+    },
+    "remediation": {
+      "diagnosis": "'have been laid'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'were laid'이다.",
+      "summary": [
+        "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+        "시간 표현을 찾는다",
+        "과거형을 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'have been laid'를 고른다."
+      ],
+      "sourceRef": "SRC-G29",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-053-2DB62520",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-053-2DB62520",
+    "sourceQuestionId": "Q-P21-G-053-2DB62520",
+    "sourceCandidateId": "CAND-G-053-2DB62520",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 53,
+      "asset": "assets/source-evidence/phase21/grammar-page-053.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-053-2DB62520",
+      "evidenceRef": "SRC-P21-G-053",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

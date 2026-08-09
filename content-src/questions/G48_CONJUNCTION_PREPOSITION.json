@@ -1,0 +1,4453 @@
+[
+  {
+    "id": "Q-G48-001",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(Although / Despite) the weather was cold, we continued.",
+    "choices": [
+      "Although",
+      "Despite"
+    ],
+    "answer": "Although",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the weather was cold라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "Although",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Despite": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "the weather was cold라는 S+V 절.",
+        "접속사.",
+        "따라서 Although를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-001",
+    "sourceQuestionId": "Q-G48-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-002",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(Although / Despite) the cold weather, we continued.",
+    "choices": [
+      "Although",
+      "Despite"
+    ],
+    "answer": "Despite",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the cold weather라는 명사 덩어리",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "Despite",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Although": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "the cold weather라는 명사 덩어리.",
+        "전치사.",
+        "따라서 Despite를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-002",
+    "sourceQuestionId": "Q-G48-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-003",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "The game was canceled (because / because of) it rained.",
+    "choices": [
+      "because",
+      "because of"
+    ],
+    "answer": "because",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "it rained라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "because",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "because of": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "it rained라는 S+V 절.",
+        "접속사.",
+        "따라서 because를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-003",
+    "sourceQuestionId": "Q-G48-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-004",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "The game was canceled (because / because of) the rain.",
+    "choices": [
+      "because",
+      "because of"
+    ],
+    "answer": "because of",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the rain이라는 명사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "because of",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "because": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "the rain이라는 명사.",
+        "전치사.",
+        "따라서 because of를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-004",
+    "sourceQuestionId": "Q-G48-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-005",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(While / During) she studied, the room was quiet.",
+    "choices": [
+      "While",
+      "During"
+    ],
+    "answer": "While",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "she studied라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "While",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "During": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "she studied라는 S+V 절.",
+        "접속사.",
+        "따라서 While를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-005",
+    "sourceQuestionId": "Q-G48-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-006",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(While / During) the lecture, no one spoke.",
+    "choices": [
+      "While",
+      "During"
+    ],
+    "answer": "During",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the lecture라는 명사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "During",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "While": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "the lecture라는 명사.",
+        "전치사.",
+        "따라서 During를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-006",
+    "sourceQuestionId": "Q-G48-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-007",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(In spite of / Although) his injury, he finished the race.",
+    "choices": [
+      "In spite of",
+      "Although"
+    ],
+    "answer": "In spite of",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "his injury라는 명사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "In spite of",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Although": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "his injury라는 명사.",
+        "전치사.",
+        "따라서 In spite of를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-007",
+    "sourceQuestionId": "Q-G48-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-008",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(In spite of / Although) he was injured, he finished the race.",
+    "choices": [
+      "In spite of",
+      "Although"
+    ],
+    "answer": "Although",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "he was injured라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "Although",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "In spite of": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "he was injured라는 S+V 절.",
+        "접속사.",
+        "따라서 Although를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-008",
+    "sourceQuestionId": "Q-G48-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-001-PF",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(Although / Despite) the weather was cold, we continued.",
+    "choices": [
+      "Although",
+      "Despite"
+    ],
+    "answer": "Although",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the weather was cold라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "Although",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Despite": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "the weather was cold라는 S+V 절.",
+        "접속사.",
+        "따라서 Although를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-001",
+    "sourceQuestionId": "Q-G48-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-002-PF",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(Although / Despite) the cold weather, we continued.",
+    "choices": [
+      "Although",
+      "Despite"
+    ],
+    "answer": "Despite",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the cold weather라는 명사 덩어리",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "Despite",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Although": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "the cold weather라는 명사 덩어리.",
+        "전치사.",
+        "따라서 Despite를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-002",
+    "sourceQuestionId": "Q-G48-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-003-PF",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "The game was canceled (because / because of) it rained.",
+    "choices": [
+      "because",
+      "because of"
+    ],
+    "answer": "because",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "it rained라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "because",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "because of": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "it rained라는 S+V 절.",
+        "접속사.",
+        "따라서 because를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-003",
+    "sourceQuestionId": "Q-G48-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-004-PF",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "The game was canceled (because / because of) the rain.",
+    "choices": [
+      "because",
+      "because of"
+    ],
+    "answer": "because of",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the rain이라는 명사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "because of",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "because": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "the rain이라는 명사.",
+        "전치사.",
+        "따라서 because of를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-004",
+    "sourceQuestionId": "Q-G48-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-005-PF",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(While / During) she studied, the room was quiet.",
+    "choices": [
+      "While",
+      "During"
+    ],
+    "answer": "While",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "she studied라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "While",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "During": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "she studied라는 S+V 절.",
+        "접속사.",
+        "따라서 While를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-005",
+    "sourceQuestionId": "Q-G48-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-006-PF",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(While / During) the lecture, no one spoke.",
+    "choices": [
+      "While",
+      "During"
+    ],
+    "answer": "During",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the lecture라는 명사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "During",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "While": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "the lecture라는 명사.",
+        "전치사.",
+        "따라서 During를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-006",
+    "sourceQuestionId": "Q-G48-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-007-PF",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(In spite of / Although) his injury, he finished the race.",
+    "choices": [
+      "In spite of",
+      "Although"
+    ],
+    "answer": "In spite of",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "his injury라는 명사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "In spite of",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Although": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "his injury라는 명사.",
+        "전치사.",
+        "따라서 In spite of를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-007",
+    "sourceQuestionId": "Q-G48-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-008-PF",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(In spite of / Although) he was injured, he finished the race.",
+    "choices": [
+      "In spite of",
+      "Although"
+    ],
+    "answer": "Although",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "he was injured라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "Although",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "In spite of": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "he was injured라는 S+V 절.",
+        "접속사.",
+        "따라서 Although를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-008",
+    "sourceQuestionId": "Q-G48-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-001-DR",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(Although / Despite) the weather was cold, we continued.",
+    "choices": [
+      "Although",
+      "Despite"
+    ],
+    "answer": "Although",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the weather was cold라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "Although",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Despite": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "the weather was cold라는 S+V 절.",
+        "접속사.",
+        "따라서 Although를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-001",
+    "sourceQuestionId": "Q-G48-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-002-DR",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(Although / Despite) the cold weather, we continued.",
+    "choices": [
+      "Although",
+      "Despite"
+    ],
+    "answer": "Despite",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the cold weather라는 명사 덩어리",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "Despite",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Although": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "the cold weather라는 명사 덩어리.",
+        "전치사.",
+        "따라서 Despite를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-002",
+    "sourceQuestionId": "Q-G48-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-003-DR",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "The game was canceled (because / because of) it rained.",
+    "choices": [
+      "because",
+      "because of"
+    ],
+    "answer": "because",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "it rained라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "because",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "because of": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "it rained라는 S+V 절.",
+        "접속사.",
+        "따라서 because를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-003",
+    "sourceQuestionId": "Q-G48-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-004-DR",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "The game was canceled (because / because of) the rain.",
+    "choices": [
+      "because",
+      "because of"
+    ],
+    "answer": "because of",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the rain이라는 명사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "because of",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "because": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "the rain이라는 명사.",
+        "전치사.",
+        "따라서 because of를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-004",
+    "sourceQuestionId": "Q-G48-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-005-DR",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(While / During) she studied, the room was quiet.",
+    "choices": [
+      "While",
+      "During"
+    ],
+    "answer": "While",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "she studied라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "While",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "During": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "she studied라는 S+V 절.",
+        "접속사.",
+        "따라서 While를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-005",
+    "sourceQuestionId": "Q-G48-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-006-DR",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(While / During) the lecture, no one spoke.",
+    "choices": [
+      "While",
+      "During"
+    ],
+    "answer": "During",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the lecture라는 명사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "During",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "While": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "the lecture라는 명사.",
+        "전치사.",
+        "따라서 During를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-006",
+    "sourceQuestionId": "Q-G48-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-007-DR",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(In spite of / Although) his injury, he finished the race.",
+    "choices": [
+      "In spite of",
+      "Although"
+    ],
+    "answer": "In spite of",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "his injury라는 명사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "In spite of",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Although": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "his injury라는 명사.",
+        "전치사.",
+        "따라서 In spite of를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-007",
+    "sourceQuestionId": "Q-G48-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-008-DR",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "(In spite of / Although) he was injured, he finished the race.",
+    "choices": [
+      "In spite of",
+      "Although"
+    ],
+    "answer": "Although",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "he was injured라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "Although",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "In spite of": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "he was injured라는 S+V 절.",
+        "접속사.",
+        "따라서 Although를 선택한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-008",
+    "sourceQuestionId": "Q-G48-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-001-CT",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(Although / Despite) the weather was cold, we continued.",
+    "choices": [
+      "Despite",
+      "Although"
+    ],
+    "answer": "Despite",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the weather was cold라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "Although",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Although": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "'Despite'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'Although'이다.",
+      "summary": [
+        "the weather was cold라는 S+V 절.",
+        "접속사.",
+        "따라서 Although를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'Despite'이다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-001",
+    "sourceQuestionId": "Q-G48-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-002-CT",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(Although / Despite) the cold weather, we continued.",
+    "choices": [
+      "Despite",
+      "Although"
+    ],
+    "answer": "Although",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the cold weather라는 명사 덩어리",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "Despite",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Despite": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "'Although'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'Despite'이다.",
+      "summary": [
+        "the cold weather라는 명사 덩어리.",
+        "전치사.",
+        "따라서 Despite를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'Although'이다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-002",
+    "sourceQuestionId": "Q-G48-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-003-CT",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe game was canceled (because / because of) it rained.",
+    "choices": [
+      "because of",
+      "because"
+    ],
+    "answer": "because of",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "it rained라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "because",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "because": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "'because of'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'because'이다.",
+      "summary": [
+        "it rained라는 S+V 절.",
+        "접속사.",
+        "따라서 because를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'because of'이다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-003",
+    "sourceQuestionId": "Q-G48-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-004-CT",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe game was canceled (because / because of) the rain.",
+    "choices": [
+      "because",
+      "because of"
+    ],
+    "answer": "because",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the rain이라는 명사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "because of",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "because of": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "'because'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'because of'이다.",
+      "summary": [
+        "the rain이라는 명사.",
+        "전치사.",
+        "따라서 because of를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'because'이다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-004",
+    "sourceQuestionId": "Q-G48-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-005-CT",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(While / During) she studied, the room was quiet.",
+    "choices": [
+      "While",
+      "During"
+    ],
+    "answer": "During",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "she studied라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "While",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "While": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "'During'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'While'이다.",
+      "summary": [
+        "she studied라는 S+V 절.",
+        "접속사.",
+        "따라서 While를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'During'이다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-005",
+    "sourceQuestionId": "Q-G48-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-006-CT",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(While / During) the lecture, no one spoke.",
+    "choices": [
+      "While",
+      "During"
+    ],
+    "answer": "While",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "the lecture라는 명사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "During",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "During": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "'While'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'During'이다.",
+      "summary": [
+        "the lecture라는 명사.",
+        "전치사.",
+        "따라서 During를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'While'이다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-006",
+    "sourceQuestionId": "Q-G48-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-007-CT",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(In spite of / Although) his injury, he finished the race.",
+    "choices": [
+      "In spite of",
+      "Although"
+    ],
+    "answer": "Although",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "his injury라는 명사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "전치사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "In spite of",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "In spite of": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "'Although'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'In spite of'이다.",
+      "summary": [
+        "his injury라는 명사.",
+        "전치사.",
+        "따라서 In spite of를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'Although'이다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-007",
+    "sourceQuestionId": "Q-G48-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G48-008-CT",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(In spite of / Although) he was injured, he finished the race.",
+    "choices": [
+      "Although",
+      "In spite of"
+    ],
+    "answer": "In spite of",
+    "decisionSteps": [
+      {
+        "id": "after",
+        "prompt": "빈칸 뒤 구조는?",
+        "answer": "he was injured라는 S+V 절",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "category",
+        "prompt": "필요한 품사는?",
+        "answer": "접속사",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "Although",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Although": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "'In spite of'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'Although'이다.",
+      "summary": [
+        "he was injured라는 S+V 절.",
+        "접속사.",
+        "따라서 Although를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'In spite of'이다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G48-008",
+    "sourceQuestionId": "Q-G48-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-D5F80C5BF2",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 1,
+    "stem": "빠른 확인: 뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+    "choices": [
+      "접속사",
+      "전치사"
+    ],
+    "answer": "접속사",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "두 대상 사이는 between, 셋 이상 집단 속은 among, 완료 기한은 by, 지속 종점은 until, 기간의 길이는 for, 특정 기간 중은 during을 쓴다.",
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다."
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "전치사": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "the weather was cold라는 S+V 절.",
+        "접속사.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "뒤에 주어+동사가 오면 접속사인가 전치사인가?",
+        "choices": [
+          "접속사",
+          "전치사"
+        ],
+        "answer": "접속사"
+      },
+      "transferQuestionId": "Q-G48-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-D5F80C5BF2",
+    "sourceQuestionId": "Q-G48-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-077-48D699E6",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 2,
+    "stem": "[During / While] the first year that she and I were neighbors, our conversations turned frequently on two points of poetry.",
+    "choices": [
+      "During",
+      "While"
+    ],
+    "answer": "During",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "접속사 / 전치사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "접속사 / 전치사 구별",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "While": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "선택지의 품사를 구별한다",
+        "접속사 또는 전치사를 고른다"
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-077-04113E81",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-077-48D699E6",
+    "sourceQuestionId": "Q-P21-G-077-48D699E6",
+    "sourceCandidateId": "CAND-G-077-48D699E6",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 77,
+      "asset": "assets/source-evidence/phase21/grammar-page-077.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-077-48D699E6",
+      "evidenceRef": "SRC-P21-G-077",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-077-48D699E6-PF",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 2,
+    "stem": "[During / While] the first year that she and I were neighbors, our conversations turned frequently on two points of poetry.",
+    "choices": [
+      "During",
+      "While"
+    ],
+    "answer": "During",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "접속사 / 전치사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "접속사 / 전치사 구별",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "While": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "선택지의 품사를 구별한다",
+        "접속사 또는 전치사를 고른다"
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-077-04113E81",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-077-48D699E6",
+    "sourceQuestionId": "Q-P21-G-077-48D699E6",
+    "sourceCandidateId": "CAND-G-077-48D699E6",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 77,
+      "asset": "assets/source-evidence/phase21/grammar-page-077.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-077-48D699E6",
+      "evidenceRef": "SRC-P21-G-077",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-077-48D699E6-DR",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 2,
+    "stem": "[During / While] the first year that she and I were neighbors, our conversations turned frequently on two points of poetry.",
+    "choices": [
+      "During",
+      "While"
+    ],
+    "answer": "During",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "접속사 / 전치사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "접속사 / 전치사 구별",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "While": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "선택지의 품사를 구별한다",
+        "접속사 또는 전치사를 고른다"
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-077-04113E81",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-077-48D699E6",
+    "sourceQuestionId": "Q-P21-G-077-48D699E6",
+    "sourceCandidateId": "CAND-G-077-48D699E6",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 77,
+      "asset": "assets/source-evidence/phase21/grammar-page-077.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-077-48D699E6",
+      "evidenceRef": "SRC-P21-G-077",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-077-48D699E6-CT",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n[During / While] the first year that she and I were neighbors, our conversations turned frequently on two points of poetry.",
+    "choices": [
+      "During",
+      "While"
+    ],
+    "answer": "While",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "접속사 / 전치사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "접속사 / 전치사 구별",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "During": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "'While'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'During'이다.",
+      "summary": [
+        "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "선택지의 품사를 구별한다",
+        "접속사 또는 전치사를 고른다",
+        "대조 문항에서는 사용할 수 없는 형태 'While'를 고른다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-077-48D699E6",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-077-48D699E6",
+    "sourceQuestionId": "Q-P21-G-077-48D699E6",
+    "sourceCandidateId": "CAND-G-077-48D699E6",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 77,
+      "asset": "assets/source-evidence/phase21/grammar-page-077.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-077-48D699E6",
+      "evidenceRef": "SRC-P21-G-077",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-077-04113E81",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 2,
+    "stem": "[Despite / Although] a person's good looks may get our attention, it is not an impression that necessarily lasts.",
+    "choices": [
+      "Despite",
+      "Although"
+    ],
+    "answer": "Although",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "접속사 / 전치사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "접속사 / 전치사 구별",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Despite": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "선택지의 품사를 구별한다",
+        "접속사 또는 전치사를 고른다"
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-077-740211FB",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-077-04113E81",
+    "sourceQuestionId": "Q-P21-G-077-04113E81",
+    "sourceCandidateId": "CAND-G-077-04113E81",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 77,
+      "asset": "assets/source-evidence/phase21/grammar-page-077.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-077-04113E81",
+      "evidenceRef": "SRC-P21-G-077",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-077-04113E81-PF",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 2,
+    "stem": "[Despite / Although] a person's good looks may get our attention, it is not an impression that necessarily lasts.",
+    "choices": [
+      "Despite",
+      "Although"
+    ],
+    "answer": "Although",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "접속사 / 전치사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "접속사 / 전치사 구별",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Despite": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "선택지의 품사를 구별한다",
+        "접속사 또는 전치사를 고른다"
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-077-740211FB",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-077-04113E81",
+    "sourceQuestionId": "Q-P21-G-077-04113E81",
+    "sourceCandidateId": "CAND-G-077-04113E81",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 77,
+      "asset": "assets/source-evidence/phase21/grammar-page-077.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-077-04113E81",
+      "evidenceRef": "SRC-P21-G-077",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-077-04113E81-DR",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 2,
+    "stem": "[Despite / Although] a person's good looks may get our attention, it is not an impression that necessarily lasts.",
+    "choices": [
+      "Despite",
+      "Although"
+    ],
+    "answer": "Although",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "접속사 / 전치사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "접속사 / 전치사 구별",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Despite": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "선택지의 품사를 구별한다",
+        "접속사 또는 전치사를 고른다"
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-077-740211FB",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-077-04113E81",
+    "sourceQuestionId": "Q-P21-G-077-04113E81",
+    "sourceCandidateId": "CAND-G-077-04113E81",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 77,
+      "asset": "assets/source-evidence/phase21/grammar-page-077.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-077-04113E81",
+      "evidenceRef": "SRC-P21-G-077",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-077-04113E81-CT",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n[Despite / Although] a person's good looks may get our attention, it is not an impression that necessarily lasts.",
+    "choices": [
+      "Although",
+      "Despite"
+    ],
+    "answer": "Despite",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "접속사 / 전치사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "접속사 / 전치사 구별",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Although": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "'Despite'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'Although'이다.",
+      "summary": [
+        "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "선택지의 품사를 구별한다",
+        "접속사 또는 전치사를 고른다",
+        "대조 문항에서는 사용할 수 없는 형태 'Despite'를 고른다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-077-04113E81",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-077-04113E81",
+    "sourceQuestionId": "Q-P21-G-077-04113E81",
+    "sourceCandidateId": "CAND-G-077-04113E81",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 77,
+      "asset": "assets/source-evidence/phase21/grammar-page-077.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-077-04113E81",
+      "evidenceRef": "SRC-P21-G-077",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-077-740211FB",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 2,
+    "stem": "Tom Mcdonald had a gift of talking. He had become a successful businessman [because / because of] his gift.",
+    "choices": [
+      "because",
+      "because of"
+    ],
+    "answer": "because of",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "접속사 / 전치사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "접속사 / 전치사 구별",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "because": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "선택지의 품사를 구별한다",
+        "접속사 또는 전치사를 고른다"
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-077-48D699E6",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-077-740211FB",
+    "sourceQuestionId": "Q-P21-G-077-740211FB",
+    "sourceCandidateId": "CAND-G-077-740211FB",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 77,
+      "asset": "assets/source-evidence/phase21/grammar-page-077.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-077-740211FB",
+      "evidenceRef": "SRC-P21-G-077",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-077-740211FB-PF",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 2,
+    "stem": "Tom Mcdonald had a gift of talking. He had become a successful businessman [because / because of] his gift.",
+    "choices": [
+      "because",
+      "because of"
+    ],
+    "answer": "because of",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "접속사 / 전치사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "접속사 / 전치사 구별",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "because": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "선택지의 품사를 구별한다",
+        "접속사 또는 전치사를 고른다"
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-077-48D699E6",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-077-740211FB",
+    "sourceQuestionId": "Q-P21-G-077-740211FB",
+    "sourceCandidateId": "CAND-G-077-740211FB",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 77,
+      "asset": "assets/source-evidence/phase21/grammar-page-077.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-077-740211FB",
+      "evidenceRef": "SRC-P21-G-077",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-077-740211FB-DR",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 2,
+    "stem": "Tom Mcdonald had a gift of talking. He had become a successful businessman [because / because of] his gift.",
+    "choices": [
+      "because",
+      "because of"
+    ],
+    "answer": "because of",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "접속사 / 전치사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "접속사 / 전치사 구별",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "because": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "빈칸 뒤가 절인지 명사 덩어리인지 확인하지 않았다.",
+      "summary": [
+        "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "선택지의 품사를 구별한다",
+        "접속사 또는 전치사를 고른다"
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-077-48D699E6",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-077-740211FB",
+    "sourceQuestionId": "Q-P21-G-077-740211FB",
+    "sourceCandidateId": "CAND-G-077-740211FB",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 77,
+      "asset": "assets/source-evidence/phase21/grammar-page-077.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-077-740211FB",
+      "evidenceRef": "SRC-P21-G-077",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-077-740211FB-CT",
+    "conceptId": "G48_CONJUNCTION_PREPOSITION",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nTom Mcdonald had a gift of talking. He had become a successful businessman [because / because of] his gift.",
+    "choices": [
+      "because",
+      "because of"
+    ],
+    "answer": "because",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "접속사 / 전치사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "접속사 / 전치사 구별",
+        "errorCode": "E52_CONJ_PREP"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "errorCode": "E52_CONJ_PREP"
+      }
+    ],
+    "misconceptionByChoice": {
+      "because of": "E52_CONJ_PREP"
+    },
+    "remediation": {
+      "diagnosis": "'because'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'because of'이다.",
+      "summary": [
+        "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+        "선택지의 품사를 구별한다",
+        "접속사 또는 전치사를 고른다",
+        "대조 문항에서는 사용할 수 없는 형태 'because'를 고른다."
+      ],
+      "sourceRef": "SRC-G48",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-077-740211FB",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-077-740211FB",
+    "sourceQuestionId": "Q-P21-G-077-740211FB",
+    "sourceCandidateId": "CAND-G-077-740211FB",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 77,
+      "asset": "assets/source-evidence/phase21/grammar-page-077.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-077-740211FB",
+      "evidenceRef": "SRC-P21-G-077",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

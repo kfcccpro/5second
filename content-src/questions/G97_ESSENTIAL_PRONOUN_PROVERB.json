@@ -1,0 +1,3990 @@
+[
+  {
+    "id": "Q-R7-6-01",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "questionType": "review_source_choice",
+    "setLabel": "필수 어법 6",
+    "stem": "앞의 동사가 일반동사이면 대동사로 무엇을 쓰는가?",
+    "choices": [
+      "be동사",
+      "do동사"
+    ],
+    "answer": "do동사",
+    "sourcePreviewRef": "SRC-R7-PROVERB",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사의 종류를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "일반동사이면 do계열을 쓴다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "정답은 do동사이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be동사": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "대동사는 앞 동사의 종류를 대신한다.",
+        "앞 동사가 일반동사이면 do계열을 쓴다.",
+        "따라서 do동사이다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「do동사」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-6-01",
+    "sourceQuestionId": "Q-R7-6-01",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 0,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-02",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "questionType": "review_source_choice",
+    "setLabel": "필수 어법 6",
+    "stem": "The climate of Seoul is milder than (that / those) of Moscow.",
+    "choices": [
+      "that",
+      "those"
+    ],
+    "answer": "that",
+    "sourcePreviewRef": "SRC-R7-PRONOUN",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "가리키는 명사는 climate이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "climate는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "that이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "those": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "대신 받는 명사는 the climate이다.",
+        "climate는 단수이다.",
+        "단수 대용어 that을 고른다."
+      ],
+      "sourceRef": "SRC-R7-PRONOUN",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「that」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-6-02",
+    "sourceQuestionId": "Q-R7-6-02",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-03",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "필수 어법 6",
+    "stem": "The prices here are lower than (that / those) of imported goods.",
+    "choices": [
+      "that",
+      "those"
+    ],
+    "answer": "those",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "가리키는 명사는 prices이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "prices는 복수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "those가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "대신 받는 명사는 the prices이다.",
+        "prices는 복수이다.",
+        "복수 대용어 those를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PRONOUN",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「those」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-6-03",
+    "sourceQuestionId": "Q-R7-6-03",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-04",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "필수 어법 6",
+    "stem": "I bought a camera yesterday. I use (it / them) every day.",
+    "choices": [
+      "it",
+      "them"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "대명사의 지시 대상을 찾는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "a camera는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "it이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "them": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "가리키는 대상은 a camera이다.",
+        "camera는 단수이다.",
+        "단수 대명사 it을 고른다."
+      ],
+      "sourceRef": "SRC-R7-PRONOUN",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「it」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-6-04",
+    "sourceQuestionId": "Q-R7-6-04",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-05",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "필수 어법 6",
+    "stem": "She works harder than he (is / does).",
+    "choices": [
+      "is",
+      "does"
+    ],
+    "answer": "does",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 works이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "일반동사는 do계열로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "does가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "앞의 동사는 일반동사 works이다.",
+        "현재시제 3인칭 단수 일반동사를 대신한다.",
+        "does를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「does」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-6-05",
+    "sourceQuestionId": "Q-R7-6-05",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-06",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "필수 어법 6",
+    "stem": "These rooms are larger than ours (are / do).",
+    "choices": [
+      "are",
+      "do"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 are이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "be동사는 be동사로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "are가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "앞의 동사는 be동사 are이다.",
+        "be동사는 be동사로 대신한다.",
+        "복수 현재형 are를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「are」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-6-06",
+    "sourceQuestionId": "Q-R7-6-06",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-07",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "필수 어법 6",
+    "stem": "He was tired, as I (was / did).",
+    "choices": [
+      "was",
+      "did"
+    ],
+    "answer": "was",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 was이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "be동사는 be동사로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "was가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "앞의 동사는 be동사 was이다.",
+        "과거 단수 be동사를 대신한다.",
+        "was를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「was」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-6-07",
+    "sourceQuestionId": "Q-R7-6-07",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-08",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "필수 어법 6",
+    "stem": "They studied more than we (were / did).",
+    "choices": [
+      "were",
+      "did"
+    ],
+    "answer": "did",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 studied이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "과거 일반동사는 did로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "did가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "앞의 동사는 일반동사 studied이다.",
+        "과거 일반동사를 대신한다.",
+        "did를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「did」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-6-08",
+    "sourceQuestionId": "Q-R7-6-08",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-01-PF",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "questionType": "review_source_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "앞의 동사가 일반동사이면 대동사로 무엇을 쓰는가?",
+    "choices": [
+      "be동사",
+      "do동사"
+    ],
+    "answer": "do동사",
+    "sourcePreviewRef": "SRC-R7-PROVERB",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사의 종류를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "일반동사이면 do계열을 쓴다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "정답은 do동사이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be동사": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "대동사는 앞 동사의 종류를 대신한다.",
+        "앞 동사가 일반동사이면 do계열을 쓴다.",
+        "따라서 do동사이다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「do동사」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-01",
+    "sourceQuestionId": "Q-R7-6-01",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 0,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-02-PF",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "questionType": "review_source_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "The climate of Seoul is milder than (that / those) of Moscow.",
+    "choices": [
+      "that",
+      "those"
+    ],
+    "answer": "that",
+    "sourcePreviewRef": "SRC-R7-PRONOUN",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "가리키는 명사는 climate이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "climate는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "that이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "those": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "대신 받는 명사는 the climate이다.",
+        "climate는 단수이다.",
+        "단수 대용어 that을 고른다."
+      ],
+      "sourceRef": "SRC-R7-PRONOUN",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「that」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-02",
+    "sourceQuestionId": "Q-R7-6-02",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-03-PF",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "The prices here are lower than (that / those) of imported goods.",
+    "choices": [
+      "that",
+      "those"
+    ],
+    "answer": "those",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "가리키는 명사는 prices이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "prices는 복수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "those가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "대신 받는 명사는 the prices이다.",
+        "prices는 복수이다.",
+        "복수 대용어 those를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PRONOUN",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「those」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-03",
+    "sourceQuestionId": "Q-R7-6-03",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-04-PF",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "I bought a camera yesterday. I use (it / them) every day.",
+    "choices": [
+      "it",
+      "them"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "대명사의 지시 대상을 찾는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "a camera는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "it이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "them": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "가리키는 대상은 a camera이다.",
+        "camera는 단수이다.",
+        "단수 대명사 it을 고른다."
+      ],
+      "sourceRef": "SRC-R7-PRONOUN",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「it」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-04",
+    "sourceQuestionId": "Q-R7-6-04",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-05-PF",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "She works harder than he (is / does).",
+    "choices": [
+      "is",
+      "does"
+    ],
+    "answer": "does",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 works이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "일반동사는 do계열로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "does가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "앞의 동사는 일반동사 works이다.",
+        "현재시제 3인칭 단수 일반동사를 대신한다.",
+        "does를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「does」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-05",
+    "sourceQuestionId": "Q-R7-6-05",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-06-PF",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "These rooms are larger than ours (are / do).",
+    "choices": [
+      "are",
+      "do"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 are이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "be동사는 be동사로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "are가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "앞의 동사는 be동사 are이다.",
+        "be동사는 be동사로 대신한다.",
+        "복수 현재형 are를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「are」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-06",
+    "sourceQuestionId": "Q-R7-6-06",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-07-PF",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "He was tired, as I (was / did).",
+    "choices": [
+      "was",
+      "did"
+    ],
+    "answer": "was",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 was이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "be동사는 be동사로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "was가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "앞의 동사는 be동사 was이다.",
+        "과거 단수 be동사를 대신한다.",
+        "was를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「was」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-07",
+    "sourceQuestionId": "Q-R7-6-07",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-08-PF",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "They studied more than we (were / did).",
+    "choices": [
+      "were",
+      "did"
+    ],
+    "answer": "did",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 studied이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "과거 일반동사는 did로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "did가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "앞의 동사는 일반동사 studied이다.",
+        "과거 일반동사를 대신한다.",
+        "did를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「did」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-08",
+    "sourceQuestionId": "Q-R7-6-08",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-01-DR",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "questionType": "review_source_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "앞의 동사가 일반동사이면 대동사로 무엇을 쓰는가?",
+    "choices": [
+      "be동사",
+      "do동사"
+    ],
+    "answer": "do동사",
+    "sourcePreviewRef": "SRC-R7-PROVERB",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사의 종류를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "일반동사이면 do계열을 쓴다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "정답은 do동사이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be동사": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "대동사는 앞 동사의 종류를 대신한다.",
+        "앞 동사가 일반동사이면 do계열을 쓴다.",
+        "따라서 do동사이다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「do동사」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-01",
+    "sourceQuestionId": "Q-R7-6-01",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 40,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 0,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-02-DR",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "questionType": "review_source_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "The climate of Seoul is milder than (that / those) of Moscow.",
+    "choices": [
+      "that",
+      "those"
+    ],
+    "answer": "that",
+    "sourcePreviewRef": "SRC-R7-PRONOUN",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "가리키는 명사는 climate이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "climate는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "that이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "those": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "대신 받는 명사는 the climate이다.",
+        "climate는 단수이다.",
+        "단수 대용어 that을 고른다."
+      ],
+      "sourceRef": "SRC-R7-PRONOUN",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「that」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-02",
+    "sourceQuestionId": "Q-R7-6-02",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-03-DR",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "The prices here are lower than (that / those) of imported goods.",
+    "choices": [
+      "that",
+      "those"
+    ],
+    "answer": "those",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "가리키는 명사는 prices이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "prices는 복수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "those가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "대신 받는 명사는 the prices이다.",
+        "prices는 복수이다.",
+        "복수 대용어 those를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PRONOUN",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「those」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-03",
+    "sourceQuestionId": "Q-R7-6-03",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-04-DR",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "I bought a camera yesterday. I use (it / them) every day.",
+    "choices": [
+      "it",
+      "them"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "대명사의 지시 대상을 찾는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "a camera는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "it이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "them": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "가리키는 대상은 a camera이다.",
+        "camera는 단수이다.",
+        "단수 대명사 it을 고른다."
+      ],
+      "sourceRef": "SRC-R7-PRONOUN",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「it」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-04",
+    "sourceQuestionId": "Q-R7-6-04",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-05-DR",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "She works harder than he (is / does).",
+    "choices": [
+      "is",
+      "does"
+    ],
+    "answer": "does",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 works이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "일반동사는 do계열로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "does가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "앞의 동사는 일반동사 works이다.",
+        "현재시제 3인칭 단수 일반동사를 대신한다.",
+        "does를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「does」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-05",
+    "sourceQuestionId": "Q-R7-6-05",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-06-DR",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "These rooms are larger than ours (are / do).",
+    "choices": [
+      "are",
+      "do"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 are이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "be동사는 be동사로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "are가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "앞의 동사는 be동사 are이다.",
+        "be동사는 be동사로 대신한다.",
+        "복수 현재형 are를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「are」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-06",
+    "sourceQuestionId": "Q-R7-6-06",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-07-DR",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "He was tired, as I (was / did).",
+    "choices": [
+      "was",
+      "did"
+    ],
+    "answer": "was",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 was이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "be동사는 be동사로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "was가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "앞의 동사는 be동사 was이다.",
+        "과거 단수 be동사를 대신한다.",
+        "was를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「was」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-07",
+    "sourceQuestionId": "Q-R7-6-07",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-08-DR",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "They studied more than we (were / did).",
+    "choices": [
+      "were",
+      "did"
+    ],
+    "answer": "did",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 studied이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "과거 일반동사는 did로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "did가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "대명사의 지시 대상 또는 앞 동사의 종류를 확인하지 않았다.",
+      "summary": [
+        "앞의 동사는 일반동사 studied이다.",
+        "과거 일반동사를 대신한다.",
+        "did를 고른다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「did」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-08",
+    "sourceQuestionId": "Q-R7-6-08",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-01-CT",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n앞의 동사가 일반동사이면 대동사로 무엇을 쓰는가?",
+    "choices": [
+      "do동사",
+      "be동사"
+    ],
+    "answer": "be동사",
+    "sourcePreviewRef": "SRC-R7-PROVERB",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사의 종류를 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "일반동사이면 do계열을 쓴다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "정답은 do동사이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do동사": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "'be동사'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'do동사'이다.",
+      "summary": [
+        "대동사는 앞 동사의 종류를 대신한다.",
+        "앞 동사가 일반동사이면 do계열을 쓴다.",
+        "따라서 do동사이다.",
+        "따라서 대조 문항에서 고를 답은 'be동사'이다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「do동사」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-6-01"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-01",
+    "sourceQuestionId": "Q-R7-6-01",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 40,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 0,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-02-CT",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe climate of Seoul is milder than (that / those) of Moscow.",
+    "choices": [
+      "that",
+      "those"
+    ],
+    "answer": "those",
+    "sourcePreviewRef": "SRC-R7-PRONOUN",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "가리키는 명사는 climate이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "climate는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "that이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "'those'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "대신 받는 명사는 the climate이다.",
+        "climate는 단수이다.",
+        "단수 대용어 that을 고른다.",
+        "따라서 대조 문항에서 고를 답은 'those'이다."
+      ],
+      "sourceRef": "SRC-R7-PRONOUN",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「that」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-6-02"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-02",
+    "sourceQuestionId": "Q-R7-6-02",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-03-CT",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe prices here are lower than (that / those) of imported goods.",
+    "choices": [
+      "that",
+      "those"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "가리키는 명사는 prices이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "prices는 복수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "those가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "those": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "'that'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'those'이다.",
+      "summary": [
+        "대신 받는 명사는 the prices이다.",
+        "prices는 복수이다.",
+        "복수 대용어 those를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'that'이다."
+      ],
+      "sourceRef": "SRC-R7-PRONOUN",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「those」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-6-03"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-03",
+    "sourceQuestionId": "Q-R7-6-03",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-04-CT",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI bought a camera yesterday. I use (it / them) every day.",
+    "choices": [
+      "them",
+      "it"
+    ],
+    "answer": "them",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "대명사의 지시 대상을 찾는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "a camera는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "it이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "'them'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'it'이다.",
+      "summary": [
+        "가리키는 대상은 a camera이다.",
+        "camera는 단수이다.",
+        "단수 대명사 it을 고른다.",
+        "따라서 대조 문항에서 고를 답은 'them'이다."
+      ],
+      "sourceRef": "SRC-R7-PRONOUN",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「it」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-6-04"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-04",
+    "sourceQuestionId": "Q-R7-6-04",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-05-CT",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe works harder than he (is / does).",
+    "choices": [
+      "does",
+      "is"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 works이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "일반동사는 do계열로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "does가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "does": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "'is'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'does'이다.",
+      "summary": [
+        "앞의 동사는 일반동사 works이다.",
+        "현재시제 3인칭 단수 일반동사를 대신한다.",
+        "does를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'is'이다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「does」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-6-05"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-05",
+    "sourceQuestionId": "Q-R7-6-05",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-06-CT",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThese rooms are larger than ours (are / do).",
+    "choices": [
+      "do",
+      "are"
+    ],
+    "answer": "do",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 are이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "be동사는 be동사로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "are가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "'do'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'are'이다.",
+      "summary": [
+        "앞의 동사는 be동사 are이다.",
+        "be동사는 be동사로 대신한다.",
+        "복수 현재형 are를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'do'이다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「are」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-6-06"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-06",
+    "sourceQuestionId": "Q-R7-6-06",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-07-CT",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 3,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe was tired, as I (was / did).",
+    "choices": [
+      "did",
+      "was"
+    ],
+    "answer": "did",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 was이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "be동사는 be동사로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "was가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "'did'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'was'이다.",
+      "summary": [
+        "앞의 동사는 be동사 was이다.",
+        "과거 단수 be동사를 대신한다.",
+        "was를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'did'이다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「was」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-6-07"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-07",
+    "sourceQuestionId": "Q-R7-6-07",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-6-08-CT",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 3,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThey studied more than we (were / did).",
+    "choices": [
+      "were",
+      "did"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "앞 동사는 studied이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s2",
+        "prompt": "과거 일반동사는 did로 대신한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      },
+      {
+        "id": "s3",
+        "prompt": "did가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "'were'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'did'이다.",
+      "summary": [
+        "앞의 동사는 일반동사 studied이다.",
+        "과거 일반동사를 대신한다.",
+        "did를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'were'이다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「did」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-6-08"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-6-08",
+    "sourceQuestionId": "Q-R7-6-08",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-7D2F2F7A39",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「are」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "and·or·but의 좌우에서 중심 요소를 찾고, 수식어를 제외한 동사·V-ing·p.p.의 형태를 서로 맞춘다.",
+          "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다."
+        ],
+        "answer": "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+        "앞의 동사는 be동사 are이다.",
+        "be동사는 be동사로 대신한다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「do동사」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-6-06",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-7D2F2F7A39",
+    "sourceQuestionId": "Q-R7-6-06",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-144459A9A1",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「did」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "and·or·but의 좌우에서 중심 요소를 찾고, 수식어를 제외한 동사·V-ing·p.p.의 형태를 서로 맞춘다.",
+          "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다."
+        ],
+        "answer": "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+        "앞의 동사는 일반동사 studied이다.",
+        "과거 일반동사를 대신한다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「do동사」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-6-08",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-144459A9A1",
+    "sourceQuestionId": "Q-R7-6-08",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-14E745597E",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「does」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "and·or·but의 좌우에서 중심 요소를 찾고, 수식어를 제외한 동사·V-ing·p.p.의 형태를 서로 맞춘다.",
+          "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다."
+        ],
+        "answer": "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+        "앞의 동사는 일반동사 works이다.",
+        "현재시제 3인칭 단수 일반동사를 대신한다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「do동사」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-6-05",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-14E745597E",
+    "sourceQuestionId": "Q-R7-6-05",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-633AFF5828",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「do동사」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "and·or·but의 좌우에서 중심 요소를 찾고, 수식어를 제외한 동사·V-ing·p.p.의 형태를 서로 맞춘다.",
+          "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다."
+        ],
+        "answer": "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+        "대동사는 앞 동사의 종류를 대신한다.",
+        "앞 동사가 일반동사이면 do계열을 쓴다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「that」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-6-01",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-633AFF5828",
+    "sourceQuestionId": "Q-R7-6-01",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-C9E2106FDE",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「it」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "and·or·but의 좌우에서 중심 요소를 찾고, 수식어를 제외한 동사·V-ing·p.p.의 형태를 서로 맞춘다.",
+          "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다."
+        ],
+        "answer": "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+        "가리키는 대상은 a camera이다.",
+        "camera는 단수이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-PRONOUN",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「do동사」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-6-04",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-C9E2106FDE",
+    "sourceQuestionId": "Q-R7-6-04",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-8EBB7BA287",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「those」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "and·or·but의 좌우에서 중심 요소를 찾고, 수식어를 제외한 동사·V-ing·p.p.의 형태를 서로 맞춘다.",
+          "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다."
+        ],
+        "answer": "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+        "대신 받는 명사는 the prices이다.",
+        "prices는 복수이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-PRONOUN",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「do동사」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-6-03",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-8EBB7BA287",
+    "sourceQuestionId": "Q-R7-6-03",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-CEDC4662A9",
+    "conceptId": "G97_ESSENTIAL_PRONOUN_PROVERB",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「was」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "and·or·but의 좌우에서 중심 요소를 찾고, 수식어를 제외한 동사·V-ing·p.p.의 형태를 서로 맞춘다.",
+          "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다."
+        ],
+        "answer": "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+        "errorCode": "E101_ESSENTIAL_PRONOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E101_ESSENTIAL_PRONOUN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+        "앞의 동사는 be동사 was이다.",
+        "과거 단수 be동사를 대신한다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-PROVERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「do동사」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-6-07",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_6",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-CEDC4662A9",
+    "sourceQuestionId": "Q-R7-6-07",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

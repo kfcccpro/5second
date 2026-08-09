@@ -1,0 +1,3563 @@
+[
+  {
+    "id": "Q-G34-001",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "To walk by the river (is / are) relaxing.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "To walk by the river",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "to부정사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 To walk by the river 전체이다.",
+        "to부정사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-001",
+    "sourceQuestionId": "Q-G34-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-002",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "Reading before bed (helps / help) me sleep.",
+    "choices": [
+      "helps",
+      "help"
+    ],
+    "answer": "helps",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "Reading before bed",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "동명사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "help": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 Reading before bed 전체이다.",
+        "동명사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 helps를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-002",
+    "sourceQuestionId": "Q-G34-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-003",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "What she said (makes / make) sense.",
+    "choices": [
+      "makes",
+      "make"
+    ],
+    "answer": "makes",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "What she said",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "make": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 What she said 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 makes를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-003",
+    "sourceQuestionId": "Q-G34-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-004",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "Where the meeting will be held (is / are) still unknown.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "Where the meeting will be held",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 Where the meeting will be held 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-004",
+    "sourceQuestionId": "Q-G34-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-005",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "How this device works (remains / remain) unclear.",
+    "choices": [
+      "remains",
+      "remain"
+    ],
+    "answer": "remains",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "How this device works",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "remain": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 How this device works 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 remains를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-005",
+    "sourceQuestionId": "Q-G34-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-006",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "Studying abroad (requires / require) careful planning.",
+    "choices": [
+      "requires",
+      "require"
+    ],
+    "answer": "requires",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "Studying abroad",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "동명사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "require": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 Studying abroad 전체이다.",
+        "동명사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 requires를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-006",
+    "sourceQuestionId": "Q-G34-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-007",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "To solve these problems (takes / take) patience.",
+    "choices": [
+      "takes",
+      "take"
+    ],
+    "answer": "takes",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "To solve these problems",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "to부정사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "take": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 To solve these problems 전체이다.",
+        "to부정사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 takes를 선택한다."
+      ],
+      "sourceRef": "SRC-R18",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-007",
+    "sourceQuestionId": "Q-G34-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-008",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "What the students need (is / are) more practice.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "What the students need",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 What the students need 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 is를 선택한다."
+      ],
+      "sourceRef": "SRC-R18",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-008",
+    "sourceQuestionId": "Q-G34-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-001-PF",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "To walk by the river (is / are) relaxing.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "To walk by the river",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "to부정사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 To walk by the river 전체이다.",
+        "to부정사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-001",
+    "sourceQuestionId": "Q-G34-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-002-PF",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "Reading before bed (helps / help) me sleep.",
+    "choices": [
+      "helps",
+      "help"
+    ],
+    "answer": "helps",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "Reading before bed",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "동명사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "help": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 Reading before bed 전체이다.",
+        "동명사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 helps를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-002",
+    "sourceQuestionId": "Q-G34-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-003-PF",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "What she said (makes / make) sense.",
+    "choices": [
+      "makes",
+      "make"
+    ],
+    "answer": "makes",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "What she said",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "make": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 What she said 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 makes를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-003",
+    "sourceQuestionId": "Q-G34-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-004-PF",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "Where the meeting will be held (is / are) still unknown.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "Where the meeting will be held",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 Where the meeting will be held 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-004",
+    "sourceQuestionId": "Q-G34-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-005-PF",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "How this device works (remains / remain) unclear.",
+    "choices": [
+      "remains",
+      "remain"
+    ],
+    "answer": "remains",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "How this device works",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "remain": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 How this device works 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 remains를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-005",
+    "sourceQuestionId": "Q-G34-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-006-PF",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "Studying abroad (requires / require) careful planning.",
+    "choices": [
+      "requires",
+      "require"
+    ],
+    "answer": "requires",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "Studying abroad",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "동명사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "require": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 Studying abroad 전체이다.",
+        "동명사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 requires를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-006",
+    "sourceQuestionId": "Q-G34-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-007-PF",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "To solve these problems (takes / take) patience.",
+    "choices": [
+      "takes",
+      "take"
+    ],
+    "answer": "takes",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "To solve these problems",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "to부정사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "take": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 To solve these problems 전체이다.",
+        "to부정사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 takes를 선택한다."
+      ],
+      "sourceRef": "SRC-R18",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-007",
+    "sourceQuestionId": "Q-G34-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-008-PF",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "What the students need (is / are) more practice.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "What the students need",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 What the students need 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 is를 선택한다."
+      ],
+      "sourceRef": "SRC-R18",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-008",
+    "sourceQuestionId": "Q-G34-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-001-DR",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "To walk by the river (is / are) relaxing.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "To walk by the river",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "to부정사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 To walk by the river 전체이다.",
+        "to부정사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-001",
+    "sourceQuestionId": "Q-G34-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-002-DR",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "Reading before bed (helps / help) me sleep.",
+    "choices": [
+      "helps",
+      "help"
+    ],
+    "answer": "helps",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "Reading before bed",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "동명사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "help": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 Reading before bed 전체이다.",
+        "동명사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 helps를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-002",
+    "sourceQuestionId": "Q-G34-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-003-DR",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "What she said (makes / make) sense.",
+    "choices": [
+      "makes",
+      "make"
+    ],
+    "answer": "makes",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "What she said",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "make": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 What she said 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 makes를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-003",
+    "sourceQuestionId": "Q-G34-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-004-DR",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "Where the meeting will be held (is / are) still unknown.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "Where the meeting will be held",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 Where the meeting will be held 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-004",
+    "sourceQuestionId": "Q-G34-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-005-DR",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "How this device works (remains / remain) unclear.",
+    "choices": [
+      "remains",
+      "remain"
+    ],
+    "answer": "remains",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "How this device works",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "remain": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 How this device works 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 remains를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-005",
+    "sourceQuestionId": "Q-G34-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-006-DR",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "Studying abroad (requires / require) careful planning.",
+    "choices": [
+      "requires",
+      "require"
+    ],
+    "answer": "requires",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "Studying abroad",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "동명사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "require": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 Studying abroad 전체이다.",
+        "동명사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 requires를 선택한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-006",
+    "sourceQuestionId": "Q-G34-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-007-DR",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "To solve these problems (takes / take) patience.",
+    "choices": [
+      "takes",
+      "take"
+    ],
+    "answer": "takes",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "To solve these problems",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "to부정사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "take": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 To solve these problems 전체이다.",
+        "to부정사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 takes를 선택한다."
+      ],
+      "sourceRef": "SRC-R18",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-007",
+    "sourceQuestionId": "Q-G34-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-008-DR",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "What the students need (is / are) more practice.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "What the students need",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "여러 단어로 된 준동사·명사절 주어를 복수로 보았다.",
+      "summary": [
+        "주어는 What the students need 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 is를 선택한다."
+      ],
+      "sourceRef": "SRC-R18",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-008",
+    "sourceQuestionId": "Q-G34-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-001-CT",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nTo walk by the river (is / are) relaxing.",
+    "choices": [
+      "are",
+      "is"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "To walk by the river",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "to부정사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "'are'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is'이다.",
+      "summary": [
+        "주어는 To walk by the river 전체이다.",
+        "to부정사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 is를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'are'이다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-001",
+    "sourceQuestionId": "Q-G34-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-002-CT",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nReading before bed (helps / help) me sleep.",
+    "choices": [
+      "help",
+      "helps"
+    ],
+    "answer": "help",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "Reading before bed",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "동명사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "helps": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "'help'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'helps'이다.",
+      "summary": [
+        "주어는 Reading before bed 전체이다.",
+        "동명사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 helps를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'help'이다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-002",
+    "sourceQuestionId": "Q-G34-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-003-CT",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWhat she said (makes / make) sense.",
+    "choices": [
+      "make",
+      "makes"
+    ],
+    "answer": "make",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "What she said",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "makes": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "'make'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'makes'이다.",
+      "summary": [
+        "주어는 What she said 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 makes를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'make'이다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-003",
+    "sourceQuestionId": "Q-G34-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-004-CT",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWhere the meeting will be held (is / are) still unknown.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "Where the meeting will be held",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "'are'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is'이다.",
+      "summary": [
+        "주어는 Where the meeting will be held 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 is를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'are'이다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-004",
+    "sourceQuestionId": "Q-G34-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-005-CT",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHow this device works (remains / remain) unclear.",
+    "choices": [
+      "remain",
+      "remains"
+    ],
+    "answer": "remain",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "How this device works",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "remains": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "'remain'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'remains'이다.",
+      "summary": [
+        "주어는 How this device works 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 remains를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'remain'이다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-005",
+    "sourceQuestionId": "Q-G34-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-006-CT",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nStudying abroad (requires / require) careful planning.",
+    "choices": [
+      "requires",
+      "require"
+    ],
+    "answer": "require",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "Studying abroad",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "동명사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "requires": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "'require'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'requires'이다.",
+      "summary": [
+        "주어는 Studying abroad 전체이다.",
+        "동명사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 requires를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'require'이다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-006",
+    "sourceQuestionId": "Q-G34-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-007-CT",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nTo solve these problems (takes / take) patience.",
+    "choices": [
+      "take",
+      "takes"
+    ],
+    "answer": "take",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "To solve these problems",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "to부정사 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "takes": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "'take'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'takes'이다.",
+      "summary": [
+        "주어는 To solve these problems 전체이다.",
+        "to부정사 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 takes를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'take'이다."
+      ],
+      "sourceRef": "SRC-R18",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-007",
+    "sourceQuestionId": "Q-G34-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G34-008-CT",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWhat the students need (is / are) more practice.",
+    "choices": [
+      "are",
+      "is"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "문장 전체의 주어 덩어리는?",
+        "answer": "What the students need",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "type",
+        "prompt": "주어의 형태는?",
+        "answer": "명사절 주어",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "number",
+        "prompt": "이 주어 덩어리의 수는?",
+        "answer": "단수",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "'are'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is'이다.",
+      "summary": [
+        "주어는 What the students need 전체이다.",
+        "명사절 주어는 하나의 내용으로 본다.",
+        "따라서 단수 동사 is를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'are'이다."
+      ],
+      "sourceRef": "SRC-R18",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G34-008",
+    "sourceQuestionId": "Q-G34-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-E0E95FD6BA",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 1,
+    "stem": "빠른 확인: to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+    "choices": [
+      "단수",
+      "복수"
+    ],
+    "answer": "단수",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "some·most·the rest·all·majority·part 같은 부분사 뒤에서는 of 다음 명사의 수에 동사를 맞춘다.",
+          "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다."
+        ],
+        "answer": "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "복수": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+        "주어는 To walk by the river 전체이다.",
+        "to부정사 주어는 하나의 내용으로 본다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "to부정사·동명사·명사절이 주어이면 보통 단수인가 복수인가?",
+        "choices": [
+          "단수",
+          "복수"
+        ],
+        "answer": "단수"
+      },
+      "transferQuestionId": "Q-G34-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-E0E95FD6BA",
+    "sourceQuestionId": "Q-G34-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-058-C6E8C635",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "Purchasing designer goods [enable / enables] people to hide behind an image created by someone else.",
+    "choices": [
+      "enable",
+      "enables"
+    ],
+    "answer": "enables",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "준동사·절 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "준동사·절 주어의 수일치",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "enable": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "to부정사·동명사·명사절 주어를 여러 단어라는 이유로 복수로 보았다.",
+      "summary": [
+        "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+        "문장 맨 앞 주어 덩어리를 찾는다",
+        "덩어리 전체를 단수로 보고 동사를 고른다"
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다."
+      },
+      "transferQuestionId": "Q-G34-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-058-C6E8C635",
+    "sourceQuestionId": "Q-P21-G-058-C6E8C635",
+    "sourceCandidateId": "CAND-G-058-C6E8C635",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 58,
+      "asset": "assets/source-evidence/phase21/grammar-page-058.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-058-C6E8C635",
+      "evidenceRef": "SRC-P21-G-058",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-058-C6E8C635-PF",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "Purchasing designer goods [enable / enables] people to hide behind an image created by someone else.",
+    "choices": [
+      "enable",
+      "enables"
+    ],
+    "answer": "enables",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "준동사·절 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "준동사·절 주어의 수일치",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "enable": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "to부정사·동명사·명사절 주어를 여러 단어라는 이유로 복수로 보았다.",
+      "summary": [
+        "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+        "문장 맨 앞 주어 덩어리를 찾는다",
+        "덩어리 전체를 단수로 보고 동사를 고른다"
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다."
+      },
+      "transferQuestionId": "Q-G34-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-058-C6E8C635",
+    "sourceQuestionId": "Q-P21-G-058-C6E8C635",
+    "sourceCandidateId": "CAND-G-058-C6E8C635",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 58,
+      "asset": "assets/source-evidence/phase21/grammar-page-058.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-058-C6E8C635",
+      "evidenceRef": "SRC-P21-G-058",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-058-C6E8C635-DR",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "Purchasing designer goods [enable / enables] people to hide behind an image created by someone else.",
+    "choices": [
+      "enable",
+      "enables"
+    ],
+    "answer": "enables",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "준동사·절 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "준동사·절 주어의 수일치",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "enable": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "to부정사·동명사·명사절 주어를 여러 단어라는 이유로 복수로 보았다.",
+      "summary": [
+        "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+        "문장 맨 앞 주어 덩어리를 찾는다",
+        "덩어리 전체를 단수로 보고 동사를 고른다"
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다."
+      },
+      "transferQuestionId": "Q-G34-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-058-C6E8C635",
+    "sourceQuestionId": "Q-P21-G-058-C6E8C635",
+    "sourceCandidateId": "CAND-G-058-C6E8C635",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 58,
+      "asset": "assets/source-evidence/phase21/grammar-page-058.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-058-C6E8C635",
+      "evidenceRef": "SRC-P21-G-058",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-058-C6E8C635-CT",
+    "conceptId": "G34_CLAUSAL_SUBJECT_SINGULAR",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nPurchasing designer goods [enable / enables] people to hide behind an image created by someone else.",
+    "choices": [
+      "enable",
+      "enables"
+    ],
+    "answer": "enable",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "준동사·절 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "준동사·절 주어의 수일치",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+        "errorCode": "E38_CLAUSAL_SUBJECT_NUMBER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "enables": "E38_CLAUSAL_SUBJECT_NUMBER"
+    },
+    "remediation": {
+      "diagnosis": "'enable'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'enables'이다.",
+      "summary": [
+        "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+        "문장 맨 앞 주어 덩어리를 찾는다",
+        "덩어리 전체를 단수로 보고 동사를 고른다",
+        "대조 문항에서는 사용할 수 없는 형태 'enable'를 고른다."
+      ],
+      "sourceRef": "SRC-G34",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "to부정사, 동명사, 명사절이 문장 주어이면 하나의 내용으로 보고 단수 동사를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-058-C6E8C635",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-058-C6E8C635",
+    "sourceQuestionId": "Q-P21-G-058-C6E8C635",
+    "sourceCandidateId": "CAND-G-058-C6E8C635",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 58,
+      "asset": "assets/source-evidence/phase21/grammar-page-058.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-058-C6E8C635",
+      "evidenceRef": "SRC-P21-G-058",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

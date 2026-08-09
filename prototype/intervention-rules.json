@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 17,
+  "ruleSetId": "JK-INTERVENTION-RULES",
+  "ruleSetVersion": "1.0.0",
+  "priorityOrder": {
+    "1": "긴급",
+    "2": "높음",
+    "3": "보통",
+    "4": "낮음"
+  },
+  "rules": [
+    {
+      "id": "R17_CORRECT_PROCESS_FAIL",
+      "version": 1,
+      "name": "정답이지만 과정 미통과 반복",
+      "enabled": true,
+      "priority": 2,
+      "lookbackDays": 30,
+      "threshold": 2,
+      "recommendedAction": "판단 단계 재연습",
+      "completionRule": "원문 재도전에서 최종 정답과 과정 통과를 모두 충족"
+    },
+    {
+      "id": "R17_REPEAT_ERROR_CODE",
+      "version": 1,
+      "name": "동일 오답 코드 반복",
+      "enabled": true,
+      "priority": 1,
+      "lookbackDays": 30,
+      "threshold": 2,
+      "recommendedAction": "교재 복귀",
+      "completionRule": "교재 확인과 확인문제 후 원문 재도전 완전 통과"
+    },
+    {
+      "id": "R17_REPEAT_FAILURE_STAGE",
+      "version": 1,
+      "name": "동일 실패 단계 반복",
+      "enabled": true,
+      "priority": 2,
+      "lookbackDays": 30,
+      "threshold": 3,
+      "recommendedAction": "판단 단계 재연습",
+      "completionRule": "해당 판단 단계 재연습 후 원문 재도전 완전 통과"
+    },
+    {
+      "id": "R17_NO_RECOVERY_AFTER_TEXTBOOK",
+      "version": 1,
+      "name": "교재 복귀 후 미회복",
+      "enabled": true,
+      "priority": 1,
+      "lookbackDays": 45,
+      "threshold": 1,
+      "recommendedAction": "확인문제",
+      "completionRule": "확인문제 정답 후 원문 재도전 완전 통과"
+    },
+    {
+      "id": "R17_LONG_INACTIVITY",
+      "version": 1,
+      "name": "장기 미학습",
+      "enabled": true,
+      "priority": 4,
+      "lookbackDays": 180,
+      "thresholdDays": 14,
+      "recommendedAction": "원문 재도전",
+      "completionRule": "지정 원문 재도전에서 최종 정답과 과정 통과를 모두 충족"
+    }
+  ]
+}

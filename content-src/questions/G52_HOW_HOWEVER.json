@@ -1,0 +1,4008 @@
+[
+  {
+    "id": "Q-G52-001",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "I do not know (how / however) she solved the problem.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 명사절 안의 방법을 묻는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "어떻게",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "어떻게.",
+        "따라서 how를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-001",
+    "sourceQuestionId": "Q-G52-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-002",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "Never give up, (how / however) difficult the task is.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "however",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 부사절을 이끄는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "아무리 어려워도",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "however",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "how": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "아무리 어려워도.",
+        "따라서 however를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-002",
+    "sourceQuestionId": "Q-G52-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-003",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "She explained (how / however) the device works.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 명사절 안의 방법을 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "어떻게",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "어떻게.",
+        "따라서 how를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-003",
+    "sourceQuestionId": "Q-G52-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-004",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "(How / However) carefully he plans, problems may arise.",
+    "choices": [
+      "How",
+      "However"
+    ],
+    "answer": "However",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "pattern",
+        "prompt": "뒤 구조는?",
+        "answer": "부사 carefully+S+V",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "However",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "부사 carefully+S+V.",
+        "따라서 However를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-004",
+    "sourceQuestionId": "Q-G52-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-005",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "Do you know (how / however) long the meeting will last?",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 정도를 묻는 명사절인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "pattern",
+        "prompt": "how+형용사/부사 구조인가?",
+        "answer": "how long이다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "how long이다.",
+        "따라서 how를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-005",
+    "sourceQuestionId": "Q-G52-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-006",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "(How / However) unique the design is, it must be safe.",
+    "choices": [
+      "How",
+      "However"
+    ],
+    "answer": "However",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "아무리 독특해도",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "However",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "아무리 독특해도.",
+        "따라서 However를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-006",
+    "sourceQuestionId": "Q-G52-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-007",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "We observed (how / however) rapidly the temperature changed.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 명사절 안의 정도를 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "pattern",
+        "prompt": "how+부사 구조인가?",
+        "answer": "how rapidly이다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "how rapidly이다.",
+        "따라서 how를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-007",
+    "sourceQuestionId": "Q-G52-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-008",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "(How / However) tired she was, she continued working.",
+    "choices": [
+      "How",
+      "However"
+    ],
+    "answer": "However",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 부사절인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "아무리 피곤해도",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "However",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "아무리 피곤해도.",
+        "따라서 However를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-008",
+    "sourceQuestionId": "Q-G52-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-001-PF",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "I do not know (how / however) she solved the problem.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 명사절 안의 방법을 묻는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "어떻게",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "어떻게.",
+        "따라서 how를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-001",
+    "sourceQuestionId": "Q-G52-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-002-PF",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "Never give up, (how / however) difficult the task is.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "however",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 부사절을 이끄는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "아무리 어려워도",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "however",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "how": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "아무리 어려워도.",
+        "따라서 however를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-002",
+    "sourceQuestionId": "Q-G52-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-003-PF",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "She explained (how / however) the device works.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 명사절 안의 방법을 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "어떻게",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "어떻게.",
+        "따라서 how를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-003",
+    "sourceQuestionId": "Q-G52-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-004-PF",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "(How / However) carefully he plans, problems may arise.",
+    "choices": [
+      "How",
+      "However"
+    ],
+    "answer": "However",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "pattern",
+        "prompt": "뒤 구조는?",
+        "answer": "부사 carefully+S+V",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "However",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "부사 carefully+S+V.",
+        "따라서 However를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-004",
+    "sourceQuestionId": "Q-G52-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-005-PF",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "Do you know (how / however) long the meeting will last?",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 정도를 묻는 명사절인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "pattern",
+        "prompt": "how+형용사/부사 구조인가?",
+        "answer": "how long이다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "how long이다.",
+        "따라서 how를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-005",
+    "sourceQuestionId": "Q-G52-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-006-PF",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "(How / However) unique the design is, it must be safe.",
+    "choices": [
+      "How",
+      "However"
+    ],
+    "answer": "However",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "아무리 독특해도",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "However",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "아무리 독특해도.",
+        "따라서 However를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-006",
+    "sourceQuestionId": "Q-G52-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-007-PF",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "We observed (how / however) rapidly the temperature changed.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 명사절 안의 정도를 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "pattern",
+        "prompt": "how+부사 구조인가?",
+        "answer": "how rapidly이다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "how rapidly이다.",
+        "따라서 how를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-007",
+    "sourceQuestionId": "Q-G52-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-008-PF",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "(How / However) tired she was, she continued working.",
+    "choices": [
+      "How",
+      "However"
+    ],
+    "answer": "However",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 부사절인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "아무리 피곤해도",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "However",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "아무리 피곤해도.",
+        "따라서 However를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-008",
+    "sourceQuestionId": "Q-G52-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-001-DR",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "I do not know (how / however) she solved the problem.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 명사절 안의 방법을 묻는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "어떻게",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "어떻게.",
+        "따라서 how를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-001",
+    "sourceQuestionId": "Q-G52-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-002-DR",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "Never give up, (how / however) difficult the task is.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "however",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 부사절을 이끄는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "아무리 어려워도",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "however",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "how": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "아무리 어려워도.",
+        "따라서 however를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-002",
+    "sourceQuestionId": "Q-G52-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-003-DR",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "She explained (how / however) the device works.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 명사절 안의 방법을 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "어떻게",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "어떻게.",
+        "따라서 how를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-003",
+    "sourceQuestionId": "Q-G52-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-004-DR",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "(How / However) carefully he plans, problems may arise.",
+    "choices": [
+      "How",
+      "However"
+    ],
+    "answer": "However",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "pattern",
+        "prompt": "뒤 구조는?",
+        "answer": "부사 carefully+S+V",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "However",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "부사 carefully+S+V.",
+        "따라서 However를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-004",
+    "sourceQuestionId": "Q-G52-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-005-DR",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "Do you know (how / however) long the meeting will last?",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 정도를 묻는 명사절인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "pattern",
+        "prompt": "how+형용사/부사 구조인가?",
+        "answer": "how long이다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "how long이다.",
+        "따라서 how를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-005",
+    "sourceQuestionId": "Q-G52-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-006-DR",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "(How / However) unique the design is, it must be safe.",
+    "choices": [
+      "How",
+      "However"
+    ],
+    "answer": "However",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "아무리 독특해도",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "However",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "아무리 독특해도.",
+        "따라서 However를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-006",
+    "sourceQuestionId": "Q-G52-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-007-DR",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "We observed (how / however) rapidly the temperature changed.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 명사절 안의 정도를 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "pattern",
+        "prompt": "how+부사 구조인가?",
+        "answer": "how rapidly이다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "how rapidly이다.",
+        "따라서 how를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-007",
+    "sourceQuestionId": "Q-G52-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-008-DR",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "(How / However) tired she was, she continued working.",
+    "choices": [
+      "How",
+      "However"
+    ],
+    "answer": "However",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 부사절인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "아무리 피곤해도",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "However",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "how의 명사절 기능과 however의 양보 기능을 구별하지 못했다.",
+      "summary": [
+        "그렇다.",
+        "아무리 피곤해도.",
+        "따라서 However를 선택한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-008",
+    "sourceQuestionId": "Q-G52-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-001-CT",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI do not know (how / however) she solved the problem.",
+    "choices": [
+      "however",
+      "how"
+    ],
+    "answer": "however",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 명사절 안의 방법을 묻는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "어떻게",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "how": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "'however'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'how'이다.",
+      "summary": [
+        "그렇다.",
+        "어떻게.",
+        "따라서 how를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'however'이다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-001",
+    "sourceQuestionId": "Q-G52-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-002-CT",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNever give up, (how / however) difficult the task is.",
+    "choices": [
+      "however",
+      "how"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 부사절을 이끄는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "아무리 어려워도",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "however",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "'how'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'however'이다.",
+      "summary": [
+        "그렇다.",
+        "아무리 어려워도.",
+        "따라서 however를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'how'이다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-002",
+    "sourceQuestionId": "Q-G52-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-003-CT",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe explained (how / however) the device works.",
+    "choices": [
+      "however",
+      "how"
+    ],
+    "answer": "however",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 명사절 안의 방법을 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "어떻게",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "how": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "'however'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'how'이다.",
+      "summary": [
+        "그렇다.",
+        "어떻게.",
+        "따라서 how를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'however'이다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-003",
+    "sourceQuestionId": "Q-G52-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-004-CT",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(How / However) carefully he plans, problems may arise.",
+    "choices": [
+      "How",
+      "However"
+    ],
+    "answer": "How",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "pattern",
+        "prompt": "뒤 구조는?",
+        "answer": "부사 carefully+S+V",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "However",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "However": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "'How'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'However'이다.",
+      "summary": [
+        "그렇다.",
+        "부사 carefully+S+V.",
+        "따라서 However를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'How'이다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-004",
+    "sourceQuestionId": "Q-G52-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-005-CT",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nDo you know (how / however) long the meeting will last?",
+    "choices": [
+      "however",
+      "how"
+    ],
+    "answer": "however",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 정도를 묻는 명사절인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "pattern",
+        "prompt": "how+형용사/부사 구조인가?",
+        "answer": "how long이다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "how": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "'however'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'how'이다.",
+      "summary": [
+        "그렇다.",
+        "how long이다.",
+        "따라서 how를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'however'이다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-005",
+    "sourceQuestionId": "Q-G52-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-006-CT",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(How / However) unique the design is, it must be safe.",
+    "choices": [
+      "How",
+      "However"
+    ],
+    "answer": "How",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 의미인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "아무리 독특해도",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "However",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "However": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "'How'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'However'이다.",
+      "summary": [
+        "그렇다.",
+        "아무리 독특해도.",
+        "따라서 However를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'How'이다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-006",
+    "sourceQuestionId": "Q-G52-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-007-CT",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe observed (how / however) rapidly the temperature changed.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "however",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 명사절 안의 정도를 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "pattern",
+        "prompt": "how+부사 구조인가?",
+        "answer": "how rapidly이다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "how",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "how": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "'however'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'how'이다.",
+      "summary": [
+        "그렇다.",
+        "how rapidly이다.",
+        "따라서 how를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'however'이다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-007",
+    "sourceQuestionId": "Q-G52-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G52-008-CT",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(How / However) tired she was, she continued working.",
+    "choices": [
+      "However",
+      "How"
+    ],
+    "answer": "How",
+    "decisionSteps": [
+      {
+        "id": "clause",
+        "prompt": "빈칸은 양보 부사절인가?",
+        "answer": "그렇다",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "meaning",
+        "prompt": "필요한 의미는?",
+        "answer": "아무리 피곤해도",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 말은?",
+        "answer": "However",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "However": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "'How'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'However'이다.",
+      "summary": [
+        "그렇다.",
+        "아무리 피곤해도.",
+        "따라서 However를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'How'이다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G52-008",
+    "sourceQuestionId": "Q-G52-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-64D68C2852",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 1,
+    "stem": "빠른 확인: no matter how와 같은 의미를 내는 말은?",
+    "choices": [
+      "however",
+      "how"
+    ],
+    "answer": "however",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "what은 특정한 ‘것’을, whatever는 ‘무엇이든·무슨 ~라도’를 뜻하며 둘 다 뒤에 불완전한 절이 온다.",
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다."
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "how": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "그렇다.",
+        "어떻게.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "no matter how와 같은 의미를 내는 말은?",
+        "choices": [
+          "however",
+          "how"
+        ],
+        "answer": "however"
+      },
+      "transferQuestionId": "Q-G52-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-64D68C2852",
+    "sourceQuestionId": "Q-G52-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-082-9DA01351",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 2,
+    "stem": "Never give up hope, [how / however] frightening the obstacles lying in your path are.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "however",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "how / however 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "how / however 구별",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "how": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "명사절의 방법·정도와 양보 부사절을 구별하지 못했다.",
+      "summary": [
+        "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "명사절인지 양보 부사절인지 본다",
+        "how 또는 however를 고른다"
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-082-9719E69E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-082-9DA01351",
+    "sourceQuestionId": "Q-P21-G-082-9DA01351",
+    "sourceCandidateId": "CAND-G-082-9DA01351",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 82,
+      "asset": "assets/source-evidence/phase21/grammar-page-082.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-082-9DA01351",
+      "evidenceRef": "SRC-P21-G-082",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-082-9DA01351-PF",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 2,
+    "stem": "Never give up hope, [how / however] frightening the obstacles lying in your path are.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "however",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "how / however 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "how / however 구별",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "how": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "명사절의 방법·정도와 양보 부사절을 구별하지 못했다.",
+      "summary": [
+        "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "명사절인지 양보 부사절인지 본다",
+        "how 또는 however를 고른다"
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-082-9719E69E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-082-9DA01351",
+    "sourceQuestionId": "Q-P21-G-082-9DA01351",
+    "sourceCandidateId": "CAND-G-082-9DA01351",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 82,
+      "asset": "assets/source-evidence/phase21/grammar-page-082.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-082-9DA01351",
+      "evidenceRef": "SRC-P21-G-082",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-082-9DA01351-DR",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 2,
+    "stem": "Never give up hope, [how / however] frightening the obstacles lying in your path are.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "however",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "how / however 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "how / however 구별",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "how": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "명사절의 방법·정도와 양보 부사절을 구별하지 못했다.",
+      "summary": [
+        "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "명사절인지 양보 부사절인지 본다",
+        "how 또는 however를 고른다"
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-082-9719E69E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-082-9DA01351",
+    "sourceQuestionId": "Q-P21-G-082-9DA01351",
+    "sourceCandidateId": "CAND-G-082-9DA01351",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 82,
+      "asset": "assets/source-evidence/phase21/grammar-page-082.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-082-9DA01351",
+      "evidenceRef": "SRC-P21-G-082",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-082-9DA01351-CT",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNever give up hope, [how / however] frightening the obstacles lying in your path are.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "how / however 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "how / however 구별",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "'how'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'however'이다.",
+      "summary": [
+        "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "명사절인지 양보 부사절인지 본다",
+        "how 또는 however를 고른다",
+        "대조 문항에서는 사용할 수 없는 형태 'how'를 고른다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-082-9DA01351",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-082-9DA01351",
+    "sourceQuestionId": "Q-P21-G-082-9DA01351",
+    "sourceCandidateId": "CAND-G-082-9DA01351",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 82,
+      "asset": "assets/source-evidence/phase21/grammar-page-082.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-082-9DA01351",
+      "evidenceRef": "SRC-P21-G-082",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-082-9719E69E",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 2,
+    "stem": "I didn't know [how / however] I got success at that time.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "how / however 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "how / however 구별",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "명사절의 방법·정도와 양보 부사절을 구별하지 못했다.",
+      "summary": [
+        "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "명사절인지 양보 부사절인지 본다",
+        "how 또는 however를 고른다"
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-082-9DA01351",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-082-9719E69E",
+    "sourceQuestionId": "Q-P21-G-082-9719E69E",
+    "sourceCandidateId": "CAND-G-082-9719E69E",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 82,
+      "asset": "assets/source-evidence/phase21/grammar-page-082.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-082-9719E69E",
+      "evidenceRef": "SRC-P21-G-082",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-082-9719E69E-PF",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 2,
+    "stem": "I didn't know [how / however] I got success at that time.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "how / however 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "how / however 구별",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "명사절의 방법·정도와 양보 부사절을 구별하지 못했다.",
+      "summary": [
+        "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "명사절인지 양보 부사절인지 본다",
+        "how 또는 however를 고른다"
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-082-9DA01351",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-082-9719E69E",
+    "sourceQuestionId": "Q-P21-G-082-9719E69E",
+    "sourceCandidateId": "CAND-G-082-9719E69E",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 82,
+      "asset": "assets/source-evidence/phase21/grammar-page-082.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-082-9719E69E",
+      "evidenceRef": "SRC-P21-G-082",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-082-9719E69E-DR",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 2,
+    "stem": "I didn't know [how / however] I got success at that time.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "how",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "how / however 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "how / however 구별",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "however": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "명사절의 방법·정도와 양보 부사절을 구별하지 못했다.",
+      "summary": [
+        "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "명사절인지 양보 부사절인지 본다",
+        "how 또는 however를 고른다"
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-082-9DA01351",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-082-9719E69E",
+    "sourceQuestionId": "Q-P21-G-082-9719E69E",
+    "sourceCandidateId": "CAND-G-082-9719E69E",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 82,
+      "asset": "assets/source-evidence/phase21/grammar-page-082.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-082-9719E69E",
+      "evidenceRef": "SRC-P21-G-082",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-082-9719E69E-CT",
+    "conceptId": "G52_HOW_HOWEVER",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI didn't know [how / however] I got success at that time.",
+    "choices": [
+      "how",
+      "however"
+    ],
+    "answer": "however",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "how / however 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "how / however 구별",
+        "errorCode": "E56_HOW_HOWEVER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "errorCode": "E56_HOW_HOWEVER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "how": "E56_HOW_HOWEVER"
+    },
+    "remediation": {
+      "diagnosis": "'however'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'how'이다.",
+      "summary": [
+        "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+        "명사절인지 양보 부사절인지 본다",
+        "how 또는 however를 고른다",
+        "대조 문항에서는 사용할 수 없는 형태 'however'를 고른다."
+      ],
+      "sourceRef": "SRC-G52",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-082-9719E69E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-082-9719E69E",
+    "sourceQuestionId": "Q-P21-G-082-9719E69E",
+    "sourceCandidateId": "CAND-G-082-9719E69E",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 82,
+      "asset": "assets/source-evidence/phase21/grammar-page-082.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-082-9719E69E",
+      "evidenceRef": "SRC-P21-G-082",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

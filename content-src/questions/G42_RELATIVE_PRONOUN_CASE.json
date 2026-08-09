@@ -1,0 +1,4453 @@
+[
+  {
+    "id": "Q-G42-001",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "He is the carpenter (who / which) built this temple.",
+    "choices": [
+      "who",
+      "which"
+    ],
+    "answer": "who",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사람",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 바로 오는가?",
+        "answer": "동사 built",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사람 주격 who",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람.",
+        "동사 built.",
+        "따라서 who를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-001",
+    "sourceQuestionId": "Q-G42-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-002",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "Sidewalks bustle with bankers (whose / whom) decisions affect corporations.",
+    "choices": [
+      "whose",
+      "whom"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 무엇인가?",
+        "answer": "사람 bankers",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 오는가?",
+        "answer": "명사 decisions",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 격은?",
+        "answer": "소유격 whose",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whom": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람 bankers.",
+        "명사 decisions.",
+        "따라서 whose를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-002",
+    "sourceQuestionId": "Q-G42-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-003",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "We will meet the author (who / whose) story moved millions.",
+    "choices": [
+      "who",
+      "whose"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 무엇인가?",
+        "answer": "사람 author",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 오는가?",
+        "answer": "명사 story",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 격은?",
+        "answer": "소유격 whose",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람 author.",
+        "명사 story.",
+        "따라서 whose를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-003",
+    "sourceQuestionId": "Q-G42-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-004",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "He is the one (whom / which) I can trust.",
+    "choices": [
+      "whom",
+      "which"
+    ],
+    "answer": "whom",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사람",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "trust의 목적어",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사람 목적격 whom",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람.",
+        "trust의 목적어.",
+        "따라서 whom를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-004",
+    "sourceQuestionId": "Q-G42-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-005",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "The machine (which / who) produces clean water is expensive.",
+    "choices": [
+      "which",
+      "who"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사물 machine",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 바로 오는가?",
+        "answer": "동사 produces",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사물 주격 which",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사물 machine.",
+        "동사 produces.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-005",
+    "sourceQuestionId": "Q-G42-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-006",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "The student (whose / whom) notebook was lost reported it.",
+    "choices": [
+      "whose",
+      "whom"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 무엇인가?",
+        "answer": "사람 student",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 오는가?",
+        "answer": "명사 notebook",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 격은?",
+        "answer": "소유격 whose",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whom": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람 student.",
+        "명사 notebook.",
+        "따라서 whose를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-006",
+    "sourceQuestionId": "Q-G42-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-007",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "The book (that / whom) I bought yesterday is useful.",
+    "choices": [
+      "that",
+      "whom"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사물 book",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "bought의 목적어",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "가능한 관계대명사는?",
+        "answer": "사물 목적격 that",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whom": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사물 book.",
+        "bought의 목적어.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-007",
+    "sourceQuestionId": "Q-G42-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-008",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "People (who / which) work consistently improve faster.",
+    "choices": [
+      "who",
+      "which"
+    ],
+    "answer": "who",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사람 people",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 바로 오는가?",
+        "answer": "동사 work",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사람 주격 who",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람 people.",
+        "동사 work.",
+        "따라서 who를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-008",
+    "sourceQuestionId": "Q-G42-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-001-PF",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "He is the carpenter (who / which) built this temple.",
+    "choices": [
+      "who",
+      "which"
+    ],
+    "answer": "who",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사람",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 바로 오는가?",
+        "answer": "동사 built",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사람 주격 who",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람.",
+        "동사 built.",
+        "따라서 who를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-001",
+    "sourceQuestionId": "Q-G42-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-002-PF",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "Sidewalks bustle with bankers (whose / whom) decisions affect corporations.",
+    "choices": [
+      "whose",
+      "whom"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 무엇인가?",
+        "answer": "사람 bankers",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 오는가?",
+        "answer": "명사 decisions",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 격은?",
+        "answer": "소유격 whose",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whom": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람 bankers.",
+        "명사 decisions.",
+        "따라서 whose를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-002",
+    "sourceQuestionId": "Q-G42-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-003-PF",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "We will meet the author (who / whose) story moved millions.",
+    "choices": [
+      "who",
+      "whose"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 무엇인가?",
+        "answer": "사람 author",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 오는가?",
+        "answer": "명사 story",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 격은?",
+        "answer": "소유격 whose",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람 author.",
+        "명사 story.",
+        "따라서 whose를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-003",
+    "sourceQuestionId": "Q-G42-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-004-PF",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "He is the one (whom / which) I can trust.",
+    "choices": [
+      "whom",
+      "which"
+    ],
+    "answer": "whom",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사람",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "trust의 목적어",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사람 목적격 whom",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람.",
+        "trust의 목적어.",
+        "따라서 whom를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-004",
+    "sourceQuestionId": "Q-G42-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-005-PF",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "The machine (which / who) produces clean water is expensive.",
+    "choices": [
+      "which",
+      "who"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사물 machine",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 바로 오는가?",
+        "answer": "동사 produces",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사물 주격 which",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사물 machine.",
+        "동사 produces.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-005",
+    "sourceQuestionId": "Q-G42-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-006-PF",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "The student (whose / whom) notebook was lost reported it.",
+    "choices": [
+      "whose",
+      "whom"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 무엇인가?",
+        "answer": "사람 student",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 오는가?",
+        "answer": "명사 notebook",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 격은?",
+        "answer": "소유격 whose",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whom": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람 student.",
+        "명사 notebook.",
+        "따라서 whose를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-006",
+    "sourceQuestionId": "Q-G42-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-007-PF",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "The book (that / whom) I bought yesterday is useful.",
+    "choices": [
+      "that",
+      "whom"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사물 book",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "bought의 목적어",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "가능한 관계대명사는?",
+        "answer": "사물 목적격 that",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whom": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사물 book.",
+        "bought의 목적어.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-007",
+    "sourceQuestionId": "Q-G42-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-008-PF",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "People (who / which) work consistently improve faster.",
+    "choices": [
+      "who",
+      "which"
+    ],
+    "answer": "who",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사람 people",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 바로 오는가?",
+        "answer": "동사 work",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사람 주격 who",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람 people.",
+        "동사 work.",
+        "따라서 who를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-008",
+    "sourceQuestionId": "Q-G42-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-001-DR",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "He is the carpenter (who / which) built this temple.",
+    "choices": [
+      "who",
+      "which"
+    ],
+    "answer": "who",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사람",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 바로 오는가?",
+        "answer": "동사 built",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사람 주격 who",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람.",
+        "동사 built.",
+        "따라서 who를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-001",
+    "sourceQuestionId": "Q-G42-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-002-DR",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "Sidewalks bustle with bankers (whose / whom) decisions affect corporations.",
+    "choices": [
+      "whose",
+      "whom"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 무엇인가?",
+        "answer": "사람 bankers",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 오는가?",
+        "answer": "명사 decisions",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 격은?",
+        "answer": "소유격 whose",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whom": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람 bankers.",
+        "명사 decisions.",
+        "따라서 whose를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-002",
+    "sourceQuestionId": "Q-G42-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-003-DR",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "We will meet the author (who / whose) story moved millions.",
+    "choices": [
+      "who",
+      "whose"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 무엇인가?",
+        "answer": "사람 author",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 오는가?",
+        "answer": "명사 story",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 격은?",
+        "answer": "소유격 whose",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람 author.",
+        "명사 story.",
+        "따라서 whose를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-003",
+    "sourceQuestionId": "Q-G42-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-004-DR",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "He is the one (whom / which) I can trust.",
+    "choices": [
+      "whom",
+      "which"
+    ],
+    "answer": "whom",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사람",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "trust의 목적어",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사람 목적격 whom",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람.",
+        "trust의 목적어.",
+        "따라서 whom를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-004",
+    "sourceQuestionId": "Q-G42-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-005-DR",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "The machine (which / who) produces clean water is expensive.",
+    "choices": [
+      "which",
+      "who"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사물 machine",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 바로 오는가?",
+        "answer": "동사 produces",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사물 주격 which",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사물 machine.",
+        "동사 produces.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-005",
+    "sourceQuestionId": "Q-G42-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-006-DR",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "The student (whose / whom) notebook was lost reported it.",
+    "choices": [
+      "whose",
+      "whom"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 무엇인가?",
+        "answer": "사람 student",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 오는가?",
+        "answer": "명사 notebook",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 격은?",
+        "answer": "소유격 whose",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whom": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람 student.",
+        "명사 notebook.",
+        "따라서 whose를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-006",
+    "sourceQuestionId": "Q-G42-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-007-DR",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "The book (that / whom) I bought yesterday is useful.",
+    "choices": [
+      "that",
+      "whom"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사물 book",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "bought의 목적어",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "가능한 관계대명사는?",
+        "answer": "사물 목적격 that",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whom": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사물 book.",
+        "bought의 목적어.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-007",
+    "sourceQuestionId": "Q-G42-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-008-DR",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "People (who / which) work consistently improve faster.",
+    "choices": [
+      "who",
+      "which"
+    ],
+    "answer": "who",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사람 people",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 바로 오는가?",
+        "answer": "동사 work",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사람 주격 who",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 관계사 뒤 구조를 함께 보지 않아 격을 잘못 골랐다.",
+      "summary": [
+        "사람 people.",
+        "동사 work.",
+        "따라서 who를 선택한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-008",
+    "sourceQuestionId": "Q-G42-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-001-CT",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe is the carpenter (who / which) built this temple.",
+    "choices": [
+      "which",
+      "who"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사람",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 바로 오는가?",
+        "answer": "동사 built",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사람 주격 who",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'who'이다.",
+      "summary": [
+        "사람.",
+        "동사 built.",
+        "따라서 who를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'which'이다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-001",
+    "sourceQuestionId": "Q-G42-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-002-CT",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nSidewalks bustle with bankers (whose / whom) decisions affect corporations.",
+    "choices": [
+      "whom",
+      "whose"
+    ],
+    "answer": "whom",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 무엇인가?",
+        "answer": "사람 bankers",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 오는가?",
+        "answer": "명사 decisions",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 격은?",
+        "answer": "소유격 whose",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whose": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "'whom'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'whose'이다.",
+      "summary": [
+        "사람 bankers.",
+        "명사 decisions.",
+        "따라서 whose를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'whom'이다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-002",
+    "sourceQuestionId": "Q-G42-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-003-CT",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe will meet the author (who / whose) story moved millions.",
+    "choices": [
+      "whose",
+      "who"
+    ],
+    "answer": "who",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 무엇인가?",
+        "answer": "사람 author",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 오는가?",
+        "answer": "명사 story",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 격은?",
+        "answer": "소유격 whose",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whose": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "'who'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'whose'이다.",
+      "summary": [
+        "사람 author.",
+        "명사 story.",
+        "따라서 whose를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'who'이다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-003",
+    "sourceQuestionId": "Q-G42-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-004-CT",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe is the one (whom / which) I can trust.",
+    "choices": [
+      "which",
+      "whom"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사람",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "trust의 목적어",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사람 목적격 whom",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whom": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'whom'이다.",
+      "summary": [
+        "사람.",
+        "trust의 목적어.",
+        "따라서 whom를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'which'이다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-004",
+    "sourceQuestionId": "Q-G42-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-005-CT",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe machine (which / who) produces clean water is expensive.",
+    "choices": [
+      "who",
+      "which"
+    ],
+    "answer": "who",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사물 machine",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 바로 오는가?",
+        "answer": "동사 produces",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사물 주격 which",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "'who'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'which'이다.",
+      "summary": [
+        "사물 machine.",
+        "동사 produces.",
+        "따라서 which를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'who'이다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-005",
+    "sourceQuestionId": "Q-G42-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-006-CT",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe student (whose / whom) notebook was lost reported it.",
+    "choices": [
+      "whom",
+      "whose"
+    ],
+    "answer": "whom",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 무엇인가?",
+        "answer": "사람 student",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 오는가?",
+        "answer": "명사 notebook",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 격은?",
+        "answer": "소유격 whose",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whose": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "'whom'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'whose'이다.",
+      "summary": [
+        "사람 student.",
+        "명사 notebook.",
+        "따라서 whose를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'whom'이다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-006",
+    "sourceQuestionId": "Q-G42-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-007-CT",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe book (that / whom) I bought yesterday is useful.",
+    "choices": [
+      "that",
+      "whom"
+    ],
+    "answer": "whom",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사물 book",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "뒤 절에서 빠진 성분은?",
+        "answer": "bought의 목적어",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "가능한 관계대명사는?",
+        "answer": "사물 목적격 that",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "'whom'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "사물 book.",
+        "bought의 목적어.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'whom'이다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-007",
+    "sourceQuestionId": "Q-G42-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G42-008-CT",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nPeople (who / which) work consistently improve faster.",
+    "choices": [
+      "which",
+      "who"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사는 사람인가 사물인가?",
+        "answer": "사람 people",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "slot",
+        "prompt": "관계사 뒤에 무엇이 바로 오는가?",
+        "answer": "동사 work",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "case",
+        "prompt": "필요한 관계대명사는?",
+        "answer": "사람 주격 who",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'who'이다.",
+      "summary": [
+        "사람 people.",
+        "동사 work.",
+        "따라서 who를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'which'이다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G42-008",
+    "sourceQuestionId": "Q-G42-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-DD1656164F",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+    "choices": [
+      "소유격",
+      "주격"
+    ],
+    "answer": "소유격",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "앞에 선행사가 있으면 관계대명사 that을 검토하고, 선행사가 없으면 뒤 절이 완전할 때 접속사 that, 불완전할 때 what을 고른다."
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "주격": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "사람.",
+        "동사 built.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "관계사 뒤에 명사가 바로 오면 어떤 격인가?",
+        "choices": [
+          "소유격",
+          "주격"
+        ],
+        "answer": "소유격"
+      },
+      "transferQuestionId": "Q-G42-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-DD1656164F",
+    "sourceQuestionId": "Q-G42-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-069-9BD54BE7",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 2,
+    "stem": "Sidewalks bustle with bankers and stockbrokers [whose / whom] decisions affect individuals, corporations, and even our nation's economy.",
+    "choices": [
+      "whose",
+      "whom"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사의 선행사와 격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사의 선행사와 격",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whom": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 종류와 관계사 뒤 절의 빈자리를 함께 보지 않았다.",
+      "summary": [
+        "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "선행사를 찾는다",
+        "관계사 뒤 구조로 주격·소유격·목적격을 정한다"
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-069-B59FA7D2",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-069-9BD54BE7",
+    "sourceQuestionId": "Q-P21-G-069-9BD54BE7",
+    "sourceCandidateId": "CAND-G-069-9BD54BE7",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 69,
+      "asset": "assets/source-evidence/phase21/grammar-page-069.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-069-9BD54BE7",
+      "evidenceRef": "SRC-P21-G-069",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-069-9BD54BE7-PF",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 2,
+    "stem": "Sidewalks bustle with bankers and stockbrokers [whose / whom] decisions affect individuals, corporations, and even our nation's economy.",
+    "choices": [
+      "whose",
+      "whom"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사의 선행사와 격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사의 선행사와 격",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whom": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 종류와 관계사 뒤 절의 빈자리를 함께 보지 않았다.",
+      "summary": [
+        "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "선행사를 찾는다",
+        "관계사 뒤 구조로 주격·소유격·목적격을 정한다"
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-069-B59FA7D2",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-069-9BD54BE7",
+    "sourceQuestionId": "Q-P21-G-069-9BD54BE7",
+    "sourceCandidateId": "CAND-G-069-9BD54BE7",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 69,
+      "asset": "assets/source-evidence/phase21/grammar-page-069.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-069-9BD54BE7",
+      "evidenceRef": "SRC-P21-G-069",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-069-9BD54BE7-DR",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 2,
+    "stem": "Sidewalks bustle with bankers and stockbrokers [whose / whom] decisions affect individuals, corporations, and even our nation's economy.",
+    "choices": [
+      "whose",
+      "whom"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사의 선행사와 격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사의 선행사와 격",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whom": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 종류와 관계사 뒤 절의 빈자리를 함께 보지 않았다.",
+      "summary": [
+        "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "선행사를 찾는다",
+        "관계사 뒤 구조로 주격·소유격·목적격을 정한다"
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-069-B59FA7D2",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-069-9BD54BE7",
+    "sourceQuestionId": "Q-P21-G-069-9BD54BE7",
+    "sourceCandidateId": "CAND-G-069-9BD54BE7",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 69,
+      "asset": "assets/source-evidence/phase21/grammar-page-069.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-069-9BD54BE7",
+      "evidenceRef": "SRC-P21-G-069",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-069-9BD54BE7-CT",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nSidewalks bustle with bankers and stockbrokers [whose / whom] decisions affect individuals, corporations, and even our nation's economy.",
+    "choices": [
+      "whom",
+      "whose"
+    ],
+    "answer": "whom",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사의 선행사와 격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사의 선행사와 격",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whose": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "'whom'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'whose'이다.",
+      "summary": [
+        "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "선행사를 찾는다",
+        "관계사 뒤 구조로 주격·소유격·목적격을 정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'whom'를 고른다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-069-9BD54BE7",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-069-9BD54BE7",
+    "sourceQuestionId": "Q-P21-G-069-9BD54BE7",
+    "sourceCandidateId": "CAND-G-069-9BD54BE7",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 69,
+      "asset": "assets/source-evidence/phase21/grammar-page-069.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-069-9BD54BE7",
+      "evidenceRef": "SRC-P21-G-069",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-069-B59FA7D2",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 2,
+    "stem": "We are going to meet the author [who / whose] story moves the hearts of people.",
+    "choices": [
+      "who",
+      "whose"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사의 선행사와 격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사의 선행사와 격",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 종류와 관계사 뒤 절의 빈자리를 함께 보지 않았다.",
+      "summary": [
+        "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "선행사를 찾는다",
+        "관계사 뒤 구조로 주격·소유격·목적격을 정한다"
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-069-8D107EF3",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-069-B59FA7D2",
+    "sourceQuestionId": "Q-P21-G-069-B59FA7D2",
+    "sourceCandidateId": "CAND-G-069-B59FA7D2",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 69,
+      "asset": "assets/source-evidence/phase21/grammar-page-069.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-069-B59FA7D2",
+      "evidenceRef": "SRC-P21-G-069",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-069-B59FA7D2-PF",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 2,
+    "stem": "We are going to meet the author [who / whose] story moves the hearts of people.",
+    "choices": [
+      "who",
+      "whose"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사의 선행사와 격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사의 선행사와 격",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 종류와 관계사 뒤 절의 빈자리를 함께 보지 않았다.",
+      "summary": [
+        "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "선행사를 찾는다",
+        "관계사 뒤 구조로 주격·소유격·목적격을 정한다"
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-069-8D107EF3",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-069-B59FA7D2",
+    "sourceQuestionId": "Q-P21-G-069-B59FA7D2",
+    "sourceCandidateId": "CAND-G-069-B59FA7D2",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 69,
+      "asset": "assets/source-evidence/phase21/grammar-page-069.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-069-B59FA7D2",
+      "evidenceRef": "SRC-P21-G-069",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-069-B59FA7D2-DR",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 2,
+    "stem": "We are going to meet the author [who / whose] story moves the hearts of people.",
+    "choices": [
+      "who",
+      "whose"
+    ],
+    "answer": "whose",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사의 선행사와 격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사의 선행사와 격",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 종류와 관계사 뒤 절의 빈자리를 함께 보지 않았다.",
+      "summary": [
+        "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "선행사를 찾는다",
+        "관계사 뒤 구조로 주격·소유격·목적격을 정한다"
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-069-8D107EF3",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-069-B59FA7D2",
+    "sourceQuestionId": "Q-P21-G-069-B59FA7D2",
+    "sourceCandidateId": "CAND-G-069-B59FA7D2",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 69,
+      "asset": "assets/source-evidence/phase21/grammar-page-069.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-069-B59FA7D2",
+      "evidenceRef": "SRC-P21-G-069",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-069-B59FA7D2-CT",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe are going to meet the author [who / whose] story moves the hearts of people.",
+    "choices": [
+      "who",
+      "whose"
+    ],
+    "answer": "who",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사의 선행사와 격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사의 선행사와 격",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whose": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "'who'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'whose'이다.",
+      "summary": [
+        "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "선행사를 찾는다",
+        "관계사 뒤 구조로 주격·소유격·목적격을 정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'who'를 고른다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-069-B59FA7D2",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-069-B59FA7D2",
+    "sourceQuestionId": "Q-P21-G-069-B59FA7D2",
+    "sourceCandidateId": "CAND-G-069-B59FA7D2",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 69,
+      "asset": "assets/source-evidence/phase21/grammar-page-069.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-069-B59FA7D2",
+      "evidenceRef": "SRC-P21-G-069",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-069-8D107EF3",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 2,
+    "stem": "The balloon moves with air [who / which] moves with Earth.",
+    "choices": [
+      "who",
+      "which"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사의 선행사와 격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사의 선행사와 격",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 종류와 관계사 뒤 절의 빈자리를 함께 보지 않았다.",
+      "summary": [
+        "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "선행사를 찾는다",
+        "관계사 뒤 구조로 주격·소유격·목적격을 정한다"
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-069-9BD54BE7",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-069-8D107EF3",
+    "sourceQuestionId": "Q-P21-G-069-8D107EF3",
+    "sourceCandidateId": "CAND-G-069-8D107EF3",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 69,
+      "asset": "assets/source-evidence/phase21/grammar-page-069.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-069-8D107EF3",
+      "evidenceRef": "SRC-P21-G-069",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-069-8D107EF3-PF",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 2,
+    "stem": "The balloon moves with air [who / which] moves with Earth.",
+    "choices": [
+      "who",
+      "which"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사의 선행사와 격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사의 선행사와 격",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 종류와 관계사 뒤 절의 빈자리를 함께 보지 않았다.",
+      "summary": [
+        "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "선행사를 찾는다",
+        "관계사 뒤 구조로 주격·소유격·목적격을 정한다"
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-069-9BD54BE7",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-069-8D107EF3",
+    "sourceQuestionId": "Q-P21-G-069-8D107EF3",
+    "sourceCandidateId": "CAND-G-069-8D107EF3",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 69,
+      "asset": "assets/source-evidence/phase21/grammar-page-069.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-069-8D107EF3",
+      "evidenceRef": "SRC-P21-G-069",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-069-8D107EF3-DR",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 2,
+    "stem": "The balloon moves with air [who / which] moves with Earth.",
+    "choices": [
+      "who",
+      "which"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사의 선행사와 격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사의 선행사와 격",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 종류와 관계사 뒤 절의 빈자리를 함께 보지 않았다.",
+      "summary": [
+        "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "선행사를 찾는다",
+        "관계사 뒤 구조로 주격·소유격·목적격을 정한다"
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-069-9BD54BE7",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-069-8D107EF3",
+    "sourceQuestionId": "Q-P21-G-069-8D107EF3",
+    "sourceCandidateId": "CAND-G-069-8D107EF3",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 69,
+      "asset": "assets/source-evidence/phase21/grammar-page-069.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-069-8D107EF3",
+      "evidenceRef": "SRC-P21-G-069",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-069-8D107EF3-CT",
+    "conceptId": "G42_RELATIVE_PRONOUN_CASE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe balloon moves with air [who / which] moves with Earth.",
+    "choices": [
+      "which",
+      "who"
+    ],
+    "answer": "who",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사의 선행사와 격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사의 선행사와 격",
+        "errorCode": "E46_RELATIVE_CASE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "errorCode": "E46_RELATIVE_CASE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E46_RELATIVE_CASE"
+    },
+    "remediation": {
+      "diagnosis": "'who'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'which'이다.",
+      "summary": [
+        "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+        "선행사를 찾는다",
+        "관계사 뒤 구조로 주격·소유격·목적격을 정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'who'를 고른다."
+      ],
+      "sourceRef": "SRC-G42",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-069-8D107EF3",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-069-8D107EF3",
+    "sourceQuestionId": "Q-P21-G-069-8D107EF3",
+    "sourceCandidateId": "CAND-G-069-8D107EF3",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 69,
+      "asset": "assets/source-evidence/phase21/grammar-page-069.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-069-8D107EF3",
+      "evidenceRef": "SRC-P21-G-069",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

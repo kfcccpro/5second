@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="#5948c8" name="theme-color"/>
+<title>펜 캘리브레이션 · JK 5초 영어</title>
+<style>
+:root{--bg:#f4f3f8;--card:#fff;--text:#17171d;--sub:#6e6d78;--line:#e4e2ea;--accent:#5948c8;--accent2:#eeeafd;--ok:#087b54;--bad:#c93434}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.wrap{max-width:850px;margin:auto;padding:max(18px,env(safe-area-inset-top)) 16px max(36px,env(safe-area-inset-bottom))}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.top a{color:var(--accent);font-weight:800;text-decoration:none}.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;margin-bottom:14px}.progress{height:8px;border-radius:999px;background:#dedbe9;overflow:hidden}.progress i{display:block;height:100%;background:var(--accent);width:0;transition:.2s}.eyebrow{font-size:12px;color:var(--accent);font-weight:900;margin:14px 0 4px}.step h1{font-size:27px;margin:0 0 8px}.step p{color:var(--sub);line-height:1.55}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.metric{background:#f7f6fa;border-radius:14px;padding:12px}.metric small{display:block;color:var(--sub)}.metric b{font-size:16px;display:block;margin-top:5px}.canvasWrap{position:relative;margin-top:12px}.guide{position:absolute;inset:12px;display:flex;align-items:center;justify-content:center;color:#b4afc1;font-weight:900;font-size:42px;pointer-events:none}canvas{width:100%;height:330px;background:#fffdf7;border:1px solid #cbc7d4;border-radius:16px;touch-action:none;display:block}.count{font-size:14px;font-weight:850;color:var(--accent);margin-top:9px}.actions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:16px}.btn{border:0;border-radius:14px;padding:14px;font-size:15px;font-weight:850;cursor:pointer}.primary{background:var(--accent);color:white}.secondary{background:#eceaf2;color:#2e2c38}.danger{background:#fff0ef;color:#b52a2a}.btn:disabled{opacity:.4}.hidden{display:none!important}.notice{background:#f0eefb;border:1px solid #ded8ff;color:#3c337f;border-radius:14px;padding:13px;line-height:1.5;font-size:13px}.testBox{height:160px;overflow:auto;border:1px solid var(--line);border-radius:14px;padding:14px;background:#fafafd;line-height:1.7;margin:10px 0}.testInk{height:180px}.checks{display:grid;gap:9px;margin-top:12px}.check{display:flex;gap:9px;align-items:flex-start;background:#f7f6fa;border-radius:12px;padding:12px}.formGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.field label{display:block;font-size:12px;font-weight:800;color:var(--sub);margin:0 0 5px}.field input,.field select{width:100%;border:1px solid var(--line);border-radius:10px;padding:11px;font:inherit}.resultTable{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:12px}.resultTable div{padding:10px 12px;background:#f7f6fa;border-radius:11px}.resultTable b{display:block;font-size:12px;color:var(--sub);margin-bottom:3px}.status{font-weight:850;color:var(--ok)}.status.bad{color:var(--bad)}@media(max-width:620px){.grid{grid-template-columns:1fr 1fr}.formGrid,.actions,.resultTable{grid-template-columns:1fr}.card{padding:18px}.step h1{font-size:24px}canvas{height:290px}}
+</style>
+<link rel="stylesheet" href="rc-core.css"><script src="firebase-pilot-config.js"></script></head>
+<body>
+<div class="wrap">
+<div class="top"><strong>JK 5초 영어 · Phase 15</strong><a href="index.html">학습앱</a></div>
+<section class="card">
+<div class="progress"><i id="progressBar"></i></div>
+<div class="eyebrow" id="stepLabel">STEP 1 / 7</div>
+<div id="stepHost"></div>
+</section>
+</div>
+<script src="auth-core.js"></script><script>JK_AUTH.requireRole('learner');</script><script src="storage.js"></script>
+<script>
+(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const params = new URLSearchParams(location.search);
+  const returnUrl = params.get('return') || 'index.html';
+  const firstRun = params.get('first') === '1';
+  const steps = ['device','slash','circle','underline','palm','conflict','review'];
+  let stepIndex = 0;
+  let state = null;
+  let activeProfile = null;
+  let canvas = null, ctx = null, drawing = false, currentStroke = [], currentPointerId = null;
+  const samples = { slash: [], circle: [], underline: [] };
+  const device = {
+    pointerTypes: new Set(), pressureMin: 1, pressureMax: 0, pressureSeen: false,
+    tiltEnabled: false, azimuthEnabled: false, altitudeEnabled: false,
+    touchContacts: 0, penContacts: 0, mouseContacts: 0
+  };
+  const testFlags = { palmOk: true, scrollOk: true, inkOk: true };
+
+  function clamp(v,min,max){return Math.max(min,Math.min(max,v))}
+  function percentile(values,p){if(!values.length)return 0;const a=[...values].sort((x,y)=>x-y),i=(a.length-1)*p,l=Math.floor(i),h=Math.ceil(i);return l===h?a[l]:a[l]+(a[h]-a[l])*(i-l)}
+  function acuteAngle(dx,dy){let a=Math.abs(Math.atan2(-dy,dx)*180/Math.PI)%180;return a>90?180-a:a}
+  function geometry(points){if(points.length<2)return null;let minx=1,miny=1,maxx=0,maxy=0,len=0;for(let i=0;i<points.length;i++){const p=points[i];minx=Math.min(minx,p.x);miny=Math.min(miny,p.y);maxx=Math.max(maxx,p.x);maxy=Math.max(maxy,p.y);if(i)len+=Math.hypot(p.x-points[i-1].x,p.y-points[i-1].y)}const f=points[0],l=points[points.length-1];return{w:maxx-minx,h:maxy-miny,len,close:Math.hypot(f.x-l.x,f.y-l.y),dx:l.x-f.x,dy:l.y-f.y}}
+  function deviceValue(){return window.JK_STORAGE.detectDeviceLabel()}
+  function recordDeviceEvent(e){
+    const type=e.pointerType||'unknown';device.pointerTypes.add(type);
+    if(type==='pen')device.penContacts++;else if(type==='touch')device.touchContacts++;else if(type==='mouse')device.mouseContacts++;
+    const pressure=Number(e.pressure||0);if(pressure>0){device.pressureSeen=true;device.pressureMin=Math.min(device.pressureMin,pressure);device.pressureMax=Math.max(device.pressureMax,pressure)}
+    if(Math.abs(Number(e.tiltX||0))+Math.abs(Number(e.tiltY||0))>0)device.tiltEnabled=true;
+    if('azimuthAngle' in e && Number(e.azimuthAngle||0)!==0)device.azimuthEnabled=true;
+    if('altitudeAngle' in e && Number(e.altitudeAngle||0)!==0)device.altitudeEnabled=true;
+    const typeEl=$('liveType'),pressureEl=$('livePressure'),tiltEl=$('liveTilt'),angleEl=$('liveAngle');
+    if(typeEl)typeEl.textContent=type;if(pressureEl)pressureEl.textContent=pressure.toFixed(3);if(tiltEl)tiltEl.textContent=`${e.tiltX||0} / ${e.tiltY||0}`;if(angleEl)angleEl.textContent=`${Number(e.altitudeAngle||0).toFixed(2)} / ${Number(e.azimuthAngle||0).toFixed(2)}`;
+  }
+  function canvasPoint(e){const r=canvas.getBoundingClientRect();return{x:(e.clientX-r.left)/r.width,y:(e.clientY-r.top)/r.height,p:Number(e.pressure||.5)}}
+  function sizeCanvas(){if(!canvas)return;const r=canvas.getBoundingClientRect(),d=Math.max(1,Math.min(3,devicePixelRatio||1));canvas.width=Math.round(r.width*d);canvas.height=Math.round(r.height*d);ctx=canvas.getContext('2d');ctx.setTransform(d,0,0,d,0,0);redrawSamples()}
+  function drawStroke(points,color='#3425b7'){if(!ctx||points.length<2)return;const r=canvas.getBoundingClientRect();ctx.save();ctx.strokeStyle=color;ctx.lineWidth=3;ctx.lineCap='round';ctx.lineJoin='round';ctx.beginPath();ctx.moveTo(points[0].x*r.width,points[0].y*r.height);for(let i=1;i<points.length;i++)ctx.lineTo(points[i].x*r.width,points[i].y*r.height);ctx.stroke();ctx.restore()}
+  function redrawSamples(){if(!ctx||!canvas)return;const r=canvas.getBoundingClientRect();ctx.clearRect(0,0,r.width,r.height);const key=steps[stepIndex];for(const s of samples[key]||[])drawStroke(s,'#9489c9');drawStroke(currentStroke)}
+  function attachCanvas(mode){
+    canvas=$('sampleCanvas');if(!canvas)return;ctx=canvas.getContext('2d');sizeCanvas();
+    canvas.onpointerdown=e=>{recordDeviceEvent(e);if(mode==='palm'&&e.pointerType==='touch'){e.preventDefault();updatePalm();return}e.preventDefault();drawing=true;currentPointerId=e.pointerId;currentStroke=[canvasPoint(e)];canvas.setPointerCapture?.(e.pointerId);redrawSamples()};
+    canvas.onpointermove=e=>{recordDeviceEvent(e);if(!drawing||e.pointerId!==currentPointerId)return;e.preventDefault();for(const ev of(e.getCoalescedEvents?.()||[e]))currentStroke.push(canvasPoint(ev));redrawSamples()};
+    const finish=e=>{recordDeviceEvent(e);if(!drawing||e.pointerId!==currentPointerId)return;e.preventDefault();currentStroke.push(canvasPoint(e));drawing=false;const g=geometry(currentStroke);if(mode==='device'){currentStroke=[];redrawSamples();updateDevicePanel();return}if(mode==='palm'){currentStroke=[];redrawSamples();updatePalm();return}if(g&&currentStroke.length>=3&&(samples[mode]||[]).length<5){samples[mode].push(currentStroke)}currentStroke=[];redrawSamples();updateSampleCount(mode)};
+    canvas.onpointerup=finish;canvas.onpointercancel=finish;
+  }
+  function updateDevicePanel(){const next=$('nextBtn');if(next)next.disabled=device.pointerTypes.size===0}
+  function updateSampleCount(mode){const count=(samples[mode]||[]).length;const el=$('sampleCount');if(el)el.textContent=`${count} / 5회`;const next=$('nextBtn');if(next)next.disabled=count<5}
+  function updatePalm(){const el=$('palmStats');if(el)el.textContent=`pen ${device.penContacts} · touch ${device.touchContacts} · mouse ${device.mouseContacts}`;const next=$('nextBtn');if(next)next.disabled=false}
+  function deriveProfile(){
+    const slashGeo=samples.slash.map(geometry).filter(Boolean),circleGeo=samples.circle.map(geometry).filter(Boolean),underlineGeo=samples.underline.map(geometry).filter(Boolean);
+    const slashAngles=slashGeo.map(g=>acuteAngle(g.dx,g.dy));
+    const slashLengths=slashGeo.map(g=>g.len);
+    const closure=circleGeo.map(g=>g.close/Math.max(g.len,.001));
+    const circleSpan=circleGeo.map(g=>Math.min(g.w,g.h));
+    const underlineAspect=underlineGeo.map(g=>g.w/Math.max(g.h,.004));
+    const underlineAngles=underlineGeo.map(g=>acuteAngle(g.dx,g.dy));
+    const base=window.JK_STORAGE.defaultProfile();
+    return {
+      ...base,
+      ...(activeProfile||{}),
+      profileId:window.JK_STORAGE.deviceProfileId(deviceValue()),
+      deviceLabel:deviceValue(),
+      pointerTypes:[...device.pointerTypes],
+      pressureEnabled:device.pressureSeen&&device.pressureMax>device.pressureMin,
+      pressureMin:device.pressureSeen?Number(device.pressureMin.toFixed(3)):0,
+      pressureMax:device.pressureSeen?Number(Math.max(device.pressureMax,.01).toFixed(3)):1,
+      tiltEnabled:device.tiltEnabled,
+      azimuthEnabled:device.azimuthEnabled,
+      altitudeEnabled:device.altitudeEnabled,
+      slashAngleMin:Number(clamp(percentile(slashAngles,.1)-12,20,70).toFixed(1)),
+      slashAngleMax:Number(clamp(percentile(slashAngles,.9)+12,50,90).toFixed(1)),
+      slashLengthMin:Number(clamp(percentile(slashLengths,.1)*.65,.018,.09).toFixed(3)),
+      circleClosureRatio:Number(clamp(Math.max(...closure,base.circleClosureRatio)*1.25,.08,.35).toFixed(3)),
+      circleMinSpan:Number(clamp(percentile(circleSpan,.1)*.65,.02,.09).toFixed(3)),
+      underlineAspectMin:Number(clamp(percentile(underlineAspect,.2)*.65,2.2,8).toFixed(2)),
+      underlineAngleMax:Number(clamp(percentile(underlineAngles,.9)+8,12,32).toFixed(1)),
+      palmGuard:testFlags.palmOk,
+      scrollInkConflict:!(testFlags.scrollOk&&testFlags.inkOk),
+      calibrationStatus:'auto-calibrated',
+      calibratedAt:new Date().toISOString(),
+      schemaVersion:15
+    }
+  }
+  function stepShell(title,description,body,options={}){
+    $('stepLabel').textContent=`STEP ${stepIndex+1} / ${steps.length}`;$('progressBar').style.width=`${((stepIndex+1)/steps.length)*100}%`;
+    $('stepHost').innerHTML=`<div class="step"><h1>${title}</h1><p>${description}</p>${body}<div class="actions"><button class="btn secondary" id="prevBtn">이전</button><button class="btn primary" id="nextBtn">${options.nextLabel||'다음'}</button></div>${firstRun&&stepIndex===0?'<button class="btn danger" id="skipBtn" style="width:100%;margin-top:9px">기본값으로 건너뛰기</button>':''}</div>`;
+    $('prevBtn').disabled=stepIndex===0;$('prevBtn').onclick=()=>{stepIndex--;renderStep()};$('nextBtn').onclick=()=>advance();
+    if($('skipBtn'))$('skipBtn').onclick=skipCalibration;
+  }
+  function renderStep(){
+    const key=steps[stepIndex];
+    if(key==='device'){
+      stepShell('입력 장치 확인','아래 영역을 펜, 손가락 또는 마우스로 한 번씩 입력합니다. 브라우저가 전달하는 pointerType, 압력, 기울기와 방위각 지원 여부를 수집합니다.',`<div class="grid"><div class="metric"><small>기기</small><b>${deviceValue()}</b></div><div class="metric"><small>입력 종류</small><b id="liveType">-</b></div><div class="metric"><small>압력</small><b id="livePressure">-</b></div><div class="metric"><small>기울기 X/Y</small><b id="liveTilt">-</b></div><div class="metric"><small>고도/방위각</small><b id="liveAngle">-</b></div><div class="metric"><small>저장 계층</small><b>${state.mode}</b></div></div><div class="canvasWrap"><div class="guide">입력 시험</div><canvas id="sampleCanvas"></canvas></div>`);
+      $('nextBtn').disabled=device.pointerTypes.size===0;attachCanvas('device');return;
+    }
+    if(['slash','circle','underline'].includes(key)){
+      const labels={slash:['/ 표식 5회','평소 속도로 문장 경계를 나눌 때 쓰는 /를 5번 그립니다.','／'],circle:['동그라미 5회','핵심 표지를 표시하듯 단어를 감싸는 동그라미를 5번 그립니다.','○'],underline:['밑줄 5회','핵심어 아래에 긋는 밑줄을 5번 그립니다.','＿']};const [title,desc,guide]=labels[key];
+      stepShell(title,desc,`<div class="notice">매 샘플은 펜을 떼면 1회로 기록됩니다. 잘못 그린 경우 ‘현재 단계 다시 쓰기’를 누릅니다.</div><div class="canvasWrap"><div class="guide">${guide}</div><canvas id="sampleCanvas"></canvas></div><div class="count" id="sampleCount">${samples[key].length} / 5회</div><button class="btn secondary" id="clearSamples" style="width:100%;margin-top:8px">현재 단계 다시 쓰기</button>`);
+      $('nextBtn').disabled=samples[key].length<5;$('clearSamples').onclick=()=>{samples[key]=[];redrawSamples();updateSampleCount(key)};attachCanvas(key);return;
+    }
+    if(key==='palm'){
+      stepShell('팜리젝션 시험','펜 우선 모드에서 손바닥을 화면에 댄 상태로 펜으로 짧게 써 봅니다. touch 입력은 기록하지 않고 pen 입력만 필기로 처리합니다.',`<div class="canvasWrap"><div class="guide">손바닥 + 펜</div><canvas id="sampleCanvas" class="testInk"></canvas></div><div class="notice" id="palmStats">pen ${device.penContacts} · touch ${device.touchContacts} · mouse ${device.mouseContacts}</div><div class="checks"><label class="check"><input type="checkbox" id="palmOk" checked><span><b>팜리젝션 정상</b><br>손바닥 접촉으로 의도하지 않은 선이 생기지 않았습니다.</span></label></div>`);
+      $('palmOk').onchange=e=>testFlags.palmOk=e.target.checked;attachCanvas('palm');$('nextBtn').disabled=false;return;
+    }
+    if(key==='conflict'){
+      stepShell('스크롤·필기 충돌 시험','아래 회색 영역은 손가락으로 스크롤하고, 노란 영역은 펜으로 필기합니다. 두 동작이 서로 방해하지 않는지 확인합니다.',`<div class="testBox" id="scrollBox"><b>손가락 스크롤 시험</b><p>이 영역을 위아래로 스크롤합니다.</p><p>표지 발견 → 자리 판단 → 구조 확인 → 관계 확인 → 이분법적 선택 → 정답 결정 → 교재 복귀 → 재도전</p><p>손가락 이동이 펜 필기로 오인되지 않아야 합니다.</p><p>다시 위로 스크롤하여 시험을 마칩니다.</p></div><div class="canvasWrap"><div class="guide">펜 필기</div><canvas id="sampleCanvas" class="testInk"></canvas></div><div class="checks"><label class="check"><input type="checkbox" id="scrollOk" checked><span><b>손가락 스크롤 정상</b><br>스크롤이 막히거나 필기로 오인되지 않았습니다.</span></label><label class="check"><input type="checkbox" id="inkOk" checked><span><b>펜 필기 정상</b><br>필기 중 페이지가 움직이지 않았습니다.</span></label></div>`);
+      $('scrollOk').onchange=e=>testFlags.scrollOk=e.target.checked;$('inkOk').onchange=e=>testFlags.inkOk=e.target.checked;attachCanvas('palm');$('nextBtn').disabled=false;return;
+    }
+    const profile=deriveProfile();activeProfile=profile;
+    stepShell('프로필 확인·수동 조정','자동 산출된 길이·각도·폐곡선 임계값을 확인합니다. 필요하면 값을 조정한 뒤 저장합니다.',`<div class="resultTable"><div><b>기기</b>${profile.deviceLabel}</div><div><b>입력 종류</b>${profile.pointerTypes.join(', ')||'미감지'}</div><div><b>압력 범위</b>${profile.pressureMin} ~ ${profile.pressureMax}</div><div><b>기울기·방위각</b>${profile.tiltEnabled?'기울기 지원':'기울기 미감지'} / ${profile.azimuthEnabled?'방위각 지원':'방위각 미감지'}</div></div><div class="formGrid" style="margin-top:14px"><div class="field"><label>slashAngleMin</label><input id="slashMin" type="number" step="0.1" value="${profile.slashAngleMin}"></div><div class="field"><label>slashAngleMax</label><input id="slashMax" type="number" step="0.1" value="${profile.slashAngleMax}"></div><div class="field"><label>slashLengthMin</label><input id="slashLength" type="number" step="0.001" value="${profile.slashLengthMin}"></div><div class="field"><label>circleClosureRatio</label><input id="circleClosure" type="number" step="0.001" value="${profile.circleClosureRatio}"></div><div class="field"><label>circleMinSpan</label><input id="circleSpan" type="number" step="0.001" value="${profile.circleMinSpan}"></div><div class="field"><label>underlineAspectMin</label><input id="underlineAspect" type="number" step="0.1" value="${profile.underlineAspectMin}"></div><div class="field"><label>underlineAngleMax</label><input id="underlineAngle" type="number" step="0.1" value="${profile.underlineAngleMax}"></div><div class="field"><label>툴바 위치</label><select id="toolbarPosition"><option value="top">상단</option><option value="bottom">하단</option></select></div></div><div class="checks"><label class="check"><input id="palmGuard" type="checkbox" ${profile.palmGuard?'checked':''}><span><b>팜가드 사용</b><br>touch 입력을 필기에서 제외합니다.</span></label><label class="check"><input id="leftHanded" type="checkbox" ${profile.leftHanded?'checked':''}><span><b>왼손잡이</b><br>향후 툴바 배치에 사용합니다.</span></label></div><div class="notice" id="saveStatus">프로필은 IndexedDB에 사용자별로 저장되며 설정 변경 시 자동 백업됩니다.</div><button class="btn secondary" id="restoreDefault" style="width:100%;margin-top:9px">기본값 복원</button>`,{nextLabel:'프로필 저장'});
+    $('toolbarPosition').value=profile.toolbarPosition||'top';$('restoreDefault').onclick=restoreDefault;
+  }
+  async function skipCalibration(){
+    if(!confirm('자동 캘리브레이션을 건너뛰고 안전한 기본값을 사용하시겠습니까?'))return;
+    const profile=window.JK_STORAGE.defaultProfile({profileId:window.JK_STORAGE.deviceProfileId(deviceValue()),deviceLabel:deviceValue(),calibrationStatus:'default-skipped',calibratedAt:new Date().toISOString(),pointerTypes:[...device.pointerTypes]});
+    await window.JK_STORAGE.saveProfile(profile);location.replace(returnUrl);
+  }
+  async function restoreDefault(){
+    const profile=await window.JK_STORAGE.resetProfile(window.JK_STORAGE.deviceProfileId(deviceValue()),{deviceLabel:deviceValue()});activeProfile=profile;
+    $('saveStatus').textContent='기본값을 저장했습니다. 학습앱으로 이동합니다.';setTimeout(()=>location.replace(returnUrl),350);
+  }
+  function reviewValues(){
+    return {...activeProfile,slashAngleMin:Number($('slashMin').value),slashAngleMax:Number($('slashMax').value),slashLengthMin:Number($('slashLength').value),circleClosureRatio:Number($('circleClosure').value),circleMinSpan:Number($('circleSpan').value),underlineAspectMin:Number($('underlineAspect').value),underlineAngleMax:Number($('underlineAngle').value),palmGuard:$('palmGuard').checked,leftHanded:$('leftHanded').checked,toolbarPosition:$('toolbarPosition').value,calibrationStatus:'calibrated',calibratedAt:new Date().toISOString(),schemaVersion:15}
+  }
+  async function advance(){
+    if(stepIndex===steps.length-1){
+      try{$('nextBtn').disabled=true;$('saveStatus').textContent='프로필 저장 중...';const profile=reviewValues();await window.JK_STORAGE.saveProfile(profile);await window.JK_STORAGE.updateSettings({penOnly:profile.palmGuard});$('saveStatus').innerHTML='<span class="status">저장 완료</span> · 학습앱으로 이동합니다.';setTimeout(()=>location.replace(returnUrl),300)}catch(e){$('nextBtn').disabled=false;$('saveStatus').innerHTML=`<span class="status bad">저장 실패</span> · ${e.message}`}
+      return;
+    }
+    stepIndex++;renderStep();
+  }
+  async function boot(){state=await window.JK_STORAGE.init();activeProfile=state.profile;renderStep();addEventListener('resize',()=>sizeCanvas())}
+  boot().catch(e=>{$('stepHost').innerHTML=`<div class="step"><h1>저장소 초기화 실패</h1><p>${e.message}</p></div>`});
+})();
+</script>
+<script src="rc-core.js"></script></body>
+</html>

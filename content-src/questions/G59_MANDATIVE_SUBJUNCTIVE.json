@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G59-001",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "I advised that he (talk / talks) to the boss about the problem.",
+    "choices": [
+      "talk",
+      "talks"
+    ],
+    "answer": "talk",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "advised의 의미는?",
+        "answer": "조언·요구의 당위성",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "talk",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "talks": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "조언·요구의 당위성.",
+        "(should)+동사원형.",
+        "따라서 talk를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-001",
+    "sourceQuestionId": "Q-G59-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-002",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "The committee demanded that the payment (be / is) made immediately.",
+    "choices": [
+      "be",
+      "is"
+    ],
+    "answer": "be",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "demanded의 의미는?",
+        "answer": "요구",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "be동사 원형은?",
+        "answer": "be",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "요구.",
+        "(should)+동사원형.",
+        "따라서 be를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-002",
+    "sourceQuestionId": "Q-G59-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-003",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "The doctor recommended that she (take / takes) a short rest.",
+    "choices": [
+      "take",
+      "takes"
+    ],
+    "answer": "take",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "recommended의 의미는?",
+        "answer": "권고",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "take",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "takes": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "권고.",
+        "(should)+동사원형.",
+        "따라서 take를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-003",
+    "sourceQuestionId": "Q-G59-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-004",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "The officer ordered that the gates (remain / remained) closed.",
+    "choices": [
+      "remain",
+      "remained"
+    ],
+    "answer": "remain",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "ordered의 의미는?",
+        "answer": "명령",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "remain",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "remained": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "명령.",
+        "(should)+동사원형.",
+        "따라서 remain를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-004",
+    "sourceQuestionId": "Q-G59-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-005",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "Many witnesses insisted that the accident (took / take) place on the crosswalk.",
+    "choices": [
+      "took",
+      "take"
+    ],
+    "answer": "took",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "insisted의 의미는?",
+        "answer": "사실이 그렇다고 주장",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "exception",
+        "prompt": "당위성을 나타내는가?",
+        "answer": "아니다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 시제는?",
+        "answer": "일반 과거 took",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "take": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "사실이 그렇다고 주장.",
+        "아니다.",
+        "따라서 took를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-005",
+    "sourceQuestionId": "Q-G59-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-006",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "Research suggests that women (are / be) generally more inclined to feel empathy.",
+    "choices": [
+      "are",
+      "be"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "suggests의 의미는?",
+        "answer": "암시·시사",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "exception",
+        "prompt": "제안의 당위성을 나타내는가?",
+        "answer": "아니다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "일반 시제 are",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "암시·시사.",
+        "아니다.",
+        "따라서 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-006",
+    "sourceQuestionId": "Q-G59-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-007",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "She proposed that the meeting (start / starts) at nine.",
+    "choices": [
+      "start",
+      "starts"
+    ],
+    "answer": "start",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "proposed의 의미는?",
+        "answer": "제안",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "start",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "starts": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "제안.",
+        "(should)+동사원형.",
+        "따라서 start를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-007",
+    "sourceQuestionId": "Q-G59-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-008",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "The evidence suggests that the method (works / work) well.",
+    "choices": [
+      "works",
+      "work"
+    ],
+    "answer": "works",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "suggests의 의미는?",
+        "answer": "증거가 암시한다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "exception",
+        "prompt": "제안의 당위성인가?",
+        "answer": "아니다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "주어 the method에 맞는 일반 시제는?",
+        "answer": "works",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "work": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "증거가 암시한다.",
+        "아니다.",
+        "따라서 works를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-008",
+    "sourceQuestionId": "Q-G59-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-001-PF",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "I advised that he (talk / talks) to the boss about the problem.",
+    "choices": [
+      "talk",
+      "talks"
+    ],
+    "answer": "talk",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "advised의 의미는?",
+        "answer": "조언·요구의 당위성",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "talk",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "talks": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "조언·요구의 당위성.",
+        "(should)+동사원형.",
+        "따라서 talk를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-001",
+    "sourceQuestionId": "Q-G59-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-002-PF",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "The committee demanded that the payment (be / is) made immediately.",
+    "choices": [
+      "be",
+      "is"
+    ],
+    "answer": "be",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "demanded의 의미는?",
+        "answer": "요구",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "be동사 원형은?",
+        "answer": "be",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "요구.",
+        "(should)+동사원형.",
+        "따라서 be를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-002",
+    "sourceQuestionId": "Q-G59-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-003-PF",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "The doctor recommended that she (take / takes) a short rest.",
+    "choices": [
+      "take",
+      "takes"
+    ],
+    "answer": "take",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "recommended의 의미는?",
+        "answer": "권고",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "take",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "takes": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "권고.",
+        "(should)+동사원형.",
+        "따라서 take를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-003",
+    "sourceQuestionId": "Q-G59-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-004-PF",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "The officer ordered that the gates (remain / remained) closed.",
+    "choices": [
+      "remain",
+      "remained"
+    ],
+    "answer": "remain",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "ordered의 의미는?",
+        "answer": "명령",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "remain",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "remained": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "명령.",
+        "(should)+동사원형.",
+        "따라서 remain를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-004",
+    "sourceQuestionId": "Q-G59-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-005-PF",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "Many witnesses insisted that the accident (took / take) place on the crosswalk.",
+    "choices": [
+      "took",
+      "take"
+    ],
+    "answer": "took",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "insisted의 의미는?",
+        "answer": "사실이 그렇다고 주장",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "exception",
+        "prompt": "당위성을 나타내는가?",
+        "answer": "아니다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 시제는?",
+        "answer": "일반 과거 took",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "take": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "사실이 그렇다고 주장.",
+        "아니다.",
+        "따라서 took를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-005",
+    "sourceQuestionId": "Q-G59-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-006-PF",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "Research suggests that women (are / be) generally more inclined to feel empathy.",
+    "choices": [
+      "are",
+      "be"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "suggests의 의미는?",
+        "answer": "암시·시사",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "exception",
+        "prompt": "제안의 당위성을 나타내는가?",
+        "answer": "아니다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "일반 시제 are",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "암시·시사.",
+        "아니다.",
+        "따라서 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-006",
+    "sourceQuestionId": "Q-G59-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-007-PF",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "She proposed that the meeting (start / starts) at nine.",
+    "choices": [
+      "start",
+      "starts"
+    ],
+    "answer": "start",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "proposed의 의미는?",
+        "answer": "제안",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "start",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "starts": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "제안.",
+        "(should)+동사원형.",
+        "따라서 start를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-007",
+    "sourceQuestionId": "Q-G59-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-008-PF",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "The evidence suggests that the method (works / work) well.",
+    "choices": [
+      "works",
+      "work"
+    ],
+    "answer": "works",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "suggests의 의미는?",
+        "answer": "증거가 암시한다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "exception",
+        "prompt": "제안의 당위성인가?",
+        "answer": "아니다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "주어 the method에 맞는 일반 시제는?",
+        "answer": "works",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "work": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "증거가 암시한다.",
+        "아니다.",
+        "따라서 works를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-008",
+    "sourceQuestionId": "Q-G59-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-001-DR",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "I advised that he (talk / talks) to the boss about the problem.",
+    "choices": [
+      "talk",
+      "talks"
+    ],
+    "answer": "talk",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "advised의 의미는?",
+        "answer": "조언·요구의 당위성",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "talk",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "talks": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "조언·요구의 당위성.",
+        "(should)+동사원형.",
+        "따라서 talk를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-001",
+    "sourceQuestionId": "Q-G59-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-002-DR",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "The committee demanded that the payment (be / is) made immediately.",
+    "choices": [
+      "be",
+      "is"
+    ],
+    "answer": "be",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "demanded의 의미는?",
+        "answer": "요구",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "be동사 원형은?",
+        "answer": "be",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "요구.",
+        "(should)+동사원형.",
+        "따라서 be를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-002",
+    "sourceQuestionId": "Q-G59-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-003-DR",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "The doctor recommended that she (take / takes) a short rest.",
+    "choices": [
+      "take",
+      "takes"
+    ],
+    "answer": "take",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "recommended의 의미는?",
+        "answer": "권고",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "take",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "takes": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "권고.",
+        "(should)+동사원형.",
+        "따라서 take를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-003",
+    "sourceQuestionId": "Q-G59-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-004-DR",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "The officer ordered that the gates (remain / remained) closed.",
+    "choices": [
+      "remain",
+      "remained"
+    ],
+    "answer": "remain",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "ordered의 의미는?",
+        "answer": "명령",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "remain",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "remained": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "명령.",
+        "(should)+동사원형.",
+        "따라서 remain를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-004",
+    "sourceQuestionId": "Q-G59-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-005-DR",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "Many witnesses insisted that the accident (took / take) place on the crosswalk.",
+    "choices": [
+      "took",
+      "take"
+    ],
+    "answer": "took",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "insisted의 의미는?",
+        "answer": "사실이 그렇다고 주장",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "exception",
+        "prompt": "당위성을 나타내는가?",
+        "answer": "아니다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 시제는?",
+        "answer": "일반 과거 took",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "take": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "사실이 그렇다고 주장.",
+        "아니다.",
+        "따라서 took를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-005",
+    "sourceQuestionId": "Q-G59-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-006-DR",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "Research suggests that women (are / be) generally more inclined to feel empathy.",
+    "choices": [
+      "are",
+      "be"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "suggests의 의미는?",
+        "answer": "암시·시사",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "exception",
+        "prompt": "제안의 당위성을 나타내는가?",
+        "answer": "아니다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "일반 시제 are",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "암시·시사.",
+        "아니다.",
+        "따라서 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-006",
+    "sourceQuestionId": "Q-G59-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-007-DR",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "She proposed that the meeting (start / starts) at nine.",
+    "choices": [
+      "start",
+      "starts"
+    ],
+    "answer": "start",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "proposed의 의미는?",
+        "answer": "제안",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "start",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "starts": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "제안.",
+        "(should)+동사원형.",
+        "따라서 start를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-007",
+    "sourceQuestionId": "Q-G59-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-008-DR",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "The evidence suggests that the method (works / work) well.",
+    "choices": [
+      "works",
+      "work"
+    ],
+    "answer": "works",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "suggests의 의미는?",
+        "answer": "증거가 암시한다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "exception",
+        "prompt": "제안의 당위성인가?",
+        "answer": "아니다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "주어 the method에 맞는 일반 시제는?",
+        "answer": "works",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "work": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "주절 동사의 당위성 의미와 사실 주장·암시 의미를 구별하지 않았다.",
+      "summary": [
+        "증거가 암시한다.",
+        "아니다.",
+        "따라서 works를 선택한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-008",
+    "sourceQuestionId": "Q-G59-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-001-CT",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI advised that he (talk / talks) to the boss about the problem.",
+    "choices": [
+      "talks",
+      "talk"
+    ],
+    "answer": "talks",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "advised의 의미는?",
+        "answer": "조언·요구의 당위성",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "talk",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "talk": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'talks'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'talk'이다.",
+      "summary": [
+        "조언·요구의 당위성.",
+        "(should)+동사원형.",
+        "따라서 talk를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'talks'이다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-001",
+    "sourceQuestionId": "Q-G59-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-002-CT",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe committee demanded that the payment (be / is) made immediately.",
+    "choices": [
+      "is",
+      "be"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "demanded의 의미는?",
+        "answer": "요구",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "be동사 원형은?",
+        "answer": "be",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'is'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'be'이다.",
+      "summary": [
+        "요구.",
+        "(should)+동사원형.",
+        "따라서 be를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'is'이다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-002",
+    "sourceQuestionId": "Q-G59-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-003-CT",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe doctor recommended that she (take / takes) a short rest.",
+    "choices": [
+      "take",
+      "takes"
+    ],
+    "answer": "takes",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "recommended의 의미는?",
+        "answer": "권고",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "take",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "take": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'takes'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'take'이다.",
+      "summary": [
+        "권고.",
+        "(should)+동사원형.",
+        "따라서 take를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'takes'이다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-003",
+    "sourceQuestionId": "Q-G59-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-004-CT",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe officer ordered that the gates (remain / remained) closed.",
+    "choices": [
+      "remained",
+      "remain"
+    ],
+    "answer": "remained",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "ordered의 의미는?",
+        "answer": "명령",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "remain",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "remain": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'remained'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'remain'이다.",
+      "summary": [
+        "명령.",
+        "(should)+동사원형.",
+        "따라서 remain를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'remained'이다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-004",
+    "sourceQuestionId": "Q-G59-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-005-CT",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nMany witnesses insisted that the accident (took / take) place on the crosswalk.",
+    "choices": [
+      "take",
+      "took"
+    ],
+    "answer": "take",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "insisted의 의미는?",
+        "answer": "사실이 그렇다고 주장",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "exception",
+        "prompt": "당위성을 나타내는가?",
+        "answer": "아니다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 시제는?",
+        "answer": "일반 과거 took",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "took": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'take'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'took'이다.",
+      "summary": [
+        "사실이 그렇다고 주장.",
+        "아니다.",
+        "따라서 took를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'take'이다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-005",
+    "sourceQuestionId": "Q-G59-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-006-CT",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nResearch suggests that women (are / be) generally more inclined to feel empathy.",
+    "choices": [
+      "are",
+      "be"
+    ],
+    "answer": "be",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "suggests의 의미는?",
+        "answer": "암시·시사",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "exception",
+        "prompt": "제안의 당위성을 나타내는가?",
+        "answer": "아니다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "일반 시제 are",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'be'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'are'이다.",
+      "summary": [
+        "암시·시사.",
+        "아니다.",
+        "따라서 are를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'be'이다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-006",
+    "sourceQuestionId": "Q-G59-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-007-CT",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe proposed that the meeting (start / starts) at nine.",
+    "choices": [
+      "start",
+      "starts"
+    ],
+    "answer": "starts",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "proposed의 의미는?",
+        "answer": "제안",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "rule",
+        "prompt": "that절 형태는?",
+        "answer": "(should)+동사원형",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "start",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "start": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'starts'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'start'이다.",
+      "summary": [
+        "제안.",
+        "(should)+동사원형.",
+        "따라서 start를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'starts'이다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-007",
+    "sourceQuestionId": "Q-G59-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G59-008-CT",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe evidence suggests that the method (works / work) well.",
+    "choices": [
+      "work",
+      "works"
+    ],
+    "answer": "work",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "suggests의 의미는?",
+        "answer": "증거가 암시한다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "exception",
+        "prompt": "제안의 당위성인가?",
+        "answer": "아니다",
+        "errorCode": "E63_MANDATIVE"
+      },
+      {
+        "id": "choice",
+        "prompt": "주어 the method에 맞는 일반 시제는?",
+        "answer": "works",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "works": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'work'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'works'이다.",
+      "summary": [
+        "증거가 암시한다.",
+        "아니다.",
+        "따라서 works를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'work'이다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G59-008",
+    "sourceQuestionId": "Q-G59-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-D6A4688378",
+    "conceptId": "G59_MANDATIVE_SUBJUNCTIVE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 당위성 that절에서 should가 생략되면 무엇이 남는가?",
+    "choices": [
+      "동사원형",
+      "과거형"
+    ],
+    "answer": "동사원형",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "주장·명령·요구·제안·권고의 당위성을 나타내는 that절에는 (should)+동사원형을 쓰며 should는 생략할 수 있다. 사실 주장·암시 의미이면 일반 시제를 쓴다.",
+          "이미 했어야 할 일에는 It is (high/about) time + S + 과거형 또는 should + 동사원형을 쓰고, 단순한 때에는 for+목적격+to-V를 쓴다."
+        ],
+        "answer": "주장·명령·요구·제안·권고의 당위성을 나타내는 that절에는 (should)+동사원형을 쓰며 should는 생략할 수 있다. 사실 주장·암시 의미이면 일반 시제를 쓴다.",
+        "errorCode": "E63_MANDATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "과거형": "E63_MANDATIVE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "주장·명령·요구·제안·권고의 당위성을 나타내는 that절에는 (should)+동사원형을 쓰며 should는 생략할 수 있다. 사실 주장·암시 의미이면 일반 시제를 쓴다.",
+        "조언·요구의 당위성.",
+        "(should)+동사원형.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G59",
+      "checkQuestion": {
+        "prompt": "당위성 that절에서 should가 생략되면 무엇이 남는가?",
+        "choices": [
+          "동사원형",
+          "과거형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G59-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART6",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-D6A4688378",
+    "sourceQuestionId": "Q-G59-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

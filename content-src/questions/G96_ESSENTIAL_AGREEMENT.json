@@ -1,0 +1,3918 @@
+[
+  {
+    "id": "Q-R7-5-01",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "questionType": "review_source_choice",
+    "setLabel": "필수 어법 5",
+    "stem": "Some of the books (has / have) been damaged.",
+    "choices": [
+      "has",
+      "have"
+    ],
+    "answer": "have",
+    "sourcePreviewRef": "SRC-R7-AGREEMENT",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "부분사+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "of 뒤 명사는 books이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "복수 동사 have가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "Some of는 부분사 구조이다.",
+        "of 뒤의 books가 복수이다.",
+        "복수 동사 have를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「have」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-5-01",
+    "sourceQuestionId": "Q-R7-5-01",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-02",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "필수 어법 5",
+    "stem": "Most of the water (is / are) clean.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "부분사+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "of 뒤 명사는 water이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "단수 동사 is가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "Most of는 부분사 구조이다.",
+        "of 뒤의 water는 단수 취급한다.",
+        "단수 동사 is를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「is」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-5-02",
+    "sourceQuestionId": "Q-R7-5-02",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-03",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "필수 어법 5",
+    "stem": "Purchasing designer goods (enable / enables) people to hide behind an image.",
+    "choices": [
+      "enable",
+      "enables"
+    ],
+    "answer": "enables",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "문장 첫 주어 덩어리는 Purchasing designer goods이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "동명사구는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "enables가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "enable": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "주어는 동명사구 Purchasing designer goods이다.",
+        "동명사구 주어는 단수 취급한다.",
+        "단수 동사 enables를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「enables」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-5-03",
+    "sourceQuestionId": "Q-R7-5-03",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-04",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "필수 어법 5",
+    "stem": "What we need (is / are) more time.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "주어는 명사절 What we need이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "명사절은 단수 취급한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "is가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "주어는 What we need라는 명사절이다.",
+        "명사절 주어는 단수 취급한다.",
+        "단수 동사 is를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「is」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-5-04",
+    "sourceQuestionId": "Q-R7-5-04",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-05",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "필수 어법 5",
+    "stem": "Two-thirds of the students (was / were) present.",
+    "choices": [
+      "was",
+      "were"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "분수+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "of 뒤 명사는 students이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "were가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "분수+of 구조이다.",
+        "of 뒤의 students가 복수이다.",
+        "복수 동사 were를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「were」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-5-05",
+    "sourceQuestionId": "Q-R7-5-05",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-06",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "필수 어법 5",
+    "stem": "A battery that has not been used for months (needs / need) charging.",
+    "choices": [
+      "needs",
+      "need"
+    ],
+    "answer": "needs",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "중심 주어를 먼저 찾는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "중심 주어 A battery는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "needs가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "need": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "중심 주어는 A battery이다.",
+        "that절은 주어를 꾸미는 수식어이다.",
+        "단수 동사 needs를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「needs」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-5-06",
+    "sourceQuestionId": "Q-R7-5-06",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-07",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "필수 어법 5",
+    "stem": "The files attached to the email (seems / seem) damaged.",
+    "choices": [
+      "seems",
+      "seem"
+    ],
+    "answer": "seem",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "중심 주어는 The files이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "주어는 복수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "seem이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "seems": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "중심 주어는 The files이다.",
+        "attached to the email은 수식어이다.",
+        "복수 동사 seem을 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「seem」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-5-07",
+    "sourceQuestionId": "Q-R7-5-07",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-08",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "필수 어법 5",
+    "stem": "부분사·분수·퍼센트 + of + 명사 구조에서는 어디에 동사의 수를 맞추는가?",
+    "choices": [
+      "of 앞의 말",
+      "of 뒤의 명사"
+    ],
+    "answer": "of 뒤의 명사",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "부분사+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "수 판단 기준은 of 뒤 명사이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "정답은 of 뒤의 명사이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of 앞의 말": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "부분을 나타내는 말만으로 수를 결정하지 않는다.",
+        "of 뒤의 실제 명사를 확인한다.",
+        "of 뒤 명사의 수에 맞춘다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「of 뒤의 명사」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-5-08",
+    "sourceQuestionId": "Q-R7-5-08",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-01-PF",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "questionType": "review_source_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "Some of the books (has / have) been damaged.",
+    "choices": [
+      "has",
+      "have"
+    ],
+    "answer": "have",
+    "sourcePreviewRef": "SRC-R7-AGREEMENT",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "부분사+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "of 뒤 명사는 books이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "복수 동사 have가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "Some of는 부분사 구조이다.",
+        "of 뒤의 books가 복수이다.",
+        "복수 동사 have를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「have」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-01",
+    "sourceQuestionId": "Q-R7-5-01",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-02-PF",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "Most of the water (is / are) clean.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "부분사+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "of 뒤 명사는 water이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "단수 동사 is가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "Most of는 부분사 구조이다.",
+        "of 뒤의 water는 단수 취급한다.",
+        "단수 동사 is를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「is」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-02",
+    "sourceQuestionId": "Q-R7-5-02",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-03-PF",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "Purchasing designer goods (enable / enables) people to hide behind an image.",
+    "choices": [
+      "enable",
+      "enables"
+    ],
+    "answer": "enables",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "문장 첫 주어 덩어리는 Purchasing designer goods이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "동명사구는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "enables가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "enable": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "주어는 동명사구 Purchasing designer goods이다.",
+        "동명사구 주어는 단수 취급한다.",
+        "단수 동사 enables를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「enables」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-03",
+    "sourceQuestionId": "Q-R7-5-03",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-04-PF",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "What we need (is / are) more time.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "주어는 명사절 What we need이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "명사절은 단수 취급한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "is가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "주어는 What we need라는 명사절이다.",
+        "명사절 주어는 단수 취급한다.",
+        "단수 동사 is를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「is」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-04",
+    "sourceQuestionId": "Q-R7-5-04",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-05-PF",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "Two-thirds of the students (was / were) present.",
+    "choices": [
+      "was",
+      "were"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "분수+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "of 뒤 명사는 students이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "were가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "분수+of 구조이다.",
+        "of 뒤의 students가 복수이다.",
+        "복수 동사 were를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「were」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-05",
+    "sourceQuestionId": "Q-R7-5-05",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-06-PF",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "A battery that has not been used for months (needs / need) charging.",
+    "choices": [
+      "needs",
+      "need"
+    ],
+    "answer": "needs",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "중심 주어를 먼저 찾는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "중심 주어 A battery는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "needs가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "need": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "중심 주어는 A battery이다.",
+        "that절은 주어를 꾸미는 수식어이다.",
+        "단수 동사 needs를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「needs」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-06",
+    "sourceQuestionId": "Q-R7-5-06",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-07-PF",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "The files attached to the email (seems / seem) damaged.",
+    "choices": [
+      "seems",
+      "seem"
+    ],
+    "answer": "seem",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "중심 주어는 The files이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "주어는 복수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "seem이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "seems": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "중심 주어는 The files이다.",
+        "attached to the email은 수식어이다.",
+        "복수 동사 seem을 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「seem」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-07",
+    "sourceQuestionId": "Q-R7-5-07",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-08-PF",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "부분사·분수·퍼센트 + of + 명사 구조에서는 어디에 동사의 수를 맞추는가?",
+    "choices": [
+      "of 앞의 말",
+      "of 뒤의 명사"
+    ],
+    "answer": "of 뒤의 명사",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "부분사+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "수 판단 기준은 of 뒤 명사이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "정답은 of 뒤의 명사이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of 앞의 말": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "부분을 나타내는 말만으로 수를 결정하지 않는다.",
+        "of 뒤의 실제 명사를 확인한다.",
+        "of 뒤 명사의 수에 맞춘다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「of 뒤의 명사」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-08",
+    "sourceQuestionId": "Q-R7-5-08",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-01-DR",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "questionType": "review_source_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "Some of the books (has / have) been damaged.",
+    "choices": [
+      "has",
+      "have"
+    ],
+    "answer": "have",
+    "sourcePreviewRef": "SRC-R7-AGREEMENT",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "부분사+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "of 뒤 명사는 books이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "복수 동사 have가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "Some of는 부분사 구조이다.",
+        "of 뒤의 books가 복수이다.",
+        "복수 동사 have를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「have」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-01",
+    "sourceQuestionId": "Q-R7-5-01",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-02-DR",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "Most of the water (is / are) clean.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "부분사+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "of 뒤 명사는 water이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "단수 동사 is가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "Most of는 부분사 구조이다.",
+        "of 뒤의 water는 단수 취급한다.",
+        "단수 동사 is를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「is」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-02",
+    "sourceQuestionId": "Q-R7-5-02",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-03-DR",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "Purchasing designer goods (enable / enables) people to hide behind an image.",
+    "choices": [
+      "enable",
+      "enables"
+    ],
+    "answer": "enables",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "문장 첫 주어 덩어리는 Purchasing designer goods이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "동명사구는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "enables가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "enable": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "주어는 동명사구 Purchasing designer goods이다.",
+        "동명사구 주어는 단수 취급한다.",
+        "단수 동사 enables를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「enables」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-03",
+    "sourceQuestionId": "Q-R7-5-03",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-04-DR",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "What we need (is / are) more time.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "주어는 명사절 What we need이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "명사절은 단수 취급한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "is가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "주어는 What we need라는 명사절이다.",
+        "명사절 주어는 단수 취급한다.",
+        "단수 동사 is를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「is」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-04",
+    "sourceQuestionId": "Q-R7-5-04",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-05-DR",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "Two-thirds of the students (was / were) present.",
+    "choices": [
+      "was",
+      "were"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "분수+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "of 뒤 명사는 students이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "were가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "분수+of 구조이다.",
+        "of 뒤의 students가 복수이다.",
+        "복수 동사 were를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「were」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-05",
+    "sourceQuestionId": "Q-R7-5-05",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-06-DR",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "A battery that has not been used for months (needs / need) charging.",
+    "choices": [
+      "needs",
+      "need"
+    ],
+    "answer": "needs",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "중심 주어를 먼저 찾는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "중심 주어 A battery는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "needs가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "need": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "중심 주어는 A battery이다.",
+        "that절은 주어를 꾸미는 수식어이다.",
+        "단수 동사 needs를 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「needs」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-06",
+    "sourceQuestionId": "Q-R7-5-06",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-07-DR",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "The files attached to the email (seems / seem) damaged.",
+    "choices": [
+      "seems",
+      "seem"
+    ],
+    "answer": "seem",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "중심 주어는 The files이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "주어는 복수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "seem이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "seems": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "중심 주어는 The files이다.",
+        "attached to the email은 수식어이다.",
+        "복수 동사 seem을 고른다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「seem」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-07",
+    "sourceQuestionId": "Q-R7-5-07",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-08-DR",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "부분사·분수·퍼센트 + of + 명사 구조에서는 어디에 동사의 수를 맞추는가?",
+    "choices": [
+      "of 앞의 말",
+      "of 뒤의 명사"
+    ],
+    "answer": "of 뒤의 명사",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "부분사+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "수 판단 기준은 of 뒤 명사이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "정답은 of 뒤의 명사이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of 앞의 말": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "중심 주어 또는 부분사 뒤 명사의 수를 확인하지 않았다.",
+      "summary": [
+        "부분을 나타내는 말만으로 수를 결정하지 않는다.",
+        "of 뒤의 실제 명사를 확인한다.",
+        "of 뒤 명사의 수에 맞춘다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「of 뒤의 명사」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-08",
+    "sourceQuestionId": "Q-R7-5-08",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-01-CT",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nSome of the books (has / have) been damaged.",
+    "choices": [
+      "have",
+      "has"
+    ],
+    "answer": "has",
+    "sourcePreviewRef": "SRC-R7-AGREEMENT",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "부분사+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "of 뒤 명사는 books이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "복수 동사 have가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'has'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'have'이다.",
+      "summary": [
+        "Some of는 부분사 구조이다.",
+        "of 뒤의 books가 복수이다.",
+        "복수 동사 have를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'has'이다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「have」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-5-01"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-01",
+    "sourceQuestionId": "Q-R7-5-01",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-02-CT",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nMost of the water (is / are) clean.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "부분사+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "of 뒤 명사는 water이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "단수 동사 is가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'are'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is'이다.",
+      "summary": [
+        "Most of는 부분사 구조이다.",
+        "of 뒤의 water는 단수 취급한다.",
+        "단수 동사 is를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'are'이다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「is」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-5-02"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-02",
+    "sourceQuestionId": "Q-R7-5-02",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-03-CT",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nPurchasing designer goods (enable / enables) people to hide behind an image.",
+    "choices": [
+      "enable",
+      "enables"
+    ],
+    "answer": "enable",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "문장 첫 주어 덩어리는 Purchasing designer goods이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "동명사구는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "enables가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "enables": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'enable'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'enables'이다.",
+      "summary": [
+        "주어는 동명사구 Purchasing designer goods이다.",
+        "동명사구 주어는 단수 취급한다.",
+        "단수 동사 enables를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'enable'이다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「enables」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-5-03"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-03",
+    "sourceQuestionId": "Q-R7-5-03",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-04-CT",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWhat we need (is / are) more time.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "주어는 명사절 What we need이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "명사절은 단수 취급한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "is가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'are'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is'이다.",
+      "summary": [
+        "주어는 What we need라는 명사절이다.",
+        "명사절 주어는 단수 취급한다.",
+        "단수 동사 is를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'are'이다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「is」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-5-04"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-04",
+    "sourceQuestionId": "Q-R7-5-04",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-05-CT",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nTwo-thirds of the students (was / were) present.",
+    "choices": [
+      "were",
+      "was"
+    ],
+    "answer": "was",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "분수+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "of 뒤 명사는 students이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "were가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'was'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'were'이다.",
+      "summary": [
+        "분수+of 구조이다.",
+        "of 뒤의 students가 복수이다.",
+        "복수 동사 were를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'was'이다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「were」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-5-05"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-05",
+    "sourceQuestionId": "Q-R7-5-05",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-06-CT",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nA battery that has not been used for months (needs / need) charging.",
+    "choices": [
+      "needs",
+      "need"
+    ],
+    "answer": "need",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "중심 주어를 먼저 찾는다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "중심 주어 A battery는 단수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "needs가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "needs": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'need'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'needs'이다.",
+      "summary": [
+        "중심 주어는 A battery이다.",
+        "that절은 주어를 꾸미는 수식어이다.",
+        "단수 동사 needs를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'need'이다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「needs」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-5-06"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-06",
+    "sourceQuestionId": "Q-R7-5-06",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-07-CT",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 3,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe files attached to the email (seems / seem) damaged.",
+    "choices": [
+      "seems",
+      "seem"
+    ],
+    "answer": "seems",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "중심 주어는 The files이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "주어는 복수이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "seem이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "seem": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'seems'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'seem'이다.",
+      "summary": [
+        "중심 주어는 The files이다.",
+        "attached to the email은 수식어이다.",
+        "복수 동사 seem을 고른다.",
+        "따라서 대조 문항에서 고를 답은 'seems'이다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「seem」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-5-07"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-07",
+    "sourceQuestionId": "Q-R7-5-07",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-5-08-CT",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 3,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n부분사·분수·퍼센트 + of + 명사 구조에서는 어디에 동사의 수를 맞추는가?",
+    "choices": [
+      "of 앞의 말",
+      "of 뒤의 명사"
+    ],
+    "answer": "of 앞의 말",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "부분사+of 구조이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s2",
+        "prompt": "수 판단 기준은 of 뒤 명사이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      },
+      {
+        "id": "s3",
+        "prompt": "정답은 of 뒤의 명사이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "of 뒤의 명사": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'of 앞의 말'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'of 뒤의 명사'이다.",
+      "summary": [
+        "부분을 나타내는 말만으로 수를 결정하지 않는다.",
+        "of 뒤의 실제 명사를 확인한다.",
+        "of 뒤 명사의 수에 맞춘다.",
+        "따라서 대조 문항에서 고를 답은 'of 앞의 말'이다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「of 뒤의 명사」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-5-08"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-5-08",
+    "sourceQuestionId": "Q-R7-5-08",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 40,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-2AD6309835",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「enables」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+          "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다."
+        ],
+        "answer": "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+        "주어는 동명사구 Purchasing designer goods이다.",
+        "동명사구 주어는 단수 취급한다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「have」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-5-03",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-2AD6309835",
+    "sourceQuestionId": "Q-R7-5-03",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-B7CE804776",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「is」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+          "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다."
+        ],
+        "answer": "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+        "Most of는 부분사 구조이다.",
+        "of 뒤의 water는 단수 취급한다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「have」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-5-02",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-B7CE804776",
+    "sourceQuestionId": "Q-R7-5-02",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-38DCEAA6C8",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「needs」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+          "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다."
+        ],
+        "answer": "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+        "중심 주어는 A battery이다.",
+        "that절은 주어를 꾸미는 수식어이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「have」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-5-06",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-38DCEAA6C8",
+    "sourceQuestionId": "Q-R7-5-06",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-CCF2D09058",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「of 뒤의 명사」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+          "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다."
+        ],
+        "answer": "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+        "부분을 나타내는 말만으로 수를 결정하지 않는다.",
+        "of 뒤의 실제 명사를 확인한다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「have」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-5-08",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-CCF2D09058",
+    "sourceQuestionId": "Q-R7-5-08",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-BF20F813E3",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「seem」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+          "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다."
+        ],
+        "answer": "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+        "중심 주어는 The files이다.",
+        "attached to the email은 수식어이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「have」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-5-07",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-BF20F813E3",
+    "sourceQuestionId": "Q-R7-5-07",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-DFEC7E50CE",
+    "conceptId": "G96_ESSENTIAL_AGREEMENT",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「were」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "them·it·that·those는 가리키는 대상의 단수·복수를 해석해 결정하고, 대동사는 앞 동사가 be동사면 be, 일반동사면 do를 쓴다.",
+          "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다."
+        ],
+        "answer": "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+        "errorCode": "E100_ESSENTIAL_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E100_ESSENTIAL_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "주어를 먼저 찾고 주어의 수에 동사를 맞추며, 부분사·분수·퍼센트+of 구조는 of 뒤 명사에 수를 맞춘다.",
+        "분수+of 구조이다.",
+        "of 뒤의 students가 복수이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-AGREEMENT",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「have」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-5-05",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_5",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-DFEC7E50CE",
+    "sourceQuestionId": "Q-R7-5-05",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

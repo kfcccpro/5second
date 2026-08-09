@@ -1,0 +1,5 @@
+import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+const term=process.argv.slice(2).join(' ').trim();if(!term){console.error('usage: node tools/find-question.mjs <question id or text>');process.exit(2)}
+const here=path.dirname(fileURLToPath(import.meta.url));const root=path.resolve(here,'..');const catalog=JSON.parse(fs.readFileSync(path.join(root,'content-src','catalog.json'),'utf8'));const needle=term.toLowerCase();const hits=[];
+for(const item of catalog){const file=path.join(root,'content-src',item.file);const rows=JSON.parse(fs.readFileSync(file,'utf8'));for(const q of rows){const hay=[q.id,q.stem,q.answer,q.conceptId,q.setLabel].filter(Boolean).join(' ').toLowerCase();if(hay.includes(needle))hits.push({file:path.relative(root,file),id:q.id,conceptId:q.conceptId,stem:q.stem,answer:q.answer,interactionMode:q.interactionMode})}}
+console.log(JSON.stringify(hits.slice(0,50),null,2));console.error(`matches: ${hits.length}${hits.length>50?' (showing first 50)':''}`);

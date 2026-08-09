@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G71-001",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 1,
+    "stem": "One of the most expensive (cars / car) is his.",
+    "choices": [
+      "cars",
+      "car"
+    ],
+    "answer": "cars",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the + 최상급",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "뒤에는 여러 대상 중 하나를 나타냄",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 cars",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "car": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the + 최상급.",
+        "뒤에는 여러 대상 중 하나를 나타냄.",
+        "따라서 cars를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-001",
+    "sourceQuestionId": "Q-G71-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-002",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 1,
+    "stem": "One of the most common natural (disasters / disaster) is an earthquake.",
+    "choices": [
+      "disasters",
+      "disaster"
+    ],
+    "answer": "disasters",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the + 최상급",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "뒤 명사는 복수형",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "disasters",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "disaster": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the + 최상급.",
+        "뒤 명사는 복수형.",
+        "따라서 disasters를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-002",
+    "sourceQuestionId": "Q-G71-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-003",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 1,
+    "stem": "She is one of the best (students / student) in the class.",
+    "choices": [
+      "students",
+      "student"
+    ],
+    "answer": "students",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the best",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "여러 학생 중 한 명",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 students",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "student": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the best.",
+        "여러 학생 중 한 명.",
+        "따라서 students를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-003",
+    "sourceQuestionId": "Q-G71-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-004",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 2,
+    "stem": "One of the tallest buildings (stands / stand) near the river.",
+    "choices": [
+      "stands",
+      "stand"
+    ],
+    "answer": "stands",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "명사 buildings는 복수",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "중심 주어는 one",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "단수동사 stands",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "stand": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "명사 buildings는 복수.",
+        "중심 주어는 one.",
+        "따라서 stands를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-004",
+    "sourceQuestionId": "Q-G71-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-005",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 2,
+    "stem": "One of the most useful tools (is / are) a dictionary.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the + 최상급 + 복수명사",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "중심 주어는 one",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "단수동사 is",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the + 최상급 + 복수명사.",
+        "중심 주어는 one.",
+        "따라서 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-005",
+    "sourceQuestionId": "Q-G71-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-006",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 2,
+    "stem": "This is one of the oldest (temples / temple) in Korea.",
+    "choices": [
+      "temples",
+      "temple"
+    ],
+    "answer": "temples",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the oldest",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "여러 사원 중 하나",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 temples",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "temple": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the oldest.",
+        "여러 사원 중 하나.",
+        "따라서 temples를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-006",
+    "sourceQuestionId": "Q-G71-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-007",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 3,
+    "stem": "One of the biggest problems (is / are) traffic congestion.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "problems는 전치사구 내부 명사",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "중심 주어 one은 단수",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "단수동사 is",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "problems는 전치사구 내부 명사.",
+        "중심 주어 one은 단수.",
+        "따라서 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-007",
+    "sourceQuestionId": "Q-G71-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-008",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 3,
+    "stem": "He is one of the most talented (players / player) on the team.",
+    "choices": [
+      "players",
+      "player"
+    ],
+    "answer": "players",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the most talented",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "여러 선수 중 한 명",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 players",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "player": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the most talented.",
+        "여러 선수 중 한 명.",
+        "따라서 players를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-008",
+    "sourceQuestionId": "Q-G71-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-001-PF",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 1,
+    "stem": "One of the most expensive (cars / car) is his.",
+    "choices": [
+      "cars",
+      "car"
+    ],
+    "answer": "cars",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the + 최상급",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "뒤에는 여러 대상 중 하나를 나타냄",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 cars",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "car": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the + 최상급.",
+        "뒤에는 여러 대상 중 하나를 나타냄.",
+        "따라서 cars를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-001",
+    "sourceQuestionId": "Q-G71-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-002-PF",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 1,
+    "stem": "One of the most common natural (disasters / disaster) is an earthquake.",
+    "choices": [
+      "disasters",
+      "disaster"
+    ],
+    "answer": "disasters",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the + 최상급",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "뒤 명사는 복수형",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "disasters",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "disaster": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the + 최상급.",
+        "뒤 명사는 복수형.",
+        "따라서 disasters를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-002",
+    "sourceQuestionId": "Q-G71-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-003-PF",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 1,
+    "stem": "She is one of the best (students / student) in the class.",
+    "choices": [
+      "students",
+      "student"
+    ],
+    "answer": "students",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the best",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "여러 학생 중 한 명",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 students",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "student": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the best.",
+        "여러 학생 중 한 명.",
+        "따라서 students를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-003",
+    "sourceQuestionId": "Q-G71-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-004-PF",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 2,
+    "stem": "One of the tallest buildings (stands / stand) near the river.",
+    "choices": [
+      "stands",
+      "stand"
+    ],
+    "answer": "stands",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "명사 buildings는 복수",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "중심 주어는 one",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "단수동사 stands",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "stand": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "명사 buildings는 복수.",
+        "중심 주어는 one.",
+        "따라서 stands를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-004",
+    "sourceQuestionId": "Q-G71-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-005-PF",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 2,
+    "stem": "One of the most useful tools (is / are) a dictionary.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the + 최상급 + 복수명사",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "중심 주어는 one",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "단수동사 is",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the + 최상급 + 복수명사.",
+        "중심 주어는 one.",
+        "따라서 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-005",
+    "sourceQuestionId": "Q-G71-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-006-PF",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 2,
+    "stem": "This is one of the oldest (temples / temple) in Korea.",
+    "choices": [
+      "temples",
+      "temple"
+    ],
+    "answer": "temples",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the oldest",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "여러 사원 중 하나",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 temples",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "temple": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the oldest.",
+        "여러 사원 중 하나.",
+        "따라서 temples를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-006",
+    "sourceQuestionId": "Q-G71-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-007-PF",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 3,
+    "stem": "One of the biggest problems (is / are) traffic congestion.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "problems는 전치사구 내부 명사",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "중심 주어 one은 단수",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "단수동사 is",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "problems는 전치사구 내부 명사.",
+        "중심 주어 one은 단수.",
+        "따라서 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-007",
+    "sourceQuestionId": "Q-G71-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-008-PF",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 3,
+    "stem": "He is one of the most talented (players / player) on the team.",
+    "choices": [
+      "players",
+      "player"
+    ],
+    "answer": "players",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the most talented",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "여러 선수 중 한 명",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 players",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "player": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the most talented.",
+        "여러 선수 중 한 명.",
+        "따라서 players를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-008",
+    "sourceQuestionId": "Q-G71-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 73,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-001-DR",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 1,
+    "stem": "One of the most expensive (cars / car) is his.",
+    "choices": [
+      "cars",
+      "car"
+    ],
+    "answer": "cars",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the + 최상급",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "뒤에는 여러 대상 중 하나를 나타냄",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 cars",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "car": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the + 최상급.",
+        "뒤에는 여러 대상 중 하나를 나타냄.",
+        "따라서 cars를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-001",
+    "sourceQuestionId": "Q-G71-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-002-DR",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 1,
+    "stem": "One of the most common natural (disasters / disaster) is an earthquake.",
+    "choices": [
+      "disasters",
+      "disaster"
+    ],
+    "answer": "disasters",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the + 최상급",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "뒤 명사는 복수형",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "disasters",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "disaster": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the + 최상급.",
+        "뒤 명사는 복수형.",
+        "따라서 disasters를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-002",
+    "sourceQuestionId": "Q-G71-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-003-DR",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 1,
+    "stem": "She is one of the best (students / student) in the class.",
+    "choices": [
+      "students",
+      "student"
+    ],
+    "answer": "students",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the best",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "여러 학생 중 한 명",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 students",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "student": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the best.",
+        "여러 학생 중 한 명.",
+        "따라서 students를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-003",
+    "sourceQuestionId": "Q-G71-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-004-DR",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 2,
+    "stem": "One of the tallest buildings (stands / stand) near the river.",
+    "choices": [
+      "stands",
+      "stand"
+    ],
+    "answer": "stands",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "명사 buildings는 복수",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "중심 주어는 one",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "단수동사 stands",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "stand": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "명사 buildings는 복수.",
+        "중심 주어는 one.",
+        "따라서 stands를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-004",
+    "sourceQuestionId": "Q-G71-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-005-DR",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 2,
+    "stem": "One of the most useful tools (is / are) a dictionary.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the + 최상급 + 복수명사",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "중심 주어는 one",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "단수동사 is",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the + 최상급 + 복수명사.",
+        "중심 주어는 one.",
+        "따라서 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-005",
+    "sourceQuestionId": "Q-G71-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-006-DR",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 2,
+    "stem": "This is one of the oldest (temples / temple) in Korea.",
+    "choices": [
+      "temples",
+      "temple"
+    ],
+    "answer": "temples",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the oldest",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "여러 사원 중 하나",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 temples",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "temple": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the oldest.",
+        "여러 사원 중 하나.",
+        "따라서 temples를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-006",
+    "sourceQuestionId": "Q-G71-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-007-DR",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 3,
+    "stem": "One of the biggest problems (is / are) traffic congestion.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "problems는 전치사구 내부 명사",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "중심 주어 one은 단수",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "단수동사 is",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "problems는 전치사구 내부 명사.",
+        "중심 주어 one은 단수.",
+        "따라서 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-007",
+    "sourceQuestionId": "Q-G71-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-008-DR",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 3,
+    "stem": "He is one of the most talented (players / player) on the team.",
+    "choices": [
+      "players",
+      "player"
+    ],
+    "answer": "players",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the most talented",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "여러 선수 중 한 명",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 players",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "player": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "최상급 뒤 복수명사와 중심 주어 one의 단수 일치를 구별하지 못했다.",
+      "summary": [
+        "one of the most talented.",
+        "여러 선수 중 한 명.",
+        "따라서 players를 선택한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-008",
+    "sourceQuestionId": "Q-G71-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-001-CT",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nOne of the most expensive (cars / car) is his.",
+    "choices": [
+      "cars",
+      "car"
+    ],
+    "answer": "car",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the + 최상급",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "뒤에는 여러 대상 중 하나를 나타냄",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 cars",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "cars": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'car'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'cars'이다.",
+      "summary": [
+        "one of the + 최상급.",
+        "뒤에는 여러 대상 중 하나를 나타냄.",
+        "따라서 cars를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'car'이다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-001",
+    "sourceQuestionId": "Q-G71-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-002-CT",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nOne of the most common natural (disasters / disaster) is an earthquake.",
+    "choices": [
+      "disaster",
+      "disasters"
+    ],
+    "answer": "disaster",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the + 최상급",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "뒤 명사는 복수형",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "disasters",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "disasters": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'disaster'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'disasters'이다.",
+      "summary": [
+        "one of the + 최상급.",
+        "뒤 명사는 복수형.",
+        "따라서 disasters를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'disaster'이다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-002",
+    "sourceQuestionId": "Q-G71-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-003-CT",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe is one of the best (students / student) in the class.",
+    "choices": [
+      "student",
+      "students"
+    ],
+    "answer": "student",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the best",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "여러 학생 중 한 명",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 students",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "students": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'student'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'students'이다.",
+      "summary": [
+        "one of the best.",
+        "여러 학생 중 한 명.",
+        "따라서 students를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'student'이다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-003",
+    "sourceQuestionId": "Q-G71-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-004-CT",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nOne of the tallest buildings (stands / stand) near the river.",
+    "choices": [
+      "stands",
+      "stand"
+    ],
+    "answer": "stand",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "명사 buildings는 복수",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "중심 주어는 one",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "단수동사 stands",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "stands": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'stand'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'stands'이다.",
+      "summary": [
+        "명사 buildings는 복수.",
+        "중심 주어는 one.",
+        "따라서 stands를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'stand'이다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-004",
+    "sourceQuestionId": "Q-G71-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-005-CT",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nOne of the most useful tools (is / are) a dictionary.",
+    "choices": [
+      "are",
+      "is"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the + 최상급 + 복수명사",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "중심 주어는 one",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "단수동사 is",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'are'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is'이다.",
+      "summary": [
+        "one of the + 최상급 + 복수명사.",
+        "중심 주어는 one.",
+        "따라서 is를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'are'이다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-005",
+    "sourceQuestionId": "Q-G71-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-006-CT",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThis is one of the oldest (temples / temple) in Korea.",
+    "choices": [
+      "temple",
+      "temples"
+    ],
+    "answer": "temple",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the oldest",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "여러 사원 중 하나",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 temples",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "temples": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'temple'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'temples'이다.",
+      "summary": [
+        "one of the oldest.",
+        "여러 사원 중 하나.",
+        "따라서 temples를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'temple'이다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-006",
+    "sourceQuestionId": "Q-G71-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-007-CT",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nOne of the biggest problems (is / are) traffic congestion.",
+    "choices": [
+      "are",
+      "is"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "problems는 전치사구 내부 명사",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "중심 주어 one은 단수",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "단수동사 is",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'are'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is'이다.",
+      "summary": [
+        "problems는 전치사구 내부 명사.",
+        "중심 주어 one은 단수.",
+        "따라서 is를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'are'이다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-007",
+    "sourceQuestionId": "Q-G71-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G71-008-CT",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe is one of the most talented (players / player) on the team.",
+    "choices": [
+      "player",
+      "players"
+    ],
+    "answer": "player",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 구조·표지는?",
+        "answer": "one of the most talented",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "여러 선수 중 한 명",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "복수명사 players",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "players": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "'player'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'players'이다.",
+      "summary": [
+        "one of the most talented.",
+        "여러 선수 중 한 명.",
+        "따라서 players를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'player'이다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G71-008",
+    "sourceQuestionId": "Q-G71-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-43942A826A",
+    "conceptId": "G71_ONE_OF_SUPERLATIVE",
+    "difficulty": 1,
+    "stem": "빠른 확인: one of the + 최상급 뒤 명사 형태는?",
+    "choices": [
+      "복수명사",
+      "단수명사"
+    ],
+    "answer": "복수명사",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "one of the + 최상급 뒤에는 복수명사를 쓰고, 문장의 중심 주어는 one이므로 동사는 단수로 일치시킨다.",
+          "2형식 동사나 5형식 동사가 있으면 보어 자리에 형용사를 쓰고, 그렇지 않으면 문제 부분을 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 쓴다. 수동태 문장은 완전한 문장으로 본다."
+        ],
+        "answer": "one of the + 최상급 뒤에는 복수명사를 쓰고, 문장의 중심 주어는 one이므로 동사는 단수로 일치시킨다.",
+        "errorCode": "E75_ONE_OF_SUPERLATIVE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "단수명사": "E75_ONE_OF_SUPERLATIVE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "one of the + 최상급 뒤에는 복수명사를 쓰고, 문장의 중심 주어는 one이므로 동사는 단수로 일치시킨다.",
+        "one of the + 최상급.",
+        "뒤에는 여러 대상 중 하나를 나타냄.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G71",
+      "checkQuestion": {
+        "prompt": "one of the + 최상급 뒤 명사 형태는?",
+        "choices": [
+          "복수명사",
+          "단수명사"
+        ],
+        "answer": "복수명사"
+      },
+      "transferQuestionId": "Q-G71-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART7",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-43942A826A",
+    "sourceQuestionId": "Q-G71-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

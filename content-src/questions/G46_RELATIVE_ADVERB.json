@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G46-001",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "He knows the place (where / when) I was born.",
+    "choices": [
+      "where",
+      "when"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "장소 place",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I was born은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "where",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "장소 place.",
+        "완전하다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-001",
+    "sourceQuestionId": "Q-G46-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-002",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "I remember the day (when / where) we first met.",
+    "choices": [
+      "when",
+      "where"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "시간 day",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 we first met은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "when",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "시간 day.",
+        "완전하다.",
+        "따라서 when를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-002",
+    "sourceQuestionId": "Q-G46-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-003",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "That is the reason (why / where) she left.",
+    "choices": [
+      "why",
+      "where"
+    ],
+    "answer": "why",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "이유 reason",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she left는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "why",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "이유 reason.",
+        "완전하다.",
+        "따라서 why를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-003",
+    "sourceQuestionId": "Q-G46-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-004",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "The town (where / when) he grew up has changed.",
+    "choices": [
+      "where",
+      "when"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "장소 town",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 he grew up은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "where",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "장소 town.",
+        "완전하다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-004",
+    "sourceQuestionId": "Q-G46-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-005",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "There were times (when / why) I wanted to quit.",
+    "choices": [
+      "when",
+      "why"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "시간 times",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I wanted to quit은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "when",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "why": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "시간 times.",
+        "완전하다.",
+        "따라서 when를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-005",
+    "sourceQuestionId": "Q-G46-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-006",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "Explain the reason (why / when) the machine stopped.",
+    "choices": [
+      "why",
+      "when"
+    ],
+    "answer": "why",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "이유 reason",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the machine stopped는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "why",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "이유 reason.",
+        "완전하다.",
+        "따라서 why를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-006",
+    "sourceQuestionId": "Q-G46-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-007",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "This is the room (where / when) the meeting took place.",
+    "choices": [
+      "where",
+      "when"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "장소 room",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the meeting took place는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "where",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "장소 room.",
+        "완전하다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-007",
+    "sourceQuestionId": "Q-G46-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-008",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "The year (when / where) the law changed was 2020.",
+    "choices": [
+      "when",
+      "where"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "시간 year",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the law changed는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "when",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "시간 year.",
+        "완전하다.",
+        "따라서 when를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-008",
+    "sourceQuestionId": "Q-G46-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-001-PF",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "He knows the place (where / when) I was born.",
+    "choices": [
+      "where",
+      "when"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "장소 place",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I was born은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "where",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "장소 place.",
+        "완전하다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-001",
+    "sourceQuestionId": "Q-G46-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-002-PF",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "I remember the day (when / where) we first met.",
+    "choices": [
+      "when",
+      "where"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "시간 day",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 we first met은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "when",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "시간 day.",
+        "완전하다.",
+        "따라서 when를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-002",
+    "sourceQuestionId": "Q-G46-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-003-PF",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "That is the reason (why / where) she left.",
+    "choices": [
+      "why",
+      "where"
+    ],
+    "answer": "why",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "이유 reason",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she left는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "why",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "이유 reason.",
+        "완전하다.",
+        "따라서 why를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-003",
+    "sourceQuestionId": "Q-G46-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-004-PF",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "The town (where / when) he grew up has changed.",
+    "choices": [
+      "where",
+      "when"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "장소 town",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 he grew up은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "where",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "장소 town.",
+        "완전하다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-004",
+    "sourceQuestionId": "Q-G46-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-005-PF",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "There were times (when / why) I wanted to quit.",
+    "choices": [
+      "when",
+      "why"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "시간 times",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I wanted to quit은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "when",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "why": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "시간 times.",
+        "완전하다.",
+        "따라서 when를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-005",
+    "sourceQuestionId": "Q-G46-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-006-PF",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "Explain the reason (why / when) the machine stopped.",
+    "choices": [
+      "why",
+      "when"
+    ],
+    "answer": "why",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "이유 reason",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the machine stopped는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "why",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "이유 reason.",
+        "완전하다.",
+        "따라서 why를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-006",
+    "sourceQuestionId": "Q-G46-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-007-PF",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "This is the room (where / when) the meeting took place.",
+    "choices": [
+      "where",
+      "when"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "장소 room",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the meeting took place는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "where",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "장소 room.",
+        "완전하다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-007",
+    "sourceQuestionId": "Q-G46-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-008-PF",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "The year (when / where) the law changed was 2020.",
+    "choices": [
+      "when",
+      "where"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "시간 year",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the law changed는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "when",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "시간 year.",
+        "완전하다.",
+        "따라서 when를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-008",
+    "sourceQuestionId": "Q-G46-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-001-DR",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "He knows the place (where / when) I was born.",
+    "choices": [
+      "where",
+      "when"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "장소 place",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I was born은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "where",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "장소 place.",
+        "완전하다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-001",
+    "sourceQuestionId": "Q-G46-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-002-DR",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "I remember the day (when / where) we first met.",
+    "choices": [
+      "when",
+      "where"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "시간 day",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 we first met은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "when",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "시간 day.",
+        "완전하다.",
+        "따라서 when를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-002",
+    "sourceQuestionId": "Q-G46-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-003-DR",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "That is the reason (why / where) she left.",
+    "choices": [
+      "why",
+      "where"
+    ],
+    "answer": "why",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "이유 reason",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she left는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "why",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "이유 reason.",
+        "완전하다.",
+        "따라서 why를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-003",
+    "sourceQuestionId": "Q-G46-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-004-DR",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "The town (where / when) he grew up has changed.",
+    "choices": [
+      "where",
+      "when"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "장소 town",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 he grew up은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "where",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "장소 town.",
+        "완전하다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-004",
+    "sourceQuestionId": "Q-G46-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-005-DR",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "There were times (when / why) I wanted to quit.",
+    "choices": [
+      "when",
+      "why"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "시간 times",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I wanted to quit은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "when",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "why": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "시간 times.",
+        "완전하다.",
+        "따라서 when를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-005",
+    "sourceQuestionId": "Q-G46-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-006-DR",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "Explain the reason (why / when) the machine stopped.",
+    "choices": [
+      "why",
+      "when"
+    ],
+    "answer": "why",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "이유 reason",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the machine stopped는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "why",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "이유 reason.",
+        "완전하다.",
+        "따라서 why를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-006",
+    "sourceQuestionId": "Q-G46-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-007-DR",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "This is the room (where / when) the meeting took place.",
+    "choices": [
+      "where",
+      "when"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "장소 room",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the meeting took place는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "where",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "장소 room.",
+        "완전하다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-007",
+    "sourceQuestionId": "Q-G46-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-008-DR",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "The year (when / where) the law changed was 2020.",
+    "choices": [
+      "when",
+      "where"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "시간 year",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the law changed는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "when",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "선행사의 의미와 뒤 절 완전성을 함께 확인하지 않았다.",
+      "summary": [
+        "시간 year.",
+        "완전하다.",
+        "따라서 when를 선택한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-008",
+    "sourceQuestionId": "Q-G46-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-001-CT",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe knows the place (where / when) I was born.",
+    "choices": [
+      "when",
+      "where"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "장소 place",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I was born은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "where",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'when'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'where'이다.",
+      "summary": [
+        "장소 place.",
+        "완전하다.",
+        "따라서 where를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'when'이다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-001",
+    "sourceQuestionId": "Q-G46-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-002-CT",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI remember the day (when / where) we first met.",
+    "choices": [
+      "when",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "시간 day",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 we first met은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "when",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'where'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'when'이다.",
+      "summary": [
+        "시간 day.",
+        "완전하다.",
+        "따라서 when를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'where'이다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-002",
+    "sourceQuestionId": "Q-G46-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-003-CT",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThat is the reason (why / where) she left.",
+    "choices": [
+      "why",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "이유 reason",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she left는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "why",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "why": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'where'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'why'이다.",
+      "summary": [
+        "이유 reason.",
+        "완전하다.",
+        "따라서 why를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'where'이다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-003",
+    "sourceQuestionId": "Q-G46-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-004-CT",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe town (where / when) he grew up has changed.",
+    "choices": [
+      "when",
+      "where"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "장소 town",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 he grew up은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "where",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'when'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'where'이다.",
+      "summary": [
+        "장소 town.",
+        "완전하다.",
+        "따라서 where를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'when'이다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-004",
+    "sourceQuestionId": "Q-G46-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-005-CT",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThere were times (when / why) I wanted to quit.",
+    "choices": [
+      "when",
+      "why"
+    ],
+    "answer": "why",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "시간 times",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I wanted to quit은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "when",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'why'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'when'이다.",
+      "summary": [
+        "시간 times.",
+        "완전하다.",
+        "따라서 when를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'why'이다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-005",
+    "sourceQuestionId": "Q-G46-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-006-CT",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nExplain the reason (why / when) the machine stopped.",
+    "choices": [
+      "when",
+      "why"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "이유 reason",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the machine stopped는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "why",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "why": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'when'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'why'이다.",
+      "summary": [
+        "이유 reason.",
+        "완전하다.",
+        "따라서 why를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'when'이다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-006",
+    "sourceQuestionId": "Q-G46-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-007-CT",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThis is the room (where / when) the meeting took place.",
+    "choices": [
+      "where",
+      "when"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "장소 room",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the meeting took place는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "where",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'when'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'where'이다.",
+      "summary": [
+        "장소 room.",
+        "완전하다.",
+        "따라서 where를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'when'이다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-007",
+    "sourceQuestionId": "Q-G46-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G46-008-CT",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe year (when / where) the law changed was 2020.",
+    "choices": [
+      "where",
+      "when"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "선행사의 의미는?",
+        "answer": "시간 year",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the law changed는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 관계부사는?",
+        "answer": "when",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'where'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'when'이다.",
+      "summary": [
+        "시간 year.",
+        "완전하다.",
+        "따라서 when를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'where'이다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G46-008",
+    "sourceQuestionId": "Q-G46-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-6825402019",
+    "conceptId": "G46_RELATIVE_ADVERB",
+    "difficulty": 1,
+    "stem": "빠른 확인: 장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+    "choices": [
+      "where",
+      "which"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "장소·시간·이유를 나타내는 선행사 뒤에서 절이 완전하면 where·when·why 같은 관계부사를 쓴다.",
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+        ],
+        "answer": "장소·시간·이유를 나타내는 선행사 뒤에서 절이 완전하면 where·when·why 같은 관계부사를 쓴다.",
+        "errorCode": "E50_RELATIVE_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E50_RELATIVE_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "장소·시간·이유를 나타내는 선행사 뒤에서 절이 완전하면 where·when·why 같은 관계부사를 쓴다.",
+        "장소 place.",
+        "완전하다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G46",
+      "checkQuestion": {
+        "prompt": "장소 선행사 뒤에 완전한 절이 오면 무엇을 쓰는가?",
+        "choices": [
+          "where",
+          "which"
+        ],
+        "answer": "where"
+      },
+      "transferQuestionId": "Q-G46-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-6825402019",
+    "sourceQuestionId": "Q-G46-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

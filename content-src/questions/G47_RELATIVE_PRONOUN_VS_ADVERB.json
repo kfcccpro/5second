@@ -1,0 +1,5343 @@
+[
+  {
+    "id": "Q-G47-001",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "This is the house (which / where) I bought last year.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I bought는 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "bought의 목적어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "목적어가 없어 불완전하다.",
+        "bought의 목적어.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-001",
+    "sourceQuestionId": "Q-G47-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-002",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "This is the house (which / where) I live.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I live는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "장소 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 where",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-002",
+    "sourceQuestionId": "Q-G47-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-003",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "The city (which / where) she visited was crowded.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she visited는 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "visited의 목적어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "목적어가 없어 불완전하다.",
+        "visited의 목적어.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-003",
+    "sourceQuestionId": "Q-G47-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-004",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "The city (which / where) she lives is crowded.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she lives는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "장소 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 where",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-004",
+    "sourceQuestionId": "Q-G47-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-005",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "I remember the moment (which / when) changed my life.",
+    "choices": [
+      "which",
+      "when"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 changed my life는 완전한가?",
+        "answer": "주어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "changed의 주어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "주어가 없어 불완전하다.",
+        "changed의 주어.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-005",
+    "sourceQuestionId": "Q-G47-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-006",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "I remember the moment (which / when) I made the decision.",
+    "choices": [
+      "which",
+      "when"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I made the decision은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "시간 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 when",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 when를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-006",
+    "sourceQuestionId": "Q-G47-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-007",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "The reason (which / why) convinced me was clear.",
+    "choices": [
+      "which",
+      "why"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 convinced me는 완전한가?",
+        "answer": "주어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "convinced의 주어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "why": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "주어가 없어 불완전하다.",
+        "convinced의 주어.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-007",
+    "sourceQuestionId": "Q-G47-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-008",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "The reason (which / why) she resigned remains unknown.",
+    "choices": [
+      "which",
+      "why"
+    ],
+    "answer": "why",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she resigned는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "이유 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 why",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 why를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-008",
+    "sourceQuestionId": "Q-G47-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-001-PF",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "This is the house (which / where) I bought last year.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I bought는 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "bought의 목적어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "목적어가 없어 불완전하다.",
+        "bought의 목적어.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-001",
+    "sourceQuestionId": "Q-G47-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-002-PF",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "This is the house (which / where) I live.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I live는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "장소 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 where",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-002",
+    "sourceQuestionId": "Q-G47-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-003-PF",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "The city (which / where) she visited was crowded.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she visited는 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "visited의 목적어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "목적어가 없어 불완전하다.",
+        "visited의 목적어.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-003",
+    "sourceQuestionId": "Q-G47-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-004-PF",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "The city (which / where) she lives is crowded.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she lives는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "장소 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 where",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-004",
+    "sourceQuestionId": "Q-G47-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-005-PF",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "I remember the moment (which / when) changed my life.",
+    "choices": [
+      "which",
+      "when"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 changed my life는 완전한가?",
+        "answer": "주어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "changed의 주어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "주어가 없어 불완전하다.",
+        "changed의 주어.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-005",
+    "sourceQuestionId": "Q-G47-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-006-PF",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "I remember the moment (which / when) I made the decision.",
+    "choices": [
+      "which",
+      "when"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I made the decision은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "시간 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 when",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 when를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-006",
+    "sourceQuestionId": "Q-G47-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-007-PF",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "The reason (which / why) convinced me was clear.",
+    "choices": [
+      "which",
+      "why"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 convinced me는 완전한가?",
+        "answer": "주어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "convinced의 주어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "why": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "주어가 없어 불완전하다.",
+        "convinced의 주어.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-007",
+    "sourceQuestionId": "Q-G47-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-008-PF",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "The reason (which / why) she resigned remains unknown.",
+    "choices": [
+      "which",
+      "why"
+    ],
+    "answer": "why",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she resigned는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "이유 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 why",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 why를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-008",
+    "sourceQuestionId": "Q-G47-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-001-DR",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "This is the house (which / where) I bought last year.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I bought는 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "bought의 목적어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "목적어가 없어 불완전하다.",
+        "bought의 목적어.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-001",
+    "sourceQuestionId": "Q-G47-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-002-DR",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "This is the house (which / where) I live.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I live는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "장소 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 where",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-002",
+    "sourceQuestionId": "Q-G47-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-003-DR",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "The city (which / where) she visited was crowded.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she visited는 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "visited의 목적어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "목적어가 없어 불완전하다.",
+        "visited의 목적어.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-003",
+    "sourceQuestionId": "Q-G47-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-004-DR",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "The city (which / where) she lives is crowded.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she lives는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "장소 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 where",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 where를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-004",
+    "sourceQuestionId": "Q-G47-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-005-DR",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "I remember the moment (which / when) changed my life.",
+    "choices": [
+      "which",
+      "when"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 changed my life는 완전한가?",
+        "answer": "주어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "changed의 주어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "주어가 없어 불완전하다.",
+        "changed의 주어.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-005",
+    "sourceQuestionId": "Q-G47-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-006-DR",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "I remember the moment (which / when) I made the decision.",
+    "choices": [
+      "which",
+      "when"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I made the decision은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "시간 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 when",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 when를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-006",
+    "sourceQuestionId": "Q-G47-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-007-DR",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "The reason (which / why) convinced me was clear.",
+    "choices": [
+      "which",
+      "why"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 convinced me는 완전한가?",
+        "answer": "주어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "convinced의 주어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "why": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "주어가 없어 불완전하다.",
+        "convinced의 주어.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-007",
+    "sourceQuestionId": "Q-G47-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-008-DR",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "The reason (which / why) she resigned remains unknown.",
+    "choices": [
+      "which",
+      "why"
+    ],
+    "answer": "why",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she resigned는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "이유 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 why",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절의 필수 성분 빈자리를 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 why를 선택한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-008",
+    "sourceQuestionId": "Q-G47-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-001-CT",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThis is the house (which / where) I bought last year.",
+    "choices": [
+      "where",
+      "which"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I bought는 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "bought의 목적어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'where'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'which'이다.",
+      "summary": [
+        "목적어가 없어 불완전하다.",
+        "bought의 목적어.",
+        "따라서 which를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'where'이다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-001",
+    "sourceQuestionId": "Q-G47-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-002-CT",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThis is the house (which / where) I live.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I live는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "장소 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 where",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'where'이다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 where를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'which'이다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-002",
+    "sourceQuestionId": "Q-G47-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-003-CT",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe city (which / where) she visited was crowded.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she visited는 완전한가?",
+        "answer": "목적어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "visited의 목적어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'where'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'which'이다.",
+      "summary": [
+        "목적어가 없어 불완전하다.",
+        "visited의 목적어.",
+        "따라서 which를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'where'이다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-003",
+    "sourceQuestionId": "Q-G47-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-004-CT",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe city (which / where) she lives is crowded.",
+    "choices": [
+      "where",
+      "which"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she lives는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "장소 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 where",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'where'이다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 where를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'which'이다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-004",
+    "sourceQuestionId": "Q-G47-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-005-CT",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI remember the moment (which / when) changed my life.",
+    "choices": [
+      "which",
+      "when"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 changed my life는 완전한가?",
+        "answer": "주어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "changed의 주어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'when'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'which'이다.",
+      "summary": [
+        "주어가 없어 불완전하다.",
+        "changed의 주어.",
+        "따라서 which를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'when'이다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-005",
+    "sourceQuestionId": "Q-G47-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-006-CT",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI remember the moment (which / when) I made the decision.",
+    "choices": [
+      "when",
+      "which"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 I made the decision은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "시간 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 when",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'when'이다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 when를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'which'이다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-006",
+    "sourceQuestionId": "Q-G47-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-007-CT",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe reason (which / why) convinced me was clear.",
+    "choices": [
+      "which",
+      "why"
+    ],
+    "answer": "why",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 convinced me는 완전한가?",
+        "answer": "주어가 없어 불완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "관계사가 대신할 성분은?",
+        "answer": "convinced의 주어",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계대명사 which",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'why'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'which'이다.",
+      "summary": [
+        "주어가 없어 불완전하다.",
+        "convinced의 주어.",
+        "따라서 which를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'why'이다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-007",
+    "sourceQuestionId": "Q-G47-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G47-008-CT",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe reason (which / why) she resigned remains unknown.",
+    "choices": [
+      "why",
+      "which"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 she resigned는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "role",
+        "prompt": "이유 의미가 필요한가?",
+        "answer": "그렇다",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 것은?",
+        "answer": "관계부사 why",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "why": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'why'이다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 why를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'which'이다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G47-008",
+    "sourceQuestionId": "Q-G47-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-A9352EDCD0",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 1,
+    "stem": "빠른 확인: 관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+    "choices": [
+      "관계대명사",
+      "관계부사"
+    ],
+    "answer": "관계대명사",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "뒤에 주어+동사가 오면 접속사, 명사 덩어리가 오면 전치사를 고른다.",
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "관계부사": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "목적어가 없어 불완전하다.",
+        "bought의 목적어.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "관계사 뒤 절이 불완전하면 무엇을 쓰는가?",
+        "choices": [
+          "관계대명사",
+          "관계부사"
+        ],
+        "answer": "관계대명사"
+      },
+      "transferQuestionId": "Q-G47-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART5",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-A9352EDCD0",
+    "sourceQuestionId": "Q-G47-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-076-5CA4ED42",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "It is fun to look in the philosophy section in libraries and bookshops, since a large number of books [which / where] one finds there have little or nothing to do with academic philosophy at all.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-3FBC0F73",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-076-5CA4ED42",
+    "sourceQuestionId": "Q-P21-G-076-5CA4ED42",
+    "sourceCandidateId": "CAND-G-076-5CA4ED42",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-5CA4ED42",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 85,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 35,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-5CA4ED42-PF",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "It is fun to look in the philosophy section in libraries and bookshops, since a large number of books [which / where] one finds there have little or nothing to do with academic philosophy at all.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-3FBC0F73",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-5CA4ED42",
+    "sourceQuestionId": "Q-P21-G-076-5CA4ED42",
+    "sourceCandidateId": "CAND-G-076-5CA4ED42",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-5CA4ED42",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 95,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 35,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-5CA4ED42-DR",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "It is fun to look in the philosophy section in libraries and bookshops, since a large number of books [which / where] one finds there have little or nothing to do with academic philosophy at all.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-3FBC0F73",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-5CA4ED42",
+    "sourceQuestionId": "Q-P21-G-076-5CA4ED42",
+    "sourceCandidateId": "CAND-G-076-5CA4ED42",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-5CA4ED42",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 78,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 35,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-5CA4ED42-CT",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is fun to look in the philosophy section in libraries and bookshops, since a large number of books [which / where] one finds there have little or nothing to do with academic philosophy at all.",
+    "choices": [
+      "where",
+      "which"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'where'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'which'이다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다",
+        "대조 문항에서는 사용할 수 없는 형태 'where'를 고른다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-5CA4ED42",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-5CA4ED42",
+    "sourceQuestionId": "Q-P21-G-076-5CA4ED42",
+    "sourceCandidateId": "CAND-G-076-5CA4ED42",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-5CA4ED42",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 76,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 35,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-3FBC0F73",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "Nevertheless, the consumption of travel services cannot be separated from the social and economic relations [which / in which] they are embedded.",
+    "choices": [
+      "which",
+      "in which"
+    ],
+    "answer": "in which",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-3125D4B6",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-076-3FBC0F73",
+    "sourceQuestionId": "Q-P21-G-076-3FBC0F73",
+    "sourceCandidateId": "CAND-G-076-3FBC0F73",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-3FBC0F73",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-3FBC0F73-PF",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "Nevertheless, the consumption of travel services cannot be separated from the social and economic relations [which / in which] they are embedded.",
+    "choices": [
+      "which",
+      "in which"
+    ],
+    "answer": "in which",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-3125D4B6",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-3FBC0F73",
+    "sourceQuestionId": "Q-P21-G-076-3FBC0F73",
+    "sourceCandidateId": "CAND-G-076-3FBC0F73",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-3FBC0F73",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-3FBC0F73-DR",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "Nevertheless, the consumption of travel services cannot be separated from the social and economic relations [which / in which] they are embedded.",
+    "choices": [
+      "which",
+      "in which"
+    ],
+    "answer": "in which",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-3125D4B6",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-3FBC0F73",
+    "sourceQuestionId": "Q-P21-G-076-3FBC0F73",
+    "sourceCandidateId": "CAND-G-076-3FBC0F73",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-3FBC0F73",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-3FBC0F73-CT",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNevertheless, the consumption of travel services cannot be separated from the social and economic relations [which / in which] they are embedded.",
+    "choices": [
+      "which",
+      "in which"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "in which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'in which'이다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다",
+        "대조 문항에서는 사용할 수 없는 형태 'which'를 고른다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-3FBC0F73",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-3FBC0F73",
+    "sourceQuestionId": "Q-P21-G-076-3FBC0F73",
+    "sourceCandidateId": "CAND-G-076-3FBC0F73",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-3FBC0F73",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-3125D4B6",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "The array of species in the ocean died. Death Valley simply gave up as a phenomenon of nature [which / where] there was an outlet and no inlet.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-BD0427C1",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-076-3125D4B6",
+    "sourceQuestionId": "Q-P21-G-076-3125D4B6",
+    "sourceCandidateId": "CAND-G-076-3125D4B6",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-3125D4B6",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 76,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 27,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-3125D4B6-PF",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "The array of species in the ocean died. Death Valley simply gave up as a phenomenon of nature [which / where] there was an outlet and no inlet.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-BD0427C1",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-3125D4B6",
+    "sourceQuestionId": "Q-P21-G-076-3125D4B6",
+    "sourceCandidateId": "CAND-G-076-3125D4B6",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-3125D4B6",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 85,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 27,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-3125D4B6-DR",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "The array of species in the ocean died. Death Valley simply gave up as a phenomenon of nature [which / where] there was an outlet and no inlet.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-BD0427C1",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-3125D4B6",
+    "sourceQuestionId": "Q-P21-G-076-3125D4B6",
+    "sourceCandidateId": "CAND-G-076-3125D4B6",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-3125D4B6",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 70,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 27,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-3125D4B6-CT",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe array of species in the ocean died. Death Valley simply gave up as a phenomenon of nature [which / where] there was an outlet and no inlet.",
+    "choices": [
+      "where",
+      "which"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'where'이다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다",
+        "대조 문항에서는 사용할 수 없는 형태 'which'를 고른다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-3125D4B6",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-3125D4B6",
+    "sourceQuestionId": "Q-P21-G-076-3125D4B6",
+    "sourceCandidateId": "CAND-G-076-3125D4B6",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-3125D4B6",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 27,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-BD0427C1",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "This is only one instance [which / where] it was not safe to eat genetically engineered foods.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-6649D3B2",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-076-BD0427C1",
+    "sourceQuestionId": "Q-P21-G-076-BD0427C1",
+    "sourceCandidateId": "CAND-G-076-BD0427C1",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-BD0427C1",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-BD0427C1-PF",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "This is only one instance [which / where] it was not safe to eat genetically engineered foods.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-6649D3B2",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-BD0427C1",
+    "sourceQuestionId": "Q-P21-G-076-BD0427C1",
+    "sourceCandidateId": "CAND-G-076-BD0427C1",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-BD0427C1",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-BD0427C1-DR",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "This is only one instance [which / where] it was not safe to eat genetically engineered foods.",
+    "choices": [
+      "which",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-6649D3B2",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-BD0427C1",
+    "sourceQuestionId": "Q-P21-G-076-BD0427C1",
+    "sourceCandidateId": "CAND-G-076-BD0427C1",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-BD0427C1",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-BD0427C1-CT",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThis is only one instance [which / where] it was not safe to eat genetically engineered foods.",
+    "choices": [
+      "where",
+      "which"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'where'이다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다",
+        "대조 문항에서는 사용할 수 없는 형태 'which'를 고른다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-BD0427C1",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-BD0427C1",
+    "sourceQuestionId": "Q-P21-G-076-BD0427C1",
+    "sourceCandidateId": "CAND-G-076-BD0427C1",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-BD0427C1",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-6649D3B2",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "A market may be a place [where / which] buyers put their money down and carry away whatever it is they have bought — groceries from a supermarket, for example.",
+    "choices": [
+      "where",
+      "which"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-5CA4ED42",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-076-6649D3B2",
+    "sourceQuestionId": "Q-P21-G-076-6649D3B2",
+    "sourceCandidateId": "CAND-G-076-6649D3B2",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-6649D3B2",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 77,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 28,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-6649D3B2-PF",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "A market may be a place [where / which] buyers put their money down and carry away whatever it is they have bought — groceries from a supermarket, for example.",
+    "choices": [
+      "where",
+      "which"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-5CA4ED42",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-6649D3B2",
+    "sourceQuestionId": "Q-P21-G-076-6649D3B2",
+    "sourceCandidateId": "CAND-G-076-6649D3B2",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-6649D3B2",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 86,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 28,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-6649D3B2-DR",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "A market may be a place [where / which] buyers put their money down and carry away whatever it is they have bought — groceries from a supermarket, for example.",
+    "choices": [
+      "where",
+      "which"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "관계사 뒤 절에 필수 성분이 빠졌는지 판단하지 않았다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다"
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-5CA4ED42",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-6649D3B2",
+    "sourceQuestionId": "Q-P21-G-076-6649D3B2",
+    "sourceCandidateId": "CAND-G-076-6649D3B2",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-6649D3B2",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 28,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-076-6649D3B2-CT",
+    "conceptId": "G47_RELATIVE_PRONOUN_VS_ADVERB",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nA market may be a place [where / which] buyers put their money down and carry away whatever it is they have bought — groceries from a supermarket, for example.",
+    "choices": [
+      "where",
+      "which"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "관계대명사 / 관계부사 구별",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "관계대명사 / 관계부사 구별",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "errorCode": "E51_PRONOUN_ADVERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E51_PRONOUN_ADVERB"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'where'이다.",
+      "summary": [
+        "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+        "관계사 뒤 절을 본다",
+        "관계대명사 또는 관계부사를 고른다",
+        "대조 문항에서는 사용할 수 없는 형태 'which'를 고른다."
+      ],
+      "sourceRef": "SRC-G47",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "관계사 뒤 절이 불완전하면 관계대명사, 완전하면 관계부사 또는 전치사+관계대명사를 고른다."
+      },
+      "transferQuestionId": "Q-P21-G-076-6649D3B2",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-076-6649D3B2",
+    "sourceQuestionId": "Q-P21-G-076-6649D3B2",
+    "sourceCandidateId": "CAND-G-076-6649D3B2",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 76,
+      "asset": "assets/source-evidence/phase21/grammar-page-076.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-076-6649D3B2",
+      "evidenceRef": "SRC-P21-G-076",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 28,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

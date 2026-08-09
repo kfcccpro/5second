@@ -1,0 +1,3563 @@
+[
+  {
+    "id": "Q-G87-001",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 1,
+    "stem": "They had fewer health problems than they (did / were) before.",
+    "choices": [
+      "did",
+      "were"
+    ],
+    "answer": "did",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 had",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거 일반동사를 did로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 had",
+        "과거 일반동사를 did로 대용",
+        "따라서 did를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-001",
+    "sourceQuestionId": "Q-G87-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-002",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 1,
+    "stem": "Some airlines do not ask for a birth certificate, and some (do / are).",
+    "choices": [
+      "do",
+      "are"
+    ],
+    "answer": "do",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 ask",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "현재 일반동사를 do로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 ask",
+        "현재 일반동사를 do로 대용",
+        "따라서 do를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-002",
+    "sourceQuestionId": "Q-G87-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-003",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 1,
+    "stem": "She plays tennis better now than she (did / was) last month.",
+    "choices": [
+      "did",
+      "was"
+    ],
+    "answer": "did",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 played tennis",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거 일반동사를 did로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 played tennis",
+        "과거 일반동사를 did로 대용",
+        "따라서 did를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-003",
+    "sourceQuestionId": "Q-G87-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-004",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "Outgoing people are more likely to become smokers than shy people (are / do).",
+    "choices": [
+      "are",
+      "do"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 중심은 are likely",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "be동사를 are로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "are",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 중심은 are likely",
+        "be동사를 are로 대용",
+        "따라서 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-004",
+    "sourceQuestionId": "Q-G87-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-005",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "My brother likes jazz as much as I (do / am).",
+    "choices": [
+      "do",
+      "am"
+    ],
+    "answer": "do",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 likes",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "현재 일반동사를 do로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "am": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 likes",
+        "현재 일반동사를 do로 대용",
+        "따라서 do를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-005",
+    "sourceQuestionId": "Q-G87-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-006",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "The rooms were cleaner than they (were / did) yesterday.",
+    "choices": [
+      "were",
+      "did"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 were",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거 be동사를 were로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "were",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 were",
+        "과거 be동사를 were로 대용",
+        "따라서 were를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-006",
+    "sourceQuestionId": "Q-G87-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-007",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 3,
+    "stem": "Sarah works harder than Tom (does / is).",
+    "choices": [
+      "does",
+      "is"
+    ],
+    "answer": "does",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 works",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "3인칭 단수 현재 일반동사를 does로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 works",
+        "3인칭 단수 현재 일반동사를 does로 대용",
+        "따라서 does를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-007",
+    "sourceQuestionId": "Q-G87-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-008",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 3,
+    "stem": "The new phones are more expensive than the old ones (are / do).",
+    "choices": [
+      "are",
+      "do"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 are",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "복수 주어의 be동사를 are로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "are",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 are",
+        "복수 주어의 be동사를 are로 대용",
+        "따라서 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-008",
+    "sourceQuestionId": "Q-G87-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-001-PF",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 1,
+    "stem": "They had fewer health problems than they (did / were) before.",
+    "choices": [
+      "did",
+      "were"
+    ],
+    "answer": "did",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 had",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거 일반동사를 did로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 had",
+        "과거 일반동사를 did로 대용",
+        "따라서 did를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-001",
+    "sourceQuestionId": "Q-G87-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-002-PF",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 1,
+    "stem": "Some airlines do not ask for a birth certificate, and some (do / are).",
+    "choices": [
+      "do",
+      "are"
+    ],
+    "answer": "do",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 ask",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "현재 일반동사를 do로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 ask",
+        "현재 일반동사를 do로 대용",
+        "따라서 do를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-002",
+    "sourceQuestionId": "Q-G87-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-003-PF",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 1,
+    "stem": "She plays tennis better now than she (did / was) last month.",
+    "choices": [
+      "did",
+      "was"
+    ],
+    "answer": "did",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 played tennis",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거 일반동사를 did로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 played tennis",
+        "과거 일반동사를 did로 대용",
+        "따라서 did를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-003",
+    "sourceQuestionId": "Q-G87-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-004-PF",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "Outgoing people are more likely to become smokers than shy people (are / do).",
+    "choices": [
+      "are",
+      "do"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 중심은 are likely",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "be동사를 are로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "are",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 중심은 are likely",
+        "be동사를 are로 대용",
+        "따라서 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-004",
+    "sourceQuestionId": "Q-G87-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-005-PF",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "My brother likes jazz as much as I (do / am).",
+    "choices": [
+      "do",
+      "am"
+    ],
+    "answer": "do",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 likes",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "현재 일반동사를 do로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "am": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 likes",
+        "현재 일반동사를 do로 대용",
+        "따라서 do를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-005",
+    "sourceQuestionId": "Q-G87-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-006-PF",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "The rooms were cleaner than they (were / did) yesterday.",
+    "choices": [
+      "were",
+      "did"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 were",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거 be동사를 were로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "were",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 were",
+        "과거 be동사를 were로 대용",
+        "따라서 were를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-006",
+    "sourceQuestionId": "Q-G87-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-007-PF",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 3,
+    "stem": "Sarah works harder than Tom (does / is).",
+    "choices": [
+      "does",
+      "is"
+    ],
+    "answer": "does",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 works",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "3인칭 단수 현재 일반동사를 does로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 works",
+        "3인칭 단수 현재 일반동사를 does로 대용",
+        "따라서 does를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-007",
+    "sourceQuestionId": "Q-G87-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-008-PF",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 3,
+    "stem": "The new phones are more expensive than the old ones (are / do).",
+    "choices": [
+      "are",
+      "do"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 are",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "복수 주어의 be동사를 are로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "are",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 are",
+        "복수 주어의 be동사를 are로 대용",
+        "따라서 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-008",
+    "sourceQuestionId": "Q-G87-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 73,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-001-DR",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 1,
+    "stem": "They had fewer health problems than they (did / were) before.",
+    "choices": [
+      "did",
+      "were"
+    ],
+    "answer": "did",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 had",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거 일반동사를 did로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 had",
+        "과거 일반동사를 did로 대용",
+        "따라서 did를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-001",
+    "sourceQuestionId": "Q-G87-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-002-DR",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 1,
+    "stem": "Some airlines do not ask for a birth certificate, and some (do / are).",
+    "choices": [
+      "do",
+      "are"
+    ],
+    "answer": "do",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 ask",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "현재 일반동사를 do로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 ask",
+        "현재 일반동사를 do로 대용",
+        "따라서 do를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-002",
+    "sourceQuestionId": "Q-G87-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-003-DR",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 1,
+    "stem": "She plays tennis better now than she (did / was) last month.",
+    "choices": [
+      "did",
+      "was"
+    ],
+    "answer": "did",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 played tennis",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거 일반동사를 did로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 played tennis",
+        "과거 일반동사를 did로 대용",
+        "따라서 did를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-003",
+    "sourceQuestionId": "Q-G87-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-004-DR",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "Outgoing people are more likely to become smokers than shy people (are / do).",
+    "choices": [
+      "are",
+      "do"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 중심은 are likely",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "be동사를 are로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "are",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 중심은 are likely",
+        "be동사를 are로 대용",
+        "따라서 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-004",
+    "sourceQuestionId": "Q-G87-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-005-DR",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "My brother likes jazz as much as I (do / am).",
+    "choices": [
+      "do",
+      "am"
+    ],
+    "answer": "do",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 likes",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "현재 일반동사를 do로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "am": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 likes",
+        "현재 일반동사를 do로 대용",
+        "따라서 do를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-005",
+    "sourceQuestionId": "Q-G87-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-006-DR",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "The rooms were cleaner than they (were / did) yesterday.",
+    "choices": [
+      "were",
+      "did"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 were",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거 be동사를 were로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "were",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 were",
+        "과거 be동사를 were로 대용",
+        "따라서 were를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-006",
+    "sourceQuestionId": "Q-G87-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-007-DR",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 3,
+    "stem": "Sarah works harder than Tom (does / is).",
+    "choices": [
+      "does",
+      "is"
+    ],
+    "answer": "does",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 works",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "3인칭 단수 현재 일반동사를 does로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 works",
+        "3인칭 단수 현재 일반동사를 does로 대용",
+        "따라서 does를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-007",
+    "sourceQuestionId": "Q-G87-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-008-DR",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 3,
+    "stem": "The new phones are more expensive than the old ones (are / do).",
+    "choices": [
+      "are",
+      "do"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 are",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "복수 주어의 be동사를 are로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "are",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "앞의 반복 동사는 are",
+        "복수 주어의 be동사를 are로 대용",
+        "따라서 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-008",
+    "sourceQuestionId": "Q-G87-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-001-CT",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThey had fewer health problems than they (did / were) before.",
+    "choices": [
+      "were",
+      "did"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 had",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거 일반동사를 did로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "'were'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'did'이다.",
+      "summary": [
+        "앞의 반복 동사는 had",
+        "과거 일반동사를 did로 대용",
+        "따라서 did를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'were'이다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-001",
+    "sourceQuestionId": "Q-G87-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-002-CT",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nSome airlines do not ask for a birth certificate, and some (do / are).",
+    "choices": [
+      "do",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 ask",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "현재 일반동사를 do로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "'are'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'do'이다.",
+      "summary": [
+        "앞의 반복 동사는 ask",
+        "현재 일반동사를 do로 대용",
+        "따라서 do를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'are'이다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-002",
+    "sourceQuestionId": "Q-G87-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-003-CT",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe plays tennis better now than she (did / was) last month.",
+    "choices": [
+      "was",
+      "did"
+    ],
+    "answer": "was",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 played tennis",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거 일반동사를 did로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "'was'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'did'이다.",
+      "summary": [
+        "앞의 반복 동사는 played tennis",
+        "과거 일반동사를 did로 대용",
+        "따라서 did를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'was'이다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-003",
+    "sourceQuestionId": "Q-G87-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-004-CT",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nOutgoing people are more likely to become smokers than shy people (are / do).",
+    "choices": [
+      "are",
+      "do"
+    ],
+    "answer": "do",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 중심은 are likely",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "be동사를 are로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "are",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "'do'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'are'이다.",
+      "summary": [
+        "앞의 반복 중심은 are likely",
+        "be동사를 are로 대용",
+        "따라서 are를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'do'이다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-004",
+    "sourceQuestionId": "Q-G87-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-005-CT",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nMy brother likes jazz as much as I (do / am).",
+    "choices": [
+      "am",
+      "do"
+    ],
+    "answer": "am",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 likes",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "현재 일반동사를 do로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "do",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "'am'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'do'이다.",
+      "summary": [
+        "앞의 반복 동사는 likes",
+        "현재 일반동사를 do로 대용",
+        "따라서 do를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'am'이다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-005",
+    "sourceQuestionId": "Q-G87-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-006-CT",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe rooms were cleaner than they (were / did) yesterday.",
+    "choices": [
+      "did",
+      "were"
+    ],
+    "answer": "did",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 were",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "과거 be동사를 were로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "were",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "'did'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'were'이다.",
+      "summary": [
+        "앞의 반복 동사는 were",
+        "과거 be동사를 were로 대용",
+        "따라서 were를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'did'이다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-006",
+    "sourceQuestionId": "Q-G87-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-007-CT",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nSarah works harder than Tom (does / is).",
+    "choices": [
+      "does",
+      "is"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 works",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "3인칭 단수 현재 일반동사를 does로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "does": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "'is'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'does'이다.",
+      "summary": [
+        "앞의 반복 동사는 works",
+        "3인칭 단수 현재 일반동사를 does로 대용",
+        "따라서 does를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'is'이다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-007",
+    "sourceQuestionId": "Q-G87-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G87-008-CT",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe new phones are more expensive than the old ones (are / do).",
+    "choices": [
+      "are",
+      "do"
+    ],
+    "answer": "do",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞의 반복 동사는 are",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "복수 주어의 be동사를 are로 대용",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "are",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "'do'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'are'이다.",
+      "summary": [
+        "앞의 반복 동사는 are",
+        "복수 주어의 be동사를 are로 대용",
+        "따라서 are를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'do'이다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G87-008",
+    "sourceQuestionId": "Q-G87-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-466AC3DCF4",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 1,
+    "stem": "빠른 확인: 비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+    "choices": [
+      "do·does·did",
+      "be동사"
+    ],
+    "answer": "do·does·did",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+          "과거 사실에 대한 강한 확신은 must have p.p., 가능성은 may·might have p.p., 불가능 판단은 cannot have p.p.를 쓴다."
+        ],
+        "answer": "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be동사": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+        "앞의 반복 동사는 had",
+        "과거 일반동사를 did로 대용",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "비교에서 앞 동사가 일반동사이면 무엇으로 받는가?",
+        "choices": [
+          "do·does·did",
+          "be동사"
+        ],
+        "answer": "do·does·did"
+      },
+      "transferQuestionId": "Q-G87-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART9",
+    "chapter": "CH4",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-466AC3DCF4",
+    "sourceQuestionId": "Q-G87-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-123-5D2126A6",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "They had fewer health problems such as colds, headaches and stomach aches than they [did / were] before.",
+    "choices": [
+      "did",
+      "were"
+    ],
+    "answer": "did",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대동사 do",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대동사 do",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+        "반복되는 앞 동사를 찾는다",
+        "주어와 시제에 맞는 be동사 또는 do동사를 선택한다"
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다."
+      },
+      "transferQuestionId": "Q-G87-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART9",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-123-5D2126A6",
+    "sourceQuestionId": "Q-P21-G-123-5D2126A6",
+    "sourceCandidateId": "CAND-G-123-5D2126A6",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 123,
+      "asset": "assets/source-evidence/phase21/grammar-page-123.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-123-5D2126A6",
+      "evidenceRef": "SRC-P21-G-123",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-123-5D2126A6-PF",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "They had fewer health problems such as colds, headaches and stomach aches than they [did / were] before.",
+    "choices": [
+      "did",
+      "were"
+    ],
+    "answer": "did",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대동사 do",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대동사 do",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+        "반복되는 앞 동사를 찾는다",
+        "주어와 시제에 맞는 be동사 또는 do동사를 선택한다"
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다."
+      },
+      "transferQuestionId": "Q-G87-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART9",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-123-5D2126A6",
+    "sourceQuestionId": "Q-P21-G-123-5D2126A6",
+    "sourceCandidateId": "CAND-G-123-5D2126A6",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 123,
+      "asset": "assets/source-evidence/phase21/grammar-page-123.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-123-5D2126A6",
+      "evidenceRef": "SRC-P21-G-123",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-123-5D2126A6-DR",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "They had fewer health problems such as colds, headaches and stomach aches than they [did / were] before.",
+    "choices": [
+      "did",
+      "were"
+    ],
+    "answer": "did",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대동사 do",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대동사 do",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "반복되는 앞 동사가 be동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+        "반복되는 앞 동사를 찾는다",
+        "주어와 시제에 맞는 be동사 또는 do동사를 선택한다"
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다."
+      },
+      "transferQuestionId": "Q-G87-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART9",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-123-5D2126A6",
+    "sourceQuestionId": "Q-P21-G-123-5D2126A6",
+    "sourceCandidateId": "CAND-G-123-5D2126A6",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 123,
+      "asset": "assets/source-evidence/phase21/grammar-page-123.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-123-5D2126A6",
+      "evidenceRef": "SRC-P21-G-123",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-123-5D2126A6-CT",
+    "conceptId": "G87_PROVERB_DO_SUBSTITUTION",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThey had fewer health problems such as colds, headaches and stomach aches than they [did / were] before.",
+    "choices": [
+      "were",
+      "did"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대동사 do",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대동사 do",
+        "errorCode": "E91_PROVERB_DO"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+        "errorCode": "E91_PROVERB_DO"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did": "E91_PROVERB_DO"
+    },
+    "remediation": {
+      "diagnosis": "'were'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'did'이다.",
+      "summary": [
+        "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+        "반복되는 앞 동사를 찾는다",
+        "주어와 시제에 맞는 be동사 또는 do동사를 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'were'를 고른다."
+      ],
+      "sourceRef": "SRC-G87",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "비교·병렬에서 앞 동사를 반복하지 않을 때 앞 동사가 be동사이면 is·are·was·were, 일반동사이면 do·does·did를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-123-5D2126A6",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART9",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-123-5D2126A6",
+    "sourceQuestionId": "Q-P21-G-123-5D2126A6",
+    "sourceCandidateId": "CAND-G-123-5D2126A6",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 123,
+      "asset": "assets/source-evidence/phase21/grammar-page-123.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-123-5D2126A6",
+      "evidenceRef": "SRC-P21-G-123",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

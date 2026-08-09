@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="#5948c8" name="theme-color"/>
+<title>저장소·오프라인 진단 · JK 5초 영어</title>
+<style>
+:root{--bg:#f4f3f8;--card:#fff;--text:#17171d;--sub:#6e6d78;--line:#e4e2ea;--accent:#5948c8;--ok:#087b54;--bad:#c93434}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.wrap{max-width:900px;margin:auto;padding:max(18px,env(safe-area-inset-top)) 16px max(36px,env(safe-area-inset-bottom))}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.top a{color:var(--accent);font-weight:800;text-decoration:none}.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;margin-bottom:14px}.card h1,.card h2{margin:0 0 8px}.card p{color:var(--sub);line-height:1.55}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.item{background:#f7f6fa;border-radius:13px;padding:12px}.item small{display:block;color:var(--sub)}.item b{display:block;margin-top:4px}.ok{color:var(--ok)}.bad{color:var(--bad)}.btn{border:0;border-radius:14px;padding:14px;font-size:15px;font-weight:850;cursor:pointer;text-decoration:none;text-align:center;background:var(--accent);color:#fff}.secondary{background:#eceaf2;color:#2e2c38}.actions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:14px}.notice{background:#f0eefb;border:1px solid #ded8ff;color:#3c337f;border-radius:14px;padding:13px;line-height:1.5;font-size:13px;margin-top:12px}.rotateBox{position:relative;height:160px;border:1px solid var(--line);border-radius:14px;background:#fffdf7;margin-top:12px}.token{position:absolute;left:42%;top:43%;padding:8px 12px;background:#eeeafd;color:#493cad;border-radius:10px;font-weight:900}.mark{position:absolute;width:18px;height:18px;border:3px solid #0a9958;border-radius:50%;transform:translate(-50%,-50%);pointer-events:none}.qa label{display:block;font-weight:800;margin:10px 0 5px}.qa input,.qa textarea,.qa select{width:100%;border:1px solid var(--line);border-radius:10px;padding:11px;font:inherit}.qa textarea{min-height:90px}.manualList{line-height:1.65;color:var(--sub)}@media(max-width:650px){.grid,.actions{grid-template-columns:1fr}.card{padding:18px}}
+</style>
+<link rel="stylesheet" href="rc-core.css"><script src="firebase-pilot-config.js"></script></head>
+<body>
+<div class="wrap">
+<div class="top"><strong>JK 5초 영어 · 저장소 진단</strong><a href="settings.html">설정으로</a></div>
+<section class="card">
+<h1>브라우저 저장 기능 자체 시험</h1>
+<p>IndexedDB 읽기/쓰기, 저장 용량, 영속화, 서비스워커와 온라인 상태를 확인합니다.</p>
+<div class="grid" id="diagGrid"></div>
+<div class="actions"><button class="btn" id="runDiag">진단 다시 실행</button><button class="btn secondary" id="legacyTest">오래된 백업 마이그레이션 시험</button></div>
+<div class="notice" id="diagStatus">진단을 준비 중입니다.</div>
+</section>
+<section class="card">
+<h2>화면 회전 후 좌표 복원 시험</h2>
+<p>초록 원의 위치를 정규화 좌표로 저장한 뒤 화면 크기 변화 때 다시 계산합니다. 실제 태블릿에서는 세로·가로 회전을 한 차례 수행하십시오.</p>
+<div class="rotateBox" id="rotateBox"><span class="token" id="token">that</span><span class="mark" id="mark"></span></div>
+<div class="notice" id="rotateStatus">좌표 계산 전</div>
+<div class="actions"><button class="btn" id="saveCoord">현재 좌표 저장</button><button class="btn secondary" id="clearCoord">좌표 초기화</button></div>
+</section>
+<section class="card">
+<h2>오프라인 재실행 시험</h2>
+<ol class="manualList"><li>온라인 상태에서 학습앱을 한 번 실행합니다.</li><li>브라우저 개발자도구 또는 기기 네트워크를 오프라인으로 전환합니다.</li><li>학습앱을 새로고침하여 화면·문항·교재 이미지가 열리는지 확인합니다.</li><li>오프라인에서 풀이 후 다시 온라인으로 전환해 기록이 유지되는지 확인합니다.</li></ol>
+<div class="notice" id="offlineStatus">서비스워커 제어 상태를 진단 결과에서 확인하십시오. 실제 기기 오프라인 재실행은 이 환경에서 자동 검증하지 않습니다.</div>
+</section>
+<section class="card qa">
+<h2>실제 기기 QA 결과 기록</h2>
+<p>실기기 검증을 수행한 경우에만 값을 입력합니다. 결과 JSON은 내부 QA 증빙으로 사용할 수 있습니다.</p>
+<label>기기·OS·브라우저</label><input id="qaDevice" placeholder="예: iPad Pro / iPadOS 19 / Safari"/>
+<label>펜</label><input id="qaPen" placeholder="예: Apple Pencil Pro"/>
+<label>시험 결과</label><select id="qaResult"><option value="UNVERIFIED">미검증</option><option value="PASS">PASS</option><option value="FAIL">FAIL</option></select>
+<label>세부 메모</label><textarea id="qaNotes" placeholder="회전, 팜리젝션, 스크롤 충돌, 30분 연속 사용 결과"></textarea>
+<button class="btn" id="exportQa" style="width:100%;margin-top:12px">QA 결과 JSON 저장</button>
+</section>
+</div>
+<script src="auth-core.js"></script><script>JK_AUTH.requireRole('admin');</script><script src="storage.js"></script>
+<script>
+(() => {
+  'use strict';
+  const $=id=>document.getElementById(id);let state=null,coord={x:.5,y:.5};
+  function bytes(n){if(n==null)return '-';const u=['B','KB','MB','GB'];let i=0,v=n;while(v>=1024&&i<u.length-1){v/=1024;i++}return `${v.toFixed(i?1:0)} ${u[i]}`}
+  function card(label,value,ok=null){return `<div class="item"><small>${label}</small><b class="${ok===true?'ok':ok===false?'bad':''}">${value}</b></div>`}
+  async function runDiag(){
+    $('diagStatus').textContent='진단 중...';const d=await JK_STORAGE.diagnose();state=JK_STORAGE.getSnapshot();$('diagGrid').innerHTML=[card('IndexedDB 지원',d.indexedDBSupported?'지원':'미지원',d.indexedDBSupported),card('현재 저장 방식',d.mode,d.mode==='indexeddb'),card('읽기/쓰기',d.readWrite?'PASS':'FAIL',d.readWrite),card('사용량',bytes(d.usage)),card('할당량',bytes(d.quota)),card('영속 저장',d.persisted===true?'허용':d.persisted===false?'미허용':'확인 불가',d.persisted===true),card('서비스워커',d.serviceWorkerSupported?'지원':'미지원',d.serviceWorkerSupported),card('현재 제어',d.serviceWorkerControlled?'제어 중':'미제어',d.serviceWorkerControlled),card('네트워크',d.online?'온라인':'오프라인',d.online)].join('');$('diagStatus').innerHTML=`<b class="${d.readWrite?'ok':'bad'}">${d.readWriteMessage}</b> · DB v${JK_STORAGE.DB_VERSION} · app schema ${JK_STORAGE.SCHEMA_VERSION}`;
+  }
+  function runLegacy(){const r=JK_STORAGE.runLegacyBackupMigrationTest();$('diagStatus').innerHTML=`<b class="${r.ok?'ok':'bad'}">오래된 백업 마이그레이션 ${r.ok?'PASS':'FAIL'}</b>${r.warnings.length?' · '+r.warnings.join(' / '):''}${r.errors.length?' · '+r.errors.join(' / '):''}`}
+  function placeMark(){const box=$('rotateBox'),mark=$('mark');mark.style.left=`${coord.x*100}%`;mark.style.top=`${coord.y*100}%`;const token=$('token').getBoundingClientRect(),br=box.getBoundingClientRect(),mx=br.left+coord.x*br.width,my=br.top+coord.y*br.height,inside=mx>=token.left-20&&mx<=token.right+20&&my>=token.top-20&&my<=token.bottom+20;$('rotateStatus').innerHTML=`정규화 좌표 x=${coord.x.toFixed(3)}, y=${coord.y.toFixed(3)} · ${Math.round(br.width)}×${Math.round(br.height)} · <b class="${inside?'ok':'bad'}">${inside?'토큰 인접':'토큰 이탈'}</b>`}
+  function saveCoord(){const box=$('rotateBox').getBoundingClientRect(),token=$('token').getBoundingClientRect();coord={x:((token.left+token.right)/2-box.left)/box.width,y:((token.top+token.bottom)/2-box.top)/box.height};try{sessionStorage.setItem('jk_coord_test',JSON.stringify(coord))}catch(_){ }placeMark()}
+  function clearCoord(){coord={x:.5,y:.5};try{sessionStorage.removeItem('jk_coord_test')}catch(_){ }placeMark()}
+  function exportQa(){const payload={format:'JK_ENG_DEVICE_QA',appVersion:JK_STORAGE.APP_VERSION,schemaVersion:JK_STORAGE.SCHEMA_VERSION,createdAt:new Date().toISOString(),device:$('qaDevice').value,pen:$('qaPen').value,result:$('qaResult').value,notes:$('qaNotes').value,diagnostics:state?{mode:state.mode,profile:state.profile}:null};const blob=new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`JK_ENG_device_QA_${Date.now()}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1500)}
+  async function boot(){await JK_STORAGE.init();let saved=null;try{saved=sessionStorage.getItem('jk_coord_test')}catch(_){ }if(saved)try{coord=JSON.parse(saved)}catch(_){ }placeMark();await runDiag();$('runDiag').onclick=runDiag;$('legacyTest').onclick=runLegacy;$('saveCoord').onclick=saveCoord;$('clearCoord').onclick=clearCoord;$('exportQa').onclick=exportQa;addEventListener('resize',placeMark);addEventListener('orientationchange',()=>setTimeout(placeMark,250))}
+  boot().catch(e=>{$('diagStatus').innerHTML=`<b class="bad">진단 초기화 실패</b> · ${e.message}`});
+})();
+</script>
+<script src="rc-core.js"></script></body>
+</html>

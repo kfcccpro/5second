@@ -1,0 +1,3547 @@
+[
+  {
+    "id": "Q-G24-001",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "She seems (to leave / to have left) before the meeting ended.",
+    "choices": [
+      "to leave",
+      "to have left"
+    ],
+    "answer": "to have left",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사보다 이전",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to leave": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사보다 이전이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-001",
+    "sourceQuestionId": "Q-G24-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-002",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "The scientist is believed (to discover / to have discovered) the method years ago.",
+    "choices": [
+      "to discover",
+      "to have discovered"
+    ],
+    "answer": "to have discovered",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사보다 이전",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to discover": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사보다 이전이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-002",
+    "sourceQuestionId": "Q-G24-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-003",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "He appears (to know / to have known) the answer now.",
+    "choices": [
+      "to know",
+      "to have known"
+    ],
+    "answer": "to know",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사와 같은 시점",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have known": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사와 같은 시점이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-003",
+    "sourceQuestionId": "Q-G24-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-004",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "The building was reported (to collapse / to have collapsed) during the night before.",
+    "choices": [
+      "to collapse",
+      "to have collapsed"
+    ],
+    "answer": "to have collapsed",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사보다 이전",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to collapse": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사보다 이전이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-004",
+    "sourceQuestionId": "Q-G24-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-005",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "They are expected (to arrive / to have arrived) tomorrow.",
+    "choices": [
+      "to arrive",
+      "to have arrived"
+    ],
+    "answer": "to arrive",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사 이후",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have arrived": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사 이후이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-005",
+    "sourceQuestionId": "Q-G24-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-006",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "The device is known (to work / to have worked) reliably under current conditions.",
+    "choices": [
+      "to work",
+      "to have worked"
+    ],
+    "answer": "to work",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사와 같은 시점",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have worked": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사와 같은 시점이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-006",
+    "sourceQuestionId": "Q-G24-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-001-PF",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "She seems (to leave / to have left) before the meeting ended.",
+    "choices": [
+      "to leave",
+      "to have left"
+    ],
+    "answer": "to have left",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사보다 이전",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to leave": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사보다 이전이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-001",
+    "sourceQuestionId": "Q-G24-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-002-PF",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "The scientist is believed (to discover / to have discovered) the method years ago.",
+    "choices": [
+      "to discover",
+      "to have discovered"
+    ],
+    "answer": "to have discovered",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사보다 이전",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to discover": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사보다 이전이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-002",
+    "sourceQuestionId": "Q-G24-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-003-PF",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "He appears (to know / to have known) the answer now.",
+    "choices": [
+      "to know",
+      "to have known"
+    ],
+    "answer": "to know",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사와 같은 시점",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have known": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사와 같은 시점이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-003",
+    "sourceQuestionId": "Q-G24-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-004-PF",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "The building was reported (to collapse / to have collapsed) during the night before.",
+    "choices": [
+      "to collapse",
+      "to have collapsed"
+    ],
+    "answer": "to have collapsed",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사보다 이전",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to collapse": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사보다 이전이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-004",
+    "sourceQuestionId": "Q-G24-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-005-PF",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "They are expected (to arrive / to have arrived) tomorrow.",
+    "choices": [
+      "to arrive",
+      "to have arrived"
+    ],
+    "answer": "to arrive",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사 이후",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have arrived": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사 이후이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-005",
+    "sourceQuestionId": "Q-G24-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-006-PF",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "The device is known (to work / to have worked) reliably under current conditions.",
+    "choices": [
+      "to work",
+      "to have worked"
+    ],
+    "answer": "to work",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사와 같은 시점",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have worked": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사와 같은 시점이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-006",
+    "sourceQuestionId": "Q-G24-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-001-DR",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "She seems (to leave / to have left) before the meeting ended.",
+    "choices": [
+      "to leave",
+      "to have left"
+    ],
+    "answer": "to have left",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사보다 이전",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to leave": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사보다 이전이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-001",
+    "sourceQuestionId": "Q-G24-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-002-DR",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "The scientist is believed (to discover / to have discovered) the method years ago.",
+    "choices": [
+      "to discover",
+      "to have discovered"
+    ],
+    "answer": "to have discovered",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사보다 이전",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to discover": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사보다 이전이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-002",
+    "sourceQuestionId": "Q-G24-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-003-DR",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "He appears (to know / to have known) the answer now.",
+    "choices": [
+      "to know",
+      "to have known"
+    ],
+    "answer": "to know",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사와 같은 시점",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have known": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사와 같은 시점이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-003",
+    "sourceQuestionId": "Q-G24-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-004-DR",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "The building was reported (to collapse / to have collapsed) during the night before.",
+    "choices": [
+      "to collapse",
+      "to have collapsed"
+    ],
+    "answer": "to have collapsed",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사보다 이전",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to collapse": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사보다 이전이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-004",
+    "sourceQuestionId": "Q-G24-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-005-DR",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "They are expected (to arrive / to have arrived) tomorrow.",
+    "choices": [
+      "to arrive",
+      "to have arrived"
+    ],
+    "answer": "to arrive",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사 이후",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have arrived": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사 이후이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-005",
+    "sourceQuestionId": "Q-G24-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-006-DR",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "The device is known (to work / to have worked) reliably under current conditions.",
+    "choices": [
+      "to work",
+      "to have worked"
+    ],
+    "answer": "to work",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사와 같은 시점",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have worked": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사와 to부정사 행동의 시간 관계를 비교하지 않았다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사와 같은 시점이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-006",
+    "sourceQuestionId": "Q-G24-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-001-CT",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe seems (to leave / to have left) before the meeting ended.",
+    "choices": [
+      "to have left",
+      "to leave"
+    ],
+    "answer": "to leave",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사보다 이전",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have left": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "'to leave'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to have left'이다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사보다 이전이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'to leave'이다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-001",
+    "sourceQuestionId": "Q-G24-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-002-CT",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe scientist is believed (to discover / to have discovered) the method years ago.",
+    "choices": [
+      "to discover",
+      "to have discovered"
+    ],
+    "answer": "to discover",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사보다 이전",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have discovered": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "'to discover'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to have discovered'이다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사보다 이전이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'to discover'이다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-002",
+    "sourceQuestionId": "Q-G24-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-003-CT",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe appears (to know / to have known) the answer now.",
+    "choices": [
+      "to know",
+      "to have known"
+    ],
+    "answer": "to have known",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사와 같은 시점",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to know": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "'to have known'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to know'이다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사와 같은 시점이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'to have known'이다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-003",
+    "sourceQuestionId": "Q-G24-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-004-CT",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe building was reported (to collapse / to have collapsed) during the night before.",
+    "choices": [
+      "to have collapsed",
+      "to collapse"
+    ],
+    "answer": "to collapse",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사보다 이전",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have collapsed": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "'to collapse'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to have collapsed'이다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사보다 이전이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'to collapse'이다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-004",
+    "sourceQuestionId": "Q-G24-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-005-CT",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThey are expected (to arrive / to have arrived) tomorrow.",
+    "choices": [
+      "to arrive",
+      "to have arrived"
+    ],
+    "answer": "to have arrived",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사 이후",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to arrive": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "'to have arrived'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to arrive'이다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사 이후이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'to have arrived'이다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-005",
+    "sourceQuestionId": "Q-G24-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G24-006-CT",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe device is known (to work / to have worked) reliably under current conditions.",
+    "choices": [
+      "to have worked",
+      "to work"
+    ],
+    "answer": "to have worked",
+    "decisionSteps": [
+      {
+        "id": "finiteTime",
+        "prompt": "본동사의 기준 시점을 확인했는가?",
+        "answer": "확인했다",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "relation",
+        "prompt": "to부정사 행동은 본동사보다 언제인가?",
+        "answer": "본동사와 같은 시점",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to work": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "'to have worked'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to work'이다.",
+      "summary": [
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사와 같은 시점이다.",
+        "이전이면 to have p.p., 동시·이후이면 to-V를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'to have worked'이다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G24-006",
+    "sourceQuestionId": "Q-G24-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-64211B0809",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 본동사보다 먼저 일어난 일을 나타내는 형태는?",
+    "choices": [
+      "to have p.p.",
+      "to-V"
+    ],
+    "answer": "to have p.p.",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "enjoy, avoid, finish, admit, consider, deny, keep, practice, suggest 등은 뒤에 V-ing를 둔다.",
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다."
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to-V": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "본동사의 기준 시점을 잡는다.",
+        "to부정사 행동은 본동사보다 이전이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "본동사보다 먼저 일어난 일을 나타내는 형태는?",
+        "choices": [
+          "to have p.p.",
+          "to-V"
+        ],
+        "answer": "to have p.p."
+      },
+      "transferQuestionId": "Q-G24-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-64211B0809",
+    "sourceQuestionId": "Q-G24-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-047-0059081B",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "Albertus Magnus, the teacher of Aquinas, is rumored [to have / to have had] a robot in his laboratory that could raise a hand and give a greeting.",
+    "choices": [
+      "to have",
+      "to have had"
+    ],
+    "answer": "to have had",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 시제",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사보다 먼저 일어난 일을 단순 to-V로 처리했다.",
+      "summary": [
+        "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "본동사의 시점을 확인한다",
+        "동시·이후이면 to-V, 이전이면 to have p.p.를 선택한다"
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-047-8897FF74",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-047-0059081B",
+    "sourceQuestionId": "Q-P21-G-047-0059081B",
+    "sourceCandidateId": "CAND-G-047-0059081B",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 47,
+      "asset": "assets/source-evidence/phase21/grammar-page-047.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-047-0059081B",
+      "evidenceRef": "SRC-P21-G-047",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 76,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 27,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-047-0059081B-PF",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "Albertus Magnus, the teacher of Aquinas, is rumored [to have / to have had] a robot in his laboratory that could raise a hand and give a greeting.",
+    "choices": [
+      "to have",
+      "to have had"
+    ],
+    "answer": "to have had",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 시제",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사보다 먼저 일어난 일을 단순 to-V로 처리했다.",
+      "summary": [
+        "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "본동사의 시점을 확인한다",
+        "동시·이후이면 to-V, 이전이면 to have p.p.를 선택한다"
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-047-8897FF74",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-047-0059081B",
+    "sourceQuestionId": "Q-P21-G-047-0059081B",
+    "sourceCandidateId": "CAND-G-047-0059081B",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 47,
+      "asset": "assets/source-evidence/phase21/grammar-page-047.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-047-0059081B",
+      "evidenceRef": "SRC-P21-G-047",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 85,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 27,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-047-0059081B-DR",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "Albertus Magnus, the teacher of Aquinas, is rumored [to have / to have had] a robot in his laboratory that could raise a hand and give a greeting.",
+    "choices": [
+      "to have",
+      "to have had"
+    ],
+    "answer": "to have had",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 시제",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사보다 먼저 일어난 일을 단순 to-V로 처리했다.",
+      "summary": [
+        "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "본동사의 시점을 확인한다",
+        "동시·이후이면 to-V, 이전이면 to have p.p.를 선택한다"
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-047-8897FF74",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-047-0059081B",
+    "sourceQuestionId": "Q-P21-G-047-0059081B",
+    "sourceCandidateId": "CAND-G-047-0059081B",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 47,
+      "asset": "assets/source-evidence/phase21/grammar-page-047.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-047-0059081B",
+      "evidenceRef": "SRC-P21-G-047",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 70,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 27,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-047-0059081B-CT",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nAlbertus Magnus, the teacher of Aquinas, is rumored [to have / to have had] a robot in his laboratory that could raise a hand and give a greeting.",
+    "choices": [
+      "to have",
+      "to have had"
+    ],
+    "answer": "to have",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 시제",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have had": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "'to have'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to have had'이다.",
+      "summary": [
+        "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "본동사의 시점을 확인한다",
+        "동시·이후이면 to-V, 이전이면 to have p.p.를 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'to have'를 고른다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-047-0059081B",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-047-0059081B",
+    "sourceQuestionId": "Q-P21-G-047-0059081B",
+    "sourceCandidateId": "CAND-G-047-0059081B",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 47,
+      "asset": "assets/source-evidence/phase21/grammar-page-047.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-047-0059081B",
+      "evidenceRef": "SRC-P21-G-047",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 27,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-047-8897FF74",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "Northern Song Dynasty is thought [to fall / to have fallen] because of it.",
+    "choices": [
+      "to fall",
+      "to have fallen"
+    ],
+    "answer": "to have fallen",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 시제",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to fall": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사보다 먼저 일어난 일을 단순 to-V로 처리했다.",
+      "summary": [
+        "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "본동사의 시점을 확인한다",
+        "동시·이후이면 to-V, 이전이면 to have p.p.를 선택한다"
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-047-767A9866",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-047-8897FF74",
+    "sourceQuestionId": "Q-P21-G-047-8897FF74",
+    "sourceCandidateId": "CAND-G-047-8897FF74",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 47,
+      "asset": "assets/source-evidence/phase21/grammar-page-047.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-047-8897FF74",
+      "evidenceRef": "SRC-P21-G-047",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-047-8897FF74-PF",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "Northern Song Dynasty is thought [to fall / to have fallen] because of it.",
+    "choices": [
+      "to fall",
+      "to have fallen"
+    ],
+    "answer": "to have fallen",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 시제",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to fall": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사보다 먼저 일어난 일을 단순 to-V로 처리했다.",
+      "summary": [
+        "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "본동사의 시점을 확인한다",
+        "동시·이후이면 to-V, 이전이면 to have p.p.를 선택한다"
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-047-767A9866",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-047-8897FF74",
+    "sourceQuestionId": "Q-P21-G-047-8897FF74",
+    "sourceCandidateId": "CAND-G-047-8897FF74",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 47,
+      "asset": "assets/source-evidence/phase21/grammar-page-047.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-047-8897FF74",
+      "evidenceRef": "SRC-P21-G-047",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-047-8897FF74-DR",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "Northern Song Dynasty is thought [to fall / to have fallen] because of it.",
+    "choices": [
+      "to fall",
+      "to have fallen"
+    ],
+    "answer": "to have fallen",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 시제",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to fall": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사보다 먼저 일어난 일을 단순 to-V로 처리했다.",
+      "summary": [
+        "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "본동사의 시점을 확인한다",
+        "동시·이후이면 to-V, 이전이면 to have p.p.를 선택한다"
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-047-767A9866",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-047-8897FF74",
+    "sourceQuestionId": "Q-P21-G-047-8897FF74",
+    "sourceCandidateId": "CAND-G-047-8897FF74",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 47,
+      "asset": "assets/source-evidence/phase21/grammar-page-047.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-047-8897FF74",
+      "evidenceRef": "SRC-P21-G-047",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-047-8897FF74-CT",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNorthern Song Dynasty is thought [to fall / to have fallen] because of it.",
+    "choices": [
+      "to have fallen",
+      "to fall"
+    ],
+    "answer": "to fall",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 시제",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have fallen": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "'to fall'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to have fallen'이다.",
+      "summary": [
+        "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "본동사의 시점을 확인한다",
+        "동시·이후이면 to-V, 이전이면 to have p.p.를 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'to fall'를 고른다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-047-8897FF74",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-047-8897FF74",
+    "sourceQuestionId": "Q-P21-G-047-8897FF74",
+    "sourceCandidateId": "CAND-G-047-8897FF74",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 47,
+      "asset": "assets/source-evidence/phase21/grammar-page-047.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-047-8897FF74",
+      "evidenceRef": "SRC-P21-G-047",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 13,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-047-767A9866",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "The Harry Potter series is known [to earn /to have earned] the U.K. a large amount of money so far.",
+    "choices": [
+      "to earn",
+      "to have earned"
+    ],
+    "answer": "to have earned",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 시제",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to earn": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사보다 먼저 일어난 일을 단순 to-V로 처리했다.",
+      "summary": [
+        "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "본동사의 시점을 확인한다",
+        "동시·이후이면 to-V, 이전이면 to have p.p.를 선택한다"
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-047-0059081B",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-047-767A9866",
+    "sourceQuestionId": "Q-P21-G-047-767A9866",
+    "sourceCandidateId": "CAND-G-047-767A9866",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 47,
+      "asset": "assets/source-evidence/phase21/grammar-page-047.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-047-767A9866",
+      "evidenceRef": "SRC-P21-G-047",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-047-767A9866-PF",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "The Harry Potter series is known [to earn /to have earned] the U.K. a large amount of money so far.",
+    "choices": [
+      "to earn",
+      "to have earned"
+    ],
+    "answer": "to have earned",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 시제",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to earn": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사보다 먼저 일어난 일을 단순 to-V로 처리했다.",
+      "summary": [
+        "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "본동사의 시점을 확인한다",
+        "동시·이후이면 to-V, 이전이면 to have p.p.를 선택한다"
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-047-0059081B",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-047-767A9866",
+    "sourceQuestionId": "Q-P21-G-047-767A9866",
+    "sourceCandidateId": "CAND-G-047-767A9866",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 47,
+      "asset": "assets/source-evidence/phase21/grammar-page-047.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-047-767A9866",
+      "evidenceRef": "SRC-P21-G-047",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-047-767A9866-DR",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "The Harry Potter series is known [to earn /to have earned] the U.K. a large amount of money so far.",
+    "choices": [
+      "to earn",
+      "to have earned"
+    ],
+    "answer": "to have earned",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 시제",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to earn": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "본동사보다 먼저 일어난 일을 단순 to-V로 처리했다.",
+      "summary": [
+        "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "본동사의 시점을 확인한다",
+        "동시·이후이면 to-V, 이전이면 to have p.p.를 선택한다"
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-047-0059081B",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-047-767A9866",
+    "sourceQuestionId": "Q-P21-G-047-767A9866",
+    "sourceCandidateId": "CAND-G-047-767A9866",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 47,
+      "asset": "assets/source-evidence/phase21/grammar-page-047.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-047-767A9866",
+      "evidenceRef": "SRC-P21-G-047",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-047-767A9866-CT",
+    "conceptId": "G24_TO_INF_TENSE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe Harry Potter series is known [to earn /to have earned] the U.K. a large amount of money so far.",
+    "choices": [
+      "to have earned",
+      "to earn"
+    ],
+    "answer": "to earn",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "to부정사의 시제",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "to부정사의 시제",
+        "errorCode": "E28_TO_INF_TENSE"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "errorCode": "E28_TO_INF_TENSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to have earned": "E28_TO_INF_TENSE"
+    },
+    "remediation": {
+      "diagnosis": "'to earn'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to have earned'이다.",
+      "summary": [
+        "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+        "본동사의 시점을 확인한다",
+        "동시·이후이면 to-V, 이전이면 to have p.p.를 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'to earn'를 고른다."
+      ],
+      "sourceRef": "SRC-G24",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다."
+      },
+      "transferQuestionId": "Q-P21-G-047-767A9866",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART2",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-047-767A9866",
+    "sourceQuestionId": "Q-P21-G-047-767A9866",
+    "sourceCandidateId": "CAND-G-047-767A9866",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 47,
+      "asset": "assets/source-evidence/phase21/grammar-page-047.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-047-767A9866",
+      "evidenceRef": "SRC-P21-G-047",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

@@ -1,0 +1,4048 @@
+[
+  {
+    "id": "Q-G08-001",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "He spent most of the evening (to review / reviewing) his notes.",
+    "choices": [
+      "to review",
+      "reviewing"
+    ],
+    "answer": "reviewing",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "핵심 동사는 무엇인가?",
+        "answer": "spent",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "pair",
+        "prompt": "spend+시간 뒤에는 어떤 형태가 오는가?",
+        "answer": "V-ing",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to review": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "spend 뒤의 고정 형태를 to-V로 잘못 골랐다.",
+      "summary": [
+        "핵심 동사는 spent이다.",
+        "spend+시간 뒤에는 V-ing가 온다.",
+        "따라서 reviewing을 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "spend+시간 뒤의 기본 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G08-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-001",
+    "sourceQuestionId": "Q-G08-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-002",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "It took the team three days (finish / to finish) the design.",
+    "choices": [
+      "finish",
+      "to finish"
+    ],
+    "answer": "to finish",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes/took+시간+to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간 뒤에 필요한 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "finish": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It took 시간 뒤에 동사원형만 두었다.",
+      "summary": [
+        "It took가 시간 소요 표현이다.",
+        "It took+시간 뒤에는 to-V가 온다.",
+        "따라서 to finish를 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "It takes+시간 뒤에는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-002",
+    "sourceQuestionId": "Q-G08-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-003",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "Many beginners have difficulty (pronounce / pronouncing) the sound.",
+    "choices": [
+      "pronounce",
+      "pronouncing"
+    ],
+    "answer": "pronouncing",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "핵심 표현은 무엇인가?",
+        "answer": "have difficulty",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "have difficulty 뒤의 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "pronounce": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "have difficulty 뒤의 V-ing를 놓쳤다.",
+      "summary": [
+        "핵심 표현은 have difficulty이다.",
+        "difficulty 뒤에는 V-ing가 온다.",
+        "따라서 pronouncing을 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "have difficulty 뒤에는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G08-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-003",
+    "sourceQuestionId": "Q-G08-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-004",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The final inspection (spent / took) nearly two hours.",
+    "choices": [
+      "spent",
+      "took"
+    ],
+    "answer": "took",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "시간을 쓰는 사람이 주어인가, 일이 주어인가?",
+        "answer": "일이 주어",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "verb",
+        "prompt": "일이 시간을 소요할 때 쓰는 동사는?",
+        "answer": "take",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "spent": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "spend와 take의 주어 구조를 혼동했다.",
+      "summary": [
+        "inspection은 시간을 쓰는 사람이 아니다.",
+        "일이나 작업이 시간을 소요할 때 take를 쓴다.",
+        "따라서 took를 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "일이 시간을 소요할 때 알맞은 동사는?",
+        "choices": [
+          "spend",
+          "take"
+        ],
+        "answer": "take"
+      },
+      "transferQuestionId": "Q-G08-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-004",
+    "sourceQuestionId": "Q-G08-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-005",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The students spent thirty minutes (to discuss / discussing) the issue.",
+    "choices": [
+      "to discuss",
+      "discussing"
+    ],
+    "answer": "discussing",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "spend 뒤에 시간 표현이 있는가?",
+        "answer": "있다",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "그 뒤의 동사 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to discuss": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "spend+시간+V-ing 구조를 적용하지 않았다.",
+      "summary": [
+        "spent 뒤에 thirty minutes가 있다.",
+        "spend+시간 뒤에는 V-ing가 온다.",
+        "따라서 discussing을 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "spend thirty minutes 다음에 올 형태는?",
+        "choices": [
+          "to discuss",
+          "discussing"
+        ],
+        "answer": "discussing"
+      },
+      "transferQuestionId": "Q-G08-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-005",
+    "sourceQuestionId": "Q-G08-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-006",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "It takes patience (master / to master) a new skill.",
+    "choices": [
+      "master",
+      "to master"
+    ],
+    "answer": "to master",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It takes+명사 뒤의 행동은 어떤 형태로 잇는가?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "master 앞에 필요한 것은?",
+        "answer": "to",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "master": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 뒤의 to-V를 빠뜨렸다.",
+      "summary": [
+        "It takes patience는 필요한 시간·노력 표현이다.",
+        "뒤의 행동은 to-V로 잇는다.",
+        "따라서 to master를 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "It takes effort 뒤에는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G09-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-006",
+    "sourceQuestionId": "Q-G08-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-001",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "It took three hours (repairing / to repair) the network.",
+    "choices": [
+      "repairing",
+      "to repair"
+    ],
+    "answer": "to repair",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "repairing": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 표현 뒤의 to-V를 V-ing와 섞었다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-001",
+    "sourceQuestionId": "Q-G08P2-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-002",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "It will take patience (learning / to learn) this skill.",
+    "choices": [
+      "learning",
+      "to learn"
+    ],
+    "answer": "to learn",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "learning": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 표현 뒤의 to-V를 V-ing와 섞었다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-002",
+    "sourceQuestionId": "Q-G08P2-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-003",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "It may take a year (completing / to complete) the study.",
+    "choices": [
+      "completing",
+      "to complete"
+    ],
+    "answer": "to complete",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "completing": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 표현 뒤의 to-V를 V-ing와 섞었다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-003",
+    "sourceQuestionId": "Q-G08P2-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-004",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "It took considerable effort (convincing / to convince) the group.",
+    "choices": [
+      "convincing",
+      "to convince"
+    ],
+    "answer": "to convince",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "convincing": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 표현 뒤의 to-V를 V-ing와 섞었다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-004",
+    "sourceQuestionId": "Q-G08P2-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-001-PF",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "He spent most of the evening (to review / reviewing) his notes.",
+    "choices": [
+      "to review",
+      "reviewing"
+    ],
+    "answer": "reviewing",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "핵심 동사는 무엇인가?",
+        "answer": "spent",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "pair",
+        "prompt": "spend+시간 뒤에는 어떤 형태가 오는가?",
+        "answer": "V-ing",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to review": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "spend 뒤의 고정 형태를 to-V로 잘못 골랐다.",
+      "summary": [
+        "핵심 동사는 spent이다.",
+        "spend+시간 뒤에는 V-ing가 온다.",
+        "따라서 reviewing을 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "spend+시간 뒤의 기본 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G08-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-001",
+    "sourceQuestionId": "Q-G08-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-002-PF",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "It took the team three days (finish / to finish) the design.",
+    "choices": [
+      "finish",
+      "to finish"
+    ],
+    "answer": "to finish",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes/took+시간+to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간 뒤에 필요한 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "finish": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It took 시간 뒤에 동사원형만 두었다.",
+      "summary": [
+        "It took가 시간 소요 표현이다.",
+        "It took+시간 뒤에는 to-V가 온다.",
+        "따라서 to finish를 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "It takes+시간 뒤에는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-002",
+    "sourceQuestionId": "Q-G08-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-003-PF",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "Many beginners have difficulty (pronounce / pronouncing) the sound.",
+    "choices": [
+      "pronounce",
+      "pronouncing"
+    ],
+    "answer": "pronouncing",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "핵심 표현은 무엇인가?",
+        "answer": "have difficulty",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "have difficulty 뒤의 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "pronounce": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "have difficulty 뒤의 V-ing를 놓쳤다.",
+      "summary": [
+        "핵심 표현은 have difficulty이다.",
+        "difficulty 뒤에는 V-ing가 온다.",
+        "따라서 pronouncing을 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "have difficulty 뒤에는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G08-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-003",
+    "sourceQuestionId": "Q-G08-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-004-PF",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The final inspection (spent / took) nearly two hours.",
+    "choices": [
+      "spent",
+      "took"
+    ],
+    "answer": "took",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "시간을 쓰는 사람이 주어인가, 일이 주어인가?",
+        "answer": "일이 주어",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "verb",
+        "prompt": "일이 시간을 소요할 때 쓰는 동사는?",
+        "answer": "take",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "spent": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "spend와 take의 주어 구조를 혼동했다.",
+      "summary": [
+        "inspection은 시간을 쓰는 사람이 아니다.",
+        "일이나 작업이 시간을 소요할 때 take를 쓴다.",
+        "따라서 took를 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "일이 시간을 소요할 때 알맞은 동사는?",
+        "choices": [
+          "spend",
+          "take"
+        ],
+        "answer": "take"
+      },
+      "transferQuestionId": "Q-G08-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-004",
+    "sourceQuestionId": "Q-G08-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-005-PF",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The students spent thirty minutes (to discuss / discussing) the issue.",
+    "choices": [
+      "to discuss",
+      "discussing"
+    ],
+    "answer": "discussing",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "spend 뒤에 시간 표현이 있는가?",
+        "answer": "있다",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "그 뒤의 동사 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to discuss": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "spend+시간+V-ing 구조를 적용하지 않았다.",
+      "summary": [
+        "spent 뒤에 thirty minutes가 있다.",
+        "spend+시간 뒤에는 V-ing가 온다.",
+        "따라서 discussing을 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "spend thirty minutes 다음에 올 형태는?",
+        "choices": [
+          "to discuss",
+          "discussing"
+        ],
+        "answer": "discussing"
+      },
+      "transferQuestionId": "Q-G08-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-005",
+    "sourceQuestionId": "Q-G08-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-006-PF",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "It takes patience (master / to master) a new skill.",
+    "choices": [
+      "master",
+      "to master"
+    ],
+    "answer": "to master",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It takes+명사 뒤의 행동은 어떤 형태로 잇는가?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "master 앞에 필요한 것은?",
+        "answer": "to",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "master": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 뒤의 to-V를 빠뜨렸다.",
+      "summary": [
+        "It takes patience는 필요한 시간·노력 표현이다.",
+        "뒤의 행동은 to-V로 잇는다.",
+        "따라서 to master를 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "It takes effort 뒤에는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G09-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-006",
+    "sourceQuestionId": "Q-G08-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-001-PF",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "It took three hours (repairing / to repair) the network.",
+    "choices": [
+      "repairing",
+      "to repair"
+    ],
+    "answer": "to repair",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "repairing": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 표현 뒤의 to-V를 V-ing와 섞었다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-001",
+    "sourceQuestionId": "Q-G08P2-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-002-PF",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "It will take patience (learning / to learn) this skill.",
+    "choices": [
+      "learning",
+      "to learn"
+    ],
+    "answer": "to learn",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "learning": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 표현 뒤의 to-V를 V-ing와 섞었다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-002",
+    "sourceQuestionId": "Q-G08P2-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-003-PF",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "It may take a year (completing / to complete) the study.",
+    "choices": [
+      "completing",
+      "to complete"
+    ],
+    "answer": "to complete",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "completing": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 표현 뒤의 to-V를 V-ing와 섞었다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-003",
+    "sourceQuestionId": "Q-G08P2-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-004-PF",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "It took considerable effort (convincing / to convince) the group.",
+    "choices": [
+      "convincing",
+      "to convince"
+    ],
+    "answer": "to convince",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "convincing": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 표현 뒤의 to-V를 V-ing와 섞었다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-004",
+    "sourceQuestionId": "Q-G08P2-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-001-DR",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "He spent most of the evening (to review / reviewing) his notes.",
+    "choices": [
+      "to review",
+      "reviewing"
+    ],
+    "answer": "reviewing",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "핵심 동사는 무엇인가?",
+        "answer": "spent",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "pair",
+        "prompt": "spend+시간 뒤에는 어떤 형태가 오는가?",
+        "answer": "V-ing",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to review": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "spend 뒤의 고정 형태를 to-V로 잘못 골랐다.",
+      "summary": [
+        "핵심 동사는 spent이다.",
+        "spend+시간 뒤에는 V-ing가 온다.",
+        "따라서 reviewing을 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "spend+시간 뒤의 기본 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G08-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-001",
+    "sourceQuestionId": "Q-G08-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-002-DR",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "It took the team three days (finish / to finish) the design.",
+    "choices": [
+      "finish",
+      "to finish"
+    ],
+    "answer": "to finish",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes/took+시간+to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간 뒤에 필요한 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "finish": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It took 시간 뒤에 동사원형만 두었다.",
+      "summary": [
+        "It took가 시간 소요 표현이다.",
+        "It took+시간 뒤에는 to-V가 온다.",
+        "따라서 to finish를 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "It takes+시간 뒤에는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-002",
+    "sourceQuestionId": "Q-G08-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-003-DR",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "Many beginners have difficulty (pronounce / pronouncing) the sound.",
+    "choices": [
+      "pronounce",
+      "pronouncing"
+    ],
+    "answer": "pronouncing",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "핵심 표현은 무엇인가?",
+        "answer": "have difficulty",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "have difficulty 뒤의 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "pronounce": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "have difficulty 뒤의 V-ing를 놓쳤다.",
+      "summary": [
+        "핵심 표현은 have difficulty이다.",
+        "difficulty 뒤에는 V-ing가 온다.",
+        "따라서 pronouncing을 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "have difficulty 뒤에는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G08-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-003",
+    "sourceQuestionId": "Q-G08-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-004-DR",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The final inspection (spent / took) nearly two hours.",
+    "choices": [
+      "spent",
+      "took"
+    ],
+    "answer": "took",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "시간을 쓰는 사람이 주어인가, 일이 주어인가?",
+        "answer": "일이 주어",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "verb",
+        "prompt": "일이 시간을 소요할 때 쓰는 동사는?",
+        "answer": "take",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "spent": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "spend와 take의 주어 구조를 혼동했다.",
+      "summary": [
+        "inspection은 시간을 쓰는 사람이 아니다.",
+        "일이나 작업이 시간을 소요할 때 take를 쓴다.",
+        "따라서 took를 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "일이 시간을 소요할 때 알맞은 동사는?",
+        "choices": [
+          "spend",
+          "take"
+        ],
+        "answer": "take"
+      },
+      "transferQuestionId": "Q-G08-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-004",
+    "sourceQuestionId": "Q-G08-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-005-DR",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The students spent thirty minutes (to discuss / discussing) the issue.",
+    "choices": [
+      "to discuss",
+      "discussing"
+    ],
+    "answer": "discussing",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "spend 뒤에 시간 표현이 있는가?",
+        "answer": "있다",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "그 뒤의 동사 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to discuss": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "spend+시간+V-ing 구조를 적용하지 않았다.",
+      "summary": [
+        "spent 뒤에 thirty minutes가 있다.",
+        "spend+시간 뒤에는 V-ing가 온다.",
+        "따라서 discussing을 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "spend thirty minutes 다음에 올 형태는?",
+        "choices": [
+          "to discuss",
+          "discussing"
+        ],
+        "answer": "discussing"
+      },
+      "transferQuestionId": "Q-G08-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-005",
+    "sourceQuestionId": "Q-G08-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-006-DR",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "It takes patience (master / to master) a new skill.",
+    "choices": [
+      "master",
+      "to master"
+    ],
+    "answer": "to master",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It takes+명사 뒤의 행동은 어떤 형태로 잇는가?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "master 앞에 필요한 것은?",
+        "answer": "to",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "master": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 뒤의 to-V를 빠뜨렸다.",
+      "summary": [
+        "It takes patience는 필요한 시간·노력 표현이다.",
+        "뒤의 행동은 to-V로 잇는다.",
+        "따라서 to master를 선택한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "It takes effort 뒤에는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G09-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-006",
+    "sourceQuestionId": "Q-G08-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-001-DR",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "It took three hours (repairing / to repair) the network.",
+    "choices": [
+      "repairing",
+      "to repair"
+    ],
+    "answer": "to repair",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "repairing": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 표현 뒤의 to-V를 V-ing와 섞었다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-001",
+    "sourceQuestionId": "Q-G08P2-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-002-DR",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "It will take patience (learning / to learn) this skill.",
+    "choices": [
+      "learning",
+      "to learn"
+    ],
+    "answer": "to learn",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "learning": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 표현 뒤의 to-V를 V-ing와 섞었다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-002",
+    "sourceQuestionId": "Q-G08P2-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-003-DR",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "It may take a year (completing / to complete) the study.",
+    "choices": [
+      "completing",
+      "to complete"
+    ],
+    "answer": "to complete",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "completing": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 표현 뒤의 to-V를 V-ing와 섞었다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-003",
+    "sourceQuestionId": "Q-G08P2-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-004-DR",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "It took considerable effort (convincing / to convince) the group.",
+    "choices": [
+      "convincing",
+      "to convince"
+    ],
+    "answer": "to convince",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "convincing": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "It takes 표현 뒤의 to-V를 V-ing와 섞었다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-004",
+    "sourceQuestionId": "Q-G08P2-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-001-CT",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe spent most of the evening (to review / reviewing) his notes.",
+    "choices": [
+      "reviewing",
+      "to review"
+    ],
+    "answer": "to review",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "핵심 동사는 무엇인가?",
+        "answer": "spent",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "pair",
+        "prompt": "spend+시간 뒤에는 어떤 형태가 오는가?",
+        "answer": "V-ing",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reviewing": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "'to review'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'reviewing'이다.",
+      "summary": [
+        "핵심 동사는 spent이다.",
+        "spend+시간 뒤에는 V-ing가 온다.",
+        "따라서 reviewing을 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'to review'이다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "spend+시간 뒤의 기본 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G08-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-001",
+    "sourceQuestionId": "Q-G08-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-002-CT",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt took the team three days (finish / to finish) the design.",
+    "choices": [
+      "finish",
+      "to finish"
+    ],
+    "answer": "finish",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes/took+시간+to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간 뒤에 필요한 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to finish": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "'finish'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to finish'이다.",
+      "summary": [
+        "It took가 시간 소요 표현이다.",
+        "It took+시간 뒤에는 to-V가 온다.",
+        "따라서 to finish를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'finish'이다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "It takes+시간 뒤에는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-002",
+    "sourceQuestionId": "Q-G08-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-003-CT",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nMany beginners have difficulty (pronounce / pronouncing) the sound.",
+    "choices": [
+      "pronounce",
+      "pronouncing"
+    ],
+    "answer": "pronounce",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "핵심 표현은 무엇인가?",
+        "answer": "have difficulty",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "have difficulty 뒤의 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "pronouncing": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "'pronounce'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'pronouncing'이다.",
+      "summary": [
+        "핵심 표현은 have difficulty이다.",
+        "difficulty 뒤에는 V-ing가 온다.",
+        "따라서 pronouncing을 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'pronounce'이다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "have difficulty 뒤에는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G08-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-003",
+    "sourceQuestionId": "Q-G08-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-004-CT",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe final inspection (spent / took) nearly two hours.",
+    "choices": [
+      "took",
+      "spent"
+    ],
+    "answer": "spent",
+    "decisionSteps": [
+      {
+        "id": "subject",
+        "prompt": "시간을 쓰는 사람이 주어인가, 일이 주어인가?",
+        "answer": "일이 주어",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "verb",
+        "prompt": "일이 시간을 소요할 때 쓰는 동사는?",
+        "answer": "take",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "took": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "'spent'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'took'이다.",
+      "summary": [
+        "inspection은 시간을 쓰는 사람이 아니다.",
+        "일이나 작업이 시간을 소요할 때 take를 쓴다.",
+        "따라서 took를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'spent'이다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "일이 시간을 소요할 때 알맞은 동사는?",
+        "choices": [
+          "spend",
+          "take"
+        ],
+        "answer": "take"
+      },
+      "transferQuestionId": "Q-G08-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-004",
+    "sourceQuestionId": "Q-G08-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-005-CT",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe students spent thirty minutes (to discuss / discussing) the issue.",
+    "choices": [
+      "discussing",
+      "to discuss"
+    ],
+    "answer": "to discuss",
+    "decisionSteps": [
+      {
+        "id": "cue",
+        "prompt": "spend 뒤에 시간 표현이 있는가?",
+        "answer": "있다",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "그 뒤의 동사 형태는?",
+        "answer": "V-ing",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "discussing": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "'to discuss'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'discussing'이다.",
+      "summary": [
+        "spent 뒤에 thirty minutes가 있다.",
+        "spend+시간 뒤에는 V-ing가 온다.",
+        "따라서 discussing을 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'to discuss'이다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "spend thirty minutes 다음에 올 형태는?",
+        "choices": [
+          "to discuss",
+          "discussing"
+        ],
+        "answer": "discussing"
+      },
+      "transferQuestionId": "Q-G08-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-005",
+    "sourceQuestionId": "Q-G08-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08-006-CT",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt takes patience (master / to master) a new skill.",
+    "choices": [
+      "master",
+      "to master"
+    ],
+    "answer": "master",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It takes+명사 뒤의 행동은 어떤 형태로 잇는가?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "master 앞에 필요한 것은?",
+        "answer": "to",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to master": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "'master'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to master'이다.",
+      "summary": [
+        "It takes patience는 필요한 시간·노력 표현이다.",
+        "뒤의 행동은 to-V로 잇는다.",
+        "따라서 to master를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'master'이다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "It takes effort 뒤에는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08-006",
+    "sourceQuestionId": "Q-G08-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-001-CT",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt took three hours (repairing / to repair) the network.",
+    "choices": [
+      "to repair",
+      "repairing"
+    ],
+    "answer": "repairing",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to repair": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "'repairing'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to repair'이다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다.",
+        "따라서 대조 문항에서 고를 답은 'repairing'이다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-001",
+    "sourceQuestionId": "Q-G08P2-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-002-CT",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt will take patience (learning / to learn) this skill.",
+    "choices": [
+      "learning",
+      "to learn"
+    ],
+    "answer": "learning",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to learn": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "'learning'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to learn'이다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다.",
+        "따라서 대조 문항에서 고를 답은 'learning'이다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-002",
+    "sourceQuestionId": "Q-G08P2-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-003-CT",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt may take a year (completing / to complete) the study.",
+    "choices": [
+      "completing",
+      "to complete"
+    ],
+    "answer": "completing",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to complete": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "'completing'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to complete'이다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다.",
+        "따라서 대조 문항에서 고를 답은 'completing'이다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-003",
+    "sourceQuestionId": "Q-G08P2-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G08P2-004-CT",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt took considerable effort (convincing / to convince) the group.",
+    "choices": [
+      "convincing",
+      "to convince"
+    ],
+    "answer": "convincing",
+    "decisionSteps": [
+      {
+        "id": "pattern",
+        "prompt": "문장의 핵심 틀은 무엇인가?",
+        "answer": "It takes + 시간/노력/돈 + to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      },
+      {
+        "id": "form",
+        "prompt": "시간·노력 뒤의 형태는?",
+        "answer": "to-V",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to convince": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "'convincing'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to convince'이다.",
+      "summary": [
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "행동은 to-V로 연결한다.",
+        "따라서 대조 문항에서 고를 답은 'convincing'이다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "It takes + 시간/노력/돈 뒤의 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08P2-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G08P2-004",
+    "sourceQuestionId": "Q-G08P2-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-DA678A27E2",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "빠른 확인: It takes effort 뒤에는?",
+    "choices": [
+      "V-ing",
+      "to-V"
+    ],
+    "answer": "to-V",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다."
+        ],
+        "answer": "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "V-ing": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+        "It takes patience는 필요한 시간·노력 표현이다.",
+        "뒤의 행동은 to-V로 잇는다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "spend+시간 뒤의 기본 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G08-006",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-DA678A27E2",
+    "sourceQuestionId": "Q-G08-006",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-C4AC677072",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "빠른 확인: It takes+시간 뒤에는?",
+    "choices": [
+      "동사원형",
+      "to-V"
+    ],
+    "answer": "to-V",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+        ],
+        "answer": "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "동사원형": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+        "It took가 시간 소요 표현이다.",
+        "It took+시간 뒤에는 to-V가 온다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "spend+시간 뒤의 기본 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G08-002",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-C4AC677072",
+    "sourceQuestionId": "Q-G08-002",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-E814762204",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "빠른 확인: have difficulty 뒤에는?",
+    "choices": [
+      "to-V",
+      "V-ing"
+    ],
+    "answer": "V-ing",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다."
+        ],
+        "answer": "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to-V": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+        "핵심 표현은 have difficulty이다.",
+        "difficulty 뒤에는 V-ing가 온다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "spend+시간 뒤의 기본 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G08-003",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-E814762204",
+    "sourceQuestionId": "Q-G08-003",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-D6668B1181",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "빠른 확인: spend thirty minutes 다음에 올 형태는?",
+    "choices": [
+      "to discuss",
+      "discussing"
+    ],
+    "answer": "discussing",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다."
+        ],
+        "answer": "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to discuss": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+        "spent 뒤에 thirty minutes가 있다.",
+        "spend+시간 뒤에는 V-ing가 온다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "spend+시간 뒤의 기본 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G08-005",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-D6668B1181",
+    "sourceQuestionId": "Q-G08-005",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-94E2AC2DEB",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "빠른 확인: spend+시간 뒤의 기본 형태는?",
+    "choices": [
+      "to-V",
+      "V-ing"
+    ],
+    "answer": "V-ing",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+        ],
+        "answer": "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to-V": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+        "핵심 동사는 spent이다.",
+        "spend+시간 뒤에는 V-ing가 온다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "It takes+시간 뒤에는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "to-V"
+      },
+      "transferQuestionId": "Q-G08-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-94E2AC2DEB",
+    "sourceQuestionId": "Q-G08-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-9AB3A0E3FE",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "빠른 확인: 일이 시간을 소요할 때 알맞은 동사는?",
+    "choices": [
+      "spend",
+      "take"
+    ],
+    "answer": "take",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+        ],
+        "answer": "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "spend": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+        "inspection은 시간을 쓰는 사람이 아니다.",
+        "일이나 작업이 시간을 소요할 때 take를 쓴다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G08",
+      "checkQuestion": {
+        "prompt": "spend+시간 뒤의 기본 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G08-004",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-9AB3A0E3FE",
+    "sourceQuestionId": "Q-G08-004",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-E17315D39A",
+    "conceptId": "G08_TIME_EXPRESSION_PATTERNS",
+    "difficulty": 1,
+    "stem": "빠른 확인: It takes + 시간/노력/돈 뒤의 형태는?",
+    "choices": [
+      "to-V",
+      "V-ing"
+    ],
+    "answer": "to-V",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+          "본동사와 같은 때이면 to-V, 본동사보다 먼저 일어난 일이면 to have p.p.를 쓴다."
+        ],
+        "answer": "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+        "errorCode": "E12_TIME_PATTERN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "V-ing": "E12_TIME_PATTERN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+        "It takes/took를 먼저 찾는다.",
+        "시간·노력·돈 뒤에 행동이 이어진다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G08-P2",
+      "checkQuestion": {
+        "prompt": "spend+시간 뒤의 기본 형태는?",
+        "choices": [
+          "to-V",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G08P2-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-E17315D39A",
+    "sourceQuestionId": "Q-G08P2-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

@@ -1,0 +1,4453 @@
+[
+  {
+    "id": "Q-G39-001",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "A battery that has not been used for months (needs / need) charging.",
+    "choices": [
+      "needs",
+      "need"
+    ],
+    "answer": "needs",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "that has not been used for months",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "A battery",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "need": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "that has not been used for months는 수식어 덩어리이다.",
+        "중심 주어는 A battery이다.",
+        "단수 주어이므로 needs를 선택한다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-001",
+    "sourceQuestionId": "Q-G39-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-002",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "Leaves bright with rain (is / are) beautiful.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "bright with rain",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "Leaves",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "복수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "bright with rain는 수식어 덩어리이다.",
+        "중심 주어는 Leaves이다.",
+        "복수 주어이므로 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-002",
+    "sourceQuestionId": "Q-G39-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-003",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "The files attached to the message (seems / seem) damaged.",
+    "choices": [
+      "seems",
+      "seem"
+    ],
+    "answer": "seem",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "attached to the message",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "The files",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "복수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "seems": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "attached to the message는 수식어 덩어리이다.",
+        "중심 주어는 The files이다.",
+        "복수 주어이므로 seem를 선택한다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-003",
+    "sourceQuestionId": "Q-G39-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-004",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "The effect on young children (is / are) serious.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "on young children",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "The effect",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "on young children는 수식어 덩어리이다.",
+        "중심 주어는 The effect이다.",
+        "단수 주어이므로 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-004",
+    "sourceQuestionId": "Q-G39-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-005",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "Parts to be replaced (was / were) marked in red.",
+    "choices": [
+      "was",
+      "were"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "to be replaced",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "Parts",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "복수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "to be replaced는 수식어 덩어리이다.",
+        "중심 주어는 Parts이다.",
+        "복수 주어이므로 were를 선택한다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-005",
+    "sourceQuestionId": "Q-G39-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-006",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "The rumor that the company would close (has / have) proved false.",
+    "choices": [
+      "has",
+      "have"
+    ],
+    "answer": "has",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "that the company would close",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "The rumor",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "that the company would close는 수식어 덩어리이다.",
+        "중심 주어는 The rumor이다.",
+        "단수 주어이므로 has를 선택한다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-006",
+    "sourceQuestionId": "Q-G39-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-007",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "A way to complete the task efficiently (is / are) to plan first.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "to complete the task efficiently",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "A way",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "to complete the task efficiently는 수식어 덩어리이다.",
+        "중심 주어는 A way이다.",
+        "단수 주어이므로 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-007",
+    "sourceQuestionId": "Q-G39-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-008",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "Recent research with several new examples (tends / tend) to support the theory.",
+    "choices": [
+      "tends",
+      "tend"
+    ],
+    "answer": "tends",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "with several new examples",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "Recent research",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "tend": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "with several new examples는 수식어 덩어리이다.",
+        "중심 주어는 Recent research이다.",
+        "단수 주어이므로 tends를 선택한다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-008",
+    "sourceQuestionId": "Q-G39-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-001-PF",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "A battery that has not been used for months (needs / need) charging.",
+    "choices": [
+      "needs",
+      "need"
+    ],
+    "answer": "needs",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "that has not been used for months",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "A battery",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "need": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "that has not been used for months는 수식어 덩어리이다.",
+        "중심 주어는 A battery이다.",
+        "단수 주어이므로 needs를 선택한다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-001",
+    "sourceQuestionId": "Q-G39-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-002-PF",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "Leaves bright with rain (is / are) beautiful.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "bright with rain",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "Leaves",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "복수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "bright with rain는 수식어 덩어리이다.",
+        "중심 주어는 Leaves이다.",
+        "복수 주어이므로 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-002",
+    "sourceQuestionId": "Q-G39-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-003-PF",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "The files attached to the message (seems / seem) damaged.",
+    "choices": [
+      "seems",
+      "seem"
+    ],
+    "answer": "seem",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "attached to the message",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "The files",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "복수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "seems": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "attached to the message는 수식어 덩어리이다.",
+        "중심 주어는 The files이다.",
+        "복수 주어이므로 seem를 선택한다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-003",
+    "sourceQuestionId": "Q-G39-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-004-PF",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "The effect on young children (is / are) serious.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "on young children",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "The effect",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "on young children는 수식어 덩어리이다.",
+        "중심 주어는 The effect이다.",
+        "단수 주어이므로 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-004",
+    "sourceQuestionId": "Q-G39-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-005-PF",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "Parts to be replaced (was / were) marked in red.",
+    "choices": [
+      "was",
+      "were"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "to be replaced",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "Parts",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "복수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "to be replaced는 수식어 덩어리이다.",
+        "중심 주어는 Parts이다.",
+        "복수 주어이므로 were를 선택한다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-005",
+    "sourceQuestionId": "Q-G39-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-006-PF",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "The rumor that the company would close (has / have) proved false.",
+    "choices": [
+      "has",
+      "have"
+    ],
+    "answer": "has",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "that the company would close",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "The rumor",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "that the company would close는 수식어 덩어리이다.",
+        "중심 주어는 The rumor이다.",
+        "단수 주어이므로 has를 선택한다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-006",
+    "sourceQuestionId": "Q-G39-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 72,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-007-PF",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "A way to complete the task efficiently (is / are) to plan first.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "to complete the task efficiently",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "A way",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "to complete the task efficiently는 수식어 덩어리이다.",
+        "중심 주어는 A way이다.",
+        "단수 주어이므로 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-007",
+    "sourceQuestionId": "Q-G39-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 73,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-008-PF",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "Recent research with several new examples (tends / tend) to support the theory.",
+    "choices": [
+      "tends",
+      "tend"
+    ],
+    "answer": "tends",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "with several new examples",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "Recent research",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "tend": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "with several new examples는 수식어 덩어리이다.",
+        "중심 주어는 Recent research이다.",
+        "단수 주어이므로 tends를 선택한다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-008",
+    "sourceQuestionId": "Q-G39-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 73,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-001-DR",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "A battery that has not been used for months (needs / need) charging.",
+    "choices": [
+      "needs",
+      "need"
+    ],
+    "answer": "needs",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "that has not been used for months",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "A battery",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "need": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "that has not been used for months는 수식어 덩어리이다.",
+        "중심 주어는 A battery이다.",
+        "단수 주어이므로 needs를 선택한다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-001",
+    "sourceQuestionId": "Q-G39-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-002-DR",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "Leaves bright with rain (is / are) beautiful.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "bright with rain",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "Leaves",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "복수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "bright with rain는 수식어 덩어리이다.",
+        "중심 주어는 Leaves이다.",
+        "복수 주어이므로 are를 선택한다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-002",
+    "sourceQuestionId": "Q-G39-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-003-DR",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "The files attached to the message (seems / seem) damaged.",
+    "choices": [
+      "seems",
+      "seem"
+    ],
+    "answer": "seem",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "attached to the message",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "The files",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "복수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "seems": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "attached to the message는 수식어 덩어리이다.",
+        "중심 주어는 The files이다.",
+        "복수 주어이므로 seem를 선택한다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-003",
+    "sourceQuestionId": "Q-G39-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-004-DR",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "The effect on young children (is / are) serious.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "on young children",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "The effect",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "on young children는 수식어 덩어리이다.",
+        "중심 주어는 The effect이다.",
+        "단수 주어이므로 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-004",
+    "sourceQuestionId": "Q-G39-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-005-DR",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "Parts to be replaced (was / were) marked in red.",
+    "choices": [
+      "was",
+      "were"
+    ],
+    "answer": "were",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "to be replaced",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "Parts",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "복수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "was": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "to be replaced는 수식어 덩어리이다.",
+        "중심 주어는 Parts이다.",
+        "복수 주어이므로 were를 선택한다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-005",
+    "sourceQuestionId": "Q-G39-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-006-DR",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "The rumor that the company would close (has / have) proved false.",
+    "choices": [
+      "has",
+      "have"
+    ],
+    "answer": "has",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "that the company would close",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "The rumor",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "that the company would close는 수식어 덩어리이다.",
+        "중심 주어는 The rumor이다.",
+        "단수 주어이므로 has를 선택한다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-006",
+    "sourceQuestionId": "Q-G39-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-007-DR",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "A way to complete the task efficiently (is / are) to plan first.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "to complete the task efficiently",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "A way",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "to complete the task efficiently는 수식어 덩어리이다.",
+        "중심 주어는 A way이다.",
+        "단수 주어이므로 is를 선택한다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-007",
+    "sourceQuestionId": "Q-G39-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-008-DR",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "Recent research with several new examples (tends / tend) to support the theory.",
+    "choices": [
+      "tends",
+      "tend"
+    ],
+    "answer": "tends",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "with several new examples",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "Recent research",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "tend": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "수식어 속 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "with several new examples는 수식어 덩어리이다.",
+        "중심 주어는 Recent research이다.",
+        "단수 주어이므로 tends를 선택한다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-008",
+    "sourceQuestionId": "Q-G39-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-001-CT",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nA battery that has not been used for months (needs / need) charging.",
+    "choices": [
+      "needs",
+      "need"
+    ],
+    "answer": "need",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "that has not been used for months",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "A battery",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "needs": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "'need'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'needs'이다.",
+      "summary": [
+        "that has not been used for months는 수식어 덩어리이다.",
+        "중심 주어는 A battery이다.",
+        "단수 주어이므로 needs를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'need'이다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-001",
+    "sourceQuestionId": "Q-G39-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-002-CT",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nLeaves bright with rain (is / are) beautiful.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "bright with rain",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "Leaves",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "복수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "'is'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'are'이다.",
+      "summary": [
+        "bright with rain는 수식어 덩어리이다.",
+        "중심 주어는 Leaves이다.",
+        "복수 주어이므로 are를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'is'이다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-002",
+    "sourceQuestionId": "Q-G39-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-003-CT",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe files attached to the message (seems / seem) damaged.",
+    "choices": [
+      "seems",
+      "seem"
+    ],
+    "answer": "seems",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "attached to the message",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "The files",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "복수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "seem": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "'seems'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'seem'이다.",
+      "summary": [
+        "attached to the message는 수식어 덩어리이다.",
+        "중심 주어는 The files이다.",
+        "복수 주어이므로 seem를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'seems'이다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-003",
+    "sourceQuestionId": "Q-G39-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-004-CT",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe effect on young children (is / are) serious.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "on young children",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "The effect",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "'are'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is'이다.",
+      "summary": [
+        "on young children는 수식어 덩어리이다.",
+        "중심 주어는 The effect이다.",
+        "단수 주어이므로 is를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'are'이다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-004",
+    "sourceQuestionId": "Q-G39-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-005-CT",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nParts to be replaced (was / were) marked in red.",
+    "choices": [
+      "were",
+      "was"
+    ],
+    "answer": "was",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "to be replaced",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "Parts",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "복수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "were": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "'was'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'were'이다.",
+      "summary": [
+        "to be replaced는 수식어 덩어리이다.",
+        "중심 주어는 Parts이다.",
+        "복수 주어이므로 were를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'was'이다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-005",
+    "sourceQuestionId": "Q-G39-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-006-CT",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe rumor that the company would close (has / have) proved false.",
+    "choices": [
+      "have",
+      "has"
+    ],
+    "answer": "have",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "that the company would close",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "The rumor",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "has": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "'have'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'has'이다.",
+      "summary": [
+        "that the company would close는 수식어 덩어리이다.",
+        "중심 주어는 The rumor이다.",
+        "단수 주어이므로 has를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'have'이다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-006",
+    "sourceQuestionId": "Q-G39-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-007-CT",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nA way to complete the task efficiently (is / are) to plan first.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "to complete the task efficiently",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "A way",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "'are'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is'이다.",
+      "summary": [
+        "to complete the task efficiently는 수식어 덩어리이다.",
+        "중심 주어는 A way이다.",
+        "단수 주어이므로 is를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'are'이다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-007",
+    "sourceQuestionId": "Q-G39-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G39-008-CT",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nRecent research with several new examples (tends / tend) to support the theory.",
+    "choices": [
+      "tends",
+      "tend"
+    ],
+    "answer": "tend",
+    "decisionSteps": [
+      {
+        "id": "modifier",
+        "prompt": "주어와 동사 사이의 수식어는?",
+        "answer": "with several new examples",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "head",
+        "prompt": "수식어를 지우고 남는 중심 주어는?",
+        "answer": "Recent research",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "number",
+        "prompt": "중심 주어의 수는?",
+        "answer": "단수",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "tends": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "'tend'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'tends'이다.",
+      "summary": [
+        "with several new examples는 수식어 덩어리이다.",
+        "중심 주어는 Recent research이다.",
+        "단수 주어이므로 tends를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'tend'이다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G39-008",
+    "sourceQuestionId": "Q-G39-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-5262AAECDF",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 1,
+    "stem": "빠른 확인: 수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+    "choices": [
+      "중심 주어",
+      "가장 가까운 명사"
+    ],
+    "answer": "중심 주어",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "장소 부사구가 문장 앞에 나오면 동사 뒤에 있는 진짜 주어를 찾아 그 수에 동사를 맞춘다.",
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다."
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "가장 가까운 명사": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "that has not been used for months는 수식어 덩어리이다.",
+        "중심 주어는 A battery이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G39A",
+      "checkQuestion": {
+        "prompt": "수식어가 주어와 동사 사이에 있을 때 동사는 무엇에 맞추는가?",
+        "choices": [
+          "중심 주어",
+          "가장 가까운 명사"
+        ],
+        "answer": "중심 주어"
+      },
+      "transferQuestionId": "Q-G39-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART4",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-5262AAECDF",
+    "sourceQuestionId": "Q-G39-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-062-7D2AD688",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "During training, diverse skills that are necessary for the job [is / are] acquired by new officers.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수식어를 동반한 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수식어를 동반한 주어의 수일치",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "주어와 동사 사이의 수식어 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "주어와 동사 사이의 수식어를 묶는다",
+        "남은 중심 주어의 수에 동사를 맞춘다"
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-062-C08CE445",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-062-7D2AD688",
+    "sourceQuestionId": "Q-P21-G-062-7D2AD688",
+    "sourceCandidateId": "CAND-G-062-7D2AD688",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 62,
+      "asset": "assets/source-evidence/phase21/grammar-page-062.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-062-7D2AD688",
+      "evidenceRef": "SRC-P21-G-062",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-062-7D2AD688-PF",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "During training, diverse skills that are necessary for the job [is / are] acquired by new officers.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수식어를 동반한 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수식어를 동반한 주어의 수일치",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "주어와 동사 사이의 수식어 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "주어와 동사 사이의 수식어를 묶는다",
+        "남은 중심 주어의 수에 동사를 맞춘다"
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-062-C08CE445",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-062-7D2AD688",
+    "sourceQuestionId": "Q-P21-G-062-7D2AD688",
+    "sourceCandidateId": "CAND-G-062-7D2AD688",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 62,
+      "asset": "assets/source-evidence/phase21/grammar-page-062.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-062-7D2AD688",
+      "evidenceRef": "SRC-P21-G-062",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-062-7D2AD688-DR",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "During training, diverse skills that are necessary for the job [is / are] acquired by new officers.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수식어를 동반한 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수식어를 동반한 주어의 수일치",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "주어와 동사 사이의 수식어 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "주어와 동사 사이의 수식어를 묶는다",
+        "남은 중심 주어의 수에 동사를 맞춘다"
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-062-C08CE445",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-062-7D2AD688",
+    "sourceQuestionId": "Q-P21-G-062-7D2AD688",
+    "sourceCandidateId": "CAND-G-062-7D2AD688",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 62,
+      "asset": "assets/source-evidence/phase21/grammar-page-062.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-062-7D2AD688",
+      "evidenceRef": "SRC-P21-G-062",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-062-7D2AD688-CT",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nDuring training, diverse skills that are necessary for the job [is / are] acquired by new officers.",
+    "choices": [
+      "are",
+      "is"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수식어를 동반한 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수식어를 동반한 주어의 수일치",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "'is'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'are'이다.",
+      "summary": [
+        "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "주어와 동사 사이의 수식어를 묶는다",
+        "남은 중심 주어의 수에 동사를 맞춘다",
+        "대조 문항에서는 사용할 수 없는 형태 'is'를 고른다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-062-7D2AD688",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-062-7D2AD688",
+    "sourceQuestionId": "Q-P21-G-062-7D2AD688",
+    "sourceCandidateId": "CAND-G-062-7D2AD688",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 62,
+      "asset": "assets/source-evidence/phase21/grammar-page-062.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-062-7D2AD688",
+      "evidenceRef": "SRC-P21-G-062",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-062-C08CE445",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "A way to get things done more efficiently and get better results [is / are] to do the right thing at the right time of day.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수식어를 동반한 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수식어를 동반한 주어의 수일치",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "주어와 동사 사이의 수식어 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "주어와 동사 사이의 수식어를 묶는다",
+        "남은 중심 주어의 수에 동사를 맞춘다"
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-062-D616961E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-062-C08CE445",
+    "sourceQuestionId": "Q-P21-G-062-C08CE445",
+    "sourceCandidateId": "CAND-G-062-C08CE445",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 62,
+      "asset": "assets/source-evidence/phase21/grammar-page-062.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-062-C08CE445",
+      "evidenceRef": "SRC-P21-G-062",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 66,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 25,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-062-C08CE445-PF",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "A way to get things done more efficiently and get better results [is / are] to do the right thing at the right time of day.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수식어를 동반한 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수식어를 동반한 주어의 수일치",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "주어와 동사 사이의 수식어 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "주어와 동사 사이의 수식어를 묶는다",
+        "남은 중심 주어의 수에 동사를 맞춘다"
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-062-D616961E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-062-C08CE445",
+    "sourceQuestionId": "Q-P21-G-062-C08CE445",
+    "sourceCandidateId": "CAND-G-062-C08CE445",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 62,
+      "asset": "assets/source-evidence/phase21/grammar-page-062.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-062-C08CE445",
+      "evidenceRef": "SRC-P21-G-062",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 74,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 25,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-062-C08CE445-DR",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "A way to get things done more efficiently and get better results [is / are] to do the right thing at the right time of day.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수식어를 동반한 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수식어를 동반한 주어의 수일치",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "주어와 동사 사이의 수식어 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "주어와 동사 사이의 수식어를 묶는다",
+        "남은 중심 주어의 수에 동사를 맞춘다"
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-062-D616961E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-062-C08CE445",
+    "sourceQuestionId": "Q-P21-G-062-C08CE445",
+    "sourceCandidateId": "CAND-G-062-C08CE445",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 62,
+      "asset": "assets/source-evidence/phase21/grammar-page-062.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-062-C08CE445",
+      "evidenceRef": "SRC-P21-G-062",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 25,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-062-C08CE445-CT",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nA way to get things done more efficiently and get better results [is / are] to do the right thing at the right time of day.",
+    "choices": [
+      "is",
+      "are"
+    ],
+    "answer": "are",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수식어를 동반한 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수식어를 동반한 주어의 수일치",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "'are'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is'이다.",
+      "summary": [
+        "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "주어와 동사 사이의 수식어를 묶는다",
+        "남은 중심 주어의 수에 동사를 맞춘다",
+        "대조 문항에서는 사용할 수 없는 형태 'are'를 고른다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-062-C08CE445",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-062-C08CE445",
+    "sourceQuestionId": "Q-P21-G-062-C08CE445",
+    "sourceCandidateId": "CAND-G-062-C08CE445",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 62,
+      "asset": "assets/source-evidence/phase21/grammar-page-062.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-062-C08CE445",
+      "evidenceRef": "SRC-P21-G-062",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 25,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-062-D616961E",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "Essentially self-interested motives such as prestige, promise of better health or taste [compensates / compensate] for the higher price paid.",
+    "choices": [
+      "compensates",
+      "compensate"
+    ],
+    "answer": "compensate",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수식어를 동반한 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수식어를 동반한 주어의 수일치",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "compensates": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "주어와 동사 사이의 수식어 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "주어와 동사 사이의 수식어를 묶는다",
+        "남은 중심 주어의 수에 동사를 맞춘다"
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-062-7D2AD688",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-062-D616961E",
+    "sourceQuestionId": "Q-P21-G-062-D616961E",
+    "sourceCandidateId": "CAND-G-062-D616961E",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 62,
+      "asset": "assets/source-evidence/phase21/grammar-page-062.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-062-D616961E",
+      "evidenceRef": "SRC-P21-G-062",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-062-D616961E-PF",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "Essentially self-interested motives such as prestige, promise of better health or taste [compensates / compensate] for the higher price paid.",
+    "choices": [
+      "compensates",
+      "compensate"
+    ],
+    "answer": "compensate",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수식어를 동반한 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수식어를 동반한 주어의 수일치",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "compensates": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "주어와 동사 사이의 수식어 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "주어와 동사 사이의 수식어를 묶는다",
+        "남은 중심 주어의 수에 동사를 맞춘다"
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-062-7D2AD688",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-062-D616961E",
+    "sourceQuestionId": "Q-P21-G-062-D616961E",
+    "sourceCandidateId": "CAND-G-062-D616961E",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 62,
+      "asset": "assets/source-evidence/phase21/grammar-page-062.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-062-D616961E",
+      "evidenceRef": "SRC-P21-G-062",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-062-D616961E-DR",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "Essentially self-interested motives such as prestige, promise of better health or taste [compensates / compensate] for the higher price paid.",
+    "choices": [
+      "compensates",
+      "compensate"
+    ],
+    "answer": "compensate",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수식어를 동반한 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수식어를 동반한 주어의 수일치",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "compensates": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "주어와 동사 사이의 수식어 명사를 중심 주어로 착각했다.",
+      "summary": [
+        "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "주어와 동사 사이의 수식어를 묶는다",
+        "남은 중심 주어의 수에 동사를 맞춘다"
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-062-7D2AD688",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-062-D616961E",
+    "sourceQuestionId": "Q-P21-G-062-D616961E",
+    "sourceCandidateId": "CAND-G-062-D616961E",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 62,
+      "asset": "assets/source-evidence/phase21/grammar-page-062.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-062-D616961E",
+      "evidenceRef": "SRC-P21-G-062",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-062-D616961E-CT",
+    "conceptId": "G39_INTERRUPTED_SUBJECT_HEAD",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nEssentially self-interested motives such as prestige, promise of better health or taste [compensates / compensate] for the higher price paid.",
+    "choices": [
+      "compensate",
+      "compensates"
+    ],
+    "answer": "compensates",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "수식어를 동반한 주어의 수일치",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "수식어를 동반한 주어의 수일치",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "errorCode": "E43_INTERRUPTED_HEAD_NOUN"
+      }
+    ],
+    "misconceptionByChoice": {
+      "compensate": "E43_INTERRUPTED_HEAD_NOUN"
+    },
+    "remediation": {
+      "diagnosis": "'compensates'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'compensate'이다.",
+      "summary": [
+        "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+        "주어와 동사 사이의 수식어를 묶는다",
+        "남은 중심 주어의 수에 동사를 맞춘다",
+        "대조 문항에서는 사용할 수 없는 형태 'compensates'를 고른다."
+      ],
+      "sourceRef": "SRC-G39B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "전치사구·관계사절·분사·to부정사·동격절이 주어와 동사 사이에 있어도 중심 주어의 수에 동사를 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-062-D616961E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART4",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-062-D616961E",
+    "sourceQuestionId": "Q-P21-G-062-D616961E",
+    "sourceCandidateId": "CAND-G-062-D616961E",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 62,
+      "asset": "assets/source-evidence/phase21/grammar-page-062.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-062-D616961E",
+      "evidenceRef": "SRC-P21-G-062",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

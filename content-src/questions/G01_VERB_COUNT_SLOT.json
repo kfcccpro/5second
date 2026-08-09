@@ -1,0 +1,2680 @@
+[
+  {
+    "id": "Q-G01-001",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 1,
+    "stem": "The report that the researchers published (shows / showing) a clear trend.",
+    "choices": [
+      "shows",
+      "showing"
+    ],
+    "answer": "shows",
+    "decisionSteps": [
+      {
+        "id": "count",
+        "prompt": "접속사·관계사 수는 몇 개인가?",
+        "answer": "1개",
+        "errorCode": "E02_VERB_COUNT_SKIPPED"
+      },
+      {
+        "id": "need",
+        "prompt": "문장에 필요한 본동사 수는 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E02_VERB_COUNT_SKIPPED"
+      },
+      {
+        "id": "slot",
+        "prompt": "published 외에 본동사가 더 필요한가?",
+        "answer": "필요하다",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "showing": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "본동사가 하나 더 필요한 자리를 준동사로 처리했다.",
+      "summary": [
+        "관계사 that이 있으므로 본동사는 2개가 필요하다.",
+        "published가 관계사절의 본동사이다.",
+        "주절 본동사가 남았으므로 shows를 선택한다."
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "접속사·관계사가 2개이면 기본적으로 본동사는 몇 개인가?",
+        "choices": [
+          "2개",
+          "3개"
+        ],
+        "answer": "3개"
+      },
+      "transferQuestionId": "Q-G01-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G01-001",
+    "sourceQuestionId": "Q-G01-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G01-002",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 1,
+    "stem": "Students preparing for the contest (meet / meeting) every Friday.",
+    "choices": [
+      "meet",
+      "meeting"
+    ],
+    "answer": "meet",
+    "decisionSteps": [
+      {
+        "id": "count",
+        "prompt": "접속사·관계사 수는 몇 개인가?",
+        "answer": "0개",
+        "errorCode": "E02_VERB_COUNT_SKIPPED"
+      },
+      {
+        "id": "slot",
+        "prompt": "preparing은 본동사인가 준동사인가?",
+        "answer": "준동사",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "need",
+        "prompt": "문장에 본동사가 남아 있는가?",
+        "answer": "남아 있다",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "meeting": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "V-ing를 본동사로 보아 문장의 본동사를 놓쳤다.",
+      "summary": [
+        "접속사·관계사가 없으므로 본동사는 1개가 필요하다.",
+        "preparing은 students를 꾸미는 준동사이다.",
+        "문장의 본동사 meet를 선택한다."
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "명사를 꾸미는 V-ing는 본동사인가?",
+        "choices": [
+          "본동사",
+          "준동사"
+        ],
+        "answer": "준동사"
+      },
+      "transferQuestionId": "Q-G02-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G01-002",
+    "sourceQuestionId": "Q-G01-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G01-001-PF",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 1,
+    "stem": "The report that the researchers published (shows / showing) a clear trend.",
+    "choices": [
+      "shows",
+      "showing"
+    ],
+    "answer": "shows",
+    "decisionSteps": [
+      {
+        "id": "count",
+        "prompt": "접속사·관계사 수는 몇 개인가?",
+        "answer": "1개",
+        "errorCode": "E02_VERB_COUNT_SKIPPED"
+      },
+      {
+        "id": "need",
+        "prompt": "문장에 필요한 본동사 수는 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E02_VERB_COUNT_SKIPPED"
+      },
+      {
+        "id": "slot",
+        "prompt": "published 외에 본동사가 더 필요한가?",
+        "answer": "필요하다",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "showing": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "본동사가 하나 더 필요한 자리를 준동사로 처리했다.",
+      "summary": [
+        "관계사 that이 있으므로 본동사는 2개가 필요하다.",
+        "published가 관계사절의 본동사이다.",
+        "주절 본동사가 남았으므로 shows를 선택한다."
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "접속사·관계사가 2개이면 기본적으로 본동사는 몇 개인가?",
+        "choices": [
+          "2개",
+          "3개"
+        ],
+        "answer": "3개"
+      },
+      "transferQuestionId": "Q-G01-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G01-001",
+    "sourceQuestionId": "Q-G01-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G01-002-PF",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 1,
+    "stem": "Students preparing for the contest (meet / meeting) every Friday.",
+    "choices": [
+      "meet",
+      "meeting"
+    ],
+    "answer": "meet",
+    "decisionSteps": [
+      {
+        "id": "count",
+        "prompt": "접속사·관계사 수는 몇 개인가?",
+        "answer": "0개",
+        "errorCode": "E02_VERB_COUNT_SKIPPED"
+      },
+      {
+        "id": "slot",
+        "prompt": "preparing은 본동사인가 준동사인가?",
+        "answer": "준동사",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "need",
+        "prompt": "문장에 본동사가 남아 있는가?",
+        "answer": "남아 있다",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "meeting": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "V-ing를 본동사로 보아 문장의 본동사를 놓쳤다.",
+      "summary": [
+        "접속사·관계사가 없으므로 본동사는 1개가 필요하다.",
+        "preparing은 students를 꾸미는 준동사이다.",
+        "문장의 본동사 meet를 선택한다."
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "명사를 꾸미는 V-ing는 본동사인가?",
+        "choices": [
+          "본동사",
+          "준동사"
+        ],
+        "answer": "준동사"
+      },
+      "transferQuestionId": "Q-G02-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G01-002",
+    "sourceQuestionId": "Q-G01-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G01-001-DR",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 1,
+    "stem": "The report that the researchers published (shows / showing) a clear trend.",
+    "choices": [
+      "shows",
+      "showing"
+    ],
+    "answer": "shows",
+    "decisionSteps": [
+      {
+        "id": "count",
+        "prompt": "접속사·관계사 수는 몇 개인가?",
+        "answer": "1개",
+        "errorCode": "E02_VERB_COUNT_SKIPPED"
+      },
+      {
+        "id": "need",
+        "prompt": "문장에 필요한 본동사 수는 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E02_VERB_COUNT_SKIPPED"
+      },
+      {
+        "id": "slot",
+        "prompt": "published 외에 본동사가 더 필요한가?",
+        "answer": "필요하다",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "showing": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "본동사가 하나 더 필요한 자리를 준동사로 처리했다.",
+      "summary": [
+        "관계사 that이 있으므로 본동사는 2개가 필요하다.",
+        "published가 관계사절의 본동사이다.",
+        "주절 본동사가 남았으므로 shows를 선택한다."
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "접속사·관계사가 2개이면 기본적으로 본동사는 몇 개인가?",
+        "choices": [
+          "2개",
+          "3개"
+        ],
+        "answer": "3개"
+      },
+      "transferQuestionId": "Q-G01-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G01-001",
+    "sourceQuestionId": "Q-G01-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G01-002-DR",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 1,
+    "stem": "Students preparing for the contest (meet / meeting) every Friday.",
+    "choices": [
+      "meet",
+      "meeting"
+    ],
+    "answer": "meet",
+    "decisionSteps": [
+      {
+        "id": "count",
+        "prompt": "접속사·관계사 수는 몇 개인가?",
+        "answer": "0개",
+        "errorCode": "E02_VERB_COUNT_SKIPPED"
+      },
+      {
+        "id": "slot",
+        "prompt": "preparing은 본동사인가 준동사인가?",
+        "answer": "준동사",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "need",
+        "prompt": "문장에 본동사가 남아 있는가?",
+        "answer": "남아 있다",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "meeting": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "V-ing를 본동사로 보아 문장의 본동사를 놓쳤다.",
+      "summary": [
+        "접속사·관계사가 없으므로 본동사는 1개가 필요하다.",
+        "preparing은 students를 꾸미는 준동사이다.",
+        "문장의 본동사 meet를 선택한다."
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "명사를 꾸미는 V-ing는 본동사인가?",
+        "choices": [
+          "본동사",
+          "준동사"
+        ],
+        "answer": "준동사"
+      },
+      "transferQuestionId": "Q-G02-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G01-002",
+    "sourceQuestionId": "Q-G01-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G01-001-CT",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe report that the researchers published (shows / showing) a clear trend.",
+    "choices": [
+      "shows",
+      "showing"
+    ],
+    "answer": "showing",
+    "decisionSteps": [
+      {
+        "id": "count",
+        "prompt": "접속사·관계사 수는 몇 개인가?",
+        "answer": "1개",
+        "errorCode": "E02_VERB_COUNT_SKIPPED"
+      },
+      {
+        "id": "need",
+        "prompt": "문장에 필요한 본동사 수는 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E02_VERB_COUNT_SKIPPED"
+      },
+      {
+        "id": "slot",
+        "prompt": "published 외에 본동사가 더 필요한가?",
+        "answer": "필요하다",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "shows": "E02_VERB_COUNT_SKIPPED"
+    },
+    "remediation": {
+      "diagnosis": "'showing'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'shows'이다.",
+      "summary": [
+        "관계사 that이 있으므로 본동사는 2개가 필요하다.",
+        "published가 관계사절의 본동사이다.",
+        "주절 본동사가 남았으므로 shows를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'showing'이다."
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "접속사·관계사가 2개이면 기본적으로 본동사는 몇 개인가?",
+        "choices": [
+          "2개",
+          "3개"
+        ],
+        "answer": "3개"
+      },
+      "transferQuestionId": "Q-G01-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G01-001",
+    "sourceQuestionId": "Q-G01-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G01-002-CT",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nStudents preparing for the contest (meet / meeting) every Friday.",
+    "choices": [
+      "meet",
+      "meeting"
+    ],
+    "answer": "meeting",
+    "decisionSteps": [
+      {
+        "id": "count",
+        "prompt": "접속사·관계사 수는 몇 개인가?",
+        "answer": "0개",
+        "errorCode": "E02_VERB_COUNT_SKIPPED"
+      },
+      {
+        "id": "slot",
+        "prompt": "preparing은 본동사인가 준동사인가?",
+        "answer": "준동사",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "need",
+        "prompt": "문장에 본동사가 남아 있는가?",
+        "answer": "남아 있다",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "meet": "E02_VERB_COUNT_SKIPPED"
+    },
+    "remediation": {
+      "diagnosis": "'meeting'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'meet'이다.",
+      "summary": [
+        "접속사·관계사가 없으므로 본동사는 1개가 필요하다.",
+        "preparing은 students를 꾸미는 준동사이다.",
+        "문장의 본동사 meet를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'meeting'이다."
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "명사를 꾸미는 V-ing는 본동사인가?",
+        "choices": [
+          "본동사",
+          "준동사"
+        ],
+        "answer": "준동사"
+      },
+      "transferQuestionId": "Q-G01-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G01-002",
+    "sourceQuestionId": "Q-G01-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-D4E56127CB",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 1,
+    "stem": "빠른 확인: 명사를 꾸미는 V-ing는 본동사인가?",
+    "choices": [
+      "본동사",
+      "준동사"
+    ],
+    "answer": "준동사",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E02_VERB_COUNT_SKIPPED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "본동사": "E02_VERB_COUNT_SKIPPED"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사가 없으므로 본동사는 1개가 필요하다.",
+        "preparing은 students를 꾸미는 준동사이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "접속사·관계사가 2개이면 기본적으로 본동사는 몇 개인가?",
+        "choices": [
+          "2개",
+          "3개"
+        ],
+        "answer": "3개"
+      },
+      "transferQuestionId": "Q-G01-002",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-D4E56127CB",
+    "sourceQuestionId": "Q-G01-002",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-8D809873F7",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 1,
+    "stem": "빠른 확인: 접속사·관계사가 2개이면 기본적으로 본동사는 몇 개인가?",
+    "choices": [
+      "2개",
+      "3개"
+    ],
+    "answer": "3개",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E02_VERB_COUNT_SKIPPED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "2개": "E02_VERB_COUNT_SKIPPED"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "관계사 that이 있으므로 본동사는 2개가 필요하다.",
+        "published가 관계사절의 본동사이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "명사를 꾸미는 V-ing는 본동사인가?",
+        "choices": [
+          "본동사",
+          "준동사"
+        ],
+        "answer": "준동사"
+      },
+      "transferQuestionId": "Q-G01-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-8D809873F7",
+    "sourceQuestionId": "Q-G01-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-017-E9556A6F",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "Lions and tigers, for instance, first eat the blood, hearts, livers, and brains of the animals they kill, often [leave / leaving] the muscle meat for eagles.",
+    "choices": [
+      "leave",
+      "leaving"
+    ],
+    "answer": "leaving",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "leave": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "문제 부분이 문장의 동사인지 수식 덩어리인지 구분하지 못했다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다"
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-608E9152",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-017-E9556A6F",
+    "sourceQuestionId": "Q-P21-G-017-E9556A6F",
+    "sourceCandidateId": "CAND-G-017-E9556A6F",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-E9556A6F",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 75,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 26,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-E9556A6F-PF",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "Lions and tigers, for instance, first eat the blood, hearts, livers, and brains of the animals they kill, often [leave / leaving] the muscle meat for eagles.",
+    "choices": [
+      "leave",
+      "leaving"
+    ],
+    "answer": "leaving",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "leave": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "문제 부분이 문장의 동사인지 수식 덩어리인지 구분하지 못했다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다"
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-608E9152",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-017-E9556A6F",
+    "sourceQuestionId": "Q-P21-G-017-E9556A6F",
+    "sourceCandidateId": "CAND-G-017-E9556A6F",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-E9556A6F",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 84,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 26,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-E9556A6F-DR",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "Lions and tigers, for instance, first eat the blood, hearts, livers, and brains of the animals they kill, often [leave / leaving] the muscle meat for eagles.",
+    "choices": [
+      "leave",
+      "leaving"
+    ],
+    "answer": "leaving",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "leave": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "문제 부분이 문장의 동사인지 수식 덩어리인지 구분하지 못했다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다"
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-608E9152",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-017-E9556A6F",
+    "sourceQuestionId": "Q-P21-G-017-E9556A6F",
+    "sourceCandidateId": "CAND-G-017-E9556A6F",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-E9556A6F",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 26,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-E9556A6F-CT",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nLions and tigers, for instance, first eat the blood, hearts, livers, and brains of the animals they kill, often [leave / leaving] the muscle meat for eagles.",
+    "choices": [
+      "leaving",
+      "leave"
+    ],
+    "answer": "leave",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "leaving": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "'leave'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'leaving'이다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'leave'를 고른다."
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-E9556A6F",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-017-E9556A6F",
+    "sourceQuestionId": "Q-P21-G-017-E9556A6F",
+    "sourceCandidateId": "CAND-G-017-E9556A6F",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-E9556A6F",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 26,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-608E9152",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "When he inherited the throne, at age nineteen, [it / which] was expected that he would continue his ancestors' royal patronage.",
+    "choices": [
+      "it",
+      "which"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "문제 부분이 문장의 동사인지 수식 덩어리인지 구분하지 못했다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다"
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-0577B76F",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-017-608E9152",
+    "sourceQuestionId": "Q-P21-G-017-608E9152",
+    "sourceCandidateId": "CAND-G-017-608E9152",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-608E9152",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-608E9152-PF",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "When he inherited the throne, at age nineteen, [it / which] was expected that he would continue his ancestors' royal patronage.",
+    "choices": [
+      "it",
+      "which"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "문제 부분이 문장의 동사인지 수식 덩어리인지 구분하지 못했다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다"
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-0577B76F",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-017-608E9152",
+    "sourceQuestionId": "Q-P21-G-017-608E9152",
+    "sourceCandidateId": "CAND-G-017-608E9152",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-608E9152",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-608E9152-DR",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "When he inherited the throne, at age nineteen, [it / which] was expected that he would continue his ancestors' royal patronage.",
+    "choices": [
+      "it",
+      "which"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "문제 부분이 문장의 동사인지 수식 덩어리인지 구분하지 못했다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다"
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-0577B76F",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-017-608E9152",
+    "sourceQuestionId": "Q-P21-G-017-608E9152",
+    "sourceCandidateId": "CAND-G-017-608E9152",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-608E9152",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-608E9152-CT",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWhen he inherited the throne, at age nineteen, [it / which] was expected that he would continue his ancestors' royal patronage.",
+    "choices": [
+      "it",
+      "which"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'it'이다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'which'를 고른다."
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-608E9152",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-017-608E9152",
+    "sourceQuestionId": "Q-P21-G-017-608E9152",
+    "sourceCandidateId": "CAND-G-017-608E9152",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-608E9152",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-0577B76F",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "When we finally find life on another world — and we will — it will be one of the most significant cultural events in human history, [have / having] a profound impact on the question of our origins.",
+    "choices": [
+      "have",
+      "having"
+    ],
+    "answer": "having",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "문제 부분이 문장의 동사인지 수식 덩어리인지 구분하지 못했다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다"
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-0998C03E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-017-0577B76F",
+    "sourceQuestionId": "Q-P21-G-017-0577B76F",
+    "sourceCandidateId": "CAND-G-017-0577B76F",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-0577B76F",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 85,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 35,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-0577B76F-PF",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "When we finally find life on another world — and we will — it will be one of the most significant cultural events in human history, [have / having] a profound impact on the question of our origins.",
+    "choices": [
+      "have",
+      "having"
+    ],
+    "answer": "having",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "문제 부분이 문장의 동사인지 수식 덩어리인지 구분하지 못했다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다"
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-0998C03E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-017-0577B76F",
+    "sourceQuestionId": "Q-P21-G-017-0577B76F",
+    "sourceCandidateId": "CAND-G-017-0577B76F",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-0577B76F",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 95,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 35,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-0577B76F-DR",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "When we finally find life on another world — and we will — it will be one of the most significant cultural events in human history, [have / having] a profound impact on the question of our origins.",
+    "choices": [
+      "have",
+      "having"
+    ],
+    "answer": "having",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "문제 부분이 문장의 동사인지 수식 덩어리인지 구분하지 못했다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다"
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-0998C03E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-017-0577B76F",
+    "sourceQuestionId": "Q-P21-G-017-0577B76F",
+    "sourceCandidateId": "CAND-G-017-0577B76F",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-0577B76F",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 78,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 35,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-0577B76F-CT",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWhen we finally find life on another world — and we will — it will be one of the most significant cultural events in human history, [have / having] a profound impact on the question of our origins.",
+    "choices": [
+      "have",
+      "having"
+    ],
+    "answer": "have",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "having": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "'have'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'having'이다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'have'를 고른다."
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-0577B76F",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-017-0577B76F",
+    "sourceQuestionId": "Q-P21-G-017-0577B76F",
+    "sourceCandidateId": "CAND-G-017-0577B76F",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-0577B76F",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 76,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 35,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-0998C03E",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "Unlike freshwater fish, many marine species [have / having] little tolerance for variations in water quality and temperature.",
+    "choices": [
+      "have",
+      "having"
+    ],
+    "answer": "have",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "having": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "문제 부분이 문장의 동사인지 수식 덩어리인지 구분하지 못했다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다"
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-E9556A6F",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-017-0998C03E",
+    "sourceQuestionId": "Q-P21-G-017-0998C03E",
+    "sourceCandidateId": "CAND-G-017-0998C03E",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-0998C03E",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-0998C03E-PF",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "Unlike freshwater fish, many marine species [have / having] little tolerance for variations in water quality and temperature.",
+    "choices": [
+      "have",
+      "having"
+    ],
+    "answer": "have",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "having": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "문제 부분이 문장의 동사인지 수식 덩어리인지 구분하지 못했다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다"
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-E9556A6F",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-017-0998C03E",
+    "sourceQuestionId": "Q-P21-G-017-0998C03E",
+    "sourceCandidateId": "CAND-G-017-0998C03E",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-0998C03E",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-0998C03E-DR",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "Unlike freshwater fish, many marine species [have / having] little tolerance for variations in water quality and temperature.",
+    "choices": [
+      "have",
+      "having"
+    ],
+    "answer": "have",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "having": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "문제 부분이 문장의 동사인지 수식 덩어리인지 구분하지 못했다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다"
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-E9556A6F",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-017-0998C03E",
+    "sourceQuestionId": "Q-P21-G-017-0998C03E",
+    "sourceCandidateId": "CAND-G-017-0998C03E",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-0998C03E",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-017-0998C03E-CT",
+    "conceptId": "G01_VERB_COUNT_SLOT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nUnlike freshwater fish, many marine species [have / having] little tolerance for variations in water quality and temperature.",
+    "choices": [
+      "having",
+      "have"
+    ],
+    "answer": "having",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "본동사·준동사 자리 판단",
+          "현재분사·과거분사 자·타 공식"
+        ],
+        "answer": "본동사·준동사 자리 판단",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리인지 확인한다"
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "'having'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'have'이다.",
+      "summary": [
+        "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+        "접속사·관계사 수를 센다",
+        "본동사 자리인지 준동사 자리인지 결정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'having'를 고른다."
+      ],
+      "sourceRef": "SRC-G01",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+      },
+      "transferQuestionId": "Q-P21-G-017-0998C03E",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-017-0998C03E",
+    "sourceQuestionId": "Q-P21-G-017-0998C03E",
+    "sourceCandidateId": "CAND-G-017-0998C03E",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 17,
+      "asset": "assets/source-evidence/phase21/grammar-page-017.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-017-0998C03E",
+      "evidenceRef": "SRC-P21-G-017",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

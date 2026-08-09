@@ -1,0 +1,4898 @@
+[
+  {
+    "id": "Q-G50-001",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "She likes reading, writing, and (to swim / swimming).",
+    "choices": [
+      "to swim",
+      "swimming"
+    ],
+    "answer": "swimming",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 병렬 형태는?",
+        "answer": "reading, writing이라는 V-ing",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "swimming",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to swim": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "reading, writing이라는 V-ing.",
+        "따라서 swimming를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-001",
+    "sourceQuestionId": "Q-G50-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-002",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "He wants to learn, to practice, and (to improve / improving).",
+    "choices": [
+      "to improve",
+      "improving"
+    ],
+    "answer": "to improve",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 병렬 형태는?",
+        "answer": "to learn, to practice",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "to improve",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "improving": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "to learn, to practice.",
+        "따라서 to improve를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-002",
+    "sourceQuestionId": "Q-G50-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-003",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "The policy aims to reduce costs and (improving / improve) quality.",
+    "choices": [
+      "improving",
+      "improve"
+    ],
+    "answer": "improve",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "to가 두 동사를 함께 지배하는가?",
+        "answer": "reduce와 improve를 함께 지배한다",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 동사 형태는?",
+        "answer": "improve",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "improving": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "reduce와 improve를 함께 지배한다.",
+        "따라서 improve를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-003",
+    "sourceQuestionId": "Q-G50-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-004",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "The job requires patience, accuracy, and (responsible / responsibility).",
+    "choices": [
+      "responsible",
+      "responsibility"
+    ],
+    "answer": "responsibility",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 중심 요소 품사는?",
+        "answer": "명사 patience, accuracy",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 품사는?",
+        "answer": "명사 responsibility",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "responsible": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "명사 patience, accuracy.",
+        "따라서 responsibility를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-004",
+    "sourceQuestionId": "Q-G50-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-005",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "She is not only talented but also (works hard / hardworking).",
+    "choices": [
+      "works hard",
+      "hardworking"
+    ],
+    "answer": "hardworking",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결 표현은?",
+        "answer": "not only A but also B",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "A의 품사는?",
+        "answer": "형용사 talented",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "B에 필요한 형태는?",
+        "answer": "형용사 hardworking",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "works hard": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "not only A but also B.",
+        "형용사 talented.",
+        "따라서 hardworking를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-005",
+    "sourceQuestionId": "Q-G50-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-006",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "Driving carelessly is more dangerous than (to drive / driving) slowly.",
+    "choices": [
+      "to drive",
+      "driving"
+    ],
+    "answer": "driving",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "비교 기준은?",
+        "answer": "than",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "비교 앞의 형태는?",
+        "answer": "동명사 Driving",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "driving",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to drive": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "than.",
+        "동명사 Driving.",
+        "따라서 driving를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-006",
+    "sourceQuestionId": "Q-G50-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-007",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "The plan was unrealistic or at least very difficult (achieving / to achieve).",
+    "choices": [
+      "achieving",
+      "to achieve"
+    ],
+    "answer": "to achieve",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결·보충 구조는?",
+        "answer": "or at least",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "difficult 뒤에 필요한 구조는?",
+        "answer": "to부정사",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "to achieve",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "achieving": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "or at least.",
+        "to부정사.",
+        "따라서 to achieve를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-007",
+    "sourceQuestionId": "Q-G50-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-008",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "The manager emphasized communicating clearly and (to work / working) cooperatively.",
+    "choices": [
+      "to work",
+      "working"
+    ],
+    "answer": "working",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 형태는?",
+        "answer": "communicating이라는 V-ing",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "working",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to work": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "communicating이라는 V-ing.",
+        "따라서 working를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-008",
+    "sourceQuestionId": "Q-G50-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-001-PF",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "She likes reading, writing, and (to swim / swimming).",
+    "choices": [
+      "to swim",
+      "swimming"
+    ],
+    "answer": "swimming",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 병렬 형태는?",
+        "answer": "reading, writing이라는 V-ing",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "swimming",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to swim": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "reading, writing이라는 V-ing.",
+        "따라서 swimming를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-001",
+    "sourceQuestionId": "Q-G50-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-002-PF",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "He wants to learn, to practice, and (to improve / improving).",
+    "choices": [
+      "to improve",
+      "improving"
+    ],
+    "answer": "to improve",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 병렬 형태는?",
+        "answer": "to learn, to practice",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "to improve",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "improving": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "to learn, to practice.",
+        "따라서 to improve를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-002",
+    "sourceQuestionId": "Q-G50-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-003-PF",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "The policy aims to reduce costs and (improving / improve) quality.",
+    "choices": [
+      "improving",
+      "improve"
+    ],
+    "answer": "improve",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "to가 두 동사를 함께 지배하는가?",
+        "answer": "reduce와 improve를 함께 지배한다",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 동사 형태는?",
+        "answer": "improve",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "improving": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "reduce와 improve를 함께 지배한다.",
+        "따라서 improve를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-003",
+    "sourceQuestionId": "Q-G50-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-004-PF",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "The job requires patience, accuracy, and (responsible / responsibility).",
+    "choices": [
+      "responsible",
+      "responsibility"
+    ],
+    "answer": "responsibility",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 중심 요소 품사는?",
+        "answer": "명사 patience, accuracy",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 품사는?",
+        "answer": "명사 responsibility",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "responsible": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "명사 patience, accuracy.",
+        "따라서 responsibility를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-004",
+    "sourceQuestionId": "Q-G50-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-005-PF",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "She is not only talented but also (works hard / hardworking).",
+    "choices": [
+      "works hard",
+      "hardworking"
+    ],
+    "answer": "hardworking",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결 표현은?",
+        "answer": "not only A but also B",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "A의 품사는?",
+        "answer": "형용사 talented",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "B에 필요한 형태는?",
+        "answer": "형용사 hardworking",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "works hard": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "not only A but also B.",
+        "형용사 talented.",
+        "따라서 hardworking를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-005",
+    "sourceQuestionId": "Q-G50-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-006-PF",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "Driving carelessly is more dangerous than (to drive / driving) slowly.",
+    "choices": [
+      "to drive",
+      "driving"
+    ],
+    "answer": "driving",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "비교 기준은?",
+        "answer": "than",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "비교 앞의 형태는?",
+        "answer": "동명사 Driving",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "driving",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to drive": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "than.",
+        "동명사 Driving.",
+        "따라서 driving를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-006",
+    "sourceQuestionId": "Q-G50-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-007-PF",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "The plan was unrealistic or at least very difficult (achieving / to achieve).",
+    "choices": [
+      "achieving",
+      "to achieve"
+    ],
+    "answer": "to achieve",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결·보충 구조는?",
+        "answer": "or at least",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "difficult 뒤에 필요한 구조는?",
+        "answer": "to부정사",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "to achieve",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "achieving": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "or at least.",
+        "to부정사.",
+        "따라서 to achieve를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-007",
+    "sourceQuestionId": "Q-G50-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-008-PF",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "The manager emphasized communicating clearly and (to work / working) cooperatively.",
+    "choices": [
+      "to work",
+      "working"
+    ],
+    "answer": "working",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 형태는?",
+        "answer": "communicating이라는 V-ing",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "working",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to work": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "communicating이라는 V-ing.",
+        "따라서 working를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-008",
+    "sourceQuestionId": "Q-G50-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-001-DR",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "She likes reading, writing, and (to swim / swimming).",
+    "choices": [
+      "to swim",
+      "swimming"
+    ],
+    "answer": "swimming",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 병렬 형태는?",
+        "answer": "reading, writing이라는 V-ing",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "swimming",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to swim": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "reading, writing이라는 V-ing.",
+        "따라서 swimming를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-001",
+    "sourceQuestionId": "Q-G50-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-002-DR",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "He wants to learn, to practice, and (to improve / improving).",
+    "choices": [
+      "to improve",
+      "improving"
+    ],
+    "answer": "to improve",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 병렬 형태는?",
+        "answer": "to learn, to practice",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "to improve",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "improving": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "to learn, to practice.",
+        "따라서 to improve를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-002",
+    "sourceQuestionId": "Q-G50-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-003-DR",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "The policy aims to reduce costs and (improving / improve) quality.",
+    "choices": [
+      "improving",
+      "improve"
+    ],
+    "answer": "improve",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "to가 두 동사를 함께 지배하는가?",
+        "answer": "reduce와 improve를 함께 지배한다",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 동사 형태는?",
+        "answer": "improve",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "improving": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "reduce와 improve를 함께 지배한다.",
+        "따라서 improve를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-003",
+    "sourceQuestionId": "Q-G50-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-004-DR",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "The job requires patience, accuracy, and (responsible / responsibility).",
+    "choices": [
+      "responsible",
+      "responsibility"
+    ],
+    "answer": "responsibility",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 중심 요소 품사는?",
+        "answer": "명사 patience, accuracy",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 품사는?",
+        "answer": "명사 responsibility",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "responsible": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "명사 patience, accuracy.",
+        "따라서 responsibility를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-004",
+    "sourceQuestionId": "Q-G50-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-005-DR",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "She is not only talented but also (works hard / hardworking).",
+    "choices": [
+      "works hard",
+      "hardworking"
+    ],
+    "answer": "hardworking",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결 표현은?",
+        "answer": "not only A but also B",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "A의 품사는?",
+        "answer": "형용사 talented",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "B에 필요한 형태는?",
+        "answer": "형용사 hardworking",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "works hard": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "not only A but also B.",
+        "형용사 talented.",
+        "따라서 hardworking를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-005",
+    "sourceQuestionId": "Q-G50-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-006-DR",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "Driving carelessly is more dangerous than (to drive / driving) slowly.",
+    "choices": [
+      "to drive",
+      "driving"
+    ],
+    "answer": "driving",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "비교 기준은?",
+        "answer": "than",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "비교 앞의 형태는?",
+        "answer": "동명사 Driving",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "driving",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to drive": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "than.",
+        "동명사 Driving.",
+        "따라서 driving를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-006",
+    "sourceQuestionId": "Q-G50-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-007-DR",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "The plan was unrealistic or at least very difficult (achieving / to achieve).",
+    "choices": [
+      "achieving",
+      "to achieve"
+    ],
+    "answer": "to achieve",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결·보충 구조는?",
+        "answer": "or at least",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "difficult 뒤에 필요한 구조는?",
+        "answer": "to부정사",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "to achieve",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "achieving": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "or at least.",
+        "to부정사.",
+        "따라서 to achieve를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-007",
+    "sourceQuestionId": "Q-G50-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-008-DR",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "The manager emphasized communicating clearly and (to work / working) cooperatively.",
+    "choices": [
+      "to work",
+      "working"
+    ],
+    "answer": "working",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 형태는?",
+        "answer": "communicating이라는 V-ing",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "working",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to work": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and.",
+        "communicating이라는 V-ing.",
+        "따라서 working를 선택한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-008",
+    "sourceQuestionId": "Q-G50-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-001-CT",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe likes reading, writing, and (to swim / swimming).",
+    "choices": [
+      "swimming",
+      "to swim"
+    ],
+    "answer": "to swim",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 병렬 형태는?",
+        "answer": "reading, writing이라는 V-ing",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "swimming",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "swimming": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "'to swim'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'swimming'이다.",
+      "summary": [
+        "and.",
+        "reading, writing이라는 V-ing.",
+        "따라서 swimming를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'to swim'이다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-001",
+    "sourceQuestionId": "Q-G50-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-002-CT",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe wants to learn, to practice, and (to improve / improving).",
+    "choices": [
+      "to improve",
+      "improving"
+    ],
+    "answer": "improving",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 병렬 형태는?",
+        "answer": "to learn, to practice",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "to improve",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to improve": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "'improving'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to improve'이다.",
+      "summary": [
+        "and.",
+        "to learn, to practice.",
+        "따라서 to improve를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'improving'이다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-002",
+    "sourceQuestionId": "Q-G50-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-003-CT",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe policy aims to reduce costs and (improving / improve) quality.",
+    "choices": [
+      "improve",
+      "improving"
+    ],
+    "answer": "improving",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "to가 두 동사를 함께 지배하는가?",
+        "answer": "reduce와 improve를 함께 지배한다",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 동사 형태는?",
+        "answer": "improve",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "improve": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "'improving'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'improve'이다.",
+      "summary": [
+        "and.",
+        "reduce와 improve를 함께 지배한다.",
+        "따라서 improve를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'improving'이다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-003",
+    "sourceQuestionId": "Q-G50-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-004-CT",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe job requires patience, accuracy, and (responsible / responsibility).",
+    "choices": [
+      "responsible",
+      "responsibility"
+    ],
+    "answer": "responsible",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 중심 요소 품사는?",
+        "answer": "명사 patience, accuracy",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 품사는?",
+        "answer": "명사 responsibility",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "responsibility": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "'responsible'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'responsibility'이다.",
+      "summary": [
+        "and.",
+        "명사 patience, accuracy.",
+        "따라서 responsibility를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'responsible'이다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-004",
+    "sourceQuestionId": "Q-G50-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-005-CT",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe is not only talented but also (works hard / hardworking).",
+    "choices": [
+      "hardworking",
+      "works hard"
+    ],
+    "answer": "works hard",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결 표현은?",
+        "answer": "not only A but also B",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "A의 품사는?",
+        "answer": "형용사 talented",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "B에 필요한 형태는?",
+        "answer": "형용사 hardworking",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "hardworking": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "'works hard'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'hardworking'이다.",
+      "summary": [
+        "not only A but also B.",
+        "형용사 talented.",
+        "따라서 hardworking를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'works hard'이다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-005",
+    "sourceQuestionId": "Q-G50-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-006-CT",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nDriving carelessly is more dangerous than (to drive / driving) slowly.",
+    "choices": [
+      "to drive",
+      "driving"
+    ],
+    "answer": "to drive",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "비교 기준은?",
+        "answer": "than",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "비교 앞의 형태는?",
+        "answer": "동명사 Driving",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "driving",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "driving": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "'to drive'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'driving'이다.",
+      "summary": [
+        "than.",
+        "동명사 Driving.",
+        "따라서 driving를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'to drive'이다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-006",
+    "sourceQuestionId": "Q-G50-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-007-CT",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe plan was unrealistic or at least very difficult (achieving / to achieve).",
+    "choices": [
+      "achieving",
+      "to achieve"
+    ],
+    "answer": "achieving",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결·보충 구조는?",
+        "answer": "or at least",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "difficult 뒤에 필요한 구조는?",
+        "answer": "to부정사",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "to achieve",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to achieve": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "'achieving'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to achieve'이다.",
+      "summary": [
+        "or at least.",
+        "to부정사.",
+        "따라서 to achieve를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'achieving'이다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-007",
+    "sourceQuestionId": "Q-G50-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G50-008-CT",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe manager emphasized communicating clearly and (to work / working) cooperatively.",
+    "choices": [
+      "to work",
+      "working"
+    ],
+    "answer": "to work",
+    "decisionSteps": [
+      {
+        "id": "connector",
+        "prompt": "연결어는?",
+        "answer": "and",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "left",
+        "prompt": "앞의 형태는?",
+        "answer": "communicating이라는 V-ing",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "choice",
+        "prompt": "맞춰야 할 형태는?",
+        "answer": "working",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "working": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "'to work'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'working'이다.",
+      "summary": [
+        "and.",
+        "communicating이라는 V-ing.",
+        "따라서 working를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'to work'이다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G50-008",
+    "sourceQuestionId": "Q-G50-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-47AAB1FE28",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+    "choices": [
+      "품사와 형태",
+      "뜻만"
+    ],
+    "answer": "품사와 형태",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "간접의문문은 의문사 뒤를 평서문 어순으로 쓰고, 감탄문은 what+명사 또는 how+형용사·부사 구조를 쓴다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "뜻만": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "and.",
+        "reading, writing이라는 V-ing.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "병렬 구조에서는 연결된 요소의 무엇을 맞추는가?",
+        "choices": [
+          "품사와 형태",
+          "뜻만"
+        ],
+        "answer": "품사와 형태"
+      },
+      "transferQuestionId": "Q-G50-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-47AAB1FE28",
+    "sourceQuestionId": "Q-G50-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-080-625EEA52",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "Recent research is helping to clarify the important role that self-esteem plays in our ability to take risks, learn new skills, deal with others fairly and benevolently, and [is / be] productive and assertive.",
+    "choices": [
+      "is",
+      "be"
+    ],
+    "answer": "be",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다"
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-F2B6FF60",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-080-625EEA52",
+    "sourceQuestionId": "Q-P21-G-080-625EEA52",
+    "sourceCandidateId": "CAND-G-080-625EEA52",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-625EEA52",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 84,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 34,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-625EEA52-PF",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "Recent research is helping to clarify the important role that self-esteem plays in our ability to take risks, learn new skills, deal with others fairly and benevolently, and [is / be] productive and assertive.",
+    "choices": [
+      "is",
+      "be"
+    ],
+    "answer": "be",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다"
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-F2B6FF60",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-080-625EEA52",
+    "sourceQuestionId": "Q-P21-G-080-625EEA52",
+    "sourceCandidateId": "CAND-G-080-625EEA52",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-625EEA52",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 94,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 34,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-625EEA52-DR",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "Recent research is helping to clarify the important role that self-esteem plays in our ability to take risks, learn new skills, deal with others fairly and benevolently, and [is / be] productive and assertive.",
+    "choices": [
+      "is",
+      "be"
+    ],
+    "answer": "be",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다"
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-F2B6FF60",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-080-625EEA52",
+    "sourceQuestionId": "Q-P21-G-080-625EEA52",
+    "sourceCandidateId": "CAND-G-080-625EEA52",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-625EEA52",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 77,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 34,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-625EEA52-CT",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nRecent research is helping to clarify the important role that self-esteem plays in our ability to take risks, learn new skills, deal with others fairly and benevolently, and [is / be] productive and assertive.",
+    "choices": [
+      "is",
+      "be"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "'is'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'be'이다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다",
+        "대조 문항에서는 사용할 수 없는 형태 'is'를 고른다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-625EEA52",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-080-625EEA52",
+    "sourceQuestionId": "Q-P21-G-080-625EEA52",
+    "sourceCandidateId": "CAND-G-080-625EEA52",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-625EEA52",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 76,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 34,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-F2B6FF60",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "Our goal is to respect the artist's intent, but at the same time [making / to make] it a visually coherent work of art.",
+    "choices": [
+      "making",
+      "to make"
+    ],
+    "answer": "to make",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "making": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다"
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-106793C2",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-080-F2B6FF60",
+    "sourceQuestionId": "Q-P21-G-080-F2B6FF60",
+    "sourceCandidateId": "CAND-G-080-F2B6FF60",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-F2B6FF60",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 23,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-F2B6FF60-PF",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "Our goal is to respect the artist's intent, but at the same time [making / to make] it a visually coherent work of art.",
+    "choices": [
+      "making",
+      "to make"
+    ],
+    "answer": "to make",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "making": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다"
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-106793C2",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-080-F2B6FF60",
+    "sourceQuestionId": "Q-P21-G-080-F2B6FF60",
+    "sourceCandidateId": "CAND-G-080-F2B6FF60",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-F2B6FF60",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 23,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-F2B6FF60-DR",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "Our goal is to respect the artist's intent, but at the same time [making / to make] it a visually coherent work of art.",
+    "choices": [
+      "making",
+      "to make"
+    ],
+    "answer": "to make",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "making": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다"
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-106793C2",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-080-F2B6FF60",
+    "sourceQuestionId": "Q-P21-G-080-F2B6FF60",
+    "sourceCandidateId": "CAND-G-080-F2B6FF60",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-F2B6FF60",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 23,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-F2B6FF60-CT",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nOur goal is to respect the artist's intent, but at the same time [making / to make] it a visually coherent work of art.",
+    "choices": [
+      "to make",
+      "making"
+    ],
+    "answer": "making",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to make": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "'making'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to make'이다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다",
+        "대조 문항에서는 사용할 수 없는 형태 'making'를 고른다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-F2B6FF60",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-080-F2B6FF60",
+    "sourceQuestionId": "Q-P21-G-080-F2B6FF60",
+    "sourceCandidateId": "CAND-G-080-F2B6FF60",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-F2B6FF60",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 23,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-106793C2",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "In the Metro, you have to open the doors yourself by pushing a button, depressing a lever or [slide / sliding] them.",
+    "choices": [
+      "slide",
+      "sliding"
+    ],
+    "answer": "sliding",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "slide": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다"
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-A123313F",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-080-106793C2",
+    "sourceQuestionId": "Q-P21-G-080-106793C2",
+    "sourceCandidateId": "CAND-G-080-106793C2",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-106793C2",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-106793C2-PF",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "In the Metro, you have to open the doors yourself by pushing a button, depressing a lever or [slide / sliding] them.",
+    "choices": [
+      "slide",
+      "sliding"
+    ],
+    "answer": "sliding",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "slide": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다"
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-A123313F",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-080-106793C2",
+    "sourceQuestionId": "Q-P21-G-080-106793C2",
+    "sourceCandidateId": "CAND-G-080-106793C2",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-106793C2",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-106793C2-DR",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "In the Metro, you have to open the doors yourself by pushing a button, depressing a lever or [slide / sliding] them.",
+    "choices": [
+      "slide",
+      "sliding"
+    ],
+    "answer": "sliding",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "slide": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다"
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-A123313F",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-080-106793C2",
+    "sourceQuestionId": "Q-P21-G-080-106793C2",
+    "sourceCandidateId": "CAND-G-080-106793C2",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-106793C2",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-106793C2-CT",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIn the Metro, you have to open the doors yourself by pushing a button, depressing a lever or [slide / sliding] them.",
+    "choices": [
+      "slide",
+      "sliding"
+    ],
+    "answer": "slide",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "sliding": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "'slide'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'sliding'이다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다",
+        "대조 문항에서는 사용할 수 없는 형태 'slide'를 고른다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-106793C2",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-080-106793C2",
+    "sourceQuestionId": "Q-P21-G-080-106793C2",
+    "sourceCandidateId": "CAND-G-080-106793C2",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-106793C2",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-A123313F",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "The morality of ordinary life requires us to regard others as autonomous beings and [respect / respects] their choices.",
+    "choices": [
+      "respect",
+      "respects"
+    ],
+    "answer": "respect",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "respects": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다"
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-625EEA52",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-080-A123313F",
+    "sourceQuestionId": "Q-P21-G-080-A123313F",
+    "sourceCandidateId": "CAND-G-080-A123313F",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-A123313F",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-A123313F-PF",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "The morality of ordinary life requires us to regard others as autonomous beings and [respect / respects] their choices.",
+    "choices": [
+      "respect",
+      "respects"
+    ],
+    "answer": "respect",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "respects": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다"
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-625EEA52",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-080-A123313F",
+    "sourceQuestionId": "Q-P21-G-080-A123313F",
+    "sourceCandidateId": "CAND-G-080-A123313F",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-A123313F",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-A123313F-DR",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "The morality of ordinary life requires us to regard others as autonomous beings and [respect / respects] their choices.",
+    "choices": [
+      "respect",
+      "respects"
+    ],
+    "answer": "respect",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "respects": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "연결어 좌우의 중심 요소와 형태를 맞추지 않았다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다"
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-625EEA52",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-080-A123313F",
+    "sourceQuestionId": "Q-P21-G-080-A123313F",
+    "sourceCandidateId": "CAND-G-080-A123313F",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-A123313F",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-080-A123313F-CT",
+    "conceptId": "G50_PARALLEL_STRUCTURE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe morality of ordinary life requires us to regard others as autonomous beings and [respect / respects] their choices.",
+    "choices": [
+      "respects",
+      "respect"
+    ],
+    "answer": "respects",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "병렬 구조",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "병렬 구조",
+        "errorCode": "E54_PARALLEL"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "errorCode": "E54_PARALLEL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "respect": "E54_PARALLEL"
+    },
+    "remediation": {
+      "diagnosis": "'respects'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'respect'이다.",
+      "summary": [
+        "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+        "연결어를 찾는다",
+        "같은 품사·같은 동사 형태로 맞춘다",
+        "대조 문항에서는 사용할 수 없는 형태 'respects'를 고른다."
+      ],
+      "sourceRef": "SRC-G50",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "and·or·but, 비교·대조, 상관표현으로 연결된 요소는 품사와 형태를 서로 맞춘다."
+      },
+      "transferQuestionId": "Q-P21-G-080-A123313F",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-080-A123313F",
+    "sourceQuestionId": "Q-P21-G-080-A123313F",
+    "sourceCandidateId": "CAND-G-080-A123313F",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 80,
+      "asset": "assets/source-evidence/phase21/grammar-page-080.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-080-A123313F",
+      "evidenceRef": "SRC-P21-G-080",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

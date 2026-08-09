@@ -1,0 +1,4453 @@
+[
+  {
+    "id": "Q-G54-001",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "Under no circumstances (we sell / do we sell) personal data.",
+    "choices": [
+      "we sell",
+      "do we sell"
+    ],
+    "answer": "do we sell",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 부정 의미 표현이 있는가?",
+        "answer": "Under no circumstances",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "현재 일반동사의 조동사는?",
+        "answer": "do",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "조동사+주어+동사원형",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "we sell": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "Under no circumstances.",
+        "do.",
+        "따라서 do we sell를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-001",
+    "sourceQuestionId": "Q-G54-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-002",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "Not until yesterday (he realized / did he realize) the truth.",
+    "choices": [
+      "he realized",
+      "did he realize"
+    ],
+    "answer": "did he realize",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 부정·제한 표현이 있는가?",
+        "answer": "Not until",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "과거 일반동사의 조동사는?",
+        "answer": "did",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "did+주어+동사원형",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "he realized": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "Not until.",
+        "did.",
+        "따라서 did he realize를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-002",
+    "sourceQuestionId": "Q-G54-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-003",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "Never (I have seen / have I seen) such a view.",
+    "choices": [
+      "I have seen",
+      "have I seen"
+    ],
+    "answer": "have I seen",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 부정어가 있는가?",
+        "answer": "Never",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "문장에 있는 조동사는?",
+        "answer": "have",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "have+주어+p.p.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "I have seen": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "Never.",
+        "have.",
+        "따라서 have I seen를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-003",
+    "sourceQuestionId": "Q-G54-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-004",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "Only then (she understood / did she understand) the problem.",
+    "choices": [
+      "she understood",
+      "did she understand"
+    ],
+    "answer": "did she understand",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 only+부사어가 있는가?",
+        "answer": "Only then",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "과거 일반동사의 조동사는?",
+        "answer": "did",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "did+주어+동사원형",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "she understood": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "Only then.",
+        "did.",
+        "따라서 did she understand를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-004",
+    "sourceQuestionId": "Q-G54-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-005",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "(Had it not been / If had it not been) for the key, we could not have entered.",
+    "choices": [
+      "Had it not been",
+      "If had it not been"
+    ],
+    "answer": "Had it not been",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "if가 생략된 가정법 도치인가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "front",
+        "prompt": "문두에 올 말은?",
+        "answer": "Had",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 구조는?",
+        "answer": "Had+주어+p.p.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "If had it not been": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "Had.",
+        "따라서 Had it not been를 선택한다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-005",
+    "sourceQuestionId": "Q-G54-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-006",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "(Were she alive / She were alive) today, she would be proud.",
+    "choices": [
+      "Were she alive",
+      "She were alive"
+    ],
+    "answer": "Were she alive",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "if가 생략된 가정법인가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "front",
+        "prompt": "문두에 올 말은?",
+        "answer": "Were",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 구조는?",
+        "answer": "Were+주어+보어",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "She were alive": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "Were.",
+        "따라서 Were she alive를 선택한다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-006",
+    "sourceQuestionId": "Q-G54-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-007",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "No sooner (he had arrived / had he arrived) than the meeting began.",
+    "choices": [
+      "he had arrived",
+      "had he arrived"
+    ],
+    "answer": "had he arrived",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 No sooner가 있는가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "필요한 조동사는?",
+        "answer": "had",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "had+주어+p.p.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "he had arrived": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "had.",
+        "따라서 had he arrived를 선택한다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-007",
+    "sourceQuestionId": "Q-G54-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-008",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "I do not understand the rule, and neither (my friend does / does my friend).",
+    "choices": [
+      "my friend does",
+      "does my friend"
+    ],
+    "answer": "does my friend",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "neither가 앞 내용을 받아 문두에 있는가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "현재 일반동사의 조동사는?",
+        "answer": "does",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "does+주어",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "my friend does": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "does.",
+        "따라서 does my friend를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-008",
+    "sourceQuestionId": "Q-G54-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-001-PF",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "Under no circumstances (we sell / do we sell) personal data.",
+    "choices": [
+      "we sell",
+      "do we sell"
+    ],
+    "answer": "do we sell",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 부정 의미 표현이 있는가?",
+        "answer": "Under no circumstances",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "현재 일반동사의 조동사는?",
+        "answer": "do",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "조동사+주어+동사원형",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "we sell": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "Under no circumstances.",
+        "do.",
+        "따라서 do we sell를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-001",
+    "sourceQuestionId": "Q-G54-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-002-PF",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "Not until yesterday (he realized / did he realize) the truth.",
+    "choices": [
+      "he realized",
+      "did he realize"
+    ],
+    "answer": "did he realize",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 부정·제한 표현이 있는가?",
+        "answer": "Not until",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "과거 일반동사의 조동사는?",
+        "answer": "did",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "did+주어+동사원형",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "he realized": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "Not until.",
+        "did.",
+        "따라서 did he realize를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-002",
+    "sourceQuestionId": "Q-G54-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-003-PF",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "Never (I have seen / have I seen) such a view.",
+    "choices": [
+      "I have seen",
+      "have I seen"
+    ],
+    "answer": "have I seen",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 부정어가 있는가?",
+        "answer": "Never",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "문장에 있는 조동사는?",
+        "answer": "have",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "have+주어+p.p.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "I have seen": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "Never.",
+        "have.",
+        "따라서 have I seen를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-003",
+    "sourceQuestionId": "Q-G54-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-004-PF",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "Only then (she understood / did she understand) the problem.",
+    "choices": [
+      "she understood",
+      "did she understand"
+    ],
+    "answer": "did she understand",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 only+부사어가 있는가?",
+        "answer": "Only then",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "과거 일반동사의 조동사는?",
+        "answer": "did",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "did+주어+동사원형",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "she understood": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "Only then.",
+        "did.",
+        "따라서 did she understand를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-004",
+    "sourceQuestionId": "Q-G54-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-005-PF",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "(Had it not been / If had it not been) for the key, we could not have entered.",
+    "choices": [
+      "Had it not been",
+      "If had it not been"
+    ],
+    "answer": "Had it not been",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "if가 생략된 가정법 도치인가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "front",
+        "prompt": "문두에 올 말은?",
+        "answer": "Had",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 구조는?",
+        "answer": "Had+주어+p.p.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "If had it not been": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "Had.",
+        "따라서 Had it not been를 선택한다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-005",
+    "sourceQuestionId": "Q-G54-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-006-PF",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "(Were she alive / She were alive) today, she would be proud.",
+    "choices": [
+      "Were she alive",
+      "She were alive"
+    ],
+    "answer": "Were she alive",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "if가 생략된 가정법인가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "front",
+        "prompt": "문두에 올 말은?",
+        "answer": "Were",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 구조는?",
+        "answer": "Were+주어+보어",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "She were alive": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "Were.",
+        "따라서 Were she alive를 선택한다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-006",
+    "sourceQuestionId": "Q-G54-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-007-PF",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "No sooner (he had arrived / had he arrived) than the meeting began.",
+    "choices": [
+      "he had arrived",
+      "had he arrived"
+    ],
+    "answer": "had he arrived",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 No sooner가 있는가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "필요한 조동사는?",
+        "answer": "had",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "had+주어+p.p.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "he had arrived": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "had.",
+        "따라서 had he arrived를 선택한다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-007",
+    "sourceQuestionId": "Q-G54-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-008-PF",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "I do not understand the rule, and neither (my friend does / does my friend).",
+    "choices": [
+      "my friend does",
+      "does my friend"
+    ],
+    "answer": "does my friend",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "neither가 앞 내용을 받아 문두에 있는가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "현재 일반동사의 조동사는?",
+        "answer": "does",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "does+주어",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "my friend does": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "does.",
+        "따라서 does my friend를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-008",
+    "sourceQuestionId": "Q-G54-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-001-DR",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "Under no circumstances (we sell / do we sell) personal data.",
+    "choices": [
+      "we sell",
+      "do we sell"
+    ],
+    "answer": "do we sell",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 부정 의미 표현이 있는가?",
+        "answer": "Under no circumstances",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "현재 일반동사의 조동사는?",
+        "answer": "do",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "조동사+주어+동사원형",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "we sell": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "Under no circumstances.",
+        "do.",
+        "따라서 do we sell를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-001",
+    "sourceQuestionId": "Q-G54-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-002-DR",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "Not until yesterday (he realized / did he realize) the truth.",
+    "choices": [
+      "he realized",
+      "did he realize"
+    ],
+    "answer": "did he realize",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 부정·제한 표현이 있는가?",
+        "answer": "Not until",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "과거 일반동사의 조동사는?",
+        "answer": "did",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "did+주어+동사원형",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "he realized": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "Not until.",
+        "did.",
+        "따라서 did he realize를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-002",
+    "sourceQuestionId": "Q-G54-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-003-DR",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "Never (I have seen / have I seen) such a view.",
+    "choices": [
+      "I have seen",
+      "have I seen"
+    ],
+    "answer": "have I seen",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 부정어가 있는가?",
+        "answer": "Never",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "문장에 있는 조동사는?",
+        "answer": "have",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "have+주어+p.p.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "I have seen": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "Never.",
+        "have.",
+        "따라서 have I seen를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-003",
+    "sourceQuestionId": "Q-G54-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-004-DR",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "Only then (she understood / did she understand) the problem.",
+    "choices": [
+      "she understood",
+      "did she understand"
+    ],
+    "answer": "did she understand",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 only+부사어가 있는가?",
+        "answer": "Only then",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "과거 일반동사의 조동사는?",
+        "answer": "did",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "did+주어+동사원형",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "she understood": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "Only then.",
+        "did.",
+        "따라서 did she understand를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-004",
+    "sourceQuestionId": "Q-G54-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-005-DR",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "(Had it not been / If had it not been) for the key, we could not have entered.",
+    "choices": [
+      "Had it not been",
+      "If had it not been"
+    ],
+    "answer": "Had it not been",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "if가 생략된 가정법 도치인가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "front",
+        "prompt": "문두에 올 말은?",
+        "answer": "Had",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 구조는?",
+        "answer": "Had+주어+p.p.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "If had it not been": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "Had.",
+        "따라서 Had it not been를 선택한다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-005",
+    "sourceQuestionId": "Q-G54-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-006-DR",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "(Were she alive / She were alive) today, she would be proud.",
+    "choices": [
+      "Were she alive",
+      "She were alive"
+    ],
+    "answer": "Were she alive",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "if가 생략된 가정법인가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "front",
+        "prompt": "문두에 올 말은?",
+        "answer": "Were",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 구조는?",
+        "answer": "Were+주어+보어",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "She were alive": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "Were.",
+        "따라서 Were she alive를 선택한다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-006",
+    "sourceQuestionId": "Q-G54-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-007-DR",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "No sooner (he had arrived / had he arrived) than the meeting began.",
+    "choices": [
+      "he had arrived",
+      "had he arrived"
+    ],
+    "answer": "had he arrived",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 No sooner가 있는가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "필요한 조동사는?",
+        "answer": "had",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "had+주어+p.p.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "he had arrived": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "had.",
+        "따라서 had he arrived를 선택한다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-007",
+    "sourceQuestionId": "Q-G54-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-008-DR",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "I do not understand the rule, and neither (my friend does / does my friend).",
+    "choices": [
+      "my friend does",
+      "does my friend"
+    ],
+    "answer": "does my friend",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "neither가 앞 내용을 받아 문두에 있는가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "현재 일반동사의 조동사는?",
+        "answer": "does",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "does+주어",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "my friend does": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 도치하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "does.",
+        "따라서 does my friend를 선택한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-008",
+    "sourceQuestionId": "Q-G54-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-001-CT",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nUnder no circumstances (we sell / do we sell) personal data.",
+    "choices": [
+      "do we sell",
+      "we sell"
+    ],
+    "answer": "we sell",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 부정 의미 표현이 있는가?",
+        "answer": "Under no circumstances",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "현재 일반동사의 조동사는?",
+        "answer": "do",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "조동사+주어+동사원형",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "do we sell": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'we sell'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'do we sell'이다.",
+      "summary": [
+        "Under no circumstances.",
+        "do.",
+        "따라서 do we sell를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'we sell'이다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-001",
+    "sourceQuestionId": "Q-G54-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-002-CT",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNot until yesterday (he realized / did he realize) the truth.",
+    "choices": [
+      "he realized",
+      "did he realize"
+    ],
+    "answer": "he realized",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 부정·제한 표현이 있는가?",
+        "answer": "Not until",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "과거 일반동사의 조동사는?",
+        "answer": "did",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "did+주어+동사원형",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did he realize": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'he realized'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'did he realize'이다.",
+      "summary": [
+        "Not until.",
+        "did.",
+        "따라서 did he realize를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'he realized'이다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-002",
+    "sourceQuestionId": "Q-G54-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-003-CT",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNever (I have seen / have I seen) such a view.",
+    "choices": [
+      "have I seen",
+      "I have seen"
+    ],
+    "answer": "I have seen",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 부정어가 있는가?",
+        "answer": "Never",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "문장에 있는 조동사는?",
+        "answer": "have",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "have+주어+p.p.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have I seen": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'I have seen'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'have I seen'이다.",
+      "summary": [
+        "Never.",
+        "have.",
+        "따라서 have I seen를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'I have seen'이다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-003",
+    "sourceQuestionId": "Q-G54-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-004-CT",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nOnly then (she understood / did she understand) the problem.",
+    "choices": [
+      "did she understand",
+      "she understood"
+    ],
+    "answer": "she understood",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 only+부사어가 있는가?",
+        "answer": "Only then",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "과거 일반동사의 조동사는?",
+        "answer": "did",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "did+주어+동사원형",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did she understand": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'she understood'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'did she understand'이다.",
+      "summary": [
+        "Only then.",
+        "did.",
+        "따라서 did she understand를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'she understood'이다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-004",
+    "sourceQuestionId": "Q-G54-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-005-CT",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(Had it not been / If had it not been) for the key, we could not have entered.",
+    "choices": [
+      "If had it not been",
+      "Had it not been"
+    ],
+    "answer": "If had it not been",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "if가 생략된 가정법 도치인가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "front",
+        "prompt": "문두에 올 말은?",
+        "answer": "Had",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 구조는?",
+        "answer": "Had+주어+p.p.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Had it not been": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'If had it not been'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'Had it not been'이다.",
+      "summary": [
+        "그렇다.",
+        "Had.",
+        "따라서 Had it not been를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'If had it not been'이다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-005",
+    "sourceQuestionId": "Q-G54-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-006-CT",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(Were she alive / She were alive) today, she would be proud.",
+    "choices": [
+      "She were alive",
+      "Were she alive"
+    ],
+    "answer": "She were alive",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "if가 생략된 가정법인가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "front",
+        "prompt": "문두에 올 말은?",
+        "answer": "Were",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 구조는?",
+        "answer": "Were+주어+보어",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Were she alive": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'She were alive'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'Were she alive'이다.",
+      "summary": [
+        "그렇다.",
+        "Were.",
+        "따라서 Were she alive를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'She were alive'이다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-006",
+    "sourceQuestionId": "Q-G54-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-007-CT",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNo sooner (he had arrived / had he arrived) than the meeting began.",
+    "choices": [
+      "he had arrived",
+      "had he arrived"
+    ],
+    "answer": "he had arrived",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "문두에 No sooner가 있는가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "필요한 조동사는?",
+        "answer": "had",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "had+주어+p.p.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had he arrived": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'he had arrived'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'had he arrived'이다.",
+      "summary": [
+        "그렇다.",
+        "had.",
+        "따라서 had he arrived를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'he had arrived'이다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-007",
+    "sourceQuestionId": "Q-G54-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G54-008-CT",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI do not understand the rule, and neither (my friend does / does my friend).",
+    "choices": [
+      "does my friend",
+      "my friend does"
+    ],
+    "answer": "my friend does",
+    "decisionSteps": [
+      {
+        "id": "trigger",
+        "prompt": "neither가 앞 내용을 받아 문두에 있는가?",
+        "answer": "그렇다",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "aux",
+        "prompt": "현재 일반동사의 조동사는?",
+        "answer": "does",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "order",
+        "prompt": "필요한 어순은?",
+        "answer": "does+주어",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "does my friend": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'my friend does'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'does my friend'이다.",
+      "summary": [
+        "그렇다.",
+        "does.",
+        "따라서 does my friend를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'my friend does'이다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G54-008",
+    "sourceQuestionId": "Q-G54-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-6222CC1C6B",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 1,
+    "stem": "빠른 확인: 부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+    "choices": [
+      "조동사+주어+동사원형",
+      "주어+동사"
+    ],
+    "answer": "조동사+주어+동사원형",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "강조할 주어·목적어·부사어를 It is/was와 that 사이에 넣고, 나머지 문장은 that 뒤에 둔다. 동사 자체는 이 자리에 넣지 않는다."
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "주어+동사": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "Under no circumstances.",
+        "do.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G54A",
+      "checkQuestion": {
+        "prompt": "부정어가 문두에 오면 일반동사 문장의 기본 도치 어순은?",
+        "choices": [
+          "조동사+주어+동사원형",
+          "주어+동사"
+        ],
+        "answer": "조동사+주어+동사원형"
+      },
+      "transferQuestionId": "Q-G54-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-6222CC1C6B",
+    "sourceQuestionId": "Q-G54-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-086-0ED875CC",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 2,
+    "stem": "No longer [I would be able / would I be able] to watch the wind send shudders of silver across the grass, nor thrill to the sight of the blue loon sweeping low across the pond.",
+    "choices": [
+      "I would be able",
+      "would I be able"
+    ],
+    "answer": "would I be able",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "도치구문",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "도치구문",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "I would be able": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 조동사와 주어를 도치하지 않았다.",
+      "summary": [
+        "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "문두의 부정어·제한어·가정법 표지를 찾는다",
+        "조동사와 주어의 위치를 바꾼다"
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다."
+      },
+      "transferQuestionId": "Q-P21-G-086-1EF599B0",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-086-0ED875CC",
+    "sourceQuestionId": "Q-P21-G-086-0ED875CC",
+    "sourceCandidateId": "CAND-G-086-0ED875CC",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 86,
+      "asset": "assets/source-evidence/phase21/grammar-page-086.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-086-0ED875CC",
+      "evidenceRef": "SRC-P21-G-086",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 45,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 85,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 35,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-086-0ED875CC-PF",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 2,
+    "stem": "No longer [I would be able / would I be able] to watch the wind send shudders of silver across the grass, nor thrill to the sight of the blue loon sweeping low across the pond.",
+    "choices": [
+      "I would be able",
+      "would I be able"
+    ],
+    "answer": "would I be able",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "도치구문",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "도치구문",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "I would be able": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 조동사와 주어를 도치하지 않았다.",
+      "summary": [
+        "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "문두의 부정어·제한어·가정법 표지를 찾는다",
+        "조동사와 주어의 위치를 바꾼다"
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다."
+      },
+      "transferQuestionId": "Q-P21-G-086-1EF599B0",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-086-0ED875CC",
+    "sourceQuestionId": "Q-P21-G-086-0ED875CC",
+    "sourceCandidateId": "CAND-G-086-0ED875CC",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 86,
+      "asset": "assets/source-evidence/phase21/grammar-page-086.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-086-0ED875CC",
+      "evidenceRef": "SRC-P21-G-086",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 45,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 95,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 35,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-086-0ED875CC-DR",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 2,
+    "stem": "No longer [I would be able / would I be able] to watch the wind send shudders of silver across the grass, nor thrill to the sight of the blue loon sweeping low across the pond.",
+    "choices": [
+      "I would be able",
+      "would I be able"
+    ],
+    "answer": "would I be able",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "도치구문",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "도치구문",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "I would be able": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 조동사와 주어를 도치하지 않았다.",
+      "summary": [
+        "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "문두의 부정어·제한어·가정법 표지를 찾는다",
+        "조동사와 주어의 위치를 바꾼다"
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다."
+      },
+      "transferQuestionId": "Q-P21-G-086-1EF599B0",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-086-0ED875CC",
+    "sourceQuestionId": "Q-P21-G-086-0ED875CC",
+    "sourceCandidateId": "CAND-G-086-0ED875CC",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 86,
+      "asset": "assets/source-evidence/phase21/grammar-page-086.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-086-0ED875CC",
+      "evidenceRef": "SRC-P21-G-086",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 45,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 78,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 35,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-086-0ED875CC-CT",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNo longer [I would be able / would I be able] to watch the wind send shudders of silver across the grass, nor thrill to the sight of the blue loon sweeping low across the pond.",
+    "choices": [
+      "I would be able",
+      "would I be able"
+    ],
+    "answer": "I would be able",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "도치구문",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "도치구문",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would I be able": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'I would be able'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would I be able'이다.",
+      "summary": [
+        "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "문두의 부정어·제한어·가정법 표지를 찾는다",
+        "조동사와 주어의 위치를 바꾼다",
+        "대조 문항에서는 사용할 수 없는 형태 'I would be able'를 고른다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다."
+      },
+      "transferQuestionId": "Q-P21-G-086-0ED875CC",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-086-0ED875CC",
+    "sourceQuestionId": "Q-P21-G-086-0ED875CC",
+    "sourceCandidateId": "CAND-G-086-0ED875CC",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 86,
+      "asset": "assets/source-evidence/phase21/grammar-page-086.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-086-0ED875CC",
+      "evidenceRef": "SRC-P21-G-086",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 45,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 76,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 35,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-086-1EF599B0",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 2,
+    "stem": "Not only [is / does] the act of writing a note of appreciation focus your attention on what's right in your life, but the person receiving it will be touched and grate­ ful.",
+    "choices": [
+      "is",
+      "does"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "도치구문",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "도치구문",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "does": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 조동사와 주어를 도치하지 않았다.",
+      "summary": [
+        "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "문두의 부정어·제한어·가정법 표지를 찾는다",
+        "조동사와 주어의 위치를 바꾼다"
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다."
+      },
+      "transferQuestionId": "Q-P21-G-086-27C5B575",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-086-1EF599B0",
+    "sourceQuestionId": "Q-P21-G-086-1EF599B0",
+    "sourceCandidateId": "CAND-G-086-1EF599B0",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 86,
+      "asset": "assets/source-evidence/phase21/grammar-page-086.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-086-1EF599B0",
+      "evidenceRef": "SRC-P21-G-086",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 82,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 32,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-086-1EF599B0-PF",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 2,
+    "stem": "Not only [is / does] the act of writing a note of appreciation focus your attention on what's right in your life, but the person receiving it will be touched and grate­ ful.",
+    "choices": [
+      "is",
+      "does"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "도치구문",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "도치구문",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "does": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 조동사와 주어를 도치하지 않았다.",
+      "summary": [
+        "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "문두의 부정어·제한어·가정법 표지를 찾는다",
+        "조동사와 주어의 위치를 바꾼다"
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다."
+      },
+      "transferQuestionId": "Q-P21-G-086-27C5B575",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-086-1EF599B0",
+    "sourceQuestionId": "Q-P21-G-086-1EF599B0",
+    "sourceCandidateId": "CAND-G-086-1EF599B0",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 86,
+      "asset": "assets/source-evidence/phase21/grammar-page-086.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-086-1EF599B0",
+      "evidenceRef": "SRC-P21-G-086",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 92,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 32,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-086-1EF599B0-DR",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 2,
+    "stem": "Not only [is / does] the act of writing a note of appreciation focus your attention on what's right in your life, but the person receiving it will be touched and grate­ ful.",
+    "choices": [
+      "is",
+      "does"
+    ],
+    "answer": "is",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "도치구문",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "도치구문",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "does": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 조동사와 주어를 도치하지 않았다.",
+      "summary": [
+        "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "문두의 부정어·제한어·가정법 표지를 찾는다",
+        "조동사와 주어의 위치를 바꾼다"
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다."
+      },
+      "transferQuestionId": "Q-P21-G-086-27C5B575",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-086-1EF599B0",
+    "sourceQuestionId": "Q-P21-G-086-1EF599B0",
+    "sourceCandidateId": "CAND-G-086-1EF599B0",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 86,
+      "asset": "assets/source-evidence/phase21/grammar-page-086.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-086-1EF599B0",
+      "evidenceRef": "SRC-P21-G-086",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 75,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 32,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-086-1EF599B0-CT",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNot only [is / does] the act of writing a note of appreciation focus your attention on what's right in your life, but the person receiving it will be touched and grate­ ful.",
+    "choices": [
+      "is",
+      "does"
+    ],
+    "answer": "does",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "도치구문",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "도치구문",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'does'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is'이다.",
+      "summary": [
+        "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "문두의 부정어·제한어·가정법 표지를 찾는다",
+        "조동사와 주어의 위치를 바꾼다",
+        "대조 문항에서는 사용할 수 없는 형태 'does'를 고른다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다."
+      },
+      "transferQuestionId": "Q-P21-G-086-1EF599B0",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-086-1EF599B0",
+    "sourceQuestionId": "Q-P21-G-086-1EF599B0",
+    "sourceCandidateId": "CAND-G-086-1EF599B0",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 86,
+      "asset": "assets/source-evidence/phase21/grammar-page-086.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-086-1EF599B0",
+      "evidenceRef": "SRC-P21-G-086",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 74,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 32,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-086-27C5B575",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 2,
+    "stem": "Well, for one thing, he was raised by mean, nasty relatives who didn't want him, but not once [does he / he does] blame his miserable aunt and uncle for his troubles.",
+    "choices": [
+      "does he",
+      "he does"
+    ],
+    "answer": "does he",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "도치구문",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "도치구문",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "he does": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 조동사와 주어를 도치하지 않았다.",
+      "summary": [
+        "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "문두의 부정어·제한어·가정법 표지를 찾는다",
+        "조동사와 주어의 위치를 바꾼다"
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다."
+      },
+      "transferQuestionId": "Q-P21-G-086-0ED875CC",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-086-27C5B575",
+    "sourceQuestionId": "Q-P21-G-086-27C5B575",
+    "sourceCandidateId": "CAND-G-086-27C5B575",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 86,
+      "asset": "assets/source-evidence/phase21/grammar-page-086.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-086-27C5B575",
+      "evidenceRef": "SRC-P21-G-086",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 81,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 31,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-086-27C5B575-PF",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 2,
+    "stem": "Well, for one thing, he was raised by mean, nasty relatives who didn't want him, but not once [does he / he does] blame his miserable aunt and uncle for his troubles.",
+    "choices": [
+      "does he",
+      "he does"
+    ],
+    "answer": "does he",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "도치구문",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "도치구문",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "he does": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 조동사와 주어를 도치하지 않았다.",
+      "summary": [
+        "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "문두의 부정어·제한어·가정법 표지를 찾는다",
+        "조동사와 주어의 위치를 바꾼다"
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다."
+      },
+      "transferQuestionId": "Q-P21-G-086-0ED875CC",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-086-27C5B575",
+    "sourceQuestionId": "Q-P21-G-086-27C5B575",
+    "sourceCandidateId": "CAND-G-086-27C5B575",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 86,
+      "asset": "assets/source-evidence/phase21/grammar-page-086.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-086-27C5B575",
+      "evidenceRef": "SRC-P21-G-086",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 91,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 31,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-086-27C5B575-DR",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 2,
+    "stem": "Well, for one thing, he was raised by mean, nasty relatives who didn't want him, but not once [does he / he does] blame his miserable aunt and uncle for his troubles.",
+    "choices": [
+      "does he",
+      "he does"
+    ],
+    "answer": "does he",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "도치구문",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "도치구문",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "he does": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "문두 부정어·제한어 또는 가정법 표지를 보고도 조동사와 주어를 도치하지 않았다.",
+      "summary": [
+        "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "문두의 부정어·제한어·가정법 표지를 찾는다",
+        "조동사와 주어의 위치를 바꾼다"
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다."
+      },
+      "transferQuestionId": "Q-P21-G-086-0ED875CC",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-086-27C5B575",
+    "sourceQuestionId": "Q-P21-G-086-27C5B575",
+    "sourceCandidateId": "CAND-G-086-27C5B575",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 86,
+      "asset": "assets/source-evidence/phase21/grammar-page-086.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-086-27C5B575",
+      "evidenceRef": "SRC-P21-G-086",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 75,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 31,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-086-27C5B575-CT",
+    "conceptId": "G54_INVERSION",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWell, for one thing, he was raised by mean, nasty relatives who didn't want him, but not once [does he / he does] blame his miserable aunt and uncle for his troubles.",
+    "choices": [
+      "does he",
+      "he does"
+    ],
+    "answer": "he does",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "도치구문",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "도치구문",
+        "errorCode": "E58_INVERSION"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "errorCode": "E58_INVERSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "does he": "E58_INVERSION"
+    },
+    "remediation": {
+      "diagnosis": "'he does'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'does he'이다.",
+      "summary": [
+        "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+        "문두의 부정어·제한어·가정법 표지를 찾는다",
+        "조동사와 주어의 위치를 바꾼다",
+        "대조 문항에서는 사용할 수 없는 형태 'he does'를 고른다."
+      ],
+      "sourceRef": "SRC-G54B",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "부정어·제한어가 문두에 오면 조동사+주어+동사원형으로 도치하고, 가정법에서는 if를 생략하며 Had·Were·Should를 문두에 둔다."
+      },
+      "transferQuestionId": "Q-P21-G-086-27C5B575",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART5",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-086-27C5B575",
+    "sourceQuestionId": "Q-P21-G-086-27C5B575",
+    "sourceCandidateId": "CAND-G-086-27C5B575",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 86,
+      "asset": "assets/source-evidence/phase21/grammar-page-086.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-086-27C5B575",
+      "evidenceRef": "SRC-P21-G-086",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 73,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 31,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

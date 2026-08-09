@@ -1,0 +1,4054 @@
+[
+  {
+    "id": "Q-R13-108-01",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "10. 은·는·이·가",
+    "stem": "Organisms only learn when events violate their expectations.",
+    "choices": [
+      "유기체는 / 사건들이",
+      "유기체가 / 사건들은"
+    ],
+    "answer": "유기체는 / 사건들이",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "Organisms는 / only learn / when events가 / violate their expectations.",
+    "sourcePreviewRef": "SRC-R13-LINK1",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "유기체가 / 사건들은": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 유기체는 / 사건들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「유기체는 / 사건들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-108-01",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "Organisms"
+        },
+        {
+          "index": 1,
+          "text": "only"
+        },
+        {
+          "index": 2,
+          "text": "learn"
+        },
+        {
+          "index": 3,
+          "text": "when"
+        },
+        {
+          "index": 4,
+          "text": "events"
+        },
+        {
+          "index": 5,
+          "text": "violate"
+        },
+        {
+          "index": 6,
+          "text": "their"
+        },
+        {
+          "index": 7,
+          "text": "expectations"
+        },
+        {
+          "index": 8,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        1,
+        3,
+        5
+      ],
+      "focusTargets": [
+        4
+      ],
+      "underlineRanges": [
+        [
+          0
+        ]
+      ],
+      "focusLabel": "주절·종속절 주어",
+      "instruction": "주절 주어는 밑줄, 종속절 주어는 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-108-01",
+    "sourceQuestionId": "Q-R13-108-01",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 118,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 3,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-02",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "10. 은·는·이·가",
+    "stem": "If the company gets approval, test runs could begin.",
+    "choices": [
+      "회사가 / 시험 운행은",
+      "회사는 / 시험 운행이"
+    ],
+    "answer": "회사가 / 시험 운행은",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "If the company가 gets approval, / test runs은 could begin.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "회사는 / 시험 운행이": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 회사가 / 시험 운행은이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「회사가 / 시험 운행은」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-108-02",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "If"
+        },
+        {
+          "index": 1,
+          "text": "the"
+        },
+        {
+          "index": 2,
+          "text": "company"
+        },
+        {
+          "index": 3,
+          "text": "gets"
+        },
+        {
+          "index": 4,
+          "text": "approval"
+        },
+        {
+          "index": 5,
+          "text": ","
+        },
+        {
+          "index": 6,
+          "text": "test"
+        },
+        {
+          "index": 7,
+          "text": "runs"
+        },
+        {
+          "index": 8,
+          "text": "could"
+        },
+        {
+          "index": 9,
+          "text": "begin"
+        },
+        {
+          "index": 10,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        6
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [
+        [
+          7
+        ]
+      ],
+      "focusLabel": "주절·종속절 주어",
+      "instruction": "주절 주어는 밑줄, 종속절 주어는 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-108-02",
+    "sourceQuestionId": "Q-R13-108-02",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 100,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-03",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "10. 은·는·이·가",
+    "stem": "Newborn babies cannot express emotions that others can understand.",
+    "choices": [
+      "아기들은 / 다른 사람들이",
+      "아기들이 / 다른 사람들은"
+    ],
+    "answer": "아기들은 / 다른 사람들이",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "Newborn babies는 cannot express emotions / that others가 can understand.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "아기들이 / 다른 사람들은": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 아기들은 / 다른 사람들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「아기들은 / 다른 사람들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-108-03",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "Newborn"
+        },
+        {
+          "index": 1,
+          "text": "babies"
+        },
+        {
+          "index": 2,
+          "text": "cannot"
+        },
+        {
+          "index": 3,
+          "text": "express"
+        },
+        {
+          "index": 4,
+          "text": "emotions"
+        },
+        {
+          "index": 5,
+          "text": "that"
+        },
+        {
+          "index": 6,
+          "text": "others"
+        },
+        {
+          "index": 7,
+          "text": "can"
+        },
+        {
+          "index": 8,
+          "text": "understand"
+        },
+        {
+          "index": 9,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        5
+      ],
+      "focusTargets": [
+        6
+      ],
+      "underlineRanges": [
+        [
+          1
+        ]
+      ],
+      "focusLabel": "주절·종속절 주어",
+      "instruction": "주절 주어는 밑줄, 종속절 주어는 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-108-03",
+    "sourceQuestionId": "Q-R13-108-03",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 100,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-04",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "10. 은·는·이·가",
+    "stem": "People adopt the attitudes of those they spend time with.",
+    "choices": [
+      "사람들은 / 그들이",
+      "사람들이 / 그들은"
+    ],
+    "answer": "사람들은 / 그들이",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "People은 adopt the attitudes / of those / they가 spend time with.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "사람들이 / 그들은": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 사람들은 / 그들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「사람들은 / 그들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-108-04",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "People"
+        },
+        {
+          "index": 1,
+          "text": "adopt"
+        },
+        {
+          "index": 2,
+          "text": "the"
+        },
+        {
+          "index": 3,
+          "text": "attitudes"
+        },
+        {
+          "index": 4,
+          "text": "of"
+        },
+        {
+          "index": 5,
+          "text": "those"
+        },
+        {
+          "index": 6,
+          "text": "they"
+        },
+        {
+          "index": 7,
+          "text": "spend"
+        },
+        {
+          "index": 8,
+          "text": "time"
+        },
+        {
+          "index": 9,
+          "text": "with"
+        },
+        {
+          "index": 10,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        4,
+        6
+      ],
+      "focusTargets": [
+        6
+      ],
+      "underlineRanges": [
+        [
+          0
+        ]
+      ],
+      "focusLabel": "주절·종속절 주어",
+      "instruction": "주절 주어는 밑줄, 종속절 주어는 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-108-04",
+    "sourceQuestionId": "Q-R13-108-04",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 122,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-05",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "10. 은·는·이·가",
+    "stem": "They wrote guidelines suggesting that patients take medicine.",
+    "choices": [
+      "그들은 / 환자들이",
+      "그들이 / 환자들은"
+    ],
+    "answer": "그들은 / 환자들이",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "They는 wrote guidelines, / suggesting / that patients가 take medicine.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "그들이 / 환자들은": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 그들은 / 환자들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「그들은 / 환자들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-108-05",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "They"
+        },
+        {
+          "index": 1,
+          "text": "wrote"
+        },
+        {
+          "index": 2,
+          "text": "guidelines"
+        },
+        {
+          "index": 3,
+          "text": "suggesting"
+        },
+        {
+          "index": 4,
+          "text": "that"
+        },
+        {
+          "index": 5,
+          "text": "patients"
+        },
+        {
+          "index": 6,
+          "text": "take"
+        },
+        {
+          "index": 7,
+          "text": "medicine"
+        },
+        {
+          "index": 8,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        3,
+        4
+      ],
+      "focusTargets": [
+        5
+      ],
+      "underlineRanges": [
+        [
+          0
+        ]
+      ],
+      "focusLabel": "주절·종속절 주어",
+      "instruction": "주절 주어는 밑줄, 종속절 주어는 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-108-05",
+    "sourceQuestionId": "Q-R13-108-05",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 50,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 118,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-06",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "10. 은·는·이·가",
+    "stem": "When face-to-face time is impossible, social sites can help.",
+    "choices": [
+      "대면 시간이 / 소셜 사이트는",
+      "대면 시간은 / 소셜 사이트가"
+    ],
+    "answer": "대면 시간이 / 소셜 사이트는",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "When face-to-face time이 is impossible, / social sites는 can help.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "대면 시간은 / 소셜 사이트가": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 대면 시간이 / 소셜 사이트는이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「대면 시간이 / 소셜 사이트는」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-108-06",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "When"
+        },
+        {
+          "index": 1,
+          "text": "face-to-face"
+        },
+        {
+          "index": 2,
+          "text": "time"
+        },
+        {
+          "index": 3,
+          "text": "is"
+        },
+        {
+          "index": 4,
+          "text": "impossible"
+        },
+        {
+          "index": 5,
+          "text": ","
+        },
+        {
+          "index": 6,
+          "text": "social"
+        },
+        {
+          "index": 7,
+          "text": "sites"
+        },
+        {
+          "index": 8,
+          "text": "can"
+        },
+        {
+          "index": 9,
+          "text": "help"
+        },
+        {
+          "index": 10,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        6
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [
+        [
+          7
+        ]
+      ],
+      "focusLabel": "주절·종속절 주어",
+      "instruction": "주절 주어는 밑줄, 종속절 주어는 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-108-06",
+    "sourceQuestionId": "Q-R13-108-06",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 48,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 114,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-01-PF",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "Organisms only learn when events violate their expectations.",
+    "choices": [
+      "유기체는 / 사건들이",
+      "유기체가 / 사건들은"
+    ],
+    "answer": "유기체는 / 사건들이",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "Organisms는 / only learn / when events가 / violate their expectations.",
+    "sourcePreviewRef": "SRC-R13-LINK1",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "유기체가 / 사건들은": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 유기체는 / 사건들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「유기체는 / 사건들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-108-01-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "Organisms"
+        },
+        {
+          "index": 1,
+          "text": "only"
+        },
+        {
+          "index": 2,
+          "text": "learn"
+        },
+        {
+          "index": 3,
+          "text": "when"
+        },
+        {
+          "index": 4,
+          "text": "events"
+        },
+        {
+          "index": 5,
+          "text": "violate"
+        },
+        {
+          "index": 6,
+          "text": "their"
+        },
+        {
+          "index": 7,
+          "text": "expectations"
+        },
+        {
+          "index": 8,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        1,
+        3,
+        5
+      ],
+      "focusTargets": [
+        4
+      ],
+      "underlineRanges": [
+        [
+          0
+        ]
+      ],
+      "focusLabel": "주절·종속절 주어",
+      "instruction": "주절 주어는 밑줄, 종속절 주어는 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-108-01",
+    "sourceQuestionId": "Q-R13-108-01",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 132,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 3,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-02-PF",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "If the company gets approval, test runs could begin.",
+    "choices": [
+      "회사가 / 시험 운행은",
+      "회사는 / 시험 운행이"
+    ],
+    "answer": "회사가 / 시험 운행은",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "If the company가 gets approval, / test runs은 could begin.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "회사는 / 시험 운행이": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 회사가 / 시험 운행은이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「회사가 / 시험 운행은」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-108-02-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "If"
+        },
+        {
+          "index": 1,
+          "text": "the"
+        },
+        {
+          "index": 2,
+          "text": "company"
+        },
+        {
+          "index": 3,
+          "text": "gets"
+        },
+        {
+          "index": 4,
+          "text": "approval"
+        },
+        {
+          "index": 5,
+          "text": ","
+        },
+        {
+          "index": 6,
+          "text": "test"
+        },
+        {
+          "index": 7,
+          "text": "runs"
+        },
+        {
+          "index": 8,
+          "text": "could"
+        },
+        {
+          "index": 9,
+          "text": "begin"
+        },
+        {
+          "index": 10,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        6
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [
+        [
+          7
+        ]
+      ],
+      "focusLabel": "주절·종속절 주어",
+      "instruction": "주절 주어는 밑줄, 종속절 주어는 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-108-02",
+    "sourceQuestionId": "Q-R13-108-02",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 112,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-03-PF",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "Newborn babies cannot express emotions that others can understand.",
+    "choices": [
+      "아기들은 / 다른 사람들이",
+      "아기들이 / 다른 사람들은"
+    ],
+    "answer": "아기들은 / 다른 사람들이",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "Newborn babies는 cannot express emotions / that others가 can understand.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "아기들이 / 다른 사람들은": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 아기들은 / 다른 사람들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「아기들은 / 다른 사람들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-108-03-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "Newborn"
+        },
+        {
+          "index": 1,
+          "text": "babies"
+        },
+        {
+          "index": 2,
+          "text": "cannot"
+        },
+        {
+          "index": 3,
+          "text": "express"
+        },
+        {
+          "index": 4,
+          "text": "emotions"
+        },
+        {
+          "index": 5,
+          "text": "that"
+        },
+        {
+          "index": 6,
+          "text": "others"
+        },
+        {
+          "index": 7,
+          "text": "can"
+        },
+        {
+          "index": 8,
+          "text": "understand"
+        },
+        {
+          "index": 9,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        5
+      ],
+      "focusTargets": [
+        6
+      ],
+      "underlineRanges": [
+        [
+          1
+        ]
+      ],
+      "focusLabel": "주절·종속절 주어",
+      "instruction": "주절 주어는 밑줄, 종속절 주어는 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-108-03",
+    "sourceQuestionId": "Q-R13-108-03",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 112,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-04-PF",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "People adopt the attitudes of those they spend time with.",
+    "choices": [
+      "사람들은 / 그들이",
+      "사람들이 / 그들은"
+    ],
+    "answer": "사람들은 / 그들이",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "People은 adopt the attitudes / of those / they가 spend time with.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "사람들이 / 그들은": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 사람들은 / 그들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「사람들은 / 그들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-108-04-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "People"
+        },
+        {
+          "index": 1,
+          "text": "adopt"
+        },
+        {
+          "index": 2,
+          "text": "the"
+        },
+        {
+          "index": 3,
+          "text": "attitudes"
+        },
+        {
+          "index": 4,
+          "text": "of"
+        },
+        {
+          "index": 5,
+          "text": "those"
+        },
+        {
+          "index": 6,
+          "text": "they"
+        },
+        {
+          "index": 7,
+          "text": "spend"
+        },
+        {
+          "index": 8,
+          "text": "time"
+        },
+        {
+          "index": 9,
+          "text": "with"
+        },
+        {
+          "index": 10,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        4,
+        6
+      ],
+      "focusTargets": [
+        6
+      ],
+      "underlineRanges": [
+        [
+          0
+        ]
+      ],
+      "focusLabel": "주절·종속절 주어",
+      "instruction": "주절 주어는 밑줄, 종속절 주어는 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-108-04",
+    "sourceQuestionId": "Q-R13-108-04",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 137,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-05-PF",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "They wrote guidelines suggesting that patients take medicine.",
+    "choices": [
+      "그들은 / 환자들이",
+      "그들이 / 환자들은"
+    ],
+    "answer": "그들은 / 환자들이",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "They는 wrote guidelines, / suggesting / that patients가 take medicine.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "그들이 / 환자들은": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 그들은 / 환자들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「그들은 / 환자들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-108-05-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "They"
+        },
+        {
+          "index": 1,
+          "text": "wrote"
+        },
+        {
+          "index": 2,
+          "text": "guidelines"
+        },
+        {
+          "index": 3,
+          "text": "suggesting"
+        },
+        {
+          "index": 4,
+          "text": "that"
+        },
+        {
+          "index": 5,
+          "text": "patients"
+        },
+        {
+          "index": 6,
+          "text": "take"
+        },
+        {
+          "index": 7,
+          "text": "medicine"
+        },
+        {
+          "index": 8,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        3,
+        4
+      ],
+      "focusTargets": [
+        5
+      ],
+      "underlineRanges": [
+        [
+          0
+        ]
+      ],
+      "focusLabel": "주절·종속절 주어",
+      "instruction": "주절 주어는 밑줄, 종속절 주어는 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-108-05",
+    "sourceQuestionId": "Q-R13-108-05",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 50,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 132,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-06-PF",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "When face-to-face time is impossible, social sites can help.",
+    "choices": [
+      "대면 시간이 / 소셜 사이트는",
+      "대면 시간은 / 소셜 사이트가"
+    ],
+    "answer": "대면 시간이 / 소셜 사이트는",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "When face-to-face time이 is impossible, / social sites는 can help.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "대면 시간은 / 소셜 사이트가": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 대면 시간이 / 소셜 사이트는이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「대면 시간이 / 소셜 사이트는」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-108-06-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "When"
+        },
+        {
+          "index": 1,
+          "text": "face-to-face"
+        },
+        {
+          "index": 2,
+          "text": "time"
+        },
+        {
+          "index": 3,
+          "text": "is"
+        },
+        {
+          "index": 4,
+          "text": "impossible"
+        },
+        {
+          "index": 5,
+          "text": ","
+        },
+        {
+          "index": 6,
+          "text": "social"
+        },
+        {
+          "index": 7,
+          "text": "sites"
+        },
+        {
+          "index": 8,
+          "text": "can"
+        },
+        {
+          "index": 9,
+          "text": "help"
+        },
+        {
+          "index": 10,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        6
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [
+        [
+          7
+        ]
+      ],
+      "focusLabel": "주절·종속절 주어",
+      "instruction": "주절 주어는 밑줄, 종속절 주어는 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-108-06",
+    "sourceQuestionId": "Q-R13-108-06",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 48,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 128,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-01-DR",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "Organisms only learn when events violate their expectations.",
+    "choices": [
+      "유기체는 / 사건들이",
+      "유기체가 / 사건들은"
+    ],
+    "answer": "유기체는 / 사건들이",
+    "requiresInk": false,
+    "modelMarkup": "Organisms는 / only learn / when events가 / violate their expectations.",
+    "sourcePreviewRef": "SRC-R13-LINK1",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "유기체가 / 사건들은": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 유기체는 / 사건들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「유기체는 / 사건들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-108-01",
+    "sourceQuestionId": "Q-R13-108-01",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 109,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 3,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-02-DR",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "If the company gets approval, test runs could begin.",
+    "choices": [
+      "회사가 / 시험 운행은",
+      "회사는 / 시험 운행이"
+    ],
+    "answer": "회사가 / 시험 운행은",
+    "requiresInk": false,
+    "modelMarkup": "If the company가 gets approval, / test runs은 could begin.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "회사는 / 시험 운행이": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 회사가 / 시험 운행은이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「회사가 / 시험 운행은」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-108-02",
+    "sourceQuestionId": "Q-R13-108-02",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 92,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-03-DR",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "Newborn babies cannot express emotions that others can understand.",
+    "choices": [
+      "아기들은 / 다른 사람들이",
+      "아기들이 / 다른 사람들은"
+    ],
+    "answer": "아기들은 / 다른 사람들이",
+    "requiresInk": false,
+    "modelMarkup": "Newborn babies는 cannot express emotions / that others가 can understand.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "아기들이 / 다른 사람들은": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 아기들은 / 다른 사람들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「아기들은 / 다른 사람들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-108-03",
+    "sourceQuestionId": "Q-R13-108-03",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 92,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-04-DR",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "People adopt the attitudes of those they spend time with.",
+    "choices": [
+      "사람들은 / 그들이",
+      "사람들이 / 그들은"
+    ],
+    "answer": "사람들은 / 그들이",
+    "requiresInk": false,
+    "modelMarkup": "People은 adopt the attitudes / of those / they가 spend time with.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "사람들이 / 그들은": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 사람들은 / 그들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「사람들은 / 그들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-108-04",
+    "sourceQuestionId": "Q-R13-108-04",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 112,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-05-DR",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "They wrote guidelines suggesting that patients take medicine.",
+    "choices": [
+      "그들은 / 환자들이",
+      "그들이 / 환자들은"
+    ],
+    "answer": "그들은 / 환자들이",
+    "requiresInk": false,
+    "modelMarkup": "They는 wrote guidelines, / suggesting / that patients가 take medicine.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "그들이 / 환자들은": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 그들은 / 환자들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「그들은 / 환자들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-108-05",
+    "sourceQuestionId": "Q-R13-108-05",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 50,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 109,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-06-DR",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "When face-to-face time is impossible, social sites can help.",
+    "choices": [
+      "대면 시간이 / 소셜 사이트는",
+      "대면 시간은 / 소셜 사이트가"
+    ],
+    "answer": "대면 시간이 / 소셜 사이트는",
+    "requiresInk": false,
+    "modelMarkup": "When face-to-face time이 is impossible, / social sites는 can help.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "대면 시간은 / 소셜 사이트가": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "주절과 종속절 주어의 조사를 구분하지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 대면 시간이 / 소셜 사이트는이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「대면 시간이 / 소셜 사이트는」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-108-06",
+    "sourceQuestionId": "Q-R13-108-06",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 48,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 105,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-01-CT",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nOrganisms only learn when events violate their expectations.",
+    "choices": [
+      "유기체가 / 사건들은",
+      "유기체는 / 사건들이"
+    ],
+    "answer": "유기체가 / 사건들은",
+    "requiresInk": false,
+    "modelMarkup": "Organisms는 / only learn / when events가 / violate their expectations.",
+    "sourcePreviewRef": "SRC-R13-LINK1",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "유기체는 / 사건들이": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "'유기체가 / 사건들은'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '유기체는 / 사건들이'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 유기체는 / 사건들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '유기체가 / 사건들은'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「유기체는 / 사건들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-108-01"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-108-01",
+    "sourceQuestionId": "Q-R13-108-01",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 106,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 3,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-02-CT",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf the company gets approval, test runs could begin.",
+    "choices": [
+      "회사가 / 시험 운행은",
+      "회사는 / 시험 운행이"
+    ],
+    "answer": "회사는 / 시험 운행이",
+    "requiresInk": false,
+    "modelMarkup": "If the company가 gets approval, / test runs은 could begin.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "회사가 / 시험 운행은": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "'회사는 / 시험 운행이'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '회사가 / 시험 운행은'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 회사가 / 시험 운행은이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '회사는 / 시험 운행이'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「회사가 / 시험 운행은」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-108-02"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-108-02",
+    "sourceQuestionId": "Q-R13-108-02",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 90,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-03-CT",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNewborn babies cannot express emotions that others can understand.",
+    "choices": [
+      "아기들은 / 다른 사람들이",
+      "아기들이 / 다른 사람들은"
+    ],
+    "answer": "아기들이 / 다른 사람들은",
+    "requiresInk": false,
+    "modelMarkup": "Newborn babies는 cannot express emotions / that others가 can understand.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "아기들은 / 다른 사람들이": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "'아기들이 / 다른 사람들은'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '아기들은 / 다른 사람들이'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 아기들은 / 다른 사람들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '아기들이 / 다른 사람들은'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「아기들은 / 다른 사람들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-108-03"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-108-03",
+    "sourceQuestionId": "Q-R13-108-03",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 90,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-04-CT",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nPeople adopt the attitudes of those they spend time with.",
+    "choices": [
+      "사람들이 / 그들은",
+      "사람들은 / 그들이"
+    ],
+    "answer": "사람들이 / 그들은",
+    "requiresInk": false,
+    "modelMarkup": "People은 adopt the attitudes / of those / they가 spend time with.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "사람들은 / 그들이": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "'사람들이 / 그들은'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '사람들은 / 그들이'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 사람들은 / 그들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '사람들이 / 그들은'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「사람들은 / 그들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-108-04"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-108-04",
+    "sourceQuestionId": "Q-R13-108-04",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 110,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-05-CT",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 3,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThey wrote guidelines suggesting that patients take medicine.",
+    "choices": [
+      "그들은 / 환자들이",
+      "그들이 / 환자들은"
+    ],
+    "answer": "그들이 / 환자들은",
+    "requiresInk": false,
+    "modelMarkup": "They는 wrote guidelines, / suggesting / that patients가 take medicine.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "그들은 / 환자들이": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "'그들이 / 환자들은'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '그들은 / 환자들이'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 그들은 / 환자들이이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '그들이 / 환자들은'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「그들은 / 환자들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-108-05"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-108-05",
+    "sourceQuestionId": "Q-R13-108-05",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 50,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 106,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-108-06-CT",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 3,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWhen face-to-face time is impossible, social sites can help.",
+    "choices": [
+      "대면 시간은 / 소셜 사이트가",
+      "대면 시간이 / 소셜 사이트는"
+    ],
+    "answer": "대면 시간은 / 소셜 사이트가",
+    "requiresInk": false,
+    "modelMarkup": "When face-to-face time이 is impossible, / social sites는 can help.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "대면 시간이 / 소셜 사이트는": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "'대면 시간은 / 소셜 사이트가'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '대면 시간이 / 소셜 사이트는'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 대면 시간이 / 소셜 사이트는이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '대면 시간은 / 소셜 사이트가'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「대면 시간이 / 소셜 사이트는」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-108-06"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-108-06",
+    "sourceQuestionId": "Q-R13-108-06",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 48,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 103,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-5FB2420E7F",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「그들은 / 환자들이」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다.",
+          "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다."
+        ],
+        "answer": "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다.",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 그들은 / 환자들이이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「유기체는 / 사건들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-108-05",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-5FB2420E7F",
+    "sourceQuestionId": "Q-R13-108-05",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-6EFCC4D833",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「대면 시간이 / 소셜 사이트는」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+          "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다."
+        ],
+        "answer": "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다.",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 대면 시간이 / 소셜 사이트는이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「유기체는 / 사건들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-108-06",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-6EFCC4D833",
+    "sourceQuestionId": "Q-R13-108-06",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-2C814D238B",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「사람들은 / 그들이」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+          "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다."
+        ],
+        "answer": "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다.",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 사람들은 / 그들이이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「유기체는 / 사건들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-108-04",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-2C814D238B",
+    "sourceQuestionId": "Q-R13-108-04",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-2F839C81AE",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「아기들은 / 다른 사람들이」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+          "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다."
+        ],
+        "answer": "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다.",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 아기들은 / 다른 사람들이이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「유기체는 / 사건들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-108-03",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-2F839C81AE",
+    "sourceQuestionId": "Q-R13-108-03",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-3552FCF505",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「유기체는 / 사건들이」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다.",
+          "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다."
+        ],
+        "answer": "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다.",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 유기체는 / 사건들이이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「회사가 / 시험 운행은」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-108-01",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-3552FCF505",
+    "sourceQuestionId": "Q-R13-108-01",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-4A87F3A42F",
+    "conceptId": "G108_R_TOPIC_SUBJECT_PARTICLES",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「회사가 / 시험 운행은」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "전치사 덩어리는 of=~의, to=~에·에게, by=~에 의해·~함으로써처럼 조사 역할로 연결한다.",
+          "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다."
+        ],
+        "answer": "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다.",
+        "errorCode": "E112_R_PARTICLES"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E112_R_PARTICLES"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사가 없는 주절 주어는 은·는으로, 접속사·관계사가 이끄는 종속절 주어는 이·가로 해석한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 회사가 / 시험 운행은이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK1",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「유기체는 / 사건들이」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-108-02",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "10. 은·는·이·가",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-4A87F3A42F",
+    "sourceQuestionId": "Q-R13-108-02",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

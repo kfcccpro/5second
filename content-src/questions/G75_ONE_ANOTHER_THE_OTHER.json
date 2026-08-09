@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G75-001",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 1,
+    "stem": "I have two pens. One is blue, and (another / the other) is black.",
+    "choices": [
+      "another",
+      "the other"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 대상은 두 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "하나를 제외한 나머지 하나는 특정됨",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "전체 대상은 두 개",
+        "하나를 제외한 나머지 하나는 특정됨",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-001",
+    "sourceQuestionId": "Q-G75-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-002",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 1,
+    "stem": "There are three tasks. One is easy, another is moderate, and (the other / the others) is difficult.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 대상은 세 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "마지막 남은 것은 하나",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the others": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "전체 대상은 세 개",
+        "마지막 남은 것은 하나",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-002",
+    "sourceQuestionId": "Q-G75-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-003",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 1,
+    "stem": "Out of all the eggs, one was broken; (the other / the others) were fine.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 대상은 셋 이상",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "하나를 제외한 나머지 전부",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the other": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "전체 대상은 셋 이상",
+        "하나를 제외한 나머지 전부",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-003",
+    "sourceQuestionId": "Q-G75-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-004",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 2,
+    "stem": "One end of the rope is tied to the anchor, while (another / the other) is tied to a post.",
+    "choices": [
+      "another",
+      "the other"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "밧줄의 끝은 두 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "한쪽을 제외한 나머지 한쪽",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "밧줄의 끝은 두 개",
+        "한쪽을 제외한 나머지 한쪽",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-004",
+    "sourceQuestionId": "Q-G75-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 19,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-005",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 2,
+    "stem": "I have three brothers. One lives in Seoul, another in Busan, and (the other / the others) abroad.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "형제는 세 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "두 명을 말한 뒤 마지막 한 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the others": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "형제는 세 명",
+        "두 명을 말한 뒤 마지막 한 명",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-005",
+    "sourceQuestionId": "Q-G75-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-006",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 2,
+    "stem": "Five students entered. One sat near the door, and (the other / the others) sat by the window.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "학생은 다섯 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "한 명을 제외한 나머지 네 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the other": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "학생은 다섯 명",
+        "한 명을 제외한 나머지 네 명",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-006",
+    "sourceQuestionId": "Q-G75-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-007",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 3,
+    "stem": "She has two daughters. One is a doctor; (another / the other) is a teacher.",
+    "choices": [
+      "another",
+      "the other"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "딸은 두 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "한 명을 제외한 특정 나머지 한 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "딸은 두 명",
+        "한 명을 제외한 특정 나머지 한 명",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-007",
+    "sourceQuestionId": "Q-G75-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 45,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-008",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 3,
+    "stem": "Of the four proposals, one was accepted and (the other / the others) were rejected.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "제안은 네 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "하나를 제외한 나머지 전부",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the other": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "제안은 네 개",
+        "하나를 제외한 나머지 전부",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-008",
+    "sourceQuestionId": "Q-G75-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-001-PF",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 1,
+    "stem": "I have two pens. One is blue, and (another / the other) is black.",
+    "choices": [
+      "another",
+      "the other"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 대상은 두 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "하나를 제외한 나머지 하나는 특정됨",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "전체 대상은 두 개",
+        "하나를 제외한 나머지 하나는 특정됨",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-001",
+    "sourceQuestionId": "Q-G75-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-002-PF",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 1,
+    "stem": "There are three tasks. One is easy, another is moderate, and (the other / the others) is difficult.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 대상은 세 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "마지막 남은 것은 하나",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the others": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "전체 대상은 세 개",
+        "마지막 남은 것은 하나",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-002",
+    "sourceQuestionId": "Q-G75-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-003-PF",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 1,
+    "stem": "Out of all the eggs, one was broken; (the other / the others) were fine.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 대상은 셋 이상",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "하나를 제외한 나머지 전부",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the other": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "전체 대상은 셋 이상",
+        "하나를 제외한 나머지 전부",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-003",
+    "sourceQuestionId": "Q-G75-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-004-PF",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 2,
+    "stem": "One end of the rope is tied to the anchor, while (another / the other) is tied to a post.",
+    "choices": [
+      "another",
+      "the other"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "밧줄의 끝은 두 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "한쪽을 제외한 나머지 한쪽",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "밧줄의 끝은 두 개",
+        "한쪽을 제외한 나머지 한쪽",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-004",
+    "sourceQuestionId": "Q-G75-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 73,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 19,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-005-PF",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 2,
+    "stem": "I have three brothers. One lives in Seoul, another in Busan, and (the other / the others) abroad.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "형제는 세 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "두 명을 말한 뒤 마지막 한 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the others": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "형제는 세 명",
+        "두 명을 말한 뒤 마지막 한 명",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-005",
+    "sourceQuestionId": "Q-G75-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-006-PF",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 2,
+    "stem": "Five students entered. One sat near the door, and (the other / the others) sat by the window.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "학생은 다섯 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "한 명을 제외한 나머지 네 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the other": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "학생은 다섯 명",
+        "한 명을 제외한 나머지 네 명",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-006",
+    "sourceQuestionId": "Q-G75-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-007-PF",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 3,
+    "stem": "She has two daughters. One is a doctor; (another / the other) is a teacher.",
+    "choices": [
+      "another",
+      "the other"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "딸은 두 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "한 명을 제외한 특정 나머지 한 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "딸은 두 명",
+        "한 명을 제외한 특정 나머지 한 명",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-007",
+    "sourceQuestionId": "Q-G75-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 45,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 76,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-008-PF",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 3,
+    "stem": "Of the four proposals, one was accepted and (the other / the others) were rejected.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "제안은 네 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "하나를 제외한 나머지 전부",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the other": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "제안은 네 개",
+        "하나를 제외한 나머지 전부",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-008",
+    "sourceQuestionId": "Q-G75-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 76,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-001-DR",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 1,
+    "stem": "I have two pens. One is blue, and (another / the other) is black.",
+    "choices": [
+      "another",
+      "the other"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 대상은 두 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "하나를 제외한 나머지 하나는 특정됨",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "전체 대상은 두 개",
+        "하나를 제외한 나머지 하나는 특정됨",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-001",
+    "sourceQuestionId": "Q-G75-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-002-DR",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 1,
+    "stem": "There are three tasks. One is easy, another is moderate, and (the other / the others) is difficult.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 대상은 세 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "마지막 남은 것은 하나",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the others": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "전체 대상은 세 개",
+        "마지막 남은 것은 하나",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-002",
+    "sourceQuestionId": "Q-G75-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-003-DR",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 1,
+    "stem": "Out of all the eggs, one was broken; (the other / the others) were fine.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 대상은 셋 이상",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "하나를 제외한 나머지 전부",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the other": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "전체 대상은 셋 이상",
+        "하나를 제외한 나머지 전부",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-003",
+    "sourceQuestionId": "Q-G75-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-004-DR",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 2,
+    "stem": "One end of the rope is tied to the anchor, while (another / the other) is tied to a post.",
+    "choices": [
+      "another",
+      "the other"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "밧줄의 끝은 두 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "한쪽을 제외한 나머지 한쪽",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "밧줄의 끝은 두 개",
+        "한쪽을 제외한 나머지 한쪽",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-004",
+    "sourceQuestionId": "Q-G75-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 19,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-005-DR",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 2,
+    "stem": "I have three brothers. One lives in Seoul, another in Busan, and (the other / the others) abroad.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "형제는 세 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "두 명을 말한 뒤 마지막 한 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the others": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "형제는 세 명",
+        "두 명을 말한 뒤 마지막 한 명",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-005",
+    "sourceQuestionId": "Q-G75-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-006-DR",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 2,
+    "stem": "Five students entered. One sat near the door, and (the other / the others) sat by the window.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "학생은 다섯 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "한 명을 제외한 나머지 네 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the other": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "학생은 다섯 명",
+        "한 명을 제외한 나머지 네 명",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-006",
+    "sourceQuestionId": "Q-G75-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-007-DR",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 3,
+    "stem": "She has two daughters. One is a doctor; (another / the other) is a teacher.",
+    "choices": [
+      "another",
+      "the other"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "딸은 두 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "한 명을 제외한 특정 나머지 한 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "딸은 두 명",
+        "한 명을 제외한 특정 나머지 한 명",
+        "따라서 the other를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-007",
+    "sourceQuestionId": "Q-G75-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 45,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-008-DR",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 3,
+    "stem": "Of the four proposals, one was accepted and (the other / the others) were rejected.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "제안은 네 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "하나를 제외한 나머지 전부",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the other": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "전체 대상의 개수와 남은 대상이 특정되었는지 확인하지 않았다.",
+      "summary": [
+        "제안은 네 개",
+        "하나를 제외한 나머지 전부",
+        "따라서 the others를 선택한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-008",
+    "sourceQuestionId": "Q-G75-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-001-CT",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI have two pens. One is blue, and (another / the other) is black.",
+    "choices": [
+      "the other",
+      "another"
+    ],
+    "answer": "another",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 대상은 두 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "하나를 제외한 나머지 하나는 특정됨",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the other": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "'another'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'the other'이다.",
+      "summary": [
+        "전체 대상은 두 개",
+        "하나를 제외한 나머지 하나는 특정됨",
+        "따라서 the other를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'another'이다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-001",
+    "sourceQuestionId": "Q-G75-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-002-CT",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThere are three tasks. One is easy, another is moderate, and (the other / the others) is difficult.",
+    "choices": [
+      "the others",
+      "the other"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 대상은 세 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "마지막 남은 것은 하나",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the other": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "'the others'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'the other'이다.",
+      "summary": [
+        "전체 대상은 세 개",
+        "마지막 남은 것은 하나",
+        "따라서 the other를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'the others'이다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-002",
+    "sourceQuestionId": "Q-G75-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-003-CT",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nOut of all the eggs, one was broken; (the other / the others) were fine.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "전체 대상은 셋 이상",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "하나를 제외한 나머지 전부",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the others": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "'the other'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'the others'이다.",
+      "summary": [
+        "전체 대상은 셋 이상",
+        "하나를 제외한 나머지 전부",
+        "따라서 the others를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'the other'이다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-003",
+    "sourceQuestionId": "Q-G75-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-004-CT",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nOne end of the rope is tied to the anchor, while (another / the other) is tied to a post.",
+    "choices": [
+      "the other",
+      "another"
+    ],
+    "answer": "another",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "밧줄의 끝은 두 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "한쪽을 제외한 나머지 한쪽",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the other": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "'another'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'the other'이다.",
+      "summary": [
+        "밧줄의 끝은 두 개",
+        "한쪽을 제외한 나머지 한쪽",
+        "따라서 the other를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'another'이다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-004",
+    "sourceQuestionId": "Q-G75-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 19,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-005-CT",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI have three brothers. One lives in Seoul, another in Busan, and (the other / the others) abroad.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the others",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "형제는 세 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "두 명을 말한 뒤 마지막 한 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the other": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "'the others'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'the other'이다.",
+      "summary": [
+        "형제는 세 명",
+        "두 명을 말한 뒤 마지막 한 명",
+        "따라서 the other를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'the others'이다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-005",
+    "sourceQuestionId": "Q-G75-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-006-CT",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nFive students entered. One sat near the door, and (the other / the others) sat by the window.",
+    "choices": [
+      "the other",
+      "the others"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "학생은 다섯 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "한 명을 제외한 나머지 네 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the others": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "'the other'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'the others'이다.",
+      "summary": [
+        "학생은 다섯 명",
+        "한 명을 제외한 나머지 네 명",
+        "따라서 the others를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'the other'이다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-006",
+    "sourceQuestionId": "Q-G75-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-007-CT",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe has two daughters. One is a doctor; (another / the other) is a teacher.",
+    "choices": [
+      "another",
+      "the other"
+    ],
+    "answer": "another",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "딸은 두 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "한 명을 제외한 특정 나머지 한 명",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the other",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the other": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "'another'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'the other'이다.",
+      "summary": [
+        "딸은 두 명",
+        "한 명을 제외한 특정 나머지 한 명",
+        "따라서 the other를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'another'이다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-007",
+    "sourceQuestionId": "Q-G75-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 45,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G75-008-CT",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nOf the four proposals, one was accepted and (the other / the others) were rejected.",
+    "choices": [
+      "the others",
+      "the other"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "제안은 네 개",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "하나를 제외한 나머지 전부",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "the others",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "the others": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "'the other'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'the others'이다.",
+      "summary": [
+        "제안은 네 개",
+        "하나를 제외한 나머지 전부",
+        "따라서 the others를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'the other'이다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G75-008",
+    "sourceQuestionId": "Q-G75-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 46,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-20B58E35A5",
+    "conceptId": "G75_ONE_ANOTHER_THE_OTHER",
+    "difficulty": 1,
+    "stem": "빠른 확인: 둘 중 하나를 제외한 나머지 하나는?",
+    "choices": [
+      "the other",
+      "another"
+    ],
+    "answer": "the other",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "둘 중 하나와 나머지는 one~the other, 셋 중 하나·다른 하나·마지막은 one~another~the other, 셋 이상에서 하나와 나머지 전부는 one~the others를 쓴다.",
+          "불특정 단수는 another+단수명사, 불특정 복수는 other+복수명사 또는 others, 정해진 나머지 전부는 the others를 쓴다."
+        ],
+        "answer": "둘 중 하나와 나머지는 one~the other, 셋 중 하나·다른 하나·마지막은 one~another~the other, 셋 이상에서 하나와 나머지 전부는 one~the others를 쓴다.",
+        "errorCode": "E79_ONE_ANOTHER_OTHER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "another": "E79_ONE_ANOTHER_OTHER"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "둘 중 하나와 나머지는 one~the other, 셋 중 하나·다른 하나·마지막은 one~another~the other, 셋 이상에서 하나와 나머지 전부는 one~the others를 쓴다.",
+        "전체 대상은 두 개",
+        "하나를 제외한 나머지 하나는 특정됨",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G75",
+      "checkQuestion": {
+        "prompt": "둘 중 하나를 제외한 나머지 하나는?",
+        "choices": [
+          "the other",
+          "another"
+        ],
+        "answer": "the other"
+      },
+      "transferQuestionId": "Q-G75-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART8",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-20B58E35A5",
+    "sourceQuestionId": "Q-G75-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

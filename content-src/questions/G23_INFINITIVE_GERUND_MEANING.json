@@ -1,0 +1,2926 @@
+[
+  {
+    "id": "Q-G23-001",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "Remember (to lock / locking) the door before you leave.",
+    "choices": [
+      "to lock",
+      "locking"
+    ],
+    "answer": "to lock",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "앞으로 할 일",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "locking": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 앞으로 할 일을 뜻한다.",
+        "따라서 to lock를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-001",
+    "sourceQuestionId": "Q-G23-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-002",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "I remember (to meet / meeting) her at the conference.",
+    "choices": [
+      "to meet",
+      "meeting"
+    ],
+    "answer": "meeting",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "이미 한 경험",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to meet": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 이미 한 경험을 뜻한다.",
+        "따라서 meeting를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-002",
+    "sourceQuestionId": "Q-G23-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-003",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "He stopped (to drink / drinking) coffee for his health.",
+    "choices": [
+      "to drink",
+      "drinking"
+    ],
+    "answer": "drinking",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "하던 행동을 그만둠",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to drink": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 하던 행동을 그만둠을 뜻한다.",
+        "따라서 drinking를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-003",
+    "sourceQuestionId": "Q-G23-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-004",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "We stopped (to rest / resting) after two hours of walking.",
+    "choices": [
+      "to rest",
+      "resting"
+    ],
+    "answer": "to rest",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "다른 행동을 하기 위해 멈춤",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "resting": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 다른 행동을 하기 위해 멈춤을 뜻한다.",
+        "따라서 to rest를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-004",
+    "sourceQuestionId": "Q-G23-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-005",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "I regret (to inform / informing) you that the event is canceled.",
+    "choices": [
+      "to inform",
+      "informing"
+    ],
+    "answer": "to inform",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "지금 유감스럽게 알림",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "informing": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 지금 유감스럽게 알림을 뜻한다.",
+        "따라서 to inform를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-005",
+    "sourceQuestionId": "Q-G23-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-006",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "She regrets (to say / saying) those harsh words yesterday.",
+    "choices": [
+      "to say",
+      "saying"
+    ],
+    "answer": "saying",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "과거 행동을 후회",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to say": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 과거 행동을 후회을 뜻한다.",
+        "따라서 saying를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-006",
+    "sourceQuestionId": "Q-G23-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-007",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "Try (to restart / restarting) the computer first.",
+    "choices": [
+      "to restart",
+      "restarting"
+    ],
+    "answer": "restarting",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "시험 삼아 해봄",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to restart": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 시험 삼아 해봄을 뜻한다.",
+        "따라서 restarting를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-007",
+    "sourceQuestionId": "Q-G23-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-008",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "He tried (to lift / lifting) the heavy box but failed.",
+    "choices": [
+      "to lift",
+      "lifting"
+    ],
+    "answer": "to lift",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "애써 시도함",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "lifting": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 애써 시도함을 뜻한다.",
+        "따라서 to lift를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-008",
+    "sourceQuestionId": "Q-G23-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-001-PF",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "Remember (to lock / locking) the door before you leave.",
+    "choices": [
+      "to lock",
+      "locking"
+    ],
+    "answer": "to lock",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "앞으로 할 일",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "locking": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 앞으로 할 일을 뜻한다.",
+        "따라서 to lock를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-001",
+    "sourceQuestionId": "Q-G23-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-002-PF",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "I remember (to meet / meeting) her at the conference.",
+    "choices": [
+      "to meet",
+      "meeting"
+    ],
+    "answer": "meeting",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "이미 한 경험",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to meet": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 이미 한 경험을 뜻한다.",
+        "따라서 meeting를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-002",
+    "sourceQuestionId": "Q-G23-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-003-PF",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "He stopped (to drink / drinking) coffee for his health.",
+    "choices": [
+      "to drink",
+      "drinking"
+    ],
+    "answer": "drinking",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "하던 행동을 그만둠",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to drink": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 하던 행동을 그만둠을 뜻한다.",
+        "따라서 drinking를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-003",
+    "sourceQuestionId": "Q-G23-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-004-PF",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "We stopped (to rest / resting) after two hours of walking.",
+    "choices": [
+      "to rest",
+      "resting"
+    ],
+    "answer": "to rest",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "다른 행동을 하기 위해 멈춤",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "resting": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 다른 행동을 하기 위해 멈춤을 뜻한다.",
+        "따라서 to rest를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-004",
+    "sourceQuestionId": "Q-G23-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-005-PF",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "I regret (to inform / informing) you that the event is canceled.",
+    "choices": [
+      "to inform",
+      "informing"
+    ],
+    "answer": "to inform",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "지금 유감스럽게 알림",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "informing": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 지금 유감스럽게 알림을 뜻한다.",
+        "따라서 to inform를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-005",
+    "sourceQuestionId": "Q-G23-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-006-PF",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "She regrets (to say / saying) those harsh words yesterday.",
+    "choices": [
+      "to say",
+      "saying"
+    ],
+    "answer": "saying",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "과거 행동을 후회",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to say": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 과거 행동을 후회을 뜻한다.",
+        "따라서 saying를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-006",
+    "sourceQuestionId": "Q-G23-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-007-PF",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "Try (to restart / restarting) the computer first.",
+    "choices": [
+      "to restart",
+      "restarting"
+    ],
+    "answer": "restarting",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "시험 삼아 해봄",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to restart": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 시험 삼아 해봄을 뜻한다.",
+        "따라서 restarting를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-007",
+    "sourceQuestionId": "Q-G23-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-008-PF",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "He tried (to lift / lifting) the heavy box but failed.",
+    "choices": [
+      "to lift",
+      "lifting"
+    ],
+    "answer": "to lift",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "애써 시도함",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "lifting": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 애써 시도함을 뜻한다.",
+        "따라서 to lift를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-008",
+    "sourceQuestionId": "Q-G23-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-001-DR",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "Remember (to lock / locking) the door before you leave.",
+    "choices": [
+      "to lock",
+      "locking"
+    ],
+    "answer": "to lock",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "앞으로 할 일",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "locking": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 앞으로 할 일을 뜻한다.",
+        "따라서 to lock를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-001",
+    "sourceQuestionId": "Q-G23-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-002-DR",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "I remember (to meet / meeting) her at the conference.",
+    "choices": [
+      "to meet",
+      "meeting"
+    ],
+    "answer": "meeting",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "이미 한 경험",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to meet": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 이미 한 경험을 뜻한다.",
+        "따라서 meeting를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-002",
+    "sourceQuestionId": "Q-G23-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-003-DR",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "He stopped (to drink / drinking) coffee for his health.",
+    "choices": [
+      "to drink",
+      "drinking"
+    ],
+    "answer": "drinking",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "하던 행동을 그만둠",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to drink": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 하던 행동을 그만둠을 뜻한다.",
+        "따라서 drinking를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-003",
+    "sourceQuestionId": "Q-G23-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-004-DR",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "We stopped (to rest / resting) after two hours of walking.",
+    "choices": [
+      "to rest",
+      "resting"
+    ],
+    "answer": "to rest",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "다른 행동을 하기 위해 멈춤",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "resting": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 다른 행동을 하기 위해 멈춤을 뜻한다.",
+        "따라서 to rest를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-004",
+    "sourceQuestionId": "Q-G23-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-005-DR",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "I regret (to inform / informing) you that the event is canceled.",
+    "choices": [
+      "to inform",
+      "informing"
+    ],
+    "answer": "to inform",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "지금 유감스럽게 알림",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "informing": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 지금 유감스럽게 알림을 뜻한다.",
+        "따라서 to inform를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-005",
+    "sourceQuestionId": "Q-G23-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-006-DR",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "She regrets (to say / saying) those harsh words yesterday.",
+    "choices": [
+      "to say",
+      "saying"
+    ],
+    "answer": "saying",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "과거 행동을 후회",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to say": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 과거 행동을 후회을 뜻한다.",
+        "따라서 saying를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-006",
+    "sourceQuestionId": "Q-G23-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-007-DR",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "Try (to restart / restarting) the computer first.",
+    "choices": [
+      "to restart",
+      "restarting"
+    ],
+    "answer": "restarting",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "시험 삼아 해봄",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to restart": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 시험 삼아 해봄을 뜻한다.",
+        "따라서 restarting를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-007",
+    "sourceQuestionId": "Q-G23-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-008-DR",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "He tried (to lift / lifting) the heavy box but failed.",
+    "choices": [
+      "to lift",
+      "lifting"
+    ],
+    "answer": "to lift",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "애써 시도함",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "lifting": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "to-V와 V-ing가 만드는 시간·의미 차이를 확인하지 않았다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 애써 시도함을 뜻한다.",
+        "따라서 to lift를 선택한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-008",
+    "sourceQuestionId": "Q-G23-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-001-CT",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nRemember (to lock / locking) the door before you leave.",
+    "choices": [
+      "locking",
+      "to lock"
+    ],
+    "answer": "locking",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "앞으로 할 일",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to lock": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "'locking'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to lock'이다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 앞으로 할 일을 뜻한다.",
+        "따라서 to lock를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'locking'이다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-001",
+    "sourceQuestionId": "Q-G23-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-002-CT",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI remember (to meet / meeting) her at the conference.",
+    "choices": [
+      "to meet",
+      "meeting"
+    ],
+    "answer": "to meet",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "이미 한 경험",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "meeting": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "'to meet'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'meeting'이다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 이미 한 경험을 뜻한다.",
+        "따라서 meeting를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'to meet'이다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-002",
+    "sourceQuestionId": "Q-G23-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-003-CT",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe stopped (to drink / drinking) coffee for his health.",
+    "choices": [
+      "drinking",
+      "to drink"
+    ],
+    "answer": "to drink",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "하던 행동을 그만둠",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "drinking": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "'to drink'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'drinking'이다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 하던 행동을 그만둠을 뜻한다.",
+        "따라서 drinking를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'to drink'이다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-003",
+    "sourceQuestionId": "Q-G23-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-004-CT",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe stopped (to rest / resting) after two hours of walking.",
+    "choices": [
+      "to rest",
+      "resting"
+    ],
+    "answer": "resting",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "다른 행동을 하기 위해 멈춤",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to rest": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "'resting'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to rest'이다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 다른 행동을 하기 위해 멈춤을 뜻한다.",
+        "따라서 to rest를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'resting'이다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-004",
+    "sourceQuestionId": "Q-G23-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-005-CT",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI regret (to inform / informing) you that the event is canceled.",
+    "choices": [
+      "to inform",
+      "informing"
+    ],
+    "answer": "informing",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "지금 유감스럽게 알림",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to inform": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "'informing'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to inform'이다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 지금 유감스럽게 알림을 뜻한다.",
+        "따라서 to inform를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'informing'이다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-005",
+    "sourceQuestionId": "Q-G23-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-006-CT",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe regrets (to say / saying) those harsh words yesterday.",
+    "choices": [
+      "saying",
+      "to say"
+    ],
+    "answer": "to say",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "과거 행동을 후회",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "saying": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "'to say'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'saying'이다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 과거 행동을 후회을 뜻한다.",
+        "따라서 saying를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'to say'이다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-006",
+    "sourceQuestionId": "Q-G23-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-007-CT",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nTry (to restart / restarting) the computer first.",
+    "choices": [
+      "to restart",
+      "restarting"
+    ],
+    "answer": "to restart",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "시험 삼아 해봄",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "restarting": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "'to restart'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'restarting'이다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 시험 삼아 해봄을 뜻한다.",
+        "따라서 restarting를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'to restart'이다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-007",
+    "sourceQuestionId": "Q-G23-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 40,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G23-008-CT",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe tried (to lift / lifting) the heavy box but failed.",
+    "choices": [
+      "to lift",
+      "lifting"
+    ],
+    "answer": "lifting",
+    "decisionSteps": [
+      {
+        "id": "verb",
+        "prompt": "앞 동사의 의미가 뒤 형태에 따라 달라지는가?",
+        "answer": "그렇다",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      },
+      {
+        "id": "time",
+        "prompt": "뒤 행동의 의미는 무엇인가?",
+        "answer": "애써 시도함",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to lift": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "'lifting'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to lift'이다.",
+      "summary": [
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 애써 시도함을 뜻한다.",
+        "따라서 to lift를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'lifting'이다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G23-008",
+    "sourceQuestionId": "Q-G23-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-4DEC8C4D9D",
+    "conceptId": "G23_INFINITIVE_GERUND_MEANING",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+    "choices": [
+      "V-ing",
+      "to-V"
+    ],
+    "answer": "V-ing",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "spend는 시간/돈 뒤에 V-ing, It takes는 시간 뒤에 to-V, have difficulty는 V-ing를 쓴다.",
+          "to-V는 앞으로 할 행동, V-ing는 이미 한 행동·경험을 가리키는 경우가 많다."
+        ],
+        "answer": "to-V는 앞으로 할 행동, V-ing는 이미 한 행동·경험을 가리키는 경우가 많다.",
+        "errorCode": "E27_INF_GERUND_MEANING"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to-V": "E27_INF_GERUND_MEANING"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "to-V는 앞으로 할 행동, V-ing는 이미 한 행동·경험을 가리키는 경우가 많다.",
+        "앞 동사를 먼저 확인한다.",
+        "뒤 행동은 앞으로 할 일을 뜻한다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G23",
+      "checkQuestion": {
+        "prompt": "이미 한 행동이나 경험을 가리킬 때 우선 검토할 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G23-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART2",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-4DEC8C4D9D",
+    "sourceQuestionId": "Q-G23-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

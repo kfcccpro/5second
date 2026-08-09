@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G58-001",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If he had taken the doctor’s advice, he (might be / might have been) alive now.",
+    "choices": [
+      "might be",
+      "might have been"
+    ],
+    "answer": "might be",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "if절 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "주절 결과 시점은?",
+        "answer": "now, 현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "might + 동사원형",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might have been": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "과거.",
+        "now, 현재.",
+        "따라서 might be를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-001",
+    "sourceQuestionId": "Q-G58-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-002",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If I had gone to bed earlier, I (would not be / would not have been) tired now.",
+    "choices": [
+      "would not be",
+      "would not have been"
+    ],
+    "answer": "would not be",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "잠든 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "피곤한 결과 시점은?",
+        "answer": "현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would not have been": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "과거.",
+        "현재.",
+        "따라서 would not be를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-002",
+    "sourceQuestionId": "Q-G58-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-003",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If she were more organized, she (would have submitted / would submit) the report yesterday.",
+    "choices": [
+      "would have submitted",
+      "would submit"
+    ],
+    "answer": "would have submitted",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "정리정돈 능력의 시점은?",
+        "answer": "현재 성향",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "결과 시간표지는?",
+        "answer": "yesterday, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would submit": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "현재 성향.",
+        "yesterday, 과거.",
+        "따라서 would have submitted를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-003",
+    "sourceQuestionId": "Q-G58-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-004",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If he knew how to drive, he (could have helped / could help) us last night.",
+    "choices": [
+      "could have helped",
+      "could help"
+    ],
+    "answer": "could have helped",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "운전 능력의 시점은?",
+        "answer": "현재 상태",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "도움의 시간표지는?",
+        "answer": "last night, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "could have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could help": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "현재 상태.",
+        "last night, 과거.",
+        "따라서 could have helped를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-004",
+    "sourceQuestionId": "Q-G58-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-005",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If they had saved more money, they (could own / could have owned) a house now.",
+    "choices": [
+      "could own",
+      "could have owned"
+    ],
+    "answer": "could own",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "저축 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "소유 결과 시점은?",
+        "answer": "now, 현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "could + 동사원형",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could have owned": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "과거.",
+        "now, 현재.",
+        "따라서 could own를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-005",
+    "sourceQuestionId": "Q-G58-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-006",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If I were not afraid of heights, I (would have joined / would join) the trip yesterday.",
+    "choices": [
+      "would have joined",
+      "would join"
+    ],
+    "answer": "would have joined",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "고소공포 성향 시점은?",
+        "answer": "현재 상태",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "여행 시간표지는?",
+        "answer": "yesterday, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would join": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "현재 상태.",
+        "yesterday, 과거.",
+        "따라서 would have joined를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-006",
+    "sourceQuestionId": "Q-G58-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-007",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If we had taken the map, we (would not be / would not have been) lost now.",
+    "choices": [
+      "would not be",
+      "would not have been"
+    ],
+    "answer": "would not be",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "지도를 챙긴 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "길을 잃은 결과 시점은?",
+        "answer": "now, 현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "would not be",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would not have been": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "과거.",
+        "now, 현재.",
+        "따라서 would not be를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-007",
+    "sourceQuestionId": "Q-G58-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 23,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-008",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If she were more careful, she (would not have broken / would not break) the vase yesterday.",
+    "choices": [
+      "would not have broken",
+      "would not break"
+    ],
+    "answer": "would not have broken",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "조심성의 시점은?",
+        "answer": "현재 성향",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "깨뜨린 시간표지는?",
+        "answer": "yesterday, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "would not have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would not break": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "현재 성향.",
+        "yesterday, 과거.",
+        "따라서 would not have broken를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-008",
+    "sourceQuestionId": "Q-G58-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 23,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-001-PF",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If he had taken the doctor’s advice, he (might be / might have been) alive now.",
+    "choices": [
+      "might be",
+      "might have been"
+    ],
+    "answer": "might be",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "if절 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "주절 결과 시점은?",
+        "answer": "now, 현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "might + 동사원형",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might have been": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "과거.",
+        "now, 현재.",
+        "따라서 might be를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-001",
+    "sourceQuestionId": "Q-G58-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-002-PF",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If I had gone to bed earlier, I (would not be / would not have been) tired now.",
+    "choices": [
+      "would not be",
+      "would not have been"
+    ],
+    "answer": "would not be",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "잠든 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "피곤한 결과 시점은?",
+        "answer": "현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would not have been": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "과거.",
+        "현재.",
+        "따라서 would not be를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-002",
+    "sourceQuestionId": "Q-G58-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-003-PF",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If she were more organized, she (would have submitted / would submit) the report yesterday.",
+    "choices": [
+      "would have submitted",
+      "would submit"
+    ],
+    "answer": "would have submitted",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "정리정돈 능력의 시점은?",
+        "answer": "현재 성향",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "결과 시간표지는?",
+        "answer": "yesterday, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would submit": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "현재 성향.",
+        "yesterday, 과거.",
+        "따라서 would have submitted를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-003",
+    "sourceQuestionId": "Q-G58-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-004-PF",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If he knew how to drive, he (could have helped / could help) us last night.",
+    "choices": [
+      "could have helped",
+      "could help"
+    ],
+    "answer": "could have helped",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "운전 능력의 시점은?",
+        "answer": "현재 상태",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "도움의 시간표지는?",
+        "answer": "last night, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "could have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could help": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "현재 상태.",
+        "last night, 과거.",
+        "따라서 could have helped를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-004",
+    "sourceQuestionId": "Q-G58-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-005-PF",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If they had saved more money, they (could own / could have owned) a house now.",
+    "choices": [
+      "could own",
+      "could have owned"
+    ],
+    "answer": "could own",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "저축 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "소유 결과 시점은?",
+        "answer": "now, 현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "could + 동사원형",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could have owned": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "과거.",
+        "now, 현재.",
+        "따라서 could own를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-005",
+    "sourceQuestionId": "Q-G58-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-006-PF",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If I were not afraid of heights, I (would have joined / would join) the trip yesterday.",
+    "choices": [
+      "would have joined",
+      "would join"
+    ],
+    "answer": "would have joined",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "고소공포 성향 시점은?",
+        "answer": "현재 상태",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "여행 시간표지는?",
+        "answer": "yesterday, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would join": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "현재 상태.",
+        "yesterday, 과거.",
+        "따라서 would have joined를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-006",
+    "sourceQuestionId": "Q-G58-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-007-PF",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If we had taken the map, we (would not be / would not have been) lost now.",
+    "choices": [
+      "would not be",
+      "would not have been"
+    ],
+    "answer": "would not be",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "지도를 챙긴 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "길을 잃은 결과 시점은?",
+        "answer": "now, 현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "would not be",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would not have been": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "과거.",
+        "now, 현재.",
+        "따라서 would not be를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-007",
+    "sourceQuestionId": "Q-G58-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 23,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-008-PF",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If she were more careful, she (would not have broken / would not break) the vase yesterday.",
+    "choices": [
+      "would not have broken",
+      "would not break"
+    ],
+    "answer": "would not have broken",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "조심성의 시점은?",
+        "answer": "현재 성향",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "깨뜨린 시간표지는?",
+        "answer": "yesterday, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "would not have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would not break": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "현재 성향.",
+        "yesterday, 과거.",
+        "따라서 would not have broken를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-008",
+    "sourceQuestionId": "Q-G58-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 23,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-001-DR",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If he had taken the doctor’s advice, he (might be / might have been) alive now.",
+    "choices": [
+      "might be",
+      "might have been"
+    ],
+    "answer": "might be",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "if절 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "주절 결과 시점은?",
+        "answer": "now, 현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "might + 동사원형",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might have been": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "과거.",
+        "now, 현재.",
+        "따라서 might be를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-001",
+    "sourceQuestionId": "Q-G58-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-002-DR",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If I had gone to bed earlier, I (would not be / would not have been) tired now.",
+    "choices": [
+      "would not be",
+      "would not have been"
+    ],
+    "answer": "would not be",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "잠든 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "피곤한 결과 시점은?",
+        "answer": "현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would not have been": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "과거.",
+        "현재.",
+        "따라서 would not be를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-002",
+    "sourceQuestionId": "Q-G58-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-003-DR",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If she were more organized, she (would have submitted / would submit) the report yesterday.",
+    "choices": [
+      "would have submitted",
+      "would submit"
+    ],
+    "answer": "would have submitted",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "정리정돈 능력의 시점은?",
+        "answer": "현재 성향",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "결과 시간표지는?",
+        "answer": "yesterday, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would submit": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "현재 성향.",
+        "yesterday, 과거.",
+        "따라서 would have submitted를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-003",
+    "sourceQuestionId": "Q-G58-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-004-DR",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If he knew how to drive, he (could have helped / could help) us last night.",
+    "choices": [
+      "could have helped",
+      "could help"
+    ],
+    "answer": "could have helped",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "운전 능력의 시점은?",
+        "answer": "현재 상태",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "도움의 시간표지는?",
+        "answer": "last night, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "could have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could help": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "현재 상태.",
+        "last night, 과거.",
+        "따라서 could have helped를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-004",
+    "sourceQuestionId": "Q-G58-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-005-DR",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If they had saved more money, they (could own / could have owned) a house now.",
+    "choices": [
+      "could own",
+      "could have owned"
+    ],
+    "answer": "could own",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "저축 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "소유 결과 시점은?",
+        "answer": "now, 현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "could + 동사원형",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could have owned": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "과거.",
+        "now, 현재.",
+        "따라서 could own를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-005",
+    "sourceQuestionId": "Q-G58-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-006-DR",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If I were not afraid of heights, I (would have joined / would join) the trip yesterday.",
+    "choices": [
+      "would have joined",
+      "would join"
+    ],
+    "answer": "would have joined",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "고소공포 성향 시점은?",
+        "answer": "현재 상태",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "여행 시간표지는?",
+        "answer": "yesterday, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would join": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "현재 상태.",
+        "yesterday, 과거.",
+        "따라서 would have joined를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-006",
+    "sourceQuestionId": "Q-G58-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-007-DR",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If we had taken the map, we (would not be / would not have been) lost now.",
+    "choices": [
+      "would not be",
+      "would not have been"
+    ],
+    "answer": "would not be",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "지도를 챙긴 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "길을 잃은 결과 시점은?",
+        "answer": "now, 현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "would not be",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would not have been": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "과거.",
+        "now, 현재.",
+        "따라서 would not be를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-007",
+    "sourceQuestionId": "Q-G58-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 23,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-008-DR",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If she were more careful, she (would not have broken / would not break) the vase yesterday.",
+    "choices": [
+      "would not have broken",
+      "would not break"
+    ],
+    "answer": "would not have broken",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "조심성의 시점은?",
+        "answer": "현재 성향",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "깨뜨린 시간표지는?",
+        "answer": "yesterday, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "would not have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would not break": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "if절과 주절의 시점을 각각 확인하지 않아 혼합가정법 형태를 잘못 골랐다.",
+      "summary": [
+        "현재 성향.",
+        "yesterday, 과거.",
+        "따라서 would not have broken를 선택한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-008",
+    "sourceQuestionId": "Q-G58-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 23,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-001-CT",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf he had taken the doctor’s advice, he (might be / might have been) alive now.",
+    "choices": [
+      "might have been",
+      "might be"
+    ],
+    "answer": "might have been",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "if절 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "주절 결과 시점은?",
+        "answer": "now, 현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "might + 동사원형",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might be": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'might have been'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'might be'이다.",
+      "summary": [
+        "과거.",
+        "now, 현재.",
+        "따라서 might be를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'might have been'이다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-001",
+    "sourceQuestionId": "Q-G58-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-002-CT",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf I had gone to bed earlier, I (would not be / would not have been) tired now.",
+    "choices": [
+      "would not be",
+      "would not have been"
+    ],
+    "answer": "would not have been",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "잠든 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "피곤한 결과 시점은?",
+        "answer": "현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would not be": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'would not have been'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would not be'이다.",
+      "summary": [
+        "과거.",
+        "현재.",
+        "따라서 would not be를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'would not have been'이다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-002",
+    "sourceQuestionId": "Q-G58-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-003-CT",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf she were more organized, she (would have submitted / would submit) the report yesterday.",
+    "choices": [
+      "would submit",
+      "would have submitted"
+    ],
+    "answer": "would submit",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "정리정돈 능력의 시점은?",
+        "answer": "현재 성향",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "결과 시간표지는?",
+        "answer": "yesterday, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have submitted": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'would submit'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would have submitted'이다.",
+      "summary": [
+        "현재 성향.",
+        "yesterday, 과거.",
+        "따라서 would have submitted를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'would submit'이다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-003",
+    "sourceQuestionId": "Q-G58-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-004-CT",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf he knew how to drive, he (could have helped / could help) us last night.",
+    "choices": [
+      "could help",
+      "could have helped"
+    ],
+    "answer": "could help",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "운전 능력의 시점은?",
+        "answer": "현재 상태",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "도움의 시간표지는?",
+        "answer": "last night, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "could have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could have helped": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'could help'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'could have helped'이다.",
+      "summary": [
+        "현재 상태.",
+        "last night, 과거.",
+        "따라서 could have helped를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'could help'이다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-004",
+    "sourceQuestionId": "Q-G58-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-005-CT",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf they had saved more money, they (could own / could have owned) a house now.",
+    "choices": [
+      "could own",
+      "could have owned"
+    ],
+    "answer": "could have owned",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "저축 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "소유 결과 시점은?",
+        "answer": "now, 현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "could + 동사원형",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could own": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'could have owned'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'could own'이다.",
+      "summary": [
+        "과거.",
+        "now, 현재.",
+        "따라서 could own를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'could have owned'이다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-005",
+    "sourceQuestionId": "Q-G58-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-006-CT",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf I were not afraid of heights, I (would have joined / would join) the trip yesterday.",
+    "choices": [
+      "would join",
+      "would have joined"
+    ],
+    "answer": "would join",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "고소공포 성향 시점은?",
+        "answer": "현재 상태",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "여행 시간표지는?",
+        "answer": "yesterday, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have joined": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'would join'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would have joined'이다.",
+      "summary": [
+        "현재 상태.",
+        "yesterday, 과거.",
+        "따라서 would have joined를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'would join'이다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-006",
+    "sourceQuestionId": "Q-G58-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-007-CT",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf we had taken the map, we (would not be / would not have been) lost now.",
+    "choices": [
+      "would not be",
+      "would not have been"
+    ],
+    "answer": "would not have been",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "지도를 챙긴 원인 시점은?",
+        "answer": "과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "길을 잃은 결과 시점은?",
+        "answer": "now, 현재",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "현재 결과 형태는?",
+        "answer": "would not be",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would not be": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'would not have been'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would not be'이다.",
+      "summary": [
+        "과거.",
+        "now, 현재.",
+        "따라서 would not be를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'would not have been'이다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-007",
+    "sourceQuestionId": "Q-G58-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 23,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G58-008-CT",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf she were more careful, she (would not have broken / would not break) the vase yesterday.",
+    "choices": [
+      "would not break",
+      "would not have broken"
+    ],
+    "answer": "would not break",
+    "decisionSteps": [
+      {
+        "id": "if_time",
+        "prompt": "조심성의 시점은?",
+        "answer": "현재 성향",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main_time",
+        "prompt": "깨뜨린 시간표지는?",
+        "answer": "yesterday, 과거",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      },
+      {
+        "id": "main",
+        "prompt": "과거 결과 형태는?",
+        "answer": "would not have p.p.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would not have broken": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'would not break'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would not have broken'이다.",
+      "summary": [
+        "현재 성향.",
+        "yesterday, 과거.",
+        "따라서 would not have broken를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'would not break'이다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G58-008",
+    "sourceQuestionId": "Q-G58-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 23,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 16,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-7671B2996A",
+    "conceptId": "G58_MIXED_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "빠른 확인: 혼합가정법에서 가장 먼저 할 일은?",
+    "choices": [
+      "if절과 주절의 시점을 각각 확인한다",
+      "두 절을 같은 시제로 맞춘다"
+    ],
+    "answer": "if절과 주절의 시점을 각각 확인한다",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "if절과 주절의 시점이 다르면 각 절의 시간에 맞춰 가정법 과거와 가정법 과거완료를 혼합한다.",
+          "주장·명령·요구·제안·권고의 당위성을 나타내는 that절에는 (should)+동사원형을 쓰며 should는 생략할 수 있다. 사실 주장·암시 의미이면 일반 시제를 쓴다."
+        ],
+        "answer": "if절과 주절의 시점이 다르면 각 절의 시간에 맞춰 가정법 과거와 가정법 과거완료를 혼합한다.",
+        "errorCode": "E62_MIXED_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "두 절을 같은 시제로 맞춘다": "E62_MIXED_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "if절과 주절의 시점이 다르면 각 절의 시간에 맞춰 가정법 과거와 가정법 과거완료를 혼합한다.",
+        "과거.",
+        "now, 현재.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G58",
+      "checkQuestion": {
+        "prompt": "혼합가정법에서 가장 먼저 할 일은?",
+        "choices": [
+          "if절과 주절의 시점을 각각 확인한다",
+          "두 절을 같은 시제로 맞춘다"
+        ],
+        "answer": "if절과 주절의 시점을 각각 확인한다"
+      },
+      "transferQuestionId": "Q-G58-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART6",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-7671B2996A",
+    "sourceQuestionId": "Q-G58-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

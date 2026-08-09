@@ -1,0 +1,5362 @@
+[
+  {
+    "id": "Q-P10-R04",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "최근 기출 4",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「changing」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-R04",
+    "actualWrong": {
+      "index": 4,
+      "text": "what",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「what」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「what」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「what」이다.",
+        "뒤 절이 주어+be동사+형용사의 완전한 문장이므로 접속사 that이 필요하다.",
+        "따라서 「what」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R04",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "ox",
+      "source",
+      "mixed",
+      "recovery"
+    ],
+    "familyId": "Q-P10-R04",
+    "sourceQuestionId": "Q-P10-R04",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R05",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "최근 기출 5",
+    "stem": "이 지문에서 어법상 틀린 부분은 5번 「which」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R05",
+    "actualWrong": {
+      "index": 5,
+      "text": "which",
+      "correction": "where"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "5번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「where」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 5번 「which」이다.",
+        "뒤 절이 완전하므로 장소를 나타내는 관계부사 where가 필요하다.",
+        "따라서 「which」를 「where」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R05",
+      "checkQuestion": {
+        "prompt": "「which」를 「where」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "ox",
+      "source",
+      "mixed",
+      "recovery"
+    ],
+    "familyId": "Q-P10-R05",
+    "sourceQuestionId": "Q-P10-R05",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R07",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "최근 기출 7",
+    "stem": "이 지문에서 어법상 틀린 부분은 5번 「whose」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R07",
+    "actualWrong": {
+      "index": 5,
+      "text": "whose",
+      "correction": "which"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "5번 「whose」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「whose」를 「which」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 5번 「whose」이다.",
+        "whose 뒤에는 명사가 와야 하지만 result는 동사이므로 주격 관계대명사 which가 필요하다.",
+        "따라서 「whose」를 「which」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R07",
+      "checkQuestion": {
+        "prompt": "「whose」를 「which」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "ox",
+      "source",
+      "mixed",
+      "recovery"
+    ],
+    "familyId": "Q-P10-R07",
+    "sourceQuestionId": "Q-P10-R07",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R09",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "최근 기출 9",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「what」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R09",
+    "actualWrong": {
+      "index": 3,
+      "text": "what",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "3번 「what」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「what」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 3번 「what」이다.",
+        "강조구문 It was ... that 구조이므로 what이 아니라 that이 필요하다.",
+        "따라서 「what」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R09",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "ox",
+      "source",
+      "mixed",
+      "recovery"
+    ],
+    "familyId": "Q-P10-R09",
+    "sourceQuestionId": "Q-P10-R09",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R13",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "최근 기출 13",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「which」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R13",
+    "actualWrong": {
+      "index": 4,
+      "text": "which",
+      "correction": "where"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「where」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「which」이다.",
+        "born 뒤 절은 완전하며 장소·문화의 범위를 나타내므로 where 또는 in which가 필요하다.",
+        "따라서 「which」를 「where」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R13",
+      "checkQuestion": {
+        "prompt": "「which」를 「where」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "ox",
+      "source",
+      "mixed",
+      "recovery"
+    ],
+    "familyId": "Q-P10-R13",
+    "sourceQuestionId": "Q-P10-R13",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R14",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "최근 기출 14",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「deeply」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-R14",
+    "actualWrong": {
+      "index": 5,
+      "text": "what",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "5번 「what」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「what」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 5번 「what」이다.",
+        "교재 해설 기준으로 뒤 절이 완전하므로 접속사 that이 필요하다.",
+        "따라서 「what」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R14",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "ox",
+      "source",
+      "mixed",
+      "recovery"
+    ],
+    "familyId": "Q-P10-R14",
+    "sourceQuestionId": "Q-P10-R14",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R15",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "최근 기출 15",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「What」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R15",
+    "actualWrong": {
+      "index": 4,
+      "text": "What",
+      "correction": "That"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「What」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「What」를 「That」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「What」이다.",
+        "뒤 절이 완전하므로 명사절 접속사 That이 필요하다.",
+        "따라서 「What」를 「That」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R15",
+      "checkQuestion": {
+        "prompt": "「What」를 「That」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "ox",
+      "source",
+      "mixed",
+      "recovery"
+    ],
+    "familyId": "Q-P10-R15",
+    "sourceQuestionId": "Q-P10-R15",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R19",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "최근 기출 19",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「which」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R19",
+    "actualWrong": {
+      "index": 3,
+      "text": "which",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "3번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 3번 「which」이다.",
+        "뒤 절이 완전하고 guarantees의 내용을 설명하므로 동격 접속사 that이 필요하다.",
+        "따라서 「which」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R19",
+      "checkQuestion": {
+        "prompt": "「which」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "ox",
+      "source",
+      "mixed",
+      "recovery"
+    ],
+    "familyId": "Q-P10-R19",
+    "sourceQuestionId": "Q-P10-R19",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R24",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "최근 기출 24",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「inadequate」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-R24",
+    "actualWrong": {
+      "index": 5,
+      "text": "which",
+      "correction": "where"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "5번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「where」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 5번 「which」이다.",
+        "뒤 절이 완전하므로 관계부사 where가 필요하다.",
+        "따라서 「which」를 「where」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R24",
+      "checkQuestion": {
+        "prompt": "「which」를 「where」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "ox",
+      "source",
+      "mixed",
+      "recovery"
+    ],
+    "familyId": "Q-P10-R24",
+    "sourceQuestionId": "Q-P10-R24",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R26",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "최근 기출 26",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「it」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-R26",
+    "actualWrong": {
+      "index": 2,
+      "text": "which",
+      "correction": "where"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "2번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「where」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 2번 「which」이다.",
+        "뒤 절이 완전하므로 상황을 나타내는 관계부사 where가 필요하다.",
+        "따라서 「which」를 「where」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R26",
+      "checkQuestion": {
+        "prompt": "「which」를 「where」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "ox",
+      "source",
+      "mixed",
+      "recovery"
+    ],
+    "familyId": "Q-P10-R26",
+    "sourceQuestionId": "Q-P10-R26",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-P01",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "다지기 1",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「what」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-P01",
+    "actualWrong": {
+      "index": 4,
+      "text": "what",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「what」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「what」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「what」이다.",
+        "discover 뒤의 명사절이 완전하므로 접속사 that이 필요하다.",
+        "따라서 「what」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-P01",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "ox",
+      "source",
+      "mixed",
+      "recovery"
+    ],
+    "familyId": "Q-P10-P01",
+    "sourceQuestionId": "Q-P10-P01",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-P08",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "다지기 8",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「to design」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-P08",
+    "actualWrong": {
+      "index": 3,
+      "text": "its",
+      "correction": "whose"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "3번 「its」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「its」를 「whose」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 3번 「its」이다.",
+        "algorithm을 선행사로 받고 뒤 명사 decisions를 꾸미므로 whose가 필요하다.",
+        "따라서 「its」를 「whose」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-P08",
+      "checkQuestion": {
+        "prompt": "「its」를 「whose」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "ox",
+      "source",
+      "mixed",
+      "recovery"
+    ],
+    "familyId": "Q-P10-P08",
+    "sourceQuestionId": "Q-P10-P08",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 2,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-P11",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "다지기 11",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「it」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-P11",
+    "actualWrong": {
+      "index": 3,
+      "text": "it",
+      "correction": "which"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "3번 「it」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「it」를 「which」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 3번 「it」이다.",
+        "앞 문장 전체를 받아 이어 주는 계속적 관계대명사 which가 필요하다.",
+        "따라서 「it」를 「which」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-P11",
+      "checkQuestion": {
+        "prompt": "「it」를 「which」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "ox",
+      "source",
+      "mixed",
+      "recovery"
+    ],
+    "familyId": "Q-P10-P11",
+    "sourceQuestionId": "Q-P10-P11",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-P12",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "다지기 12",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「alone」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-P12",
+    "actualWrong": {
+      "index": 4,
+      "text": "that",
+      "correction": "which"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「that」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「that」를 「which」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「that」이다.",
+        "콤마 뒤 계속적 용법에는 that을 쓸 수 없으므로 which가 필요하다.",
+        "따라서 「that」를 「which」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-P12",
+      "checkQuestion": {
+        "prompt": "「that」를 「which」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "ox",
+      "source",
+      "mixed",
+      "recovery"
+    ],
+    "familyId": "Q-P10-P12",
+    "sourceQuestionId": "Q-P10-P12",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R04-PF",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「changing」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-R04",
+    "actualWrong": {
+      "index": 4,
+      "text": "what",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「what」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「what」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「what」이다.",
+        "뒤 절이 주어+be동사+형용사의 완전한 문장이므로 접속사 that이 필요하다.",
+        "따라서 「what」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R04",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "active-recall",
+      "mixed",
+      "ox",
+      "process-first",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R04",
+    "sourceQuestionId": "Q-P10-R04",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R05-PF",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "이 지문에서 어법상 틀린 부분은 5번 「which」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R05",
+    "actualWrong": {
+      "index": 5,
+      "text": "which",
+      "correction": "where"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "5번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「where」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 5번 「which」이다.",
+        "뒤 절이 완전하므로 장소를 나타내는 관계부사 where가 필요하다.",
+        "따라서 「which」를 「where」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R05",
+      "checkQuestion": {
+        "prompt": "「which」를 「where」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "active-recall",
+      "mixed",
+      "ox",
+      "process-first",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R05",
+    "sourceQuestionId": "Q-P10-R05",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R07-PF",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "이 지문에서 어법상 틀린 부분은 5번 「whose」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R07",
+    "actualWrong": {
+      "index": 5,
+      "text": "whose",
+      "correction": "which"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "5번 「whose」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「whose」를 「which」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 5번 「whose」이다.",
+        "whose 뒤에는 명사가 와야 하지만 result는 동사이므로 주격 관계대명사 which가 필요하다.",
+        "따라서 「whose」를 「which」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R07",
+      "checkQuestion": {
+        "prompt": "「whose」를 「which」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "active-recall",
+      "mixed",
+      "ox",
+      "process-first",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R07",
+    "sourceQuestionId": "Q-P10-R07",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R09-PF",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「what」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R09",
+    "actualWrong": {
+      "index": 3,
+      "text": "what",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "3번 「what」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「what」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 3번 「what」이다.",
+        "강조구문 It was ... that 구조이므로 what이 아니라 that이 필요하다.",
+        "따라서 「what」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R09",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "active-recall",
+      "mixed",
+      "ox",
+      "process-first",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R09",
+    "sourceQuestionId": "Q-P10-R09",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R13-PF",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「which」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R13",
+    "actualWrong": {
+      "index": 4,
+      "text": "which",
+      "correction": "where"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「where」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「which」이다.",
+        "born 뒤 절은 완전하며 장소·문화의 범위를 나타내므로 where 또는 in which가 필요하다.",
+        "따라서 「which」를 「where」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R13",
+      "checkQuestion": {
+        "prompt": "「which」를 「where」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "active-recall",
+      "mixed",
+      "ox",
+      "process-first",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R13",
+    "sourceQuestionId": "Q-P10-R13",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R14-PF",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「deeply」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-R14",
+    "actualWrong": {
+      "index": 5,
+      "text": "what",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "5번 「what」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「what」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 5번 「what」이다.",
+        "교재 해설 기준으로 뒤 절이 완전하므로 접속사 that이 필요하다.",
+        "따라서 「what」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R14",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "active-recall",
+      "mixed",
+      "ox",
+      "process-first",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R14",
+    "sourceQuestionId": "Q-P10-R14",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R15-PF",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「What」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R15",
+    "actualWrong": {
+      "index": 4,
+      "text": "What",
+      "correction": "That"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「What」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「What」를 「That」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「What」이다.",
+        "뒤 절이 완전하므로 명사절 접속사 That이 필요하다.",
+        "따라서 「What」를 「That」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R15",
+      "checkQuestion": {
+        "prompt": "「What」를 「That」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "active-recall",
+      "mixed",
+      "ox",
+      "process-first",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R15",
+    "sourceQuestionId": "Q-P10-R15",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R19-PF",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「which」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R19",
+    "actualWrong": {
+      "index": 3,
+      "text": "which",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "3번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 3번 「which」이다.",
+        "뒤 절이 완전하고 guarantees의 내용을 설명하므로 동격 접속사 that이 필요하다.",
+        "따라서 「which」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R19",
+      "checkQuestion": {
+        "prompt": "「which」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "active-recall",
+      "mixed",
+      "ox",
+      "process-first",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R19",
+    "sourceQuestionId": "Q-P10-R19",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R24-PF",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「inadequate」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-R24",
+    "actualWrong": {
+      "index": 5,
+      "text": "which",
+      "correction": "where"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "5번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「where」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 5번 「which」이다.",
+        "뒤 절이 완전하므로 관계부사 where가 필요하다.",
+        "따라서 「which」를 「where」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R24",
+      "checkQuestion": {
+        "prompt": "「which」를 「where」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "active-recall",
+      "mixed",
+      "ox",
+      "process-first",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R24",
+    "sourceQuestionId": "Q-P10-R24",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R26-PF",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「it」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-R26",
+    "actualWrong": {
+      "index": 2,
+      "text": "which",
+      "correction": "where"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "2번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「where」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 2번 「which」이다.",
+        "뒤 절이 완전하므로 상황을 나타내는 관계부사 where가 필요하다.",
+        "따라서 「which」를 「where」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R26",
+      "checkQuestion": {
+        "prompt": "「which」를 「where」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "active-recall",
+      "mixed",
+      "ox",
+      "process-first",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R26",
+    "sourceQuestionId": "Q-P10-R26",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-P01-PF",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「what」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-P01",
+    "actualWrong": {
+      "index": 4,
+      "text": "what",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「what」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「what」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「what」이다.",
+        "discover 뒤의 명사절이 완전하므로 접속사 that이 필요하다.",
+        "따라서 「what」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-P01",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "active-recall",
+      "mixed",
+      "ox",
+      "process-first",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-P01",
+    "sourceQuestionId": "Q-P10-P01",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-P08-PF",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「to design」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-P08",
+    "actualWrong": {
+      "index": 3,
+      "text": "its",
+      "correction": "whose"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "3번 「its」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「its」를 「whose」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 3번 「its」이다.",
+        "algorithm을 선행사로 받고 뒤 명사 decisions를 꾸미므로 whose가 필요하다.",
+        "따라서 「its」를 「whose」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-P08",
+      "checkQuestion": {
+        "prompt": "「its」를 「whose」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "active-recall",
+      "mixed",
+      "ox",
+      "process-first",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-P08",
+    "sourceQuestionId": "Q-P10-P08",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 2,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-P11-PF",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「it」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-P11",
+    "actualWrong": {
+      "index": 3,
+      "text": "it",
+      "correction": "which"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "3번 「it」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「it」를 「which」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 3번 「it」이다.",
+        "앞 문장 전체를 받아 이어 주는 계속적 관계대명사 which가 필요하다.",
+        "따라서 「it」를 「which」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-P11",
+      "checkQuestion": {
+        "prompt": "「it」를 「which」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "active-recall",
+      "mixed",
+      "ox",
+      "process-first",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-P11",
+    "sourceQuestionId": "Q-P10-P11",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-P12-PF",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「alone」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-P12",
+    "actualWrong": {
+      "index": 4,
+      "text": "that",
+      "correction": "which"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「that」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「that」를 「which」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「that」이다.",
+        "콤마 뒤 계속적 용법에는 that을 쓸 수 없으므로 which가 필요하다.",
+        "따라서 「that」를 「which」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-P12",
+      "checkQuestion": {
+        "prompt": "「that」를 「which」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "active-recall",
+      "mixed",
+      "ox",
+      "process-first",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-P12",
+    "sourceQuestionId": "Q-P10-P12",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R04-DR",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「changing」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-R04",
+    "actualWrong": {
+      "index": 4,
+      "text": "what",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「what」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「what」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「what」이다.",
+        "뒤 절이 주어+be동사+형용사의 완전한 문장이므로 접속사 that이 필요하다.",
+        "따라서 「what」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R04",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "mixed",
+      "ox",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R04",
+    "sourceQuestionId": "Q-P10-R04",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R05-DR",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "이 지문에서 어법상 틀린 부분은 5번 「which」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R05",
+    "actualWrong": {
+      "index": 5,
+      "text": "which",
+      "correction": "where"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "5번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「where」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 5번 「which」이다.",
+        "뒤 절이 완전하므로 장소를 나타내는 관계부사 where가 필요하다.",
+        "따라서 「which」를 「where」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R05",
+      "checkQuestion": {
+        "prompt": "「which」를 「where」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "mixed",
+      "ox",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R05",
+    "sourceQuestionId": "Q-P10-R05",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R07-DR",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "이 지문에서 어법상 틀린 부분은 5번 「whose」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R07",
+    "actualWrong": {
+      "index": 5,
+      "text": "whose",
+      "correction": "which"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "5번 「whose」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「whose」를 「which」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 5번 「whose」이다.",
+        "whose 뒤에는 명사가 와야 하지만 result는 동사이므로 주격 관계대명사 which가 필요하다.",
+        "따라서 「whose」를 「which」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R07",
+      "checkQuestion": {
+        "prompt": "「whose」를 「which」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "mixed",
+      "ox",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R07",
+    "sourceQuestionId": "Q-P10-R07",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R09-DR",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「what」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R09",
+    "actualWrong": {
+      "index": 3,
+      "text": "what",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "3번 「what」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「what」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 3번 「what」이다.",
+        "강조구문 It was ... that 구조이므로 what이 아니라 that이 필요하다.",
+        "따라서 「what」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R09",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "mixed",
+      "ox",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R09",
+    "sourceQuestionId": "Q-P10-R09",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R13-DR",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「which」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R13",
+    "actualWrong": {
+      "index": 4,
+      "text": "which",
+      "correction": "where"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「where」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「which」이다.",
+        "born 뒤 절은 완전하며 장소·문화의 범위를 나타내므로 where 또는 in which가 필요하다.",
+        "따라서 「which」를 「where」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R13",
+      "checkQuestion": {
+        "prompt": "「which」를 「where」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "mixed",
+      "ox",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R13",
+    "sourceQuestionId": "Q-P10-R13",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R14-DR",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「deeply」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-R14",
+    "actualWrong": {
+      "index": 5,
+      "text": "what",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "5번 「what」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「what」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 5번 「what」이다.",
+        "교재 해설 기준으로 뒤 절이 완전하므로 접속사 that이 필요하다.",
+        "따라서 「what」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R14",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "mixed",
+      "ox",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R14",
+    "sourceQuestionId": "Q-P10-R14",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R15-DR",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「What」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R15",
+    "actualWrong": {
+      "index": 4,
+      "text": "What",
+      "correction": "That"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「What」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「What」를 「That」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「What」이다.",
+        "뒤 절이 완전하므로 명사절 접속사 That이 필요하다.",
+        "따라서 「What」를 「That」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R15",
+      "checkQuestion": {
+        "prompt": "「What」를 「That」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "mixed",
+      "ox",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R15",
+    "sourceQuestionId": "Q-P10-R15",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R19-DR",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「which」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-R19",
+    "actualWrong": {
+      "index": 3,
+      "text": "which",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "3번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 3번 「which」이다.",
+        "뒤 절이 완전하고 guarantees의 내용을 설명하므로 동격 접속사 that이 필요하다.",
+        "따라서 「which」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R19",
+      "checkQuestion": {
+        "prompt": "「which」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "mixed",
+      "ox",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R19",
+    "sourceQuestionId": "Q-P10-R19",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R24-DR",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「inadequate」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-R24",
+    "actualWrong": {
+      "index": 5,
+      "text": "which",
+      "correction": "where"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "5번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「where」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 5번 「which」이다.",
+        "뒤 절이 완전하므로 관계부사 where가 필요하다.",
+        "따라서 「which」를 「where」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R24",
+      "checkQuestion": {
+        "prompt": "「which」를 「where」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "mixed",
+      "ox",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R24",
+    "sourceQuestionId": "Q-P10-R24",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-R26-DR",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「it」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-R26",
+    "actualWrong": {
+      "index": 2,
+      "text": "which",
+      "correction": "where"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "2번 「which」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「which」를 「where」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 2번 「which」이다.",
+        "뒤 절이 완전하므로 상황을 나타내는 관계부사 where가 필요하다.",
+        "따라서 「which」를 「where」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-R26",
+      "checkQuestion": {
+        "prompt": "「which」를 「where」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "mixed",
+      "ox",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-R26",
+    "sourceQuestionId": "Q-P10-R26",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-P01-DR",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「what」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-P01",
+    "actualWrong": {
+      "index": 4,
+      "text": "what",
+      "correction": "that"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「what」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「what」를 「that」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「what」이다.",
+        "discover 뒤의 명사절이 완전하므로 접속사 that이 필요하다.",
+        "따라서 「what」를 「that」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-P01",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "mixed",
+      "ox",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-P01",
+    "sourceQuestionId": "Q-P10-P01",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-P08-DR",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 2,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "이 지문에서 어법상 틀린 부분은 4번 「to design」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-P08",
+    "actualWrong": {
+      "index": 3,
+      "text": "its",
+      "correction": "whose"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "3번 「its」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「its」를 「whose」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 3번 「its」이다.",
+        "algorithm을 선행사로 받고 뒤 명사 decisions를 꾸미므로 whose가 필요하다.",
+        "따라서 「its」를 「whose」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-P08",
+      "checkQuestion": {
+        "prompt": "「its」를 「whose」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "mixed",
+      "ox",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-P08",
+    "sourceQuestionId": "Q-P10-P08",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 2,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-P11-DR",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「it」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "sourcePreviewRef": "SRC-P10-P11",
+    "actualWrong": {
+      "index": 3,
+      "text": "it",
+      "correction": "which"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "3번 「it」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「it」를 「which」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 3번 「it」이다.",
+        "앞 문장 전체를 받아 이어 주는 계속적 관계대명사 which가 필요하다.",
+        "따라서 「it」를 「which」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-P11",
+      "checkQuestion": {
+        "prompt": "「it」를 「which」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "mixed",
+      "ox",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-P11",
+    "sourceQuestionId": "Q-P10-P11",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P10-P12-DR",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 3,
+    "questionType": "ox_source_diagnostic",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "이 지문에서 어법상 틀린 부분은 3번 「alone」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "X",
+    "sourcePreviewRef": "SRC-P10-P12",
+    "actualWrong": {
+      "index": 4,
+      "text": "that",
+      "correction": "which"
+    },
+    "decisionSteps": [
+      {
+        "id": "category",
+        "prompt": "핵심 판단 영역은 「절 완전성」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "judge",
+        "prompt": "4번 「that」는 어법상 틀리다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      },
+      {
+        "id": "correct",
+        "prompt": "「that」를 「which」로 고치면 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "O": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "선행사와 뒤 절의 완전·불완전을 확인하지 않고 관계사·접속사를 선택했다.",
+      "summary": [
+        "실제 오답 위치는 4번 「that」이다.",
+        "콤마 뒤 계속적 용법에는 that을 쓸 수 없으므로 which가 필요하다.",
+        "따라서 「that」를 「which」로 고친다."
+      ],
+      "sourceRef": "SRC-P10-P12",
+      "checkQuestion": {
+        "prompt": "「that」를 「which」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "교재 지문 확인과 OX 단계 점검 후 원문 재도전"
+    },
+    "origin": "source_problem_ox_conversion",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "mixed",
+      "ox",
+      "recovery",
+      "source"
+    ],
+    "familyId": "Q-P10-P12",
+    "sourceQuestionId": "Q-P10-P12",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 37,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 1,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-9CFA2B7E94",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "stem": "빠른 확인: 「What」를 「That」로 고쳐야 한다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "and·or·but의 좌우 형식을 맞추고, 대명사·대동사가 무엇을 대신 받는지 단수·복수·동사 종류까지 확인한다.",
+          "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다."
+        ],
+        "answer": "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "실제 오답 위치는 4번 「What」이다.",
+        "뒤 절이 완전하므로 명사절 접속사 That이 필요하다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-P10-R15",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-P10-R15",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-9CFA2B7E94",
+    "sourceQuestionId": "Q-P10-R15",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-417B16F79B",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "stem": "빠른 확인: 「its」를 「whose」로 고쳐야 한다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "and·or·but의 좌우 형식을 맞추고, 대명사·대동사가 무엇을 대신 받는지 단수·복수·동사 종류까지 확인한다.",
+          "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다."
+        ],
+        "answer": "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "실제 오답 위치는 3번 「its」이다.",
+        "algorithm을 선행사로 받고 뒤 명사 decisions를 꾸미므로 whose가 필요하다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-P10-P08",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-P10-P08",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-417B16F79B",
+    "sourceQuestionId": "Q-P10-P08",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-29FDEA01D2",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "stem": "빠른 확인: 「it」를 「which」로 고쳐야 한다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "and·or·but의 좌우 형식을 맞추고, 대명사·대동사가 무엇을 대신 받는지 단수·복수·동사 종류까지 확인한다.",
+          "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다."
+        ],
+        "answer": "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "실제 오답 위치는 3번 「it」이다.",
+        "앞 문장 전체를 받아 이어 주는 계속적 관계대명사 which가 필요하다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-P10-P11",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-P10-P11",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-29FDEA01D2",
+    "sourceQuestionId": "Q-P10-P11",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-C5B496ACC6",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "stem": "빠른 확인: 「that」를 「which」로 고쳐야 한다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "and·or·but의 좌우 형식을 맞추고, 대명사·대동사가 무엇을 대신 받는지 단수·복수·동사 종류까지 확인한다.",
+          "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다."
+        ],
+        "answer": "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "실제 오답 위치는 4번 「that」이다.",
+        "콤마 뒤 계속적 용법에는 that을 쓸 수 없으므로 which가 필요하다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-P10-P12",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-P10-P12",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART10",
+    "chapter": "PRACTICE",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-C5B496ACC6",
+    "sourceQuestionId": "Q-P10-P12",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-8DE86FF526",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "stem": "빠른 확인: 「what」를 「that」로 고쳐야 한다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+          "and·or·but의 좌우 형식을 맞추고, 대명사·대동사가 무엇을 대신 받는지 단수·복수·동사 종류까지 확인한다."
+        ],
+        "answer": "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "실제 오답 위치는 4번 「what」이다.",
+        "뒤 절이 주어+be동사+형용사의 완전한 문장이므로 접속사 that이 필요하다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-P10-R04",
+      "checkQuestion": {
+        "prompt": "「which」를 「where」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-P10-R04",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-8DE86FF526",
+    "sourceQuestionId": "Q-P10-R04",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-D8E42EF4D0",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "stem": "빠른 확인: 「which」를 「that」로 고쳐야 한다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+          "and·or·but의 좌우 형식을 맞추고, 대명사·대동사가 무엇을 대신 받는지 단수·복수·동사 종류까지 확인한다."
+        ],
+        "answer": "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "실제 오답 위치는 3번 「which」이다.",
+        "뒤 절이 완전하고 guarantees의 내용을 설명하므로 동격 접속사 that이 필요하다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-P10-R19",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-P10-R19",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-D8E42EF4D0",
+    "sourceQuestionId": "Q-P10-R19",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-0946363E77",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "stem": "빠른 확인: 「which」를 「where」로 고쳐야 한다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+          "and·or·but의 좌우 형식을 맞추고, 대명사·대동사가 무엇을 대신 받는지 단수·복수·동사 종류까지 확인한다."
+        ],
+        "answer": "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "실제 오답 위치는 5번 「which」이다.",
+        "뒤 절이 완전하므로 장소를 나타내는 관계부사 where가 필요하다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-P10-R05",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-P10-R05",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-0946363E77",
+    "sourceQuestionId": "Q-P10-R05",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-6B02909442",
+    "conceptId": "G89_MIXED_CLAUSE_DIAGNOSIS",
+    "difficulty": 1,
+    "stem": "빠른 확인: 「whose」를 「which」로 고쳐야 한다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+          "and·or·but의 좌우 형식을 맞추고, 대명사·대동사가 무엇을 대신 받는지 단수·복수·동사 종류까지 확인한다."
+        ],
+        "answer": "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "errorCode": "E93_MIXED_CLAUSE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E93_MIXED_CLAUSE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사·접속사는 선행사 유무와 뒤 절의 완전·불완전을 먼저 확인하고 what·that·which·where 등을 결정한다.",
+        "실제 오답 위치는 5번 「whose」이다.",
+        "whose 뒤에는 명사가 와야 하지만 result는 동사이므로 주격 관계대명사 which가 필요하다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-P10-R07",
+      "checkQuestion": {
+        "prompt": "「what」를 「that」로 고쳐야 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-P10-R07",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART10",
+    "chapter": "RECENT",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-6B02909442",
+    "sourceQuestionId": "Q-P10-R07",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

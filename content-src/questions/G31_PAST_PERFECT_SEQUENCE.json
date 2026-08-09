@@ -1,0 +1,3563 @@
+[
+  {
+    "id": "Q-G31-001",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "When I arrived, the train (left / had left).",
+    "choices": [
+      "left",
+      "had left"
+    ],
+    "answer": "had left",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "기차 출발",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "left": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "기차 출발이(가) 내 도착보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had left를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-001",
+    "sourceQuestionId": "Q-G31-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-002",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "She realized that she (lost / had lost) her key.",
+    "choices": [
+      "lost",
+      "had lost"
+    ],
+    "answer": "had lost",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "열쇠 분실",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "lost": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "열쇠 분실이(가) 깨달음보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had lost를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-002",
+    "sourceQuestionId": "Q-G31-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-003",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "By the time the class started, the teacher (prepared / had prepared) all the materials.",
+    "choices": [
+      "prepared",
+      "had prepared"
+    ],
+    "answer": "had prepared",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "자료 준비",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "prepared": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "자료 준비이(가) 수업 시작보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had prepared를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-003",
+    "sourceQuestionId": "Q-G31-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-004",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "He apologized because he (made / had made) a mistake earlier.",
+    "choices": [
+      "made",
+      "had made"
+    ],
+    "answer": "had made",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "실수",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "made": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "실수이(가) 사과보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had made를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-004",
+    "sourceQuestionId": "Q-G31-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-005",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "The room was empty because everyone (went / had gone) home.",
+    "choices": [
+      "went",
+      "had gone"
+    ],
+    "answer": "had gone",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "귀가",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "went": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "귀가이(가) 방이 비어 있음보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had gone를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-005",
+    "sourceQuestionId": "Q-G31-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-006",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "After the storm ended, we saw that several trees (fell / had fallen).",
+    "choices": [
+      "fell",
+      "had fallen"
+    ],
+    "answer": "had fallen",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "나무가 쓰러짐",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "fell": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "나무가 쓰러짐이(가) 우리가 확인보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had fallen를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-006",
+    "sourceQuestionId": "Q-G31-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-007",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "She could not enter because she (forgot / had forgotten) the code.",
+    "choices": [
+      "forgot",
+      "had forgotten"
+    ],
+    "answer": "had forgotten",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "코드 망각",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "forgot": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "코드 망각이(가) 입장 실패보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had forgotten를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-007",
+    "sourceQuestionId": "Q-G31-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-008",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "The manager discovered that someone (changed / had changed) the file.",
+    "choices": [
+      "changed",
+      "had changed"
+    ],
+    "answer": "had changed",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "파일 변경",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "changed": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "파일 변경이(가) 발견보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had changed를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-008",
+    "sourceQuestionId": "Q-G31-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-001-PF",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "When I arrived, the train (left / had left).",
+    "choices": [
+      "left",
+      "had left"
+    ],
+    "answer": "had left",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "기차 출발",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "left": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "기차 출발이(가) 내 도착보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had left를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-001",
+    "sourceQuestionId": "Q-G31-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-002-PF",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "She realized that she (lost / had lost) her key.",
+    "choices": [
+      "lost",
+      "had lost"
+    ],
+    "answer": "had lost",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "열쇠 분실",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "lost": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "열쇠 분실이(가) 깨달음보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had lost를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-002",
+    "sourceQuestionId": "Q-G31-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-003-PF",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "By the time the class started, the teacher (prepared / had prepared) all the materials.",
+    "choices": [
+      "prepared",
+      "had prepared"
+    ],
+    "answer": "had prepared",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "자료 준비",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "prepared": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "자료 준비이(가) 수업 시작보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had prepared를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-003",
+    "sourceQuestionId": "Q-G31-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-004-PF",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "He apologized because he (made / had made) a mistake earlier.",
+    "choices": [
+      "made",
+      "had made"
+    ],
+    "answer": "had made",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "실수",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "made": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "실수이(가) 사과보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had made를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-004",
+    "sourceQuestionId": "Q-G31-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-005-PF",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "The room was empty because everyone (went / had gone) home.",
+    "choices": [
+      "went",
+      "had gone"
+    ],
+    "answer": "had gone",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "귀가",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "went": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "귀가이(가) 방이 비어 있음보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had gone를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-005",
+    "sourceQuestionId": "Q-G31-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-006-PF",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "After the storm ended, we saw that several trees (fell / had fallen).",
+    "choices": [
+      "fell",
+      "had fallen"
+    ],
+    "answer": "had fallen",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "나무가 쓰러짐",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "fell": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "나무가 쓰러짐이(가) 우리가 확인보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had fallen를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-006",
+    "sourceQuestionId": "Q-G31-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 73,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-007-PF",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "She could not enter because she (forgot / had forgotten) the code.",
+    "choices": [
+      "forgot",
+      "had forgotten"
+    ],
+    "answer": "had forgotten",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "코드 망각",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "forgot": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "코드 망각이(가) 입장 실패보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had forgotten를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-007",
+    "sourceQuestionId": "Q-G31-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 72,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-008-PF",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "The manager discovered that someone (changed / had changed) the file.",
+    "choices": [
+      "changed",
+      "had changed"
+    ],
+    "answer": "had changed",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "파일 변경",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "changed": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "파일 변경이(가) 발견보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had changed를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-008",
+    "sourceQuestionId": "Q-G31-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-001-DR",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "When I arrived, the train (left / had left).",
+    "choices": [
+      "left",
+      "had left"
+    ],
+    "answer": "had left",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "기차 출발",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "left": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "기차 출발이(가) 내 도착보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had left를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-001",
+    "sourceQuestionId": "Q-G31-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-002-DR",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "She realized that she (lost / had lost) her key.",
+    "choices": [
+      "lost",
+      "had lost"
+    ],
+    "answer": "had lost",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "열쇠 분실",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "lost": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "열쇠 분실이(가) 깨달음보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had lost를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-002",
+    "sourceQuestionId": "Q-G31-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-003-DR",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "By the time the class started, the teacher (prepared / had prepared) all the materials.",
+    "choices": [
+      "prepared",
+      "had prepared"
+    ],
+    "answer": "had prepared",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "자료 준비",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "prepared": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "자료 준비이(가) 수업 시작보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had prepared를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-003",
+    "sourceQuestionId": "Q-G31-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-004-DR",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "He apologized because he (made / had made) a mistake earlier.",
+    "choices": [
+      "made",
+      "had made"
+    ],
+    "answer": "had made",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "실수",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "made": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "실수이(가) 사과보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had made를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-004",
+    "sourceQuestionId": "Q-G31-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-005-DR",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "The room was empty because everyone (went / had gone) home.",
+    "choices": [
+      "went",
+      "had gone"
+    ],
+    "answer": "had gone",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "귀가",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "went": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "귀가이(가) 방이 비어 있음보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had gone를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-005",
+    "sourceQuestionId": "Q-G31-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-006-DR",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "After the storm ended, we saw that several trees (fell / had fallen).",
+    "choices": [
+      "fell",
+      "had fallen"
+    ],
+    "answer": "had fallen",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "나무가 쓰러짐",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "fell": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "나무가 쓰러짐이(가) 우리가 확인보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had fallen를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-006",
+    "sourceQuestionId": "Q-G31-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-007-DR",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "She could not enter because she (forgot / had forgotten) the code.",
+    "choices": [
+      "forgot",
+      "had forgotten"
+    ],
+    "answer": "had forgotten",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "코드 망각",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "forgot": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "코드 망각이(가) 입장 실패보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had forgotten를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-007",
+    "sourceQuestionId": "Q-G31-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-008-DR",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "The manager discovered that someone (changed / had changed) the file.",
+    "choices": [
+      "changed",
+      "had changed"
+    ],
+    "answer": "had changed",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "파일 변경",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "changed": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "파일 변경이(가) 발견보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had changed를 선택한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-008",
+    "sourceQuestionId": "Q-G31-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-001-CT",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWhen I arrived, the train (left / had left).",
+    "choices": [
+      "left",
+      "had left"
+    ],
+    "answer": "left",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "기차 출발",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had left": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "'left'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'had left'이다.",
+      "summary": [
+        "기차 출발이(가) 내 도착보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had left를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'left'이다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-001",
+    "sourceQuestionId": "Q-G31-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-002-CT",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe realized that she (lost / had lost) her key.",
+    "choices": [
+      "lost",
+      "had lost"
+    ],
+    "answer": "lost",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "열쇠 분실",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had lost": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "'lost'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'had lost'이다.",
+      "summary": [
+        "열쇠 분실이(가) 깨달음보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had lost를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'lost'이다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-002",
+    "sourceQuestionId": "Q-G31-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-003-CT",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nBy the time the class started, the teacher (prepared / had prepared) all the materials.",
+    "choices": [
+      "had prepared",
+      "prepared"
+    ],
+    "answer": "prepared",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "자료 준비",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had prepared": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "'prepared'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'had prepared'이다.",
+      "summary": [
+        "자료 준비이(가) 수업 시작보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had prepared를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'prepared'이다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-003",
+    "sourceQuestionId": "Q-G31-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 33,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-004-CT",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe apologized because he (made / had made) a mistake earlier.",
+    "choices": [
+      "had made",
+      "made"
+    ],
+    "answer": "made",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "실수",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had made": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "'made'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'had made'이다.",
+      "summary": [
+        "실수이(가) 사과보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had made를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'made'이다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-004",
+    "sourceQuestionId": "Q-G31-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-005-CT",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe room was empty because everyone (went / had gone) home.",
+    "choices": [
+      "had gone",
+      "went"
+    ],
+    "answer": "went",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "귀가",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had gone": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "'went'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'had gone'이다.",
+      "summary": [
+        "귀가이(가) 방이 비어 있음보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had gone를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'went'이다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-005",
+    "sourceQuestionId": "Q-G31-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-006-CT",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nAfter the storm ended, we saw that several trees (fell / had fallen).",
+    "choices": [
+      "had fallen",
+      "fell"
+    ],
+    "answer": "fell",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "나무가 쓰러짐",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had fallen": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "'fell'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'had fallen'이다.",
+      "summary": [
+        "나무가 쓰러짐이(가) 우리가 확인보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had fallen를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'fell'이다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-006",
+    "sourceQuestionId": "Q-G31-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-007-CT",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe could not enter because she (forgot / had forgotten) the code.",
+    "choices": [
+      "had forgotten",
+      "forgot"
+    ],
+    "answer": "forgot",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "코드 망각",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had forgotten": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "'forgot'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'had forgotten'이다.",
+      "summary": [
+        "코드 망각이(가) 입장 실패보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had forgotten를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'forgot'이다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-007",
+    "sourceQuestionId": "Q-G31-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 43,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G31-008-CT",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe manager discovered that someone (changed / had changed) the file.",
+    "choices": [
+      "changed",
+      "had changed"
+    ],
+    "answer": "changed",
+    "decisionSteps": [
+      {
+        "id": "events",
+        "prompt": "과거 사건은 몇 개인가?",
+        "answer": "2개",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "order",
+        "prompt": "먼저 일어난 사건은?",
+        "answer": "파일 변경",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "form",
+        "prompt": "먼저 사건에 쓸 형태는?",
+        "answer": "had + p.p.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had changed": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "'changed'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'had changed'이다.",
+      "summary": [
+        "파일 변경이(가) 발견보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "따라서 had changed를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'changed'이다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G31-008",
+    "sourceQuestionId": "Q-G31-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-3564E43BC7",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 두 과거 사건 중 먼저 일어난 사건의 형태는?",
+    "choices": [
+      "had + p.p.",
+      "단순 과거"
+    ],
+    "answer": "had + p.p.",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "해석보다 시간 표지를 먼저 보고, last·ago는 과거형, since·for는 현재완료로 교정한다.",
+          "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다."
+        ],
+        "answer": "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "단순 과거": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+        "기차 출발이(가) 내 도착보다 먼저 일어났다.",
+        "먼저 사건은 대과거로 표시한다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "두 과거 사건 중 먼저 일어난 사건의 형태는?",
+        "choices": [
+          "had + p.p.",
+          "단순 과거"
+        ],
+        "answer": "had + p.p."
+      },
+      "transferQuestionId": "Q-G31-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-3564E43BC7",
+    "sourceQuestionId": "Q-G31-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-053-A2B9F5C0",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "The supervisor [worked / had worked] with us for seven years when he suddenly announced his resignation.",
+    "choices": [
+      "worked",
+      "had worked"
+    ],
+    "answer": "had worked",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대과거와 사건 순서",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대과거와 사건 순서",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "worked": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+        "과거 사건 두 개를 찾는다",
+        "먼저 사건에 had+p.p.를 적용한다"
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다."
+      },
+      "transferQuestionId": "Q-G31-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-053-A2B9F5C0",
+    "sourceQuestionId": "Q-P21-G-053-A2B9F5C0",
+    "sourceCandidateId": "CAND-G-053-A2B9F5C0",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 53,
+      "asset": "assets/source-evidence/phase21/grammar-page-053.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-053-A2B9F5C0",
+      "evidenceRef": "SRC-P21-G-053",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-053-A2B9F5C0-PF",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "The supervisor [worked / had worked] with us for seven years when he suddenly announced his resignation.",
+    "choices": [
+      "worked",
+      "had worked"
+    ],
+    "answer": "had worked",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대과거와 사건 순서",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대과거와 사건 순서",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "worked": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+        "과거 사건 두 개를 찾는다",
+        "먼저 사건에 had+p.p.를 적용한다"
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다."
+      },
+      "transferQuestionId": "Q-G31-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-053-A2B9F5C0",
+    "sourceQuestionId": "Q-P21-G-053-A2B9F5C0",
+    "sourceCandidateId": "CAND-G-053-A2B9F5C0",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 53,
+      "asset": "assets/source-evidence/phase21/grammar-page-053.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-053-A2B9F5C0",
+      "evidenceRef": "SRC-P21-G-053",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-053-A2B9F5C0-DR",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "The supervisor [worked / had worked] with us for seven years when he suddenly announced his resignation.",
+    "choices": [
+      "worked",
+      "had worked"
+    ],
+    "answer": "had worked",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대과거와 사건 순서",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대과거와 사건 순서",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "worked": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "두 과거 사건의 선후 관계를 확인하지 않았다.",
+      "summary": [
+        "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+        "과거 사건 두 개를 찾는다",
+        "먼저 사건에 had+p.p.를 적용한다"
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다."
+      },
+      "transferQuestionId": "Q-G31-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-053-A2B9F5C0",
+    "sourceQuestionId": "Q-P21-G-053-A2B9F5C0",
+    "sourceCandidateId": "CAND-G-053-A2B9F5C0",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 53,
+      "asset": "assets/source-evidence/phase21/grammar-page-053.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-053-A2B9F5C0",
+      "evidenceRef": "SRC-P21-G-053",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-053-A2B9F5C0-CT",
+    "conceptId": "G31_PAST_PERFECT_SEQUENCE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe supervisor [worked / had worked] with us for seven years when he suddenly announced his resignation.",
+    "choices": [
+      "worked",
+      "had worked"
+    ],
+    "answer": "worked",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대과거와 사건 순서",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대과거와 사건 순서",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+        "errorCode": "E35_PAST_PERFECT_ORDER"
+      }
+    ],
+    "misconceptionByChoice": {
+      "had worked": "E35_PAST_PERFECT_ORDER"
+    },
+    "remediation": {
+      "diagnosis": "'worked'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'had worked'이다.",
+      "summary": [
+        "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+        "과거 사건 두 개를 찾는다",
+        "먼저 사건에 had+p.p.를 적용한다",
+        "대조 문항에서는 사용할 수 없는 형태 'worked'를 고른다."
+      ],
+      "sourceRef": "SRC-G31",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "과거의 두 사건 중 먼저 일어난 사건은 had+p.p., 나중 사건은 과거형으로 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-053-A2B9F5C0",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART3",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-053-A2B9F5C0",
+    "sourceQuestionId": "Q-P21-G-053-A2B9F5C0",
+    "sourceCandidateId": "CAND-G-053-A2B9F5C0",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 53,
+      "asset": "assets/source-evidence/phase21/grammar-page-053.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-053-A2B9F5C0",
+      "evidenceRef": "SRC-P21-G-053",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 16,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

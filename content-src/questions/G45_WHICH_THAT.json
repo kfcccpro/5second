@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G45-001",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "Hope, (which / that) seems fragile, can be powerful.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "comma",
+        "prompt": "관계사 앞에 쉼표가 있는가?",
+        "answer": "있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "계속적 용법인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "쓸 수 있는 관계대명사는?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "있다.",
+        "그렇다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-001",
+    "sourceQuestionId": "Q-G45-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-002",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "Susan's smile, (which / that) was bright, filled the room.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "comma",
+        "prompt": "관계사 앞에 쉼표가 있는가?",
+        "answer": "있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "계속적 용법인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "쓸 수 있는 관계대명사는?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "있다.",
+        "그렇다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-002",
+    "sourceQuestionId": "Q-G45-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-003",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "This is the theory on (which / that) the experiment is based.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "prep",
+        "prompt": "관계사 바로 앞에 전치사가 있는가?",
+        "answer": "on이 있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "전치사 뒤에 that을 쓸 수 있는가?",
+        "answer": "쓸 수 없다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "on이 있다.",
+        "쓸 수 없다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-003",
+    "sourceQuestionId": "Q-G45-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-004",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "We acted in (that / which) we believed the plan was sound.",
+    "choices": [
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 we believed the plan was sound는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "function",
+        "prompt": "빈칸은 명사절 접속사인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "that",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-004",
+    "sourceQuestionId": "Q-G45-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-005",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "The bridge, over (which / that) trains pass, is old.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "prep",
+        "prompt": "관계사 바로 앞에 전치사가 있는가?",
+        "answer": "over가 있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "전치사 뒤에 that이 가능한가?",
+        "answer": "불가능하다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "over가 있다.",
+        "불가능하다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-005",
+    "sourceQuestionId": "Q-G45-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-006",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "The museum, (which / that) opened in 1920, is being renovated.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "comma",
+        "prompt": "관계사 앞에 쉼표가 있는가?",
+        "answer": "있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "계속적 용법인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "있다.",
+        "그렇다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-006",
+    "sourceQuestionId": "Q-G45-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-007",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "I am certain (that / which) the data are reliable.",
+    "choices": [
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the data are reliable은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 접속사는?",
+        "answer": "that",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "완전하다.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-007",
+    "sourceQuestionId": "Q-G45-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-008",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "The channel through (which / that) the signal travels is narrow.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "prep",
+        "prompt": "관계사 바로 앞에 전치사가 있는가?",
+        "answer": "through가 있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "전치사 뒤에 that을 쓸 수 있는가?",
+        "answer": "없다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "through가 있다.",
+        "없다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-008",
+    "sourceQuestionId": "Q-G45-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-001-PF",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "Hope, (which / that) seems fragile, can be powerful.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "comma",
+        "prompt": "관계사 앞에 쉼표가 있는가?",
+        "answer": "있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "계속적 용법인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "쓸 수 있는 관계대명사는?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "있다.",
+        "그렇다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-001",
+    "sourceQuestionId": "Q-G45-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-002-PF",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "Susan's smile, (which / that) was bright, filled the room.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "comma",
+        "prompt": "관계사 앞에 쉼표가 있는가?",
+        "answer": "있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "계속적 용법인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "쓸 수 있는 관계대명사는?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "있다.",
+        "그렇다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-002",
+    "sourceQuestionId": "Q-G45-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-003-PF",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "This is the theory on (which / that) the experiment is based.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "prep",
+        "prompt": "관계사 바로 앞에 전치사가 있는가?",
+        "answer": "on이 있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "전치사 뒤에 that을 쓸 수 있는가?",
+        "answer": "쓸 수 없다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "on이 있다.",
+        "쓸 수 없다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-003",
+    "sourceQuestionId": "Q-G45-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-004-PF",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "We acted in (that / which) we believed the plan was sound.",
+    "choices": [
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 we believed the plan was sound는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "function",
+        "prompt": "빈칸은 명사절 접속사인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "that",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-004",
+    "sourceQuestionId": "Q-G45-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-005-PF",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "The bridge, over (which / that) trains pass, is old.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "prep",
+        "prompt": "관계사 바로 앞에 전치사가 있는가?",
+        "answer": "over가 있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "전치사 뒤에 that이 가능한가?",
+        "answer": "불가능하다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "over가 있다.",
+        "불가능하다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-005",
+    "sourceQuestionId": "Q-G45-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-006-PF",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "The museum, (which / that) opened in 1920, is being renovated.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "comma",
+        "prompt": "관계사 앞에 쉼표가 있는가?",
+        "answer": "있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "계속적 용법인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "있다.",
+        "그렇다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-006",
+    "sourceQuestionId": "Q-G45-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-007-PF",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "I am certain (that / which) the data are reliable.",
+    "choices": [
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the data are reliable은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 접속사는?",
+        "answer": "that",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "완전하다.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-007",
+    "sourceQuestionId": "Q-G45-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-008-PF",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "The channel through (which / that) the signal travels is narrow.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "prep",
+        "prompt": "관계사 바로 앞에 전치사가 있는가?",
+        "answer": "through가 있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "전치사 뒤에 that을 쓸 수 있는가?",
+        "answer": "없다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "through가 있다.",
+        "없다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-008",
+    "sourceQuestionId": "Q-G45-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-001-DR",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "Hope, (which / that) seems fragile, can be powerful.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "comma",
+        "prompt": "관계사 앞에 쉼표가 있는가?",
+        "answer": "있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "계속적 용법인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "쓸 수 있는 관계대명사는?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "있다.",
+        "그렇다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-001",
+    "sourceQuestionId": "Q-G45-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-002-DR",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "Susan's smile, (which / that) was bright, filled the room.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "comma",
+        "prompt": "관계사 앞에 쉼표가 있는가?",
+        "answer": "있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "계속적 용법인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "쓸 수 있는 관계대명사는?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "있다.",
+        "그렇다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-002",
+    "sourceQuestionId": "Q-G45-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-003-DR",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "This is the theory on (which / that) the experiment is based.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "prep",
+        "prompt": "관계사 바로 앞에 전치사가 있는가?",
+        "answer": "on이 있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "전치사 뒤에 that을 쓸 수 있는가?",
+        "answer": "쓸 수 없다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "on이 있다.",
+        "쓸 수 없다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-003",
+    "sourceQuestionId": "Q-G45-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-004-DR",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "We acted in (that / which) we believed the plan was sound.",
+    "choices": [
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 we believed the plan was sound는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "function",
+        "prompt": "빈칸은 명사절 접속사인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "that",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-004",
+    "sourceQuestionId": "Q-G45-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-005-DR",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "The bridge, over (which / that) trains pass, is old.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "prep",
+        "prompt": "관계사 바로 앞에 전치사가 있는가?",
+        "answer": "over가 있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "전치사 뒤에 that이 가능한가?",
+        "answer": "불가능하다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "over가 있다.",
+        "불가능하다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-005",
+    "sourceQuestionId": "Q-G45-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-006-DR",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "The museum, (which / that) opened in 1920, is being renovated.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "comma",
+        "prompt": "관계사 앞에 쉼표가 있는가?",
+        "answer": "있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "계속적 용법인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "있다.",
+        "그렇다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-006",
+    "sourceQuestionId": "Q-G45-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-007-DR",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "I am certain (that / which) the data are reliable.",
+    "choices": [
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the data are reliable은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 접속사는?",
+        "answer": "that",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "없다.",
+        "완전하다.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-007",
+    "sourceQuestionId": "Q-G45-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-008-DR",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "The channel through (which / that) the signal travels is narrow.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "prep",
+        "prompt": "관계사 바로 앞에 전치사가 있는가?",
+        "answer": "through가 있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "전치사 뒤에 that을 쓸 수 있는가?",
+        "answer": "없다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "쉼표·전치사와 뒤 절 완전성을 확인하지 않았다.",
+      "summary": [
+        "through가 있다.",
+        "없다.",
+        "따라서 which를 선택한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-008",
+    "sourceQuestionId": "Q-G45-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-001-CT",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHope, (which / that) seems fragile, can be powerful.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "comma",
+        "prompt": "관계사 앞에 쉼표가 있는가?",
+        "answer": "있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "계속적 용법인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "쓸 수 있는 관계대명사는?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "'that'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'which'이다.",
+      "summary": [
+        "있다.",
+        "그렇다.",
+        "따라서 which를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'that'이다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-001",
+    "sourceQuestionId": "Q-G45-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-002-CT",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nSusan's smile, (which / that) was bright, filled the room.",
+    "choices": [
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "comma",
+        "prompt": "관계사 앞에 쉼표가 있는가?",
+        "answer": "있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "계속적 용법인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "쓸 수 있는 관계대명사는?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "'that'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'which'이다.",
+      "summary": [
+        "있다.",
+        "그렇다.",
+        "따라서 which를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'that'이다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-002",
+    "sourceQuestionId": "Q-G45-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-003-CT",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThis is the theory on (which / that) the experiment is based.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "prep",
+        "prompt": "관계사 바로 앞에 전치사가 있는가?",
+        "answer": "on이 있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "전치사 뒤에 that을 쓸 수 있는가?",
+        "answer": "쓸 수 없다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "'that'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'which'이다.",
+      "summary": [
+        "on이 있다.",
+        "쓸 수 없다.",
+        "따라서 which를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'that'이다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-003",
+    "sourceQuestionId": "Q-G45-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-004-CT",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe acted in (that / which) we believed the plan was sound.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "complete",
+        "prompt": "뒤 절 we believed the plan was sound는 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "function",
+        "prompt": "빈칸은 명사절 접속사인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "that",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "완전하다.",
+        "그렇다.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'which'이다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-004",
+    "sourceQuestionId": "Q-G45-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-005-CT",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe bridge, over (which / that) trains pass, is old.",
+    "choices": [
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "prep",
+        "prompt": "관계사 바로 앞에 전치사가 있는가?",
+        "answer": "over가 있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "전치사 뒤에 that이 가능한가?",
+        "answer": "불가능하다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "'that'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'which'이다.",
+      "summary": [
+        "over가 있다.",
+        "불가능하다.",
+        "따라서 which를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'that'이다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-005",
+    "sourceQuestionId": "Q-G45-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-006-CT",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe museum, (which / that) opened in 1920, is being renovated.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "comma",
+        "prompt": "관계사 앞에 쉼표가 있는가?",
+        "answer": "있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "계속적 용법인가?",
+        "answer": "그렇다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "'that'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'which'이다.",
+      "summary": [
+        "있다.",
+        "그렇다.",
+        "따라서 which를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'that'이다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-006",
+    "sourceQuestionId": "Q-G45-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-007-CT",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI am certain (that / which) the data are reliable.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "antecedent",
+        "prompt": "앞에 선행사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "complete",
+        "prompt": "뒤 절 the data are reliable은 완전한가?",
+        "answer": "완전하다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 접속사는?",
+        "answer": "that",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "없다.",
+        "완전하다.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'which'이다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-007",
+    "sourceQuestionId": "Q-G45-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G45-008-CT",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe channel through (which / that) the signal travels is narrow.",
+    "choices": [
+      "which",
+      "that"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "prep",
+        "prompt": "관계사 바로 앞에 전치사가 있는가?",
+        "answer": "through가 있다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "restriction",
+        "prompt": "전치사 뒤에 that을 쓸 수 있는가?",
+        "answer": "없다",
+        "errorCode": "E49_WHICH_THAT"
+      },
+      {
+        "id": "choice",
+        "prompt": "필요한 말은?",
+        "answer": "which",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "'that'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'which'이다.",
+      "summary": [
+        "through가 있다.",
+        "없다.",
+        "따라서 which를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'that'이다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G45-008",
+    "sourceQuestionId": "Q-G45-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-5A8D24BD34",
+    "conceptId": "G45_WHICH_THAT",
+    "difficulty": 1,
+    "stem": "빠른 확인: 전치사 바로 뒤에 that을 쓸 수 있는가?",
+    "choices": [
+      "쓸 수 없다",
+      "쓸 수 있다"
+    ],
+    "answer": "쓸 수 없다",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "장소·시간·이유를 나타내는 선행사 뒤에서 절이 완전하면 where·when·why 같은 관계부사를 쓴다.",
+          "쉼표 뒤 계속적 용법이나 전치사 바로 뒤에는 which를 쓰고, 뒤 절이 완전하여 명사절을 이끌면 접속사 that을 쓴다."
+        ],
+        "answer": "쉼표 뒤 계속적 용법이나 전치사 바로 뒤에는 which를 쓰고, 뒤 절이 완전하여 명사절을 이끌면 접속사 that을 쓴다.",
+        "errorCode": "E49_WHICH_THAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "쓸 수 있다": "E49_WHICH_THAT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "쉼표 뒤 계속적 용법이나 전치사 바로 뒤에는 which를 쓰고, 뒤 절이 완전하여 명사절을 이끌면 접속사 that을 쓴다.",
+        "있다.",
+        "그렇다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G45",
+      "checkQuestion": {
+        "prompt": "전치사 바로 뒤에 that을 쓸 수 있는가?",
+        "choices": [
+          "쓸 수 없다",
+          "쓸 수 있다"
+        ],
+        "answer": "쓸 수 없다"
+      },
+      "transferQuestionId": "Q-G45-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART5",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-5A8D24BD34",
+    "sourceQuestionId": "Q-G45-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

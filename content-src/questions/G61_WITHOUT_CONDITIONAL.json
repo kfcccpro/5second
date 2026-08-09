@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G61-001",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Without his support, we (would lose / would have lost) the game now.",
+    "choices": [
+      "would lose",
+      "would have lost"
+    ],
+    "answer": "would lose",
+    "decisionSteps": [
+      {
+        "id": "main",
+        "prompt": "주절 결과 시간표지는?",
+        "answer": "now, 현재",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "현재 사실의 반대인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have lost": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "now, 현재.",
+        "그렇다.",
+        "따라서 would lose를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-001",
+    "sourceQuestionId": "Q-G61-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-002",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Had it not been for the key, we (could not have entered / could not enter) the classroom.",
+    "choices": [
+      "could not have entered",
+      "could not enter"
+    ],
+    "answer": "could not have entered",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "Had it not been for의 시점은?",
+        "answer": "과거 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "교실에 들어간 결과 시점은?",
+        "answer": "과거",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "could not have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could not enter": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "과거 반대.",
+        "과거.",
+        "따라서 could not have entered를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-002",
+    "sourceQuestionId": "Q-G61-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-003",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "But for your advice, I (would have made / would make) a serious mistake yesterday.",
+    "choices": [
+      "would have made",
+      "would make"
+    ],
+    "answer": "would have made",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "yesterday",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "과거 사실의 반대인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would make": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "yesterday.",
+        "그렇다.",
+        "따라서 would have made를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-003",
+    "sourceQuestionId": "Q-G61-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-004",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Were it not for air, life (would be / would have been) impossible.",
+    "choices": [
+      "would be",
+      "would have been"
+    ],
+    "answer": "would be",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "Were it not for의 시점은?",
+        "answer": "현재 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "life의 일반 결과 시점은?",
+        "answer": "현재",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have been": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "현재 반대.",
+        "현재.",
+        "따라서 would be를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-004",
+    "sourceQuestionId": "Q-G61-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-005",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If it had not been for the doctor, the patient (might have died / might die).",
+    "choices": [
+      "might have died",
+      "might die"
+    ],
+    "answer": "might have died",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "If it had not been for의 시점은?",
+        "answer": "과거 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "환자의 결과 시점은?",
+        "answer": "과거",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "might have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might die": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "과거 반대.",
+        "과거.",
+        "따라서 might have died를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-005",
+    "sourceQuestionId": "Q-G61-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-006",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Without the map, we (would be / would have been) lost now.",
+    "choices": [
+      "would be",
+      "would have been"
+    ],
+    "answer": "would be",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "now",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "현재 결과의 가정인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would be",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have been": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "now.",
+        "그렇다.",
+        "따라서 would be를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-006",
+    "sourceQuestionId": "Q-G61-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-007",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "But for the storm, the flight (would have arrived / would arrive) on time last night.",
+    "choices": [
+      "would have arrived",
+      "would arrive"
+    ],
+    "answer": "would have arrived",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "last night",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "과거 사실의 반대인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would arrive": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "last night.",
+        "그렇다.",
+        "따라서 would have arrived를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-007",
+    "sourceQuestionId": "Q-G61-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-008",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If it were not for technology, communication (would be / would have been) much slower.",
+    "choices": [
+      "would be",
+      "would have been"
+    ],
+    "answer": "would be",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "If it were not for의 시점은?",
+        "answer": "현재 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "일반적 결과 시점은?",
+        "answer": "현재",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have been": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "현재 반대.",
+        "현재.",
+        "따라서 would be를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-008",
+    "sourceQuestionId": "Q-G61-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-001-PF",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Without his support, we (would lose / would have lost) the game now.",
+    "choices": [
+      "would lose",
+      "would have lost"
+    ],
+    "answer": "would lose",
+    "decisionSteps": [
+      {
+        "id": "main",
+        "prompt": "주절 결과 시간표지는?",
+        "answer": "now, 현재",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "현재 사실의 반대인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have lost": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "now, 현재.",
+        "그렇다.",
+        "따라서 would lose를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-001",
+    "sourceQuestionId": "Q-G61-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-002-PF",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Had it not been for the key, we (could not have entered / could not enter) the classroom.",
+    "choices": [
+      "could not have entered",
+      "could not enter"
+    ],
+    "answer": "could not have entered",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "Had it not been for의 시점은?",
+        "answer": "과거 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "교실에 들어간 결과 시점은?",
+        "answer": "과거",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "could not have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could not enter": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "과거 반대.",
+        "과거.",
+        "따라서 could not have entered를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-002",
+    "sourceQuestionId": "Q-G61-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-003-PF",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "But for your advice, I (would have made / would make) a serious mistake yesterday.",
+    "choices": [
+      "would have made",
+      "would make"
+    ],
+    "answer": "would have made",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "yesterday",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "과거 사실의 반대인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would make": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "yesterday.",
+        "그렇다.",
+        "따라서 would have made를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-003",
+    "sourceQuestionId": "Q-G61-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-004-PF",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Were it not for air, life (would be / would have been) impossible.",
+    "choices": [
+      "would be",
+      "would have been"
+    ],
+    "answer": "would be",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "Were it not for의 시점은?",
+        "answer": "현재 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "life의 일반 결과 시점은?",
+        "answer": "현재",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have been": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "현재 반대.",
+        "현재.",
+        "따라서 would be를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-004",
+    "sourceQuestionId": "Q-G61-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-005-PF",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If it had not been for the doctor, the patient (might have died / might die).",
+    "choices": [
+      "might have died",
+      "might die"
+    ],
+    "answer": "might have died",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "If it had not been for의 시점은?",
+        "answer": "과거 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "환자의 결과 시점은?",
+        "answer": "과거",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "might have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might die": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "과거 반대.",
+        "과거.",
+        "따라서 might have died를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-005",
+    "sourceQuestionId": "Q-G61-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-006-PF",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Without the map, we (would be / would have been) lost now.",
+    "choices": [
+      "would be",
+      "would have been"
+    ],
+    "answer": "would be",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "now",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "현재 결과의 가정인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would be",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have been": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "now.",
+        "그렇다.",
+        "따라서 would be를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-006",
+    "sourceQuestionId": "Q-G61-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-007-PF",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "But for the storm, the flight (would have arrived / would arrive) on time last night.",
+    "choices": [
+      "would have arrived",
+      "would arrive"
+    ],
+    "answer": "would have arrived",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "last night",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "과거 사실의 반대인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would arrive": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "last night.",
+        "그렇다.",
+        "따라서 would have arrived를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-007",
+    "sourceQuestionId": "Q-G61-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-008-PF",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If it were not for technology, communication (would be / would have been) much slower.",
+    "choices": [
+      "would be",
+      "would have been"
+    ],
+    "answer": "would be",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "If it were not for의 시점은?",
+        "answer": "현재 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "일반적 결과 시점은?",
+        "answer": "현재",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have been": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "현재 반대.",
+        "현재.",
+        "따라서 would be를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-008",
+    "sourceQuestionId": "Q-G61-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-001-DR",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Without his support, we (would lose / would have lost) the game now.",
+    "choices": [
+      "would lose",
+      "would have lost"
+    ],
+    "answer": "would lose",
+    "decisionSteps": [
+      {
+        "id": "main",
+        "prompt": "주절 결과 시간표지는?",
+        "answer": "now, 현재",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "현재 사실의 반대인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have lost": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "now, 현재.",
+        "그렇다.",
+        "따라서 would lose를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-001",
+    "sourceQuestionId": "Q-G61-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-002-DR",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Had it not been for the key, we (could not have entered / could not enter) the classroom.",
+    "choices": [
+      "could not have entered",
+      "could not enter"
+    ],
+    "answer": "could not have entered",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "Had it not been for의 시점은?",
+        "answer": "과거 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "교실에 들어간 결과 시점은?",
+        "answer": "과거",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "could not have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could not enter": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "과거 반대.",
+        "과거.",
+        "따라서 could not have entered를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-002",
+    "sourceQuestionId": "Q-G61-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-003-DR",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "But for your advice, I (would have made / would make) a serious mistake yesterday.",
+    "choices": [
+      "would have made",
+      "would make"
+    ],
+    "answer": "would have made",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "yesterday",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "과거 사실의 반대인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would make": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "yesterday.",
+        "그렇다.",
+        "따라서 would have made를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-003",
+    "sourceQuestionId": "Q-G61-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-004-DR",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Were it not for air, life (would be / would have been) impossible.",
+    "choices": [
+      "would be",
+      "would have been"
+    ],
+    "answer": "would be",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "Were it not for의 시점은?",
+        "answer": "현재 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "life의 일반 결과 시점은?",
+        "answer": "현재",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have been": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "현재 반대.",
+        "현재.",
+        "따라서 would be를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-004",
+    "sourceQuestionId": "Q-G61-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-005-DR",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If it had not been for the doctor, the patient (might have died / might die).",
+    "choices": [
+      "might have died",
+      "might die"
+    ],
+    "answer": "might have died",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "If it had not been for의 시점은?",
+        "answer": "과거 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "환자의 결과 시점은?",
+        "answer": "과거",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "might have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might die": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "과거 반대.",
+        "과거.",
+        "따라서 might have died를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-005",
+    "sourceQuestionId": "Q-G61-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-006-DR",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "Without the map, we (would be / would have been) lost now.",
+    "choices": [
+      "would be",
+      "would have been"
+    ],
+    "answer": "would be",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "now",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "현재 결과의 가정인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would be",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have been": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "now.",
+        "그렇다.",
+        "따라서 would be를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-006",
+    "sourceQuestionId": "Q-G61-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-007-DR",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "But for the storm, the flight (would have arrived / would arrive) on time last night.",
+    "choices": [
+      "would have arrived",
+      "would arrive"
+    ],
+    "answer": "would have arrived",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "last night",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "과거 사실의 반대인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would arrive": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "last night.",
+        "그렇다.",
+        "따라서 would have arrived를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-007",
+    "sourceQuestionId": "Q-G61-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-008-DR",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "If it were not for technology, communication (would be / would have been) much slower.",
+    "choices": [
+      "would be",
+      "would have been"
+    ],
+    "answer": "would be",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "If it were not for의 시점은?",
+        "answer": "현재 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "일반적 결과 시점은?",
+        "answer": "현재",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have been": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "주절의 형태를 보고 현재 반대와 과거 반대를 판단하지 않았다.",
+      "summary": [
+        "현재 반대.",
+        "현재.",
+        "따라서 would be를 선택한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-008",
+    "sourceQuestionId": "Q-G61-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-001-CT",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWithout his support, we (would lose / would have lost) the game now.",
+    "choices": [
+      "would lose",
+      "would have lost"
+    ],
+    "answer": "would have lost",
+    "decisionSteps": [
+      {
+        "id": "main",
+        "prompt": "주절 결과 시간표지는?",
+        "answer": "now, 현재",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "현재 사실의 반대인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would lose": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'would have lost'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would lose'이다.",
+      "summary": [
+        "now, 현재.",
+        "그렇다.",
+        "따라서 would lose를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'would have lost'이다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-001",
+    "sourceQuestionId": "Q-G61-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-002-CT",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHad it not been for the key, we (could not have entered / could not enter) the classroom.",
+    "choices": [
+      "could not have entered",
+      "could not enter"
+    ],
+    "answer": "could not enter",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "Had it not been for의 시점은?",
+        "answer": "과거 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "교실에 들어간 결과 시점은?",
+        "answer": "과거",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "could not have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "could not have entered": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'could not enter'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'could not have entered'이다.",
+      "summary": [
+        "과거 반대.",
+        "과거.",
+        "따라서 could not have entered를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'could not enter'이다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-002",
+    "sourceQuestionId": "Q-G61-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 24,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 17,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-003-CT",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nBut for your advice, I (would have made / would make) a serious mistake yesterday.",
+    "choices": [
+      "would make",
+      "would have made"
+    ],
+    "answer": "would make",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "yesterday",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "과거 사실의 반대인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have made": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'would make'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would have made'이다.",
+      "summary": [
+        "yesterday.",
+        "그렇다.",
+        "따라서 would have made를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'would make'이다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-003",
+    "sourceQuestionId": "Q-G61-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-004-CT",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWere it not for air, life (would be / would have been) impossible.",
+    "choices": [
+      "would be",
+      "would have been"
+    ],
+    "answer": "would have been",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "Were it not for의 시점은?",
+        "answer": "현재 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "life의 일반 결과 시점은?",
+        "answer": "현재",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would be": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'would have been'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would be'이다.",
+      "summary": [
+        "현재 반대.",
+        "현재.",
+        "따라서 would be를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'would have been'이다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-004",
+    "sourceQuestionId": "Q-G61-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-005-CT",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf it had not been for the doctor, the patient (might have died / might die).",
+    "choices": [
+      "might have died",
+      "might die"
+    ],
+    "answer": "might die",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "If it had not been for의 시점은?",
+        "answer": "과거 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "환자의 결과 시점은?",
+        "answer": "과거",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "might have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "might have died": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'might die'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'might have died'이다.",
+      "summary": [
+        "과거 반대.",
+        "과거.",
+        "따라서 might have died를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'might die'이다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-005",
+    "sourceQuestionId": "Q-G61-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-006-CT",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWithout the map, we (would be / would have been) lost now.",
+    "choices": [
+      "would be",
+      "would have been"
+    ],
+    "answer": "would have been",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "now",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "현재 결과의 가정인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would be",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would be": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'would have been'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would be'이다.",
+      "summary": [
+        "now.",
+        "그렇다.",
+        "따라서 would be를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'would have been'이다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-006",
+    "sourceQuestionId": "Q-G61-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-007-CT",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nBut for the storm, the flight (would have arrived / would arrive) on time last night.",
+    "choices": [
+      "would arrive",
+      "would have arrived"
+    ],
+    "answer": "would arrive",
+    "decisionSteps": [
+      {
+        "id": "marker",
+        "prompt": "시간표지는?",
+        "answer": "last night",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "type",
+        "prompt": "과거 사실의 반대인가?",
+        "answer": "그렇다",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would have p.p.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would have arrived": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'would arrive'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would have arrived'이다.",
+      "summary": [
+        "last night.",
+        "그렇다.",
+        "따라서 would have arrived를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'would arrive'이다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-007",
+    "sourceQuestionId": "Q-G61-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 15,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G61-008-CT",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIf it were not for technology, communication (would be / would have been) much slower.",
+    "choices": [
+      "would be",
+      "would have been"
+    ],
+    "answer": "would have been",
+    "decisionSteps": [
+      {
+        "id": "phrase",
+        "prompt": "If it were not for의 시점은?",
+        "answer": "현재 반대",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "result",
+        "prompt": "일반적 결과 시점은?",
+        "answer": "현재",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      },
+      {
+        "id": "form",
+        "prompt": "주절 형태는?",
+        "answer": "would + 동사원형",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "would be": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "'would have been'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'would be'이다.",
+      "summary": [
+        "현재 반대.",
+        "현재.",
+        "따라서 would be를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'would have been'이다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G61-008",
+    "sourceQuestionId": "Q-G61-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-7C347FD7A3",
+    "conceptId": "G61_WITHOUT_CONDITIONAL",
+    "difficulty": 1,
+    "stem": "빠른 확인: Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+    "choices": [
+      "과거 사실의 반대",
+      "현재 사실의 반대"
+    ],
+    "answer": "과거 사실의 반대",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "Without·But for·If it were not for·Were it not for는 현재 반대, If it had not been for·Had it not been for는 과거 반대이며 주절 형태와 맞춘다.",
+          "소망하는 시점과 소망 내용의 시점이 같으면 과거형, 소망 내용이 더 이전이면 had p.p.를 쓴다."
+        ],
+        "answer": "Without·But for·If it were not for·Were it not for는 현재 반대, If it had not been for·Had it not been for는 과거 반대이며 주절 형태와 맞춘다.",
+        "errorCode": "E65_WITHOUT_CONDITIONAL"
+      }
+    ],
+    "misconceptionByChoice": {
+      "현재 사실의 반대": "E65_WITHOUT_CONDITIONAL"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "Without·But for·If it were not for·Were it not for는 현재 반대, If it had not been for·Had it not been for는 과거 반대이며 주절 형태와 맞춘다.",
+        "now, 현재.",
+        "그렇다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G61",
+      "checkQuestion": {
+        "prompt": "Without 가정법에서 would have p.p.가 보이면 어떤 시점인가?",
+        "choices": [
+          "과거 사실의 반대",
+          "현재 사실의 반대"
+        ],
+        "answer": "과거 사실의 반대"
+      },
+      "transferQuestionId": "Q-G61-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART6",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-7C347FD7A3",
+    "sourceQuestionId": "Q-G61-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

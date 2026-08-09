@@ -1,0 +1,4008 @@
+[
+  {
+    "id": "Q-G74-001",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 1,
+    "stem": "These programs help students by providing (them / it) with feedback.",
+    "choices": [
+      "them",
+      "it"
+    ],
+    "answer": "them",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "대명사가 가리키는 대상은 students",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "students는 복수이며 목적격 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "them",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "대명사가 가리키는 대상은 students",
+        "students는 복수이며 목적격 자리",
+        "따라서 them를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-001",
+    "sourceQuestionId": "Q-G74-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-002",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 1,
+    "stem": "Children discussed ways to protect the environment and preserve (it / them).",
+    "choices": [
+      "it",
+      "them"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "대명사가 가리키는 대상은 the environment",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "environment는 단수이며 목적격 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "them": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "대명사가 가리키는 대상은 the environment",
+        "environment는 단수이며 목적격 자리",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-002",
+    "sourceQuestionId": "Q-G74-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-003",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 1,
+    "stem": "Maria and I completed (our / their) project.",
+    "choices": [
+      "our",
+      "their"
+    ],
+    "answer": "our",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "소유자는 Maria and I",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "1인칭 복수 소유격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "our",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "their": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "소유자는 Maria and I",
+        "1인칭 복수 소유격이 필요함",
+        "따라서 our를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-003",
+    "sourceQuestionId": "Q-G74-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-004",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "The students thanked (we / us) after the lecture.",
+    "choices": [
+      "we",
+      "us"
+    ],
+    "answer": "us",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "thank의 목적어 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "1인칭 복수 목적격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "us",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "we": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "thank의 목적어 자리",
+        "1인칭 복수 목적격이 필요함",
+        "따라서 us를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-004",
+    "sourceQuestionId": "Q-G74-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-005",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "This notebook is mine, not (your / yours).",
+    "choices": [
+      "your",
+      "yours"
+    ],
+    "answer": "yours",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤에 명사가 없이 소유 대상을 나타냄",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "소유대명사가 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "yours",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "your": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "뒤에 명사가 없이 소유 대상을 나타냄",
+        "소유대명사가 필요함",
+        "따라서 yours를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-005",
+    "sourceQuestionId": "Q-G74-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-006",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "The dog wagged (its / it's) tail.",
+    "choices": [
+      "its",
+      "it's"
+    ],
+    "answer": "its",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "tail을 소유하는 대상은 the dog",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "소유격이 필요하고 it is가 아님",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "its",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it's": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "tail을 소유하는 대상은 the dog",
+        "소유격이 필요하고 it is가 아님",
+        "따라서 its를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-006",
+    "sourceQuestionId": "Q-G74-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-007",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 3,
+    "stem": "John lost (his / him) keys on the bus.",
+    "choices": [
+      "his",
+      "him"
+    ],
+    "answer": "his",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "keys 앞의 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "3인칭 남성 단수 소유격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "his",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "him": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "keys 앞의 자리",
+        "3인칭 남성 단수 소유격이 필요함",
+        "따라서 his를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-007",
+    "sourceQuestionId": "Q-G74-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-008",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 3,
+    "stem": "The books are on the desk. Please put (they / them) away.",
+    "choices": [
+      "they",
+      "them"
+    ],
+    "answer": "them",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "put의 목적어 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "books를 받는 복수 목적격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "them",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "they": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "put의 목적어 자리",
+        "books를 받는 복수 목적격이 필요함",
+        "따라서 them를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-008",
+    "sourceQuestionId": "Q-G74-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-001-PF",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 1,
+    "stem": "These programs help students by providing (them / it) with feedback.",
+    "choices": [
+      "them",
+      "it"
+    ],
+    "answer": "them",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "대명사가 가리키는 대상은 students",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "students는 복수이며 목적격 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "them",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "대명사가 가리키는 대상은 students",
+        "students는 복수이며 목적격 자리",
+        "따라서 them를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-001",
+    "sourceQuestionId": "Q-G74-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-002-PF",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 1,
+    "stem": "Children discussed ways to protect the environment and preserve (it / them).",
+    "choices": [
+      "it",
+      "them"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "대명사가 가리키는 대상은 the environment",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "environment는 단수이며 목적격 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "them": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "대명사가 가리키는 대상은 the environment",
+        "environment는 단수이며 목적격 자리",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-002",
+    "sourceQuestionId": "Q-G74-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-003-PF",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 1,
+    "stem": "Maria and I completed (our / their) project.",
+    "choices": [
+      "our",
+      "their"
+    ],
+    "answer": "our",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "소유자는 Maria and I",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "1인칭 복수 소유격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "our",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "their": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "소유자는 Maria and I",
+        "1인칭 복수 소유격이 필요함",
+        "따라서 our를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-003",
+    "sourceQuestionId": "Q-G74-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-004-PF",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "The students thanked (we / us) after the lecture.",
+    "choices": [
+      "we",
+      "us"
+    ],
+    "answer": "us",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "thank의 목적어 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "1인칭 복수 목적격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "us",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "we": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "thank의 목적어 자리",
+        "1인칭 복수 목적격이 필요함",
+        "따라서 us를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-004",
+    "sourceQuestionId": "Q-G74-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-005-PF",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "This notebook is mine, not (your / yours).",
+    "choices": [
+      "your",
+      "yours"
+    ],
+    "answer": "yours",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤에 명사가 없이 소유 대상을 나타냄",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "소유대명사가 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "yours",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "your": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "뒤에 명사가 없이 소유 대상을 나타냄",
+        "소유대명사가 필요함",
+        "따라서 yours를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-005",
+    "sourceQuestionId": "Q-G74-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-006-PF",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "The dog wagged (its / it's) tail.",
+    "choices": [
+      "its",
+      "it's"
+    ],
+    "answer": "its",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "tail을 소유하는 대상은 the dog",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "소유격이 필요하고 it is가 아님",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "its",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it's": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "tail을 소유하는 대상은 the dog",
+        "소유격이 필요하고 it is가 아님",
+        "따라서 its를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-006",
+    "sourceQuestionId": "Q-G74-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-007-PF",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 3,
+    "stem": "John lost (his / him) keys on the bus.",
+    "choices": [
+      "his",
+      "him"
+    ],
+    "answer": "his",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "keys 앞의 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "3인칭 남성 단수 소유격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "his",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "him": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "keys 앞의 자리",
+        "3인칭 남성 단수 소유격이 필요함",
+        "따라서 his를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-007",
+    "sourceQuestionId": "Q-G74-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-008-PF",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 3,
+    "stem": "The books are on the desk. Please put (they / them) away.",
+    "choices": [
+      "they",
+      "them"
+    ],
+    "answer": "them",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "put의 목적어 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "books를 받는 복수 목적격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "them",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "they": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "put의 목적어 자리",
+        "books를 받는 복수 목적격이 필요함",
+        "따라서 them를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-008",
+    "sourceQuestionId": "Q-G74-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 72,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-001-DR",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 1,
+    "stem": "These programs help students by providing (them / it) with feedback.",
+    "choices": [
+      "them",
+      "it"
+    ],
+    "answer": "them",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "대명사가 가리키는 대상은 students",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "students는 복수이며 목적격 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "them",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "대명사가 가리키는 대상은 students",
+        "students는 복수이며 목적격 자리",
+        "따라서 them를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-001",
+    "sourceQuestionId": "Q-G74-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-002-DR",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 1,
+    "stem": "Children discussed ways to protect the environment and preserve (it / them).",
+    "choices": [
+      "it",
+      "them"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "대명사가 가리키는 대상은 the environment",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "environment는 단수이며 목적격 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "them": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "대명사가 가리키는 대상은 the environment",
+        "environment는 단수이며 목적격 자리",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-002",
+    "sourceQuestionId": "Q-G74-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-003-DR",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 1,
+    "stem": "Maria and I completed (our / their) project.",
+    "choices": [
+      "our",
+      "their"
+    ],
+    "answer": "our",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "소유자는 Maria and I",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "1인칭 복수 소유격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "our",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "their": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "소유자는 Maria and I",
+        "1인칭 복수 소유격이 필요함",
+        "따라서 our를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-003",
+    "sourceQuestionId": "Q-G74-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-004-DR",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "The students thanked (we / us) after the lecture.",
+    "choices": [
+      "we",
+      "us"
+    ],
+    "answer": "us",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "thank의 목적어 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "1인칭 복수 목적격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "us",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "we": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "thank의 목적어 자리",
+        "1인칭 복수 목적격이 필요함",
+        "따라서 us를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-004",
+    "sourceQuestionId": "Q-G74-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-005-DR",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "This notebook is mine, not (your / yours).",
+    "choices": [
+      "your",
+      "yours"
+    ],
+    "answer": "yours",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤에 명사가 없이 소유 대상을 나타냄",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "소유대명사가 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "yours",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "your": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "뒤에 명사가 없이 소유 대상을 나타냄",
+        "소유대명사가 필요함",
+        "따라서 yours를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-005",
+    "sourceQuestionId": "Q-G74-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-006-DR",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "The dog wagged (its / it's) tail.",
+    "choices": [
+      "its",
+      "it's"
+    ],
+    "answer": "its",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "tail을 소유하는 대상은 the dog",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "소유격이 필요하고 it is가 아님",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "its",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it's": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "tail을 소유하는 대상은 the dog",
+        "소유격이 필요하고 it is가 아님",
+        "따라서 its를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-006",
+    "sourceQuestionId": "Q-G74-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-007-DR",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 3,
+    "stem": "John lost (his / him) keys on the bus.",
+    "choices": [
+      "his",
+      "him"
+    ],
+    "answer": "his",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "keys 앞의 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "3인칭 남성 단수 소유격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "his",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "him": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "keys 앞의 자리",
+        "3인칭 남성 단수 소유격이 필요함",
+        "따라서 his를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-007",
+    "sourceQuestionId": "Q-G74-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-008-DR",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 3,
+    "stem": "The books are on the desk. Please put (they / them) away.",
+    "choices": [
+      "they",
+      "them"
+    ],
+    "answer": "them",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "put의 목적어 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "books를 받는 복수 목적격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "them",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "they": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "put의 목적어 자리",
+        "books를 받는 복수 목적격이 필요함",
+        "따라서 them를 선택한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-008",
+    "sourceQuestionId": "Q-G74-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-001-CT",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThese programs help students by providing (them / it) with feedback.",
+    "choices": [
+      "it",
+      "them"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "대명사가 가리키는 대상은 students",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "students는 복수이며 목적격 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "them",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "them": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'it'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'them'이다.",
+      "summary": [
+        "대명사가 가리키는 대상은 students",
+        "students는 복수이며 목적격 자리",
+        "따라서 them를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'it'이다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-001",
+    "sourceQuestionId": "Q-G74-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-002-CT",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nChildren discussed ways to protect the environment and preserve (it / them).",
+    "choices": [
+      "them",
+      "it"
+    ],
+    "answer": "them",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "대명사가 가리키는 대상은 the environment",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "environment는 단수이며 목적격 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'them'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'it'이다.",
+      "summary": [
+        "대명사가 가리키는 대상은 the environment",
+        "environment는 단수이며 목적격 자리",
+        "따라서 it를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'them'이다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-002",
+    "sourceQuestionId": "Q-G74-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-003-CT",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nMaria and I completed (our / their) project.",
+    "choices": [
+      "their",
+      "our"
+    ],
+    "answer": "their",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "소유자는 Maria and I",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "1인칭 복수 소유격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "our",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "our": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'their'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'our'이다.",
+      "summary": [
+        "소유자는 Maria and I",
+        "1인칭 복수 소유격이 필요함",
+        "따라서 our를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'their'이다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-003",
+    "sourceQuestionId": "Q-G74-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-004-CT",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe students thanked (we / us) after the lecture.",
+    "choices": [
+      "us",
+      "we"
+    ],
+    "answer": "we",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "thank의 목적어 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "1인칭 복수 목적격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "us",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "us": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'we'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'us'이다.",
+      "summary": [
+        "thank의 목적어 자리",
+        "1인칭 복수 목적격이 필요함",
+        "따라서 us를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'we'이다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-004",
+    "sourceQuestionId": "Q-G74-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-005-CT",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThis notebook is mine, not (your / yours).",
+    "choices": [
+      "yours",
+      "your"
+    ],
+    "answer": "your",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "뒤에 명사가 없이 소유 대상을 나타냄",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "소유대명사가 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "yours",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "yours": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'your'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'yours'이다.",
+      "summary": [
+        "뒤에 명사가 없이 소유 대상을 나타냄",
+        "소유대명사가 필요함",
+        "따라서 yours를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'your'이다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-005",
+    "sourceQuestionId": "Q-G74-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-006-CT",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe dog wagged (its / it's) tail.",
+    "choices": [
+      "it's",
+      "its"
+    ],
+    "answer": "it's",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "tail을 소유하는 대상은 the dog",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "소유격이 필요하고 it is가 아님",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "its",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "its": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'it's'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'its'이다.",
+      "summary": [
+        "tail을 소유하는 대상은 the dog",
+        "소유격이 필요하고 it is가 아님",
+        "따라서 its를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'it's'이다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-006",
+    "sourceQuestionId": "Q-G74-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-007-CT",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nJohn lost (his / him) keys on the bus.",
+    "choices": [
+      "his",
+      "him"
+    ],
+    "answer": "him",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "keys 앞의 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "3인칭 남성 단수 소유격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "his",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "his": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'him'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'his'이다.",
+      "summary": [
+        "keys 앞의 자리",
+        "3인칭 남성 단수 소유격이 필요함",
+        "따라서 his를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'him'이다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-007",
+    "sourceQuestionId": "Q-G74-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G74-008-CT",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe books are on the desk. Please put (they / them) away.",
+    "choices": [
+      "them",
+      "they"
+    ],
+    "answer": "they",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "put의 목적어 자리",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "books를 받는 복수 목적격이 필요함",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "them",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "them": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'they'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'them'이다.",
+      "summary": [
+        "put의 목적어 자리",
+        "books를 받는 복수 목적격이 필요함",
+        "따라서 them를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'they'이다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G74-008",
+    "sourceQuestionId": "Q-G74-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-3897366C78",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 1,
+    "stem": "빠른 확인: 대명사를 고를 때 가장 먼저 할 일은?",
+    "choices": [
+      "가리키는 대상 찾기",
+      "철자 길이 비교"
+    ],
+    "answer": "가리키는 대상 찾기",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "둘 중 하나와 나머지는 one~the other, 셋 중 하나·다른 하나·마지막은 one~another~the other, 셋 이상에서 하나와 나머지 전부는 one~the others를 쓴다."
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "철자 길이 비교": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "대명사가 가리키는 대상은 students",
+        "students는 복수이며 목적격 자리",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "대명사를 고를 때 가장 먼저 할 일은?",
+        "choices": [
+          "가리키는 대상 찾기",
+          "철자 길이 비교"
+        ],
+        "answer": "가리키는 대상 찾기"
+      },
+      "transferQuestionId": "Q-G74-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART8",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-3897366C78",
+    "sourceQuestionId": "Q-G74-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-113-1F72D5F3",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "These training programs help students gain hands-on experience by providing [them / it] with feedback.",
+    "choices": [
+      "them",
+      "it"
+    ],
+    "answer": "them",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대명사의 수·인칭·격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대명사의 수·인칭·격",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "대명사가 가리키는 명사를 찾는다",
+        "형태를 최종 선택한다"
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다."
+      },
+      "transferQuestionId": "Q-P21-G-113-B267B080",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART8",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-113-1F72D5F3",
+    "sourceQuestionId": "Q-P21-G-113-1F72D5F3",
+    "sourceCandidateId": "CAND-G-113-1F72D5F3",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 113,
+      "asset": "assets/source-evidence/phase21/grammar-page-113.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-113-1F72D5F3",
+      "evidenceRef": "SRC-P21-G-113",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-113-1F72D5F3-PF",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "These training programs help students gain hands-on experience by providing [them / it] with feedback.",
+    "choices": [
+      "them",
+      "it"
+    ],
+    "answer": "them",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대명사의 수·인칭·격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대명사의 수·인칭·격",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "대명사가 가리키는 명사를 찾는다",
+        "형태를 최종 선택한다"
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다."
+      },
+      "transferQuestionId": "Q-P21-G-113-B267B080",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART8",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-113-1F72D5F3",
+    "sourceQuestionId": "Q-P21-G-113-1F72D5F3",
+    "sourceCandidateId": "CAND-G-113-1F72D5F3",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 113,
+      "asset": "assets/source-evidence/phase21/grammar-page-113.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-113-1F72D5F3",
+      "evidenceRef": "SRC-P21-G-113",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-113-1F72D5F3-DR",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "These training programs help students gain hands-on experience by providing [them / it] with feedback.",
+    "choices": [
+      "them",
+      "it"
+    ],
+    "answer": "them",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대명사의 수·인칭·격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대명사의 수·인칭·격",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "대명사가 가리키는 명사를 찾는다",
+        "형태를 최종 선택한다"
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다."
+      },
+      "transferQuestionId": "Q-P21-G-113-B267B080",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART8",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-113-1F72D5F3",
+    "sourceQuestionId": "Q-P21-G-113-1F72D5F3",
+    "sourceCandidateId": "CAND-G-113-1F72D5F3",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 113,
+      "asset": "assets/source-evidence/phase21/grammar-page-113.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-113-1F72D5F3",
+      "evidenceRef": "SRC-P21-G-113",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-113-1F72D5F3-CT",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThese training programs help students gain hands-on experience by providing [them / it] with feedback.",
+    "choices": [
+      "them",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대명사의 수·인칭·격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대명사의 수·인칭·격",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "them": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'it'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'them'이다.",
+      "summary": [
+        "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "대명사가 가리키는 명사를 찾는다",
+        "형태를 최종 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'it'를 고른다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다."
+      },
+      "transferQuestionId": "Q-P21-G-113-1F72D5F3",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART8",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-113-1F72D5F3",
+    "sourceQuestionId": "Q-P21-G-113-1F72D5F3",
+    "sourceCandidateId": "CAND-G-113-1F72D5F3",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 113,
+      "asset": "assets/source-evidence/phase21/grammar-page-113.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-113-1F72D5F3",
+      "evidenceRef": "SRC-P21-G-113",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 15,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-113-B267B080",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Children from nearly 100 countries met in Connecticut recently to learn about the environment and discuss ways to protect [it / them].",
+    "choices": [
+      "it",
+      "them"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대명사의 수·인칭·격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대명사의 수·인칭·격",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "them": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "대명사가 가리키는 명사를 찾는다",
+        "형태를 최종 선택한다"
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다."
+      },
+      "transferQuestionId": "Q-P21-G-113-1F72D5F3",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART8",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-113-B267B080",
+    "sourceQuestionId": "Q-P21-G-113-B267B080",
+    "sourceCandidateId": "CAND-G-113-B267B080",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 113,
+      "asset": "assets/source-evidence/phase21/grammar-page-113.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-113-B267B080",
+      "evidenceRef": "SRC-P21-G-113",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-113-B267B080-PF",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Children from nearly 100 countries met in Connecticut recently to learn about the environment and discuss ways to protect [it / them].",
+    "choices": [
+      "it",
+      "them"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대명사의 수·인칭·격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대명사의 수·인칭·격",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "them": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "대명사가 가리키는 명사를 찾는다",
+        "형태를 최종 선택한다"
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다."
+      },
+      "transferQuestionId": "Q-P21-G-113-1F72D5F3",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART8",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-113-B267B080",
+    "sourceQuestionId": "Q-P21-G-113-B267B080",
+    "sourceCandidateId": "CAND-G-113-B267B080",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 113,
+      "asset": "assets/source-evidence/phase21/grammar-page-113.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-113-B267B080",
+      "evidenceRef": "SRC-P21-G-113",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-113-B267B080-DR",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "Children from nearly 100 countries met in Connecticut recently to learn about the environment and discuss ways to protect [it / them].",
+    "choices": [
+      "it",
+      "them"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대명사의 수·인칭·격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대명사의 수·인칭·격",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "them": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "대명사가 가리키는 대상과 문장 속 격을 확인하지 않았다.",
+      "summary": [
+        "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "대명사가 가리키는 명사를 찾는다",
+        "형태를 최종 선택한다"
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다."
+      },
+      "transferQuestionId": "Q-P21-G-113-1F72D5F3",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART8",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-113-B267B080",
+    "sourceQuestionId": "Q-P21-G-113-B267B080",
+    "sourceCandidateId": "CAND-G-113-B267B080",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 113,
+      "asset": "assets/source-evidence/phase21/grammar-page-113.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-113-B267B080",
+      "evidenceRef": "SRC-P21-G-113",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-113-B267B080-CT",
+    "conceptId": "G74_PRONOUN_REFERENCE_AGREEMENT",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nChildren from nearly 100 countries met in Connecticut recently to learn about the environment and discuss ways to protect [it / them].",
+    "choices": [
+      "it",
+      "them"
+    ],
+    "answer": "them",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "대명사의 수·인칭·격",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "대명사의 수·인칭·격",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "errorCode": "E78_PRONOUN_AGREEMENT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E78_PRONOUN_AGREEMENT"
+    },
+    "remediation": {
+      "diagnosis": "'them'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'it'이다.",
+      "summary": [
+        "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+        "대명사가 가리키는 명사를 찾는다",
+        "형태를 최종 선택한다",
+        "대조 문항에서는 사용할 수 없는 형태 'them'를 고른다."
+      ],
+      "sourceRef": "SRC-G74",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "대명사는 앞에서 가리키는 대상을 해석으로 찾은 뒤 단수·복수, 인칭, 주격·목적격·소유격을 일치시킨다."
+      },
+      "transferQuestionId": "Q-P21-G-113-B267B080",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART8",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-113-B267B080",
+    "sourceQuestionId": "Q-P21-G-113-B267B080",
+    "sourceCandidateId": "CAND-G-113-B267B080",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 113,
+      "asset": "assets/source-evidence/phase21/grammar-page-113.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-113-B267B080",
+      "evidenceRef": "SRC-P21-G-113",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 20,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

@@ -1,0 +1,3125 @@
+[
+  {
+    "id": "Q-G02-001",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 1,
+    "stem": "The machine (producing / produced) clean energy was recently upgraded.",
+    "choices": [
+      "producing",
+      "produced"
+    ],
+    "answer": "producing",
+    "decisionSteps": [
+      {
+        "id": "slot",
+        "prompt": "문제 부분은 본동사 자리인가 준동사 자리인가?",
+        "answer": "준동사 자리",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "object",
+        "prompt": "문제 단어 뒤에 목적어가 있는가?",
+        "answer": "clean energy가 있다",
+        "errorCode": "E04_OBJECT_SKIPPED"
+      },
+      {
+        "id": "voice",
+        "prompt": "능동인가 수동인가?",
+        "answer": "능동",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "produced": "E04_OBJECT_SKIPPED"
+    },
+    "remediation": {
+      "diagnosis": "분사 뒤의 목적어를 확인하지 않아 능동·수동을 반대로 골랐다.",
+      "summary": [
+        "was upgraded가 문장의 본동사이므로 문제 부분은 준동사 자리이다.",
+        "produce 뒤에 clean energy라는 목적어가 있다.",
+        "목적어가 있으므로 능동 V-ing producing을 선택한다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "준동사 뒤에 목적어가 있으면 우선 무엇을 고르는가?",
+        "choices": [
+          "V-ing",
+          "p.p."
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G02-002",
+      "retryPolicy": "확인문제와 유사문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G02-001",
+    "sourceQuestionId": "Q-G02-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G02-002",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 1,
+    "stem": "The paintings (displaying / displayed) in the lobby were donated by a local artist.",
+    "choices": [
+      "displaying",
+      "displayed"
+    ],
+    "answer": "displayed",
+    "decisionSteps": [
+      {
+        "id": "slot",
+        "prompt": "문제 부분은 본동사 자리인가 준동사 자리인가?",
+        "answer": "준동사 자리",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "object",
+        "prompt": "display 뒤에 목적어가 있는가?",
+        "answer": "없다",
+        "errorCode": "E04_OBJECT_SKIPPED"
+      },
+      {
+        "id": "voice",
+        "prompt": "paintings는 전시하는가 전시되는가?",
+        "answer": "전시된다",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "displaying": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "수식받는 명사와 분사의 관계를 능동으로 잘못 보았다.",
+      "summary": [
+        "were donated가 본동사이므로 문제 부분은 준동사 자리이다.",
+        "paintings는 전시하는 것이 아니라 전시된다.",
+        "수동 관계이므로 displayed를 선택한다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "수식받는 명사가 동작을 당하면 무엇을 고르는가?",
+        "choices": [
+          "V-ing",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G03-001",
+      "retryPolicy": "확인문제와 유사문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G02-002",
+    "sourceQuestionId": "Q-G02-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G02-001-PF",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 1,
+    "stem": "The machine (producing / produced) clean energy was recently upgraded.",
+    "choices": [
+      "producing",
+      "produced"
+    ],
+    "answer": "producing",
+    "decisionSteps": [
+      {
+        "id": "slot",
+        "prompt": "문제 부분은 본동사 자리인가 준동사 자리인가?",
+        "answer": "준동사 자리",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "object",
+        "prompt": "문제 단어 뒤에 목적어가 있는가?",
+        "answer": "clean energy가 있다",
+        "errorCode": "E04_OBJECT_SKIPPED"
+      },
+      {
+        "id": "voice",
+        "prompt": "능동인가 수동인가?",
+        "answer": "능동",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "produced": "E04_OBJECT_SKIPPED"
+    },
+    "remediation": {
+      "diagnosis": "분사 뒤의 목적어를 확인하지 않아 능동·수동을 반대로 골랐다.",
+      "summary": [
+        "was upgraded가 문장의 본동사이므로 문제 부분은 준동사 자리이다.",
+        "produce 뒤에 clean energy라는 목적어가 있다.",
+        "목적어가 있으므로 능동 V-ing producing을 선택한다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "준동사 뒤에 목적어가 있으면 우선 무엇을 고르는가?",
+        "choices": [
+          "V-ing",
+          "p.p."
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G02-002",
+      "retryPolicy": "확인문제와 유사문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G02-001",
+    "sourceQuestionId": "Q-G02-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G02-002-PF",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 1,
+    "stem": "The paintings (displaying / displayed) in the lobby were donated by a local artist.",
+    "choices": [
+      "displaying",
+      "displayed"
+    ],
+    "answer": "displayed",
+    "decisionSteps": [
+      {
+        "id": "slot",
+        "prompt": "문제 부분은 본동사 자리인가 준동사 자리인가?",
+        "answer": "준동사 자리",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "object",
+        "prompt": "display 뒤에 목적어가 있는가?",
+        "answer": "없다",
+        "errorCode": "E04_OBJECT_SKIPPED"
+      },
+      {
+        "id": "voice",
+        "prompt": "paintings는 전시하는가 전시되는가?",
+        "answer": "전시된다",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "displaying": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "수식받는 명사와 분사의 관계를 능동으로 잘못 보았다.",
+      "summary": [
+        "were donated가 본동사이므로 문제 부분은 준동사 자리이다.",
+        "paintings는 전시하는 것이 아니라 전시된다.",
+        "수동 관계이므로 displayed를 선택한다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "수식받는 명사가 동작을 당하면 무엇을 고르는가?",
+        "choices": [
+          "V-ing",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G03-001",
+      "retryPolicy": "확인문제와 유사문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G02-002",
+    "sourceQuestionId": "Q-G02-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G02-001-DR",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 1,
+    "stem": "The machine (producing / produced) clean energy was recently upgraded.",
+    "choices": [
+      "producing",
+      "produced"
+    ],
+    "answer": "producing",
+    "decisionSteps": [
+      {
+        "id": "slot",
+        "prompt": "문제 부분은 본동사 자리인가 준동사 자리인가?",
+        "answer": "준동사 자리",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "object",
+        "prompt": "문제 단어 뒤에 목적어가 있는가?",
+        "answer": "clean energy가 있다",
+        "errorCode": "E04_OBJECT_SKIPPED"
+      },
+      {
+        "id": "voice",
+        "prompt": "능동인가 수동인가?",
+        "answer": "능동",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "produced": "E04_OBJECT_SKIPPED"
+    },
+    "remediation": {
+      "diagnosis": "분사 뒤의 목적어를 확인하지 않아 능동·수동을 반대로 골랐다.",
+      "summary": [
+        "was upgraded가 문장의 본동사이므로 문제 부분은 준동사 자리이다.",
+        "produce 뒤에 clean energy라는 목적어가 있다.",
+        "목적어가 있으므로 능동 V-ing producing을 선택한다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "준동사 뒤에 목적어가 있으면 우선 무엇을 고르는가?",
+        "choices": [
+          "V-ing",
+          "p.p."
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G02-002",
+      "retryPolicy": "확인문제와 유사문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G02-001",
+    "sourceQuestionId": "Q-G02-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G02-002-DR",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 1,
+    "stem": "The paintings (displaying / displayed) in the lobby were donated by a local artist.",
+    "choices": [
+      "displaying",
+      "displayed"
+    ],
+    "answer": "displayed",
+    "decisionSteps": [
+      {
+        "id": "slot",
+        "prompt": "문제 부분은 본동사 자리인가 준동사 자리인가?",
+        "answer": "준동사 자리",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "object",
+        "prompt": "display 뒤에 목적어가 있는가?",
+        "answer": "없다",
+        "errorCode": "E04_OBJECT_SKIPPED"
+      },
+      {
+        "id": "voice",
+        "prompt": "paintings는 전시하는가 전시되는가?",
+        "answer": "전시된다",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "displaying": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "수식받는 명사와 분사의 관계를 능동으로 잘못 보았다.",
+      "summary": [
+        "were donated가 본동사이므로 문제 부분은 준동사 자리이다.",
+        "paintings는 전시하는 것이 아니라 전시된다.",
+        "수동 관계이므로 displayed를 선택한다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "수식받는 명사가 동작을 당하면 무엇을 고르는가?",
+        "choices": [
+          "V-ing",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G03-001",
+      "retryPolicy": "확인문제와 유사문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G02-002",
+    "sourceQuestionId": "Q-G02-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G02-001-CT",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe machine (producing / produced) clean energy was recently upgraded.",
+    "choices": [
+      "produced",
+      "producing"
+    ],
+    "answer": "produced",
+    "decisionSteps": [
+      {
+        "id": "slot",
+        "prompt": "문제 부분은 본동사 자리인가 준동사 자리인가?",
+        "answer": "준동사 자리",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "object",
+        "prompt": "문제 단어 뒤에 목적어가 있는가?",
+        "answer": "clean energy가 있다",
+        "errorCode": "E04_OBJECT_SKIPPED"
+      },
+      {
+        "id": "voice",
+        "prompt": "능동인가 수동인가?",
+        "answer": "능동",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "producing": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "'produced'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'producing'이다.",
+      "summary": [
+        "was upgraded가 문장의 본동사이므로 문제 부분은 준동사 자리이다.",
+        "produce 뒤에 clean energy라는 목적어가 있다.",
+        "목적어가 있으므로 능동 V-ing producing을 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'produced'이다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "준동사 뒤에 목적어가 있으면 우선 무엇을 고르는가?",
+        "choices": [
+          "V-ing",
+          "p.p."
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G02-001",
+      "retryPolicy": "확인문제와 유사문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G02-001",
+    "sourceQuestionId": "Q-G02-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G02-002-CT",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe paintings (displaying / displayed) in the lobby were donated by a local artist.",
+    "choices": [
+      "displaying",
+      "displayed"
+    ],
+    "answer": "displaying",
+    "decisionSteps": [
+      {
+        "id": "slot",
+        "prompt": "문제 부분은 본동사 자리인가 준동사 자리인가?",
+        "answer": "준동사 자리",
+        "errorCode": "E03_SLOT_CONFUSION"
+      },
+      {
+        "id": "object",
+        "prompt": "display 뒤에 목적어가 있는가?",
+        "answer": "없다",
+        "errorCode": "E04_OBJECT_SKIPPED"
+      },
+      {
+        "id": "voice",
+        "prompt": "paintings는 전시하는가 전시되는가?",
+        "answer": "전시된다",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "displayed": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "'displaying'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'displayed'이다.",
+      "summary": [
+        "were donated가 본동사이므로 문제 부분은 준동사 자리이다.",
+        "paintings는 전시하는 것이 아니라 전시된다.",
+        "수동 관계이므로 displayed를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'displaying'이다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "수식받는 명사가 동작을 당하면 무엇을 고르는가?",
+        "choices": [
+          "V-ing",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G02-002",
+      "retryPolicy": "확인문제와 유사문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G02-002",
+    "sourceQuestionId": "Q-G02-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-03C651490C",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 수식받는 명사가 동작을 당하면 무엇을 고르는가?",
+    "choices": [
+      "V-ing",
+      "p.p."
+    ],
+    "answer": "p.p.",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "본동사 자리에서는 목적어가 있으면 능동, 없으면 be+p.p. 수동을 검토한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "V-ing": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "were donated가 본동사이므로 문제 부분은 준동사 자리이다.",
+        "paintings는 전시하는 것이 아니라 전시된다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "준동사 뒤에 목적어가 있으면 우선 무엇을 고르는가?",
+        "choices": [
+          "V-ing",
+          "p.p."
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G02-002",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-03C651490C",
+    "sourceQuestionId": "Q-G02-002",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-7E101034E5",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 준동사 뒤에 목적어가 있으면 우선 무엇을 고르는가?",
+    "choices": [
+      "V-ing",
+      "p.p."
+    ],
+    "answer": "V-ing",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "본동사 자리에서는 목적어가 있으면 능동, 없으면 be+p.p. 수동을 검토한다.",
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E03_SLOT_CONFUSION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "p.p.": "E03_SLOT_CONFUSION"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "was upgraded가 문장의 본동사이므로 문제 부분은 준동사 자리이다.",
+        "produce 뒤에 clean energy라는 목적어가 있다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "수식받는 명사가 동작을 당하면 무엇을 고르는가?",
+        "choices": [
+          "V-ing",
+          "p.p."
+        ],
+        "answer": "p.p."
+      },
+      "transferQuestionId": "Q-G02-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-7E101034E5",
+    "sourceQuestionId": "Q-G02-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-019-B65AFB3C",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "The history of Egypt [writing / written] by Manetho, an Egyptian priest of the early third century BCE, is known only through such quotations.",
+    "choices": [
+      "writing",
+      "written"
+    ],
+    "answer": "written",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "writing": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-1C81A989",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-019-B65AFB3C",
+    "sourceQuestionId": "Q-P21-G-019-B65AFB3C",
+    "sourceCandidateId": "CAND-G-019-B65AFB3C",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-B65AFB3C",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 23,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-B65AFB3C-PF",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "The history of Egypt [writing / written] by Manetho, an Egyptian priest of the early third century BCE, is known only through such quotations.",
+    "choices": [
+      "writing",
+      "written"
+    ],
+    "answer": "written",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "writing": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-1C81A989",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-B65AFB3C",
+    "sourceQuestionId": "Q-P21-G-019-B65AFB3C",
+    "sourceCandidateId": "CAND-G-019-B65AFB3C",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-B65AFB3C",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 23,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-B65AFB3C-DR",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "The history of Egypt [writing / written] by Manetho, an Egyptian priest of the early third century BCE, is known only through such quotations.",
+    "choices": [
+      "writing",
+      "written"
+    ],
+    "answer": "written",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "writing": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-1C81A989",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-B65AFB3C",
+    "sourceQuestionId": "Q-P21-G-019-B65AFB3C",
+    "sourceCandidateId": "CAND-G-019-B65AFB3C",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-B65AFB3C",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 23,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-B65AFB3C-CT",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe history of Egypt [writing / written] by Manetho, an Egyptian priest of the early third century BCE, is known only through such quotations.",
+    "choices": [
+      "written",
+      "writing"
+    ],
+    "answer": "writing",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "written": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "'writing'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'written'이다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p.",
+        "대조 문항에서는 사용할 수 없는 형태 'writing'를 고른다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-B65AFB3C",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-B65AFB3C",
+    "sourceQuestionId": "Q-P21-G-019-B65AFB3C",
+    "sourceCandidateId": "CAND-G-019-B65AFB3C",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-B65AFB3C",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 36,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 23,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-1C81A989",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "On average, the general population spends over four and a half hours a day in front of the tube, [making / made] TV watching, one of the most common modern leisure activities.",
+    "choices": [
+      "making",
+      "made"
+    ],
+    "answer": "making",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "made": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-C70877DF",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-019-1C81A989",
+    "sourceQuestionId": "Q-P21-G-019-1C81A989",
+    "sourceCandidateId": "CAND-G-019-1C81A989",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-1C81A989",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 81,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 31,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-1C81A989-PF",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "On average, the general population spends over four and a half hours a day in front of the tube, [making / made] TV watching, one of the most common modern leisure activities.",
+    "choices": [
+      "making",
+      "made"
+    ],
+    "answer": "making",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "made": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-C70877DF",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-1C81A989",
+    "sourceQuestionId": "Q-P21-G-019-1C81A989",
+    "sourceCandidateId": "CAND-G-019-1C81A989",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-1C81A989",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 91,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 31,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-1C81A989-DR",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "On average, the general population spends over four and a half hours a day in front of the tube, [making / made] TV watching, one of the most common modern leisure activities.",
+    "choices": [
+      "making",
+      "made"
+    ],
+    "answer": "making",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "made": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-C70877DF",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-1C81A989",
+    "sourceQuestionId": "Q-P21-G-019-1C81A989",
+    "sourceCandidateId": "CAND-G-019-1C81A989",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-1C81A989",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 75,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 31,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-1C81A989-CT",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nOn average, the general population spends over four and a half hours a day in front of the tube, [making / made] TV watching, one of the most common modern leisure activities.",
+    "choices": [
+      "made",
+      "making"
+    ],
+    "answer": "made",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "making": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "'made'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'making'이다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p.",
+        "대조 문항에서는 사용할 수 없는 형태 'made'를 고른다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-1C81A989",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-1C81A989",
+    "sourceQuestionId": "Q-P21-G-019-1C81A989",
+    "sourceCandidateId": "CAND-G-019-1C81A989",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-1C81A989",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 73,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 31,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-C70877DF",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "These statistics reflect only those crimes [reporting / reported] to local police departments.",
+    "choices": [
+      "reporting",
+      "reported"
+    ],
+    "answer": "reported",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reporting": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-7F3A7C12",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-019-C70877DF",
+    "sourceQuestionId": "Q-P21-G-019-C70877DF",
+    "sourceCandidateId": "CAND-G-019-C70877DF",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-C70877DF",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-C70877DF-PF",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "These statistics reflect only those crimes [reporting / reported] to local police departments.",
+    "choices": [
+      "reporting",
+      "reported"
+    ],
+    "answer": "reported",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reporting": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-7F3A7C12",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-C70877DF",
+    "sourceQuestionId": "Q-P21-G-019-C70877DF",
+    "sourceCandidateId": "CAND-G-019-C70877DF",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-C70877DF",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-C70877DF-DR",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "These statistics reflect only those crimes [reporting / reported] to local police departments.",
+    "choices": [
+      "reporting",
+      "reported"
+    ],
+    "answer": "reported",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reporting": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-7F3A7C12",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-C70877DF",
+    "sourceQuestionId": "Q-P21-G-019-C70877DF",
+    "sourceCandidateId": "CAND-G-019-C70877DF",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-C70877DF",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-C70877DF-CT",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThese statistics reflect only those crimes [reporting / reported] to local police departments.",
+    "choices": [
+      "reporting",
+      "reported"
+    ],
+    "answer": "reporting",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reported": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "'reporting'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'reported'이다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p.",
+        "대조 문항에서는 사용할 수 없는 형태 'reporting'를 고른다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-C70877DF",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-C70877DF",
+    "sourceQuestionId": "Q-P21-G-019-C70877DF",
+    "sourceCandidateId": "CAND-G-019-C70877DF",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-C70877DF",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 12,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-7F3A7C12",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "Some products are labeled “chemical free,” when the fact is everything contains chemicals, [including / included] plants and animals.",
+    "choices": [
+      "including",
+      "included"
+    ],
+    "answer": "including",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "included": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-569648CA",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-019-7F3A7C12",
+    "sourceQuestionId": "Q-P21-G-019-7F3A7C12",
+    "sourceCandidateId": "CAND-G-019-7F3A7C12",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-7F3A7C12",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-7F3A7C12-PF",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "Some products are labeled “chemical free,” when the fact is everything contains chemicals, [including / included] plants and animals.",
+    "choices": [
+      "including",
+      "included"
+    ],
+    "answer": "including",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "included": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-569648CA",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-7F3A7C12",
+    "sourceQuestionId": "Q-P21-G-019-7F3A7C12",
+    "sourceCandidateId": "CAND-G-019-7F3A7C12",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-7F3A7C12",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-7F3A7C12-DR",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "Some products are labeled “chemical free,” when the fact is everything contains chemicals, [including / included] plants and animals.",
+    "choices": [
+      "including",
+      "included"
+    ],
+    "answer": "including",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "included": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-569648CA",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-7F3A7C12",
+    "sourceQuestionId": "Q-P21-G-019-7F3A7C12",
+    "sourceCandidateId": "CAND-G-019-7F3A7C12",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-7F3A7C12",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-7F3A7C12-CT",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nSome products are labeled “chemical free,” when the fact is everything contains chemicals, [including / included] plants and animals.",
+    "choices": [
+      "included",
+      "including"
+    ],
+    "answer": "included",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "including": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "'included'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'including'이다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p.",
+        "대조 문항에서는 사용할 수 없는 형태 'included'를 고른다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-7F3A7C12",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-7F3A7C12",
+    "sourceQuestionId": "Q-P21-G-019-7F3A7C12",
+    "sourceCandidateId": "CAND-G-019-7F3A7C12",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-7F3A7C12",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 32,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 18,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-569648CA",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "Even if neither person [involving /involved] is convinced by the other's argument, both can still come to appreciate the opposing view.",
+    "choices": [
+      "involving",
+      "involved"
+    ],
+    "answer": "involved",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "involving": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-B65AFB3C",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-019-569648CA",
+    "sourceQuestionId": "Q-P21-G-019-569648CA",
+    "sourceCandidateId": "CAND-G-019-569648CA",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-569648CA",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-569648CA-PF",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "Even if neither person [involving /involved] is convinced by the other's argument, both can still come to appreciate the opposing view.",
+    "choices": [
+      "involving",
+      "involved"
+    ],
+    "answer": "involved",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "involving": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-B65AFB3C",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-569648CA",
+    "sourceQuestionId": "Q-P21-G-019-569648CA",
+    "sourceCandidateId": "CAND-G-019-569648CA",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-569648CA",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-569648CA-DR",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "Even if neither person [involving /involved] is convinced by the other's argument, both can still come to appreciate the opposing view.",
+    "choices": [
+      "involving",
+      "involved"
+    ],
+    "answer": "involved",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "involving": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "주어가 동작을 하는지 당하는지 반대로 판단했다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-B65AFB3C",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-569648CA",
+    "sourceQuestionId": "Q-P21-G-019-569648CA",
+    "sourceCandidateId": "CAND-G-019-569648CA",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-569648CA",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-019-569648CA-CT",
+    "conceptId": "G02_PARTICIPLE_OBJECT_VOICE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nEven if neither person [involving /involved] is convinced by the other's argument, both can still come to appreciate the opposing view.",
+    "choices": [
+      "involving",
+      "involved"
+    ],
+    "answer": "involving",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "현재분사·과거분사 자·타 공식",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "현재분사·과거분사 자·타 공식",
+        "errorCode": "E05_VOICE_REVERSED"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "errorCode": "E05_VOICE_REVERSED"
+      }
+    ],
+    "misconceptionByChoice": {
+      "involved": "E05_VOICE_REVERSED"
+    },
+    "remediation": {
+      "diagnosis": "'involving'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'involved'이다.",
+      "summary": [
+        "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+        "준동사 자리인지 확인한다",
+        "목적어가 없으면 수동 p.p.",
+        "대조 문항에서는 사용할 수 없는 형태 'involving'를 고른다."
+      ],
+      "sourceRef": "SRC-G02",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "준동사 자리에서는 뒤에 목적어가 있으면 V-ing, 목적어가 없으면 p.p.를 우선 검토한다."
+      },
+      "transferQuestionId": "Q-P21-G-019-569648CA",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-019-569648CA",
+    "sourceQuestionId": "Q-P21-G-019-569648CA",
+    "sourceCandidateId": "CAND-G-019-569648CA",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 19,
+      "asset": "assets/source-evidence/phase21/grammar-page-019.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-019-569648CA",
+      "evidenceRef": "SRC-P21-G-019",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 35,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 21,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

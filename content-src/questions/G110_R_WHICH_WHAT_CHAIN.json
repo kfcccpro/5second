@@ -1,0 +1,4030 @@
+[
+  {
+    "id": "Q-R13-110-01",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "12. 어떤 어떤",
+    "stem": "I like a woman who has lived next door.",
+    "choices": [
+      "어떤 여자? 옆집에 살았던",
+      "어떤 옆집? 여자가 살았던"
+    ],
+    "answer": "어떤 여자? 옆집에 살았던",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "I like a woman / who has lived next door → 어떤 여자?",
+    "sourcePreviewRef": "SRC-R13-LINK3",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 옆집? 여자가 살았던": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 여자? 옆집에 살았던이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 여자? 옆집에 살았던」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-110-01",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "I"
+        },
+        {
+          "index": 1,
+          "text": "like"
+        },
+        {
+          "index": 2,
+          "text": "a"
+        },
+        {
+          "index": 3,
+          "text": "woman"
+        },
+        {
+          "index": 4,
+          "text": "who"
+        },
+        {
+          "index": 5,
+          "text": "has"
+        },
+        {
+          "index": 6,
+          "text": "lived"
+        },
+        {
+          "index": 7,
+          "text": "next"
+        },
+        {
+          "index": 8,
+          "text": "door"
+        },
+        {
+          "index": 9,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        4
+      ],
+      "focusTargets": [
+        4
+      ],
+      "underlineRanges": [
+        [
+          3
+        ]
+      ],
+      "focusLabel": "수식 덩어리 시작",
+      "instruction": "앞 명사는 밑줄, 뒤 수식 덩어리 시작은 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-110-01",
+    "sourceQuestionId": "Q-R13-110-01",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 100,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-02",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "12. 어떤 어떤",
+    "stem": "We own devices designed to make our lives easier.",
+    "choices": [
+      "어떤 기기? 삶을 쉽게 하도록 설계된",
+      "어떤 삶? 기기가 설계한"
+    ],
+    "answer": "어떤 기기? 삶을 쉽게 하도록 설계된",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "We own devices / designed / to make our lives easier → 어떤 기기?",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 삶? 기기가 설계한": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 기기? 삶을 쉽게 하도록 설계된이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 기기? 삶을 쉽게 하도록 설계된」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-110-02",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "We"
+        },
+        {
+          "index": 1,
+          "text": "own"
+        },
+        {
+          "index": 2,
+          "text": "devices"
+        },
+        {
+          "index": 3,
+          "text": "designed"
+        },
+        {
+          "index": 4,
+          "text": "to"
+        },
+        {
+          "index": 5,
+          "text": "make"
+        },
+        {
+          "index": 6,
+          "text": "our"
+        },
+        {
+          "index": 7,
+          "text": "lives"
+        },
+        {
+          "index": 8,
+          "text": "easier"
+        },
+        {
+          "index": 9,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        3,
+        4
+      ],
+      "focusTargets": [
+        3
+      ],
+      "underlineRanges": [
+        [
+          2
+        ]
+      ],
+      "focusLabel": "수식 덩어리 시작",
+      "instruction": "앞 명사는 밑줄, 뒤 수식 덩어리 시작은 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-110-02",
+    "sourceQuestionId": "Q-R13-110-02",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 110,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-03",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "12. 어떤 어떤",
+    "stem": "There is one way to overcome the failure.",
+    "choices": [
+      "어떤 방법? 실패를 극복할",
+      "어떤 실패? 방법을 극복한"
+    ],
+    "answer": "어떤 방법? 실패를 극복할",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "There is one way / to overcome the failure → 어떤 방법?",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 실패? 방법을 극복한": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 방법? 실패를 극복할이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 방법? 실패를 극복할」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-110-03",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "There"
+        },
+        {
+          "index": 1,
+          "text": "is"
+        },
+        {
+          "index": 2,
+          "text": "one"
+        },
+        {
+          "index": 3,
+          "text": "way"
+        },
+        {
+          "index": 4,
+          "text": "to"
+        },
+        {
+          "index": 5,
+          "text": "overcome"
+        },
+        {
+          "index": 6,
+          "text": "the"
+        },
+        {
+          "index": 7,
+          "text": "failure"
+        },
+        {
+          "index": 8,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        4
+      ],
+      "focusTargets": [
+        4
+      ],
+      "underlineRanges": [
+        [
+          3
+        ]
+      ],
+      "focusLabel": "수식 덩어리 시작",
+      "instruction": "앞 명사는 밑줄, 뒤 수식 덩어리 시작은 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-110-03",
+    "sourceQuestionId": "Q-R13-110-03",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 98,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-04",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "12. 어떤 어떤",
+    "stem": "People adopt the attitudes of those they spend time with.",
+    "choices": [
+      "어떤 사람들? 함께 시간을 보내는",
+      "어떤 태도? 사람들이 보내는"
+    ],
+    "answer": "어떤 사람들? 함께 시간을 보내는",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "People adopt the attitudes / of those / they spend time with.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 태도? 사람들이 보내는": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 사람들? 함께 시간을 보내는이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 사람들? 함께 시간을 보내는」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-110-04",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "People"
+        },
+        {
+          "index": 1,
+          "text": "adopt"
+        },
+        {
+          "index": 2,
+          "text": "the"
+        },
+        {
+          "index": 3,
+          "text": "attitudes"
+        },
+        {
+          "index": 4,
+          "text": "of"
+        },
+        {
+          "index": 5,
+          "text": "those"
+        },
+        {
+          "index": 6,
+          "text": "they"
+        },
+        {
+          "index": 7,
+          "text": "spend"
+        },
+        {
+          "index": 8,
+          "text": "time"
+        },
+        {
+          "index": 9,
+          "text": "with"
+        },
+        {
+          "index": 10,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        4,
+        6
+      ],
+      "focusTargets": [
+        4
+      ],
+      "underlineRanges": [
+        [
+          3
+        ]
+      ],
+      "focusLabel": "수식 덩어리 시작",
+      "instruction": "앞 명사는 밑줄, 뒤 수식 덩어리 시작은 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-110-04",
+    "sourceQuestionId": "Q-R13-110-04",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 122,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-05",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "12. 어떤 어떤",
+    "stem": "The aura that set rulers apart was powerful.",
+    "choices": [
+      "어떤 분위기? 통치자를 구별한",
+      "어떤 통치자? 분위기를 구별한"
+    ],
+    "answer": "어떤 분위기? 통치자를 구별한",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "The aura / that set rulers apart / was powerful.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 통치자? 분위기를 구별한": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 분위기? 통치자를 구별한이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 분위기? 통치자를 구별한」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-110-05",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "text": "aura"
+        },
+        {
+          "index": 2,
+          "text": "that"
+        },
+        {
+          "index": 3,
+          "text": "set"
+        },
+        {
+          "index": 4,
+          "text": "rulers"
+        },
+        {
+          "index": 5,
+          "text": "apart"
+        },
+        {
+          "index": 6,
+          "text": "was"
+        },
+        {
+          "index": 7,
+          "text": "powerful"
+        },
+        {
+          "index": 8,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        2,
+        6
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [
+        [
+          1
+        ]
+      ],
+      "focusLabel": "수식 덩어리 시작",
+      "instruction": "앞 명사는 밑줄, 뒤 수식 덩어리 시작은 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-110-05",
+    "sourceQuestionId": "Q-R13-110-05",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 50,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 118,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-06",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "12. 어떤 어떤",
+    "stem": "The actor hired by researchers entered the elevator.",
+    "choices": [
+      "어떤 배우? 연구자들에게 고용된",
+      "어떤 연구자? 배우를 고용한"
+    ],
+    "answer": "어떤 배우? 연구자들에게 고용된",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "The actor / hired by researchers / entered the elevator.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 연구자? 배우를 고용한": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 배우? 연구자들에게 고용된이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 배우? 연구자들에게 고용된」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "reading",
+      "stylus",
+      "author-method",
+      "recovery",
+      "token-map",
+      "auto-mark-check",
+      "method-score"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-110-06",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "text": "actor"
+        },
+        {
+          "index": 2,
+          "text": "hired"
+        },
+        {
+          "index": 3,
+          "text": "by"
+        },
+        {
+          "index": 4,
+          "text": "researchers"
+        },
+        {
+          "index": 5,
+          "text": "entered"
+        },
+        {
+          "index": 6,
+          "text": "the"
+        },
+        {
+          "index": 7,
+          "text": "elevator"
+        },
+        {
+          "index": 8,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        2,
+        5
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [
+        [
+          1
+        ]
+      ],
+      "focusLabel": "수식 덩어리 시작",
+      "instruction": "앞 명사는 밑줄, 뒤 수식 덩어리 시작은 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-110-06",
+    "sourceQuestionId": "Q-R13-110-06",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 50,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 118,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-01-PF",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "I like a woman who has lived next door.",
+    "choices": [
+      "어떤 여자? 옆집에 살았던",
+      "어떤 옆집? 여자가 살았던"
+    ],
+    "answer": "어떤 여자? 옆집에 살았던",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "I like a woman / who has lived next door → 어떤 여자?",
+    "sourcePreviewRef": "SRC-R13-LINK3",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 옆집? 여자가 살았던": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 여자? 옆집에 살았던이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 여자? 옆집에 살았던」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-110-01-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "I"
+        },
+        {
+          "index": 1,
+          "text": "like"
+        },
+        {
+          "index": 2,
+          "text": "a"
+        },
+        {
+          "index": 3,
+          "text": "woman"
+        },
+        {
+          "index": 4,
+          "text": "who"
+        },
+        {
+          "index": 5,
+          "text": "has"
+        },
+        {
+          "index": 6,
+          "text": "lived"
+        },
+        {
+          "index": 7,
+          "text": "next"
+        },
+        {
+          "index": 8,
+          "text": "door"
+        },
+        {
+          "index": 9,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        4
+      ],
+      "focusTargets": [
+        4
+      ],
+      "underlineRanges": [
+        [
+          3
+        ]
+      ],
+      "focusLabel": "수식 덩어리 시작",
+      "instruction": "앞 명사는 밑줄, 뒤 수식 덩어리 시작은 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-110-01",
+    "sourceQuestionId": "Q-R13-110-01",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 112,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-02-PF",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "We own devices designed to make our lives easier.",
+    "choices": [
+      "어떤 기기? 삶을 쉽게 하도록 설계된",
+      "어떤 삶? 기기가 설계한"
+    ],
+    "answer": "어떤 기기? 삶을 쉽게 하도록 설계된",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "We own devices / designed / to make our lives easier → 어떤 기기?",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 삶? 기기가 설계한": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 기기? 삶을 쉽게 하도록 설계된이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 기기? 삶을 쉽게 하도록 설계된」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-110-02-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "We"
+        },
+        {
+          "index": 1,
+          "text": "own"
+        },
+        {
+          "index": 2,
+          "text": "devices"
+        },
+        {
+          "index": 3,
+          "text": "designed"
+        },
+        {
+          "index": 4,
+          "text": "to"
+        },
+        {
+          "index": 5,
+          "text": "make"
+        },
+        {
+          "index": 6,
+          "text": "our"
+        },
+        {
+          "index": 7,
+          "text": "lives"
+        },
+        {
+          "index": 8,
+          "text": "easier"
+        },
+        {
+          "index": 9,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        3,
+        4
+      ],
+      "focusTargets": [
+        3
+      ],
+      "underlineRanges": [
+        [
+          2
+        ]
+      ],
+      "focusLabel": "수식 덩어리 시작",
+      "instruction": "앞 명사는 밑줄, 뒤 수식 덩어리 시작은 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-110-02",
+    "sourceQuestionId": "Q-R13-110-02",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 123,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-03-PF",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "There is one way to overcome the failure.",
+    "choices": [
+      "어떤 방법? 실패를 극복할",
+      "어떤 실패? 방법을 극복한"
+    ],
+    "answer": "어떤 방법? 실패를 극복할",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "There is one way / to overcome the failure → 어떤 방법?",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 실패? 방법을 극복한": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 방법? 실패를 극복할이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 방법? 실패를 극복할」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-110-03-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "There"
+        },
+        {
+          "index": 1,
+          "text": "is"
+        },
+        {
+          "index": 2,
+          "text": "one"
+        },
+        {
+          "index": 3,
+          "text": "way"
+        },
+        {
+          "index": 4,
+          "text": "to"
+        },
+        {
+          "index": 5,
+          "text": "overcome"
+        },
+        {
+          "index": 6,
+          "text": "the"
+        },
+        {
+          "index": 7,
+          "text": "failure"
+        },
+        {
+          "index": 8,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        4
+      ],
+      "focusTargets": [
+        4
+      ],
+      "underlineRanges": [
+        [
+          3
+        ]
+      ],
+      "focusLabel": "수식 덩어리 시작",
+      "instruction": "앞 명사는 밑줄, 뒤 수식 덩어리 시작은 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-110-03",
+    "sourceQuestionId": "Q-R13-110-03",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 110,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-04-PF",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "People adopt the attitudes of those they spend time with.",
+    "choices": [
+      "어떤 사람들? 함께 시간을 보내는",
+      "어떤 태도? 사람들이 보내는"
+    ],
+    "answer": "어떤 사람들? 함께 시간을 보내는",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "People adopt the attitudes / of those / they spend time with.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 태도? 사람들이 보내는": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 사람들? 함께 시간을 보내는이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 사람들? 함께 시간을 보내는」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-110-04-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "People"
+        },
+        {
+          "index": 1,
+          "text": "adopt"
+        },
+        {
+          "index": 2,
+          "text": "the"
+        },
+        {
+          "index": 3,
+          "text": "attitudes"
+        },
+        {
+          "index": 4,
+          "text": "of"
+        },
+        {
+          "index": 5,
+          "text": "those"
+        },
+        {
+          "index": 6,
+          "text": "they"
+        },
+        {
+          "index": 7,
+          "text": "spend"
+        },
+        {
+          "index": 8,
+          "text": "time"
+        },
+        {
+          "index": 9,
+          "text": "with"
+        },
+        {
+          "index": 10,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        4,
+        6
+      ],
+      "focusTargets": [
+        4
+      ],
+      "underlineRanges": [
+        [
+          3
+        ]
+      ],
+      "focusLabel": "수식 덩어리 시작",
+      "instruction": "앞 명사는 밑줄, 뒤 수식 덩어리 시작은 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-110-04",
+    "sourceQuestionId": "Q-R13-110-04",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 137,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-05-PF",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "The aura that set rulers apart was powerful.",
+    "choices": [
+      "어떤 분위기? 통치자를 구별한",
+      "어떤 통치자? 분위기를 구별한"
+    ],
+    "answer": "어떤 분위기? 통치자를 구별한",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "The aura / that set rulers apart / was powerful.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 통치자? 분위기를 구별한": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 분위기? 통치자를 구별한이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 분위기? 통치자를 구별한」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-110-05-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "text": "aura"
+        },
+        {
+          "index": 2,
+          "text": "that"
+        },
+        {
+          "index": 3,
+          "text": "set"
+        },
+        {
+          "index": 4,
+          "text": "rulers"
+        },
+        {
+          "index": 5,
+          "text": "apart"
+        },
+        {
+          "index": 6,
+          "text": "was"
+        },
+        {
+          "index": 7,
+          "text": "powerful"
+        },
+        {
+          "index": 8,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        2,
+        6
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [
+        [
+          1
+        ]
+      ],
+      "focusLabel": "수식 덩어리 시작",
+      "instruction": "앞 명사는 밑줄, 뒤 수식 덩어리 시작은 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-110-05",
+    "sourceQuestionId": "Q-R13-110-05",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 50,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 132,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-06-PF",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "The actor hired by researchers entered the elevator.",
+    "choices": [
+      "어떤 배우? 연구자들에게 고용된",
+      "어떤 연구자? 배우를 고용한"
+    ],
+    "answer": "어떤 배우? 연구자들에게 고용된",
+    "requiresInk": true,
+    "inkPrompt": "문장에 직접 표시하세요. 완료 후 표식 인식 결과와 저자식 과정 점수를 확인합니다.",
+    "modelMarkup": "The actor / hired by researchers / entered the elevator.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 연구자? 배우를 고용한": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 배우? 연구자들에게 고용된이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 배우? 연구자들에게 고용된」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "active-recall",
+      "author-method",
+      "auto-mark-check",
+      "method-score",
+      "process-first",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "annotationSpec": {
+      "questionId": "Q-R13-110-06-PF",
+      "tokens": [
+        {
+          "index": 0,
+          "text": "The"
+        },
+        {
+          "index": 1,
+          "text": "actor"
+        },
+        {
+          "index": 2,
+          "text": "hired"
+        },
+        {
+          "index": 3,
+          "text": "by"
+        },
+        {
+          "index": 4,
+          "text": "researchers"
+        },
+        {
+          "index": 5,
+          "text": "entered"
+        },
+        {
+          "index": 6,
+          "text": "the"
+        },
+        {
+          "index": 7,
+          "text": "elevator"
+        },
+        {
+          "index": 8,
+          "text": "."
+        }
+      ],
+      "expectedBreaks": [
+        2,
+        5
+      ],
+      "focusTargets": [
+        2
+      ],
+      "underlineRanges": [
+        [
+          1
+        ]
+      ],
+      "focusLabel": "수식 덩어리 시작",
+      "instruction": "앞 명사는 밑줄, 뒤 수식 덩어리 시작은 동그라미로 점검합니다.",
+      "acceptedFocusMarks": [
+        "circle",
+        "underline"
+      ],
+      "weights": {
+        "break": 50,
+        "focus": 30,
+        "completion": 20
+      },
+      "passScore": 70,
+      "tolerance": {
+        "gap": 0,
+        "token": 0
+      },
+      "version": "14.0"
+    },
+    "familyId": "Q-R13-110-06",
+    "sourceQuestionId": "Q-R13-110-06",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 50,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 132,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-01-DR",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "I like a woman who has lived next door.",
+    "choices": [
+      "어떤 여자? 옆집에 살았던",
+      "어떤 옆집? 여자가 살았던"
+    ],
+    "answer": "어떤 여자? 옆집에 살았던",
+    "requiresInk": false,
+    "modelMarkup": "I like a woman / who has lived next door → 어떤 여자?",
+    "sourcePreviewRef": "SRC-R13-LINK3",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 옆집? 여자가 살았던": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 여자? 옆집에 살았던이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 여자? 옆집에 살았던」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-110-01",
+    "sourceQuestionId": "Q-R13-110-01",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 92,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-02-DR",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 1,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "We own devices designed to make our lives easier.",
+    "choices": [
+      "어떤 기기? 삶을 쉽게 하도록 설계된",
+      "어떤 삶? 기기가 설계한"
+    ],
+    "answer": "어떤 기기? 삶을 쉽게 하도록 설계된",
+    "requiresInk": false,
+    "modelMarkup": "We own devices / designed / to make our lives easier → 어떤 기기?",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 삶? 기기가 설계한": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 기기? 삶을 쉽게 하도록 설계된이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 기기? 삶을 쉽게 하도록 설계된」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-110-02",
+    "sourceQuestionId": "Q-R13-110-02",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 101,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-03-DR",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "There is one way to overcome the failure.",
+    "choices": [
+      "어떤 방법? 실패를 극복할",
+      "어떤 실패? 방법을 극복한"
+    ],
+    "answer": "어떤 방법? 실패를 극복할",
+    "requiresInk": false,
+    "modelMarkup": "There is one way / to overcome the failure → 어떤 방법?",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 실패? 방법을 극복한": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 방법? 실패를 극복할이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 방법? 실패를 극복할」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-110-03",
+    "sourceQuestionId": "Q-R13-110-03",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 90,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-04-DR",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 2,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "People adopt the attitudes of those they spend time with.",
+    "choices": [
+      "어떤 사람들? 함께 시간을 보내는",
+      "어떤 태도? 사람들이 보내는"
+    ],
+    "answer": "어떤 사람들? 함께 시간을 보내는",
+    "requiresInk": false,
+    "modelMarkup": "People adopt the attitudes / of those / they spend time with.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 태도? 사람들이 보내는": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 사람들? 함께 시간을 보내는이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 사람들? 함께 시간을 보내는」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-110-04",
+    "sourceQuestionId": "Q-R13-110-04",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 112,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-05-DR",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "The aura that set rulers apart was powerful.",
+    "choices": [
+      "어떤 분위기? 통치자를 구별한",
+      "어떤 통치자? 분위기를 구별한"
+    ],
+    "answer": "어떤 분위기? 통치자를 구별한",
+    "requiresInk": false,
+    "modelMarkup": "The aura / that set rulers apart / was powerful.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 통치자? 분위기를 구별한": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 분위기? 통치자를 구별한이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 분위기? 통치자를 구별한」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-110-05",
+    "sourceQuestionId": "Q-R13-110-05",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 50,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 109,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-06-DR",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 3,
+    "questionType": "reading_annotate_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "The actor hired by researchers entered the elevator.",
+    "choices": [
+      "어떤 배우? 연구자들에게 고용된",
+      "어떤 연구자? 배우를 고용한"
+    ],
+    "answer": "어떤 배우? 연구자들에게 고용된",
+    "requiresInk": false,
+    "modelMarkup": "The actor / hired by researchers / entered the elevator.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 연구자? 배우를 고용한": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "뒤 수식 덩어리가 꾸미는 앞 명사를 찾지 않았다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 배우? 연구자들에게 고용된이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 배우? 연구자들에게 고용된」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "choice-hidden",
+      "delayed-recall",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-110-06",
+    "sourceQuestionId": "Q-R13-110-06",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 50,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 109,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-01-CT",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI like a woman who has lived next door.",
+    "choices": [
+      "어떤 옆집? 여자가 살았던",
+      "어떤 여자? 옆집에 살았던"
+    ],
+    "answer": "어떤 옆집? 여자가 살았던",
+    "requiresInk": false,
+    "modelMarkup": "I like a woman / who has lived next door → 어떤 여자?",
+    "sourcePreviewRef": "SRC-R13-LINK3",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 여자? 옆집에 살았던": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'어떤 옆집? 여자가 살았던'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '어떤 여자? 옆집에 살았던'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 여자? 옆집에 살았던이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '어떤 옆집? 여자가 살았던'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 여자? 옆집에 살았던」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-110-01"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-110-01",
+    "sourceQuestionId": "Q-R13-110-01",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 90,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-02-CT",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe own devices designed to make our lives easier.",
+    "choices": [
+      "어떤 삶? 기기가 설계한",
+      "어떤 기기? 삶을 쉽게 하도록 설계된"
+    ],
+    "answer": "어떤 삶? 기기가 설계한",
+    "requiresInk": false,
+    "modelMarkup": "We own devices / designed / to make our lives easier → 어떤 기기?",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 기기? 삶을 쉽게 하도록 설계된": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'어떤 삶? 기기가 설계한'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '어떤 기기? 삶을 쉽게 하도록 설계된'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 기기? 삶을 쉽게 하도록 설계된이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '어떤 삶? 기기가 설계한'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 기기? 삶을 쉽게 하도록 설계된」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-110-02"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-110-02",
+    "sourceQuestionId": "Q-R13-110-02",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 25,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 99,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-03-CT",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThere is one way to overcome the failure.",
+    "choices": [
+      "어떤 방법? 실패를 극복할",
+      "어떤 실패? 방법을 극복한"
+    ],
+    "answer": "어떤 실패? 방법을 극복한",
+    "requiresInk": false,
+    "modelMarkup": "There is one way / to overcome the failure → 어떤 방법?",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 방법? 실패를 극복할": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'어떤 실패? 방법을 극복한'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '어떤 방법? 실패를 극복할'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 방법? 실패를 극복할이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '어떤 실패? 방법을 극복한'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 방법? 실패를 극복할」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-110-03"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-110-03",
+    "sourceQuestionId": "Q-R13-110-03",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 34,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 88,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 1,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-04-CT",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nPeople adopt the attitudes of those they spend time with.",
+    "choices": [
+      "어떤 사람들? 함께 시간을 보내는",
+      "어떤 태도? 사람들이 보내는"
+    ],
+    "answer": "어떤 태도? 사람들이 보내는",
+    "requiresInk": false,
+    "modelMarkup": "People adopt the attitudes / of those / they spend time with.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 사람들? 함께 시간을 보내는": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'어떤 태도? 사람들이 보내는'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '어떤 사람들? 함께 시간을 보내는'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 사람들? 함께 시간을 보내는이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '어떤 태도? 사람들이 보내는'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 사람들? 함께 시간을 보내는」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-110-04"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-110-04",
+    "sourceQuestionId": "Q-R13-110-04",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 39,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 110,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-05-CT",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 3,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe aura that set rulers apart was powerful.",
+    "choices": [
+      "어떤 통치자? 분위기를 구별한",
+      "어떤 분위기? 통치자를 구별한"
+    ],
+    "answer": "어떤 통치자? 분위기를 구별한",
+    "requiresInk": false,
+    "modelMarkup": "The aura / that set rulers apart / was powerful.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 분위기? 통치자를 구별한": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'어떤 통치자? 분위기를 구별한'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '어떤 분위기? 통치자를 구별한'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 분위기? 통치자를 구별한이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '어떤 통치자? 분위기를 구별한'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 분위기? 통치자를 구별한」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-110-05"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-110-05",
+    "sourceQuestionId": "Q-R13-110-05",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 50,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 106,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R13-110-06-CT",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 3,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe actor hired by researchers entered the elevator.",
+    "choices": [
+      "어떤 연구자? 배우를 고용한",
+      "어떤 배우? 연구자들에게 고용된"
+    ],
+    "answer": "어떤 연구자? 배우를 고용한",
+    "requiresInk": false,
+    "modelMarkup": "The actor / hired by researchers / entered the elevator.",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "먼저 끊어 읽기 표식을 한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s2",
+        "prompt": "해당 이어 읽기 법칙을 적용한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      },
+      {
+        "id": "s3",
+        "prompt": "앞뒤 의미가 자연스럽게 이어지는지 확인한다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "어떤 배우? 연구자들에게 고용된": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "'어떤 연구자? 배우를 고용한'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '어떤 배우? 연구자들에게 고용된'이다.",
+      "summary": [
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 배우? 연구자들에게 고용된이다.",
+        "단어 나열이 아니라 자연스러운 우리말 흐름으로 잇는다.",
+        "따라서 대조 문항에서 고를 답은 '어떤 연구자? 배우를 고용한'이다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 배우? 연구자들에게 고용된」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "펜 표식 비교 → 교재 핵심 영역 → 판단 단계 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R13-110-06"
+    },
+    "origin": "reading13_authored",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "author-method",
+      "auto-mark-check",
+      "contrast",
+      "error-discrimination",
+      "method-score",
+      "reading",
+      "recovery",
+      "stylus",
+      "token-map"
+    ],
+    "familyId": "Q-R13-110-06",
+    "sourceQuestionId": "Q-R13-110-06",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 50,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 106,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 2,
+        "averageChoiceWordCount": 0,
+        "requiresInk": true,
+        "module": "reading"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-FAF1DC736F",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「어떤 기기? 삶을 쉽게 하도록 설계된」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "it~to/that, for 목적격 to-V, comma V-ing, as, how, as~as, with+목적어+분사 등 15개 패턴을 고정된 해석 단위로 처리한다.",
+          "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다."
+        ],
+        "answer": "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 기기? 삶을 쉽게 하도록 설계된이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 여자? 옆집에 살았던」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-110-02",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-FAF1DC736F",
+    "sourceQuestionId": "Q-R13-110-02",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-B0F3A36DCD",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「어떤 방법? 실패를 극복할」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "it~to/that, for 목적격 to-V, comma V-ing, as, how, as~as, with+목적어+분사 등 15개 패턴을 고정된 해석 단위로 처리한다.",
+          "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다."
+        ],
+        "answer": "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 방법? 실패를 극복할이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 여자? 옆집에 살았던」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-110-03",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-B0F3A36DCD",
+    "sourceQuestionId": "Q-R13-110-03",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-0BF612DFBF",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「어떤 배우? 연구자들에게 고용된」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+          "it~to/that, for 목적격 to-V, comma V-ing, as, how, as~as, with+목적어+분사 등 15개 패턴을 고정된 해석 단위로 처리한다."
+        ],
+        "answer": "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 배우? 연구자들에게 고용된이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 여자? 옆집에 살았던」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-110-06",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-0BF612DFBF",
+    "sourceQuestionId": "Q-R13-110-06",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-5FF2AFFE3A",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「어떤 분위기? 통치자를 구별한」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+          "it~to/that, for 목적격 to-V, comma V-ing, as, how, as~as, with+목적어+분사 등 15개 패턴을 고정된 해석 단위로 처리한다."
+        ],
+        "answer": "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 분위기? 통치자를 구별한이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 여자? 옆집에 살았던」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-110-05",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-5FF2AFFE3A",
+    "sourceQuestionId": "Q-R13-110-05",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-9DE0F9A6F3",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「어떤 사람들? 함께 시간을 보내는」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "it~to/that, for 목적격 to-V, comma V-ing, as, how, as~as, with+목적어+분사 등 15개 패턴을 고정된 해석 단위로 처리한다.",
+          "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다."
+        ],
+        "answer": "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 사람들? 함께 시간을 보내는이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 여자? 옆집에 살았던」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-110-04",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-9DE0F9A6F3",
+    "sourceQuestionId": "Q-R13-110-04",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-339B420186",
+    "conceptId": "G110_R_WHICH_WHAT_CHAIN",
+    "difficulty": 1,
+    "stem": "빠른 확인: 저자식 판단에 따르면 정답은 「어떤 여자? 옆집에 살았던」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+          "it~to/that, for 목적격 to-V, comma V-ing, as, how, as~as, with+목적어+분사 등 15개 패턴을 고정된 해석 단위로 처리한다."
+        ],
+        "answer": "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+        "errorCode": "E114_R_WHICH_WHAT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E114_R_WHICH_WHAT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "관계사·전치사·분사·to부정사 덩어리가 앞 명사를 꾸미면 속으로 어떤?을 물으며 앞 명사와 뒤 설명을 연결한다.",
+        "문장을 끊어 주절·수식 덩어리를 구분한다.",
+        "저자식 연결 기준은 어떤 여자? 옆집에 살았던이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R13-LINK3",
+      "checkQuestion": {
+        "prompt": "저자식 판단에 따르면 정답은 「어떤 기기? 삶을 쉽게 하도록 설계된」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R13-110-01",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "READING13",
+    "chapter": "12. 어떤 어떤",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-339B420186",
+    "sourceQuestionId": "Q-R13-110-01",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

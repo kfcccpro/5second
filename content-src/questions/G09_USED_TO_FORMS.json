@@ -1,0 +1,3911 @@
+[
+  {
+    "id": "Q-G09-001",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "This sensor is used to (measure / measuring) temperature.",
+    "choices": [
+      "measure",
+      "measuring"
+    ],
+    "answer": "measure",
+    "decisionSteps": [
+      {
+        "id": "be",
+        "prompt": "be used to가 수동태 용도 표현인가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "용도 표현의 to 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "measuring": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도 표현과 익숙함 표현을 혼동했다.",
+      "summary": [
+        "is used to는 여기서 “~하는 데 사용된다”이다.",
+        "용도 표현의 to는 to부정사이다.",
+        "따라서 measure를 선택한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "“~하는 데 사용된다”의 형태는?",
+        "choices": [
+          "be used to V",
+          "be used to V-ing"
+        ],
+        "answer": "be used to V"
+      },
+      "transferQuestionId": "Q-G09-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-001",
+    "sourceQuestionId": "Q-G09-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-002",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The interns are used to (work / working) late.",
+    "choices": [
+      "work",
+      "working"
+    ],
+    "answer": "working",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "문맥은 용도인가 익숙함인가?",
+        "answer": "익숙함",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "익숙함의 to 뒤 형태는?",
+        "answer": "명사 또는 V-ing",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "work": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "be used to의 to를 모두 to부정사로 보았다.",
+      "summary": [
+        "are used to는 여기서 “익숙하다”이다.",
+        "이때 to는 전치사이다.",
+        "전치사 뒤이므로 working을 선택한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "“~하는 데 익숙하다”의 형태는?",
+        "choices": [
+          "be used to V",
+          "be used to V-ing"
+        ],
+        "answer": "be used to V-ing"
+      },
+      "transferQuestionId": "Q-G09-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-002",
+    "sourceQuestionId": "Q-G09-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-003",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "My grandfather used to (walk / walking) to work.",
+    "choices": [
+      "walk",
+      "walking"
+    ],
+    "answer": "walk",
+    "decisionSteps": [
+      {
+        "id": "be",
+        "prompt": "used 앞에 be동사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "meaning",
+        "prompt": "과거의 습관을 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "used to 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "walking": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "과거 습관 used to 뒤에 V-ing를 썼다.",
+      "summary": [
+        "be동사 없이 used to가 쓰였다.",
+        "과거의 습관을 나타낸다.",
+        "used to 뒤에는 동사원형 walk가 온다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "과거 습관의 형태는?",
+        "choices": [
+          "used to V",
+          "used to V-ing"
+        ],
+        "answer": "used to V"
+      },
+      "transferQuestionId": "Q-G09-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-003",
+    "sourceQuestionId": "Q-G09-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-004",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "This building used to (be / being) a library.",
+    "choices": [
+      "be",
+      "being"
+    ],
+    "answer": "be",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "과거에는 도서관이었다는 뜻인가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "used to 뒤에 필요한 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "being": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "used to 뒤의 동사원형 규칙을 놓쳤다.",
+      "summary": [
+        "used to는 과거 상태를 나타낸다.",
+        "뒤에는 동사원형이 온다.",
+        "따라서 be를 선택한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "used to 뒤 be의 형태는?",
+        "choices": [
+          "be",
+          "being"
+        ],
+        "answer": "be"
+      },
+      "transferQuestionId": "Q-G09-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-004",
+    "sourceQuestionId": "Q-G09-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-005",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "She is not used to (speak / speaking) in public.",
+    "choices": [
+      "speak",
+      "speaking"
+    ],
+    "answer": "speaking",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "is used to가 익숙함을 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "전치사 to 뒤에는?",
+        "answer": "V-ing",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "speak": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "익숙함 표현의 전치사 to를 to부정사로 처리했다.",
+      "summary": [
+        "is used to는 “익숙하다”이다.",
+        "이때 to는 전치사이다.",
+        "전치사 뒤에 speaking을 쓴다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "not used to 뒤 행동은?",
+        "choices": [
+          "동사원형",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G09-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-005",
+    "sourceQuestionId": "Q-G09-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-006",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "Solar panels are used to (convert / converting) sunlight into electricity.",
+    "choices": [
+      "convert",
+      "converting"
+    ],
+    "answer": "convert",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "태양광 패널의 용도를 설명하는가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "용도 표현 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "converting": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도 표현을 익숙함 표현으로 잘못 읽었다.",
+      "summary": [
+        "are used to는 “~하는 데 사용된다”이다.",
+        "to는 to부정사 표시이다.",
+        "따라서 convert를 선택한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "be used to가 용도이면 뒤에는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G10-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-006",
+    "sourceQuestionId": "Q-G09-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-001-PF",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "This sensor is used to (measure / measuring) temperature.",
+    "choices": [
+      "measure",
+      "measuring"
+    ],
+    "answer": "measure",
+    "decisionSteps": [
+      {
+        "id": "be",
+        "prompt": "be used to가 수동태 용도 표현인가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "용도 표현의 to 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "measuring": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도 표현과 익숙함 표현을 혼동했다.",
+      "summary": [
+        "is used to는 여기서 “~하는 데 사용된다”이다.",
+        "용도 표현의 to는 to부정사이다.",
+        "따라서 measure를 선택한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "“~하는 데 사용된다”의 형태는?",
+        "choices": [
+          "be used to V",
+          "be used to V-ing"
+        ],
+        "answer": "be used to V"
+      },
+      "transferQuestionId": "Q-G09-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-001",
+    "sourceQuestionId": "Q-G09-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-002-PF",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The interns are used to (work / working) late.",
+    "choices": [
+      "work",
+      "working"
+    ],
+    "answer": "working",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "문맥은 용도인가 익숙함인가?",
+        "answer": "익숙함",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "익숙함의 to 뒤 형태는?",
+        "answer": "명사 또는 V-ing",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "work": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "be used to의 to를 모두 to부정사로 보았다.",
+      "summary": [
+        "are used to는 여기서 “익숙하다”이다.",
+        "이때 to는 전치사이다.",
+        "전치사 뒤이므로 working을 선택한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "“~하는 데 익숙하다”의 형태는?",
+        "choices": [
+          "be used to V",
+          "be used to V-ing"
+        ],
+        "answer": "be used to V-ing"
+      },
+      "transferQuestionId": "Q-G09-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-002",
+    "sourceQuestionId": "Q-G09-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-003-PF",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "My grandfather used to (walk / walking) to work.",
+    "choices": [
+      "walk",
+      "walking"
+    ],
+    "answer": "walk",
+    "decisionSteps": [
+      {
+        "id": "be",
+        "prompt": "used 앞에 be동사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "meaning",
+        "prompt": "과거의 습관을 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "used to 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "walking": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "과거 습관 used to 뒤에 V-ing를 썼다.",
+      "summary": [
+        "be동사 없이 used to가 쓰였다.",
+        "과거의 습관을 나타낸다.",
+        "used to 뒤에는 동사원형 walk가 온다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "과거 습관의 형태는?",
+        "choices": [
+          "used to V",
+          "used to V-ing"
+        ],
+        "answer": "used to V"
+      },
+      "transferQuestionId": "Q-G09-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-003",
+    "sourceQuestionId": "Q-G09-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-004-PF",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "This building used to (be / being) a library.",
+    "choices": [
+      "be",
+      "being"
+    ],
+    "answer": "be",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "과거에는 도서관이었다는 뜻인가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "used to 뒤에 필요한 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "being": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "used to 뒤의 동사원형 규칙을 놓쳤다.",
+      "summary": [
+        "used to는 과거 상태를 나타낸다.",
+        "뒤에는 동사원형이 온다.",
+        "따라서 be를 선택한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "used to 뒤 be의 형태는?",
+        "choices": [
+          "be",
+          "being"
+        ],
+        "answer": "be"
+      },
+      "transferQuestionId": "Q-G09-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-004",
+    "sourceQuestionId": "Q-G09-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-005-PF",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "She is not used to (speak / speaking) in public.",
+    "choices": [
+      "speak",
+      "speaking"
+    ],
+    "answer": "speaking",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "is used to가 익숙함을 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "전치사 to 뒤에는?",
+        "answer": "V-ing",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "speak": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "익숙함 표현의 전치사 to를 to부정사로 처리했다.",
+      "summary": [
+        "is used to는 “익숙하다”이다.",
+        "이때 to는 전치사이다.",
+        "전치사 뒤에 speaking을 쓴다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "not used to 뒤 행동은?",
+        "choices": [
+          "동사원형",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G09-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-005",
+    "sourceQuestionId": "Q-G09-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-006-PF",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "Solar panels are used to (convert / converting) sunlight into electricity.",
+    "choices": [
+      "convert",
+      "converting"
+    ],
+    "answer": "convert",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "태양광 패널의 용도를 설명하는가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "용도 표현 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "converting": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도 표현을 익숙함 표현으로 잘못 읽었다.",
+      "summary": [
+        "are used to는 “~하는 데 사용된다”이다.",
+        "to는 to부정사 표시이다.",
+        "따라서 convert를 선택한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "be used to가 용도이면 뒤에는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G10-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-006",
+    "sourceQuestionId": "Q-G09-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-001-DR",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "This sensor is used to (measure / measuring) temperature.",
+    "choices": [
+      "measure",
+      "measuring"
+    ],
+    "answer": "measure",
+    "decisionSteps": [
+      {
+        "id": "be",
+        "prompt": "be used to가 수동태 용도 표현인가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "용도 표현의 to 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "measuring": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도 표현과 익숙함 표현을 혼동했다.",
+      "summary": [
+        "is used to는 여기서 “~하는 데 사용된다”이다.",
+        "용도 표현의 to는 to부정사이다.",
+        "따라서 measure를 선택한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "“~하는 데 사용된다”의 형태는?",
+        "choices": [
+          "be used to V",
+          "be used to V-ing"
+        ],
+        "answer": "be used to V"
+      },
+      "transferQuestionId": "Q-G09-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-001",
+    "sourceQuestionId": "Q-G09-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-002-DR",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "The interns are used to (work / working) late.",
+    "choices": [
+      "work",
+      "working"
+    ],
+    "answer": "working",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "문맥은 용도인가 익숙함인가?",
+        "answer": "익숙함",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "익숙함의 to 뒤 형태는?",
+        "answer": "명사 또는 V-ing",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "work": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "be used to의 to를 모두 to부정사로 보았다.",
+      "summary": [
+        "are used to는 여기서 “익숙하다”이다.",
+        "이때 to는 전치사이다.",
+        "전치사 뒤이므로 working을 선택한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "“~하는 데 익숙하다”의 형태는?",
+        "choices": [
+          "be used to V",
+          "be used to V-ing"
+        ],
+        "answer": "be used to V-ing"
+      },
+      "transferQuestionId": "Q-G09-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-002",
+    "sourceQuestionId": "Q-G09-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-003-DR",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "My grandfather used to (walk / walking) to work.",
+    "choices": [
+      "walk",
+      "walking"
+    ],
+    "answer": "walk",
+    "decisionSteps": [
+      {
+        "id": "be",
+        "prompt": "used 앞에 be동사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "meaning",
+        "prompt": "과거의 습관을 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "used to 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "walking": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "과거 습관 used to 뒤에 V-ing를 썼다.",
+      "summary": [
+        "be동사 없이 used to가 쓰였다.",
+        "과거의 습관을 나타낸다.",
+        "used to 뒤에는 동사원형 walk가 온다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "과거 습관의 형태는?",
+        "choices": [
+          "used to V",
+          "used to V-ing"
+        ],
+        "answer": "used to V"
+      },
+      "transferQuestionId": "Q-G09-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-003",
+    "sourceQuestionId": "Q-G09-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-004-DR",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "This building used to (be / being) a library.",
+    "choices": [
+      "be",
+      "being"
+    ],
+    "answer": "be",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "과거에는 도서관이었다는 뜻인가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "used to 뒤에 필요한 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "being": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "used to 뒤의 동사원형 규칙을 놓쳤다.",
+      "summary": [
+        "used to는 과거 상태를 나타낸다.",
+        "뒤에는 동사원형이 온다.",
+        "따라서 be를 선택한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "used to 뒤 be의 형태는?",
+        "choices": [
+          "be",
+          "being"
+        ],
+        "answer": "be"
+      },
+      "transferQuestionId": "Q-G09-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-004",
+    "sourceQuestionId": "Q-G09-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-005-DR",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "She is not used to (speak / speaking) in public.",
+    "choices": [
+      "speak",
+      "speaking"
+    ],
+    "answer": "speaking",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "is used to가 익숙함을 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "전치사 to 뒤에는?",
+        "answer": "V-ing",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "speak": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "익숙함 표현의 전치사 to를 to부정사로 처리했다.",
+      "summary": [
+        "is used to는 “익숙하다”이다.",
+        "이때 to는 전치사이다.",
+        "전치사 뒤에 speaking을 쓴다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "not used to 뒤 행동은?",
+        "choices": [
+          "동사원형",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G09-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-005",
+    "sourceQuestionId": "Q-G09-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-006-DR",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "Solar panels are used to (convert / converting) sunlight into electricity.",
+    "choices": [
+      "convert",
+      "converting"
+    ],
+    "answer": "convert",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "태양광 패널의 용도를 설명하는가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "용도 표현 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "converting": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도 표현을 익숙함 표현으로 잘못 읽었다.",
+      "summary": [
+        "are used to는 “~하는 데 사용된다”이다.",
+        "to는 to부정사 표시이다.",
+        "따라서 convert를 선택한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "be used to가 용도이면 뒤에는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G10-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-006",
+    "sourceQuestionId": "Q-G09-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-001-CT",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThis sensor is used to (measure / measuring) temperature.",
+    "choices": [
+      "measuring",
+      "measure"
+    ],
+    "answer": "measuring",
+    "decisionSteps": [
+      {
+        "id": "be",
+        "prompt": "be used to가 수동태 용도 표현인가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "용도 표현의 to 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "measure": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'measuring'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'measure'이다.",
+      "summary": [
+        "is used to는 여기서 “~하는 데 사용된다”이다.",
+        "용도 표현의 to는 to부정사이다.",
+        "따라서 measure를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'measuring'이다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "“~하는 데 사용된다”의 형태는?",
+        "choices": [
+          "be used to V",
+          "be used to V-ing"
+        ],
+        "answer": "be used to V"
+      },
+      "transferQuestionId": "Q-G09-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-001",
+    "sourceQuestionId": "Q-G09-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-002-CT",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe interns are used to (work / working) late.",
+    "choices": [
+      "working",
+      "work"
+    ],
+    "answer": "work",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "문맥은 용도인가 익숙함인가?",
+        "answer": "익숙함",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "익숙함의 to 뒤 형태는?",
+        "answer": "명사 또는 V-ing",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "working": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'work'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'working'이다.",
+      "summary": [
+        "are used to는 여기서 “익숙하다”이다.",
+        "이때 to는 전치사이다.",
+        "전치사 뒤이므로 working을 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'work'이다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "“~하는 데 익숙하다”의 형태는?",
+        "choices": [
+          "be used to V",
+          "be used to V-ing"
+        ],
+        "answer": "be used to V-ing"
+      },
+      "transferQuestionId": "Q-G09-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-002",
+    "sourceQuestionId": "Q-G09-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-003-CT",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nMy grandfather used to (walk / walking) to work.",
+    "choices": [
+      "walk",
+      "walking"
+    ],
+    "answer": "walking",
+    "decisionSteps": [
+      {
+        "id": "be",
+        "prompt": "used 앞에 be동사가 있는가?",
+        "answer": "없다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "meaning",
+        "prompt": "과거의 습관을 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "used to 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "walk": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'walking'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'walk'이다.",
+      "summary": [
+        "be동사 없이 used to가 쓰였다.",
+        "과거의 습관을 나타낸다.",
+        "used to 뒤에는 동사원형 walk가 온다.",
+        "따라서 대조 문항에서 고를 답은 'walking'이다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "과거 습관의 형태는?",
+        "choices": [
+          "used to V",
+          "used to V-ing"
+        ],
+        "answer": "used to V"
+      },
+      "transferQuestionId": "Q-G09-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-003",
+    "sourceQuestionId": "Q-G09-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-004-CT",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThis building used to (be / being) a library.",
+    "choices": [
+      "be",
+      "being"
+    ],
+    "answer": "being",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "과거에는 도서관이었다는 뜻인가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "used to 뒤에 필요한 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'being'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'be'이다.",
+      "summary": [
+        "used to는 과거 상태를 나타낸다.",
+        "뒤에는 동사원형이 온다.",
+        "따라서 be를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'being'이다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "used to 뒤 be의 형태는?",
+        "choices": [
+          "be",
+          "being"
+        ],
+        "answer": "be"
+      },
+      "transferQuestionId": "Q-G09-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-004",
+    "sourceQuestionId": "Q-G09-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 11,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 41,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-005-CT",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe is not used to (speak / speaking) in public.",
+    "choices": [
+      "speak",
+      "speaking"
+    ],
+    "answer": "speak",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "is used to가 익숙함을 나타내는가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "전치사 to 뒤에는?",
+        "answer": "V-ing",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "speaking": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'speak'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'speaking'이다.",
+      "summary": [
+        "is used to는 “익숙하다”이다.",
+        "이때 to는 전치사이다.",
+        "전치사 뒤에 speaking을 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'speak'이다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "not used to 뒤 행동은?",
+        "choices": [
+          "동사원형",
+          "V-ing"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G09-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-005",
+    "sourceQuestionId": "Q-G09-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 42,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G09-006-CT",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "part": "PART1",
+    "chapter": "CH2",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nSolar panels are used to (convert / converting) sunlight into electricity.",
+    "choices": [
+      "converting",
+      "convert"
+    ],
+    "answer": "converting",
+    "decisionSteps": [
+      {
+        "id": "meaning",
+        "prompt": "태양광 패널의 용도를 설명하는가?",
+        "answer": "그렇다",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "용도 표현 뒤 형태는?",
+        "answer": "동사원형",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "convert": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'converting'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'convert'이다.",
+      "summary": [
+        "are used to는 “~하는 데 사용된다”이다.",
+        "to는 to부정사 표시이다.",
+        "따라서 convert를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'converting'이다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "be used to가 용도이면 뒤에는?",
+        "choices": [
+          "V-ing",
+          "동사원형"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G09-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G09-006",
+    "sourceQuestionId": "Q-G09-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-0084B5BE96",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "stem": "빠른 확인: be used to가 용도이면 뒤에는?",
+    "choices": [
+      "V-ing",
+      "동사원형"
+    ],
+    "answer": "동사원형",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "목적어가 긴 to-V/that절이면 it을 먼저 두고, 형용사 목적격보어 뒤에 진짜 목적어를 보낸다.",
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "V-ing": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "are used to는 “~하는 데 사용된다”이다.",
+        "to는 to부정사 표시이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "“~하는 데 사용된다”의 형태는?",
+        "choices": [
+          "be used to V",
+          "be used to V-ing"
+        ],
+        "answer": "be used to V"
+      },
+      "transferQuestionId": "Q-G09-006",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-0084B5BE96",
+    "sourceQuestionId": "Q-G09-006",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-7BDC5CA070",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "stem": "빠른 확인: not used to 뒤 행동은?",
+    "choices": [
+      "동사원형",
+      "V-ing"
+    ],
+    "answer": "V-ing",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "목적어가 긴 to-V/that절이면 it을 먼저 두고, 형용사 목적격보어 뒤에 진짜 목적어를 보낸다.",
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "동사원형": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "is used to는 “익숙하다”이다.",
+        "이때 to는 전치사이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "“~하는 데 사용된다”의 형태는?",
+        "choices": [
+          "be used to V",
+          "be used to V-ing"
+        ],
+        "answer": "be used to V"
+      },
+      "transferQuestionId": "Q-G09-005",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-7BDC5CA070",
+    "sourceQuestionId": "Q-G09-005",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-69E9E5A2D7",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "stem": "빠른 확인: used to 뒤 be의 형태는?",
+    "choices": [
+      "be",
+      "being"
+    ],
+    "answer": "be",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "목적어가 긴 to-V/that절이면 it을 먼저 두고, 형용사 목적격보어 뒤에 진짜 목적어를 보낸다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "being": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "used to는 과거 상태를 나타낸다.",
+        "뒤에는 동사원형이 온다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "“~하는 데 사용된다”의 형태는?",
+        "choices": [
+          "be used to V",
+          "be used to V-ing"
+        ],
+        "answer": "be used to V"
+      },
+      "transferQuestionId": "Q-G09-004",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-69E9E5A2D7",
+    "sourceQuestionId": "Q-G09-004",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-9ABF112183",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "stem": "빠른 확인: “~하는 데 사용된다”의 형태는?",
+    "choices": [
+      "be used to V",
+      "be used to V-ing"
+    ],
+    "answer": "be used to V",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "목적어가 긴 to-V/that절이면 it을 먼저 두고, 형용사 목적격보어 뒤에 진짜 목적어를 보낸다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be used to V-ing": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "is used to는 여기서 “~하는 데 사용된다”이다.",
+        "용도 표현의 to는 to부정사이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "“~하는 데 익숙하다”의 형태는?",
+        "choices": [
+          "be used to V",
+          "be used to V-ing"
+        ],
+        "answer": "be used to V-ing"
+      },
+      "transferQuestionId": "Q-G09-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-9ABF112183",
+    "sourceQuestionId": "Q-G09-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-1F350DA6A3",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "stem": "빠른 확인: “~하는 데 익숙하다”의 형태는?",
+    "choices": [
+      "be used to V",
+      "be used to V-ing"
+    ],
+    "answer": "be used to V-ing",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "목적어가 긴 to-V/that절이면 it을 먼저 두고, 형용사 목적격보어 뒤에 진짜 목적어를 보낸다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be used to V": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "are used to는 여기서 “익숙하다”이다.",
+        "이때 to는 전치사이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "“~하는 데 사용된다”의 형태는?",
+        "choices": [
+          "be used to V",
+          "be used to V-ing"
+        ],
+        "answer": "be used to V"
+      },
+      "transferQuestionId": "Q-G09-002",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-1F350DA6A3",
+    "sourceQuestionId": "Q-G09-002",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-293A1887B2",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 1,
+    "stem": "빠른 확인: 과거 습관의 형태는?",
+    "choices": [
+      "used to V",
+      "used to V-ing"
+    ],
+    "answer": "used to V",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "목적어가 긴 to-V/that절이면 it을 먼저 두고, 형용사 목적격보어 뒤에 진짜 목적어를 보낸다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "used to V-ing": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "be동사 없이 used to가 쓰였다.",
+        "과거의 습관을 나타낸다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "“~하는 데 사용된다”의 형태는?",
+        "choices": [
+          "be used to V",
+          "be used to V-ing"
+        ],
+        "answer": "be used to V"
+      },
+      "transferQuestionId": "Q-G09-003",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART1",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-293A1887B2",
+    "sourceQuestionId": "Q-G09-003",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-P21-G-030-C6A7ADB3",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 2,
+    "stem": "The steam engine reappeared only in 1698, when Thomas Savery invented a steam pump, which was used to [extract / extracting] water out of the coal mines.",
+    "choices": [
+      "extract",
+      "extracting"
+    ],
+    "answer": "extract",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "used의 세 가지 형태",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "used의 세 가지 형태",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "extracting": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도·익숙함·과거 습관의 세 구조를 구별하지 못했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "be동사가 있는지 본다",
+        "용도·익숙함·과거 습관 중 뜻을 결정한다"
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-030-EFD07252",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-030-C6A7ADB3",
+    "sourceQuestionId": "Q-P21-G-030-C6A7ADB3",
+    "sourceCandidateId": "CAND-G-030-C6A7ADB3",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 30,
+      "asset": "assets/source-evidence/phase21/grammar-page-030.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-030-C6A7ADB3",
+      "evidenceRef": "SRC-P21-G-030",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 66,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 25,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-030-C6A7ADB3-PF",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 2,
+    "stem": "The steam engine reappeared only in 1698, when Thomas Savery invented a steam pump, which was used to [extract / extracting] water out of the coal mines.",
+    "choices": [
+      "extract",
+      "extracting"
+    ],
+    "answer": "extract",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "used의 세 가지 형태",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "used의 세 가지 형태",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "extracting": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도·익숙함·과거 습관의 세 구조를 구별하지 못했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "be동사가 있는지 본다",
+        "용도·익숙함·과거 습관 중 뜻을 결정한다"
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-030-EFD07252",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-030-C6A7ADB3",
+    "sourceQuestionId": "Q-P21-G-030-C6A7ADB3",
+    "sourceCandidateId": "CAND-G-030-C6A7ADB3",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 30,
+      "asset": "assets/source-evidence/phase21/grammar-page-030.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-030-C6A7ADB3",
+      "evidenceRef": "SRC-P21-G-030",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 74,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 25,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-030-C6A7ADB3-DR",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 2,
+    "stem": "The steam engine reappeared only in 1698, when Thomas Savery invented a steam pump, which was used to [extract / extracting] water out of the coal mines.",
+    "choices": [
+      "extract",
+      "extracting"
+    ],
+    "answer": "extract",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "used의 세 가지 형태",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "used의 세 가지 형태",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "extracting": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도·익숙함·과거 습관의 세 구조를 구별하지 못했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "be동사가 있는지 본다",
+        "용도·익숙함·과거 습관 중 뜻을 결정한다"
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-030-EFD07252",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-030-C6A7ADB3",
+    "sourceQuestionId": "Q-P21-G-030-C6A7ADB3",
+    "sourceCandidateId": "CAND-G-030-C6A7ADB3",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 30,
+      "asset": "assets/source-evidence/phase21/grammar-page-030.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-030-C6A7ADB3",
+      "evidenceRef": "SRC-P21-G-030",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 25,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-030-C6A7ADB3-CT",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe steam engine reappeared only in 1698, when Thomas Savery invented a steam pump, which was used to [extract / extracting] water out of the coal mines.",
+    "choices": [
+      "extracting",
+      "extract"
+    ],
+    "answer": "extracting",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "used의 세 가지 형태",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "used의 세 가지 형태",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "extract": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'extracting'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'extract'이다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "be동사가 있는지 본다",
+        "용도·익숙함·과거 습관 중 뜻을 결정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'extracting'를 고른다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-030-C6A7ADB3",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-030-C6A7ADB3",
+    "sourceQuestionId": "Q-P21-G-030-C6A7ADB3",
+    "sourceCandidateId": "CAND-G-030-C6A7ADB3",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 30,
+      "asset": "assets/source-evidence/phase21/grammar-page-030.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-030-C6A7ADB3",
+      "evidenceRef": "SRC-P21-G-030",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 38,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 25,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-030-EFD07252",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 2,
+    "stem": "Various techniques are used to [reduce / reducing] recovery time to the shortest possible interval.",
+    "choices": [
+      "reduce",
+      "reducing"
+    ],
+    "answer": "reduce",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "used의 세 가지 형태",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "used의 세 가지 형태",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reducing": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도·익숙함·과거 습관의 세 구조를 구별하지 못했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "be동사가 있는지 본다",
+        "용도·익숙함·과거 습관 중 뜻을 결정한다"
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-030-D7A13564",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-030-EFD07252",
+    "sourceQuestionId": "Q-P21-G-030-EFD07252",
+    "sourceCandidateId": "CAND-G-030-EFD07252",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 30,
+      "asset": "assets/source-evidence/phase21/grammar-page-030.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-030-EFD07252",
+      "evidenceRef": "SRC-P21-G-030",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-030-EFD07252-PF",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 2,
+    "stem": "Various techniques are used to [reduce / reducing] recovery time to the shortest possible interval.",
+    "choices": [
+      "reduce",
+      "reducing"
+    ],
+    "answer": "reduce",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "used의 세 가지 형태",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "used의 세 가지 형태",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reducing": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도·익숙함·과거 습관의 세 구조를 구별하지 못했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "be동사가 있는지 본다",
+        "용도·익숙함·과거 습관 중 뜻을 결정한다"
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-030-D7A13564",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-030-EFD07252",
+    "sourceQuestionId": "Q-P21-G-030-EFD07252",
+    "sourceCandidateId": "CAND-G-030-EFD07252",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 30,
+      "asset": "assets/source-evidence/phase21/grammar-page-030.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-030-EFD07252",
+      "evidenceRef": "SRC-P21-G-030",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-030-EFD07252-DR",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 2,
+    "stem": "Various techniques are used to [reduce / reducing] recovery time to the shortest possible interval.",
+    "choices": [
+      "reduce",
+      "reducing"
+    ],
+    "answer": "reduce",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "used의 세 가지 형태",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "used의 세 가지 형태",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reducing": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도·익숙함·과거 습관의 세 구조를 구별하지 못했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "be동사가 있는지 본다",
+        "용도·익숙함·과거 습관 중 뜻을 결정한다"
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-030-D7A13564",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-030-EFD07252",
+    "sourceQuestionId": "Q-P21-G-030-EFD07252",
+    "sourceCandidateId": "CAND-G-030-EFD07252",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 30,
+      "asset": "assets/source-evidence/phase21/grammar-page-030.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-030-EFD07252",
+      "evidenceRef": "SRC-P21-G-030",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-030-EFD07252-CT",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nVarious techniques are used to [reduce / reducing] recovery time to the shortest possible interval.",
+    "choices": [
+      "reducing",
+      "reduce"
+    ],
+    "answer": "reducing",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "used의 세 가지 형태",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "used의 세 가지 형태",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reduce": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'reducing'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'reduce'이다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "be동사가 있는지 본다",
+        "용도·익숙함·과거 습관 중 뜻을 결정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'reducing'를 고른다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-030-EFD07252",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-030-EFD07252",
+    "sourceQuestionId": "Q-P21-G-030-EFD07252",
+    "sourceCandidateId": "CAND-G-030-EFD07252",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 30,
+      "asset": "assets/source-evidence/phase21/grammar-page-030.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-030-EFD07252",
+      "evidenceRef": "SRC-P21-G-030",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 14,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-030-D7A13564",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 2,
+    "stem": "My mother is used to [keep / keeping] a diary everyday.",
+    "choices": [
+      "keep",
+      "keeping"
+    ],
+    "answer": "keeping",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "used의 세 가지 형태",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "used의 세 가지 형태",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "keep": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도·익숙함·과거 습관의 세 구조를 구별하지 못했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "be동사가 있는지 본다",
+        "용도·익숙함·과거 습관 중 뜻을 결정한다"
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-030-C6A7ADB3",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "source-verified",
+      "process",
+      "recovery"
+    ],
+    "familyId": "Q-P21-G-030-D7A13564",
+    "sourceQuestionId": "Q-P21-G-030-D7A13564",
+    "sourceCandidateId": "CAND-G-030-D7A13564",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 30,
+      "asset": "assets/source-evidence/phase21/grammar-page-030.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-030-D7A13564",
+      "evidenceRef": "SRC-P21-G-030",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-030-D7A13564-PF",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 2,
+    "stem": "My mother is used to [keep / keeping] a diary everyday.",
+    "choices": [
+      "keep",
+      "keeping"
+    ],
+    "answer": "keeping",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "used의 세 가지 형태",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "used의 세 가지 형태",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "keep": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도·익숙함·과거 습관의 세 구조를 구별하지 못했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "be동사가 있는지 본다",
+        "용도·익숙함·과거 습관 중 뜻을 결정한다"
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-030-C6A7ADB3",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "active-recall",
+      "process",
+      "process-first",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-030-D7A13564",
+    "sourceQuestionId": "Q-P21-G-030-D7A13564",
+    "sourceCandidateId": "CAND-G-030-D7A13564",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 30,
+      "asset": "assets/source-evidence/phase21/grammar-page-030.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-030-D7A13564",
+      "evidenceRef": "SRC-P21-G-030",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-030-D7A13564-DR",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 2,
+    "stem": "My mother is used to [keep / keeping] a diary everyday.",
+    "choices": [
+      "keep",
+      "keeping"
+    ],
+    "answer": "keeping",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "used의 세 가지 형태",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "used의 세 가지 형태",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "keep": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "용도·익숙함·과거 습관의 세 구조를 구별하지 못했다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "be동사가 있는지 본다",
+        "용도·익숙함·과거 습관 중 뜻을 결정한다"
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-030-C6A7ADB3",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-030-D7A13564",
+    "sourceQuestionId": "Q-P21-G-030-D7A13564",
+    "sourceCandidateId": "CAND-G-030-D7A13564",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 30,
+      "asset": "assets/source-evidence/phase21/grammar-page-030.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-030-D7A13564",
+      "evidenceRef": "SRC-P21-G-030",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-P21-G-030-D7A13564-CT",
+    "conceptId": "G09_USED_TO_FORMS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nMy mother is used to [keep / keeping] a diary everyday.",
+    "choices": [
+      "keep",
+      "keeping"
+    ],
+    "answer": "keep",
+    "decisionSteps": [
+      {
+        "id": "concept_gate",
+        "prompt": "이 문항에서 먼저 작동시킬 판단 체계는?",
+        "choices": [
+          "used의 세 가지 형태",
+          "본동사·준동사 자리 판단"
+        ],
+        "answer": "used의 세 가지 형태",
+        "errorCode": "E13_USED_TO_FORM"
+      },
+      {
+        "id": "rule_gate",
+        "prompt": "선택지보다 먼저 적용할 교재 규칙은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수를 센다"
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "errorCode": "E13_USED_TO_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "keeping": "E13_USED_TO_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'keep'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'keeping'이다.",
+      "summary": [
+        "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+        "be동사가 있는지 본다",
+        "용도·익숙함·과거 습관 중 뜻을 결정한다",
+        "대조 문항에서는 사용할 수 없는 형태 'keep'를 고른다."
+      ],
+      "sourceRef": "SRC-G09",
+      "checkQuestion": {
+        "prompt": "이 문제를 다시 풀 때 가장 먼저 확인할 기준은?",
+        "choices": [
+          "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다.",
+          "접속사·관계사 수 + 1과 실제 동사 수를 비교해 문제 부분의 자리를 먼저 결정한다."
+        ],
+        "answer": "be used to V는 용도, be used to V-ing는 익숙함, used to V는 과거의 습관을 나타낸다."
+      },
+      "transferQuestionId": "Q-P21-G-030-D7A13564",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_pdf_visual_verified_phase21",
+    "part": "PART1",
+    "chapter": "SOURCE_REVIEW",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "process",
+      "recovery",
+      "source-verified"
+    ],
+    "familyId": "Q-P21-G-030-D7A13564",
+    "sourceQuestionId": "Q-P21-G-030-D7A13564",
+    "sourceCandidateId": "CAND-G-030-D7A13564",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived_phase21",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "sourceEvidence": {
+      "book": "grammar",
+      "pdfPage": 30,
+      "asset": "assets/source-evidence/phase21/grammar-page-030.webp",
+      "verification": "rendered_page_answer_and_stem_checked"
+    },
+    "reviewWorkflow": {
+      "state": "approved",
+      "candidateId": "CAND-G-030-D7A13564",
+      "evidenceRef": "SRC-P21-G-030",
+      "verifiedAt": "2026-08-05T12:59:00Z"
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "questionType": "contrast_choice",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 43,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 2,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  }
+]

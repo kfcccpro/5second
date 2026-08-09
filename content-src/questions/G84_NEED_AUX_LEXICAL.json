@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G84-001",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 1,
+    "stem": "He need not (bring / to bring) any additional documents.",
+    "choices": [
+      "bring",
+      "to bring"
+    ],
+    "answer": "bring",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "need not",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need의 부정문",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "bring",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to bring": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "need not",
+        "조동사 need의 부정문",
+        "따라서 bring를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-001",
+    "sourceQuestionId": "Q-G84-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-002",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 1,
+    "stem": "Need we (submit / to submit) the form today?",
+    "choices": [
+      "submit",
+      "to submit"
+    ],
+    "answer": "submit",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Need+주어",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need의 의문문",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "submit",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to submit": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "Need+주어",
+        "조동사 need의 의문문",
+        "따라서 submit를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-002",
+    "sourceQuestionId": "Q-G84-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-003",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 1,
+    "stem": "She needs (to finish / finish) the report by noon.",
+    "choices": [
+      "to finish",
+      "finish"
+    ],
+    "answer": "to finish",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "긍정문 needs",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "일반동사 need 뒤 to-V",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to finish",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "finish": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "긍정문 needs",
+        "일반동사 need 뒤 to-V",
+        "따라서 to finish를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-003",
+    "sourceQuestionId": "Q-G84-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-004",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 2,
+    "stem": "You do not need (to wait / wait) outside.",
+    "choices": [
+      "to wait",
+      "wait"
+    ],
+    "answer": "to wait",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "do not need",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do와 함께 쓰인 일반동사 need",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to wait",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "wait": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "do not need",
+        "do와 함께 쓰인 일반동사 need",
+        "따라서 to wait를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-004",
+    "sourceQuestionId": "Q-G84-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-005",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 2,
+    "stem": "Need I (explain / to explain) the rule again?",
+    "choices": [
+      "explain",
+      "to explain"
+    ],
+    "answer": "explain",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Need I",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need의 도치 의문문",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "explain",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to explain": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "Need I",
+        "조동사 need의 도치 의문문",
+        "따라서 explain를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-005",
+    "sourceQuestionId": "Q-G84-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-006",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 2,
+    "stem": "The application needs (to be signed / sign) by a supervisor.",
+    "choices": [
+      "to be signed",
+      "sign"
+    ],
+    "answer": "to be signed",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "긍정문 needs",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "일반동사 need+to-V와 수동 의미",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to be signed",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "sign": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "긍정문 needs",
+        "일반동사 need+to-V와 수동 의미",
+        "따라서 to be signed를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-006",
+    "sourceQuestionId": "Q-G84-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-007",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 3,
+    "stem": "They need not (worry / to worry) about the result yet.",
+    "choices": [
+      "worry",
+      "to worry"
+    ],
+    "answer": "worry",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "need not",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need 뒤 동사원형",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "worry",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to worry": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "need not",
+        "조동사 need 뒤 동사원형",
+        "따라서 worry를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-007",
+    "sourceQuestionId": "Q-G84-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-008",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 3,
+    "stem": "Does he need (to attend / attend) every session?",
+    "choices": [
+      "to attend",
+      "attend"
+    ],
+    "answer": "to attend",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Does he need",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do가 의문을 만들므로 need는 일반동사",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to attend",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "attend": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "Does he need",
+        "do가 의문을 만들므로 need는 일반동사",
+        "따라서 to attend를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-008",
+    "sourceQuestionId": "Q-G84-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-001-PF",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 1,
+    "stem": "He need not (bring / to bring) any additional documents.",
+    "choices": [
+      "bring",
+      "to bring"
+    ],
+    "answer": "bring",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "need not",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need의 부정문",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "bring",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to bring": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "need not",
+        "조동사 need의 부정문",
+        "따라서 bring를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-001",
+    "sourceQuestionId": "Q-G84-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-002-PF",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 1,
+    "stem": "Need we (submit / to submit) the form today?",
+    "choices": [
+      "submit",
+      "to submit"
+    ],
+    "answer": "submit",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Need+주어",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need의 의문문",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "submit",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to submit": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "Need+주어",
+        "조동사 need의 의문문",
+        "따라서 submit를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-002",
+    "sourceQuestionId": "Q-G84-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-003-PF",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 1,
+    "stem": "She needs (to finish / finish) the report by noon.",
+    "choices": [
+      "to finish",
+      "finish"
+    ],
+    "answer": "to finish",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "긍정문 needs",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "일반동사 need 뒤 to-V",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to finish",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "finish": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "긍정문 needs",
+        "일반동사 need 뒤 to-V",
+        "따라서 to finish를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-003",
+    "sourceQuestionId": "Q-G84-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-004-PF",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 2,
+    "stem": "You do not need (to wait / wait) outside.",
+    "choices": [
+      "to wait",
+      "wait"
+    ],
+    "answer": "to wait",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "do not need",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do와 함께 쓰인 일반동사 need",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to wait",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "wait": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "do not need",
+        "do와 함께 쓰인 일반동사 need",
+        "따라서 to wait를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-004",
+    "sourceQuestionId": "Q-G84-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-005-PF",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 2,
+    "stem": "Need I (explain / to explain) the rule again?",
+    "choices": [
+      "explain",
+      "to explain"
+    ],
+    "answer": "explain",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Need I",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need의 도치 의문문",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "explain",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to explain": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "Need I",
+        "조동사 need의 도치 의문문",
+        "따라서 explain를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-005",
+    "sourceQuestionId": "Q-G84-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-006-PF",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 2,
+    "stem": "The application needs (to be signed / sign) by a supervisor.",
+    "choices": [
+      "to be signed",
+      "sign"
+    ],
+    "answer": "to be signed",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "긍정문 needs",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "일반동사 need+to-V와 수동 의미",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to be signed",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "sign": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "긍정문 needs",
+        "일반동사 need+to-V와 수동 의미",
+        "따라서 to be signed를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-006",
+    "sourceQuestionId": "Q-G84-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-007-PF",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 3,
+    "stem": "They need not (worry / to worry) about the result yet.",
+    "choices": [
+      "worry",
+      "to worry"
+    ],
+    "answer": "worry",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "need not",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need 뒤 동사원형",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "worry",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to worry": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "need not",
+        "조동사 need 뒤 동사원형",
+        "따라서 worry를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-007",
+    "sourceQuestionId": "Q-G84-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-008-PF",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 3,
+    "stem": "Does he need (to attend / attend) every session?",
+    "choices": [
+      "to attend",
+      "attend"
+    ],
+    "answer": "to attend",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Does he need",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do가 의문을 만들므로 need는 일반동사",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to attend",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "attend": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "Does he need",
+        "do가 의문을 만들므로 need는 일반동사",
+        "따라서 to attend를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-008",
+    "sourceQuestionId": "Q-G84-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-001-DR",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 1,
+    "stem": "He need not (bring / to bring) any additional documents.",
+    "choices": [
+      "bring",
+      "to bring"
+    ],
+    "answer": "bring",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "need not",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need의 부정문",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "bring",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to bring": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "need not",
+        "조동사 need의 부정문",
+        "따라서 bring를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-001",
+    "sourceQuestionId": "Q-G84-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-002-DR",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 1,
+    "stem": "Need we (submit / to submit) the form today?",
+    "choices": [
+      "submit",
+      "to submit"
+    ],
+    "answer": "submit",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Need+주어",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need의 의문문",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "submit",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to submit": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "Need+주어",
+        "조동사 need의 의문문",
+        "따라서 submit를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-002",
+    "sourceQuestionId": "Q-G84-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-003-DR",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 1,
+    "stem": "She needs (to finish / finish) the report by noon.",
+    "choices": [
+      "to finish",
+      "finish"
+    ],
+    "answer": "to finish",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "긍정문 needs",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "일반동사 need 뒤 to-V",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to finish",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "finish": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "긍정문 needs",
+        "일반동사 need 뒤 to-V",
+        "따라서 to finish를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-003",
+    "sourceQuestionId": "Q-G84-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-004-DR",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 2,
+    "stem": "You do not need (to wait / wait) outside.",
+    "choices": [
+      "to wait",
+      "wait"
+    ],
+    "answer": "to wait",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "do not need",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do와 함께 쓰인 일반동사 need",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to wait",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "wait": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "do not need",
+        "do와 함께 쓰인 일반동사 need",
+        "따라서 to wait를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-004",
+    "sourceQuestionId": "Q-G84-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-005-DR",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 2,
+    "stem": "Need I (explain / to explain) the rule again?",
+    "choices": [
+      "explain",
+      "to explain"
+    ],
+    "answer": "explain",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Need I",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need의 도치 의문문",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "explain",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to explain": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "Need I",
+        "조동사 need의 도치 의문문",
+        "따라서 explain를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-005",
+    "sourceQuestionId": "Q-G84-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-006-DR",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 2,
+    "stem": "The application needs (to be signed / sign) by a supervisor.",
+    "choices": [
+      "to be signed",
+      "sign"
+    ],
+    "answer": "to be signed",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "긍정문 needs",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "일반동사 need+to-V와 수동 의미",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to be signed",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "sign": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "긍정문 needs",
+        "일반동사 need+to-V와 수동 의미",
+        "따라서 to be signed를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-006",
+    "sourceQuestionId": "Q-G84-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-007-DR",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 3,
+    "stem": "They need not (worry / to worry) about the result yet.",
+    "choices": [
+      "worry",
+      "to worry"
+    ],
+    "answer": "worry",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "need not",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need 뒤 동사원형",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "worry",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to worry": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "need not",
+        "조동사 need 뒤 동사원형",
+        "따라서 worry를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-007",
+    "sourceQuestionId": "Q-G84-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-008-DR",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 3,
+    "stem": "Does he need (to attend / attend) every session?",
+    "choices": [
+      "to attend",
+      "attend"
+    ],
+    "answer": "to attend",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Does he need",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do가 의문을 만들므로 need는 일반동사",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to attend",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "attend": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "need가 조동사인지 일반동사인지 확인하지 않았다.",
+      "summary": [
+        "Does he need",
+        "do가 의문을 만들므로 need는 일반동사",
+        "따라서 to attend를 선택한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-008",
+    "sourceQuestionId": "Q-G84-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-001-CT",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe need not (bring / to bring) any additional documents.",
+    "choices": [
+      "bring",
+      "to bring"
+    ],
+    "answer": "to bring",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "need not",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need의 부정문",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "bring",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "bring": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'to bring'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'bring'이다.",
+      "summary": [
+        "need not",
+        "조동사 need의 부정문",
+        "따라서 bring를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'to bring'이다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-001",
+    "sourceQuestionId": "Q-G84-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-002-CT",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNeed we (submit / to submit) the form today?",
+    "choices": [
+      "submit",
+      "to submit"
+    ],
+    "answer": "to submit",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Need+주어",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need의 의문문",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "submit",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "submit": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'to submit'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'submit'이다.",
+      "summary": [
+        "Need+주어",
+        "조동사 need의 의문문",
+        "따라서 submit를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'to submit'이다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-002",
+    "sourceQuestionId": "Q-G84-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-003-CT",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe needs (to finish / finish) the report by noon.",
+    "choices": [
+      "finish",
+      "to finish"
+    ],
+    "answer": "finish",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "긍정문 needs",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "일반동사 need 뒤 to-V",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to finish",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to finish": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'finish'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to finish'이다.",
+      "summary": [
+        "긍정문 needs",
+        "일반동사 need 뒤 to-V",
+        "따라서 to finish를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'finish'이다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-003",
+    "sourceQuestionId": "Q-G84-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-004-CT",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nYou do not need (to wait / wait) outside.",
+    "choices": [
+      "wait",
+      "to wait"
+    ],
+    "answer": "wait",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "do not need",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do와 함께 쓰인 일반동사 need",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to wait",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to wait": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'wait'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to wait'이다.",
+      "summary": [
+        "do not need",
+        "do와 함께 쓰인 일반동사 need",
+        "따라서 to wait를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'wait'이다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-004",
+    "sourceQuestionId": "Q-G84-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-005-CT",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nNeed I (explain / to explain) the rule again?",
+    "choices": [
+      "explain",
+      "to explain"
+    ],
+    "answer": "to explain",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Need I",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need의 도치 의문문",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "explain",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "explain": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'to explain'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'explain'이다.",
+      "summary": [
+        "Need I",
+        "조동사 need의 도치 의문문",
+        "따라서 explain를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'to explain'이다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-005",
+    "sourceQuestionId": "Q-G84-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-006-CT",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe application needs (to be signed / sign) by a supervisor.",
+    "choices": [
+      "sign",
+      "to be signed"
+    ],
+    "answer": "sign",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "긍정문 needs",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "일반동사 need+to-V와 수동 의미",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to be signed",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to be signed": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'sign'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to be signed'이다.",
+      "summary": [
+        "긍정문 needs",
+        "일반동사 need+to-V와 수동 의미",
+        "따라서 to be signed를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'sign'이다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-006",
+    "sourceQuestionId": "Q-G84-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-007-CT",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThey need not (worry / to worry) about the result yet.",
+    "choices": [
+      "worry",
+      "to worry"
+    ],
+    "answer": "to worry",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "need not",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "조동사 need 뒤 동사원형",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "worry",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "worry": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'to worry'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'worry'이다.",
+      "summary": [
+        "need not",
+        "조동사 need 뒤 동사원형",
+        "따라서 worry를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'to worry'이다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-007",
+    "sourceQuestionId": "Q-G84-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G84-008-CT",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nDoes he need (to attend / attend) every session?",
+    "choices": [
+      "to attend",
+      "attend"
+    ],
+    "answer": "attend",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "Does he need",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do가 의문을 만들므로 need는 일반동사",
+        "errorCode": "E88_NEED_FORM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to attend",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to attend": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "'attend'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to attend'이다.",
+      "summary": [
+        "Does he need",
+        "do가 의문을 만들므로 need는 일반동사",
+        "따라서 to attend를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'attend'이다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G84-008",
+    "sourceQuestionId": "Q-G84-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-18E9532F05",
+    "conceptId": "G84_NEED_AUX_LEXICAL",
+    "difficulty": 1,
+    "stem": "빠른 확인: 조동사 need 뒤에 오는 형태는?",
+    "choices": [
+      "동사원형",
+      "to-V"
+    ],
+    "answer": "동사원형",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "need가 조동사로 쓰인 부정문·의문문에서는 뒤에 동사원형이 오고, 일반동사로 쓰이면 do를 사용하거나 need(s) to-V가 온다.",
+          "일반동사 문장의 부정·의문·부가의문에서는 시제와 주어에 맞는 do·does·did를 쓰고 본동사는 원형으로 둔다."
+        ],
+        "answer": "need가 조동사로 쓰인 부정문·의문문에서는 뒤에 동사원형이 오고, 일반동사로 쓰이면 do를 사용하거나 need(s) to-V가 온다.",
+        "errorCode": "E88_NEED_FORM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to-V": "E88_NEED_FORM"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "need가 조동사로 쓰인 부정문·의문문에서는 뒤에 동사원형이 오고, 일반동사로 쓰이면 do를 사용하거나 need(s) to-V가 온다.",
+        "need not",
+        "조동사 need의 부정문",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G84",
+      "checkQuestion": {
+        "prompt": "조동사 need 뒤에 오는 형태는?",
+        "choices": [
+          "동사원형",
+          "to-V"
+        ],
+        "answer": "동사원형"
+      },
+      "transferQuestionId": "Q-G84-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-18E9532F05",
+    "sourceQuestionId": "Q-G84-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

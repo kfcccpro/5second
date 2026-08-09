@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G51-001",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "I wonder (who she is / who is she).",
+    "choices": [
+      "who she is",
+      "who is she"
+    ],
+    "answer": "who she is",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "간접의문문 어순은?",
+        "answer": "의문사+주어+동사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "who she is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who is she": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "의문사+주어+동사.",
+        "따라서 who she is를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-001",
+    "sourceQuestionId": "Q-G51-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-002",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "Do you know (where the station is / where is the station)?",
+    "choices": [
+      "where the station is",
+      "where is the station"
+    ],
+    "answer": "where the station is",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "간접의문문 어순은?",
+        "answer": "의문사+주어+동사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "where the station is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where is the station": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "의문사+주어+동사.",
+        "따라서 where the station is를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-002",
+    "sourceQuestionId": "Q-G51-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-003",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "Tell me (what you need / what do you need).",
+    "choices": [
+      "what you need",
+      "what do you need"
+    ],
+    "answer": "what you need",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "do를 남기는가?",
+        "answer": "남기지 않는다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "what you need",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what do you need": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "남기지 않는다.",
+        "따라서 what you need를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-003",
+    "sourceQuestionId": "Q-G51-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-004",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "I do not know (whether he can come / can he come).",
+    "choices": [
+      "whether he can come",
+      "can he come"
+    ],
+    "answer": "whether he can come",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "Yes/No 내용을 포함하는 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "whether 뒤 어순은?",
+        "answer": "주어+동사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "whether he can come",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "can he come": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "주어+동사.",
+        "따라서 whether he can come를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-004",
+    "sourceQuestionId": "Q-G51-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-005",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "(What a beautiful day it is / How a beautiful day it is)!",
+    "choices": [
+      "What a beautiful day it is",
+      "How a beautiful day it is"
+    ],
+    "answer": "What a beautiful day it is",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "명사 day를 강조하는 감탄문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "pattern",
+        "prompt": "명사를 강조하는 구조는?",
+        "answer": "what+a/an+형용사+명사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 감탄문은?",
+        "answer": "What a beautiful day it is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How a beautiful day it is": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "what+a/an+형용사+명사.",
+        "따라서 What a beautiful day it is를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-005",
+    "sourceQuestionId": "Q-G51-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 6,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-006",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "(How quickly she runs / What quickly she runs)!",
+    "choices": [
+      "How quickly she runs",
+      "What quickly she runs"
+    ],
+    "answer": "How quickly she runs",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "부사 quickly를 강조하는 감탄문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "pattern",
+        "prompt": "형용사·부사를 강조하는 구조는?",
+        "answer": "how+형용사/부사+S+V",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 감탄문은?",
+        "answer": "How quickly she runs",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "What quickly she runs": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "how+형용사/부사+S+V.",
+        "따라서 How quickly she runs를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-006",
+    "sourceQuestionId": "Q-G51-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-007",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "Can you explain (why the machine stopped / why did the machine stop)?",
+    "choices": [
+      "why the machine stopped",
+      "why did the machine stop"
+    ],
+    "answer": "why the machine stopped",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "did를 남기는가?",
+        "answer": "남기지 않는다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "why the machine stopped",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "why did the machine stop": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "남기지 않는다.",
+        "따라서 why the machine stopped를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-007",
+    "sourceQuestionId": "Q-G51-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-008",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "(What an interesting idea this is / How an interesting idea this is)!",
+    "choices": [
+      "What an interesting idea this is",
+      "How an interesting idea this is"
+    ],
+    "answer": "What an interesting idea this is",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "명사 idea를 강조하는 감탄문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "pattern",
+        "prompt": "명사를 강조하는 구조는?",
+        "answer": "what+관사+형용사+명사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 감탄문은?",
+        "answer": "What an interesting idea this is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How an interesting idea this is": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "what+관사+형용사+명사.",
+        "따라서 What an interesting idea this is를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-008",
+    "sourceQuestionId": "Q-G51-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 6,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-001-PF",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "I wonder (who she is / who is she).",
+    "choices": [
+      "who she is",
+      "who is she"
+    ],
+    "answer": "who she is",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "간접의문문 어순은?",
+        "answer": "의문사+주어+동사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "who she is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who is she": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "의문사+주어+동사.",
+        "따라서 who she is를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-001",
+    "sourceQuestionId": "Q-G51-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-002-PF",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "Do you know (where the station is / where is the station)?",
+    "choices": [
+      "where the station is",
+      "where is the station"
+    ],
+    "answer": "where the station is",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "간접의문문 어순은?",
+        "answer": "의문사+주어+동사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "where the station is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where is the station": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "의문사+주어+동사.",
+        "따라서 where the station is를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-002",
+    "sourceQuestionId": "Q-G51-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-003-PF",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "Tell me (what you need / what do you need).",
+    "choices": [
+      "what you need",
+      "what do you need"
+    ],
+    "answer": "what you need",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "do를 남기는가?",
+        "answer": "남기지 않는다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "what you need",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what do you need": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "남기지 않는다.",
+        "따라서 what you need를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-003",
+    "sourceQuestionId": "Q-G51-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-004-PF",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "I do not know (whether he can come / can he come).",
+    "choices": [
+      "whether he can come",
+      "can he come"
+    ],
+    "answer": "whether he can come",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "Yes/No 내용을 포함하는 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "whether 뒤 어순은?",
+        "answer": "주어+동사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "whether he can come",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "can he come": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "주어+동사.",
+        "따라서 whether he can come를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-004",
+    "sourceQuestionId": "Q-G51-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-005-PF",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "(What a beautiful day it is / How a beautiful day it is)!",
+    "choices": [
+      "What a beautiful day it is",
+      "How a beautiful day it is"
+    ],
+    "answer": "What a beautiful day it is",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "명사 day를 강조하는 감탄문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "pattern",
+        "prompt": "명사를 강조하는 구조는?",
+        "answer": "what+a/an+형용사+명사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 감탄문은?",
+        "answer": "What a beautiful day it is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How a beautiful day it is": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "what+a/an+형용사+명사.",
+        "따라서 What a beautiful day it is를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-005",
+    "sourceQuestionId": "Q-G51-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 6,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-006-PF",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "(How quickly she runs / What quickly she runs)!",
+    "choices": [
+      "How quickly she runs",
+      "What quickly she runs"
+    ],
+    "answer": "How quickly she runs",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "부사 quickly를 강조하는 감탄문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "pattern",
+        "prompt": "형용사·부사를 강조하는 구조는?",
+        "answer": "how+형용사/부사+S+V",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 감탄문은?",
+        "answer": "How quickly she runs",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "What quickly she runs": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "how+형용사/부사+S+V.",
+        "따라서 How quickly she runs를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-006",
+    "sourceQuestionId": "Q-G51-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-007-PF",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "Can you explain (why the machine stopped / why did the machine stop)?",
+    "choices": [
+      "why the machine stopped",
+      "why did the machine stop"
+    ],
+    "answer": "why the machine stopped",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "did를 남기는가?",
+        "answer": "남기지 않는다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "why the machine stopped",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "why did the machine stop": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "남기지 않는다.",
+        "따라서 why the machine stopped를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-007",
+    "sourceQuestionId": "Q-G51-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-008-PF",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "(What an interesting idea this is / How an interesting idea this is)!",
+    "choices": [
+      "What an interesting idea this is",
+      "How an interesting idea this is"
+    ],
+    "answer": "What an interesting idea this is",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "명사 idea를 강조하는 감탄문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "pattern",
+        "prompt": "명사를 강조하는 구조는?",
+        "answer": "what+관사+형용사+명사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 감탄문은?",
+        "answer": "What an interesting idea this is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How an interesting idea this is": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "what+관사+형용사+명사.",
+        "따라서 What an interesting idea this is를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-008",
+    "sourceQuestionId": "Q-G51-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 6,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-001-DR",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "I wonder (who she is / who is she).",
+    "choices": [
+      "who she is",
+      "who is she"
+    ],
+    "answer": "who she is",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "간접의문문 어순은?",
+        "answer": "의문사+주어+동사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "who she is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who is she": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "의문사+주어+동사.",
+        "따라서 who she is를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-001",
+    "sourceQuestionId": "Q-G51-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-002-DR",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "Do you know (where the station is / where is the station)?",
+    "choices": [
+      "where the station is",
+      "where is the station"
+    ],
+    "answer": "where the station is",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "간접의문문 어순은?",
+        "answer": "의문사+주어+동사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "where the station is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where is the station": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "의문사+주어+동사.",
+        "따라서 where the station is를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-002",
+    "sourceQuestionId": "Q-G51-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-003-DR",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "Tell me (what you need / what do you need).",
+    "choices": [
+      "what you need",
+      "what do you need"
+    ],
+    "answer": "what you need",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "do를 남기는가?",
+        "answer": "남기지 않는다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "what you need",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what do you need": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "남기지 않는다.",
+        "따라서 what you need를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-003",
+    "sourceQuestionId": "Q-G51-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-004-DR",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "I do not know (whether he can come / can he come).",
+    "choices": [
+      "whether he can come",
+      "can he come"
+    ],
+    "answer": "whether he can come",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "Yes/No 내용을 포함하는 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "whether 뒤 어순은?",
+        "answer": "주어+동사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "whether he can come",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "can he come": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "주어+동사.",
+        "따라서 whether he can come를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-004",
+    "sourceQuestionId": "Q-G51-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-005-DR",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "(What a beautiful day it is / How a beautiful day it is)!",
+    "choices": [
+      "What a beautiful day it is",
+      "How a beautiful day it is"
+    ],
+    "answer": "What a beautiful day it is",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "명사 day를 강조하는 감탄문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "pattern",
+        "prompt": "명사를 강조하는 구조는?",
+        "answer": "what+a/an+형용사+명사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 감탄문은?",
+        "answer": "What a beautiful day it is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How a beautiful day it is": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "what+a/an+형용사+명사.",
+        "따라서 What a beautiful day it is를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-005",
+    "sourceQuestionId": "Q-G51-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 6,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-006-DR",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "(How quickly she runs / What quickly she runs)!",
+    "choices": [
+      "How quickly she runs",
+      "What quickly she runs"
+    ],
+    "answer": "How quickly she runs",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "부사 quickly를 강조하는 감탄문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "pattern",
+        "prompt": "형용사·부사를 강조하는 구조는?",
+        "answer": "how+형용사/부사+S+V",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 감탄문은?",
+        "answer": "How quickly she runs",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "What quickly she runs": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "how+형용사/부사+S+V.",
+        "따라서 How quickly she runs를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-006",
+    "sourceQuestionId": "Q-G51-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-007-DR",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "Can you explain (why the machine stopped / why did the machine stop)?",
+    "choices": [
+      "why the machine stopped",
+      "why did the machine stop"
+    ],
+    "answer": "why the machine stopped",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "did를 남기는가?",
+        "answer": "남기지 않는다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "why the machine stopped",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "why did the machine stop": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "남기지 않는다.",
+        "따라서 why the machine stopped를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-007",
+    "sourceQuestionId": "Q-G51-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-008-DR",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "(What an interesting idea this is / How an interesting idea this is)!",
+    "choices": [
+      "What an interesting idea this is",
+      "How an interesting idea this is"
+    ],
+    "answer": "What an interesting idea this is",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "명사 idea를 강조하는 감탄문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "pattern",
+        "prompt": "명사를 강조하는 구조는?",
+        "answer": "what+관사+형용사+명사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 감탄문은?",
+        "answer": "What an interesting idea this is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How an interesting idea this is": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "간접의문문 어순 또는 what/how 감탄 구조를 혼동했다.",
+      "summary": [
+        "그렇다.",
+        "what+관사+형용사+명사.",
+        "따라서 What an interesting idea this is를 선택한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-008",
+    "sourceQuestionId": "Q-G51-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 6,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-001-CT",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI wonder (who she is / who is she).",
+    "choices": [
+      "who is she",
+      "who she is"
+    ],
+    "answer": "who is she",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "간접의문문 어순은?",
+        "answer": "의문사+주어+동사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "who she is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who she is": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "'who is she'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'who she is'이다.",
+      "summary": [
+        "그렇다.",
+        "의문사+주어+동사.",
+        "따라서 who she is를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'who is she'이다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-001",
+    "sourceQuestionId": "Q-G51-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-002-CT",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nDo you know (where the station is / where is the station)?",
+    "choices": [
+      "where is the station",
+      "where the station is"
+    ],
+    "answer": "where is the station",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "간접의문문 어순은?",
+        "answer": "의문사+주어+동사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "where the station is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where the station is": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "'where is the station'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'where the station is'이다.",
+      "summary": [
+        "그렇다.",
+        "의문사+주어+동사.",
+        "따라서 where the station is를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'where is the station'이다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-002",
+    "sourceQuestionId": "Q-G51-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 20,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-003-CT",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nTell me (what you need / what do you need).",
+    "choices": [
+      "what do you need",
+      "what you need"
+    ],
+    "answer": "what do you need",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "do를 남기는가?",
+        "answer": "남기지 않는다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "what you need",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what you need": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "'what do you need'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'what you need'이다.",
+      "summary": [
+        "그렇다.",
+        "남기지 않는다.",
+        "따라서 what you need를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'what do you need'이다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-003",
+    "sourceQuestionId": "Q-G51-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-004-CT",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI do not know (whether he can come / can he come).",
+    "choices": [
+      "whether he can come",
+      "can he come"
+    ],
+    "answer": "can he come",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "Yes/No 내용을 포함하는 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "whether 뒤 어순은?",
+        "answer": "주어+동사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 형태는?",
+        "answer": "whether he can come",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "whether he can come": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "'can he come'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'whether he can come'이다.",
+      "summary": [
+        "그렇다.",
+        "주어+동사.",
+        "따라서 whether he can come를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'can he come'이다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-004",
+    "sourceQuestionId": "Q-G51-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-005-CT",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(What a beautiful day it is / How a beautiful day it is)!",
+    "choices": [
+      "How a beautiful day it is",
+      "What a beautiful day it is"
+    ],
+    "answer": "How a beautiful day it is",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "명사 day를 강조하는 감탄문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "pattern",
+        "prompt": "명사를 강조하는 구조는?",
+        "answer": "what+a/an+형용사+명사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 감탄문은?",
+        "answer": "What a beautiful day it is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "What a beautiful day it is": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "'How a beautiful day it is'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'What a beautiful day it is'이다.",
+      "summary": [
+        "그렇다.",
+        "what+a/an+형용사+명사.",
+        "따라서 What a beautiful day it is를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'How a beautiful day it is'이다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-005",
+    "sourceQuestionId": "Q-G51-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 6,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-006-CT",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(How quickly she runs / What quickly she runs)!",
+    "choices": [
+      "How quickly she runs",
+      "What quickly she runs"
+    ],
+    "answer": "What quickly she runs",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "부사 quickly를 강조하는 감탄문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "pattern",
+        "prompt": "형용사·부사를 강조하는 구조는?",
+        "answer": "how+형용사/부사+S+V",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 감탄문은?",
+        "answer": "How quickly she runs",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "How quickly she runs": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "'What quickly she runs'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'How quickly she runs'이다.",
+      "summary": [
+        "그렇다.",
+        "how+형용사/부사+S+V.",
+        "따라서 How quickly she runs를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'What quickly she runs'이다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-006",
+    "sourceQuestionId": "Q-G51-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-007-CT",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nCan you explain (why the machine stopped / why did the machine stop)?",
+    "choices": [
+      "why the machine stopped",
+      "why did the machine stop"
+    ],
+    "answer": "why did the machine stop",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "문장 속 간접의문문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "order",
+        "prompt": "did를 남기는가?",
+        "answer": "남기지 않는다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 어순은?",
+        "answer": "why the machine stopped",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "why the machine stopped": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "'why did the machine stop'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'why the machine stopped'이다.",
+      "summary": [
+        "그렇다.",
+        "남기지 않는다.",
+        "따라서 why the machine stopped를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'why did the machine stop'이다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-007",
+    "sourceQuestionId": "Q-G51-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 21,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 4.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G51-008-CT",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(What an interesting idea this is / How an interesting idea this is)!",
+    "choices": [
+      "How an interesting idea this is",
+      "What an interesting idea this is"
+    ],
+    "answer": "How an interesting idea this is",
+    "decisionSteps": [
+      {
+        "id": "type",
+        "prompt": "명사 idea를 강조하는 감탄문인가?",
+        "answer": "그렇다",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "pattern",
+        "prompt": "명사를 강조하는 구조는?",
+        "answer": "what+관사+형용사+명사",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      },
+      {
+        "id": "choice",
+        "prompt": "알맞은 감탄문은?",
+        "answer": "What an interesting idea this is",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "What an interesting idea this is": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "'How an interesting idea this is'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'What an interesting idea this is'이다.",
+      "summary": [
+        "그렇다.",
+        "what+관사+형용사+명사.",
+        "따라서 What an interesting idea this is를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'How an interesting idea this is'이다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G51-008",
+    "sourceQuestionId": "Q-G51-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 22,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 12,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 6,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-3DD43B1413",
+    "conceptId": "G51_EMBEDDED_EXCLAMATION",
+    "difficulty": 1,
+    "stem": "빠른 확인: 간접의문문에서 의문사 뒤 어순은?",
+    "choices": [
+      "주어+동사",
+      "동사+주어"
+    ],
+    "answer": "주어+동사",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "how는 명사절에서 방법·정도를 나타내고, however+형용사·부사+주어+동사는 no matter how의 양보 의미를 나타낸다.",
+          "간접의문문은 의문사 뒤를 평서문 어순으로 쓰고, 감탄문은 what+명사 또는 how+형용사·부사 구조를 쓴다."
+        ],
+        "answer": "간접의문문은 의문사 뒤를 평서문 어순으로 쓰고, 감탄문은 what+명사 또는 how+형용사·부사 구조를 쓴다.",
+        "errorCode": "E55_EMBEDDED_EXCLAMATION"
+      }
+    ],
+    "misconceptionByChoice": {
+      "동사+주어": "E55_EMBEDDED_EXCLAMATION"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "간접의문문은 의문사 뒤를 평서문 어순으로 쓰고, 감탄문은 what+명사 또는 how+형용사·부사 구조를 쓴다.",
+        "그렇다.",
+        "의문사+주어+동사.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G51",
+      "checkQuestion": {
+        "prompt": "간접의문문에서 의문사 뒤 어순은?",
+        "choices": [
+          "주어+동사",
+          "동사+주어"
+        ],
+        "answer": "주어+동사"
+      },
+      "transferQuestionId": "Q-G51-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-3DD43B1413",
+    "sourceQuestionId": "Q-G51-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

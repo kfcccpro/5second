@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G85-001",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 1,
+    "stem": "He (does not like / not likes) playing soccer.",
+    "choices": [
+      "does not like",
+      "not likes"
+    ],
+    "answer": "does not like",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 3인칭 단수 일반동사",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부정문에 does not+원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does not like",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "not likes": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "현재 3인칭 단수 일반동사",
+        "부정문에 does not+원형",
+        "따라서 does not like를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-001",
+    "sourceQuestionId": "Q-G85-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-002",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 1,
+    "stem": "(Does she work / Works she) on Saturdays?",
+    "choices": [
+      "Does she work",
+      "Works she"
+    ],
+    "answer": "Does she work",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 3인칭 단수 의문문",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does+주어+원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "Does she work",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Works she": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "현재 3인칭 단수 의문문",
+        "does+주어+원형",
+        "따라서 Does she work를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-002",
+    "sourceQuestionId": "Q-G85-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-003",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 1,
+    "stem": "They left early, (didn't they / weren't they)?",
+    "choices": [
+      "didn't they",
+      "weren't they"
+    ],
+    "answer": "didn't they",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "과거 일반동사 left",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문에서 did 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "didn't they",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "weren't they": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "과거 일반동사 left",
+        "부가의문에서 did 사용",
+        "따라서 didn't they를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-003",
+    "sourceQuestionId": "Q-G85-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-004",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 2,
+    "stem": "She is ready, (isn't she / doesn't she)?",
+    "choices": [
+      "isn't she",
+      "doesn't she"
+    ],
+    "answer": "isn't she",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞 동사는 be동사 is",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문도 be동사 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "isn't she",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "doesn't she": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "앞 동사는 be동사 is",
+        "부가의문도 be동사 사용",
+        "따라서 isn't she를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-004",
+    "sourceQuestionId": "Q-G85-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-005",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 2,
+    "stem": "We (did not see / did not saw) the notice yesterday.",
+    "choices": [
+      "did not see",
+      "did not saw"
+    ],
+    "answer": "did not see",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "yesterday와 did",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did 뒤 본동사 원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did not see",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did not saw": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "yesterday와 did",
+        "did 뒤 본동사 원형",
+        "따라서 did not see를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-005",
+    "sourceQuestionId": "Q-G85-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-006",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 2,
+    "stem": "(Do the students understand / Understand the students) the instructions?",
+    "choices": [
+      "Do the students understand",
+      "Understand the students"
+    ],
+    "answer": "Do the students understand",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "복수 주어의 현재 의문문",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do+주어+원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "Do the students understand",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Understand the students": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "복수 주어의 현재 의문문",
+        "do+주어+원형",
+        "따라서 Do the students understand를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-006",
+    "sourceQuestionId": "Q-G85-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-007",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 3,
+    "stem": "He has finished the task, (hasn't he / doesn't he)?",
+    "choices": [
+      "hasn't he",
+      "doesn't he"
+    ],
+    "answer": "hasn't he",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞에 조동사 has가 있음",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문에서 기존 조동사 has 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "hasn't he",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "doesn't he": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "앞에 조동사 has가 있음",
+        "부가의문에서 기존 조동사 has 사용",
+        "따라서 hasn't he를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-007",
+    "sourceQuestionId": "Q-G85-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-008",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 3,
+    "stem": "The machine runs quietly, (doesn't it / isn't it)?",
+    "choices": [
+      "doesn't it",
+      "isn't it"
+    ],
+    "answer": "doesn't it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 3인칭 단수 일반동사 runs",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문에 does 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "doesn't it",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "isn't it": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "현재 3인칭 단수 일반동사 runs",
+        "부가의문에 does 사용",
+        "따라서 doesn't it를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-008",
+    "sourceQuestionId": "Q-G85-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-001-PF",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 1,
+    "stem": "He (does not like / not likes) playing soccer.",
+    "choices": [
+      "does not like",
+      "not likes"
+    ],
+    "answer": "does not like",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 3인칭 단수 일반동사",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부정문에 does not+원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does not like",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "not likes": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "현재 3인칭 단수 일반동사",
+        "부정문에 does not+원형",
+        "따라서 does not like를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-001",
+    "sourceQuestionId": "Q-G85-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-002-PF",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 1,
+    "stem": "(Does she work / Works she) on Saturdays?",
+    "choices": [
+      "Does she work",
+      "Works she"
+    ],
+    "answer": "Does she work",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 3인칭 단수 의문문",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does+주어+원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "Does she work",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Works she": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "현재 3인칭 단수 의문문",
+        "does+주어+원형",
+        "따라서 Does she work를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-002",
+    "sourceQuestionId": "Q-G85-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-003-PF",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 1,
+    "stem": "They left early, (didn't they / weren't they)?",
+    "choices": [
+      "didn't they",
+      "weren't they"
+    ],
+    "answer": "didn't they",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "과거 일반동사 left",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문에서 did 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "didn't they",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "weren't they": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "과거 일반동사 left",
+        "부가의문에서 did 사용",
+        "따라서 didn't they를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-003",
+    "sourceQuestionId": "Q-G85-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-004-PF",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 2,
+    "stem": "She is ready, (isn't she / doesn't she)?",
+    "choices": [
+      "isn't she",
+      "doesn't she"
+    ],
+    "answer": "isn't she",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞 동사는 be동사 is",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문도 be동사 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "isn't she",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "doesn't she": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "앞 동사는 be동사 is",
+        "부가의문도 be동사 사용",
+        "따라서 isn't she를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-004",
+    "sourceQuestionId": "Q-G85-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-005-PF",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 2,
+    "stem": "We (did not see / did not saw) the notice yesterday.",
+    "choices": [
+      "did not see",
+      "did not saw"
+    ],
+    "answer": "did not see",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "yesterday와 did",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did 뒤 본동사 원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did not see",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did not saw": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "yesterday와 did",
+        "did 뒤 본동사 원형",
+        "따라서 did not see를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-005",
+    "sourceQuestionId": "Q-G85-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-006-PF",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 2,
+    "stem": "(Do the students understand / Understand the students) the instructions?",
+    "choices": [
+      "Do the students understand",
+      "Understand the students"
+    ],
+    "answer": "Do the students understand",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "복수 주어의 현재 의문문",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do+주어+원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "Do the students understand",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Understand the students": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "복수 주어의 현재 의문문",
+        "do+주어+원형",
+        "따라서 Do the students understand를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-006",
+    "sourceQuestionId": "Q-G85-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-007-PF",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 3,
+    "stem": "He has finished the task, (hasn't he / doesn't he)?",
+    "choices": [
+      "hasn't he",
+      "doesn't he"
+    ],
+    "answer": "hasn't he",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞에 조동사 has가 있음",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문에서 기존 조동사 has 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "hasn't he",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "doesn't he": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "앞에 조동사 has가 있음",
+        "부가의문에서 기존 조동사 has 사용",
+        "따라서 hasn't he를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-007",
+    "sourceQuestionId": "Q-G85-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 69,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-008-PF",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 3,
+    "stem": "The machine runs quietly, (doesn't it / isn't it)?",
+    "choices": [
+      "doesn't it",
+      "isn't it"
+    ],
+    "answer": "doesn't it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 3인칭 단수 일반동사 runs",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문에 does 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "doesn't it",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "isn't it": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "현재 3인칭 단수 일반동사 runs",
+        "부가의문에 does 사용",
+        "따라서 doesn't it를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-008",
+    "sourceQuestionId": "Q-G85-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-001-DR",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 1,
+    "stem": "He (does not like / not likes) playing soccer.",
+    "choices": [
+      "does not like",
+      "not likes"
+    ],
+    "answer": "does not like",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 3인칭 단수 일반동사",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부정문에 does not+원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does not like",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "not likes": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "현재 3인칭 단수 일반동사",
+        "부정문에 does not+원형",
+        "따라서 does not like를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-001",
+    "sourceQuestionId": "Q-G85-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-002-DR",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 1,
+    "stem": "(Does she work / Works she) on Saturdays?",
+    "choices": [
+      "Does she work",
+      "Works she"
+    ],
+    "answer": "Does she work",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 3인칭 단수 의문문",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does+주어+원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "Does she work",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Works she": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "현재 3인칭 단수 의문문",
+        "does+주어+원형",
+        "따라서 Does she work를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-002",
+    "sourceQuestionId": "Q-G85-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-003-DR",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 1,
+    "stem": "They left early, (didn't they / weren't they)?",
+    "choices": [
+      "didn't they",
+      "weren't they"
+    ],
+    "answer": "didn't they",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "과거 일반동사 left",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문에서 did 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "didn't they",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "weren't they": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "과거 일반동사 left",
+        "부가의문에서 did 사용",
+        "따라서 didn't they를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-003",
+    "sourceQuestionId": "Q-G85-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-004-DR",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 2,
+    "stem": "She is ready, (isn't she / doesn't she)?",
+    "choices": [
+      "isn't she",
+      "doesn't she"
+    ],
+    "answer": "isn't she",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞 동사는 be동사 is",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문도 be동사 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "isn't she",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "doesn't she": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "앞 동사는 be동사 is",
+        "부가의문도 be동사 사용",
+        "따라서 isn't she를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-004",
+    "sourceQuestionId": "Q-G85-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-005-DR",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 2,
+    "stem": "We (did not see / did not saw) the notice yesterday.",
+    "choices": [
+      "did not see",
+      "did not saw"
+    ],
+    "answer": "did not see",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "yesterday와 did",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did 뒤 본동사 원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did not see",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did not saw": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "yesterday와 did",
+        "did 뒤 본동사 원형",
+        "따라서 did not see를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-005",
+    "sourceQuestionId": "Q-G85-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-006-DR",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 2,
+    "stem": "(Do the students understand / Understand the students) the instructions?",
+    "choices": [
+      "Do the students understand",
+      "Understand the students"
+    ],
+    "answer": "Do the students understand",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "복수 주어의 현재 의문문",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do+주어+원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "Do the students understand",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Understand the students": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "복수 주어의 현재 의문문",
+        "do+주어+원형",
+        "따라서 Do the students understand를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-006",
+    "sourceQuestionId": "Q-G85-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-007-DR",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 3,
+    "stem": "He has finished the task, (hasn't he / doesn't he)?",
+    "choices": [
+      "hasn't he",
+      "doesn't he"
+    ],
+    "answer": "hasn't he",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞에 조동사 has가 있음",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문에서 기존 조동사 has 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "hasn't he",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "doesn't he": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "앞에 조동사 has가 있음",
+        "부가의문에서 기존 조동사 has 사용",
+        "따라서 hasn't he를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-007",
+    "sourceQuestionId": "Q-G85-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-008-DR",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 3,
+    "stem": "The machine runs quietly, (doesn't it / isn't it)?",
+    "choices": [
+      "doesn't it",
+      "isn't it"
+    ],
+    "answer": "doesn't it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 3인칭 단수 일반동사 runs",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문에 does 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "doesn't it",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "isn't it": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "일반동사의 시제·주어에 맞는 do와 본동사 원형을 조립하지 않았다.",
+      "summary": [
+        "현재 3인칭 단수 일반동사 runs",
+        "부가의문에 does 사용",
+        "따라서 doesn't it를 선택한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-008",
+    "sourceQuestionId": "Q-G85-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-001-CT",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe (does not like / not likes) playing soccer.",
+    "choices": [
+      "not likes",
+      "does not like"
+    ],
+    "answer": "not likes",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 3인칭 단수 일반동사",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부정문에 does not+원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "does not like",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "does not like": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "'not likes'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'does not like'이다.",
+      "summary": [
+        "현재 3인칭 단수 일반동사",
+        "부정문에 does not+원형",
+        "따라서 does not like를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'not likes'이다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-001",
+    "sourceQuestionId": "Q-G85-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-002-CT",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(Does she work / Works she) on Saturdays?",
+    "choices": [
+      "Works she",
+      "Does she work"
+    ],
+    "answer": "Works she",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 3인칭 단수 의문문",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "does+주어+원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "Does she work",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Does she work": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "'Works she'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'Does she work'이다.",
+      "summary": [
+        "현재 3인칭 단수 의문문",
+        "does+주어+원형",
+        "따라서 Does she work를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'Works she'이다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-002",
+    "sourceQuestionId": "Q-G85-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-003-CT",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThey left early, (didn't they / weren't they)?",
+    "choices": [
+      "didn't they",
+      "weren't they"
+    ],
+    "answer": "weren't they",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "과거 일반동사 left",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문에서 did 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "didn't they",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "didn't they": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "'weren't they'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'didn't they'이다.",
+      "summary": [
+        "과거 일반동사 left",
+        "부가의문에서 did 사용",
+        "따라서 didn't they를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'weren't they'이다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-003",
+    "sourceQuestionId": "Q-G85-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-004-CT",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe is ready, (isn't she / doesn't she)?",
+    "choices": [
+      "isn't she",
+      "doesn't she"
+    ],
+    "answer": "doesn't she",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞 동사는 be동사 is",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문도 be동사 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "isn't she",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "isn't she": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "'doesn't she'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'isn't she'이다.",
+      "summary": [
+        "앞 동사는 be동사 is",
+        "부가의문도 be동사 사용",
+        "따라서 isn't she를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'doesn't she'이다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-004",
+    "sourceQuestionId": "Q-G85-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 28,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-005-CT",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe (did not see / did not saw) the notice yesterday.",
+    "choices": [
+      "did not see",
+      "did not saw"
+    ],
+    "answer": "did not saw",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "yesterday와 did",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "did 뒤 본동사 원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "did not see",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did not see": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "'did not saw'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'did not see'이다.",
+      "summary": [
+        "yesterday와 did",
+        "did 뒤 본동사 원형",
+        "따라서 did not see를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'did not saw'이다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-005",
+    "sourceQuestionId": "Q-G85-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-006-CT",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n(Do the students understand / Understand the students) the instructions?",
+    "choices": [
+      "Understand the students",
+      "Do the students understand"
+    ],
+    "answer": "Understand the students",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "복수 주어의 현재 의문문",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "do+주어+원형",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "Do the students understand",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "Do the students understand": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "'Understand the students'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'Do the students understand'이다.",
+      "summary": [
+        "복수 주어의 현재 의문문",
+        "do+주어+원형",
+        "따라서 Do the students understand를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'Understand the students'이다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-006",
+    "sourceQuestionId": "Q-G85-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 31,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 3.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-007-CT",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe has finished the task, (hasn't he / doesn't he)?",
+    "choices": [
+      "hasn't he",
+      "doesn't he"
+    ],
+    "answer": "doesn't he",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "앞에 조동사 has가 있음",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문에서 기존 조동사 has 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "hasn't he",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "hasn't he": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "'doesn't he'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'hasn't he'이다.",
+      "summary": [
+        "앞에 조동사 has가 있음",
+        "부가의문에서 기존 조동사 has 사용",
+        "따라서 hasn't he를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'doesn't he'이다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-007",
+    "sourceQuestionId": "Q-G85-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G85-008-CT",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe machine runs quietly, (doesn't it / isn't it)?",
+    "choices": [
+      "isn't it",
+      "doesn't it"
+    ],
+    "answer": "isn't it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "현재 3인칭 단수 일반동사 runs",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "부가의문에 does 사용",
+        "errorCode": "E89_DO_BASIC"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "doesn't it",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "doesn't it": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "'isn't it'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'doesn't it'이다.",
+      "summary": [
+        "현재 3인칭 단수 일반동사 runs",
+        "부가의문에 does 사용",
+        "따라서 doesn't it를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'isn't it'이다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G85-008",
+    "sourceQuestionId": "Q-G85-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-96DFEED40C",
+    "conceptId": "G85_DO_BASIC_FORMS",
+    "difficulty": 1,
+    "stem": "빠른 확인: 과거 일반동사 부정문의 기본 형태는?",
+    "choices": [
+      "did not + 동사원형",
+      "did not + 과거형"
+    ],
+    "answer": "did not + 동사원형",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "일반동사 문장의 부정·의문·부가의문에서는 시제와 주어에 맞는 do·does·did를 쓰고 본동사는 원형으로 둔다.",
+          "일반동사를 강조할 때 do·does·did+동사원형을 쓰고, 부정어·제한어가 문두에 오면 do·does·did+주어+동사원형으로 도치한다."
+        ],
+        "answer": "일반동사 문장의 부정·의문·부가의문에서는 시제와 주어에 맞는 do·does·did를 쓰고 본동사는 원형으로 둔다.",
+        "errorCode": "E89_DO_BASIC"
+      }
+    ],
+    "misconceptionByChoice": {
+      "did not + 과거형": "E89_DO_BASIC"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "일반동사 문장의 부정·의문·부가의문에서는 시제와 주어에 맞는 do·does·did를 쓰고 본동사는 원형으로 둔다.",
+        "현재 3인칭 단수 일반동사",
+        "부정문에 does not+원형",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G85",
+      "checkQuestion": {
+        "prompt": "과거 일반동사 부정문의 기본 형태는?",
+        "choices": [
+          "did not + 동사원형",
+          "did not + 과거형"
+        ],
+        "answer": "did not + 동사원형"
+      },
+      "transferQuestionId": "Q-G85-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART9",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-96DFEED40C",
+    "sourceQuestionId": "Q-G85-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

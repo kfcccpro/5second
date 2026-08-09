@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G55-001",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was the ability to grow crops (that / what) allowed people to settle.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "the ability to grow crops",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "the ability to grow crops.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-001",
+    "sourceQuestionId": "Q-G55-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-002",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was people (that / what) the policy helped.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "people",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "people.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-002",
+    "sourceQuestionId": "Q-G55-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-003",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was in one place (that / which) the community settled.",
+    "choices": [
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "장소 부사어 in one place",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "장소 부사어 in one place.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-003",
+    "sourceQuestionId": "Q-G55-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-004",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was at that time (that / when) many factories were built.",
+    "choices": [
+      "that",
+      "when"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "시간 부사어 at that time",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "시간 부사어 at that time.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-004",
+    "sourceQuestionId": "Q-G55-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-005",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was my sister (who / what) called me yesterday.",
+    "choices": [
+      "who",
+      "what"
+    ],
+    "answer": "who",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은 사람인가?",
+        "answer": "my sister라는 사람",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "사람 주어 강조에 가능한 말은?",
+        "answer": "who",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "my sister라는 사람.",
+        "따라서 who를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-005",
+    "sourceQuestionId": "Q-G55-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-006",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was yesterday (that / what) we received the result.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "시간 부사어 yesterday",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "시간 부사어 yesterday.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-006",
+    "sourceQuestionId": "Q-G55-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-007",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was the computer (that / where) he used in class.",
+    "choices": [
+      "that",
+      "where"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "목적어 the computer",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "목적어 the computer.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-007",
+    "sourceQuestionId": "Q-G55-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-008",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It is only when we reflect (that / what) we learn deeply.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It is + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "시간 부사절 only when we reflect",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "시간 부사절 only when we reflect.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-008",
+    "sourceQuestionId": "Q-G55-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-001-PF",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was the ability to grow crops (that / what) allowed people to settle.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "the ability to grow crops",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "the ability to grow crops.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-001",
+    "sourceQuestionId": "Q-G55-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 65,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-002-PF",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was people (that / what) the policy helped.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "people",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "people.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-002",
+    "sourceQuestionId": "Q-G55-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-003-PF",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was in one place (that / which) the community settled.",
+    "choices": [
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "장소 부사어 in one place",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "장소 부사어 in one place.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-003",
+    "sourceQuestionId": "Q-G55-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-004-PF",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was at that time (that / when) many factories were built.",
+    "choices": [
+      "that",
+      "when"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "시간 부사어 at that time",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "시간 부사어 at that time.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-004",
+    "sourceQuestionId": "Q-G55-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-005-PF",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was my sister (who / what) called me yesterday.",
+    "choices": [
+      "who",
+      "what"
+    ],
+    "answer": "who",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은 사람인가?",
+        "answer": "my sister라는 사람",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "사람 주어 강조에 가능한 말은?",
+        "answer": "who",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "my sister라는 사람.",
+        "따라서 who를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-005",
+    "sourceQuestionId": "Q-G55-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-006-PF",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was yesterday (that / what) we received the result.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "시간 부사어 yesterday",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "시간 부사어 yesterday.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-006",
+    "sourceQuestionId": "Q-G55-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-007-PF",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was the computer (that / where) he used in class.",
+    "choices": [
+      "that",
+      "where"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "목적어 the computer",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "목적어 the computer.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-007",
+    "sourceQuestionId": "Q-G55-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-008-PF",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It is only when we reflect (that / what) we learn deeply.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It is + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "시간 부사절 only when we reflect",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "시간 부사절 only when we reflect.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-008",
+    "sourceQuestionId": "Q-G55-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-001-DR",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was the ability to grow crops (that / what) allowed people to settle.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "the ability to grow crops",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "the ability to grow crops.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-001",
+    "sourceQuestionId": "Q-G55-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-002-DR",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was people (that / what) the policy helped.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "people",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "people.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-002",
+    "sourceQuestionId": "Q-G55-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-003-DR",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was in one place (that / which) the community settled.",
+    "choices": [
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "장소 부사어 in one place",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "which": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "장소 부사어 in one place.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-003",
+    "sourceQuestionId": "Q-G55-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-004-DR",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was at that time (that / when) many factories were built.",
+    "choices": [
+      "that",
+      "when"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "시간 부사어 at that time",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "when": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "시간 부사어 at that time.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-004",
+    "sourceQuestionId": "Q-G55-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-005-DR",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was my sister (who / what) called me yesterday.",
+    "choices": [
+      "who",
+      "what"
+    ],
+    "answer": "who",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은 사람인가?",
+        "answer": "my sister라는 사람",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "사람 주어 강조에 가능한 말은?",
+        "answer": "who",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "my sister라는 사람.",
+        "따라서 who를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-005",
+    "sourceQuestionId": "Q-G55-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-006-DR",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was yesterday (that / what) we received the result.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "시간 부사어 yesterday",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "시간 부사어 yesterday.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-006",
+    "sourceQuestionId": "Q-G55-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-007-DR",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It was the computer (that / where) he used in class.",
+    "choices": [
+      "that",
+      "where"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "목적어 the computer",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "where": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "목적어 the computer.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-007",
+    "sourceQuestionId": "Q-G55-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-008-DR",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "It is only when we reflect (that / what) we learn deeply.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "that",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It is + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "시간 부사절 only when we reflect",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "what": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "강조 성분과 that 뒤에 남길 문장을 분리하지 않았다.",
+      "summary": [
+        "그렇다.",
+        "시간 부사절 only when we reflect.",
+        "따라서 that를 선택한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-008",
+    "sourceQuestionId": "Q-G55-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-001-CT",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt was the ability to grow crops (that / what) allowed people to settle.",
+    "choices": [
+      "what",
+      "that"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "the ability to grow crops",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "'what'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "그렇다.",
+        "the ability to grow crops.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'what'이다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-001",
+    "sourceQuestionId": "Q-G55-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 18,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-002-CT",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt was people (that / what) the policy helped.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "people",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "'what'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "그렇다.",
+        "people.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'what'이다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-002",
+    "sourceQuestionId": "Q-G55-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-003-CT",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt was in one place (that / which) the community settled.",
+    "choices": [
+      "that",
+      "which"
+    ],
+    "answer": "which",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "장소 부사어 in one place",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "'which'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "그렇다.",
+        "장소 부사어 in one place.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'which'이다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-003",
+    "sourceQuestionId": "Q-G55-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-004-CT",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt was at that time (that / when) many factories were built.",
+    "choices": [
+      "that",
+      "when"
+    ],
+    "answer": "when",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "시간 부사어 at that time",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "'when'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "그렇다.",
+        "시간 부사어 at that time.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'when'이다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-004",
+    "sourceQuestionId": "Q-G55-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-005-CT",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt was my sister (who / what) called me yesterday.",
+    "choices": [
+      "who",
+      "what"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은 사람인가?",
+        "answer": "my sister라는 사람",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "사람 주어 강조에 가능한 말은?",
+        "answer": "who",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "who": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "'what'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'who'이다.",
+      "summary": [
+        "그렇다.",
+        "my sister라는 사람.",
+        "따라서 who를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'what'이다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-005",
+    "sourceQuestionId": "Q-G55-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-006-CT",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt was yesterday (that / what) we received the result.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "시간 부사어 yesterday",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "'what'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "그렇다.",
+        "시간 부사어 yesterday.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'what'이다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-006",
+    "sourceQuestionId": "Q-G55-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-007-CT",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt was the computer (that / where) he used in class.",
+    "choices": [
+      "that",
+      "where"
+    ],
+    "answer": "where",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It was + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "목적어 the computer",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "'where'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "그렇다.",
+        "목적어 the computer.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'where'이다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-007",
+    "sourceQuestionId": "Q-G55-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 16,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G55-008-CT",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nIt is only when we reflect (that / what) we learn deeply.",
+    "choices": [
+      "that",
+      "what"
+    ],
+    "answer": "what",
+    "decisionSteps": [
+      {
+        "id": "frame",
+        "prompt": "It is + 강조 성분 구조인가?",
+        "answer": "그렇다",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "focus",
+        "prompt": "강조 성분은?",
+        "answer": "시간 부사절 only when we reflect",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      },
+      {
+        "id": "choice",
+        "prompt": "강조구문 연결어는?",
+        "answer": "that",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "'what'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'that'이다.",
+      "summary": [
+        "그렇다.",
+        "시간 부사절 only when we reflect.",
+        "따라서 that를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'what'이다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G55-008",
+    "sourceQuestionId": "Q-G55-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-7DE1EEB962",
+    "conceptId": "G55_IT_THAT_CLEFT",
+    "difficulty": 1,
+    "stem": "빠른 확인: It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+    "choices": [
+      "It is/was와 that 사이",
+      "that 뒤"
+    ],
+    "answer": "It is/was와 that 사이",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "선행사가 사람인지 사물인지 확인하고, 관계사 뒤에 동사가 바로 오면 주격, 명사가 오면 소유격, 주어+동사가 오면 목적격을 고른다.",
+          "강조할 주어·목적어·부사어를 It is/was와 that 사이에 넣고, 나머지 문장은 that 뒤에 둔다. 동사 자체는 이 자리에 넣지 않는다."
+        ],
+        "answer": "강조할 주어·목적어·부사어를 It is/was와 that 사이에 넣고, 나머지 문장은 that 뒤에 둔다. 동사 자체는 이 자리에 넣지 않는다.",
+        "errorCode": "E59_IT_THAT_CLEFT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "that 뒤": "E59_IT_THAT_CLEFT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "강조할 주어·목적어·부사어를 It is/was와 that 사이에 넣고, 나머지 문장은 that 뒤에 둔다. 동사 자체는 이 자리에 넣지 않는다.",
+        "그렇다.",
+        "the ability to grow crops.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G55",
+      "checkQuestion": {
+        "prompt": "It ~ that 강조구문에서 강조 성분은 어디에 놓는가?",
+        "choices": [
+          "It is/was와 that 사이",
+          "that 뒤"
+        ],
+        "answer": "It is/was와 that 사이"
+      },
+      "transferQuestionId": "Q-G55-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART5",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-7DE1EEB962",
+    "sourceQuestionId": "Q-G55-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

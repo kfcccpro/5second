@@ -1,0 +1,4060 @@
+[
+  {
+    "id": "Q-R7-1-01",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "questionType": "review_source_choice",
+    "setLabel": "필수 어법 1",
+    "stem": "접속사·관계사가 2개인 문장에 필요한 본동사 수는?",
+    "choices": [
+      "2개",
+      "3개",
+      "4개"
+    ],
+    "answer": "3개",
+    "sourcePreviewRef": "SRC-R7-VERB",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사·관계사 수는 2개이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "동사 개수 공식은 접속사·관계사 수 + 1이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "따라서 필요한 본동사는 3개이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "2개": "E96_ESSENTIAL_VERB",
+      "4개": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "접속사·관계사 수에 1을 더한다.",
+        "2 + 1 = 3이다.",
+        "필요한 본동사는 3개이다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「3개」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-1-01",
+    "sourceQuestionId": "Q-R7-1-01",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 44,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 0,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 0,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-02",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "필수 어법 1",
+    "stem": "The plan (includes / including) several steps.",
+    "choices": [
+      "includes",
+      "including"
+    ],
+    "answer": "includes",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사·관계사가 없으므로 본동사는 1개 필요하다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분이 본동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "뒤에 목적어가 있으므로 includes가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "including": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "문장에 본동사가 아직 없다.",
+        "주어 The plan 뒤는 동사 자리이다.",
+        "목적어 several steps가 있으므로 능동태 includes를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「includes」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-1-02",
+    "sourceQuestionId": "Q-R7-1-02",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-03",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "필수 어법 1",
+    "stem": "The plan includes several steps, (requiring / required) careful review.",
+    "choices": [
+      "requiring",
+      "required"
+    ],
+    "answer": "requiring",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "본동사는 includes이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분은 준동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "목적어가 있으므로 requiring이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "required": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "본동사 includes가 이미 있다.",
+        "문제 부분은 준동사 자리이다.",
+        "뒤에 목적어 careful review가 있으므로 능동 V-ing를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「requiring」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-1-03",
+    "sourceQuestionId": "Q-R7-1-03",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-04",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "필수 어법 1",
+    "stem": "The files (attached / are attached) to the email seem damaged.",
+    "choices": [
+      "attached",
+      "are attached"
+    ],
+    "answer": "attached",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "본동사는 seem이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분은 준동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "files가 동작을 당하므로 attached가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are attached": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "본동사 seem이 이미 있다.",
+        "문제 부분은 files를 꾸미는 준동사 자리이다.",
+        "files가 attach되는 수동 관계이므로 p.p. attached를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「attached」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-1-04",
+    "sourceQuestionId": "Q-R7-1-04",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-05",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "필수 어법 1",
+    "stem": "The files (contain / are contained) important data.",
+    "choices": [
+      "contain",
+      "are contained"
+    ],
+    "answer": "contain",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "문장에 본동사가 필요하다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "뒤에 목적어가 있다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "능동태 contain이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are contained": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "문제 부분은 본동사 자리이다.",
+        "뒤에 목적어 important data가 있다.",
+        "목적어가 있으므로 능동태 contain을 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「contain」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-1-05",
+    "sourceQuestionId": "Q-R7-1-05",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-06",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "필수 어법 1",
+    "stem": "When (using / used) correctly, this tool saves time.",
+    "choices": [
+      "using",
+      "used"
+    ],
+    "answer": "used",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사 뒤 준동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "생략된 주어는 this tool이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "수동 관계이므로 used가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "using": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "접속사 when 뒤의 분사구문이다.",
+        "생략된 주어는 this tool이다.",
+        "tool이 사용되는 수동 관계이므로 used를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「used」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-1-06",
+    "sourceQuestionId": "Q-R7-1-06",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-07",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "필수 어법 1",
+    "stem": "The report (is being printed / being printed) now.",
+    "choices": [
+      "is being printed",
+      "being printed"
+    ],
+    "answer": "is being printed",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "문제 부분은 동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "report는 수동 관계이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "진행 수동태 is being printed가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "being printed": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "문장에 본동사가 필요하다.",
+        "report는 print되는 수동 관계이다.",
+        "진행 중인 수동태이므로 is being printed를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「is being printed」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-1-07",
+    "sourceQuestionId": "Q-R7-1-07",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-08",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "필수 어법 1",
+    "stem": "Unlike freshwater fish, many marine species (have / having) little tolerance for rapid change.",
+    "choices": [
+      "have",
+      "having"
+    ],
+    "answer": "have",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사·관계사가 없으므로 본동사는 1개 필요하다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분은 동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "복수 주어에 have가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "having": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "문장에 본동사가 아직 없다.",
+        "주어 many marine species는 복수이다.",
+        "목적어 little tolerance가 있으므로 have를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「have」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "review",
+      "essential7",
+      "source-based",
+      "recovery"
+    ],
+    "familyId": "Q-R7-1-08",
+    "sourceQuestionId": "Q-R7-1-08",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "A",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 66,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-01-PF",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "questionType": "review_source_choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "접속사·관계사가 2개인 문장에 필요한 본동사 수는?",
+    "choices": [
+      "2개",
+      "3개",
+      "4개"
+    ],
+    "answer": "3개",
+    "sourcePreviewRef": "SRC-R7-VERB",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사·관계사 수는 2개이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "동사 개수 공식은 접속사·관계사 수 + 1이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "따라서 필요한 본동사는 3개이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "2개": "E96_ESSENTIAL_VERB",
+      "4개": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "접속사·관계사 수에 1을 더한다.",
+        "2 + 1 = 3이다.",
+        "필요한 본동사는 3개이다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「3개」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-01",
+    "sourceQuestionId": "Q-R7-1-01",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 0,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 0,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-02-PF",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "The plan (includes / including) several steps.",
+    "choices": [
+      "includes",
+      "including"
+    ],
+    "answer": "includes",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사·관계사가 없으므로 본동사는 1개 필요하다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분이 본동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "뒤에 목적어가 있으므로 includes가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "including": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "문장에 본동사가 아직 없다.",
+        "주어 The plan 뒤는 동사 자리이다.",
+        "목적어 several steps가 있으므로 능동태 includes를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「includes」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-02",
+    "sourceQuestionId": "Q-R7-1-02",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-03-PF",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "The plan includes several steps, (requiring / required) careful review.",
+    "choices": [
+      "requiring",
+      "required"
+    ],
+    "answer": "requiring",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "본동사는 includes이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분은 준동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "목적어가 있으므로 requiring이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "required": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "본동사 includes가 이미 있다.",
+        "문제 부분은 준동사 자리이다.",
+        "뒤에 목적어 careful review가 있으므로 능동 V-ing를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「requiring」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-03",
+    "sourceQuestionId": "Q-R7-1-03",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-04-PF",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "The files (attached / are attached) to the email seem damaged.",
+    "choices": [
+      "attached",
+      "are attached"
+    ],
+    "answer": "attached",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "본동사는 seem이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분은 준동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "files가 동작을 당하므로 attached가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are attached": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "본동사 seem이 이미 있다.",
+        "문제 부분은 files를 꾸미는 준동사 자리이다.",
+        "files가 attach되는 수동 관계이므로 p.p. attached를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「attached」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-04",
+    "sourceQuestionId": "Q-R7-1-04",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-05-PF",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "The files (contain / are contained) important data.",
+    "choices": [
+      "contain",
+      "are contained"
+    ],
+    "answer": "contain",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "문장에 본동사가 필요하다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "뒤에 목적어가 있다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "능동태 contain이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are contained": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "문제 부분은 본동사 자리이다.",
+        "뒤에 목적어 important data가 있다.",
+        "목적어가 있으므로 능동태 contain을 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「contain」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-05",
+    "sourceQuestionId": "Q-R7-1-05",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-06-PF",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "When (using / used) correctly, this tool saves time.",
+    "choices": [
+      "using",
+      "used"
+    ],
+    "answer": "used",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사 뒤 준동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "생략된 주어는 this tool이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "수동 관계이므로 used가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "using": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "접속사 when 뒤의 분사구문이다.",
+        "생략된 주어는 this tool이다.",
+        "tool이 사용되는 수동 관계이므로 used를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「used」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-06",
+    "sourceQuestionId": "Q-R7-1-06",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-07-PF",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "The report (is being printed / being printed) now.",
+    "choices": [
+      "is being printed",
+      "being printed"
+    ],
+    "answer": "is being printed",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "문제 부분은 동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "report는 수동 관계이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "진행 수동태 is being printed가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "being printed": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "문장에 본동사가 필요하다.",
+        "report는 print되는 수동 관계이다.",
+        "진행 중인 수동태이므로 is being printed를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「is being printed」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-07",
+    "sourceQuestionId": "Q-R7-1-07",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-08-PF",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "stem": "Unlike freshwater fish, many marine species (have / having) little tolerance for rapid change.",
+    "choices": [
+      "have",
+      "having"
+    ],
+    "answer": "have",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사·관계사가 없으므로 본동사는 1개 필요하다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분은 동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "복수 주어에 have가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "having": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "문장에 본동사가 아직 없다.",
+        "주어 many marine species는 복수이다.",
+        "목적어 little tolerance가 있으므로 have를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「have」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "active-recall",
+      "essential7",
+      "process-first",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-08",
+    "sourceQuestionId": "Q-R7-1-08",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 74,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-01-DR",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "questionType": "review_source_choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "접속사·관계사가 2개인 문장에 필요한 본동사 수는?",
+    "choices": [
+      "2개",
+      "3개",
+      "4개"
+    ],
+    "answer": "3개",
+    "sourcePreviewRef": "SRC-R7-VERB",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사·관계사 수는 2개이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "동사 개수 공식은 접속사·관계사 수 + 1이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "따라서 필요한 본동사는 3개이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "2개": "E96_ESSENTIAL_VERB",
+      "4개": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "접속사·관계사 수에 1을 더한다.",
+        "2 + 1 = 3이다.",
+        "필요한 본동사는 3개이다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「3개」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-01",
+    "sourceQuestionId": "Q-R7-1-01",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 40,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 0,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 0,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-02-DR",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "The plan (includes / including) several steps.",
+    "choices": [
+      "includes",
+      "including"
+    ],
+    "answer": "includes",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사·관계사가 없으므로 본동사는 1개 필요하다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분이 본동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "뒤에 목적어가 있으므로 includes가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "including": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "문장에 본동사가 아직 없다.",
+        "주어 The plan 뒤는 동사 자리이다.",
+        "목적어 several steps가 있으므로 능동태 includes를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「includes」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-02",
+    "sourceQuestionId": "Q-R7-1-02",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-03-DR",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "The plan includes several steps, (requiring / required) careful review.",
+    "choices": [
+      "requiring",
+      "required"
+    ],
+    "answer": "requiring",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "본동사는 includes이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분은 준동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "목적어가 있으므로 requiring이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "required": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "본동사 includes가 이미 있다.",
+        "문제 부분은 준동사 자리이다.",
+        "뒤에 목적어 careful review가 있으므로 능동 V-ing를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「requiring」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-03",
+    "sourceQuestionId": "Q-R7-1-03",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-04-DR",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "The files (attached / are attached) to the email seem damaged.",
+    "choices": [
+      "attached",
+      "are attached"
+    ],
+    "answer": "attached",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "본동사는 seem이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분은 준동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "files가 동작을 당하므로 attached가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are attached": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "본동사 seem이 이미 있다.",
+        "문제 부분은 files를 꾸미는 준동사 자리이다.",
+        "files가 attach되는 수동 관계이므로 p.p. attached를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「attached」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-04",
+    "sourceQuestionId": "Q-R7-1-04",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-05-DR",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "The files (contain / are contained) important data.",
+    "choices": [
+      "contain",
+      "are contained"
+    ],
+    "answer": "contain",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "문장에 본동사가 필요하다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "뒤에 목적어가 있다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "능동태 contain이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "are contained": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "문제 부분은 본동사 자리이다.",
+        "뒤에 목적어 important data가 있다.",
+        "목적어가 있으므로 능동태 contain을 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「contain」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-05",
+    "sourceQuestionId": "Q-R7-1-05",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-06-DR",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 2,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "When (using / used) correctly, this tool saves time.",
+    "choices": [
+      "using",
+      "used"
+    ],
+    "answer": "used",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사 뒤 준동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "생략된 주어는 this tool이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "수동 관계이므로 used가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "using": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "접속사 when 뒤의 분사구문이다.",
+        "생략된 주어는 this tool이다.",
+        "tool이 사용되는 수동 관계이므로 used를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「used」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-06",
+    "sourceQuestionId": "Q-R7-1-06",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-07-DR",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "The report (is being printed / being printed) now.",
+    "choices": [
+      "is being printed",
+      "being printed"
+    ],
+    "answer": "is being printed",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "문제 부분은 동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "report는 수동 관계이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "진행 수동태 is being printed가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "being printed": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "문장에 본동사가 필요하다.",
+        "report는 print되는 수동 관계이다.",
+        "진행 중인 수동태이므로 is being printed를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「is being printed」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-07",
+    "sourceQuestionId": "Q-R7-1-07",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-08-DR",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 3,
+    "questionType": "choice",
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "stem": "Unlike freshwater fish, many marine species (have / having) little tolerance for rapid change.",
+    "choices": [
+      "have",
+      "having"
+    ],
+    "answer": "have",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사·관계사가 없으므로 본동사는 1개 필요하다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분은 동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "복수 주어에 have가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "having": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "동사 비슷한 형태를 보고 자리 판단이나 목적어 확인을 건너뛰었다.",
+      "summary": [
+        "문장에 본동사가 아직 없다.",
+        "주어 many marine species는 복수이다.",
+        "목적어 little tolerance가 있으므로 have를 고른다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「have」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-08",
+    "sourceQuestionId": "Q-R7-1-08",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-01-CT",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\n접속사·관계사가 2개인 문장에 필요한 본동사 수는?",
+    "choices": [
+      "3개",
+      "2개"
+    ],
+    "answer": "2개",
+    "sourcePreviewRef": "SRC-R7-VERB",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사·관계사 수는 2개이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "동사 개수 공식은 접속사·관계사 수 + 1이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "따라서 필요한 본동사는 3개이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "3개": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "'2개'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 '3개'이다.",
+      "summary": [
+        "접속사·관계사 수에 1을 더한다.",
+        "2 + 1 = 3이다.",
+        "필요한 본동사는 3개이다.",
+        "따라서 대조 문항에서 고를 답은 '2개'이다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「3개」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-1-01"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-01",
+    "sourceQuestionId": "Q-R7-1-01",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 12,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 40,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 0,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 0,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-02-CT",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe plan (includes / including) several steps.",
+    "choices": [
+      "including",
+      "includes"
+    ],
+    "answer": "including",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사·관계사가 없으므로 본동사는 1개 필요하다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분이 본동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "뒤에 목적어가 있으므로 includes가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "includes": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "'including'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'includes'이다.",
+      "summary": [
+        "문장에 본동사가 아직 없다.",
+        "주어 The plan 뒤는 동사 자리이다.",
+        "목적어 several steps가 있으므로 능동태 includes를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'including'이다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「includes」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-1-02"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-02",
+    "sourceQuestionId": "Q-R7-1-02",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-03-CT",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe plan includes several steps, (requiring / required) careful review.",
+    "choices": [
+      "requiring",
+      "required"
+    ],
+    "answer": "required",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "본동사는 includes이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분은 준동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "목적어가 있으므로 requiring이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "requiring": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "'required'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'requiring'이다.",
+      "summary": [
+        "본동사 includes가 이미 있다.",
+        "문제 부분은 준동사 자리이다.",
+        "뒤에 목적어 careful review가 있으므로 능동 V-ing를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'required'이다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「requiring」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-1-03"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-03",
+    "sourceQuestionId": "Q-R7-1-03",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-04-CT",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe files (attached / are attached) to the email seem damaged.",
+    "choices": [
+      "are attached",
+      "attached"
+    ],
+    "answer": "are attached",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "본동사는 seem이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분은 준동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "files가 동작을 당하므로 attached가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "attached": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "'are attached'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'attached'이다.",
+      "summary": [
+        "본동사 seem이 이미 있다.",
+        "문제 부분은 files를 꾸미는 준동사 자리이다.",
+        "files가 attach되는 수동 관계이므로 p.p. attached를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'are attached'이다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「attached」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-1-04"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-04",
+    "sourceQuestionId": "Q-R7-1-04",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-05-CT",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe files (contain / are contained) important data.",
+    "choices": [
+      "contain",
+      "are contained"
+    ],
+    "answer": "are contained",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "문장에 본동사가 필요하다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "뒤에 목적어가 있다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "능동태 contain이 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "contain": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "'are contained'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'contain'이다.",
+      "summary": [
+        "문제 부분은 본동사 자리이다.",
+        "뒤에 목적어 important data가 있다.",
+        "목적어가 있으므로 능동태 contain을 고른다.",
+        "따라서 대조 문항에서 고를 답은 'are contained'이다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「contain」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-1-05"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-05",
+    "sourceQuestionId": "Q-R7-1-05",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-06-CT",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 2,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWhen (using / used) correctly, this tool saves time.",
+    "choices": [
+      "used",
+      "using"
+    ],
+    "answer": "using",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사 뒤 준동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "생략된 주어는 this tool이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "수동 관계이므로 used가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "used": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "'using'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'used'이다.",
+      "summary": [
+        "접속사 when 뒤의 분사구문이다.",
+        "생략된 주어는 this tool이다.",
+        "tool이 사용되는 수동 관계이므로 used를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'using'이다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「used」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-1-06"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-06",
+    "sourceQuestionId": "Q-R7-1-06",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-07-CT",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 3,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe report (is being printed / being printed) now.",
+    "choices": [
+      "being printed",
+      "is being printed"
+    ],
+    "answer": "being printed",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "문제 부분은 동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "report는 수동 관계이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "진행 수동태 is being printed가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "is being printed": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "'being printed'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'is being printed'이다.",
+      "summary": [
+        "문장에 본동사가 필요하다.",
+        "report는 print되는 수동 관계이다.",
+        "진행 중인 수동태이므로 is being printed를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'being printed'이다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「is being printed」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-1-07"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-07",
+    "sourceQuestionId": "Q-R7-1-07",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-R7-1-08-CT",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 3,
+    "questionType": "contrast_choice",
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nUnlike freshwater fish, many marine species (have / having) little tolerance for rapid change.",
+    "choices": [
+      "having",
+      "have"
+    ],
+    "answer": "having",
+    "decisionSteps": [
+      {
+        "id": "s1",
+        "prompt": "접속사·관계사가 없으므로 본동사는 1개 필요하다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s2",
+        "prompt": "문제 부분은 동사 자리이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      },
+      {
+        "id": "s3",
+        "prompt": "복수 주어에 have가 맞다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "have": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "'having'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'have'이다.",
+      "summary": [
+        "문장에 본동사가 아직 없다.",
+        "주어 many marine species는 복수이다.",
+        "목적어 little tolerance가 있으므로 have를 고른다.",
+        "따라서 대조 문항에서 고를 답은 'having'이다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「have」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "retryPolicy": "초간단 정리 확인 → 판단 단계 3개 → 확인문제 → 원문 재도전",
+      "transferQuestionId": "Q-R7-1-08"
+    },
+    "origin": "essential7_authored_review",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "essential7",
+      "recovery",
+      "review",
+      "source-based"
+    ],
+    "familyId": "Q-R7-1-08",
+    "sourceQuestionId": "Q-R7-1-08",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "A",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 44,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-C3DDD0A90D",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「3개」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "2형식·5형식 동사가 있으면 형용사를 고르고, 없으면 후보를 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 고른다.",
+          "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다."
+        ],
+        "answer": "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "접속사·관계사 수에 1을 더한다.",
+        "2 + 1 = 3이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「includes」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-1-01",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-C3DDD0A90D",
+    "sourceQuestionId": "Q-R7-1-01",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-512198BE45",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「attached」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "2형식·5형식 동사가 있으면 형용사를 고르고, 없으면 후보를 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 고른다.",
+          "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다."
+        ],
+        "answer": "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "본동사 seem이 이미 있다.",
+        "문제 부분은 files를 꾸미는 준동사 자리이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「3개」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-1-04",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-512198BE45",
+    "sourceQuestionId": "Q-R7-1-04",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-8365578365",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「contain」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+          "2형식·5형식 동사가 있으면 형용사를 고르고, 없으면 후보를 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 고른다."
+        ],
+        "answer": "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "문제 부분은 본동사 자리이다.",
+        "뒤에 목적어 important data가 있다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「3개」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-1-05",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-8365578365",
+    "sourceQuestionId": "Q-R7-1-05",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-751B4BF894",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「have」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+          "2형식·5형식 동사가 있으면 형용사를 고르고, 없으면 후보를 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 고른다."
+        ],
+        "answer": "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "문장에 본동사가 아직 없다.",
+        "주어 many marine species는 복수이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「3개」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-1-08",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-751B4BF894",
+    "sourceQuestionId": "Q-R7-1-08",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-4E51FA4EE3",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「includes」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+          "2형식·5형식 동사가 있으면 형용사를 고르고, 없으면 후보를 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 고른다."
+        ],
+        "answer": "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "문장에 본동사가 아직 없다.",
+        "주어 The plan 뒤는 동사 자리이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「3개」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-1-02",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-4E51FA4EE3",
+    "sourceQuestionId": "Q-R7-1-02",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-123ACD04EF",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「is being printed」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+          "2형식·5형식 동사가 있으면 형용사를 고르고, 없으면 후보를 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 고른다."
+        ],
+        "answer": "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "문장에 본동사가 필요하다.",
+        "report는 print되는 수동 관계이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「3개」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-1-07",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-123ACD04EF",
+    "sourceQuestionId": "Q-R7-1-07",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-3FF3D08E8A",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「requiring」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "2형식·5형식 동사가 있으면 형용사를 고르고, 없으면 후보를 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 고른다.",
+          "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다."
+        ],
+        "answer": "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "본동사 includes가 이미 있다.",
+        "문제 부분은 준동사 자리이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「3개」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-1-03",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-3FF3D08E8A",
+    "sourceQuestionId": "Q-R7-1-03",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  },
+  {
+    "id": "Q-REC-2850AAE1D6",
+    "conceptId": "G92_ESSENTIAL_VERB_SYSTEM",
+    "difficulty": 1,
+    "stem": "빠른 확인: 이 문제의 정답은 「used」이다.",
+    "choices": [
+      "O",
+      "X"
+    ],
+    "answer": "O",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "2형식·5형식 동사가 있으면 형용사를 고르고, 없으면 후보를 지운 뒤 문장이 완전하면 부사, 불완전하면 형용사를 고른다.",
+          "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다."
+        ],
+        "answer": "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "errorCode": "E96_ESSENTIAL_VERB"
+      }
+    ],
+    "misconceptionByChoice": {
+      "X": "E96_ESSENTIAL_VERB"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "접속사·관계사 수 + 1로 필요한 동사 개수를 정하고, 동사 자리와 준동사 자리를 가른 뒤 목적어 유무로 능동·수동을 판단한다.",
+        "접속사 when 뒤의 분사구문이다.",
+        "생략된 주어는 this tool이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-R7-VERB",
+      "checkQuestion": {
+        "prompt": "이 문제의 정답은 「3개」이다.",
+        "choices": [
+          "O",
+          "X"
+        ],
+        "answer": "O"
+      },
+      "transferQuestionId": "Q-R7-1-06",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "REVIEW7",
+    "chapter": "ESSENTIAL_1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-2850AAE1D6",
+    "sourceQuestionId": "Q-R7-1-06",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

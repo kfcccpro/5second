@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G78-001",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 1,
+    "stem": "Do you have a digital camera? Yes, I have (one / it) in my bag.",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "one",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "질문의 camera는 특정 물건이 아님",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "같은 종류의 불특정 카메라 하나",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "one",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "질문의 camera는 특정 물건이 아님",
+        "같은 종류의 불특정 카메라 하나",
+        "따라서 one를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-001",
+    "sourceQuestionId": "Q-G78-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-002",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 1,
+    "stem": "You bought this camera yesterday. Can I borrow (one / it) tomorrow?",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "this camera로 특정됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "바로 그 동일한 카메라",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "this camera로 특정됨",
+        "바로 그 동일한 카메라",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-002",
+    "sourceQuestionId": "Q-G78-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-003",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 1,
+    "stem": "I need a stapler. Do you have (one / it)?",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "one",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "특정 스테이플러가 제시되지 않음",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "같은 종류의 불특정 하나",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "one",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "특정 스테이플러가 제시되지 않음",
+        "같은 종류의 불특정 하나",
+        "따라서 one를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-003",
+    "sourceQuestionId": "Q-G78-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-004",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 2,
+    "stem": "Where is my key? I put (one / it) on the desk.",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "my key로 특정됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "앞에서 말한 동일한 열쇠",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "my key로 특정됨",
+        "앞에서 말한 동일한 열쇠",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-004",
+    "sourceQuestionId": "Q-G78-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-005",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 2,
+    "stem": "She found a wallet and returned (one / it) to the owner.",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "a wallet이 이미 발견된 특정 대상이 됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "바로 그 지갑을 돌려줌",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "a wallet이 이미 발견된 특정 대상이 됨",
+        "바로 그 지갑을 돌려줌",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-005",
+    "sourceQuestionId": "Q-G78-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-006",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 2,
+    "stem": "My laptop is too slow. I need a new (one / it).",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "one",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "새로운 다른 노트북이 필요함",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "같은 종류의 다른 하나",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "one",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "새로운 다른 노트북이 필요함",
+        "같은 종류의 다른 하나",
+        "따라서 one를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-006",
+    "sourceQuestionId": "Q-G78-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-007",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 3,
+    "stem": "This umbrella is yours. Please take (one / it).",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "this umbrella로 특정됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "바로 그 우산",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "this umbrella로 특정됨",
+        "바로 그 우산",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-007",
+    "sourceQuestionId": "Q-G78-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-008",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 3,
+    "stem": "I saw a bicycle I liked, so I bought (one / it).",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "관계절로 특정한 bicycle을 말함",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "본 바로 그 자전거를 구입함",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "관계절로 특정한 bicycle을 말함",
+        "본 바로 그 자전거를 구입함",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-008",
+    "sourceQuestionId": "Q-G78-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 64,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-001-PF",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 1,
+    "stem": "Do you have a digital camera? Yes, I have (one / it) in my bag.",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "one",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "질문의 camera는 특정 물건이 아님",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "같은 종류의 불특정 카메라 하나",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "one",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "질문의 camera는 특정 물건이 아님",
+        "같은 종류의 불특정 카메라 하나",
+        "따라서 one를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-001",
+    "sourceQuestionId": "Q-G78-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 67,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-002-PF",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 1,
+    "stem": "You bought this camera yesterday. Can I borrow (one / it) tomorrow?",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "this camera로 특정됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "바로 그 동일한 카메라",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "this camera로 특정됨",
+        "바로 그 동일한 카메라",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-002",
+    "sourceQuestionId": "Q-G78-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-003-PF",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 1,
+    "stem": "I need a stapler. Do you have (one / it)?",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "one",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "특정 스테이플러가 제시되지 않음",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "같은 종류의 불특정 하나",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "one",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "특정 스테이플러가 제시되지 않음",
+        "같은 종류의 불특정 하나",
+        "따라서 one를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-003",
+    "sourceQuestionId": "Q-G78-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-004-PF",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 2,
+    "stem": "Where is my key? I put (one / it) on the desk.",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "my key로 특정됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "앞에서 말한 동일한 열쇠",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "my key로 특정됨",
+        "앞에서 말한 동일한 열쇠",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-004",
+    "sourceQuestionId": "Q-G78-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-005-PF",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 2,
+    "stem": "She found a wallet and returned (one / it) to the owner.",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "a wallet이 이미 발견된 특정 대상이 됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "바로 그 지갑을 돌려줌",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "a wallet이 이미 발견된 특정 대상이 됨",
+        "바로 그 지갑을 돌려줌",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-005",
+    "sourceQuestionId": "Q-G78-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-006-PF",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 2,
+    "stem": "My laptop is too slow. I need a new (one / it).",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "one",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "새로운 다른 노트북이 필요함",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "같은 종류의 다른 하나",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "one",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "새로운 다른 노트북이 필요함",
+        "같은 종류의 다른 하나",
+        "따라서 one를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-006",
+    "sourceQuestionId": "Q-G78-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-007-PF",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 3,
+    "stem": "This umbrella is yours. Please take (one / it).",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "this umbrella로 특정됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "바로 그 우산",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "this umbrella로 특정됨",
+        "바로 그 우산",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-007",
+    "sourceQuestionId": "Q-G78-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 68,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-008-PF",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 3,
+    "stem": "I saw a bicycle I liked, so I bought (one / it).",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "관계절로 특정한 bicycle을 말함",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "본 바로 그 자전거를 구입함",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "관계절로 특정한 bicycle을 말함",
+        "본 바로 그 자전거를 구입함",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-008",
+    "sourceQuestionId": "Q-G78-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 72,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-001-DR",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 1,
+    "stem": "Do you have a digital camera? Yes, I have (one / it) in my bag.",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "one",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "질문의 camera는 특정 물건이 아님",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "같은 종류의 불특정 카메라 하나",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "one",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "질문의 camera는 특정 물건이 아님",
+        "같은 종류의 불특정 카메라 하나",
+        "따라서 one를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-001",
+    "sourceQuestionId": "Q-G78-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-002-DR",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 1,
+    "stem": "You bought this camera yesterday. Can I borrow (one / it) tomorrow?",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "this camera로 특정됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "바로 그 동일한 카메라",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "this camera로 특정됨",
+        "바로 그 동일한 카메라",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-002",
+    "sourceQuestionId": "Q-G78-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-003-DR",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 1,
+    "stem": "I need a stapler. Do you have (one / it)?",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "one",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "특정 스테이플러가 제시되지 않음",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "같은 종류의 불특정 하나",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "one",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "특정 스테이플러가 제시되지 않음",
+        "같은 종류의 불특정 하나",
+        "따라서 one를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-003",
+    "sourceQuestionId": "Q-G78-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-004-DR",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 2,
+    "stem": "Where is my key? I put (one / it) on the desk.",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "my key로 특정됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "앞에서 말한 동일한 열쇠",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "my key로 특정됨",
+        "앞에서 말한 동일한 열쇠",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-004",
+    "sourceQuestionId": "Q-G78-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-005-DR",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 2,
+    "stem": "She found a wallet and returned (one / it) to the owner.",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "a wallet이 이미 발견된 특정 대상이 됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "바로 그 지갑을 돌려줌",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "a wallet이 이미 발견된 특정 대상이 됨",
+        "바로 그 지갑을 돌려줌",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-005",
+    "sourceQuestionId": "Q-G78-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-006-DR",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 2,
+    "stem": "My laptop is too slow. I need a new (one / it).",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "one",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "새로운 다른 노트북이 필요함",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "같은 종류의 다른 하나",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "one",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "새로운 다른 노트북이 필요함",
+        "같은 종류의 다른 하나",
+        "따라서 one를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-006",
+    "sourceQuestionId": "Q-G78-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-007-DR",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 3,
+    "stem": "This umbrella is yours. Please take (one / it).",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "this umbrella로 특정됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "바로 그 우산",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "this umbrella로 특정됨",
+        "바로 그 우산",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-007",
+    "sourceQuestionId": "Q-G78-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-008-DR",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 3,
+    "stem": "I saw a bicycle I liked, so I bought (one / it).",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "관계절로 특정한 bicycle을 말함",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "본 바로 그 자전거를 구입함",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "불특정 같은 종류와 앞에서 언급한 특정 동일 대상을 구별하지 못했다.",
+      "summary": [
+        "관계절로 특정한 bicycle을 말함",
+        "본 바로 그 자전거를 구입함",
+        "따라서 it를 선택한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-008",
+    "sourceQuestionId": "Q-G78-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-001-CT",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nDo you have a digital camera? Yes, I have (one / it) in my bag.",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "질문의 camera는 특정 물건이 아님",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "같은 종류의 불특정 카메라 하나",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "one",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "'it'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'one'이다.",
+      "summary": [
+        "질문의 camera는 특정 물건이 아님",
+        "같은 종류의 불특정 카메라 하나",
+        "따라서 one를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'it'이다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-001",
+    "sourceQuestionId": "Q-G78-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 19,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 14,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-002-CT",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nYou bought this camera yesterday. Can I borrow (one / it) tomorrow?",
+    "choices": [
+      "it",
+      "one"
+    ],
+    "answer": "one",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "this camera로 특정됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "바로 그 동일한 카메라",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "'one'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'it'이다.",
+      "summary": [
+        "this camera로 특정됨",
+        "바로 그 동일한 카메라",
+        "따라서 it를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'one'이다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-002",
+    "sourceQuestionId": "Q-G78-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-003-CT",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI need a stapler. Do you have (one / it)?",
+    "choices": [
+      "it",
+      "one"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "특정 스테이플러가 제시되지 않음",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "같은 종류의 불특정 하나",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "one",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "'it'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'one'이다.",
+      "summary": [
+        "특정 스테이플러가 제시되지 않음",
+        "같은 종류의 불특정 하나",
+        "따라서 one를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'it'이다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-003",
+    "sourceQuestionId": "Q-G78-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-004-CT",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWhere is my key? I put (one / it) on the desk.",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "one",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "my key로 특정됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "앞에서 말한 동일한 열쇠",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "'one'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'it'이다.",
+      "summary": [
+        "my key로 특정됨",
+        "앞에서 말한 동일한 열쇠",
+        "따라서 it를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'one'이다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-004",
+    "sourceQuestionId": "Q-G78-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-005-CT",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe found a wallet and returned (one / it) to the owner.",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "one",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "a wallet이 이미 발견된 특정 대상이 됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "바로 그 지갑을 돌려줌",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "'one'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'it'이다.",
+      "summary": [
+        "a wallet이 이미 발견된 특정 대상이 됨",
+        "바로 그 지갑을 돌려줌",
+        "따라서 it를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'one'이다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-005",
+    "sourceQuestionId": "Q-G78-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-006-CT",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nMy laptop is too slow. I need a new (one / it).",
+    "choices": [
+      "it",
+      "one"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "새로운 다른 노트북이 필요함",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "같은 종류의 다른 하나",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "one",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "'it'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'one'이다.",
+      "summary": [
+        "새로운 다른 노트북이 필요함",
+        "같은 종류의 다른 하나",
+        "따라서 one를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'it'이다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-006",
+    "sourceQuestionId": "Q-G78-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-007-CT",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThis umbrella is yours. Please take (one / it).",
+    "choices": [
+      "one",
+      "it"
+    ],
+    "answer": "one",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "this umbrella로 특정됨",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "바로 그 우산",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "'one'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'it'이다.",
+      "summary": [
+        "this umbrella로 특정됨",
+        "바로 그 우산",
+        "따라서 it를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'one'이다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-007",
+    "sourceQuestionId": "Q-G78-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 40,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G78-008-CT",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI saw a bicycle I liked, so I bought (one / it).",
+    "choices": [
+      "it",
+      "one"
+    ],
+    "answer": "one",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 대상·표지는?",
+        "answer": "관계절로 특정한 bicycle을 말함",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 판단은?",
+        "answer": "본 바로 그 자전거를 구입함",
+        "errorCode": "E82_ONE_IT"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "it",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "it": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "'one'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'it'이다.",
+      "summary": [
+        "관계절로 특정한 bicycle을 말함",
+        "본 바로 그 자전거를 구입함",
+        "따라서 it를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'one'이다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G78-008",
+    "sourceQuestionId": "Q-G78-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 42,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-20B3BC9EE1",
+    "conceptId": "G78_ONE_IT_REFERENCE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+    "choices": [
+      "it",
+      "one"
+    ],
+    "answer": "it",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "비교하는 문장에서 앞 명사의 반복을 피할 때 앞 명사가 단수이면 that of, 복수이면 those of를 쓴다.",
+          "막연한 같은 종류의 하나를 가리키면 one, 앞에서 언급한 특정한 바로 그 대상을 다시 가리키면 it을 쓴다."
+        ],
+        "answer": "막연한 같은 종류의 하나를 가리키면 one, 앞에서 언급한 특정한 바로 그 대상을 다시 가리키면 it을 쓴다.",
+        "errorCode": "E82_ONE_IT"
+      }
+    ],
+    "misconceptionByChoice": {
+      "one": "E82_ONE_IT"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "막연한 같은 종류의 하나를 가리키면 one, 앞에서 언급한 특정한 바로 그 대상을 다시 가리키면 it을 쓴다.",
+        "질문의 camera는 특정 물건이 아님",
+        "같은 종류의 불특정 카메라 하나",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G78",
+      "checkQuestion": {
+        "prompt": "앞에서 언급한 특정한 동일 대상을 다시 가리키면?",
+        "choices": [
+          "it",
+          "one"
+        ],
+        "answer": "it"
+      },
+      "transferQuestionId": "Q-G78-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART8",
+    "chapter": "CH3",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-20B3BC9EE1",
+    "sourceQuestionId": "Q-G78-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

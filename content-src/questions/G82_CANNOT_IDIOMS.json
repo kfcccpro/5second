@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G82-001",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 1,
+    "stem": "I cannot help (laughing / to laugh) whenever I watch that scene.",
+    "choices": [
+      "laughing",
+      "to laugh"
+    ],
+    "answer": "laughing",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot help",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "하지 않을 수 없다는 고정 표현",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "laughing",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to laugh": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot help",
+        "하지 않을 수 없다는 고정 표현",
+        "따라서 laughing를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-001",
+    "sourceQuestionId": "Q-G82-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-002",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 1,
+    "stem": "He had no choice but (to resign / resigning) from the position.",
+    "choices": [
+      "to resign",
+      "resigning"
+    ],
+    "answer": "to resign",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "have no choice but",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "but 뒤의 to-V 고정 구조",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to resign",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "resigning": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "have no choice but",
+        "but 뒤의 to-V 고정 구조",
+        "따라서 to resign를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-002",
+    "sourceQuestionId": "Q-G82-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-003",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 1,
+    "stem": "We cannot but (admire / admiring) her courage.",
+    "choices": [
+      "admire",
+      "admiring"
+    ],
+    "answer": "admire",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot but",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "but 뒤에 동사원형",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "admire",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "admiring": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot but",
+        "but 뒤에 동사원형",
+        "따라서 admire를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-003",
+    "sourceQuestionId": "Q-G82-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-004",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 2,
+    "stem": "You cannot be (too / very) careful when handling this chemical.",
+    "choices": [
+      "too",
+      "very"
+    ],
+    "answer": "too",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot ... too",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "아무리 조심해도 지나치지 않음",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "too",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "very": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot ... too",
+        "아무리 조심해도 지나치지 않음",
+        "따라서 too를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-004",
+    "sourceQuestionId": "Q-G82-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-005",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 2,
+    "stem": "We cannot praise the rescue team (too much / very much).",
+    "choices": [
+      "too much",
+      "very much"
+    ],
+    "answer": "too much",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot ... too much",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "아무리 많이 칭찬해도 지나치지 않음",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "too much",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "very much": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot ... too much",
+        "아무리 많이 칭찬해도 지나치지 않음",
+        "따라서 too much를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-005",
+    "sourceQuestionId": "Q-G82-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-006",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 2,
+    "stem": "You cannot drive and (text / texting) at the same time.",
+    "choices": [
+      "text",
+      "texting"
+    ],
+    "answer": "text",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot A and B",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "drive와 병렬인 동사원형 필요",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "text",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "texting": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot A and B",
+        "drive와 병렬인 동사원형 필요",
+        "따라서 text를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-006",
+    "sourceQuestionId": "Q-G82-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 55,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-007",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 3,
+    "stem": "She cannot eat whatever she wants and (stay / staying) healthy.",
+    "choices": [
+      "stay",
+      "staying"
+    ],
+    "answer": "stay",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot A and B",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "eat과 stay의 병렬 구조",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "stay",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "staying": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot A and B",
+        "eat과 stay의 병렬 구조",
+        "따라서 stay를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-007",
+    "sourceQuestionId": "Q-G82-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-008",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 3,
+    "stem": "I cannot help (being impressed / be impressed) by the precision of the design.",
+    "choices": [
+      "being impressed",
+      "be impressed"
+    ],
+    "answer": "being impressed",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot help",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "help 뒤에 V-ing 덩어리",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "being impressed",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be impressed": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot help",
+        "help 뒤에 V-ing 덩어리",
+        "따라서 being impressed를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-008",
+    "sourceQuestionId": "Q-G82-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 45,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 66,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-001-PF",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 1,
+    "stem": "I cannot help (laughing / to laugh) whenever I watch that scene.",
+    "choices": [
+      "laughing",
+      "to laugh"
+    ],
+    "answer": "laughing",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot help",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "하지 않을 수 없다는 고정 표현",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "laughing",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to laugh": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot help",
+        "하지 않을 수 없다는 고정 표현",
+        "따라서 laughing를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-001",
+    "sourceQuestionId": "Q-G82-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-002-PF",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 1,
+    "stem": "He had no choice but (to resign / resigning) from the position.",
+    "choices": [
+      "to resign",
+      "resigning"
+    ],
+    "answer": "to resign",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "have no choice but",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "but 뒤의 to-V 고정 구조",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to resign",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "resigning": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "have no choice but",
+        "but 뒤의 to-V 고정 구조",
+        "따라서 to resign를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-002",
+    "sourceQuestionId": "Q-G82-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 63,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-003-PF",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 1,
+    "stem": "We cannot but (admire / admiring) her courage.",
+    "choices": [
+      "admire",
+      "admiring"
+    ],
+    "answer": "admire",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot but",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "but 뒤에 동사원형",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "admire",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "admiring": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot but",
+        "but 뒤에 동사원형",
+        "따라서 admire를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-003",
+    "sourceQuestionId": "Q-G82-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-004-PF",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 2,
+    "stem": "You cannot be (too / very) careful when handling this chemical.",
+    "choices": [
+      "too",
+      "very"
+    ],
+    "answer": "too",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot ... too",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "아무리 조심해도 지나치지 않음",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "too",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "very": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot ... too",
+        "아무리 조심해도 지나치지 않음",
+        "따라서 too를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-004",
+    "sourceQuestionId": "Q-G82-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-005-PF",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 2,
+    "stem": "We cannot praise the rescue team (too much / very much).",
+    "choices": [
+      "too much",
+      "very much"
+    ],
+    "answer": "too much",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot ... too much",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "아무리 많이 칭찬해도 지나치지 않음",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "too much",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "very much": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot ... too much",
+        "아무리 많이 칭찬해도 지나치지 않음",
+        "따라서 too much를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-005",
+    "sourceQuestionId": "Q-G82-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-006-PF",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 2,
+    "stem": "You cannot drive and (text / texting) at the same time.",
+    "choices": [
+      "text",
+      "texting"
+    ],
+    "answer": "text",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot A and B",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "drive와 병렬인 동사원형 필요",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "text",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "texting": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot A and B",
+        "drive와 병렬인 동사원형 필요",
+        "따라서 text를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-006",
+    "sourceQuestionId": "Q-G82-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 62,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-007-PF",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 3,
+    "stem": "She cannot eat whatever she wants and (stay / staying) healthy.",
+    "choices": [
+      "stay",
+      "staying"
+    ],
+    "answer": "stay",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot A and B",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "eat과 stay의 병렬 구조",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "stay",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "staying": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot A and B",
+        "eat과 stay의 병렬 구조",
+        "따라서 stay를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-007",
+    "sourceQuestionId": "Q-G82-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 71,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-008-PF",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 3,
+    "stem": "I cannot help (being impressed / be impressed) by the precision of the design.",
+    "choices": [
+      "being impressed",
+      "be impressed"
+    ],
+    "answer": "being impressed",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot help",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "help 뒤에 V-ing 덩어리",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "being impressed",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be impressed": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot help",
+        "help 뒤에 V-ing 덩어리",
+        "따라서 being impressed를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-008",
+    "sourceQuestionId": "Q-G82-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 45,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 74,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-001-DR",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 1,
+    "stem": "I cannot help (laughing / to laugh) whenever I watch that scene.",
+    "choices": [
+      "laughing",
+      "to laugh"
+    ],
+    "answer": "laughing",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot help",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "하지 않을 수 없다는 고정 표현",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "laughing",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to laugh": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot help",
+        "하지 않을 수 없다는 고정 표현",
+        "따라서 laughing를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-001",
+    "sourceQuestionId": "Q-G82-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-002-DR",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 1,
+    "stem": "He had no choice but (to resign / resigning) from the position.",
+    "choices": [
+      "to resign",
+      "resigning"
+    ],
+    "answer": "to resign",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "have no choice but",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "but 뒤의 to-V 고정 구조",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to resign",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "resigning": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "have no choice but",
+        "but 뒤의 to-V 고정 구조",
+        "따라서 to resign를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-002",
+    "sourceQuestionId": "Q-G82-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-003-DR",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 1,
+    "stem": "We cannot but (admire / admiring) her courage.",
+    "choices": [
+      "admire",
+      "admiring"
+    ],
+    "answer": "admire",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot but",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "but 뒤에 동사원형",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "admire",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "admiring": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot but",
+        "but 뒤에 동사원형",
+        "따라서 admire를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-003",
+    "sourceQuestionId": "Q-G82-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-004-DR",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 2,
+    "stem": "You cannot be (too / very) careful when handling this chemical.",
+    "choices": [
+      "too",
+      "very"
+    ],
+    "answer": "too",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot ... too",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "아무리 조심해도 지나치지 않음",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "too",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "very": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot ... too",
+        "아무리 조심해도 지나치지 않음",
+        "따라서 too를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-004",
+    "sourceQuestionId": "Q-G82-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-005-DR",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 2,
+    "stem": "We cannot praise the rescue team (too much / very much).",
+    "choices": [
+      "too much",
+      "very much"
+    ],
+    "answer": "too much",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot ... too much",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "아무리 많이 칭찬해도 지나치지 않음",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "too much",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "very much": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot ... too much",
+        "아무리 많이 칭찬해도 지나치지 않음",
+        "따라서 too much를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-005",
+    "sourceQuestionId": "Q-G82-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-006-DR",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 2,
+    "stem": "You cannot drive and (text / texting) at the same time.",
+    "choices": [
+      "text",
+      "texting"
+    ],
+    "answer": "text",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot A and B",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "drive와 병렬인 동사원형 필요",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "text",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "texting": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot A and B",
+        "drive와 병렬인 동사원형 필요",
+        "따라서 text를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-006",
+    "sourceQuestionId": "Q-G82-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 51,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-007-DR",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 3,
+    "stem": "She cannot eat whatever she wants and (stay / staying) healthy.",
+    "choices": [
+      "stay",
+      "staying"
+    ],
+    "answer": "stay",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot A and B",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "eat과 stay의 병렬 구조",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "stay",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "staying": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot A and B",
+        "eat과 stay의 병렬 구조",
+        "따라서 stay를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-007",
+    "sourceQuestionId": "Q-G82-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-008-DR",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 3,
+    "stem": "I cannot help (being impressed / be impressed) by the precision of the design.",
+    "choices": [
+      "being impressed",
+      "be impressed"
+    ],
+    "answer": "being impressed",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot help",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "help 뒤에 V-ing 덩어리",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "being impressed",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "be impressed": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "cannot 뒤의 고정 덩어리와 병렬 형태를 확인하지 않았다.",
+      "summary": [
+        "cannot help",
+        "help 뒤에 V-ing 덩어리",
+        "따라서 being impressed를 선택한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-008",
+    "sourceQuestionId": "Q-G82-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 45,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 61,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-001-CT",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI cannot help (laughing / to laugh) whenever I watch that scene.",
+    "choices": [
+      "laughing",
+      "to laugh"
+    ],
+    "answer": "to laugh",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot help",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "하지 않을 수 없다는 고정 표현",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "laughing",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "laughing": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "'to laugh'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'laughing'이다.",
+      "summary": [
+        "cannot help",
+        "하지 않을 수 없다는 고정 표현",
+        "따라서 laughing를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'to laugh'이다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-001",
+    "sourceQuestionId": "Q-G82-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-002-CT",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe had no choice but (to resign / resigning) from the position.",
+    "choices": [
+      "resigning",
+      "to resign"
+    ],
+    "answer": "resigning",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "have no choice but",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "but 뒤의 to-V 고정 구조",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "to resign",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to resign": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "'resigning'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'to resign'이다.",
+      "summary": [
+        "have no choice but",
+        "but 뒤의 to-V 고정 구조",
+        "따라서 to resign를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'resigning'이다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-002",
+    "sourceQuestionId": "Q-G82-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 17,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 11,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1.5,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-003-CT",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe cannot but (admire / admiring) her courage.",
+    "choices": [
+      "admiring",
+      "admire"
+    ],
+    "answer": "admiring",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot but",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "but 뒤에 동사원형",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "admire",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "admire": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "'admiring'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'admire'이다.",
+      "summary": [
+        "cannot but",
+        "but 뒤에 동사원형",
+        "따라서 admire를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'admiring'이다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-003",
+    "sourceQuestionId": "Q-G82-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-004-CT",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nYou cannot be (too / very) careful when handling this chemical.",
+    "choices": [
+      "too",
+      "very"
+    ],
+    "answer": "very",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot ... too",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "아무리 조심해도 지나치지 않음",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "too",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "too": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "'very'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'too'이다.",
+      "summary": [
+        "cannot ... too",
+        "아무리 조심해도 지나치지 않음",
+        "따라서 too를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'very'이다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-004",
+    "sourceQuestionId": "Q-G82-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-005-CT",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWe cannot praise the rescue team (too much / very much).",
+    "choices": [
+      "too much",
+      "very much"
+    ],
+    "answer": "very much",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot ... too much",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "아무리 많이 칭찬해도 지나치지 않음",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "too much",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "too much": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "'very much'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'too much'이다.",
+      "summary": [
+        "cannot ... too much",
+        "아무리 많이 칭찬해도 지나치지 않음",
+        "따라서 too much를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'very much'이다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-005",
+    "sourceQuestionId": "Q-G82-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 30,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-006-CT",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nYou cannot drive and (text / texting) at the same time.",
+    "choices": [
+      "texting",
+      "text"
+    ],
+    "answer": "texting",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot A and B",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "drive와 병렬인 동사원형 필요",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "text",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "text": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "'texting'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'text'이다.",
+      "summary": [
+        "cannot A and B",
+        "drive와 병렬인 동사원형 필요",
+        "따라서 text를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'texting'이다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-006",
+    "sourceQuestionId": "Q-G82-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 29,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-007-CT",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe cannot eat whatever she wants and (stay / staying) healthy.",
+    "choices": [
+      "stay",
+      "staying"
+    ],
+    "answer": "staying",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot A and B",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "eat과 stay의 병렬 구조",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "stay",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "stay": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "'staying'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'stay'이다.",
+      "summary": [
+        "cannot A and B",
+        "eat과 stay의 병렬 구조",
+        "따라서 stay를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'staying'이다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-007",
+    "sourceQuestionId": "Q-G82-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 41,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 57,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 10,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G82-008-CT",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 3,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nI cannot help (being impressed / be impressed) by the precision of the design.",
+    "choices": [
+      "be impressed",
+      "being impressed"
+    ],
+    "answer": "be impressed",
+    "decisionSteps": [
+      {
+        "id": "signal",
+        "prompt": "먼저 확인할 시점·표현은?",
+        "answer": "cannot help",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "judge",
+        "prompt": "문장에서 필요한 의미·형태 판단은?",
+        "answer": "help 뒤에 V-ing 덩어리",
+        "errorCode": "E86_CANNOT_IDIOM"
+      },
+      {
+        "id": "form",
+        "prompt": "최종 선택은?",
+        "answer": "being impressed",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "being impressed": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "'be impressed'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'being impressed'이다.",
+      "summary": [
+        "cannot help",
+        "help 뒤에 V-ing 덩어리",
+        "따라서 being impressed를 선택한다.",
+        "따라서 대조 문항에서 고를 답은 'be impressed'이다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "source_rule_and_controlled_variation",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G82-008",
+    "sourceQuestionId": "Q-G82-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 45,
+      "level": 2,
+      "label": "중간",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 3,
+        "wordCount": 13,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 2,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-AC79BFFC3E",
+    "conceptId": "G82_CANNOT_IDIOMS",
+    "difficulty": 1,
+    "stem": "빠른 확인: cannot help 뒤에 오는 형태는?",
+    "choices": [
+      "V-ing",
+      "to-V"
+    ],
+    "answer": "V-ing",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "may well은 ~하는 것이 당연하다·충분히 그럴 수 있다, may(might) as well은 다른 대안보다 ~하는 편이 낫다는 뜻이다.",
+          "cannot help V-ing는 하지 않을 수 없다, cannot ... too는 아무리 해도 지나치지 않다, cannot A and B는 두 일을 동시에 할 수 없다는 뜻이다."
+        ],
+        "answer": "cannot help V-ing는 하지 않을 수 없다, cannot ... too는 아무리 해도 지나치지 않다, cannot A and B는 두 일을 동시에 할 수 없다는 뜻이다.",
+        "errorCode": "E86_CANNOT_IDIOM"
+      }
+    ],
+    "misconceptionByChoice": {
+      "to-V": "E86_CANNOT_IDIOM"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "cannot help V-ing는 하지 않을 수 없다, cannot ... too는 아무리 해도 지나치지 않다, cannot A and B는 두 일을 동시에 할 수 없다는 뜻이다.",
+        "cannot help",
+        "하지 않을 수 없다는 고정 표현",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G82",
+      "checkQuestion": {
+        "prompt": "cannot help 뒤에 오는 형태는?",
+        "choices": [
+          "V-ing",
+          "to-V"
+        ],
+        "answer": "V-ing"
+      },
+      "transferQuestionId": "Q-G82-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART9",
+    "chapter": "CH2",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-AC79BFFC3E",
+    "sourceQuestionId": "Q-G82-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]

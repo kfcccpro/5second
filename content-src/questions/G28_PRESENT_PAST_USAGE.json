@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "Q-G28-001",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "Water (boils / boiled) at 100 degrees Celsius.",
+    "choices": [
+      "boils",
+      "boiled"
+    ],
+    "answer": "boils",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "불변의 진리",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "boiled": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: 불변의 진리.",
+        "이 문장은 현재 범위의 내용이다.",
+        "불변의 진리는 현재 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-001",
+    "sourceQuestionId": "Q-G28-001",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-002",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "My father usually (walks / walked) to work.",
+    "choices": [
+      "walks",
+      "walked"
+    ],
+    "answer": "walks",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "usually가 나타내는 습관",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "walked": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: usually가 나타내는 습관.",
+        "이 문장은 현재 범위의 내용이다.",
+        "현재의 반복 습관은 현재 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-002",
+    "sourceQuestionId": "Q-G28-002",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-003",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "The museum (opens / opened) at nine every day.",
+    "choices": [
+      "opens",
+      "opened"
+    ],
+    "answer": "opens",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "every day의 반복",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "opened": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: every day의 반복.",
+        "이 문장은 현재 범위의 내용이다.",
+        "정기적인 일정은 현재 시제로 나타낸다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-003",
+    "sourceQuestionId": "Q-G28-003",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-004",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "The first modern subway (opens / opened) in London in 1863.",
+    "choices": [
+      "opens",
+      "opened"
+    ],
+    "answer": "opened",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "1863년에 끝난 역사적 사실",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "과거",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "opens": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: 1863년에 끝난 역사적 사실.",
+        "이 문장은 과거 범위의 내용이다.",
+        "끝난 역사적 사실은 과거 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-004",
+    "sourceQuestionId": "Q-G28-004",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 54,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-005",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "The Earth (moves / moved) around the Sun.",
+    "choices": [
+      "moves",
+      "moved"
+    ],
+    "answer": "moves",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "과학적 일반 사실",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "moved": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: 과학적 일반 사실.",
+        "이 문장은 현재 범위의 내용이다.",
+        "일반 사실은 현재 시제로 나타낸다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-005",
+    "sourceQuestionId": "Q-G28-005",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-006",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "She (teaches / taught) at this school now.",
+    "choices": [
+      "teaches",
+      "taught"
+    ],
+    "answer": "teaches",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "now의 현재 상태",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "taught": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: now의 현재 상태.",
+        "이 문장은 현재 범위의 내용이다.",
+        "현재 사실이므로 현재 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-006",
+    "sourceQuestionId": "Q-G28-006",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 52,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-007",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "The company (launches / launched) its first product in 2010.",
+    "choices": [
+      "launches",
+      "launched"
+    ],
+    "answer": "launched",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "2010년에 끝난 사건",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "과거",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "launches": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: 2010년에 끝난 사건.",
+        "이 문장은 과거 범위의 내용이다.",
+        "특정 과거에 끝난 사건은 과거형이다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-007",
+    "sourceQuestionId": "Q-G28-007",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 53,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-008",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "He often (reads / read) before bed.",
+    "choices": [
+      "reads",
+      "read"
+    ],
+    "answer": "reads",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "often의 반복 습관",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "read": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: often의 반복 습관.",
+        "이 문장은 현재 범위의 내용이다.",
+        "현재의 반복 행동은 현재 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-008",
+    "sourceQuestionId": "Q-G28-008",
+    "variantType": "core",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_existing",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-001-PF",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "Water (boils / boiled) at 100 degrees Celsius.",
+    "choices": [
+      "boils",
+      "boiled"
+    ],
+    "answer": "boils",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "불변의 진리",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "boiled": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: 불변의 진리.",
+        "이 문장은 현재 범위의 내용이다.",
+        "불변의 진리는 현재 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-001",
+    "sourceQuestionId": "Q-G28-001",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-002-PF",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "My father usually (walks / walked) to work.",
+    "choices": [
+      "walks",
+      "walked"
+    ],
+    "answer": "walks",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "usually가 나타내는 습관",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "walked": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: usually가 나타내는 습관.",
+        "이 문장은 현재 범위의 내용이다.",
+        "현재의 반복 습관은 현재 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-002",
+    "sourceQuestionId": "Q-G28-002",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-003-PF",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "The museum (opens / opened) at nine every day.",
+    "choices": [
+      "opens",
+      "opened"
+    ],
+    "answer": "opens",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "every day의 반복",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "opened": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: every day의 반복.",
+        "이 문장은 현재 범위의 내용이다.",
+        "정기적인 일정은 현재 시제로 나타낸다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-003",
+    "sourceQuestionId": "Q-G28-003",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-004-PF",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "The first modern subway (opens / opened) in London in 1863.",
+    "choices": [
+      "opens",
+      "opened"
+    ],
+    "answer": "opened",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "1863년에 끝난 역사적 사실",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "과거",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "opens": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: 1863년에 끝난 역사적 사실.",
+        "이 문장은 과거 범위의 내용이다.",
+        "끝난 역사적 사실은 과거 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-004",
+    "sourceQuestionId": "Q-G28-004",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 60,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-005-PF",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "The Earth (moves / moved) around the Sun.",
+    "choices": [
+      "moves",
+      "moved"
+    ],
+    "answer": "moves",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "과학적 일반 사실",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "moved": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: 과학적 일반 사실.",
+        "이 문장은 현재 범위의 내용이다.",
+        "일반 사실은 현재 시제로 나타낸다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-005",
+    "sourceQuestionId": "Q-G28-005",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-006-PF",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "She (teaches / taught) at this school now.",
+    "choices": [
+      "teaches",
+      "taught"
+    ],
+    "answer": "teaches",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "now의 현재 상태",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "taught": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: now의 현재 상태.",
+        "이 문장은 현재 범위의 내용이다.",
+        "현재 사실이므로 현재 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-006",
+    "sourceQuestionId": "Q-G28-006",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 58,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-007-PF",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "The company (launches / launched) its first product in 2010.",
+    "choices": [
+      "launches",
+      "launched"
+    ],
+    "answer": "launched",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "2010년에 끝난 사건",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "과거",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "launches": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: 2010년에 끝난 사건.",
+        "이 문장은 과거 범위의 내용이다.",
+        "특정 과거에 끝난 사건은 과거형이다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-007",
+    "sourceQuestionId": "Q-G28-007",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 59,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-008-PF",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "He often (reads / read) before bed.",
+    "choices": [
+      "reads",
+      "read"
+    ],
+    "answer": "reads",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "often의 반복 습관",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "read": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: often의 반복 습관.",
+        "이 문장은 현재 범위의 내용이다.",
+        "현재의 반복 행동은 현재 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "active-recall",
+      "process-first",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-008",
+    "sourceQuestionId": "Q-G28-008",
+    "variantType": "process_first",
+    "interactionMode": "process_first",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "과정 우선 · 단계 통과 후 답 선택",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 56,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 1.12
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-001-DR",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "Water (boils / boiled) at 100 degrees Celsius.",
+    "choices": [
+      "boils",
+      "boiled"
+    ],
+    "answer": "boils",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "불변의 진리",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "boiled": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: 불변의 진리.",
+        "이 문장은 현재 범위의 내용이다.",
+        "불변의 진리는 현재 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-001",
+    "sourceQuestionId": "Q-G28-001",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-002-DR",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "My father usually (walks / walked) to work.",
+    "choices": [
+      "walks",
+      "walked"
+    ],
+    "answer": "walks",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "usually가 나타내는 습관",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "walked": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: usually가 나타내는 습관.",
+        "이 문장은 현재 범위의 내용이다.",
+        "현재의 반복 습관은 현재 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-002",
+    "sourceQuestionId": "Q-G28-002",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-003-DR",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "The museum (opens / opened) at nine every day.",
+    "choices": [
+      "opens",
+      "opened"
+    ],
+    "answer": "opens",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "every day의 반복",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "opened": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: every day의 반복.",
+        "이 문장은 현재 범위의 내용이다.",
+        "정기적인 일정은 현재 시제로 나타낸다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-003",
+    "sourceQuestionId": "Q-G28-003",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-004-DR",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "The first modern subway (opens / opened) in London in 1863.",
+    "choices": [
+      "opens",
+      "opened"
+    ],
+    "answer": "opened",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "1863년에 끝난 역사적 사실",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "과거",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "opens": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: 1863년에 끝난 역사적 사실.",
+        "이 문장은 과거 범위의 내용이다.",
+        "끝난 역사적 사실은 과거 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-004",
+    "sourceQuestionId": "Q-G28-004",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 50,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-005-DR",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "The Earth (moves / moved) around the Sun.",
+    "choices": [
+      "moves",
+      "moved"
+    ],
+    "answer": "moves",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "과학적 일반 사실",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "moved": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: 과학적 일반 사실.",
+        "이 문장은 현재 범위의 내용이다.",
+        "일반 사실은 현재 시제로 나타낸다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-005",
+    "sourceQuestionId": "Q-G28-005",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-006-DR",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "She (teaches / taught) at this school now.",
+    "choices": [
+      "teaches",
+      "taught"
+    ],
+    "answer": "teaches",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "now의 현재 상태",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "taught": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: now의 현재 상태.",
+        "이 문장은 현재 범위의 내용이다.",
+        "현재 사실이므로 현재 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-006",
+    "sourceQuestionId": "Q-G28-006",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-007-DR",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "The company (launches / launched) its first product in 2010.",
+    "choices": [
+      "launches",
+      "launched"
+    ],
+    "answer": "launched",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "2010년에 끝난 사건",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "과거",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "launches": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: 2010년에 끝난 사건.",
+        "이 문장은 과거 범위의 내용이다.",
+        "특정 과거에 끝난 사건은 과거형이다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-007",
+    "sourceQuestionId": "Q-G28-007",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-008-DR",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "He often (reads / read) before bed.",
+    "choices": [
+      "reads",
+      "read"
+    ],
+    "answer": "reads",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "often의 반복 습관",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "read": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "현재의 반복·일반 사실과 끝난 과거 사실을 구별하지 못했다.",
+      "summary": [
+        "시간 단서: often의 반복 습관.",
+        "이 문장은 현재 범위의 내용이다.",
+        "현재의 반복 행동은 현재 시제를 쓴다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "choice-hidden",
+      "delayed-recall",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-008",
+    "sourceQuestionId": "Q-G28-008",
+    "variantType": "delayed_recall",
+    "interactionMode": "delayed_recall",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "지연 회상 · 선택지 보기 전 답 결정",
+    "requiresInk": false,
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 46,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.92
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-001-CT",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nWater (boils / boiled) at 100 degrees Celsius.",
+    "choices": [
+      "boils",
+      "boiled"
+    ],
+    "answer": "boiled",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "불변의 진리",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "boils": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "'boiled'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'boils'이다.",
+      "summary": [
+        "시간 단서: 불변의 진리.",
+        "이 문장은 현재 범위의 내용이다.",
+        "불변의 진리는 현재 시제를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'boiled'이다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-001",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-001",
+    "sourceQuestionId": "Q-G28-001",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-002-CT",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nMy father usually (walks / walked) to work.",
+    "choices": [
+      "walked",
+      "walks"
+    ],
+    "answer": "walked",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "usually가 나타내는 습관",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "walks": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "'walked'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'walks'이다.",
+      "summary": [
+        "시간 단서: usually가 나타내는 습관.",
+        "이 문장은 현재 범위의 내용이다.",
+        "현재의 반복 습관은 현재 시제를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'walked'이다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-002",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-002",
+    "sourceQuestionId": "Q-G28-002",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 13,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-003-CT",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe museum (opens / opened) at nine every day.",
+    "choices": [
+      "opened",
+      "opens"
+    ],
+    "answer": "opened",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "every day의 반복",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "opens": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "'opened'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'opens'이다.",
+      "summary": [
+        "시간 단서: every day의 반복.",
+        "이 문장은 현재 범위의 내용이다.",
+        "정기적인 일정은 현재 시제로 나타낸다.",
+        "따라서 대조 문항에서 고를 답은 'opened'이다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-003",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-003",
+    "sourceQuestionId": "Q-G28-003",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 14,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-004-CT",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe first modern subway (opens / opened) in London in 1863.",
+    "choices": [
+      "opened",
+      "opens"
+    ],
+    "answer": "opens",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "1863년에 끝난 역사적 사실",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "과거",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "opened": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "'opens'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'opened'이다.",
+      "summary": [
+        "시간 단서: 1863년에 끝난 역사적 사실.",
+        "이 문장은 과거 범위의 내용이다.",
+        "끝난 역사적 사실은 과거 시제를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'opens'이다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-004",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-004",
+    "sourceQuestionId": "Q-G28-004",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 15,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 49,
+      "features": {
+        "initialAuthorDifficulty": 1,
+        "wordCount": 9,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-005-CT",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe Earth (moves / moved) around the Sun.",
+    "choices": [
+      "moved",
+      "moves"
+    ],
+    "answer": "moved",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "과학적 일반 사실",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "moves": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "'moved'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'moves'이다.",
+      "summary": [
+        "시간 단서: 과학적 일반 사실.",
+        "이 문장은 현재 범위의 내용이다.",
+        "일반 사실은 현재 시제로 나타낸다.",
+        "따라서 대조 문항에서 고를 답은 'moved'이다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-005",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-005",
+    "sourceQuestionId": "Q-G28-005",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-006-CT",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nShe (teaches / taught) at this school now.",
+    "choices": [
+      "taught",
+      "teaches"
+    ],
+    "answer": "taught",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "now의 현재 상태",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "teaches": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "'taught'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'teaches'이다.",
+      "summary": [
+        "시간 단서: now의 현재 상태.",
+        "이 문장은 현재 범위의 내용이다.",
+        "현재 사실이므로 현재 시제를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'taught'이다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-006",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-006",
+    "sourceQuestionId": "Q-G28-006",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 47,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 7,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-007-CT",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nThe company (launches / launched) its first product in 2010.",
+    "choices": [
+      "launched",
+      "launches"
+    ],
+    "answer": "launches",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "2010년에 끝난 사건",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "과거",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "과거 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "launched": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "'launches'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'launched'이다.",
+      "summary": [
+        "시간 단서: 2010년에 끝난 사건.",
+        "이 문장은 과거 범위의 내용이다.",
+        "특정 과거에 끝난 사건은 과거형이다.",
+        "따라서 대조 문항에서 고를 답은 'launches'이다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-007",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-007",
+    "sourceQuestionId": "Q-G28-007",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 27,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 48,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 8,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-G28-008-CT",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 2,
+    "stem": "대조 판단: 다음 문장에서 정답으로 사용할 수 없는 형태를 고르세요.\nHe often (reads / read) before bed.",
+    "choices": [
+      "reads",
+      "read"
+    ],
+    "answer": "read",
+    "decisionSteps": [
+      {
+        "id": "time",
+        "prompt": "이 문장의 시간 성격은 무엇인가?",
+        "answer": "often의 반복 습관",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "range",
+        "prompt": "현재 반복인가 끝난 과거인가?",
+        "answer": "현재",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      },
+      {
+        "id": "form",
+        "prompt": "선택할 시제는?",
+        "answer": "현재 시제",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "reads": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "'read'는 이 문장의 자리에 맞지 않는다. 원문의 올바른 형태는 'reads'이다.",
+      "summary": [
+        "시간 단서: often의 반복 습관.",
+        "이 문장은 현재 범위의 내용이다.",
+        "현재의 반복 행동은 현재 시제를 쓴다.",
+        "따라서 대조 문항에서 고를 답은 'read'이다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-008",
+      "retryPolicy": "확인문제 정답 후 원문 재도전"
+    },
+    "origin": "generated_from_source_rule",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "contrast",
+      "error-discrimination",
+      "quick",
+      "recovery"
+    ],
+    "familyId": "Q-G28-008",
+    "sourceQuestionId": "Q-G28-008",
+    "variantType": "contrast",
+    "interactionMode": "contrast",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": true,
+    "bankVersion": "26.0",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 7,
+      "sameVariantMinDays": 21
+    },
+    "setLabel": "대조 판단 · 사용할 수 없는 형태 찾기",
+    "requiresInk": false,
+    "questionType": "contrast_choice",
+    "initialCalibration": {
+      "status": "initial_simulation_no_learner_history",
+      "score": 26,
+      "level": 1,
+      "label": "기초",
+      "targetSeconds": 45,
+      "features": {
+        "initialAuthorDifficulty": 2,
+        "wordCount": 6,
+        "decisionStepCount": 3,
+        "requiredBoundaryCount": 0,
+        "averageChoiceWordCount": 1,
+        "requiresInk": false,
+        "module": "grammar"
+      },
+      "formulaVersion": "25.0-initial",
+      "personalizationRule": "실제 학습 이력 발생 후 정확도·과정 통과·페이스·회복 데이터를 결합하며, 안정 전 목표시간 단축 금지",
+      "variantMultiplier": 0.9
+    },
+    "qualityAuditVersion": "25.0"
+  },
+  {
+    "id": "Q-REC-8CCD9A2056",
+    "conceptId": "G28_PRESENT_PAST_USAGE",
+    "difficulty": 1,
+    "stem": "빠른 확인: 현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+    "choices": [
+      "현재 시제",
+      "과거 시제"
+    ],
+    "answer": "현재 시제",
+    "decisionSteps": [
+      {
+        "id": "rule_recall",
+        "prompt": "이 확인문제에 적용할 핵심 규칙은?",
+        "choices": [
+          "현재의 사실·습관·불변의 진리에는 현재 시제, 끝난 역사적 사실에는 과거 시제를 쓴다.",
+          "yesterday, ago, last, in+과거연도처럼 끝난 과거 시점을 제시하면 과거 시제를 쓴다."
+        ],
+        "answer": "현재의 사실·습관·불변의 진리에는 현재 시제, 끝난 역사적 사실에는 과거 시제를 쓴다.",
+        "errorCode": "E32_PRESENT_PAST_USAGE"
+      }
+    ],
+    "misconceptionByChoice": {
+      "과거 시제": "E32_PRESENT_PAST_USAGE"
+    },
+    "remediation": {
+      "diagnosis": "핵심 규칙을 즉시 회상하지 못했거나 선택 기준을 혼동했다.",
+      "summary": [
+        "현재의 사실·습관·불변의 진리에는 현재 시제, 끝난 역사적 사실에는 과거 시제를 쓴다.",
+        "시간 단서: 불변의 진리.",
+        "이 문장은 현재 범위의 내용이다.",
+        "확인문제를 통과한 뒤 연결된 원문 문제로 돌아가 같은 판단 순서를 적용한다."
+      ],
+      "sourceRef": "SRC-G28",
+      "checkQuestion": {
+        "prompt": "현재의 습관과 일반 사실에는 보통 어떤 시제를 쓰는가?",
+        "choices": [
+          "현재 시제",
+          "과거 시제"
+        ],
+        "answer": "현재 시제"
+      },
+      "transferQuestionId": "Q-G28-001",
+      "retryPolicy": "핵심 규칙 확인 후 연결 원문 재도전"
+    },
+    "origin": "deduplicated_verified_recovery_check",
+    "part": "PART3",
+    "chapter": "CH1",
+    "modeTags": [
+      "recovery",
+      "recall",
+      "quick"
+    ],
+    "familyId": "Q-REC-8CCD9A2056",
+    "sourceQuestionId": "Q-G28-001",
+    "variantType": "recovery_check",
+    "interactionMode": "direct",
+    "qualityTier": "B",
+    "reviewStatus": "approved_derived",
+    "eligibleForDaily": false,
+    "eligibleForRecovery": true,
+    "bankVersion": "26.0",
+    "setLabel": "오답 복구 · 핵심 규칙 빠른 확인",
+    "repeatPolicy": {
+      "sameFamilyMinDays": 3,
+      "sameVariantMinDays": 7
+    }
+  }
+]
