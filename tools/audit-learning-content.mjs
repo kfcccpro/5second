@@ -7,8 +7,7 @@ const here=path.dirname(fileURLToPath(import.meta.url));
 const root=path.resolve(here,'..');
 const appData=path.join(root,'prototype','app-data.js');
 const ctx={window:{}};
-vm.createContext(ctx);
-vm.runInContext(fs.readFileSync(appData,'utf8'),ctx);
+vm.createContext(ctx);vm.runInContext(fs.readFileSync(appData,'utf8'),ctx);
 const D=ctx.window.JK_DATA;
 
 const critical=[];
@@ -27,10 +26,15 @@ function row(cid){
 }
 function words(s){return (String(s||'').match(/[A-Za-z][A-Za-z'’-]*/g)||[]).length}
 function norm(s){return String(s||'').toLowerCase().replace(/[\s·,.;:!?()[\]{}'"“”‘’/_-]+/g,' ').trim()}
-function containsChoice(prompt,choice){
-  const p=norm(prompt),c=norm(choice);
-  if(!p||!c||c.length<2)return false;
-  return p.includes(c);
+function containsUnblankedChoice(prompt,choice){
+  // A contextual micro-check is intentionally clozed. The same short token may
+  // legitimately occur elsewhere in the sentence (e.g. "it" inside another word,
+  // or "that" in a different clause). Treat exposure as critical only when there
+  // is no visible cloze at all and the complete normalized choice is still shown.
+  if(String(prompt||'').includes('_____'))return false;
+  const p=` ${norm(prompt)} `,c=norm(choice);
+  if(!p.trim()||!c||c.length<2)return false;
+  return p.includes(` ${c} `);
 }
 function push(arr,type,q,extra={}){arr.push({type,questionId:q?.id||null,conceptId:q?.conceptId||null,...extra})}
 
@@ -67,7 +71,7 @@ for(const q of D.questions){
         if(norm(src.stem)===norm(q.stem))push(critical,'micro-duplicate-stem',q,{sourceQuestionId:c.sourceQuestionId});
       }
       if(words(c.prompt)<3&&!String(c.prompt).includes('_____'))push(warnings,'micro-low-context',q,{prompt:c.prompt});
-      const exposed=(c.choices||[]).filter(x=>containsChoice(c.prompt,x));
+      const exposed=(c.choices||[]).filter(x=>containsUnblankedChoice(c.prompt,x));
       if(exposed.length)push(critical,'micro-answer-exposure',q,{prompt:c.prompt,exposedChoices:exposed,sourceQuestionId:c.sourceQuestionId});
       if(!String(c.prompt||'').includes('_____')&&words(c.prompt)>=3)push(warnings,'micro-no-visible-gap',q,{prompt:c.prompt,sourceQuestionId:c.sourceQuestionId});
     }else{
@@ -90,25 +94,10 @@ for(const [cid,r] of perConcept){
     if(ratio<0.25||ratio>0.75)warnings.push({type:'concept-answer-position-skew',conceptId:cid,concept:concepts.get(cid)?.name||cid,first:r.first,second:r.second,total:r.twoChoice,ratio});
   }
 }
-for(const [prompt,count] of checkPromptCount){
-  if(count>=25)warnings.push({type:'repeated-check-prompt',count,prompt});
-}
-
+for(const [prompt,count] of checkPromptCount){if(count>=25)warnings.push({type:'repeated-check-prompt',count,prompt});}
 const coverage=contextual/Math.max(1,contextual+legacy);
 if(coverage<0.8)warnings.push({type:'contextual-check-coverage',contextual,legacy,coverage});
 
-const report={
-  generatedAt:new Date().toISOString(),
-  profile:'highschool-single-learner-v1.2',
-  status:critical.length?'FAIL':'PASS',
-  summary:{questions:D.questions.length,concepts:D.concepts.length,processSteps,twoChoice:{total:twoChoice,answerFirst:first,answerSecond:second},checks:{contextual,legacy,coverage:Number(coverage.toFixed(4))},critical:critical.length,warnings:warnings.length},
-  critical:critical.slice(0,160),
-  warnings:warnings.slice(0,200),
-  notes,
-  perConcept:Object.fromEntries([...perConcept.entries()].map(([k,v])=>[k,v]))
-};
-const outDir=path.join(root,'.qa');fs.mkdirSync(outDir,{recursive:true});
-fs.writeFileSync(path.join(outDir,'learner-content-audit.json'),JSON.stringify(report,null,2)+'\n');
-console.log(JSON.stringify(report.summary,null,2));
-console.log(`learner content audit: ${report.status} (full report: .qa/learner-content-audit.json)`);
-if(critical.length)process.exit(1);
+const report={generatedAt:new Date().toISOString(),profile:'highschool-single-learner-v1.2',status:critical.length?'FAIL':'PASS',summary:{questions:D.questions.length,concepts:D.concepts.length,processSteps,twoChoice:{total:twoChoice,answerFirst:first,answerSecond:second},checks:{contextual,legacy,coverage:Number(coverage.toFixed(4))},critical:critical.length,warnings:warnings.length},critical:critical.slice(0,160),warnings:warnings.slice(0,200),notes,perConcept:Object.fromEntries([...perConcept.entries()].map(([k,v])=>[k,v]))};
+const outDir=path.join(root,'.qa');fs.mkdirSync(outDir,{recursive:true});fs.writeFileSync(path.join(outDir,'learner-content-audit.json'),JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify(report.summary,null,2));console.log(`learner content audit: ${report.status} (full report: .qa/learner-content-audit.json)`);if(critical.length)process.exit(1);
