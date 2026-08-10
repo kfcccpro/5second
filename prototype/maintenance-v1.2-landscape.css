@@ -1,0 +1,98 @@
+/* JK English Maintenance v1.2
+   Landscape learning flow: LEFT = sentence / evidence already seen,
+   RIGHT = the decision the learner is making now.
+   Portrait phone keeps the existing one-column flow. */
+
+.jkFlowLabel{display:none}
+.jkFlowGuide{display:none}
+
+@media (min-width:820px) and (orientation:landscape), (min-width:1180px){
+  :root{--jk-content:1500px;--jk-focus:1420px;--jk-reading:100%}
+  html{scroll-padding-top:74px}
+  .app{width:min(100%,1500px)!important;max-width:none!important;padding-left:clamp(20px,2.2vw,40px)!important;padding-right:clamp(20px,2.2vw,40px)!important}
+  #study{width:100%;max-width:none;margin:0 auto}
+  .studyTopActions,.progressRow,.bar,.paceShell{max-width:1420px!important}
+
+  /* Main problem: keep the sentence on the left while the current action changes on the right. */
+  #questionCard{
+    max-width:1420px!important;
+    display:grid!important;
+    grid-template-columns:minmax(0,.92fr) minmax(430px,1.08fr)!important;
+    grid-auto-flow:row!important;
+    column-gap:clamp(28px,3.2vw,54px)!important;
+    row-gap:14px!important;
+    align-items:start!important;
+    padding:clamp(28px,3vw,44px)!important;
+    min-height:min(690px,calc(100dvh - 178px));
+  }
+  #questionCard>.jkFlowLabel.problem{display:inline-flex;grid-column:1;grid-row:1;justify-self:start;align-items:center;width:max-content;padding:7px 11px;border-radius:999px;background:#f1f2f5;color:#62656c;font-size:12px;font-weight:850;letter-spacing:.02em}
+  #questionCard>.tagRow{grid-column:1;grid-row:2;max-width:none!important;width:100%;margin:0!important}
+  #questionCard>.problemHint{grid-column:1;grid-row:3;max-width:none!important;width:100%;margin:0!important;align-self:end}
+  #questionCard>.q{grid-column:1;grid-row:4;max-width:none!important;width:100%;margin:0!important;font-size:clamp(28px,2.2vw,38px)!important;line-height:1.5!important}
+  #questionCard>.problemImg{grid-column:1;grid-row:5;max-width:none!important;width:100%;max-height:42dvh!important;object-fit:contain!important;margin:4px 0 0!important}
+  #questionCard>.processGateBox{grid-column:2;grid-row:1 / span 6;max-width:none!important;width:100%;margin:0!important;align-self:start;min-height:330px}
+  #questionCard>.choiceGate{grid-column:2;grid-row:1;max-width:none!important;width:100%;margin:0 0 8px!important}
+  #questionCard>.choices{grid-column:2;grid-row:2 / span 5;max-width:none!important;width:100%;margin:0!important;align-self:start;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px!important}
+  #questionCard>.inkSection{grid-column:2;grid-row:2 / span 5;max-width:none!important;width:100%;margin:0!important}
+
+  #questionCard .processGateBox .jkFlowLabel.current{display:inline-flex;align-items:center;width:max-content;padding:7px 11px;margin:0 0 12px;border-radius:999px;background:#e6f2ff;color:#075db8;font-size:12px;font-weight:900;letter-spacing:.02em}
+  #questionCard .processGateHead{margin-top:0!important}
+  #preStepBox{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 12px;align-items:stretch}
+  #preStepBox>small,#preStepBox>h3,#preStepBox>.hint{grid-column:1/-1}
+  #preStepBox>small{margin:0!important}
+  #preStepBox>h3{margin:0 0 4px!important}
+  #preStepBox>.stepChoice{margin:0!important;min-height:68px!important;height:100%}
+
+  /* Wrong-answer recovery: reference stays on the left, retry step stays on the right. */
+  #wrongCard{
+    max-width:1420px!important;
+    display:grid!important;
+    grid-template-columns:minmax(0,1.02fr) minmax(430px,.98fr)!important;
+    grid-template-rows:auto auto auto auto auto auto auto auto!important;
+    column-gap:clamp(28px,3.2vw,54px)!important;
+    row-gap:14px!important;
+    align-items:start!important;
+    padding:clamp(28px,3vw,42px)!important;
+  }
+  #wrongCard>.jkFlowGuide{display:flex;grid-column:1/-1;grid-row:1;align-items:center;gap:12px;padding:11px 14px;border-radius:15px;background:#f5f8fc;border:1px solid #dce5ef;color:#4f5964;font-size:13px;font-weight:800}
+  #wrongCard>.jkFlowGuide b{color:#0071e3;font-size:18px}
+  #wrongCard>h2{grid-column:1/-1;grid-row:2;margin:0!important}
+  #wrongCard>#wrongReason{grid-column:1/-1;grid-row:3;margin:0!important}
+  #wrongCard>#wrongMethod,#wrongCard>#judgeBox{grid-column:1/-1;grid-row:4;margin:0!important}
+  #wrongCard>.sourceEvidence{grid-column:1;grid-row:5!important;display:block!important;width:100%;margin:0!important;min-width:0}
+  #wrongCard>.sourceEvidence .sourceEvidenceHead{display:flex!important;justify-content:space-between;align-items:end;gap:12px;margin:0 0 8px!important}
+  #wrongCard>.sourceEvidence .sourceImg{width:100%;max-height:39dvh!important;object-fit:contain!important;background:#fff}
+  #wrongCard>.ruleBox{grid-column:1;grid-row:6;margin:0!important;max-height:18dvh;overflow:auto}
+  #wrongCard>#pdfBtn{grid-column:1;grid-row:7;width:100%;margin:0!important;min-height:52px}
+  #wrongCard>#helpDetails{grid-column:1;grid-row:8;margin:0!important}
+  #wrongCard>#stepBtn{grid-column:2;grid-row:5;width:100%;margin:0!important;min-height:58px;background:#e8f2ff!important;color:#075db8!important;border:1px solid #b9d9ff!important}
+  #wrongCard>#stepBox{grid-column:2;grid-row:6 / span 2;margin:0!important;min-height:260px;align-self:start;background:#fbfcfe}
+  #wrongCard>#retryActions{grid-column:2;grid-row:8;margin:0!important}
+  #wrongCard .stepBox .stepChoice{min-height:62px!important}
+
+  /* Keep result cards readable without forcing the learner back into a narrow center column. */
+  #correctCard{max-width:1420px!important}
+  #correctCard .actions,#wrongCard .actions{max-width:none!important}
+
+  /* Tablet/PC landscape should feel like a workspace, not a long document. */
+  .card{scroll-margin-top:78px}
+  .q,.choice,.stepChoice{overflow-wrap:anywhere}
+}
+
+/* Tablet landscape: preserve the two-pane logic but keep touch targets generous. */
+@media (min-width:820px) and (max-width:1179px) and (orientation:landscape){
+  .app{padding-left:16px!important;padding-right:16px!important}
+  #questionCard,#wrongCard{grid-template-columns:minmax(0,.9fr) minmax(390px,1.1fr)!important;column-gap:24px!important;padding:24px!important;border-radius:24px!important}
+  #questionCard>.q{font-size:28px!important}
+  #questionCard>.choices{gap:10px!important}
+  #questionCard .choice{min-height:66px!important;padding:15px 16px!important;font-size:19px!important}
+  #preStepBox>.stepChoice{min-height:62px!important;font-size:16px!important}
+  #wrongCard>.sourceEvidence .sourceImg{max-height:36dvh!important}
+}
+
+/* Portrait / narrow screens intentionally stay one-column. */
+@media (max-width:819px), (orientation:portrait) and (max-width:1179px){
+  #questionCard>.jkFlowLabel.problem{display:none!important}
+  #questionCard .processGateBox .jkFlowLabel.current{display:none!important}
+  #wrongCard>.jkFlowGuide{display:none!important}
+}
