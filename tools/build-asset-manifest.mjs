@@ -5,10 +5,10 @@ import { fileURLToPath } from 'node:url';
 const here=path.dirname(fileURLToPath(import.meta.url));
 const root=path.resolve(here,'..');
 const proto=path.join(root,'prototype');
-const version='maintenance-v1.2.0';
+const version='maintenance-v1.3.0';
 const outName='asset-integrity-manifest-maintenance-v1.json';
 const critical=new Set([
-  'index.html','maintenance-v1.css','maintenance-v1.2-landscape.css','rc-core.css','phase31-core.css','manifest.webmanifest',
+  'index.html','maintenance-v1.css','maintenance-v1.2-landscape.css','maintenance-v1.3-workspace.css','maintenance-v1.3-state.css','rc-core.css','phase31-core.css','manifest.webmanifest',
   'firebase-pilot-config.js','workbook-meta.js','app-data.js','app.js','storage.js','auth-core.js',
   'analytics-core.js','question-quality-data.js','phase26-data.js','phase27-data.js','quality-approval-core.js',
   'personal-stability-core.js','quality-core.js','daily-core.js','cloud-sync.js','adaptive-core.js',
