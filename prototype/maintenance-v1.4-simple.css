@@ -1,0 +1,119 @@
+/* JK English v1.4 SIMPLE STUDY UI
+   Goal: one screen, one question, one current action.
+   Landscape: LEFT = sentence/evidence, RIGHT = one check or answer.
+*/
+
+/* Never allow layout rules to reveal a hidden state. */
+.hidden,
+#questionCard.hidden,#correctCard.hidden,#wrongCard.hidden,#processGateBox.hidden,
+#choiceGate.hidden,#stepBox.hidden,#retryActions.hidden,#inkSection.hidden,
+#problemImg.hidden,#problemHint.hidden{display:none!important}
+
+/* Remove secondary system copy that competes with the learning task. */
+#study .foot,.jkFlowGuide,.jkFlowLabel,.jkPaneTitle{display:none!important}
+#questionCard>.tagRow{display:none!important}
+#questionCard>.choiceGate{display:none!important}
+#questionCard>.problemHint.jkGenericHint{display:none!important}
+.processGateHead>span,.processGateHead small,#preStepBox>small,.stepBox>small{display:none!important}
+
+/* Base type: consistent and readable. */
+#study{font-size:18px}
+.progressRow .mini{font-size:16px!important;font-weight:800!important;color:#4c5159!important}
+.paceText{font-size:14px!important;line-height:1.4!important;color:#686d75!important}
+.q{font-size:clamp(30px,2.5vw,42px)!important;line-height:1.45!important;font-weight:820!important;letter-spacing:-.03em!important;color:#08090b!important}
+.choice{font-size:clamp(21px,1.55vw,26px)!important;font-weight:780!important;line-height:1.35!important;min-height:72px!important;padding:17px 20px!important;border-radius:17px!important}
+.stepChoice{font-size:19px!important;font-weight:750!important;line-height:1.4!important;min-height:64px!important;padding:14px 17px!important;border-radius:15px!important}
+.processGateHead strong{font-size:20px!important}.processGateHead{border:0!important;padding:0!important;margin:0 0 16px!important}.processGateBox{box-shadow:none!important}
+#preStepBox h3,.stepBox h3{font-size:clamp(22px,1.7vw,28px)!important;line-height:1.45!important;margin:0 0 14px!important}
+
+/* Correct = answer and next. Hide redundant explanation and navigation. */
+#correctCard #correctReason,#correctCard #correctMarkup,#correctCard #correctMethod,#correctCard #homeBtn1{display:none!important}
+#correctCard .actions{display:block!important;margin-top:18px!important}
+#correctCard #nextBtn{width:100%!important;min-height:62px!important;font-size:19px!important}
+.jkAnswerOnly{display:inline-flex;align-items:center;gap:8px;margin-top:8px;padding:11px 15px;border-radius:14px;background:#edf8f2;color:#116b41;font-size:clamp(22px,1.7vw,27px);font-weight:850}
+
+/* Wrong = one reason + textbook evidence + one check question. */
+#wrongCard .summary,#wrongCard #modelMarkup,#wrongCard #wrongMethod,#wrongCard #homeBtn2{display:none!important}
+#wrongCard #stepBtn{font-size:18px!important;min-height:58px!important}
+#wrongCard #retryActions{grid-template-columns:1fr!important}
+#wrongCard #retryBtn{width:100%!important;min-height:60px!important;font-size:19px!important}
+#wrongCard #diagnosis{font-size:18px!important;line-height:1.6!important;color:#4d535b!important}
+.jkSourceFallback{display:none;padding:16px 17px;border-radius:15px;background:#f5f6f8;border:1px solid #dfe2e7;color:#5a6068;font-size:16px;font-weight:700;line-height:1.5}
+.jkSourceFallback.jkVisible{display:block!important}.sourceImg.jkAssetMissing{display:none!important}
+
+@media (min-width:900px) and (orientation:landscape), (min-width:1200px){
+  :root{--jk-content:1540px;--jk-focus:1460px;--jk-reading:100%}
+  html{font-size:19px}
+  .app{width:min(100%,1540px)!important;max-width:none!important;padding:max(12px,env(safe-area-inset-top)) clamp(22px,2.6vw,40px) max(28px,env(safe-area-inset-bottom))!important}
+  .top{min-height:48px!important;margin:0 0 6px!important;padding:8px 4px!important}.brand{font-size:22px!important}.top .mini{font-size:14px!important}
+  #study{max-width:1460px;margin:0 auto}
+  .studyTopActions,.progressRow,.bar,.paceShell{max-width:1460px!important;margin-left:auto!important;margin-right:auto!important}
+  .studyTopActions{margin-bottom:6px!important}.progressRow{margin:0 0 7px!important}.bar{height:8px!important;margin-bottom:7px!important}.paceShell{margin-bottom:12px!important}
+
+  /* Main workspace: no nested boxes, no vertical storytelling. */
+  #questionCard:not(.hidden){
+    display:grid!important;
+    grid-template-columns:minmax(0,1fr) minmax(0,.92fr)!important;
+    grid-template-rows:auto 1fr!important;
+    column-gap:clamp(40px,4vw,68px)!important;
+    align-items:center!important;
+    max-width:1460px!important;
+    min-height:clamp(470px,66dvh,650px)!important;
+    margin:0 auto 14px!important;
+    padding:clamp(30px,3vw,46px)!important;
+    position:relative;
+    overflow:hidden;
+  }
+  #questionCard:not(.hidden)::after{content:"";position:absolute;left:52%;top:30px;bottom:30px;width:1px;background:#e3e6ea}
+  #questionCard>.q{grid-column:1;grid-row:1 / span 2;max-width:none!important;width:100%;margin:0!important;padding-right:8px;align-self:center}
+  #questionCard>.problemImg{grid-column:1;grid-row:2;max-width:none!important;width:100%;max-height:34dvh!important;object-fit:contain!important;margin:16px 0 0!important;align-self:end}
+  #questionCard>.problemHint:not(.jkGenericHint){grid-column:1;grid-row:1;max-width:none!important;margin:0 0 18px!important;align-self:start;font-size:16px!important}
+  #questionCard>.processGateBox{grid-column:2;grid-row:1 / span 2;max-width:none!important;width:100%;margin:0!important;padding:0 0 0 clamp(6px,1vw,16px)!important;border:0!important;background:transparent!important;align-self:center!important;min-height:0!important}
+  #questionCard>.choices{grid-column:2;grid-row:1 / span 2;max-width:none!important;width:100%;margin:0!important;padding-left:clamp(6px,1vw,16px)!important;display:grid!important;grid-template-columns:1fr 1fr;gap:12px!important;align-self:center!important}
+  #questionCard>.inkSection{grid-column:2;grid-row:1 / span 2;max-width:none!important;width:100%;margin:0!important;padding-left:12px!important;align-self:center!important}
+  #preStepBox{display:grid;grid-template-columns:1fr 1fr;gap:12px!important}#preStepBox>h3,#preStepBox>.hint,#preStepBox>.jkStepNotice{grid-column:1/-1}.stepChoice{margin:0!important}
+
+  /* Correct replaces the question screen instead of appearing below it. */
+  #study.jkResultCorrect #questionCard{display:none!important}
+  #study.jkResultCorrect #correctCard:not(.hidden){display:flex!important;flex-direction:column;justify-content:center;max-width:920px!important;min-height:360px!important;margin:6vh auto 0!important;padding:44px 50px!important;text-align:left}
+  #correctCard h2{font-size:34px!important;margin:0 0 8px!important}.jkAnswerOnly{font-size:28px!important}
+
+  /* Wrong recovery is one left-right screen. */
+  #study.jkResultWrong #questionCard{display:none!important}
+  #study.jkResultWrong #wrongCard:not(.hidden){
+    display:grid!important;
+    grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr)!important;
+    grid-template-rows:auto auto 1fr auto!important;
+    column-gap:clamp(40px,4vw,68px)!important;
+    row-gap:12px!important;
+    max-width:1460px!important;
+    min-height:clamp(500px,68dvh,700px)!important;
+    margin:0 auto 14px!important;
+    padding:clamp(30px,3vw,46px)!important;
+    align-items:start!important;
+    position:relative;
+  }
+  #study.jkResultWrong #wrongCard:not(.hidden)::after{content:"";position:absolute;left:52%;top:30px;bottom:30px;width:1px;background:#e3e6ea}
+  #wrongCard>.sourceHead{grid-column:1;grid-row:1;margin:0 0 8px!important}.sourceHead strong{font-size:19px!important}.sourceHead span{font-size:14px!important}
+  #wrongCard>.sourceImg,#wrongCard>.jkSourceFallback{grid-column:1;grid-row:2 / span 2;width:100%;max-height:45dvh!important;object-fit:contain!important;align-self:start}
+  #wrongCard>.actions:not(#retryActions){display:contents!important}#wrongCard>#pdfBtn{grid-column:1;grid-row:4;width:100%;min-height:54px!important;margin:0!important}
+  #wrongCard>h2{grid-column:2;grid-row:1;margin:0!important;font-size:31px!important}#wrongCard>#diagnosis{grid-column:2;grid-row:2;margin:0!important}
+  #wrongCard>#stepBtn{grid-column:2;grid-row:3;width:100%;margin:10px 0 0!important;align-self:start}
+  #wrongCard>#stepBox{grid-column:2;grid-row:3;width:100%;margin:10px 0 0!important;padding:20px!important;align-self:start;background:#fbfcfd!important}
+  #wrongCard>#retryActions{grid-column:2;grid-row:4;margin:0!important}
+}
+
+/* Tablet landscape uses the same left-right flow. */
+@media (min-width:900px) and (max-width:1199px) and (orientation:landscape){
+  html{font-size:17px}.app{padding-left:16px!important;padding-right:16px!important}.q{font-size:31px!important}.choice{font-size:20px!important;min-height:66px!important}.stepChoice{font-size:17px!important;min-height:58px!important}
+  #questionCard:not(.hidden),#study.jkResultWrong #wrongCard:not(.hidden){column-gap:28px!important;padding:25px!important;min-height:calc(100dvh - 150px)!important}#questionCard:not(.hidden)::after,#study.jkResultWrong #wrongCard:not(.hidden)::after{top:24px;bottom:24px}
+  #preStepBox h3,.stepBox h3{font-size:21px!important}#wrongCard #diagnosis{font-size:16px!important}.sourceHead strong{font-size:17px!important}
+}
+
+/* Portrait/mobile: one-column, but still only essential content. */
+@media (max-width:899px), (orientation:portrait) and (max-width:1199px){
+  #questionCard{padding:20px 16px!important}.q{font-size:clamp(25px,6.2vw,31px)!important}.choice{font-size:18px!important;min-height:60px!important}.stepChoice{font-size:17px!important;min-height:56px!important}
+  .processGateBox{padding:18px!important}.processGateHead strong{font-size:18px!important}#preStepBox h3,.stepBox h3{font-size:20px!important}.paceText{font-size:13px!important}.progressRow .mini{font-size:14px!important}
+  #correctCard{padding:24px 20px!important}#correctCard h2{font-size:28px!important}
+  #wrongCard{padding:22px 18px!important}#wrongCard h2{font-size:27px!important}.sourceImg{max-height:35dvh!important}
+}
