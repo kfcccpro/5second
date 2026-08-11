@@ -1,0 +1,63 @@
+/* v1.3 state/layout patch: use DOM state itself, no extra JS state class required. */
+
+/* Never leak feedback cards before an answer. */
+#study:not(:has(#correctCard:not(.hidden))):not(:has(#wrongCard:not(.hidden))) #correctCard,
+#study:not(:has(#correctCard:not(.hidden))):not(:has(#wrongCard:not(.hidden))) #wrongCard{display:none!important}
+
+@media (min-width:900px) and (orientation:landscape), (min-width:1200px){
+  /* Correct answer = keep the just-solved problem on the left, result/action on the right. */
+  #study:has(#correctCard:not(.hidden)){
+    display:grid;
+    grid-template-columns:minmax(0,1.06fr) minmax(430px,.94fr);
+    grid-template-rows:auto auto auto auto auto;
+    column-gap:30px;
+    align-items:start;
+  }
+  #study:has(#correctCard:not(.hidden))>.studyTopActions,
+  #study:has(#correctCard:not(.hidden))>.progressRow,
+  #study:has(#correctCard:not(.hidden))>.bar,
+  #study:has(#correctCard:not(.hidden))>.paceShell{grid-column:1/-1;width:100%;max-width:none!important}
+  #study:has(#correctCard:not(.hidden))>#questionCard:not(.hidden){
+    grid-column:1;
+    display:block!important;
+    min-height:480px!important;
+    width:100%!important;
+    padding:34px!important;
+    margin:0!important;
+  }
+  #study:has(#correctCard:not(.hidden))>#questionCard:not(.hidden)::before{display:none!important}
+  #study:has(#correctCard:not(.hidden)) #questionCard>.jkPaneTitle,
+  #study:has(#correctCard:not(.hidden)) #questionCard>.processGateBox,
+  #study:has(#correctCard:not(.hidden)) #questionCard>.choiceGate,
+  #study:has(#correctCard:not(.hidden)) #questionCard>.inkSection{display:none!important}
+  #study:has(#correctCard:not(.hidden)) #questionCard>.tagRow,
+  #study:has(#correctCard:not(.hidden)) #questionCard>.problemHint,
+  #study:has(#correctCard:not(.hidden)) #questionCard>.q,
+  #study:has(#correctCard:not(.hidden)) #questionCard>.choices,
+  #study:has(#correctCard:not(.hidden)) #questionCard>.problemImg{display:flex;max-width:none!important;width:100%!important;margin-left:0!important;margin-right:0!important}
+  #study:has(#correctCard:not(.hidden)) #questionCard>.q{display:block!important;font-size:clamp(31px,2.15vw,41px)!important;margin:28px 0!important}
+  #study:has(#correctCard:not(.hidden)) #questionCard>.choices{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important}
+  #study:has(#correctCard:not(.hidden)) #questionCard>.choiceGate{display:none!important}
+  #study:has(#correctCard:not(.hidden))>#correctCard:not(.hidden){
+    grid-column:2;
+    display:block!important;
+    width:100%!important;
+    min-height:480px!important;
+    padding:34px!important;
+    margin:0!important;
+  }
+  #study:has(#correctCard:not(.hidden)) #correctCard::before{content:'지금 확인';display:inline-flex;padding:9px 13px;margin-bottom:24px;border-radius:999px;background:#edf8f2;color:#126a43;font-size:15px;font-weight:900}
+  #study:has(#correctCard:not(.hidden)) #correctCard>h2{font-size:34px!important;margin:0 0 14px!important}
+  #study:has(#correctCard:not(.hidden)) #correctCard>#correctReason{font-size:19px!important;line-height:1.7!important}
+  #study:has(#correctCard:not(.hidden)) #correctCard>.actions{margin-top:28px!important;display:grid!important;grid-template-columns:1fr 1fr!important}
+
+  /* Wrong answer = question disappears; evidence LEFT and recovery action RIGHT in one workspace. */
+  #study:has(#wrongCard:not(.hidden))>#questionCard{display:none!important}
+  #study:has(#wrongCard:not(.hidden))>#correctCard{display:none!important}
+  #study:has(#wrongCard:not(.hidden))>#wrongCard:not(.hidden){display:grid!important}
+}
+
+@media (max-width:899px), (orientation:portrait) and (max-width:1199px){
+  /* On narrow layouts, feedback still follows the current card but only after it is actually opened. */
+  #study:has(#wrongCard:not(.hidden))>#questionCard{display:none!important}
+}
