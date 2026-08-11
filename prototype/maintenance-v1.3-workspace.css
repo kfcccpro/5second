@@ -1,0 +1,152 @@
+/* JK English v1.3 workspace UI
+   Desktop/tablet landscape: LEFT = what the learner reads, RIGHT = what the learner does now.
+   Strong invariant: result cards never appear before their state is opened. */
+
+/* Visibility invariant. ID selectors that later become grid/flex must never override .hidden. */
+.hidden,
+#questionCard.hidden,
+#correctCard.hidden,
+#wrongCard.hidden,
+#processGateBox.hidden,
+#choiceGate.hidden,
+#stepBox.hidden,
+#retryActions.hidden,
+#inkSection.hidden,
+#problemImg.hidden,
+#problemHint.hidden{display:none!important}
+
+.jkPaneTitle{display:none}
+.jkCorrectContext{display:none}
+.jkSourceFallback{display:none}
+.sourceImg.jkAssetMissing,.problemImg.jkAssetMissing{display:none!important}
+.jkSourceFallback.jkVisible{display:block;padding:18px;border:1px solid #d9dce3;border-radius:16px;background:#f7f8fa;color:#5b616a;font-size:16px;font-weight:700;line-height:1.55}
+
+@media (min-width:900px) and (orientation:landscape), (min-width:1200px){
+  :root{--jk-content:1640px;--jk-focus:1560px;--jk-reading:100%}
+  html{font-size:19px}
+  body{overflow-x:hidden}
+  .app{width:min(100%,1640px)!important;max-width:none!important;padding:max(12px,env(safe-area-inset-top)) clamp(22px,2.5vw,42px) max(30px,env(safe-area-inset-bottom))!important}
+  .top{min-height:54px!important;margin:0 0 10px!important;padding:10px 6px!important}
+  .brand{font-size:23px!important}.top .mini{font-size:15px!important}
+
+  #study{width:100%;max-width:1560px;margin:0 auto}
+  .studyTopActions,.progressRow,.bar,.paceShell{max-width:1560px!important;margin-left:auto!important;margin-right:auto!important}
+  .studyTopActions{margin-bottom:8px!important}.pauseDaily{min-height:46px!important;font-size:16px!important}
+  .progressRow{margin-bottom:8px!important}.progressRow .mini{font-size:17px!important;line-height:1.35!important}
+  .bar{height:9px!important;margin-bottom:8px!important}.paceShell{margin-bottom:14px!important}.paceText{font-size:15px!important;line-height:1.4!important;margin-top:6px!important}
+
+  /* ---------- QUESTION WORKSPACE ---------- */
+  #questionCard:not(.hidden){
+    position:relative;
+    display:grid!important;
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;
+    grid-template-rows:auto auto auto auto minmax(0,1fr)!important;
+    column-gap:clamp(42px,4vw,72px)!important;
+    row-gap:14px!important;
+    align-items:start!important;
+    max-width:1560px!important;
+    min-height:clamp(560px,72dvh,760px)!important;
+    padding:clamp(30px,3vw,48px)!important;
+    margin:0 auto 18px!important;
+    overflow:hidden;
+  }
+  #questionCard:not(.hidden)::before{content:"";position:absolute;top:34px;bottom:34px;left:50%;width:1px;background:#e2e5ea;transform:translateX(-.5px);pointer-events:none}
+  .jkPaneTitle{display:flex!important;align-items:center;gap:9px;width:max-content;max-width:100%;padding:9px 13px;border-radius:999px;font-size:16px;font-weight:900;letter-spacing:-.01em;line-height:1.2}
+  .jkPaneTitle.jkLeft{grid-column:1;grid-row:1;background:#f1f2f4;color:#484c53}
+  .jkPaneTitle.jkRight{grid-column:2;grid-row:1;background:#e7f2ff;color:#075daf}
+
+  #questionCard>.tagRow{grid-column:1;grid-row:2;width:100%;max-width:none!important;margin:2px 0 0!important;align-items:center!important}
+  #questionCard>.tagRow .tag{font-size:16px!important;padding:9px 13px!important;line-height:1.3!important}
+  #questionCard>.tagRow .difficulty{font-size:14px!important;padding:9px 12px!important}
+  #questionCard>.problemHint{grid-column:1;grid-row:3;width:100%;max-width:none!important;margin:0!important;font-size:17px!important;line-height:1.55!important;color:#50545b!important}
+  #questionCard>.q{grid-column:1;grid-row:4;width:100%;max-width:none!important;margin:3px 0 0!important;font-size:clamp(35px,2.65vw,47px)!important;line-height:1.42!important;font-weight:820!important;letter-spacing:-.032em!important;color:#090a0c!important;align-self:start}
+  #questionCard>.problemImg{grid-column:1;grid-row:5;width:100%;max-width:none!important;max-height:34dvh!important;margin:8px 0 0!important;object-fit:contain!important}
+
+  #questionCard>.choiceGate{grid-column:2;grid-row:3;width:100%;max-width:none!important;margin:0!important;padding:15px 18px!important;font-size:17px!important;line-height:1.5!important}
+  #questionCard>.processGateBox{grid-column:2;grid-row:4 / span 2;width:100%;max-width:none!important;margin:3px 0 0!important;min-height:320px!important;padding:clamp(22px,2vw,30px)!important;border-radius:24px!important;align-self:start}
+  #questionCard>.choices{grid-column:2;grid-row:4 / span 2;width:100%;max-width:none!important;margin:3px 0 0!important;display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px!important;align-self:start}
+  #questionCard>.inkSection{grid-column:2;grid-row:4 / span 2;width:100%;max-width:none!important;margin:3px 0 0!important}
+
+  .choice{min-height:86px!important;padding:20px 22px!important;border-radius:19px!important;font-size:clamp(23px,1.65vw,28px)!important;line-height:1.35!important;font-weight:790!important}
+  .processGateHead{gap:14px!important;padding-bottom:17px!important;margin-bottom:18px!important}.processGateHead>span{width:44px!important;height:44px!important;font-size:18px!important}.processGateHead strong{font-size:23px!important}.processGateHead small{font-size:15px!important;line-height:1.5!important;margin-top:4px!important}
+  #preStepBox small,.stepBox small{font-size:16px!important;line-height:1.4!important}#preStepBox h3,.stepBox h3{font-size:clamp(23px,1.7vw,29px)!important;line-height:1.45!important;margin:8px 0 14px!important}
+  #preStepBox{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 14px;align-items:stretch}
+  #preStepBox>small,#preStepBox>h3,#preStepBox>.hint,#preStepBox>.jkStepNotice{grid-column:1/-1}
+  #preStepBox>.stepChoice{margin:0!important}
+  .stepChoice{min-height:74px!important;padding:16px 18px!important;border-radius:16px!important;font-size:20px!important;line-height:1.4!important;font-weight:760!important}
+  .hint{font-size:16px!important;line-height:1.55!important}.jkStepNotice{padding:15px 17px;border-radius:15px;background:#f4f5f7;color:#62666d;font-size:16px;font-weight:720;line-height:1.5}
+
+  /* Once feedback opens, do not continue vertically below the old question card. */
+  #study.jkResultCorrect #questionCard,
+  #study.jkResultWrong #questionCard{display:none!important}
+
+  /* ---------- CORRECT RESULT: previous sentence LEFT, result/action RIGHT ---------- */
+  #study.jkResultCorrect #correctCard:not(.hidden){
+    display:grid!important;
+    grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;
+    grid-template-rows:auto auto auto auto 1fr!important;
+    column-gap:clamp(42px,4vw,72px)!important;
+    row-gap:15px!important;
+    max-width:1560px!important;
+    min-height:clamp(430px,62dvh,650px)!important;
+    margin:0 auto 18px!important;
+    padding:clamp(30px,3vw,48px)!important;
+    position:relative;
+  }
+  #study.jkResultCorrect #correctCard:not(.hidden)::before{content:"";position:absolute;top:34px;bottom:34px;left:50%;width:1px;background:#e2e5ea;transform:translateX(-.5px)}
+  #correctCard>.jkPaneTitle.jkLeft{grid-column:1;grid-row:1}#correctCard>.jkPaneTitle.jkRight{grid-column:2;grid-row:1}
+  #correctCard>.jkCorrectContext{display:block!important;grid-column:1;grid-row:2 / span 4;padding:22px 0 0!important}
+  .jkCorrectStem{font-size:clamp(32px,2.35vw,43px);line-height:1.45;font-weight:820;letter-spacing:-.03em;color:#090a0c}
+  .jkCorrectAnswer{display:inline-flex;margin-top:22px;padding:12px 16px;border-radius:15px;background:#edf8f2;color:#096a40;font-size:22px;font-weight:850}
+  #correctCard>h2{grid-column:2;grid-row:2;margin:20px 0 0!important;font-size:32px!important}#correctCard>#correctReason{grid-column:2;grid-row:3;font-size:19px!important;line-height:1.65!important;color:#4f545c!important}
+  #correctCard>#correctMarkup,#correctCard>#correctMethod{grid-column:2;margin:0!important}#correctCard>.actions{grid-column:2;align-self:end;margin:8px 0 0!important}
+
+  /* ---------- WRONG RECOVERY: textbook/evidence LEFT, retry RIGHT ---------- */
+  #study.jkResultWrong #wrongCard:not(.hidden){
+    display:grid!important;
+    grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr)!important;
+    grid-template-rows:auto auto auto auto auto auto auto!important;
+    column-gap:clamp(42px,4vw,72px)!important;
+    row-gap:14px!important;
+    max-width:1560px!important;
+    min-height:clamp(560px,72dvh,780px)!important;
+    margin:0 auto 18px!important;
+    padding:clamp(30px,3vw,48px)!important;
+    position:relative;
+    align-items:start!important;
+  }
+  #study.jkResultWrong #wrongCard:not(.hidden)::before{content:"";position:absolute;top:34px;bottom:34px;left:52%;width:1px;background:#e2e5ea;transform:translateX(-.5px)}
+  #wrongCard>.jkPaneTitle.jkLeft{grid-column:1;grid-row:1}#wrongCard>.jkPaneTitle.jkRight{grid-column:2;grid-row:1}
+  #wrongCard>.sourceHead{grid-column:1;grid-row:2;margin:18px 0 8px!important}.sourceHead strong{font-size:20px!important}.sourceHead span{font-size:15px!important}
+  #wrongCard>.sourceImg{grid-column:1;grid-row:3;width:100%;max-height:44dvh!important;min-height:260px;object-fit:contain!important;margin:0!important;background:#fff}
+  #wrongCard>.jkSourceFallback{grid-column:1;grid-row:3}
+  #wrongCard>.summary{grid-column:1;grid-row:4;margin:8px 0 0!important}.summary div{font-size:17px!important;line-height:1.55!important;padding:13px 15px!important}
+  #wrongCard>#modelMarkup{grid-column:1;grid-row:5;margin:4px 0!important}
+  #wrongCard>.actions:not(#retryActions){display:contents!important}
+  #wrongCard>#pdfBtn{grid-column:1;grid-row:6;width:100%;min-height:58px!important;margin:0!important}
+
+  #wrongCard>h2{grid-column:2;grid-row:2;margin:18px 0 0!important;font-size:32px!important}
+  #wrongCard>#diagnosis{grid-column:2;grid-row:3;margin:0!important;font-size:19px!important;line-height:1.65!important;color:#4f545c!important}
+  #wrongCard>#wrongMethod{grid-column:2;grid-row:4;margin:0!important}
+  #wrongCard>#stepBtn{grid-column:2;grid-row:5;width:100%;min-height:64px!important;margin:0!important;font-size:19px!important}
+  #wrongCard>#stepBox{grid-column:2;grid-row:6;margin:0!important;min-height:250px!important;padding:20px!important;background:#fbfcfe!important}
+  #wrongCard>#retryActions{grid-column:2;grid-row:7;margin:0!important;align-self:end}
+  #wrongCard .btn{font-size:18px!important;min-height:58px!important}
+
+  .foot{font-size:13px!important;margin-top:6px!important;color:#80838a!important}
+}
+
+/* Tablet landscape: same direction, slightly tighter. */
+@media (min-width:900px) and (max-width:1199px) and (orientation:landscape){
+  html{font-size:17px}.app{padding-left:18px!important;padding-right:18px!important}.top{min-height:46px!important}
+  #questionCard:not(.hidden),#study.jkResultCorrect #correctCard:not(.hidden),#study.jkResultWrong #wrongCard:not(.hidden){column-gap:28px!important;padding:26px!important;border-radius:24px!important;min-height:calc(100dvh - 155px)!important}
+  #questionCard:not(.hidden)::before,#study.jkResultCorrect #correctCard:not(.hidden)::before,#study.jkResultWrong #wrongCard:not(.hidden)::before{top:26px;bottom:26px}
+  .jkPaneTitle{font-size:14px!important;padding:8px 11px!important}.q,#questionCard>.q{font-size:31px!important}.choice{font-size:21px!important;min-height:72px!important;padding:16px 18px!important}.processGateHead strong{font-size:20px!important}.processGateHead small{font-size:14px!important}#preStepBox h3,.stepBox h3{font-size:22px!important}.stepChoice{font-size:18px!important;min-height:64px!important}.problemHint{font-size:15px!important}
+  #wrongCard>.sourceImg{max-height:39dvh!important;min-height:220px}.summary div{font-size:15px!important}.result p,#wrongCard>#diagnosis,#correctCard>#correctReason{font-size:17px!important}
+}
+
+/* Phone/portrait stays one-column but keeps larger, consistent type. */
+@media (max-width:899px), (orientation:portrait) and (max-width:1199px){
+  .jkPaneTitle{display:none!important}.jkCorrectContext{display:none!important}
+  #questionCard>.q{font-size:clamp(24px,6vw,31px)!important;line-height:1.48!important}.choice{font-size:18px!important;min-height:62px!important}.stepChoice{font-size:17px!important;min-height:56px!important}.problemHint{font-size:14px!important}.progressRow .mini{font-size:14px!important}.paceText{font-size:13px!important}
+}
